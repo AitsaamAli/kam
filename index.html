@@ -1,0 +1,2627 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Kamboh Associates — Tax & Regulatory Excellence in Pakistan</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500;600&family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+<style>
+/* ══════════════════════════════════════════
+   DESIGN TOKENS — LIGHT & DARK THEMES
+══════════════════════════════════════════ */
+:root {
+  --gold:        #B8860B;
+  --gold-light:  #D4AF37;
+  --gold-dim:    #8B6914;
+  --gold-pale:   #FDF6E3;
+  --amber:       #D97706;
+  --blue:        #1E40AF;
+  --blue-mid:    #2563EB;
+  --blue-light:  #3B82F6;
+  --green:       #059669;
+  --red:         #DC2626;
+
+  --font-display: 'Cinzel', serif;
+  --font-serif:   'Cormorant Garamond', Georgia, serif;
+  --font-body:    'DM Sans', system-ui, sans-serif;
+  --max-w: 1200px;
+  --ease: cubic-bezier(0.4,0,0.2,1);
+  --ease-spring: cubic-bezier(0.34,1.56,0.64,1);
+  --radius: 12px;
+  --radius-lg: 20px;
+}
+
+/* LIGHT THEME (default) */
+[data-theme="light"] {
+  --bg:          #FFFFFF;
+  --bg-2:        #F8F9FA;
+  --bg-3:        #F1F3F5;
+  --bg-4:        #E9ECEF;
+  --surface:     #FFFFFF;
+  --surface-2:   #F8F9FA;
+  --border:      #E2E8F0;
+  --border-gold: rgba(184,134,11,0.2);
+  --text:        #0F172A;
+  --text-2:      #334155;
+  --text-3:      #64748B;
+  --text-4:      #94A3B8;
+  --topbar-bg:   #0F172A;
+  --topbar-text: #94A3B8;
+  --nav-bg:      rgba(255,255,255,0.97);
+  --nav-border:  #E2E8F0;
+  --shadow:      0 1px 3px rgba(0,0,0,0.08), 0 4px 16px rgba(0,0,0,0.06);
+  --shadow-lg:   0 8px 32px rgba(0,0,0,0.1), 0 2px 8px rgba(0,0,0,0.06);
+  --shadow-xl:   0 20px 60px rgba(0,0,0,0.12);
+  --gold-bg:     rgba(184,134,11,0.06);
+  --blue-bg:     rgba(37,99,235,0.06);
+  --card-hover:  #FAFBFC;
+  --modal-bg:    #FFFFFF;
+  --input-bg:    #F8F9FA;
+  --result-bg:   #F0F4FF;
+  --result-total-bg: #EEF5E6;
+  --hero-overlay:rgba(255,255,255,0.04);
+}
+
+/* DARK THEME */
+[data-theme="dark"] {
+  --bg:          #0A0F1E;
+  --bg-2:        #0F172A;
+  --bg-3:        #1E293B;
+  --bg-4:        #263247;
+  --surface:     #0F172A;
+  --surface-2:   #1A2540;
+  --border:      rgba(255,255,255,0.08);
+  --border-gold: rgba(212,175,55,0.2);
+  --text:        #F1F5F9;
+  --text-2:      #CBD5E1;
+  --text-3:      #64748B;
+  --text-4:      #475569;
+  --topbar-bg:   #060C1A;
+  --topbar-text: #64748B;
+  --nav-bg:      rgba(10,15,30,0.97);
+  --nav-border:  rgba(255,255,255,0.06);
+  --shadow:      0 1px 3px rgba(0,0,0,0.4), 0 4px 16px rgba(0,0,0,0.3);
+  --shadow-lg:   0 8px 32px rgba(0,0,0,0.5);
+  --shadow-xl:   0 20px 60px rgba(0,0,0,0.6);
+  --gold-bg:     rgba(212,175,55,0.08);
+  --blue-bg:     rgba(37,99,235,0.1);
+  --card-hover:  rgba(30,41,59,0.9);
+  --modal-bg:    #1A2540;
+  --input-bg:    rgba(255,255,255,0.05);
+  --result-bg:   rgba(37,99,235,0.06);
+  --result-total-bg: rgba(184,134,11,0.1);
+  --hero-overlay:rgba(10,15,30,0.5);
+}
+
+/* ══════════════════════════════════════════
+   RESET & BASE
+══════════════════════════════════════════ */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0 }
+html { scroll-behavior: smooth; font-size: 16px }
+body {
+  font-family: var(--font-body);
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.65;
+  overflow-x: hidden;
+  transition: background 0.3s, color 0.3s;
+}
+a { text-decoration: none; color: inherit }
+img { max-width: 100%; display: block }
+ul { list-style: none }
+::-webkit-scrollbar { width: 5px }
+::-webkit-scrollbar-track { background: var(--bg-2) }
+::-webkit-scrollbar-thumb { background: var(--gold-light); border-radius: 4px }
+
+/* ══════════════════════════════════════════
+   UTILITIES
+══════════════════════════════════════════ */
+.container { max-width: var(--max-w); margin: 0 auto; padding: 0 24px }
+.eyebrow {
+  font-family: var(--font-display);
+  font-size: .6rem;
+  letter-spacing: .3em;
+  text-transform: uppercase;
+  color: var(--gold-light);
+  display: block;
+  margin-bottom: 12px;
+}
+.section-title {
+  font-family: var(--font-serif);
+  font-size: clamp(1.9rem, 3.5vw, 2.8rem);
+  font-weight: 600;
+  line-height: 1.12;
+  color: var(--text);
+  margin-bottom: 14px;
+}
+.section-sub {
+  font-size: .95rem;
+  color: var(--text-3);
+  line-height: 1.8;
+  max-width: 520px;
+}
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 26px;
+  border-radius: 8px;
+  font-family: var(--font-body);
+  font-size: .855rem;
+  font-weight: 500;
+  letter-spacing: .03em;
+  cursor: pointer;
+  border: none;
+  transition: all .25s var(--ease);
+  position: relative;
+  white-space: nowrap;
+}
+.btn-gold {
+  background: linear-gradient(135deg, var(--gold-light) 0%, var(--gold) 100%);
+  color: #fff;
+  box-shadow: 0 4px 16px rgba(184,134,11,.3);
+}
+.btn-gold:hover { transform: translateY(-2px); box-shadow: 0 8px 28px rgba(184,134,11,.45) }
+.btn-outline {
+  background: transparent;
+  border: 1.5px solid var(--border-gold);
+  color: var(--gold-light);
+}
+.btn-outline:hover { background: var(--gold-bg); border-color: var(--gold-light); transform: translateY(-2px) }
+.btn-blue {
+  background: linear-gradient(135deg, var(--blue-mid) 0%, var(--blue) 100%);
+  color: #fff;
+  box-shadow: 0 4px 16px rgba(37,99,235,.3);
+}
+.btn-blue:hover { transform: translateY(-2px); box-shadow: 0 8px 28px rgba(37,99,235,.45) }
+.btn-sm { padding: 9px 20px; font-size: .8rem }
+.reveal { opacity: 0; transform: translateY(30px); transition: opacity .65s var(--ease), transform .65s var(--ease) }
+.reveal-left { opacity: 0; transform: translateX(-35px); transition: opacity .65s var(--ease), transform .65s var(--ease) }
+.reveal-right { opacity: 0; transform: translateX(35px); transition: opacity .65s var(--ease), transform .65s var(--ease) }
+.reveal.visible, .reveal-left.visible, .reveal-right.visible { opacity: 1; transform: none }
+.tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: var(--gold-bg);
+  border: 1px solid var(--border-gold);
+  border-radius: 100px;
+  padding: 4px 14px;
+  font-size: .68rem;
+  color: var(--gold-light);
+  font-family: var(--font-display);
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 18px 0;
+}
+.divider::before, .divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+}
+.divider-dot { width: 5px; height: 5px; background: var(--gold-light); border-radius: 50%; flex-shrink: 0 }
+
+/* ══════════════════════════════════════════
+   THEME TOGGLE
+══════════════════════════════════════════ */
+.theme-toggle {
+  width: 42px;
+  height: 22px;
+  background: var(--bg-4);
+  border: 1px solid var(--border);
+  border-radius: 11px;
+  cursor: pointer;
+  position: relative;
+  transition: background .3s;
+  flex-shrink: 0;
+}
+.theme-toggle::after {
+  content: '';
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--gold-light);
+  transition: transform .3s var(--ease-spring);
+  box-shadow: 0 1px 4px rgba(0,0,0,.2);
+}
+[data-theme="dark"] .theme-toggle::after { transform: translateX(20px) }
+.theme-toggle-icon {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 4px;
+  font-size: .55rem;
+  pointer-events: none;
+}
+
+/* ══════════════════════════════════════════
+   TOPBAR
+══════════════════════════════════════════ */
+.topbar {
+  background: var(--topbar-bg);
+  border-bottom: 1px solid rgba(255,255,255,.06);
+  padding: 8px 0;
+  font-size: .75rem;
+  color: var(--topbar-text);
+}
+.topbar .container { display: flex; justify-content: space-between; align-items: center; gap: 12px }
+.topbar-left {
+  font-family: var(--font-display);
+  font-size: .58rem;
+  letter-spacing: .24em;
+  color: var(--gold-light);
+  text-transform: uppercase;
+}
+.topbar-right { display: flex; gap: 20px; align-items: center }
+.topbar-right a { color: var(--topbar-text); transition: color .2s; display: flex; align-items: center; gap: 5px }
+.topbar-right a:hover { color: var(--gold-light) }
+.topbar-right i { color: var(--gold-light) }
+.topbar-tag {
+  background: rgba(184,134,11,.12);
+  border: 1px solid rgba(184,134,11,.25);
+  border-radius: 100px;
+  padding: 2px 10px;
+  font-size: .63rem;
+  color: var(--gold-light);
+  font-family: var(--font-display);
+  letter-spacing: .1em;
+}
+
+/* ══════════════════════════════════════════
+   NAVBAR
+══════════════════════════════════════════ */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: var(--nav-bg);
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid var(--nav-border);
+  transition: box-shadow .3s, border-color .3s, background .3s;
+}
+.navbar.scrolled { box-shadow: var(--shadow-lg); border-bottom-color: var(--border-gold) }
+.navbar .container { display: flex; align-items: center; justify-content: space-between; height: 68px }
+.logo { display: flex; align-items: center; gap: 12px }
+.logo-emblem svg { filter: drop-shadow(0 2px 8px rgba(184,134,11,.25)) }
+.logo-name { font-family: var(--font-display); font-size: .92rem; font-weight: 700; color: var(--text); letter-spacing: .07em; line-height: 1.2 }
+.logo-sub { font-size: .56rem; letter-spacing: .18em; color: var(--gold-light); text-transform: uppercase }
+.nav-links { display: flex; align-items: center; gap: 32px }
+.nav-links a {
+  font-size: .84rem;
+  font-weight: 400;
+  color: var(--text-3);
+  letter-spacing: .03em;
+  position: relative;
+  transition: color .25s;
+  padding: 4px 0;
+}
+.nav-links a::after {
+  content: '';
+  position: absolute;
+  bottom: -2px; left: 0; right: 0;
+  height: 1.5px;
+  background: linear-gradient(90deg, var(--gold-light), var(--amber));
+  border-radius: 2px;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform .3s var(--ease);
+}
+.nav-links a:hover { color: var(--text) }
+.nav-links a:hover::after { transform: scaleX(1); transform-origin: left }
+.nav-links a.active { color: var(--gold-light) }
+.nav-links a.active::after { transform: scaleX(1) }
+.nav-actions { display: flex; align-items: center; gap: 12px }
+.nav-phone { font-size: .8rem; color: var(--text-3); display: flex; align-items: center; gap: 6px }
+.nav-phone i { color: var(--gold-light) }
+.nav-phone a { color: var(--text-3); transition: color .2s }
+.nav-phone a:hover { color: var(--gold-light) }
+.hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 4px; background: none; border: none }
+.hamburger span { width: 22px; height: 2px; background: var(--text-3); border-radius: 2px; transition: all .3s; display: block }
+.hamburger.open span:nth-child(1) { transform: rotate(45deg) translate(5px,5px) }
+.hamburger.open span:nth-child(2) { opacity: 0 }
+.hamburger.open span:nth-child(3) { transform: rotate(-45deg) translate(5px,-5px) }
+.mobile-nav {
+  display: none;
+  flex-direction: column;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border-gold);
+  box-shadow: var(--shadow-lg);
+}
+.mobile-nav.open { display: flex }
+.mobile-nav a {
+  padding: 14px 24px;
+  border-bottom: 1px solid var(--border);
+  font-size: .9rem;
+  color: var(--text-3);
+  transition: color .2s, background .2s, padding-left .2s;
+}
+.mobile-nav a:hover { color: var(--gold-light); background: var(--gold-bg); padding-left: 32px }
+.mobile-nav-tools { padding: 12px 24px; display: flex; gap: 10px; border-bottom: 1px solid var(--border) }
+
+/* ══════════════════════════════════════════
+   HERO
+══════════════════════════════════════════ */
+.hero {
+  position: relative;
+  min-height: 92vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  padding: 80px 0 60px;
+  background: var(--bg);
+}
+.hero-pattern {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background-image:
+    radial-gradient(circle at 70% 30%, rgba(184,134,11,.06) 0%, transparent 50%),
+    radial-gradient(circle at 20% 70%, rgba(37,99,235,.04) 0%, transparent 50%);
+}
+[data-theme="dark"] .hero-pattern {
+  background-image:
+    radial-gradient(circle at 70% 30%, rgba(212,175,55,.08) 0%, transparent 50%),
+    radial-gradient(circle at 20% 70%, rgba(37,99,235,.08) 0%, transparent 50%);
+}
+.hero-grid {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background-image:
+    linear-gradient(rgba(184,134,11,.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(184,134,11,.04) 1px, transparent 1px);
+  background-size: 56px 56px;
+  mask-image: radial-gradient(ellipse 80% 80% at 50% 50%, black 0%, transparent 100%);
+}
+.hero .container {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 60px;
+  align-items: center;
+}
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--gold-bg);
+  border: 1px solid var(--border-gold);
+  border-radius: 100px;
+  padding: 6px 16px;
+  font-size: .68rem;
+  font-family: var(--font-display);
+  letter-spacing: .18em;
+  color: var(--gold-light);
+  text-transform: uppercase;
+  margin-bottom: 28px;
+}
+.hero-badge-dot {
+  width: 7px; height: 7px;
+  background: var(--green);
+  border-radius: 50%;
+  animation: dotPulse 2s infinite;
+  box-shadow: 0 0 6px var(--green);
+}
+@keyframes dotPulse {
+  0%,100% { transform: scale(1); opacity: 1 }
+  50% { transform: scale(.6); opacity: .5 }
+}
+.hero-title {
+  font-family: var(--font-serif);
+  font-size: clamp(2.4rem, 5vw, 4rem);
+  font-weight: 700;
+  line-height: 1.08;
+  color: var(--text);
+  margin-bottom: 22px;
+}
+.hero-title .accent {
+  display: block;
+  background: linear-gradient(135deg, var(--gold-light) 0%, var(--gold) 50%, var(--amber) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.hero-desc { font-size: 1rem; color: var(--text-3); max-width: 460px; margin-bottom: 38px; line-height: 1.82 }
+.hero-btns { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 48px }
+.hero-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border: 1px solid var(--border-gold);
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+.hero-stat {
+  padding: 16px 14px;
+  text-align: center;
+  border-right: 1px solid var(--border-gold);
+  transition: background .25s;
+}
+.hero-stat:last-child { border-right: none }
+.hero-stat:hover { background: var(--gold-bg) }
+.stat-n {
+  font-family: var(--font-serif);
+  font-size: 1.55rem;
+  font-weight: 700;
+  color: var(--gold-light);
+  line-height: 1;
+}
+.stat-l { font-size: .67rem; color: var(--text-3); letter-spacing: .05em; text-transform: uppercase; margin-top: 4px }
+
+/* Hero Dashboard */
+.hero-visual { position: relative }
+.hero-dashboard {
+  background: var(--surface);
+  border: 1px solid var(--border-gold);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-xl);
+}
+.dashboard-topbar {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 13px 18px;
+  background: var(--bg-2);
+  border-bottom: 1px solid var(--border);
+}
+.db-dot { width: 11px; height: 11px; border-radius: 50% }
+.db-dot-r { background: #EF4444 }
+.db-dot-y { background: #F59E0B }
+.db-dot-g { background: #22C55E }
+.db-title { font-size: .7rem; color: var(--text-3); margin-left: 8px; font-family: var(--font-display); letter-spacing: .1em }
+.dashboard-body { padding: 18px }
+.db-row { display: flex; gap: 10px; margin-bottom: 10px }
+.db-metric {
+  flex: 1;
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 12px;
+}
+.db-metric-label { font-size: .63rem; color: var(--text-3); letter-spacing: .06em; text-transform: uppercase; margin-bottom: 5px }
+.db-metric-val { font-family: var(--font-serif); font-size: 1.35rem; font-weight: 700; color: var(--text); line-height: 1 }
+.db-metric-sub { font-size: .65rem; margin-top: 4px }
+.db-metric-up { color: var(--green) }
+.db-chart-area { background: var(--bg-2); border: 1px solid var(--border); border-radius: 8px; padding: 13px 15px }
+.db-chart-title { font-size: .7rem; color: var(--text-3); margin-bottom: 10px }
+.db-bars { display: flex; align-items: flex-end; gap: 5px; height: 70px }
+.db-bar { flex: 1; border-radius: 4px 4px 0 0; transition: height 1.2s var(--ease), opacity .3s }
+.db-bar:hover { opacity: .8; cursor: pointer }
+.db-bar-gold { background: linear-gradient(to top, var(--gold-dim), var(--gold-light)) }
+.db-bar-blue { background: linear-gradient(to top, var(--blue), var(--blue-light)) }
+.db-months { display: flex; gap: 5px; margin-top: 5px }
+.db-month { flex: 1; text-align: center; font-size: .56rem; color: var(--text-4) }
+.db-status-row { display: flex; gap: 8px; margin-top: 10px }
+.db-status {
+  flex: 1;
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+  border-radius: 7px;
+  padding: 10px 11px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.db-status-icon {
+  width: 28px; height: 28px;
+  border-radius: 6px;
+  display: grid;
+  place-items: center;
+  font-size: .8rem;
+  flex-shrink: 0;
+}
+.db-icon-gold { background: var(--gold-bg); color: var(--gold-light) }
+.db-icon-blue { background: var(--blue-bg); color: var(--blue-light) }
+.db-icon-green { background: rgba(5,150,105,.08); color: var(--green) }
+.db-status-text { font-size: .66rem; color: var(--text-3); line-height: 1.3 }
+.db-status-val { font-size: .8rem; font-weight: 600; color: var(--text) }
+.float-badge {
+  position: absolute;
+  background: var(--surface);
+  border: 1px solid var(--border-gold);
+  border-radius: 10px;
+  padding: 10px 14px;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  box-shadow: var(--shadow-lg);
+  backdrop-filter: blur(10px);
+  font-size: .77rem;
+  white-space: nowrap;
+  z-index: 3;
+}
+.float-badge i { color: var(--gold-light); font-size: .9rem }
+.fb-val { font-weight: 600; color: var(--text); font-size: .8rem }
+.fb-sub { font-size: .67rem; color: var(--text-3) }
+.fb1 { top: -20px; right: 16px; animation: floatA 3.5s ease-in-out infinite }
+.fb2 { bottom: 24px; left: -24px; animation: floatB 4s ease-in-out infinite 1s }
+@keyframes floatA { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-10px)} }
+@keyframes floatB { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-8px)} }
+
+/* ══════════════════════════════════════════
+   TRUST STRIP
+══════════════════════════════════════════ */
+.trust-strip {
+  background: var(--topbar-bg);
+  border-top: 1px solid rgba(184,134,11,.15);
+  border-bottom: 1px solid rgba(184,134,11,.15);
+  padding: 14px 0;
+  overflow: hidden;
+}
+[data-theme="light"] .trust-strip { background: #0F172A }
+.trust-track {
+  display: flex;
+  gap: 44px;
+  animation: marquee 30s linear infinite;
+  width: max-content;
+}
+.trust-track:hover { animation-play-state: paused }
+.trust-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: .75rem;
+  color: #64748B;
+  white-space: nowrap;
+  font-family: var(--font-display);
+  letter-spacing: .08em;
+}
+.trust-item i { color: var(--gold-light); font-size: .9rem }
+@keyframes marquee { 0%{transform:translateX(0)} 100%{transform:translateX(-50%)} }
+
+/* ══════════════════════════════════════════
+   SERVICES
+══════════════════════════════════════════ */
+.services { padding: 110px 0; background: var(--bg) }
+.services-header { text-align: center; margin-bottom: 60px }
+.services-header .section-sub { margin: 0 auto }
+.services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px }
+.svc-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 32px 28px;
+  transition: all .35s var(--ease);
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.svc-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--gold-light), transparent);
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform .5s var(--ease);
+}
+.svc-card:hover { border-color: var(--border-gold); transform: translateY(-6px); box-shadow: var(--shadow-xl) }
+.svc-card:hover::before { transform: scaleX(1) }
+.svc-card:hover { background: var(--card-hover) }
+.svc-icon {
+  width: 52px; height: 52px;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  margin-bottom: 22px;
+  font-size: 1.25rem;
+}
+.svc-icon-gold { background: var(--gold-bg); border: 1px solid var(--border-gold); color: var(--gold-light) }
+.svc-icon-blue { background: var(--blue-bg); border: 1px solid rgba(37,99,235,.2); color: var(--blue-mid) }
+.svc-title { font-family: var(--font-serif); font-size: 1.25rem; font-weight: 600; color: var(--text); margin-bottom: 16px }
+.svc-list { margin-bottom: 24px }
+.svc-list li {
+  font-size: .845rem;
+  color: var(--text-3);
+  padding: 7px 0;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  transition: color .2s;
+}
+.svc-list li:last-child { border-bottom: none }
+.svc-list li::before {
+  content: '';
+  width: 5px; height: 5px;
+  border-radius: 50%;
+  background: var(--gold-light);
+  flex-shrink: 0;
+}
+.svc-card:hover .svc-list li { color: var(--text-2) }
+.svc-link {
+  font-size: .78rem;
+  color: var(--gold-light);
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  transition: gap .2s;
+}
+.svc-link:hover { gap: 12px }
+.svc-card.featured {
+  background: linear-gradient(145deg, rgba(37,99,235,.06), var(--surface));
+  border-color: rgba(37,99,235,.2);
+}
+[data-theme="dark"] .svc-card.featured { background: linear-gradient(145deg, rgba(37,99,235,.1), var(--surface)) }
+.svc-card.featured:hover { border-color: rgba(37,99,235,.4) }
+.featured-badge {
+  position: absolute;
+  top: 14px; right: 14px;
+  background: linear-gradient(135deg, var(--blue-mid), var(--blue));
+  color: #fff;
+  font-size: .63rem;
+  font-family: var(--font-display);
+  letter-spacing: .1em;
+  padding: 4px 12px;
+  border-radius: 100px;
+}
+
+/* ══════════════════════════════════════════
+   ACCREDITATIONS
+══════════════════════════════════════════ */
+.accred { padding: 80px 0; background: var(--bg-2); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border) }
+.accred-inner { display: grid; grid-template-columns: 1fr 2fr; gap: 72px; align-items: center }
+.accred-list { display: flex; flex-direction: column; gap: 12px; margin-top: 28px }
+.accred-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 18px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  transition: all .3s;
+}
+.accred-item:hover { border-color: var(--border-gold); background: var(--gold-bg) }
+.accred-icon {
+  width: 40px; height: 40px;
+  border-radius: 9px;
+  background: linear-gradient(135deg, var(--gold-light), var(--gold-dim));
+  display: grid;
+  place-items: center;
+  font-size: .68rem;
+  font-family: var(--font-display);
+  font-weight: 700;
+  color: #fff;
+  flex-shrink: 0;
+}
+.accred-text-t { font-weight: 600; font-size: .88rem; color: var(--text) }
+.accred-text-s { font-size: .72rem; color: var(--text-3); margin-top: 1px }
+.accred-visual { display: grid; grid-template-columns: 1fr 1fr; gap: 14px }
+.cert-card {
+  background: var(--surface);
+  border: 1px solid var(--border-gold);
+  border-radius: var(--radius-lg);
+  padding: 26px 20px;
+  text-align: center;
+  transition: all .35s;
+}
+.cert-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-lg) }
+.cert-card-icon { font-size: 2rem; color: var(--gold-light); margin-bottom: 10px }
+.cert-card-title { font-family: var(--font-display); font-size: .76rem; letter-spacing: .1em; color: var(--text); margin-bottom: 4px }
+.cert-card-sub { font-size: .7rem; color: var(--text-3) }
+.cert-card-badge {
+  margin-top: 10px;
+  display: inline-block;
+  background: var(--gold-bg);
+  border: 1px solid var(--border-gold);
+  border-radius: 100px;
+  padding: 3px 12px;
+  font-size: .6rem;
+  color: var(--gold-light);
+  font-family: var(--font-display);
+  letter-spacing: .1em;
+}
+
+/* ══════════════════════════════════════════
+   TOOLS / INTELLIGENCE HUB
+══════════════════════════════════════════ */
+.tools { padding: 110px 0; background: var(--bg); position: relative; overflow: hidden }
+.tools-bg {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse 50% 70% at 85% 50%, var(--blue-bg), transparent);
+}
+.tools .container { display: grid; grid-template-columns: 1fr 1fr; gap: 72px; align-items: center; position: relative; z-index: 1 }
+.feature-items { display: flex; flex-direction: column; border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; margin-bottom: 36px }
+.feature-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 18px 20px;
+  border-bottom: 1px solid var(--border);
+  transition: background .25s;
+}
+.feature-item:last-child { border-bottom: none }
+.feature-item:hover { background: var(--gold-bg) }
+.feature-item-icon {
+  width: 36px; height: 36px;
+  border-radius: 8px;
+  background: var(--gold-bg);
+  border: 1px solid var(--border-gold);
+  display: grid;
+  place-items: center;
+  color: var(--gold-light);
+  font-size: .9rem;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+.feature-item-title { font-weight: 600; font-size: .88rem; color: var(--text); margin-bottom: 3px }
+.feature-item-desc { font-size: .78rem; color: var(--text-3); line-height: 1.6 }
+.tools-visual { display: flex; flex-direction: column; gap: 12px }
+.tool-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  transition: all .3s;
+  cursor: pointer;
+}
+.tool-card:hover { border-color: var(--border-gold); background: var(--gold-bg); transform: translateX(6px); box-shadow: var(--shadow) }
+.tool-card-icon {
+  width: 46px; height: 46px;
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  font-size: 1.2rem;
+  flex-shrink: 0;
+}
+.tool-icon-gold { background: var(--gold-bg); color: var(--gold-light); border: 1px solid var(--border-gold) }
+.tool-icon-blue { background: var(--blue-bg); color: var(--blue-mid); border: 1px solid rgba(37,99,235,.2) }
+.tool-icon-amber { background: rgba(217,119,6,.08); color: var(--amber); border: 1px solid rgba(217,119,6,.2) }
+.tool-icon-green { background: rgba(5,150,105,.08); color: var(--green); border: 1px solid rgba(5,150,105,.2) }
+.tool-card-body { flex: 1 }
+.tool-card-title { font-weight: 600; font-size: .9rem; color: var(--text); margin-bottom: 3px }
+.tool-card-desc { font-size: .76rem; color: var(--text-3) }
+.tool-card-arrow { color: var(--text-4); font-size: .8rem; transition: color .2s, transform .2s }
+.tool-card:hover .tool-card-arrow { color: var(--gold-light); transform: translateX(4px) }
+
+/* ══════════════════════════════════════════
+   WHY US
+══════════════════════════════════════════ */
+.why { padding: 110px 0; background: var(--bg-2); border-top: 1px solid var(--border) }
+.why-header { text-align: center; margin-bottom: 60px }
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+.why-item {
+  padding: 38px 26px;
+  border-right: 1px solid var(--border);
+  text-align: center;
+  position: relative;
+  transition: background .3s;
+}
+.why-item:last-child { border-right: none }
+.why-item:hover { background: var(--gold-bg) }
+.why-num {
+  font-family: var(--font-display);
+  font-size: .62rem;
+  letter-spacing: .2em;
+  color: var(--border-gold);
+  margin-bottom: 18px;
+}
+.why-icon-wrap {
+  width: 56px; height: 56px;
+  border-radius: 13px;
+  border: 1px solid var(--border-gold);
+  background: var(--gold-bg);
+  display: grid;
+  place-items: center;
+  font-size: 1.3rem;
+  color: var(--gold-light);
+  margin: 0 auto 18px;
+}
+.why-item-title { font-family: var(--font-serif); font-size: 1.1rem; font-weight: 600; color: var(--text); margin-bottom: 8px }
+.why-item-desc { font-size: .8rem; color: var(--text-3); line-height: 1.7 }
+.why-item::after {
+  content: '→';
+  position: absolute;
+  right: -12px; top: 50%;
+  transform: translateY(-50%);
+  color: var(--gold-light);
+  font-size: 1rem;
+  z-index: 2;
+}
+.why-item:last-child::after { display: none }
+
+/* ══════════════════════════════════════════
+   NUMBERS
+══════════════════════════════════════════ */
+.numbers { padding: 80px 0; background: var(--bg) }
+.numbers-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border: 1px solid var(--border-gold);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+.num-item { padding: 40px 28px; text-align: center; border-right: 1px solid var(--border-gold); position: relative; transition: background .3s }
+.num-item:last-child { border-right: none }
+.num-item:hover { background: var(--gold-bg) }
+.num-val {
+  font-family: var(--font-serif);
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 6px;
+  background: linear-gradient(135deg, var(--gold-light), var(--gold));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.num-label { font-size: .76rem; color: var(--text-3); letter-spacing: .07em; text-transform: uppercase; margin-bottom: 7px }
+.num-sub { font-size: .7rem; color: var(--text-4) }
+
+/* ══════════════════════════════════════════
+   TAX DEADLINE TRACKER
+══════════════════════════════════════════ */
+.deadline-section { padding: 60px 0; background: var(--bg-2); border-top: 1px solid var(--border) }
+.deadline-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 40px }
+.deadline-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px 22px;
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  transition: all .3s;
+}
+.deadline-card:hover { border-color: var(--border-gold); transform: translateY(-3px); box-shadow: var(--shadow) }
+.deadline-date-box {
+  width: 52px; height: 52px;
+  background: var(--gold-bg);
+  border: 1px solid var(--border-gold);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.deadline-day { font-family: var(--font-serif); font-size: 1.4rem; font-weight: 700; color: var(--gold-light); line-height: 1 }
+.deadline-month { font-size: .6rem; color: var(--text-3); text-transform: uppercase; letter-spacing: .06em }
+.deadline-info-title { font-weight: 600; font-size: .88rem; color: var(--text); margin-bottom: 4px }
+.deadline-info-sub { font-size: .76rem; color: var(--text-3); line-height: 1.5 }
+.deadline-status {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 100px;
+  font-size: .62rem;
+  font-family: var(--font-display);
+  letter-spacing: .08em;
+  margin-top: 6px;
+}
+.deadline-urgent { background: rgba(220,38,38,.08); color: var(--red); border: 1px solid rgba(220,38,38,.2) }
+.deadline-upcoming { background: rgba(217,119,6,.08); color: var(--amber); border: 1px solid rgba(217,119,6,.2) }
+.deadline-ok { background: rgba(5,150,105,.08); color: var(--green); border: 1px solid rgba(5,150,105,.2) }
+.deadline-card.urgent-card { border-color: rgba(220,38,38,.2) }
+
+/* ══════════════════════════════════════════
+   CTA SECTION
+══════════════════════════════════════════ */
+.cta-section {
+  padding: 100px 0;
+  background: var(--topbar-bg);
+  position: relative;
+  overflow: hidden;
+}
+[data-theme="light"] .cta-section { background: #0F172A }
+.cta-bg-decor {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 25% 50%, rgba(184,134,11,.08) 0%, transparent 45%),
+    radial-gradient(circle at 75% 50%, rgba(37,99,235,.08) 0%, transparent 45%);
+}
+.cta-inner { position: relative; z-index: 1; text-align: center }
+.cta-section .section-title { color: #fff; font-size: clamp(2rem, 4.5vw, 3rem) }
+.cta-section .section-sub { color: #64748B; margin: 0 auto 40px; font-size: 1rem }
+.cta-btns { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap }
+.cta-trust { margin-top: 30px; display: flex; align-items: center; justify-content: center; gap: 18px; font-size: .76rem; color: #475569; flex-wrap: wrap }
+.cta-trust-dot { width: 3px; height: 3px; background: #475569; border-radius: 50% }
+.cta-trust span i { color: var(--gold-light); margin-right: 5px }
+
+/* ══════════════════════════════════════════
+   FOOTER
+══════════════════════════════════════════ */
+footer {
+  background: var(--topbar-bg);
+  border-top: 1px solid var(--border-gold);
+  padding: 72px 0 0;
+}
+[data-theme="light"] footer { background: #060C1A }
+.footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 48px; padding-bottom: 56px }
+.footer-brand-desc { font-size: .84rem; color: #64748B; line-height: 1.8; margin: 16px 0 22px; max-width: 280px }
+.footer-contact-row { display: flex; align-items: flex-start; gap: 10px; font-size: .8rem; color: #64748B; margin-bottom: 10px }
+.footer-contact-row i { color: var(--gold-light); font-size: .8rem; margin-top: 3px; flex-shrink: 0 }
+.footer-contact-row a { color: #64748B; transition: color .2s }
+.footer-contact-row a:hover { color: var(--gold-light) }
+.footer-col-head { font-family: var(--font-display); font-size: .62rem; letter-spacing: .24em; text-transform: uppercase; color: var(--gold-light); margin-bottom: 20px }
+.footer-links li { margin-bottom: 10px }
+.footer-links a { font-size: .84rem; color: #64748B; transition: color .2s, padding-left .2s; display: block }
+.footer-links a:hover { color: var(--gold-light); padding-left: 4px }
+.footer-badges-row { display: flex; gap: 7px; flex-wrap: wrap; padding-top: 22px; border-top: 1px solid rgba(255,255,255,.06); margin-top: 22px }
+.f-badge { background: rgba(184,134,11,.08); border: 1px solid rgba(184,134,11,.18); border-radius: 100px; padding: 3px 11px; font-size: .62rem; color: var(--gold-light); font-family: var(--font-display); letter-spacing: .1em }
+.footer-bottom { border-top: 1px solid rgba(255,255,255,.06); padding: 20px 0; display: flex; justify-content: space-between; align-items: center; font-size: .75rem; color: #475569 }
+.footer-bottom-links { display: flex; gap: 20px }
+.footer-bottom-links a { color: #475569; transition: color .2s }
+.footer-bottom-links a:hover { color: var(--gold-light) }
+
+/* ══════════════════════════════════════════
+   WHATSAPP BUTTON
+══════════════════════════════════════════ */
+.wa-btn {
+  position: fixed;
+  bottom: 28px; right: 28px;
+  z-index: 999;
+  width: 54px; height: 54px;
+  background: #25D366;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  font-size: 1.5rem;
+  box-shadow: 0 8px 28px rgba(37,211,102,.4);
+  transition: transform .25s var(--ease-spring), box-shadow .25s;
+}
+.wa-btn:hover { transform: scale(1.12); box-shadow: 0 12px 40px rgba(37,211,102,.55) }
+.wa-tip {
+  position: absolute;
+  right: calc(100% + 12px); top: 50%;
+  transform: translateY(-50%);
+  background: var(--surface);
+  border: 1px solid var(--border-gold);
+  border-radius: 8px;
+  padding: 7px 14px;
+  font-size: .73rem;
+  white-space: nowrap;
+  color: var(--text);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .25s;
+  font-family: var(--font-body);
+  box-shadow: var(--shadow);
+}
+.wa-btn:hover .wa-tip { opacity: 1 }
+
+/* Back to top */
+.back-top {
+  position: fixed;
+  bottom: 28px; right: 94px;
+  z-index: 998;
+  width: 40px; height: 40px;
+  background: var(--surface);
+  border: 1px solid var(--border-gold);
+  border-radius: 50%;
+  display: none;
+  place-items: center;
+  color: var(--gold-light);
+  font-size: .85rem;
+  box-shadow: var(--shadow);
+  cursor: pointer;
+  transition: all .25s;
+}
+.back-top:hover { background: var(--gold-bg); transform: translateY(-2px) }
+.back-top.visible { display: grid }
+
+/* ══════════════════════════════════════════
+   MODAL SYSTEM
+══════════════════════════════════════════ */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: rgba(0,0,0,.55);
+  backdrop-filter: blur(6px);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.modal-overlay.active { display: flex; animation: fadeIn .25s var(--ease) }
+@keyframes fadeIn { from{opacity:0} to{opacity:1} }
+.modal {
+  background: var(--modal-bg);
+  border: 1px solid var(--border-gold);
+  border-radius: var(--radius-lg);
+  width: 100%;
+  max-width: 640px;
+  max-height: 92vh;
+  overflow-y: auto;
+  position: relative;
+  animation: slideUp .35s var(--ease-spring);
+  box-shadow: var(--shadow-xl);
+}
+@keyframes slideUp { from{transform:translateY(40px);opacity:0} to{transform:none;opacity:1} }
+.modal::-webkit-scrollbar { width: 4px }
+.modal::-webkit-scrollbar-thumb { background: var(--gold-light); border-radius: 4px }
+.modal-header {
+  padding: 26px 30px 20px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background: var(--modal-bg);
+  z-index: 2;
+}
+.modal-header-left { display: flex; align-items: center; gap: 13px }
+.modal-icon { width: 44px; height: 44px; border-radius: 11px; display: grid; place-items: center; font-size: 1.2rem }
+.modal-icon-gold { background: var(--gold-bg); color: var(--gold-light); border: 1px solid var(--border-gold) }
+.modal-icon-blue { background: var(--blue-bg); color: var(--blue-mid); border: 1px solid rgba(37,99,235,.2) }
+.modal-icon-amber { background: rgba(217,119,6,.08); color: var(--amber); border: 1px solid rgba(217,119,6,.2) }
+.modal-icon-green { background: rgba(5,150,105,.08); color: var(--green); border: 1px solid rgba(5,150,105,.2) }
+.modal-title { font-family: var(--font-serif); font-size: 1.35rem; font-weight: 600; color: var(--text) }
+.modal-subtitle { font-size: .73rem; color: var(--text-3); margin-top: 2px }
+.modal-close {
+  width: 34px; height: 34px;
+  border-radius: 8px;
+  background: var(--bg-3);
+  border: 1px solid var(--border);
+  color: var(--text-3);
+  font-size: 1rem;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  transition: all .2s;
+  flex-shrink: 0;
+}
+.modal-close:hover { background: rgba(220,38,38,.08); border-color: rgba(220,38,38,.25); color: var(--red) }
+.modal-body { padding: 26px 30px }
+
+/* Form styles */
+.form-group { margin-bottom: 18px }
+.form-label { display: block; font-size: .78rem; font-weight: 500; color: var(--text-2); margin-bottom: 7px; letter-spacing: .03em }
+.form-control {
+  width: 100%;
+  background: var(--input-bg);
+  border: 1.5px solid var(--border);
+  border-radius: 8px;
+  padding: 11px 15px;
+  font-family: var(--font-body);
+  font-size: .9rem;
+  color: var(--text);
+  outline: none;
+  transition: border-color .2s, box-shadow .2s, background .2s;
+  -webkit-appearance: none;
+}
+.form-control:focus { border-color: var(--gold-light); box-shadow: 0 0 0 3px rgba(184,134,11,.1) }
+.form-control::placeholder { color: var(--text-4) }
+select.form-control { cursor: pointer }
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px }
+.form-hint { font-size: .7rem; color: var(--text-3); margin-top: 5px }
+
+/* Result box */
+.result-box {
+  background: var(--result-bg);
+  border: 1.5px solid var(--border-gold);
+  border-radius: var(--radius);
+  padding: 22px;
+  margin-top: 22px;
+  animation: fadeIn .4s var(--ease);
+}
+.result-box.hidden { display: none }
+.result-header {
+  font-size: .68rem;
+  font-family: var(--font-display);
+  letter-spacing: .2em;
+  color: var(--gold-light);
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+.result-row { display: flex; justify-content: space-between; align-items: center; padding: 9px 0; border-bottom: 1px solid var(--border) }
+.result-row:last-of-type { border-bottom: none }
+.result-label { font-size: .8rem; color: var(--text-3) }
+.result-val { font-size: .88rem; font-weight: 600; color: var(--text) }
+.result-total {
+  margin-top: 14px;
+  padding: 14px;
+  background: var(--result-total-bg);
+  border: 1.5px solid var(--border-gold);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.result-total-label { font-family: var(--font-display); font-size: .73rem; letter-spacing: .12em; color: var(--gold-light); text-transform: uppercase }
+.result-total-val { font-family: var(--font-serif); font-size: 1.55rem; font-weight: 700; color: var(--gold-light) }
+.result-note { font-size: .7rem; color: var(--text-3); margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--border); line-height: 1.65 }
+.result-actions { display: flex; gap: 10px; margin-top: 14px; flex-wrap: wrap }
+
+/* Tax slabs table */
+.slab-table { width: 100%; border-collapse: collapse; margin-top: 12px }
+.slab-table th {
+  font-size: .68rem;
+  font-family: var(--font-display);
+  letter-spacing: .1em;
+  color: var(--gold-light);
+  text-transform: uppercase;
+  padding: 8px 12px;
+  text-align: left;
+  border-bottom: 1.5px solid var(--border-gold);
+  background: var(--bg-2);
+}
+.slab-table td { font-size: .78rem; color: var(--text-3); padding: 9px 12px; border-bottom: 1px solid var(--border) }
+.slab-table tr:last-child td { border-bottom: none }
+.slab-table tr.active-slab td { color: var(--text); background: var(--gold-bg); font-weight: 500 }
+.slab-table tr:hover td { background: var(--bg-2) }
+.slab-table tr.active-slab:hover td { background: var(--gold-bg) }
+
+/* NTN specific */
+.ntn-link-box { background: var(--bg-2); border: 1.5px solid var(--border-gold); border-radius: var(--radius); padding: 22px; text-align: center }
+.ntn-link-box p { font-size: .84rem; color: var(--text-3); margin-bottom: 16px; line-height: 1.75 }
+.ntn-steps { text-align: left; margin: 14px 0 }
+.ntn-steps li { display: flex; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--border); font-size: .8rem; color: var(--text-3) }
+.ntn-steps li:last-child { border-bottom: none }
+.ntn-step-num {
+  width: 24px; height: 24px;
+  border-radius: 50%;
+  background: var(--gold-bg);
+  border: 1px solid var(--border-gold);
+  color: var(--gold-light);
+  font-size: .63rem;
+  font-family: var(--font-display);
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+.iris-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(135deg, var(--gold-light), var(--gold-dim));
+  color: #fff;
+  padding: 13px 26px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: .88rem;
+  transition: all .3s;
+  margin-top: 8px;
+  font-family: var(--font-body);
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+}
+.iris-btn:hover { transform: translateY(-2px); box-shadow: 0 10px 28px rgba(184,134,11,.4) }
+.iris-btn-secondary {
+  background: transparent;
+  border: 1.5px solid var(--border-gold);
+  color: var(--gold-light);
+  padding: 11px 20px;
+  border-radius: 8px;
+  font-size: .83rem;
+  transition: all .3s;
+  cursor: pointer;
+  font-family: var(--font-body);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: 8px;
+  text-decoration: none;
+}
+.iris-btn-secondary:hover { background: var(--gold-bg) }
+
+/* Spinner */
+.spinner { display: inline-block; width: 16px; height: 16px; border: 2px solid rgba(184,134,11,.25); border-top-color: var(--gold-light); border-radius: 50%; animation: spin .7s linear infinite; vertical-align: middle; margin-right: 5px }
+@keyframes spin { to { transform: rotate(360deg) } }
+
+/* Progress bar */
+.progress-bar-wrap { height: 6px; background: var(--border); border-radius: 3px; overflow: hidden }
+.progress-bar-fill { height: 100%; background: linear-gradient(90deg, var(--gold-dim), var(--gold-light)); border-radius: 3px; transition: width 1s var(--ease) }
+
+/* GST chip */
+.gst-chip { display: inline-flex; align-items: center; gap: 6px; background: var(--blue-bg); border: 1px solid rgba(37,99,235,.2); border-radius: 100px; padding: 4px 13px; font-size: .7rem; color: var(--blue-mid); font-family: var(--font-display); letter-spacing: .1em; margin-bottom: 10px }
+[data-theme="dark"] .gst-chip { color: var(--blue-light) }
+
+/* WHT categories */
+.wht-cat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 18px }
+.wht-cat-btn { background: var(--input-bg); border: 1.5px solid var(--border); border-radius: 8px; padding: 10px 13px; cursor: pointer; transition: all .2s; text-align: left }
+.wht-cat-btn:hover, .wht-cat-btn.selected { border-color: var(--border-gold); background: var(--gold-bg) }
+.wht-cat-btn.selected .wht-cat-title { color: var(--gold-light) }
+.wht-cat-title { font-size: .8rem; font-weight: 600; color: var(--text); margin-bottom: 2px }
+.wht-cat-rate { font-size: .7rem; color: var(--text-3) }
+
+/* Income tax tabs */
+.income-tabs { display: flex; gap: 0; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; margin-bottom: 20px }
+.income-tab { flex: 1; padding: 10px; text-align: center; font-size: .8rem; font-weight: 500; cursor: pointer; border: none; background: var(--input-bg); color: var(--text-3); transition: all .2s }
+.income-tab.active { background: var(--gold-light); color: #fff }
+.income-tab:hover:not(.active) { background: var(--gold-bg); color: var(--gold-light) }
+
+/* Section label in modal */
+.section-label {
+  font-size: .68rem;
+  font-family: var(--font-display);
+  letter-spacing: .2em;
+  color: var(--gold-light);
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.section-label i { font-size: .75rem }
+
+/* ══════════════════════════════════════════
+   RESPONSIVE
+══════════════════════════════════════════ */
+@media (max-width: 1024px) {
+  .hero .container { grid-template-columns: 1fr; text-align: center }
+  .hero-desc { margin: 0 auto 38px }
+  .hero-btns { justify-content: center }
+  .hero-visual { display: none }
+  .hero-stats { grid-template-columns: repeat(2, 1fr) }
+  .hero-stat:nth-child(2) { border-right: none }
+  .hero-stat:nth-child(3), .hero-stat:nth-child(4) { border-top: 1px solid var(--border-gold) }
+  .hero-stat:nth-child(4) { border-right: none }
+  .services-grid { grid-template-columns: repeat(2, 1fr) }
+  .accred-inner { grid-template-columns: 1fr }
+  .tools .container { grid-template-columns: 1fr }
+  .why-grid { grid-template-columns: repeat(2, 1fr) }
+  .why-item:nth-child(2) { border-right: none }
+  .why-item:nth-child(3) { border-top: 1px solid var(--border) }
+  .why-item:nth-child(3)::after { display: none }
+  .numbers-grid { grid-template-columns: repeat(2, 1fr) }
+  .num-item:nth-child(2) { border-right: none }
+  .num-item:nth-child(3), .num-item:nth-child(4) { border-top: 1px solid var(--border-gold) }
+  .num-item:nth-child(4) { border-right: none }
+  .footer-grid { grid-template-columns: 1fr 1fr }
+  .deadline-grid { grid-template-columns: 1fr 1fr }
+}
+@media (max-width: 768px) {
+  .nav-links, .nav-phone { display: none }
+  .hamburger { display: flex }
+  .topbar-left { display: none }
+  .services-grid { grid-template-columns: 1fr }
+  .why-grid { grid-template-columns: 1fr }
+  .why-item { border-right: none !important; border-bottom: 1px solid var(--border) }
+  .why-item:last-child { border-bottom: none }
+  .why-item::after { display: none }
+  .numbers-grid { grid-template-columns: 1fr 1fr }
+  .footer-grid { grid-template-columns: 1fr }
+  .footer-bottom { flex-direction: column; gap: 10px; text-align: center }
+  .cta-btns { flex-direction: column; align-items: center }
+  .trust-strip { display: none }
+  .form-row { grid-template-columns: 1fr }
+  .modal-body { padding: 18px }
+  .modal-header { padding: 18px }
+  .wht-cat-grid { grid-template-columns: 1fr }
+  .income-tabs { overflow-x: auto; -webkit-overflow-scrolling: touch }
+  .deadline-grid { grid-template-columns: 1fr }
+  .accred-visual { grid-template-columns: 1fr 1fr }
+  .modal { margin: 10px; max-height: 95vh }
+  .hero-stats { grid-template-columns: repeat(2, 1fr) }
+  .result-actions { flex-direction: column }
+  .topbar-right { gap: 12px }
+  .topbar-right a span { display: none }
+}
+@media (max-width: 480px) {
+  .hero { padding: 60px 0 40px }
+  .container { padding: 0 16px }
+  .hero-stats { grid-template-columns: 1fr 1fr }
+  .numbers-grid { grid-template-columns: 1fr 1fr }
+  .accred-visual { grid-template-columns: 1fr }
+  .nav-actions .btn { display: none }
+  .btn-gold.hero-btn, .btn-outline.hero-btn { padding: 13px 22px }
+}
+</style>
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════
+     TOPBAR
+══════════════════════════════════════════ -->
+<div class="topbar">
+  <div class="container">
+    <span class="topbar-left">KA • Tax Consultant • Regulatory Advisory</span>
+    <div class="topbar-right">
+      <span class="topbar-tag">Est. 2008</span>
+      <a href="tel:03284675162"><i class="fas fa-phone"></i><span>0328-4675162</span></a>
+      <a href="mailto:info@kambohassociates.com"><i class="fas fa-envelope"></i><span>info@kambohassociates.com</span></a>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════
+     NAVBAR
+══════════════════════════════════════════ -->
+<nav class="navbar" id="navbar">
+  <div class="container">
+    <a href="#" class="logo">
+      <div class="logo-emblem">
+        <svg width="44" height="44" viewBox="0 0 46 46" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#1a3a1a"/>
+              <stop offset="100%" stop-color="#0d2a0d"/>
+            </linearGradient>
+            <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#F0CF6B"/>
+              <stop offset="100%" stop-color="#D4AF37"/>
+            </linearGradient>
+          </defs>
+          <circle cx="23" cy="23" r="23" fill="url(#logoGrad)"/>
+          <circle cx="23" cy="23" r="21" fill="none" stroke="url(#goldGrad)" stroke-width="1.5"/>
+          <text x="23" y="27" font-family="Cinzel,serif" font-size="13" font-weight="700" fill="url(#goldGrad)" text-anchor="middle" letter-spacing="1">KA</text>
+          <path id="circle-path" d="M 23,23 m -17,0 a 17,17 0 1,1 34,0 a 17,17 0 1,1 -34,0" fill="none"/>
+          <text font-family="Cinzel,serif" font-size="3.8" fill="#D4AF37" letter-spacing="1.8">
+            <textPath href="#circle-path" startOffset="3%">KAMBOH ASSOCIATES • TAX CONSULTANT •</textPath>
+          </text>
+        </svg>
+      </div>
+      <div>
+        <div class="logo-name">KAMBOH ASSOCIATES</div>
+        <div class="logo-sub">Tax &amp; Regulatory Excellence</div>
+      </div>
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="#" class="active">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#tools">Tools</a></li>
+      <li><a href="#deadlines">Deadlines</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="nav-actions">
+      <span class="nav-phone">
+        <i class="fas fa-phone"></i>
+        <a href="tel:03284675162">0328-4675162</a>
+      </span>
+      <div class="theme-toggle" id="themeToggle" onclick="toggleTheme()" title="Toggle light/dark mode" role="button" aria-label="Toggle theme">
+        <div class="theme-toggle-icon">
+          <i class="fas fa-sun" style="color:#F59E0B;font-size:.55rem"></i>
+          <i class="fas fa-moon" style="color:#94A3B8;font-size:.55rem"></i>
+        </div>
+      </div>
+      <a href="#contact" class="btn btn-gold btn-sm">Consult Expert</a>
+      <button class="hamburger" id="hamburger" onclick="toggleMenu(this)" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <div class="mobile-nav" id="mobileNav">
+    <a href="#" onclick="closeMobileNav()">Home</a>
+    <a href="#services" onclick="closeMobileNav()">Services</a>
+    <a href="#tools" onclick="closeMobileNav()">Tools</a>
+    <a href="#deadlines" onclick="closeMobileNav()">Tax Deadlines</a>
+    <a href="#contact" onclick="closeMobileNav()">Contact</a>
+    <div class="mobile-nav-tools">
+      <button class="btn btn-gold btn-sm" onclick="openModal('salary');closeMobileNav()"><i class="fas fa-calculator"></i> Salary Tax</button>
+      <button class="btn btn-outline btn-sm" onclick="openModal('gst');closeMobileNav()"><i class="fas fa-percent"></i> GST Calc</button>
+    </div>
+    <a href="https://wa.me/923284675162" target="_blank" style="color:#25D366"><i class="fab fa-whatsapp" style="margin-right:8px"></i>WhatsApp Advisory</a>
+  </div>
+</nav>
+
+<!-- ══════════════════════════════════════════
+     HERO
+══════════════════════════════════════════ -->
+<section class="hero" id="home">
+  <div class="hero-pattern"></div>
+  <div class="hero-grid"></div>
+
+  <div class="container">
+    <div class="hero-content reveal-left">
+      <div class="hero-badge">
+        <span class="hero-badge-dot"></span>
+        Pakistan's #1 Tax Advisory Platform
+      </div>
+      <h1 class="hero-title">
+        Tax &amp; Business<br>
+        <span class="accent">Excellence Redefined</span>
+      </h1>
+      <p class="hero-desc">
+        Premium tax filing, seamless business registration, and strategic financial advisory
+        tailored for Pakistan's elite professionals and enterprises since 2008.
+      </p>
+      <div class="hero-btns">
+        <a href="#services" class="btn btn-gold hero-btn"><i class="fas fa-briefcase"></i> Our Services</a>
+        <a href="#tools" class="btn btn-outline hero-btn"><i class="fas fa-calculator"></i> Tax Tools</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat"><div class="stat-n" data-count="5000" data-suffix="+">0</div><div class="stat-l">Clients</div></div>
+        <div class="hero-stat"><div class="stat-n" data-count="99" data-suffix=".9%">0</div><div class="stat-l">Acceptance</div></div>
+        <div class="hero-stat"><div class="stat-n" data-count="24" data-suffix="h">0</div><div class="stat-l">Turnaround</div></div>
+        <div class="hero-stat"><div class="stat-n" data-count="17" data-suffix="yr">0</div><div class="stat-l">Excellence</div></div>
+      </div>
+    </div>
+
+    <div class="hero-visual reveal-right">
+      <div class="float-badge fb1">
+        <i class="fas fa-shield-alt"></i>
+        <div><div class="fb-val">FBR Certified</div><div class="fb-sub">Federal Board of Revenue</div></div>
+      </div>
+      <div class="float-badge fb2">
+        <i class="fas fa-check-circle"></i>
+        <div><div class="fb-val">SECP Registered</div><div class="fb-sub">Since 2008</div></div>
+      </div>
+      <div class="hero-dashboard">
+        <div class="dashboard-topbar">
+          <span class="db-dot db-dot-r"></span><span class="db-dot db-dot-y"></span><span class="db-dot db-dot-g"></span>
+          <span class="db-title">KA ADVISORY PORTAL</span>
+        </div>
+        <div class="dashboard-body">
+          <div class="db-row">
+            <div class="db-metric">
+              <div class="db-metric-label">FBR Returns Filed</div>
+              <div class="db-metric-val">12,840</div>
+              <div class="db-metric-sub db-metric-up"><i class="fas fa-arrow-up"></i> +18% YoY</div>
+            </div>
+            <div class="db-metric">
+              <div class="db-metric-label">NTN Registrations</div>
+              <div class="db-metric-val">4,210</div>
+              <div class="db-metric-sub db-metric-up"><i class="fas fa-arrow-up"></i> +24% growth</div>
+            </div>
+            <div class="db-metric">
+              <div class="db-metric-label">Tax Savings (PKR)</div>
+              <div class="db-metric-val">82M+</div>
+              <div class="db-metric-sub db-metric-up"><i class="fas fa-arrow-up"></i> Client savings</div>
+            </div>
+          </div>
+          <div class="db-chart-area">
+            <div class="db-chart-title">Monthly Filings — FY 2024–25</div>
+            <div class="db-bars" id="dbBars"></div>
+            <div class="db-months">
+              <span class="db-month">Jul</span><span class="db-month">Aug</span><span class="db-month">Sep</span><span class="db-month">Oct</span><span class="db-month">Nov</span><span class="db-month">Dec</span><span class="db-month">Jan</span><span class="db-month">Feb</span><span class="db-month">Mar</span><span class="db-month">Apr</span>
+            </div>
+          </div>
+          <div class="db-status-row">
+            <div class="db-status"><div class="db-status-icon db-icon-gold"><i class="fas fa-file-invoice-dollar"></i></div><div><div class="db-status-text">Tax Returns</div><div class="db-status-val">Active</div></div></div>
+            <div class="db-status"><div class="db-status-icon db-icon-blue"><i class="fas fa-building"></i></div><div><div class="db-status-text">SECP Filings</div><div class="db-status-val">Live</div></div></div>
+            <div class="db-status"><div class="db-status-icon db-icon-green"><i class="fas fa-check-double"></i></div><div><div class="db-status-text">Compliance</div><div class="db-status-val">99.9%</div></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST STRIP -->
+<div class="trust-strip">
+  <div class="trust-track" id="trustTrack">
+    <span class="trust-item"><i class="fas fa-certificate"></i> FBR Certified Practice</span>
+    <span class="trust-item"><i class="fas fa-building-columns"></i> SECP Registered</span>
+    <span class="trust-item"><i class="fas fa-users"></i> 5,000+ Satisfied Clients</span>
+    <span class="trust-item"><i class="fas fa-shield-halved"></i> AES-256 Data Security</span>
+    <span class="trust-item"><i class="fas fa-star"></i> Serving Since 2008</span>
+    <span class="trust-item"><i class="fas fa-clock"></i> 24-Hour Turnaround</span>
+    <span class="trust-item"><i class="fas fa-map-pin"></i> Lahore, Pakistan</span>
+    <span class="trust-item"><i class="fas fa-medal"></i> ISO-9001 Certified</span>
+    <span class="trust-item"><i class="fas fa-certificate"></i> FBR Certified Practice</span>
+    <span class="trust-item"><i class="fas fa-building-columns"></i> SECP Registered</span>
+    <span class="trust-item"><i class="fas fa-users"></i> 5,000+ Satisfied Clients</span>
+    <span class="trust-item"><i class="fas fa-shield-halved"></i> AES-256 Data Security</span>
+    <span class="trust-item"><i class="fas fa-star"></i> Serving Since 2008</span>
+    <span class="trust-item"><i class="fas fa-clock"></i> 24-Hour Turnaround</span>
+    <span class="trust-item"><i class="fas fa-map-pin"></i> Lahore, Pakistan</span>
+    <span class="trust-item"><i class="fas fa-medal"></i> ISO-9001 Certified</span>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════
+     SERVICES
+══════════════════════════════════════════ -->
+<section class="services" id="services">
+  <div class="container">
+    <div class="services-header reveal">
+      <span class="eyebrow">Expert Advisory Solutions</span>
+      <h2 class="section-title">Precision-Driven Regulatory<br>Assistance for Leaders</h2>
+      <p class="section-sub">Comprehensive tax &amp; compliance services engineered for Pakistan's forward-thinking enterprises and elite professionals.</p>
+    </div>
+    <div class="services-grid">
+      <div class="svc-card reveal" style="transition-delay:.05s">
+        <div class="svc-icon svc-icon-gold"><i class="fas fa-file-invoice-dollar"></i></div>
+        <h3 class="svc-title">FBR Tax Filing</h3>
+        <ul class="svc-list"><li>Salaried &amp; freelance income</li><li>Rental &amp; property income</li><li>Tax deduction optimization</li><li>FBR e-filing submission</li></ul>
+        <a href="#contact" class="svc-link">Consult Now <i class="fas fa-arrow-right"></i></a>
+      </div>
+      <div class="svc-card reveal" style="transition-delay:.1s">
+        <div class="svc-icon svc-icon-gold"><i class="fas fa-id-card-clip"></i></div>
+        <h3 class="svc-title">NTN Registration</h3>
+        <ul class="svc-list"><li>Individual NTN</li><li>Business NTN</li><li>CNIC-based verification</li><li>FBR IRIS enrollment</li></ul>
+        <a href="#contact" class="svc-link">Consult Now <i class="fas fa-arrow-right"></i></a>
+      </div>
+      <div class="svc-card featured reveal" style="transition-delay:.15s">
+        <span class="featured-badge">Most Popular</span>
+        <div class="svc-icon svc-icon-blue"><i class="fas fa-building"></i></div>
+        <h3 class="svc-title">SECP Company Registration</h3>
+        <ul class="svc-list"><li>SECP incorporation</li><li>Memorandum &amp; Articles</li><li>NTN &amp; GST registration</li><li>Share certificate issuance</li></ul>
+        <a href="#contact" class="svc-link" style="color:var(--blue-mid)">Consult Now <i class="fas fa-arrow-right"></i></a>
+      </div>
+      <div class="svc-card reveal" style="transition-delay:.2s">
+        <div class="svc-icon svc-icon-gold"><i class="fas fa-user-tie"></i></div>
+        <h3 class="svc-title">Sole Proprietorship</h3>
+        <ul class="svc-list"><li>NTN registration</li><li>Bank account opening support</li><li>Professional letterhead</li><li>FBR enrollment</li></ul>
+        <a href="#contact" class="svc-link">Consult Now <i class="fas fa-arrow-right"></i></a>
+      </div>
+      <div class="svc-card reveal" style="transition-delay:.25s">
+        <div class="svc-icon svc-icon-gold"><i class="fas fa-handshake"></i></div>
+        <h3 class="svc-title">AOP / Partnership</h3>
+        <ul class="svc-list"><li>Partnership deed drafting</li><li>NTN registration</li><li>FBR compliance setup</li><li>Bank account support</li></ul>
+        <a href="#contact" class="svc-link">Consult Now <i class="fas fa-arrow-right"></i></a>
+      </div>
+      <div class="svc-card reveal" style="transition-delay:.3s">
+        <div class="svc-icon svc-icon-blue"><i class="fas fa-chart-line"></i></div>
+        <h3 class="svc-title">Audit &amp; Accounts</h3>
+        <ul class="svc-list"><li>Monthly bookkeeping</li><li>Profit &amp; Loss statements</li><li>Audit notice representation</li><li>FBR Liaison</li></ul>
+        <a href="#contact" class="svc-link" style="color:var(--blue-mid)">Consult Now <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     ACCREDITATIONS
+══════════════════════════════════════════ -->
+<section class="accred">
+  <div class="container">
+    <div class="accred-inner">
+      <div class="accred-content reveal-left">
+        <span class="eyebrow">Accreditations &amp; Certificates</span>
+        <h2 class="section-title">Fully Recognized &amp; Compliant</h2>
+        <p class="section-sub">Kamboh Associates adheres to the stringent compliance standards of the FBR and SECP — a fully authorized tax practice firm serving Pakistan since 2008.</p>
+        <div class="accred-list">
+          <div class="accred-item"><div class="accred-icon">FBR</div><div><div class="accred-text-t">FBR Certified Practice</div><div class="accred-text-s">Federal Board of Revenue — authorized tax consultant</div></div></div>
+          <div class="accred-item"><div class="accred-icon">SEC</div><div><div class="accred-text-t">SECP Registered</div><div class="accred-text-s">Securities &amp; Exchange Commission of Pakistan</div></div></div>
+          <div class="accred-item"><div class="accred-icon">NTN</div><div><div class="accred-text-t">NTN Certified</div><div class="accred-text-s">National Tax Number — verified enrollment</div></div></div>
+          <div class="accred-item"><div class="accred-icon">GST</div><div><div class="accred-text-t">STRN Registered</div><div class="accred-text-s">Sales Tax Registration Number — active status</div></div></div>
+        </div>
+      </div>
+      <div class="accred-visual reveal-right">
+        <div class="cert-card"><div class="cert-card-icon"><i class="fas fa-certificate"></i></div><div class="cert-card-title">FBR Authorization</div><div class="cert-card-sub">Registered Tax Consultant</div><span class="cert-card-badge">VERIFIED</span></div>
+        <div class="cert-card"><div class="cert-card-icon"><i class="fas fa-building-columns"></i></div><div class="cert-card-title">SECP Registration</div><div class="cert-card-sub">Company Registration Authority</div><span class="cert-card-badge">ACTIVE</span></div>
+        <div class="cert-card"><div class="cert-card-icon"><i class="fas fa-shield-halved"></i></div><div class="cert-card-title">ISO 9001:2015</div><div class="cert-card-sub">Quality Management System</div><span class="cert-card-badge">CERTIFIED</span></div>
+        <div class="cert-card"><div class="cert-card-icon"><i class="fas fa-lock"></i></div><div class="cert-card-title">AES-256 Security</div><div class="cert-card-sub">Data Sovereignty Protocol</div><span class="cert-card-badge">ENABLED</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     TOOLS / INTELLIGENCE HUB
+══════════════════════════════════════════ -->
+<section class="tools" id="tools">
+  <div class="tools-bg"></div>
+  <div class="container">
+    <div class="tools-content reveal-left">
+      <span class="eyebrow">Precision Tax Tools</span>
+      <h2 class="section-title">Data-Backed Advisory<br>Engines</h2>
+      <p class="section-sub">Harness our regulatory intelligence tools — designed for high-stakes financial decision making and meticulous compliance.</p>
+      <div class="feature-items">
+        <div class="feature-item">
+          <div class="feature-item-icon"><i class="fas fa-bolt"></i></div>
+          <div><div class="feature-item-title">Real-Time FBR Calculations</div><div class="feature-item-desc">Instant tax computations using the latest FBR slabs and Finance Act 2024–25 amendments</div></div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-item-icon"><i class="fas fa-shield-alt"></i></div>
+          <div><div class="feature-item-title">Regulatory Compliance Engine</div><div class="feature-item-desc">Synchronized with current FBR &amp; SECP regulatory frameworks</div></div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-item-icon"><i class="fas fa-file-export"></i></div>
+          <div><div class="feature-item-title">Export &amp; Print Results</div><div class="feature-item-desc">Download or print your tax calculations for record-keeping and filing reference</div></div>
+        </div>
+      </div>
+      <a href="#contact" class="btn btn-gold"><i class="fas fa-rocket"></i> Access Strategic Hub</a>
+    </div>
+
+    <div class="tools-visual reveal-right">
+      <div class="tool-card" onclick="openModal('salary')">
+        <div class="tool-card-icon tool-icon-gold"><i class="fas fa-calculator"></i></div>
+        <div class="tool-card-body">
+          <div class="tool-card-title">Salary Tax Calculator</div>
+          <div class="tool-card-desc">Compute salaried income tax per FBR slabs FY 2024–25</div>
+        </div>
+        <i class="fas fa-chevron-right tool-card-arrow"></i>
+      </div>
+      <div class="tool-card" onclick="openModal('gst')">
+        <div class="tool-card-icon tool-icon-blue"><i class="fas fa-percent"></i></div>
+        <div class="tool-card-body">
+          <div class="tool-card-title">GST / Sales Tax Calculator</div>
+          <div class="tool-card-desc">Accurate GST computation for goods and services</div>
+        </div>
+        <i class="fas fa-chevron-right tool-card-arrow"></i>
+      </div>
+      <div class="tool-card" onclick="openModal('business')">
+        <div class="tool-card-icon tool-icon-green"><i class="fas fa-building-user"></i></div>
+        <div class="tool-card-body">
+          <div class="tool-card-title">Business Tax Estimator</div>
+          <div class="tool-card-desc">Estimate corporate &amp; AOP tax liability with exemptions</div>
+        </div>
+        <i class="fas fa-chevron-right tool-card-arrow"></i>
+      </div>
+      <div class="tool-card" onclick="openModal('ntn')">
+        <div class="tool-card-icon tool-icon-amber"><i class="fas fa-search"></i></div>
+        <div class="tool-card-body">
+          <div class="tool-card-title">NTN Status Checker</div>
+          <div class="tool-card-desc">Verify NTN &amp; active filer status via FBR IRIS portal</div>
+        </div>
+        <i class="fas fa-chevron-right tool-card-arrow"></i>
+      </div>
+      <div class="tool-card" onclick="openModal('wht')">
+        <div class="tool-card-icon tool-icon-gold"><i class="fas fa-coins"></i></div>
+        <div class="tool-card-body">
+          <div class="tool-card-title">Withholding Tax Calculator</div>
+          <div class="tool-card-desc">WHT computation on payments, contracts &amp; imports</div>
+        </div>
+        <i class="fas fa-chevron-right tool-card-arrow"></i>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     WHY US
+══════════════════════════════════════════ -->
+<section class="why">
+  <div class="container">
+    <div class="why-header reveal">
+      <span class="eyebrow">The KA Advantage</span>
+      <h2 class="section-title">Why Elite Businesses Choose Us</h2>
+    </div>
+    <div class="why-grid reveal">
+      <div class="why-item"><div class="why-num">01</div><div class="why-icon-wrap"><i class="fas fa-user-graduate"></i></div><div class="why-item-title">Expert Consultation</div><div class="why-item-desc">Seasoned tax professionals with deep FBR and SECP regulatory expertise</div></div>
+      <div class="why-item"><div class="why-num">02</div><div class="why-icon-wrap"><i class="fas fa-bolt-lightning"></i></div><div class="why-item-title">24-Hour Turnaround</div><div class="why-item-desc">Rapid processing with 99.9% acceptance rate on all regulatory submissions</div></div>
+      <div class="why-item"><div class="why-num">03</div><div class="why-icon-wrap"><i class="fas fa-shield-halved"></i></div><div class="why-item-title">Full Compliance</div><div class="why-item-desc">End-to-end regulatory compliance ensuring zero legal exposure for your business</div></div>
+      <div class="why-item"><div class="why-num">04</div><div class="why-icon-wrap"><i class="fas fa-headset"></i></div><div class="why-item-title">Ongoing Advisory</div><div class="why-item-desc">Continuous support and proactive guidance through every regulatory change</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     NUMBERS
+══════════════════════════════════════════ -->
+<section class="numbers">
+  <div class="container">
+    <div class="numbers-grid reveal">
+      <div class="num-item"><div class="num-label">Clients Served</div><div class="num-val" data-count="5000" data-suffix="+">0</div><div class="num-sub">Corporate entities &amp; professionals</div></div>
+      <div class="num-item"><div class="num-label">Tax Returns Filed</div><div class="num-val" data-count="12840" data-suffix="+">0</div><div class="num-sub">Successfully accepted by FBR</div></div>
+      <div class="num-item"><div class="num-label">Acceptance Rate</div><div class="num-val" data-count="99" data-suffix=".9%">0</div><div class="num-sub">Industry-leading precision</div></div>
+      <div class="num-item"><div class="num-label">Years of Excellence</div><div class="num-val" data-count="17" data-suffix="yr">0</div><div class="num-sub">Trusted since 2008</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     TAX DEADLINES TRACKER
+══════════════════════════════════════════ -->
+<section class="deadline-section" id="deadlines">
+  <div class="container">
+    <div class="services-header reveal" style="text-align:center;margin-bottom:0">
+      <span class="eyebrow">FBR Compliance Calendar</span>
+      <h2 class="section-title">Tax Deadlines 2024–25</h2>
+      <p class="section-sub" style="margin:0 auto">Never miss a critical filing date. Stay ahead of all FBR &amp; SECP deadlines with our live compliance tracker.</p>
+    </div>
+    <div class="deadline-grid reveal">
+      <div class="deadline-card urgent-card">
+        <div class="deadline-date-box"><div class="deadline-day">30</div><div class="deadline-month">Jun</div></div>
+        <div><div class="deadline-info-title">Annual Income Tax Return</div><div class="deadline-info-sub">Individuals &amp; AOP — FBR deadline for FY 2024–25</div><span class="deadline-status deadline-urgent">ACTION REQUIRED</span></div>
+      </div>
+      <div class="deadline-card">
+        <div class="deadline-date-box"><div class="deadline-day">31</div><div class="deadline-month">Jul</div></div>
+        <div><div class="deadline-info-title">Corporate Tax Return</div><div class="deadline-info-sub">Companies — Annual income tax return filing</div><span class="deadline-status deadline-upcoming">UPCOMING</span></div>
+      </div>
+      <div class="deadline-card">
+        <div class="deadline-date-box"><div class="deadline-day">15</div><div class="deadline-month">Jul</div></div>
+        <div><div class="deadline-info-title">Monthly WHT Statement</div><div class="deadline-info-sub">Withholding agents — monthly deduction statement</div><span class="deadline-status deadline-upcoming">UPCOMING</span></div>
+      </div>
+      <div class="deadline-card">
+        <div class="deadline-date-box"><div class="deadline-day">15</div><div class="deadline-month">Aug</div></div>
+        <div><div class="deadline-info-title">Sales Tax Return</div><div class="deadline-info-sub">GST-registered taxpayers — monthly sales tax return</div><span class="deadline-status deadline-ok">SCHEDULED</span></div>
+      </div>
+      <div class="deadline-card">
+        <div class="deadline-date-box"><div class="deadline-day">31</div><div class="deadline-month">Dec</div></div>
+        <div><div class="deadline-info-title">SECP Annual Return</div><div class="deadline-info-sub">Companies — annual statutory filing with SECP</div><span class="deadline-status deadline-ok">SCHEDULED</span></div>
+      </div>
+      <div class="deadline-card">
+        <div class="deadline-date-box"><div class="deadline-day">31</div><div class="deadline-month">Mar</div></div>
+        <div><div class="deadline-info-title">Advance Tax (Q3)</div><div class="deadline-info-sub">Third quarter advance tax payment — companies</div><span class="deadline-status deadline-ok">SCHEDULED</span></div>
+      </div>
+    </div>
+    <div style="text-align:center;margin-top:32px">
+      <a href="#contact" class="btn btn-gold"><i class="fas fa-calendar-check"></i> Get Compliance Reminder</a>
+      <a href="https://wa.me/923284675162" target="_blank" class="btn btn-outline" style="margin-left:10px"><i class="fab fa-whatsapp"></i> WhatsApp Alerts</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     CTA SECTION
+══════════════════════════════════════════ -->
+<section class="cta-section" id="contact">
+  <div class="cta-bg-decor"></div>
+  <div class="container">
+    <div class="cta-inner reveal">
+      <span class="eyebrow">Your Regulatory Advantage</span>
+      <h2 class="section-title">Master Your Financial Sovereignty</h2>
+      <div class="divider" style="max-width:160px;margin:16px auto"><div class="divider-dot"></div></div>
+      <p class="section-sub">Join 5,000+ elite business owners who trust Kamboh Associates for precision-driven regulatory excellence. Expert advisory, 24-hour turnaround, guaranteed compliance.</p>
+      <div class="cta-btns">
+        <a href="tel:03284675162" class="btn btn-gold" style="font-size:.95rem;padding:15px 32px"><i class="fas fa-phone"></i> Call Us Now</a>
+        <a href="https://wa.me/923284675162" target="_blank" class="btn btn-outline" style="font-size:.95rem;padding:15px 32px;color:#fff;border-color:rgba(255,255,255,.25)"><i class="fab fa-whatsapp" style="color:#25D366"></i> WhatsApp Advisory</a>
+      </div>
+      <div class="cta-trust">
+        <span><i class="fas fa-check"></i>FBR Certified</span>
+        <span class="cta-trust-dot"></span>
+        <span><i class="fas fa-check"></i>SECP Registered</span>
+        <span class="cta-trust-dot"></span>
+        <span><i class="fas fa-check"></i>24h Turnaround</span>
+        <span class="cta-trust-dot"></span>
+        <span><i class="fas fa-check"></i>Since 2008</span>
+        <span class="cta-trust-dot"></span>
+        <span><i class="fas fa-check"></i>ISO-9001 Certified</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     FOOTER
+══════════════════════════════════════════ -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a href="#" class="logo" style="margin-bottom:0;display:inline-flex">
+          <svg width="36" height="36" viewBox="0 0 46 46" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="fLogoGrad" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#1a3a1a"/><stop offset="100%" stop-color="#0d2a0d"/></linearGradient>
+              <linearGradient id="fGoldGrad" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#F0CF6B"/><stop offset="100%" stop-color="#D4AF37"/></linearGradient>
+            </defs>
+            <circle cx="23" cy="23" r="23" fill="url(#fLogoGrad)"/>
+            <circle cx="23" cy="23" r="21" fill="none" stroke="url(#fGoldGrad)" stroke-width="1.5"/>
+            <text x="23" y="27" font-family="Cinzel,serif" font-size="13" font-weight="700" fill="url(#fGoldGrad)" text-anchor="middle" letter-spacing="1">KA</text>
+            <path id="fp" d="M 23,23 m -17,0 a 17,17 0 1,1 34,0 a 17,17 0 1,1 -34,0" fill="none"/>
+            <text font-family="Cinzel,serif" font-size="3.8" fill="#D4AF37" letter-spacing="1.8"><textPath href="#fp" startOffset="3%">KAMBOH ASSOCIATES • TAX CONSULTANT •</textPath></text>
+          </svg>
+          <div style="margin-left:10px">
+            <div class="logo-name" style="color:#fff">KAMBOH ASSOCIATES</div>
+            <div class="logo-sub">Tax &amp; Regulatory Excellence</div>
+          </div>
+        </a>
+        <p class="footer-brand-desc">Pakistan's trusted tax &amp; legal advisory. Recognized FBR firm serving Lahore's elite professionals and corporations since 2008.</p>
+        <div class="footer-contact-row"><i class="fas fa-map-marker-alt"></i><span>Allama Iqbal Town, Opp. Shell Pump, Main Boulevard, Lahore, Pakistan.</span></div>
+        <div class="footer-contact-row"><i class="fas fa-phone"></i><a href="tel:03284675162">0328-4675162</a></div>
+        <div class="footer-contact-row"><i class="fas fa-envelope"></i><a href="mailto:info@kambohassociates.com">info@kambohassociates.com</a></div>
+        <div class="footer-badges-row">
+          <span class="f-badge">AES-256</span>
+          <span class="f-badge">ISO-9001</span>
+          <span class="f-badge">FBR Certified</span>
+          <span class="f-badge">SECP Registered</span>
+        </div>
+      </div>
+      <div>
+        <div class="footer-col-head">Services</div>
+        <ul class="footer-links">
+          <li><a href="#services">FBR Tax Filing</a></li>
+          <li><a href="#services">NTN Registration</a></li>
+          <li><a href="#services">SECP Registration</a></li>
+          <li><a href="#services">GST/STRN Registration</a></li>
+          <li><a href="#contact">Direct Consultation</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-col-head">Tax Tools</div>
+        <ul class="footer-links">
+          <li><a href="javascript:void(0)" onclick="openModal('salary')">Salary Tax Calculator</a></li>
+          <li><a href="javascript:void(0)" onclick="openModal('gst')">GST Calculator</a></li>
+          <li><a href="javascript:void(0)" onclick="openModal('wht')">WHT Calculator</a></li>
+          <li><a href="javascript:void(0)" onclick="openModal('business')">Business Tax Estimator</a></li>
+          <li><a href="javascript:void(0)" onclick="openModal('ntn')">NTN Checker</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-col-head">Legal</div>
+        <ul class="footer-links">
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Regulatory Disclaimer</a></li>
+          <li><a href="#">Cookie Policy</a></li>
+        </ul>
+        <div style="margin-top:24px">
+          <div class="footer-col-head">Follow Us</div>
+          <div style="display:flex;gap:10px;margin-top:8px">
+            <a href="#" style="width:34px;height:34px;border-radius:8px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.08);display:grid;place-items:center;color:#64748B;font-size:.9rem;transition:all .2s" onmouseover="this.style.color='#D4AF37'" onmouseout="this.style.color='#64748B'"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" style="width:34px;height:34px;border-radius:8px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.08);display:grid;place-items:center;color:#64748B;font-size:.9rem;transition:all .2s" onmouseover="this.style.color='#D4AF37'" onmouseout="this.style.color='#64748B'"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/923284675162" target="_blank" style="width:34px;height:34px;border-radius:8px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.08);display:grid;place-items:center;color:#64748B;font-size:.9rem;transition:all .2s" onmouseover="this.style.color='#25D366'" onmouseout="this.style.color='#64748B'"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Kamboh Associates. Orchestrating Financial Sovereignty since 2008.</span>
+      <div class="footer-bottom-links"><a href="#">Privacy</a><a href="#">Terms</a><a href="#">Disclaimer</a></div>
+    </div>
+  </div>
+</footer>
+
+<!-- WhatsApp Button -->
+<a href="https://wa.me/923284675162" class="wa-btn" target="_blank" rel="noopener" aria-label="WhatsApp">
+  <i class="fab fa-whatsapp"></i>
+  <span class="wa-tip">WhatsApp Advisory</span>
+</a>
+
+<!-- Back to Top -->
+<button class="back-top" id="backTop" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Back to top">
+  <i class="fas fa-chevron-up"></i>
+</button>
+
+<!-- ══════════════════════════════════════════
+     MODAL: SALARY TAX CALCULATOR
+══════════════════════════════════════════ -->
+<div class="modal-overlay" id="modal-salary" onclick="closeModalOnOverlay(event,'salary')">
+  <div class="modal">
+    <div class="modal-header">
+      <div class="modal-header-left">
+        <div class="modal-icon modal-icon-gold"><i class="fas fa-calculator"></i></div>
+        <div>
+          <div class="modal-title">Salary Tax Calculator</div>
+          <div class="modal-subtitle">FBR Finance Act 2024–25 — Salaried Persons</div>
+        </div>
+      </div>
+      <button class="modal-close" onclick="closeModal('salary')"><i class="fas fa-times"></i></button>
+    </div>
+    <div class="modal-body">
+      <div class="form-group">
+        <label class="form-label">Annual Gross Salary (PKR)</label>
+        <input type="number" class="form-control" id="sal-annual" placeholder="e.g. 1,800,000" oninput="calcSalaryTax()" inputmode="numeric">
+        <div class="form-hint">Enter your total annual salary before any deductions</div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label">Filer Status</label>
+          <select class="form-control" id="sal-filer" onchange="calcSalaryTax()">
+            <option value="filer">Active Filer</option>
+            <option value="nonfiler">Non-Filer</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Tax Year</label>
+          <select class="form-control" onchange="calcSalaryTax()">
+            <option>2024–25</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="result-box hidden" id="sal-result">
+        <div class="result-header"><i class="fas fa-chart-bar" style="margin-right:6px"></i>Tax Breakdown</div>
+        <div class="result-row"><span class="result-label">Annual Gross Salary</span><span class="result-val" id="sal-r-gross">—</span></div>
+        <div class="result-row"><span class="result-label">Taxable Income</span><span class="result-val" id="sal-r-taxable">—</span></div>
+        <div class="result-row"><span class="result-label">Tax Slab Applicable</span><span class="result-val" id="sal-r-slab">—</span></div>
+        <div class="result-row"><span class="result-label">Annual Tax Liability</span><span class="result-val" id="sal-r-annual-tax">—</span></div>
+        <div class="result-row"><span class="result-label">Monthly Tax Deduction</span><span class="result-val" id="sal-r-monthly-tax">—</span></div>
+        <div class="result-row"><span class="result-label">Effective Tax Rate</span><span class="result-val" id="sal-r-effective">—</span></div>
+        <div class="result-total">
+          <span class="result-total-label">Monthly Take-Home</span>
+          <span class="result-total-val" id="sal-r-takehome">—</span>
+        </div>
+        <div style="margin-top:14px">
+          <div style="display:flex;justify-content:space-between;font-size:.73rem;color:var(--text-3);margin-bottom:5px">
+            <span>Slab utilization</span><span id="sal-r-pct">0%</span>
+          </div>
+          <div class="progress-bar-wrap"><div class="progress-bar-fill" id="sal-r-bar" style="width:0%"></div></div>
+        </div>
+        <div class="result-actions">
+          <button class="btn btn-outline btn-sm" onclick="printResult('sal-result')"><i class="fas fa-print"></i> Print</button>
+          <button class="btn btn-gold btn-sm" onclick="openModal('ntn');closeModal('salary')"><i class="fas fa-check-circle"></i> Check NTN Status</button>
+        </div>
+        <div class="result-note">
+          <i class="fas fa-info-circle" style="color:var(--gold-light);margin-right:5px"></i>
+          Calculated per FBR Finance Act 2024–25 salaried persons tax table. Consult a KA tax advisor for precise filing.
+        </div>
+      </div>
+
+      <div style="margin-top:22px">
+        <div class="section-label"><i class="fas fa-table"></i> FBR Salary Tax Slabs 2024–25</div>
+        <table class="slab-table" id="slab-table">
+          <thead><tr><th>Annual Income (PKR)</th><th>Rate</th><th>Fixed Tax</th></tr></thead>
+          <tbody>
+            <tr id="slab-0"><td>Up to 6,00,000</td><td>0%</td><td>Nil</td></tr>
+            <tr id="slab-1"><td>6,00,001 – 12,00,000</td><td>5%</td><td>Nil + 5% of excess</td></tr>
+            <tr id="slab-2"><td>12,00,001 – 22,00,000</td><td>15%</td><td>30,000 + 15% of excess</td></tr>
+            <tr id="slab-3"><td>22,00,001 – 32,00,000</td><td>25%</td><td>1,80,000 + 25% of excess</td></tr>
+            <tr id="slab-4"><td>32,00,001 – 41,00,000</td><td>30%</td><td>4,30,000 + 30% of excess</td></tr>
+            <tr id="slab-5"><td>Above 41,00,000</td><td>35%</td><td>7,00,000 + 35% of excess</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════
+     MODAL: GST CALCULATOR
+══════════════════════════════════════════ -->
+<div class="modal-overlay" id="modal-gst" onclick="closeModalOnOverlay(event,'gst')">
+  <div class="modal">
+    <div class="modal-header">
+      <div class="modal-header-left">
+        <div class="modal-icon modal-icon-blue"><i class="fas fa-percent"></i></div>
+        <div>
+          <div class="modal-title">GST / Sales Tax Calculator</div>
+          <div class="modal-subtitle">Pakistan Sales Tax Act — Standard &amp; Reduced Rates</div>
+        </div>
+      </div>
+      <button class="modal-close" onclick="closeModal('gst')"><i class="fas fa-times"></i></button>
+    </div>
+    <div class="modal-body">
+      <div class="form-group">
+        <label class="form-label">Calculation Mode</label>
+        <select class="form-control" id="gst-mode" onchange="calcGST()">
+          <option value="exclusive">Add GST to Amount (Exclusive)</option>
+          <option value="inclusive">Extract GST from Amount (Inclusive)</option>
+        </select>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label">Amount (PKR)</label>
+          <input type="number" class="form-control" id="gst-amount" placeholder="e.g. 100,000" oninput="calcGST()" inputmode="numeric">
+        </div>
+        <div class="form-group">
+          <label class="form-label">GST / Sales Tax Rate</label>
+          <select class="form-control" id="gst-rate" onchange="calcGST()">
+            <option value="18">18% — Standard Rate (Goods)</option>
+            <option value="13">13% — Petroleum Products</option>
+            <option value="10">10% — Reduced Rate</option>
+            <option value="8">8% — Edible Oils</option>
+            <option value="5">5% — Zero-rated Adjacent</option>
+            <option value="17">17% — Services (Punjab PRA)</option>
+            <option value="16">16% — Services (Sindh SRB)</option>
+            <option value="15">15% — Services (KP/BRA)</option>
+            <option value="custom">Custom Rate</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group" id="gst-custom-wrap" style="display:none">
+        <label class="form-label">Custom Rate (%)</label>
+        <input type="number" class="form-control" id="gst-custom-rate" placeholder="e.g. 12" oninput="calcGST()" inputmode="numeric">
+      </div>
+
+      <div class="result-box hidden" id="gst-result">
+        <div class="gst-chip"><i class="fas fa-tag"></i><span id="gst-r-chip">GST @ 18%</span></div>
+        <div class="result-row"><span class="result-label">Base Amount (Pre-Tax)</span><span class="result-val" id="gst-r-base">—</span></div>
+        <div class="result-row"><span class="result-label">GST / Sales Tax Amount</span><span class="result-val" id="gst-r-tax">—</span></div>
+        <div class="result-row"><span class="result-label">Total Amount (Post-Tax)</span><span class="result-val" id="gst-r-total">—</span></div>
+        <div class="result-total">
+          <span class="result-total-label">GST Payable</span>
+          <span class="result-total-val" id="gst-r-payable">—</span>
+        </div>
+        <div class="result-actions">
+          <button class="btn btn-outline btn-sm" onclick="printResult('gst-result')"><i class="fas fa-print"></i> Print</button>
+        </div>
+        <div class="result-note">
+          <i class="fas fa-info-circle" style="color:var(--gold-light);margin-right:5px"></i>
+          Standard rate for goods under Sales Tax Act 1990 is 18%. Services are taxed under respective provincial statutes.
+        </div>
+      </div>
+
+      <div style="margin-top:22px">
+        <div class="section-label"><i class="fas fa-list"></i> Quick Rate Reference</div>
+        <table class="slab-table">
+          <thead><tr><th>Category</th><th>Rate</th><th>Authority</th></tr></thead>
+          <tbody>
+            <tr><td>General Goods</td><td>18%</td><td>FBR</td></tr>
+            <tr><td>Petroleum Products</td><td>13%</td><td>FBR</td></tr>
+            <tr><td>Services (Punjab)</td><td>17%</td><td>PRA</td></tr>
+            <tr><td>Services (Sindh)</td><td>16%</td><td>SRB</td></tr>
+            <tr><td>Services (KP / Bal)</td><td>15%</td><td>KPRA/BRA</td></tr>
+            <tr><td>Edible Oils</td><td>8%</td><td>FBR</td></tr>
+            <tr><td>Zero-rated Exports</td><td>0%</td><td>FBR</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════
+     MODAL: BUSINESS TAX ESTIMATOR
+══════════════════════════════════════════ -->
+<div class="modal-overlay" id="modal-business" onclick="closeModalOnOverlay(event,'business')">
+  <div class="modal">
+    <div class="modal-header">
+      <div class="modal-header-left">
+        <div class="modal-icon modal-icon-green"><i class="fas fa-building-user"></i></div>
+        <div>
+          <div class="modal-title">Business Tax Estimator</div>
+          <div class="modal-subtitle">Corporate &amp; AOP Tax — FBR Finance Act 2024–25</div>
+        </div>
+      </div>
+      <button class="modal-close" onclick="closeModal('business')"><i class="fas fa-times"></i></button>
+    </div>
+    <div class="modal-body">
+      <div class="form-group">
+        <label class="form-label">Business Type</label>
+        <div class="income-tabs" id="bizTabs">
+          <button class="income-tab active" onclick="selectBizType(this,'company')">Company</button>
+          <button class="income-tab" onclick="selectBizType(this,'aop')">AOP / Partnership</button>
+          <button class="income-tab" onclick="selectBizType(this,'sme')">SME / Startup</button>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label">Gross Revenue / Turnover (PKR)</label>
+          <input type="number" class="form-control" id="biz-revenue" placeholder="e.g. 10,000,000" oninput="calcBizTax()" inputmode="numeric">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Allowable Expenses (PKR)</label>
+          <input type="number" class="form-control" id="biz-expenses" placeholder="e.g. 7,000,000" oninput="calcBizTax()" inputmode="numeric">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label">Filer Status</label>
+          <select class="form-control" id="biz-filer" onchange="calcBizTax()">
+            <option value="filer">Active Filer</option>
+            <option value="nonfiler">Non-Filer</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Tax Year</label>
+          <select class="form-control">
+            <option>2024–25</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="result-box hidden" id="biz-result">
+        <div class="result-header"><i class="fas fa-building" style="margin-right:6px"></i>Business Tax Summary</div>
+        <div class="result-row"><span class="result-label">Gross Revenue</span><span class="result-val" id="biz-r-revenue">—</span></div>
+        <div class="result-row"><span class="result-label">Allowable Expenses</span><span class="result-val" id="biz-r-expenses">—</span></div>
+        <div class="result-row"><span class="result-label">Net Taxable Income</span><span class="result-val" id="biz-r-taxable">—</span></div>
+        <div class="result-row"><span class="result-label">Tax Rate Applied</span><span class="result-val" id="biz-r-rate">—</span></div>
+        <div class="result-row"><span class="result-label">Estimated Tax Liability</span><span class="result-val" id="biz-r-tax">—</span></div>
+        <div class="result-total">
+          <span class="result-total-label">Net After-Tax Profit</span>
+          <span class="result-total-val" id="biz-r-net">—</span>
+        </div>
+        <div class="result-actions">
+          <button class="btn btn-outline btn-sm" onclick="printResult('biz-result')"><i class="fas fa-print"></i> Print</button>
+          <a href="#contact" class="btn btn-gold btn-sm" onclick="closeModal('business')"><i class="fas fa-user-tie"></i> Get Advisory</a>
+        </div>
+        <div class="result-note">
+          <i class="fas fa-info-circle" style="color:var(--gold-light);margin-right:5px"></i>
+          This is an estimate only. Actual tax may vary based on exemptions, credits, and specific FBR provisions. Consult a KA advisor.
+        </div>
+      </div>
+
+      <div style="margin-top:22px">
+        <div class="section-label"><i class="fas fa-table"></i> Corporate Tax Rates 2024–25</div>
+        <table class="slab-table">
+          <thead><tr><th>Entity Type</th><th>Rate</th><th>Notes</th></tr></thead>
+          <tbody>
+            <tr><td>Public Companies (listed)</td><td>29%</td><td>Standard rate</td></tr>
+            <tr><td>Private Companies</td><td>29%</td><td>On taxable income</td></tr>
+            <tr><td>Small Companies (SME)</td><td>20%</td><td>Revenue &lt; 250M</td></tr>
+            <tr><td>AOP / Partnership</td><td>Slab-based</td><td>Similar to individual</td></tr>
+            <tr><td>Banking Companies</td><td>39%</td><td>Includes surcharge</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════
+     MODAL: NTN STATUS CHECKER
+══════════════════════════════════════════ -->
+<div class="modal-overlay" id="modal-ntn" onclick="closeModalOnOverlay(event,'ntn')">
+  <div class="modal">
+    <div class="modal-header">
+      <div class="modal-header-left">
+        <div class="modal-icon modal-icon-amber"><i class="fas fa-search"></i></div>
+        <div>
+          <div class="modal-title">NTN Status Checker</div>
+          <div class="modal-subtitle">FBR IRIS Portal — Verify NTN &amp; Active Filer</div>
+        </div>
+      </div>
+      <button class="modal-close" onclick="closeModal('ntn')"><i class="fas fa-times"></i></button>
+    </div>
+    <div class="modal-body">
+      <div class="ntn-link-box">
+        <div style="font-size:3rem;color:var(--gold-light);margin-bottom:12px"><i class="fas fa-id-card"></i></div>
+        <p>Verify your NTN (National Tax Number) and Active Filer status directly on the FBR IRIS portal. Real-time status check with your CNIC or NTN number.</p>
+        <ul class="ntn-steps">
+          <li><div class="ntn-step-num">1</div><span>Visit the FBR IRIS portal using the button below</span></li>
+          <li><div class="ntn-step-num">2</div><span>Click "Online NTN/STRN Inquiry" or use "ATL Filer Verification"</span></li>
+          <li><div class="ntn-step-num">3</div><span>Enter your CNIC number (13 digits without dashes)</span></li>
+          <li><div class="ntn-step-num">4</div><span>Your NTN number and active filer status will display</span></li>
+          <li><div class="ntn-step-num">5</div><span>For assistance, contact KA directly via WhatsApp</span></li>
+        </ul>
+        <div style="margin-top:16px;display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+          <a href="https://iris.fbr.gov.pk" target="_blank" class="iris-btn"><i class="fas fa-external-link-alt"></i> Open FBR IRIS Portal</a>
+          <a href="https://wa.me/923284675162" target="_blank" class="iris-btn-secondary"><i class="fab fa-whatsapp"></i> WhatsApp Help</a>
+        </div>
+      </div>
+
+      <div style="margin-top:22px">
+        <div class="section-label"><i class="fas fa-info-circle"></i> Why NTN Matters</div>
+        <table class="slab-table">
+          <thead><tr><th>Status</th><th>Benefit</th><th>WHT Rate</th></tr></thead>
+          <tbody>
+            <tr><td style="color:var(--green);font-weight:600">Active Filer</td><td>Full WHT benefit</td><td>Lower rates apply</td></tr>
+            <tr><td style="color:var(--red);font-weight:600">Non-Filer</td><td>Higher deductions</td><td>2× standard rate</td></tr>
+            <tr><td>No NTN</td><td>Cannot file returns</td><td>Highest rates</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div style="margin-top:22px;background:var(--gold-bg);border:1px solid var(--border-gold);border-radius:var(--radius);padding:16px">
+        <div style="font-size:.82rem;font-weight:600;color:var(--text);margin-bottom:6px"><i class="fas fa-phone" style="color:var(--gold-light);margin-right:6px"></i>Need NTN Registration?</div>
+        <div style="font-size:.78rem;color:var(--text-3);margin-bottom:12px">Kamboh Associates handles complete NTN registration with FBR IRIS within 24 hours.</div>
+        <a href="tel:03284675162" class="btn btn-gold btn-sm"><i class="fas fa-phone"></i> Call 0328-4675162</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════
+     MODAL: WHT CALCULATOR
+══════════════════════════════════════════ -->
+<div class="modal-overlay" id="modal-wht" onclick="closeModalOnOverlay(event,'wht')">
+  <div class="modal">
+    <div class="modal-header">
+      <div class="modal-header-left">
+        <div class="modal-icon modal-icon-gold"><i class="fas fa-coins"></i></div>
+        <div>
+          <div class="modal-title">Withholding Tax Calculator</div>
+          <div class="modal-subtitle">Section 153 / 155 — FBR WHT Computation</div>
+        </div>
+      </div>
+      <button class="modal-close" onclick="closeModal('wht')"><i class="fas fa-times"></i></button>
+    </div>
+    <div class="modal-body">
+      <div class="form-group">
+        <label class="form-label">Transaction Category</label>
+        <div class="wht-cat-grid">
+          <button class="wht-cat-btn selected" onclick="selectWHTCat(this,'contract')">
+            <div class="wht-cat-title">Contracts (u/s 153)</div>
+            <div class="wht-cat-rate">Filer: 7% | Non-Filer: 14%</div>
+          </button>
+          <button class="wht-cat-btn" onclick="selectWHTCat(this,'services')">
+            <div class="wht-cat-title">Services (u/s 153)</div>
+            <div class="wht-cat-rate">Filer: 8% | Non-Filer: 16%</div>
+          </button>
+          <button class="wht-cat-btn" onclick="selectWHTCat(this,'supply')">
+            <div class="wht-cat-title">Supply / Goods (u/s 153)</div>
+            <div class="wht-cat-rate">Filer: 4% | Non-Filer: 8%</div>
+          </button>
+          <button class="wht-cat-btn" onclick="selectWHTCat(this,'rent')">
+            <div class="wht-cat-title">Rent (u/s 155)</div>
+            <div class="wht-cat-rate">Filer: 15% | Non-Filer: 30%</div>
+          </button>
+          <button class="wht-cat-btn" onclick="selectWHTCat(this,'import')">
+            <div class="wht-cat-title">Imports (u/s 148)</div>
+            <div class="wht-cat-rate">Filer: 5.5% | Non-Filer: 8%</div>
+          </button>
+          <button class="wht-cat-btn" onclick="selectWHTCat(this,'dividend')">
+            <div class="wht-cat-title">Dividends (u/s 150)</div>
+            <div class="wht-cat-rate">Filer: 15% | Non-Filer: 30%</div>
+          </button>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label">Gross Amount (PKR)</label>
+          <input type="number" class="form-control" id="wht-amount" placeholder="e.g. 500,000" oninput="calcWHT()" inputmode="numeric">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Payee Filer Status</label>
+          <select class="form-control" id="wht-filer" onchange="calcWHT()">
+            <option value="filer">Active Filer</option>
+            <option value="nonfiler">Non-Filer</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="result-box hidden" id="wht-result">
+        <div class="result-header"><i class="fas fa-coins" style="margin-right:6px"></i>WHT Computation</div>
+        <div class="result-row"><span class="result-label">Gross Amount</span><span class="result-val" id="wht-r-gross">—</span></div>
+        <div class="result-row"><span class="result-label">Category</span><span class="result-val" id="wht-r-cat">—</span></div>
+        <div class="result-row"><span class="result-label">WHT Rate</span><span class="result-val" id="wht-r-rate">—</span></div>
+        <div class="result-row"><span class="result-label">WHT Amount</span><span class="result-val" id="wht-r-wht">—</span></div>
+        <div class="result-total">
+          <span class="result-total-label">Net Payment</span>
+          <span class="result-total-val" id="wht-r-net">—</span>
+        </div>
+        <div class="result-actions">
+          <button class="btn btn-outline btn-sm" onclick="printResult('wht-result')"><i class="fas fa-print"></i> Print</button>
+          <button class="btn btn-gold btn-sm" onclick="openModal('salary');closeModal('wht')"><i class="fas fa-calculator"></i> Salary Tax</button>
+        </div>
+        <div class="result-note">
+          <i class="fas fa-info-circle" style="color:var(--gold-light);margin-right:5px"></i>
+          WHT is deducted at source. Non-filer rates are approximately 2× filer rates per Finance Act 2024–25.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════
+     JAVASCRIPT
+══════════════════════════════════════════ -->
+<script>
+/* ─── THEME ─── */
+function toggleTheme() {
+  const html = document.documentElement;
+  const current = html.getAttribute('data-theme');
+  const next = current === 'light' ? 'dark' : 'light';
+  html.setAttribute('data-theme', next);
+  localStorage.setItem('ka-theme', next);
+}
+(function() {
+  const saved = localStorage.getItem('ka-theme');
+  if (saved) document.documentElement.setAttribute('data-theme', saved);
+  else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    document.documentElement.setAttribute('data-theme', 'dark');
+  }
+})();
+
+/* ─── MOBILE NAV ─── */
+function toggleMenu(btn) {
+  btn.classList.toggle('open');
+  document.getElementById('mobileNav').classList.toggle('open');
+}
+function closeMobileNav() {
+  document.getElementById('hamburger').classList.remove('open');
+  document.getElementById('mobileNav').classList.remove('open');
+}
+
+/* ─── NAVBAR SCROLL ─── */
+window.addEventListener('scroll', function() {
+  const nb = document.getElementById('navbar');
+  const bt = document.getElementById('backTop');
+  nb.classList.toggle('scrolled', window.scrollY > 60);
+  bt.classList.toggle('visible', window.scrollY > 400);
+});
+
+/* ─── MODAL SYSTEM ─── */
+function openModal(id) {
+  const overlay = document.getElementById('modal-' + id);
+  if (overlay) {
+    overlay.classList.add('active');
+    document.body.style.overflow = 'hidden';
+  }
+}
+function closeModal(id) {
+  const overlay = document.getElementById('modal-' + id);
+  if (overlay) {
+    overlay.classList.remove('active');
+    document.body.style.overflow = '';
+  }
+}
+function closeModalOnOverlay(e, id) {
+  if (e.target === e.currentTarget) closeModal(id);
+}
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') {
+    document.querySelectorAll('.modal-overlay.active').forEach(function(m) {
+      m.classList.remove('active');
+    });
+    document.body.style.overflow = '';
+  }
+});
+
+/* ─── PRINT RESULT ─── */
+function printResult(id) {
+  const el = document.getElementById(id);
+  if (!el) return;
+  const win = window.open('', '_blank', 'width=600,height=700');
+  win.document.write('<html><head><title>Kamboh Associates — Tax Result</title>');
+  win.document.write('<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">');
+  win.document.write('<style>body{font-family:DM Sans,sans-serif;padding:30px;color:#0F172A;max-width:500px;margin:0 auto}');
+  win.document.write('h2{color:#B8860B;margin-bottom:5px;font-size:1.1rem}');
+  win.document.write('.row{display:flex;justify-content:space-between;padding:8px 0;border-bottom:1px solid #E2E8F0;font-size:.88rem}');
+  win.document.write('.total{background:#FDF6E3;padding:12px;border-radius:8px;border:1px solid rgba(184,134,11,.3);display:flex;justify-content:space-between;margin-top:12px;font-weight:600}');
+  win.document.write('.note{font-size:.72rem;color:#64748B;margin-top:12px;line-height:1.6}');
+  win.document.write('.header{border-bottom:2px solid #B8860B;padding-bottom:12px;margin-bottom:18px}');
+  win.document.write('.label{color:#64748B}.val{font-weight:600}');
+  win.document.write('</style></head><body>');
+  win.document.write('<div class="header"><h2>KAMBOH ASSOCIATES</h2><small>Tax &amp; Regulatory Excellence — Lahore, Pakistan | 0328-4675162</small></div>');
+  const rows = el.querySelectorAll('.result-row');
+  rows.forEach(function(r) {
+    const lab = r.querySelector('.result-label');
+    const val = r.querySelector('.result-val');
+    if (lab && val) win.document.write('<div class="row"><span class="label">' + lab.textContent + '</span><span class="val">' + val.textContent + '</span></div>');
+  });
+  const total = el.querySelector('.result-total');
+  if (total) {
+    const tl = total.querySelector('.result-total-label');
+    const tv = total.querySelector('.result-total-val');
+    if (tl && tv) win.document.write('<div class="total"><span>' + tl.textContent + '</span><span>' + tv.textContent + '</span></div>');
+  }
+  win.document.write('<p class="note">Generated by Kamboh Associates Tax Calculator. This is an estimate. Consult a KA advisor for exact filing. Date: ' + new Date().toLocaleDateString('en-PK') + '</p>');
+  win.document.write('</body></html>');
+  win.document.close();
+  setTimeout(function() { win.print(); }, 400);
+}
+
+/* ─── SCROLL REVEAL ─── */
+const revealObserver = new IntersectionObserver(function(entries) {
+  entries.forEach(function(e) {
+    if (e.isIntersecting) {
+      e.target.classList.add('visible');
+      revealObserver.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.12, rootMargin: '0px 0px -50px 0px' });
+document.querySelectorAll('.reveal, .reveal-left, .reveal-right').forEach(function(el) {
+  revealObserver.observe(el);
+});
+
+/* ─── COUNTER ANIMATION ─── */
+function animateCounter(el) {
+  const target = parseInt(el.getAttribute('data-count'));
+  const suffix = el.getAttribute('data-suffix') || '';
+  const duration = 1800;
+  const start = performance.now();
+  function update(now) {
+    const elapsed = now - start;
+    const progress = Math.min(elapsed / duration, 1);
+    const eased = 1 - Math.pow(1 - progress, 3);
+    const current = Math.floor(eased * target);
+    el.textContent = current.toLocaleString('en-PK') + suffix;
+    if (progress < 1) requestAnimationFrame(update);
+    else el.textContent = target.toLocaleString('en-PK') + suffix;
+  }
+  requestAnimationFrame(update);
+}
+const counterObserver = new IntersectionObserver(function(entries) {
+  entries.forEach(function(e) {
+    if (e.isIntersecting) {
+      animateCounter(e.target);
+      counterObserver.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.5 });
+document.querySelectorAll('[data-count]').forEach(function(el) {
+  counterObserver.observe(el);
+});
+
+/* ─── DASHBOARD BARS ─── */
+(function() {
+  const barData = [42,55,38,62,48,70,58,45,65,80];
+  const colors = ['gold','blue','gold','blue','gold','gold','blue','gold','blue','gold'];
+  const container = document.getElementById('dbBars');
+  if (!container) return;
+  const maxVal = Math.max(...barData);
+  barData.forEach(function(val, i) {
+    const bar = document.createElement('div');
+    bar.className = 'db-bar db-bar-' + colors[i % 2 === 0 ? 'gold' : 'blue'].replace('gold','gold').replace('blue','blue');
+    bar.className = 'db-bar ' + (i % 2 === 0 ? 'db-bar-gold' : 'db-bar-blue');
+    bar.style.height = '4px';
+    bar.title = 'Month ' + (i+1) + ': ' + val + ' filings';
+    container.appendChild(bar);
+    setTimeout(function() {
+      bar.style.height = ((val / maxVal) * 100) + '%';
+    }, 300 + i * 80);
+  });
+})();
+
+/* ─── ACTIVE NAV LINK ─── */
+window.addEventListener('scroll', function() {
+  const sections = ['home','services','tools','deadlines','contact'];
+  const scrollPos = window.scrollY + 100;
+  sections.forEach(function(id) {
+    const sec = document.getElementById(id);
+    const link = document.querySelector('.nav-links a[href="#' + id + '"]');
+    if (!sec || !link) return;
+    const top = sec.offsetTop;
+    const bottom = top + sec.offsetHeight;
+    if (scrollPos >= top && scrollPos < bottom) {
+      document.querySelectorAll('.nav-links a').forEach(function(a) { a.classList.remove('active') });
+      link.classList.add('active');
+    }
+  });
+});
+
+/* ════════════════════════════════════
+   SALARY TAX CALCULATOR
+════════════════════════════════════ */
+const SALARY_SLABS = [
+  { min: 0,       max: 600000,   fixed: 0,      pctOnFixed: 0,       rate: 0 },
+  { min: 600001,  max: 1200000,  fixed: 0,      pctOnFixed: 600000,  rate: 0.05 },
+  { min: 1200001, max: 2200000,  fixed: 30000,  pctOnFixed: 1200000, rate: 0.15 },
+  { min: 2200001, max: 3200000,  fixed: 180000, pctOnFixed: 2200000, rate: 0.25 },
+  { min: 3200001, max: 4100000,  fixed: 430000, pctOnFixed: 3200000, rate: 0.30 },
+  { min: 4100001, max: Infinity, fixed: 700000, pctOnFixed: 4100000, rate: 0.35 }
+];
+
+function calcSalaryTax() {
+  const annual = parseFloat(document.getElementById('sal-annual').value) || 0;
+  const resultBox = document.getElementById('sal-result');
+  if (annual <= 0) { resultBox.classList.add('hidden'); return; }
+
+  let slabIdx = 0;
+  for (let i = 0; i < SALARY_SLABS.length; i++) {
+    if (annual >= SALARY_SLABS[i].min && annual <= SALARY_SLABS[i].max) { slabIdx = i; break; }
+  }
+  const slab = SALARY_SLABS[slabIdx];
+  let tax = slab.fixed + ((annual - slab.pctOnFixed) * slab.rate);
+  if (tax < 0) tax = 0;
+
+  const monthlyTax = tax / 12;
+  const monthlySalary = annual / 12;
+  const takeHome = monthlySalary - monthlyTax;
+  const effectiveRate = (tax / annual * 100).toFixed(2);
+
+  const slabLabels = ['0%','5%','15%','25%','30%','35%'];
+  const slabRanges = ['Up to 6 Lac','6L–12L','12L–22L','22L–32L','32L–41L','Above 41L'];
+
+  for (let i = 0; i < 6; i++) {
+    const row = document.getElementById('slab-' + i);
+    if (row) row.classList.toggle('active-slab', i === slabIdx);
+  }
+
+  const slabMax = slab.max === Infinity ? annual : slab.max;
+  const slabMin = slab.min;
+  const pct = slabMax === slabMin ? 100 : Math.min(100, ((annual - slabMin) / (slabMax - slabMin)) * 100);
+
+  resultBox.classList.remove('hidden');
+  document.getElementById('sal-r-gross').textContent = 'PKR ' + fmt(annual);
+  document.getElementById('sal-r-taxable').textContent = 'PKR ' + fmt(annual);
+  document.getElementById('sal-r-slab').textContent = slabRanges[slabIdx] + ' @ ' + slabLabels[slabIdx];
+  document.getElementById('sal-r-annual-tax').textContent = 'PKR ' + fmt(Math.round(tax));
+  document.getElementById('sal-r-monthly-tax').textContent = 'PKR ' + fmt(Math.round(monthlyTax));
+  document.getElementById('sal-r-effective').textContent = effectiveRate + '%';
+  document.getElementById('sal-r-takehome').textContent = 'PKR ' + fmt(Math.round(takeHome));
+  document.getElementById('sal-r-pct').textContent = pct.toFixed(1) + '%';
+  setTimeout(function() { document.getElementById('sal-r-bar').style.width = pct + '%'; }, 50);
+}
+
+/* ════════════════════════════════════
+   GST CALCULATOR
+════════════════════════════════════ */
+document.getElementById('gst-rate').addEventListener('change', function() {
+  document.getElementById('gst-custom-wrap').style.display = this.value === 'custom' ? 'block' : 'none';
+  calcGST();
+});
+
+function calcGST() {
+  const mode = document.getElementById('gst-mode').value;
+  const amount = parseFloat(document.getElementById('gst-amount').value) || 0;
+  const rateVal = document.getElementById('gst-rate').value;
+  const customRate = parseFloat(document.getElementById('gst-custom-rate').value) || 0;
+  const rate = rateVal === 'custom' ? customRate : parseFloat(rateVal);
+  const resultBox = document.getElementById('gst-result');
+  if (amount <= 0 || rate <= 0) { resultBox.classList.add('hidden'); return; }
+
+  let base, taxAmt, total;
+  if (mode === 'exclusive') {
+    base = amount; taxAmt = amount * (rate / 100); total = amount + taxAmt;
+  } else {
+    total = amount; base = amount / (1 + rate / 100); taxAmt = total - base;
+  }
+
+  resultBox.classList.remove('hidden');
+  document.getElementById('gst-r-chip').textContent = 'GST @ ' + rate + '%';
+  document.getElementById('gst-r-base').textContent = 'PKR ' + fmt(Math.round(base));
+  document.getElementById('gst-r-tax').textContent = 'PKR ' + fmt(Math.round(taxAmt));
+  document.getElementById('gst-r-total').textContent = 'PKR ' + fmt(Math.round(total));
+  document.getElementById('gst-r-payable').textContent = 'PKR ' + fmt(Math.round(taxAmt));
+}
+
+/* ════════════════════════════════════
+   BUSINESS TAX ESTIMATOR
+════════════════════════════════════ */
+let selectedBizType = 'company';
+function selectBizType(btn, type) {
+  document.querySelectorAll('.income-tab').forEach(function(b) { b.classList.remove('active') });
+  btn.classList.add('active');
+  selectedBizType = type;
+  calcBizTax();
+}
+
+function calcBizTax() {
+  const revenue = parseFloat(document.getElementById('biz-revenue').value) || 0;
+  const expenses = parseFloat(document.getElementById('biz-expenses').value) || 0;
+  const filer = document.getElementById('biz-filer').value;
+  const resultBox = document.getElementById('biz-result');
+  if (revenue <= 0) { resultBox.classList.add('hidden'); return; }
+
+  const taxable = Math.max(0, revenue - expenses);
+  let rate;
+  const rates = {
+    company: { filer: 0.29, nonfiler: 0.29, label: '29% — Standard Corporate Rate' },
+    aop:     { filer: 0.25, nonfiler: 0.25, label: '25% — AOP/Partnership Rate' },
+    sme:     { filer: revenue < 250000000 ? 0.20 : 0.29, nonfiler: 0.29, label: revenue < 250000000 ? '20% — Small Company Rate' : '29% — Standard Rate (Revenue >250M)' }
+  };
+  const bizRate = rates[selectedBizType] || rates.company;
+  rate = filer === 'filer' ? bizRate.filer : bizRate.nonfiler;
+  const taxLabel = bizRate.label;
+
+  const tax = taxable * rate;
+  const net = taxable - tax;
+
+  resultBox.classList.remove('hidden');
+  document.getElementById('biz-r-revenue').textContent = 'PKR ' + fmt(revenue);
+  document.getElementById('biz-r-expenses').textContent = 'PKR ' + fmt(expenses);
+  document.getElementById('biz-r-taxable').textContent = 'PKR ' + fmt(taxable);
+  document.getElementById('biz-r-rate').textContent = taxLabel;
+  document.getElementById('biz-r-tax').textContent = 'PKR ' + fmt(Math.round(tax));
+  document.getElementById('biz-r-net').textContent = 'PKR ' + fmt(Math.round(net));
+}
+
+/* ════════════════════════════════════
+   WHT CALCULATOR
+════════════════════════════════════ */
+const WHT_RATES = {
+  contract:  { filer: 0.07,  nonfiler: 0.14,  label: 'Contracts (u/s 153)' },
+  services:  { filer: 0.08,  nonfiler: 0.16,  label: 'Services (u/s 153)' },
+  supply:    { filer: 0.04,  nonfiler: 0.08,  label: 'Supplies / Goods (u/s 153)' },
+  rent:      { filer: 0.15,  nonfiler: 0.30,  label: 'Rent (u/s 155)' },
+  import:    { filer: 0.055, nonfiler: 0.08,  label: 'Imports (u/s 148)' },
+  dividend:  { filer: 0.15,  nonfiler: 0.30,  label: 'Dividends (u/s 150)' }
+};
+let selectedWHTCat = 'contract';
+
+function selectWHTCat(btn, cat) {
+  document.querySelectorAll('.wht-cat-btn').forEach(function(b) { b.classList.remove('selected') });
+  btn.classList.add('selected');
+  selectedWHTCat = cat;
+  calcWHT();
+}
+
+function calcWHT() {
+  const amount = parseFloat(document.getElementById('wht-amount').value) || 0;
+  const filerStatus = document.getElementById('wht-filer').value;
+  const resultBox = document.getElementById('wht-result');
+  if (amount <= 0) { resultBox.classList.add('hidden'); return; }
+
+  const catData = WHT_RATES[selectedWHTCat];
+  const rate = filerStatus === 'filer' ? catData.filer : catData.nonfiler;
+  const whtAmt = amount * rate;
+  const net = amount - whtAmt;
+
+  resultBox.classList.remove('hidden');
+  document.getElementById('wht-r-gross').textContent = 'PKR ' + fmt(amount);
+  document.getElementById('wht-r-cat').textContent = catData.label;
+  document.getElementById('wht-r-rate').textContent = (rate * 100).toFixed(1) + '% (' + (filerStatus === 'filer' ? 'Active Filer' : 'Non-Filer') + ')';
+  document.getElementById('wht-r-wht').textContent = 'PKR ' + fmt(Math.round(whtAmt));
+  document.getElementById('wht-r-net').textContent = 'PKR ' + fmt(Math.round(net));
+}
+
+/* ─── HELPER ─── */
+function fmt(n) { return n.toLocaleString('en-PK'); }
+</script>
+</body>
+</html>
+<div id="ka-blog-grid"></div>
+
+<div id="ka-blog-load-more" style="text-align:center; margin-top:40px;"></div>
+<script src="BlogFetch.js"></script>
+</body>

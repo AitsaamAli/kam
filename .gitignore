@@ -1,0 +1,35 @@
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+.AppleDouble
+.LSOverride
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.sublime-project
+.sublime-workspace
+*.code-workspace
+
+# Temp Files
+*.tmp
+*.bak
+*.temp
+
+# Node (if added later)
+node_modules/
+dist/
+.cache/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Build artifacts
+*.log
+*.gz
