@@ -4,42 +4,135 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Insights & Updates - Kamboh Associates</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
-        body { font-family: 'Segoe UI', Arial, sans-serif; margin: 0; padding: 0; color: #333; background-color: #f9f9f9; display: flex; flex-direction: column; min-height: 100vh; }
-        header { background: white; padding: 20px 40px; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
-        .logo { font-weight: bold; font-size: 24px; color: #b08925; text-decoration: none; }
-        nav a { margin-left: 20px; text-decoration: none; color: #333; font-weight: 500; }
-        .hero { background: linear-gradient(to bottom, #fff8e7, #ffffff); text-align: center; padding: 60px 20px; }
-        .hero h1 { color: #b08925; font-size: 42px; margin: 0 0 15px 0; text-transform: uppercase; letter-spacing: 2px; }
-        .hero p { color: #555; font-size: 18px; max-width: 600px; margin: 0 auto; }
+        /* Premium Dark Theme Styles matching Main Site */
+        :root {
+            --bg-dark: #0a1118;
+            --card-dark: #111c24;
+            --gold: #d4af37;
+            --gold-light: #f0cf68;
+            --text-light: #e2e8f0;
+            --text-muted: #94a3b8;
+        }
+
+        body { 
+            font-family: 'Segoe UI', Arial, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            color: var(--text-light); 
+            background-color: var(--bg-dark); 
+            display: flex; 
+            flex-direction: column; 
+            min-height: 100vh; 
+        }
+
+        /* Fixed Top Header Matching Index */
+        header { 
+            background: rgba(10, 17, 24, 0.95); 
+            padding: 15px 5%; 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            border-bottom: 1px solid rgba(212, 175, 55, 0.15);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            backdrop-filter: blur(10px);
+        }
+
+        .brand-box { display: flex; align-items: center; gap: 12px; text-decoration: none; }
+        .logo-emblem { 
+            background: linear-gradient(135deg, #13212d, #0d2a0d); 
+            color: var(--gold); 
+            font-weight: 700; 
+            padding: 8px 12px; 
+            border-radius: 50%; 
+            border: 1px solid var(--gold);
+            font-size: 16px;
+        }
+        .brand-text .main-title { color: #ffffff; font-weight: bold; font-size: 18px; letter-spacing: 0.5px; }
+        .brand-text .sub-title { color: var(--gold); font-size: 11px; letter-spacing: 1px; text-transform: uppercase; }
+
+        nav { display: flex; gap: 25px; align-items: center; }
+        nav a { text-decoration: none; color: var(--text-light); font-weight: 500; font-size: 15px; transition: color 0.3s; }
+        nav a:hover, nav a.active { color: var(--gold); }
+
+        /* Premium Hero Section */
+        .hero { 
+            background: radial-gradient(circle at top, #132330 0%, var(--bg-dark) 70%);
+            text-align: center; 
+            padding: 50px 20px; 
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+        }
+        .hero h1 { color: var(--gold-light); font-size: 38px; margin: 0 0 10px 0; letter-spacing: 1px; }
+        .hero p { color: var(--text-muted); font-size: 16px; max-width: 600px; margin: 0 auto; line-height: 1.5; }
         
-        /* Blog Section Container */
-        .blog-container { max-width: 800px; margin: 40px auto; padding: 0 20px; flex: 1; width: 100%; box-sizing: border-box; }
-        .blog-card { background: white; border-radius: 8px; padding: 25px; margin-bottom: 25px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); border-left: 5px solid #b08925; transition: transform 0.2s; }
-        .blog-card:hover { transform: translateY(-3px); }
-        .blog-title { margin: 0 0 10px 0; font-size: 22px; }
-        .blog-title a { color: #1a365d; text-decoration: none; }
-        .blog-title a:hover { color: #b08925; }
-        .blog-meta { color: #888; font-size: 14px; margin-bottom: 15px; }
-        .blog-desc { color: #666; line-height: 1.6; margin-bottom: 15px; }
-        .read-more { color: #b08925; text-decoration: none; font-weight: bold; font-size: 15px; }
+        /* Blog Layout */
+        .blog-container { max-width: 850px; margin: 40px auto; padding: 0 20px; flex: 1; width: 100%; box-sizing: border-box; }
         
-        footer { text-align: center; padding: 30px; color: #666; font-size: 14px; background: white; margin-top: auto; border-top: 1px solid #eee; }
+        .blog-card { 
+            background: var(--card-dark); 
+            border-radius: 12px; 
+            padding: 30px; 
+            margin-bottom: 30px; 
+            box-shadow: 0 10px 30px rgba(0,0,0,0.25); 
+            border: 1px solid rgba(212, 175, 55, 0.1);
+            border-left: 4px solid var(--gold); 
+            transition: all 0.3s ease; 
+        }
+        .blog-card:hover { transform: translateY(-5px); border-color: rgba(212, 175, 55, 0.3); }
+        .blog-title { margin: 0 0 12px 0; font-size: 24px; }
+        .blog-title a { color: #ffffff; text-decoration: none; transition: color 0.2s; }
+        .blog-title a:hover { color: var(--gold-light); }
+        .blog-meta { color: var(--text-muted); font-size: 13px; margin-bottom: 15px; display: flex; gap: 15px; }
+        .blog-meta i { color: var(--gold); }
+        .blog-desc { color: #cbd5e1; line-height: 1.6; margin-bottom: 20px; font-size: 15px; }
+        
+        .read-more-btn { 
+            display: inline-block;
+            color: var(--bg-dark); 
+            background: linear-gradient(135deg, var(--gold-light), var(--gold));
+            text-decoration: none; 
+            font-weight: bold; 
+            font-size: 14px; 
+            padding: 8px 18px;
+            border-radius: 6px;
+            transition: opacity 0.2s;
+        }
+        .read-more-btn:hover { opacity: 0.9; }
+        
+        /* Premium Footer */
+        footer { 
+            text-align: center; 
+            padding: 25px; 
+            color: var(--text-muted); 
+            font-size: 14px; 
+            background: #060b10; 
+            border-top: 1px solid rgba(212, 175, 55, 0.1); 
+            margin-top: auto;
+        }
     </style>
 </head>
 <body>
 
     <header>
-        <a href="index.html" class="logo">KA</a>
+        <a href="index.html" class="brand-box">
+            <div class="logo-emblem">KA</div>
+            <div class="brand-text">
+                <div class="main-title">KAMBOH ASSOCIATES</div>
+                <div class="sub-title">Tax &amp; Regulatory Excellence</div>
+            </div>
+        </a>
         <nav>
             <a href="index.html">Home</a>
-            <a href="blogs.html" style="color: #b08925;">Blog</a>
-            <a href="contact.html">Contact</a>
+            <a href="blogs.html" class="active">Blog</a>
+            <a href="index.html#contact">Contact</a>
         </nav>
     </header>
 
     <section class="hero">
-        <h1>Insights & Updates</h1>
+        <h1>INSIGHTS &amp; UPDATES</h1>
         <p>Expert perspectives on tax regulations, compliance, and business strategy</p>
     </section>
 
@@ -49,15 +142,18 @@
             <h2 class="blog-title">
                 <a href="blog/fbr-ntn-registration-guide.html">How to Become a Filer in Pakistan 2026: Complete FBR Guide</a>
             </h2>
-            <div class="blog-meta">Published on: May 20, 2026 | By: Kamboh Associates</div>
+            <div class="blog-meta">
+                <span><i class="far fa-calendar-alt"></i> May 20, 2026</span>
+                <span><i class="far fa-user"></i> Kamboh Associates</span>
+            </div>
             <p class="blog-desc">Learn how to register your NTN online via the FBR Iris portal, file your annual tax returns, and safely appear on the Active Taxpayer List (ATL) to avoid non-filer withholding tax penalties.</p>
-            <a href="blog/fbr-ntn-registration-guide.html" class="read-more">Read Full Article →</a>
+            <a href="blog/fbr-ntn-registration-guide.html" class="read-more-btn">Read Full Article →</a>
         </div>
 
     </div>
 
     <footer>
-        © 2026 Kamboh Associates. All rights reserved.
+        © 2026 Kamboh Associates. Tax &amp; Corporate Advisory Services. All rights reserved.
     </footer>
 
 </body>
