@@ -208,14 +208,13 @@
     </footer>
 
     <script>
-    function syncTheme() {
+    // Page load hote hi ye chalega
+    window.onload = function() {
         const savedTheme = localStorage.getItem('site-theme');
         if (savedTheme === 'dark') {
             document.body.classList.add('dark-mode');
         } else {
             document.body.classList.remove('dark-mode');
         }
-    }
-    // Page load hote hi run hoga
-    syncTheme();
+    };
 </script>
