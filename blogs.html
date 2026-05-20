@@ -20,15 +20,14 @@
         }
 
         /* Forced Dark Theme System (Active class matches) */
-        .dark, .dark-mode, [data-theme="dark"], body.dark-mode {
-            --bg-body-main: #0a1118 !important;
-            --bg-header-main: #111c24 !important;
-            --bg-card-main: #17242f !important;
-            --border-main: rgba(212, 175, 55, 0.15) !important;
-            --text-main-color: #e2e8f0 !important;
-            --text-muted-color: #94a3b8 !important;
-            --gold-color: #d4af37 !important;
-            --gold-light-color: #f0cf68 !important;
+        .dark, .dark-mode, [data-theme="dark"], body./* Light Mode (Default) */
+body { background-color: white; color: black; }
+
+/* Dark Mode (Jab class add ho jaye) */
+body.dark-mode { 
+    background-color: #0a1118 !important; 
+    color: #e2e8f0 !important; 
+}
         }
 
         body {
@@ -73,7 +72,7 @@
             <button id="theme-toggle" onclick="toggleDarkMode()">Toggle Theme</button>
         </div>
     </div>
-</nav>
+</nav><button id="theme-toggle" onclick="toggleDarkMode()">Toggle Theme</button>
         }
 
         .brand-box { display: flex; align-items: center; gap: 12px; text-decoration: none; }
@@ -227,14 +226,21 @@
     </footer>
 
     <script>
-    function syncTheme() {
+    // 1. Load hote hi background set karein
+    (function() {
         const savedTheme = localStorage.getItem('site-theme');
         if (savedTheme === 'dark') {
             document.body.classList.add('dark-mode');
-        } else {
-            document.body.classList.remove('dark-mode');
         }
-    }
-    // Page load hote hi run hoga
-    syncTheme();
+    })();
+
+    // 2. Toggle function ko global banayein
+    window.toggleDarkMode = function() {
+        document.body.classList.toggle('dark-mode');
+        if (document.body.classList.contains('dark-mode')) {
+            localStorage.setItem('site-theme', 'dark');
+        } else {
+            localStorage.setItem('site-theme', 'light');
+        }
+    };
 </script>
