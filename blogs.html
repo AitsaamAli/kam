@@ -7,81 +7,57 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     
     <style>
-        /* Exact System Variable Fallbacks */
+        /* Base Fallback Colors (Light Mode Default) */
         :root {
-            --primary-dark: #0a1118;
-            --card-bg-dark: #111c24;
-            --accent-gold: #d4af37;
-            --text-light: #e2e8f0;
-            --text-muted: #94a3b8;
+            --bg-body-main: #ffffff;
+            --bg-header-main: #ffffff;
+            --bg-card-main: #f8fafc;
+            --border-main: rgba(176, 137, 37, 0.15);
+            --text-main-color: #1e293b;
+            --text-muted-color: #64748b;
+            --gold-color: #b08925;
+            --gold-light-color: #d4af37;
         }
 
-        /* Default Style Setup */
+        /* Forced Dark Theme System (Jab index page dark ho) */
+        .dark, .dark-mode, [data-theme="dark"], body.dark-mode {
+            --bg-body-main: #0a1118 !important;
+            --bg-header-main: #111c24 !important;
+            --bg-card-main: #17242f !important;
+            --border-main: rgba(212, 175, 55, 0.15) !important;
+            --text-main-color: #e2e8f0 !important;
+            --text-muted-color: #94a3b8 !important;
+            --gold-color: #d4af37 !important;
+            --gold-light-color: #f0cf68 !important;
+        }
+
+        /* Core Structure layout styling */
         body {
             font-family: 'Segoe UI', Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #ffffff;
-            color: #1e293b;
+            background-color: var(--bg-body-main) !important;
+            color: var(--text-main-color) !important;
             display: flex;
             flex-direction: column;
             min-height: 100vh;
-            transition: background-color 0.3s, color 0.3s;
+            transition: background-color 0.15s ease, color 0.15s ease;
         }
 
-        /* Active Core Dark Mode Syncing with index classes */
-        body.dark-mode, [data-theme="dark"] body {
-            background-color: var(--primary-dark) !important;
-            color: var(--text-light) !important;
-        }
-
-        /* Fixed Top Header Base Structure */
-        header, .navbar-main {
+        /* Fixed Navigation bar layout */
+        header {
+            background-color: var(--bg-header-main) !important;
             padding: 15px 5%;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            border-bottom: 1px solid rgba(176, 137, 37, 0.15);
+            border-bottom: 1px solid var(--border-main) !important;
             position: sticky;
             top: 0;
             z-index: 1000;
-            background: #ffffff;
-            transition: all 0.3s;
-        }
-        body.dark-mode header, [data-theme="dark"] header {
-            background: var(--card-bg-dark) !important;
-            border-bottom-color: rgba(212, 175, 55, 0.15) !important;
+            transition: background-color 0.15s ease;
         }
 
-        /* Balanced Centralized Links Container */
-        .nav-container-center {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-grow: 1;
-        }
-        .nav-links {
-            display: flex;
-            gap: 35px;
-            list-style: none;
-            margin: 0;
-            padding: 0;
-        }
-        .nav-links a {
-            text-decoration: none;
-            font-weight: 500;
-            font-size: 15px;
-            color: #1e293b;
-            transition: color 0.3s;
-        }
-        body.dark-mode .nav-links a, [data-theme="dark"] .nav-links a {
-            color: var(--text-light);
-        }
-        .nav-links a:hover, .nav-links a.active {
-            color: var(--accent-gold) !important;
-        }
-
-        /* Branding Box Layout */
         .brand-box { display: flex; align-items: center; gap: 12px; text-decoration: none; }
         .logo-emblem {
             background: linear-gradient(135deg, #13212d, #0d2a0d);
@@ -89,67 +65,64 @@
             font-weight: 700;
             padding: 8px 12px;
             border-radius: 50%;
-            border: 1px solid var(--accent-gold);
+            border: 1px solid var(--gold-color);
             font-size: 16px;
         }
-        .brand-text .main-title { font-weight: bold; font-size: 18px; color: #1e293b; letter-spacing: 0.5px; }
-        body.dark-mode .brand-text .main-title, [data-theme="dark"] .brand-text .main-title { color: #ffffff; }
-        .brand-text .sub-title { color: var(--accent-gold); font-size: 11px; text-transform: uppercase; letter-spacing: 1px; }
+        .brand-text .main-title { font-weight: bold; font-size: 18px; color: var(--text-main-color) !important; letter-spacing: 0.5px; }
+        .brand-text .sub-title { color: var(--gold-color) !important; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; }
 
-        /* Blog Sections */
+        /* Balanced Central Layout Navigation links */
+        .nav-container-center { display: flex; justify-content: center; align-items: center; flex-grow: 1; }
+        .nav-links { display: flex; gap: 35px; list-style: none; margin: 0; padding: 0; }
+        .nav-links a { text-decoration: none; font-weight: 500; font-size: 15px; color: var(--text-main-color) !important; transition: color 0.2s; }
+        .nav-links a:hover, .nav-links a.active { color: var(--gold-color) !important; }
+
+        /* Blog Section Design Elements */
         .hero-section {
             text-align: center;
             padding: 50px 20px;
-            background: linear-gradient(to bottom, rgba(212, 175, 55, 0.05), transparent);
-            border-bottom: 1px solid rgba(212, 175, 55, 0.1);
+            background: linear-gradient(to bottom, rgba(212, 175, 55, 0.03), transparent);
+            border-bottom: 1px solid var(--border-main) !important;
         }
-        .hero-section h1 { color: var(--accent-gold); font-size: 36px; margin: 0 0 10px 0; text-transform: uppercase; }
-        .hero-section p { color: #64748b; font-size: 16px; max-width: 600px; margin: 0 auto; }
-        body.dark-mode .hero-section p, [data-theme="dark"] .hero-section p { color: var(--text-muted); }
+        .hero-section h1 { color: var(--gold-color) !important; font-size: 36px; margin: 0 0 10px 0; text-transform: uppercase; }
+        .hero-section p { color: var(--text-muted-color) !important; font-size: 16px; max-width: 600px; margin: 0 auto; }
 
         .blog-container { max-width: 850px; margin: 40px auto; padding: 0 20px; flex: 1; width: 100%; box-sizing: border-box; }
         .blog-card {
-            background: #f8fafc;
+            background-color: var(--bg-card-main) !important;
             border-radius: 12px;
             padding: 30px;
             margin-bottom: 30px;
-            border: 1px solid rgba(176, 137, 37, 0.15);
-            border-left: 5px solid var(--accent-gold);
-            transition: all 0.3s;
+            border: 1px solid var(--border-main) !important;
+            border-left: 5px solid var(--gold-color) !important;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
         }
-        body.dark-mode .blog-card, [data-theme="dark"] .blog-card {
-            background: var(--card-bg-dark) !important;
-            border-color: rgba(212, 175, 55, 0.15) !important;
-        }
-        .blog-card:hover { transform: translateY(-4px); box-shadow: 0 10px 20px rgba(0,0,0,0.05); }
+        .blog-card:hover { transform: translateY(-4px); }
         .blog-title { margin: 0 0 12px 0; font-size: 24px; }
-        .blog-title a { color: inherit; text-decoration: none; }
-        .blog-title a:hover { color: var(--accent-gold); }
-        .blog-meta { color: #64748b; font-size: 13px; margin-bottom: 15px; display: flex; gap: 15px; }
-        body.dark-mode .blog-meta, [data-theme="dark"] .blog-meta { color: var(--text-muted); }
-        .blog-meta i { color: var(--accent-gold); }
-        .blog-desc { line-height: 1.6; margin-bottom: 20px; font-size: 15px; color: #475569; }
-        body.dark-mode .blog-desc, [data-theme="dark"] .blog-desc { color: #cbd5e1; }
+        .blog-title a { color: inherit !important; text-decoration: none; }
+        .blog-title a:hover { color: var(--gold-color) !important; }
+        .blog-meta { color: var(--text-muted-color) !important; font-size: 13px; margin-bottom: 15px; display: flex; gap: 15px; }
+        .blog-meta i { color: var(--gold-color) !important; }
+        .blog-desc { line-height: 1.6; margin-bottom: 20px; font-size: 15px; color: var(--text-muted-color) !important; }
 
         .read-more-btn {
             display: inline-block;
-            color: #ffffff;
-            background: linear-gradient(135deg, #f0cf68, var(--accent-gold));
+            color: #ffffff !important;
+            background: linear-gradient(135deg, #f0cf68, var(--gold-color));
             text-decoration: none;
             font-weight: bold;
             font-size: 14px;
             padding: 8px 18px;
             border-radius: 6px;
         }
-        body.dark-mode .read-more-btn, [data-theme="dark"] .read-more-btn { color: var(--primary-dark); }
 
-        /* Floating WhatsApp Button Layout */
+        /* Floating Contact Widget */
         .whatsapp-float {
             position: fixed;
             bottom: 25px;
             right: 25px;
             background-color: #25d366;
-            color: white;
+            color: white !important;
             border-radius: 50%;
             width: 55px;
             height: 55px;
@@ -164,20 +137,15 @@
         }
         .whatsapp-float:hover { transform: scale(1.1); }
 
-        /* Footer Element Layout */
+        /* Premium Footer Area */
         footer {
             text-align: center;
             padding: 25px;
             font-size: 14px;
-            color: #64748b;
-            background: #f8fafc;
-            border-top: 1px solid rgba(176, 137, 37, 0.15);
+            color: var(--text-muted-color) !important;
+            background-color: var(--bg-header-main) !important;
+            border-top: 1px solid var(--border-main) !important;
             margin-top: auto;
-        }
-        body.dark-mode footer, [data-theme="dark"] footer {
-            background: #060b10 !important;
-            border-top-color: rgba(212, 175, 55, 0.15) !important;
-            color: var(--text-muted) !important;
         }
     </style>
 </head>
@@ -229,24 +197,29 @@
     </footer>
 
     <script>
-        function runAbsoluteThemeSync() {
-            // Yeh aapke index.html ke dono variables/classes ko check karega
-            const savedState = localStorage.getItem('theme') || localStorage.getItem('darkMode') || localStorage.getItem('mode');
-            const isDarkActive = (savedState === 'dark' || savedState === 'true' || savedState === 'enabled');
+        function enforceDynamicModeSync() {
+            // Yeh aapke localStorage ki har possible state dhoondega jo darkmode toggle save karti hai
+            const activeMode = localStorage.getItem('theme') || localStorage.getItem('darkMode') || localStorage.getItem('mode') || localStorage.getItem('nightMode');
+            const isDark = (activeMode === 'dark' || activeMode === 'true' || activeMode === 'enabled' || activeMode === 'dark-mode');
             
-            if (isDarkActive) {
+            // Dono variables apply kar dete hain taake kisi bhi tarah miss na ho
+            if (isDark) {
                 document.documentElement.setAttribute('data-theme', 'dark');
+                document.documentElement.classList.add('dark');
                 document.body.classList.add('dark-mode');
+                document.body.classList.add('dark');
             } else {
                 document.documentElement.removeAttribute('data-theme');
+                document.documentElement.classList.remove('dark');
                 document.body.classList.remove('dark-mode');
+                document.body.classList.remove('dark');
             }
         }
 
-        // Parallel executions for rendering priority
-        runAbsoluteThemeSync();
-        window.addEventListener('DOMContentLoaded', runAbsoluteThemeSync);
-        window.addEventListener('load', runAbsoluteThemeSync);
+        // Fast render hooks
+        enforceDynamicModeSync();
+        window.addEventListener('DOMContentLoaded', enforceDynamicModeSync);
+        window.addEventListener('load', enforceDynamicModeSync);
     </script>
 </body>
 </html>
