@@ -208,18 +208,14 @@
     </footer>
 
     <script>
-        function runBodyThemeSync() {
-            const activeMode = localStorage.getItem('theme');
-            if (activeMode === 'dark') {
-                document.body.classList.add('dark-mode');
-                document.body.classList.add('dark');
-            } else {
-                document.body.classList.remove('dark-mode');
-                document.body.classList.remove('dark');
-            }
+    function syncTheme() {
+        const savedTheme = localStorage.getItem('site-theme');
+        if (savedTheme === 'dark') {
+            document.body.classList.add('dark-mode');
+        } else {
+            document.body.classList.remove('dark-mode');
         }
-        runBodyThemeSync();
-        window.addEventListener('DOMContentLoaded', runBodyThemeSync);
-    </script>
-</body>
-</html>
+    }
+    // Page load hote hi run hoga
+    syncTheme();
+</script>
