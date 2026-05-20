@@ -1361,7 +1361,7 @@ select.form-control { cursor: pointer }
 ══════════════════════════════════════════ -->
 <nav class="navbar" id="navbar">
   <div class="container">
-    <a href="#" class="logo">
+    <a href="#home" class="logo">
       <div class="logo-emblem">
         <svg width="44" height="44" viewBox="0 0 46 46" xmlns="http://www.w3.org/2000/svg">
           <defs>
@@ -1403,47 +1403,19 @@ select.form-control { cursor: pointer }
         <i class="fas fa-phone"></i>
         <a href="tel:03284675162">0328-4675162</a>
       </span>
-     <!DOCTYPE html>
-<html lang="en">
-<head>
-    <style>
-        body { transition: background 0.3s, color 0.3s; }
-        body.dark-mode { background-color: #0a1118 !important; color: #e2e8f0 !important; }
-    </style>
-</head>
-<body>
-    <button id="theme-toggle" onclick="toggleTheme()">Toggle Theme</button>
-
-    <script>
-        function applyTheme(theme) {
-            if (theme === 'dark') {
-                document.body.classList.add('dark-mode');
-            } else {
-                document.body.classList.remove('dark-mode');
-            }
-        }
-
-        window.toggleTheme = function() {
-            const isDark = document.body.classList.contains('dark-mode');
-            const newTheme = isDark ? 'light' : 'dark';
-            applyTheme(newTheme);
-            localStorage.setItem('site-theme', newTheme);
-        };
-
-        // Load time sync
-        document.addEventListener('DOMContentLoaded', () => {
-            const savedTheme = localStorage.getItem('site-theme') || 'light';
-            applyTheme(savedTheme);
-        });
-    </script>
-</body>
-</html>
-  </div>
+      <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()" aria-label="Toggle dark mode">
+        <span class="theme-toggle-icon"><i class="fas fa-sun"></i><i class="fas fa-moon"></i></span>
+      </button>
+      <button class="hamburger" id="hamburger" onclick="toggleMobileNav()" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
   <div class="mobile-nav" id="mobileNav">
-    <a href="#" onclick="closeMobileNav()">Home</a>
+    <a href="#home" onclick="closeMobileNav()">Home</a>
     <a href="#services" onclick="closeMobileNav()">Services</a>
     <a href="#tools" onclick="closeMobileNav()">Tools</a>
     <a href="#deadlines" onclick="closeMobileNav()">Tax Deadlines</a>
+    <a href="blogs.html" onclick="closeMobileNav()">Blog</a>
     <a href="#contact" onclick="closeMobileNav()">Contact</a>
     <div class="mobile-nav-tools">
       <button class="btn btn-gold btn-sm" onclick="openModal('salary');closeMobileNav()"><i class="fas fa-calculator"></i> Salary Tax</button>
@@ -2326,11 +2298,9 @@ function toggleDarkMode() {
 })();
 
 /* ─── MOBILE NAV ─── */
-// Is line ko toggle wale function ke andar dhoondhein ya add karein:
-if (document.body.classList.contains('dark-mode') || document.documentElement.classList.contains('dark')) {
-    localStorage.setItem('theme', 'dark');
-} else {
-    localStorage.setItem('theme', 'light');
+function toggleMobileNav() {
+  document.getElementById('hamburger').classList.toggle('open');
+  document.getElementById('mobileNav').classList.toggle('open');
 }
 function closeMobileNav() {
   document.getElementById('hamburger').classList.remove('open');
@@ -2653,22 +2623,18 @@ function calcWHT() {
 
 /* ─── HELPER ─── */
 function fmt(n) { return n.toLocaleString('en-PK'); }
-<script>
-    // 1. Load hote hi background set karein
-    (function() {
-        const savedTheme = localStorage.getItem('site-theme');
-        if (savedTheme === 'dark') {
-            document.body.classList.add('dark-mode');
-        }
-    })();
 
-    // 2. Toggle function ko global banayein
-    window.toggleDarkMode = function() {
-        document.body.classList.toggle('dark-mode');
-        if (document.body.classList.contains('dark-mode')) {
-            localStorage.setItem('site-theme', 'dark');
-        } else {
-            localStorage.setItem('site-theme', 'light');
-        }
-    };
+/* ─── THEME TOGGLE ─── */
+function toggleTheme() {
+  const html = document.documentElement;
+  const isDark = html.getAttribute('data-theme') === 'dark';
+  html.setAttribute('data-theme', isDark ? 'light' : 'dark');
+  localStorage.setItem('site-theme', isDark ? 'light' : 'dark');
+}
+(function() {
+  const saved = localStorage.getItem('site-theme');
+  if (saved) document.documentElement.setAttribute('data-theme', saved);
+})();
 </script>
+</body>
+</html>
