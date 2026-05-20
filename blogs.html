@@ -6,9 +6,8 @@
     <title>Insights & Updates - Kamboh Associates</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
-        /* Theme Variables */
+        /* CSS Variables matching main site design token */
         :root {
-            /* Light Mode Colors (Default) */
             --bg-body: #ffffff;
             --bg-header: #ffffff;
             --bg-card: #f8fafc;
@@ -19,11 +18,10 @@
             --gold-light: #d4af37;
         }
 
-        /* Dark Mode Colors (Night Mode Active) */
-        [data-theme="dark"] {
+        [data-theme="dark"], body.dark-mode {
             --bg-body: #0a1118;
-            --bg-header: rgba(10, 17, 24, 0.95);
-            --bg-card: #111c24;
+            --bg-header: #111c24;
+            --bg-card: #17242f;
             --border-color: rgba(212, 175, 55, 0.15);
             --text-main: #e2e8f0;
             --text-muted: #94a3b8;
@@ -43,22 +41,21 @@
             transition: background-color 0.3s, color 0.3s;
         }
 
-        /* Fixed Top Header with Center Navigation Alignment */
-        header { 
+        /* Fixed Top Header - Exact Main Layout */
+        header, .navbar { 
             background: var(--bg-header); 
             padding: 15px 5%; 
-            display: grid;
-            grid-template-columns: 1fr auto 1fr;
+            display: flex;
+            justify-content: space-between;
             align-items: center; 
             border-bottom: 1px solid var(--border-color);
             position: sticky;
             top: 0;
             z-index: 1000;
-            backdrop-filter: blur(10px);
             transition: background-color 0.3s, border-color 0.3s;
         }
 
-        .brand-box { display: flex; align-items: center; gap: 12px; text-decoration: none; justify-self: start; }
+        .brand-box { display: flex; align-items: center; gap: 12px; text-decoration: none; }
         .logo-emblem { 
             background: linear-gradient(135deg, #13212d, #0d2a0d); 
             color: #d4af37; 
@@ -70,17 +67,12 @@
         }
         
         .brand-text .main-title { color: var(--text-main); font-weight: bold; font-size: 18px; letter-spacing: 0.5px; }
-        [data-theme="dark"] .brand-text .main-title { color: #ffffff; }
         .brand-text .sub-title { color: var(--gold); font-size: 11px; letter-spacing: 1px; text-transform: uppercase; }
 
-        /* Balanced Centralized Navbar Links */
-        nav { display: flex; gap: 35px; align-items: center; justify-self: center; }
-        nav a { text-decoration: none; color: var(--text-main); font-weight: 500; font-size: 15px; transition: color 0.3s; position: relative; padding-bottom: 4px; }
-        [data-theme="dark"] nav a { color: #e2e8f0; }
-        nav a:hover, nav a.active { color: var(--gold); }
-        nav a.active::after { content: ''; position: absolute; width: 60%; height: 2px; background: var(--gold); bottom: 0; left: 20%; border-radius: 2px; }
-
-        .header-spacer { justify-self: end; }
+        /* Balanced Navbar Links Matching Index */
+        .nav-links { display: flex; gap: 30px; align-items: center; list-style: none; margin: 0; padding: 0; }
+        .nav-links a { text-decoration: none; color: var(--text-main); font-weight: 500; font-size: 15px; transition: color 0.3s; }
+        .nav-links a:hover, .nav-links a.active { color: var(--gold); }
 
         /* Premium Hero Section */
         .hero { 
@@ -89,13 +81,10 @@
             padding: 50px 20px; 
             border-bottom: 1px solid var(--border-color);
         }
-        [data-theme="dark"] .hero {
-            background: radial-gradient(circle at top, #132330 0%, var(--bg-body) 70%);
-        }
-        .hero h1 { color: var(--gold); font-size: 38px; margin: 0 0 10px 0; letter-spacing: 1px; text-transform: uppercase; }
-        .hero p { color: var(--text-muted); font-size: 16px; max-width: 600px; margin: 0 auto; line-height: 1.5; }
+        .hero h1 { color: var(--gold); font-size: 36px; margin: 0 0 10px 0; letter-spacing: 1px; text-transform: uppercase; }
+        .hero p { color: var(--text-muted); font-size: 16px; max-width: 600px; margin: 0 auto; }
         
-        /* Blog Layout */
+        /* Blog Area Layout */
         .blog-container { max-width: 850px; margin: 40px auto; padding: 0 20px; flex: 1; width: 100%; box-sizing: border-box; }
         
         .blog-card { 
@@ -103,23 +92,20 @@
             border-radius: 12px; 
             padding: 30px; 
             margin-bottom: 30px; 
-            box-shadow: 0 10px 30px rgba(0,0,0,0.05); 
+            box-shadow: 0 10px 30px rgba(0,0,0,0.02); 
             border: 1px solid var(--border-color);
             border-left: 4px solid var(--gold); 
             transition: all 0.3s ease; 
         }
-        [data-theme="dark"] .blog-card { box-shadow: 0 10px 30px rgba(0,0,0,0.25); }
         .blog-card:hover { transform: translateY(-5px); border-color: var(--gold); }
         
         .blog-title { margin: 0 0 12px 0; font-size: 24px; }
         .blog-title a { color: var(--text-main); text-decoration: none; transition: color 0.2s; }
-        [data-theme="dark"] .blog-title a { color: #ffffff; }
         .blog-title a:hover { color: var(--gold-light); }
         
         .blog-meta { color: var(--text-muted); font-size: 13px; margin-bottom: 15px; display: flex; gap: 15px; }
         .blog-meta i { color: var(--gold); }
         .blog-desc { color: var(--text-muted); line-height: 1.6; margin-bottom: 20px; font-size: 15px; }
-        [data-theme="dark"] .blog-desc { color: #cbd5e1; }
         
         .read-more-btn { 
             display: inline-block;
@@ -132,10 +118,9 @@
             border-radius: 6px;
             transition: opacity 0.2s;
         }
-        [data-theme="dark"] .read-more-btn { color: #0a1118; }
         .read-more-btn:hover { opacity: 0.9; }
         
-        /* Premium Floating WhatsApp Button */
+        /* Floating WhatsApp Icon */
         .whatsapp-float {
             position: fixed;
             bottom: 25px;
@@ -154,9 +139,7 @@
             font-size: 28px;
             transition: transform 0.3s;
         }
-        .whatsapp-float:hover {
-            transform: scale(1.1);
-        }
+        .whatsapp-float:hover { transform: scale(1.1); }
 
         /* Premium Footer */
         footer { 
@@ -180,12 +163,11 @@
                 <div class="sub-title">Tax &amp; Regulatory Excellence</div>
             </div>
         </a>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="blogs.html" class="active">Blog</a>
-            <a href="index.html#contact">Contact</a>
-        </nav>
-        <div class="header-spacer"></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="blogs.html" class="active">Blog</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+        </ul>
     </header>
 
     <section class="hero">
@@ -194,7 +176,6 @@
     </section>
 
     <div class="blog-container">
-        
         <div class="blog-card">
             <h2 class="blog-title">
                 <a href="blog/fbr-ntn-registration-guide.html">How to Become a Filer in Pakistan 2026: Complete FBR Guide</a>
@@ -206,7 +187,6 @@
             <p class="blog-desc">Learn how to register your NTN online via the FBR Iris portal, file your annual tax returns, and safely appear on the Active Taxpayer List (ATL) to avoid non-filer withholding tax penalties.</p>
             <a href="blog/fbr-ntn-registration-guide.html" class="read-more-btn">Read Full Article →</a>
         </div>
-
     </div>
 
     <a href="https://wa.me/923284675162?text=Hi%20Kamboh%20Associates%2C%20I%20read%20your%20tax%20insights%20blog%20and%20want%20to%20consult%20an%20expert." class="whatsapp-float" target="_blank">
@@ -218,15 +198,23 @@
     </footer>
 
     <script>
-        function matchMainSiteTheme() {
-            const savedTheme = localStorage.getItem('theme') || localStorage.getItem('darkMode');
-            if (savedTheme === 'dark' || savedTheme === 'true') {
+        function applySavedTheme() {
+            // Yeh check karega index.html ne kis tarah theme store kiya hai (theme, mode, ya dark-mode class)
+            const localTheme = localStorage.getItem('theme') || localStorage.getItem('darkMode') || localStorage.getItem('mode');
+            
+            if (localTheme === 'dark' || localTheme === 'true' || localTheme === 'enabled') {
                 document.documentElement.setAttribute('data-theme', 'dark');
+                document.body.classList.add('dark-mode');
             } else {
                 document.documentElement.removeAttribute('data-theme');
+                document.body.classList.remove('dark-mode');
             }
         }
-        matchMainSiteTheme();
+        
+        // Instant trigger on load
+        applySavedTheme();
+        // Fallback short timeout taake agar slow rendering ho tab bhi set ho jaye
+        setTimeout(applySavedTheme, 100);
     </script>
 
 </body>
