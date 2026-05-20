@@ -98,7 +98,6 @@ STEP 2: Update blog listing
         Add post to blogPosts array:
      {
   id: 'income-tax-return-pakistan',
-  slug: 'income-tax-return-pakistan',
   title: 'Who Should File Income Tax Return in Pakistan?',
   excerpt: 'Complete guide for salaried persons, freelancers, and business owners in Pakistan.',
   category: 'Taxation',
