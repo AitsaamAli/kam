@@ -4,508 +4,545 @@
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <meta name="description" content="Latest insights on tax, regulatory compliance, and business strategy from Kamboh Associates."/>
-<meta name="keywords" content="tax blog, regulatory compliance, Pakistan business insights"/>
-<meta name="og:title" content="Blog - Kamboh Associates"/>
-<meta name="og:description" content="Expert tax and regulatory insights"/>
-<meta name="og:type" content="website"/>
-<title>Blog - Kamboh Associates — Tax & Regulatory Excellence in Pakistan</title>
+<title>Blog — Kamboh Associates | Tax & Regulatory Excellence in Pakistan</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500;600&family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
 <style>
 :root {
-  --gold:        #B8860B;
-  --gold-light:  #D4AF37;
-  --gold-dim:    #8B6914;
-  --gold-pale:   #FDF6E3;
-  --amber:       #D97706;
-  --blue:        #1E40AF;
-  --blue-mid:    #2563EB;
-  --blue-light:  #3B82F6;
-  --green:       #059669;
-  --red:         #DC2626;
-  --font-display: 'Cinzel', serif;
-  --font-serif:   'Cormorant Garamond', Georgia, serif;
-  --font-body:    'DM Sans', system-ui, sans-serif;
-  --max-w: 1200px;
-  --ease: cubic-bezier(0.4,0,0.2,1);
+  --gold:#B8860B; --gold-light:#D4AF37; --gold-dim:#8B6914; --gold-pale:#FDF6E3;
+  --amber:#D97706; --blue:#1E40AF; --blue-mid:#2563EB; --blue-light:#3B82F6;
+  --green:#059669; --red:#DC2626;
+  --font-display:'Cinzel',serif; --font-serif:'Cormorant Garamond',Georgia,serif;
+  --font-body:'DM Sans',system-ui,sans-serif;
+  --max-w:1200px; --ease:cubic-bezier(0.4,0,0.2,1); --ease-spring:cubic-bezier(0.34,1.56,0.64,1);
+  --radius:12px; --radius-lg:20px;
 }
-
 [data-theme="light"] {
-  --bg:          #FFFFFF;
-  --bg-2:        #F8F9FA;
-  --bg-3:        #F1F3F5;
-  --surface:     #FFFFFF;
-  --surface-2:   #F8F9FA;
-  --border:      #E2E8F0;
-  --text:        #0F172A;
-  --text-2:      #334155;
-  --text-3:      #64748B;
+  --bg:#FFFFFF; --bg-2:#F8F9FA; --bg-3:#F1F3F5; --bg-4:#E9ECEF;
+  --surface:#FFFFFF; --surface-2:#F8F9FA;
+  --border:#E2E8F0; --border-gold:rgba(184,134,11,0.2);
+  --text:#0F172A; --text-2:#334155; --text-3:#64748B; --text-4:#94A3B8;
+  --topbar-bg:#0F172A; --topbar-text:#94A3B8;
+  --nav-bg:rgba(255,255,255,0.97); --nav-border:#E2E8F0;
+  --shadow:0 1px 3px rgba(0,0,0,0.08),0 4px 16px rgba(0,0,0,0.06);
+  --shadow-lg:0 8px 32px rgba(0,0,0,0.1),0 2px 8px rgba(0,0,0,0.06);
+  --shadow-xl:0 20px 60px rgba(0,0,0,0.12);
+  --gold-bg:rgba(184,134,11,0.06); --blue-bg:rgba(37,99,235,0.06);
+  --card-hover:#FAFBFC;
 }
-
 [data-theme="dark"] {
-  --bg:          #0F172A;
-  --bg-2:        #1E293B;
-  --bg-3:        #334155;
-  --surface:     #1E293B;
-  --surface-2:   #334155;
-  --border:      #475569;
-  --text:        #F1F5F9;
-  --text-2:      #CBD5E1;
-  --text-3:      #94A3B8;
+  --bg:#0A0F1E; --bg-2:#0F172A; --bg-3:#1E293B; --bg-4:#263247;
+  --surface:#0F172A; --surface-2:#1A2540;
+  --border:rgba(255,255,255,0.08); --border-gold:rgba(212,175,55,0.2);
+  --text:#F1F5F9; --text-2:#CBD5E1; --text-3:#64748B; --text-4:#475569;
+  --topbar-bg:#060C1A; --topbar-text:#64748B;
+  --nav-bg:rgba(10,15,30,0.97); --nav-border:rgba(255,255,255,0.06);
+  --shadow:0 1px 3px rgba(0,0,0,0.4),0 4px 16px rgba(0,0,0,0.3);
+  --shadow-lg:0 8px 32px rgba(0,0,0,0.5);
+  --shadow-xl:0 20px 60px rgba(0,0,0,0.6);
+  --gold-bg:rgba(212,175,55,0.08); --blue-bg:rgba(37,99,235,0.1);
+  --card-hover:rgba(30,41,59,0.9);
 }
 
-* { margin: 0; padding: 0; box-sizing: border-box; }
-html { scroll-behavior: smooth; }
-body {
-  background: var(--bg);
-  color: var(--text);
-  font-family: var(--font-body);
-  line-height: 1.6;
-  transition: background-color 0.3s, color 0.3s;
-}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;font-size:16px}
+body{font-family:var(--font-body);background:var(--bg);color:var(--text);line-height:1.65;overflow-x:hidden;transition:background .3s,color .3s}
+a{text-decoration:none;color:inherit}
+img{max-width:100%;display:block}
+ul{list-style:none}
+::-webkit-scrollbar{width:5px}
+::-webkit-scrollbar-track{background:var(--bg-2)}
+::-webkit-scrollbar-thumb{background:var(--gold-light);border-radius:4px}
 
-nav {
-  background: var(--surface);
-  border-bottom: 1px solid var(--border);
-  padding: 1rem 2rem;
-  position: sticky;
-  top: 0;
-  z-index: 100;
-}
-.nav-container {
-  max-width: var(--max-w);
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.logo {
-  font-family: var(--font-display);
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: var(--gold);
-  text-decoration: none;
-}
-.nav-links {
-  display: flex;
-  gap: 2rem;
-  list-style: none;
-}
-.nav-links a {
-  color: var(--text);
-  text-decoration: none;
-  font-weight: 500;
-  transition: color 0.3s;
-}
-.nav-links a:hover { color: var(--gold); }
+/* ── TOPBAR ── */
+.topbar{background:var(--topbar-bg);border-bottom:1px solid rgba(255,255,255,.06);padding:8px 0;font-size:.75rem;color:var(--topbar-text)}
+.container{max-width:var(--max-w);margin:0 auto;padding:0 24px}
+.topbar .container{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.topbar-left{font-family:var(--font-display);font-size:.58rem;letter-spacing:.24em;color:var(--gold-light);text-transform:uppercase}
+.topbar-right{display:flex;gap:20px;align-items:center}
+.topbar-right a{color:var(--topbar-text);transition:color .2s;display:flex;align-items:center;gap:5px}
+.topbar-right a:hover{color:var(--gold-light)}
+.topbar-right i{color:var(--gold-light)}
+.topbar-tag{background:rgba(184,134,11,.12);border:1px solid rgba(184,134,11,.25);border-radius:100px;padding:2px 10px;font-size:.63rem;color:var(--gold-light);font-family:var(--font-display);letter-spacing:.1em}
 
-.hero {
-  background: linear-gradient(135deg, var(--gold-pale), var(--surface-2));
-  padding: 4rem 2rem;
-  text-align: center;
-}
-.hero h1 {
-  font-family: var(--font-display);
-  font-size: 3rem;
-  color: var(--gold);
-  margin-bottom: 1rem;
-}
-.hero p {
-  font-size: 1.2rem;
-  color: var(--text-2);
-  max-width: 600px;
-  margin: 0 auto;
-}
+/* ── NAVBAR ── */
+.navbar{position:sticky;top:0;z-index:1000;background:var(--nav-bg);backdrop-filter:blur(20px);border-bottom:1px solid var(--nav-border);transition:box-shadow .3s,border-color .3s,background .3s}
+.navbar.scrolled{box-shadow:var(--shadow-lg);border-bottom-color:var(--border-gold)}
+.navbar .container{display:flex;align-items:center;justify-content:space-between;height:68px}
+.logo{display:flex;align-items:center;gap:12px}
+.logo-emblem svg{filter:drop-shadow(0 2px 8px rgba(184,134,11,.25))}
+.logo-name{font-family:var(--font-display);font-size:.92rem;font-weight:700;color:var(--text);letter-spacing:.07em;line-height:1.2}
+.logo-sub{font-size:.56rem;letter-spacing:.18em;color:var(--gold-light);text-transform:uppercase}
+.nav-links{display:flex;align-items:center;gap:32px}
+.nav-links a{font-size:.84rem;font-weight:400;color:var(--text-3);letter-spacing:.03em;position:relative;transition:color .25s;padding:4px 0}
+.nav-links a::after{content:'';position:absolute;bottom:-2px;left:0;right:0;height:1.5px;background:linear-gradient(90deg,var(--gold-light),var(--amber));border-radius:2px;transform:scaleX(0);transform-origin:right;transition:transform .3s var(--ease)}
+.nav-links a:hover{color:var(--text)}
+.nav-links a:hover::after{transform:scaleX(1);transform-origin:left}
+.nav-links a.active{color:var(--gold-light)}
+.nav-links a.active::after{transform:scaleX(1)}
+.nav-actions{display:flex;align-items:center;gap:12px}
+.nav-phone{font-size:.8rem;color:var(--text-3);display:flex;align-items:center;gap:6px}
+.nav-phone i{color:var(--gold-light)}
+.nav-phone a{color:var(--text-3);transition:color .2s}
+.nav-phone a:hover{color:var(--gold-light)}
+.theme-toggle{width:42px;height:22px;background:var(--bg-4);border:1px solid var(--border);border-radius:11px;cursor:pointer;position:relative;transition:background .3s;flex-shrink:0}
+.theme-toggle::after{content:'';position:absolute;left:2px;top:2px;width:16px;height:16px;border-radius:50%;background:var(--gold-light);transition:transform .3s var(--ease-spring);box-shadow:0 1px 4px rgba(0,0,0,.2)}
+[data-theme="dark"] .theme-toggle::after{transform:translateX(20px)}
+.theme-toggle-icon{position:absolute;inset:0;display:flex;align-items:center;justify-content:space-between;padding:0 4px;font-size:.55rem;pointer-events:none}
+.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:4px;background:none;border:none}
+.hamburger span{width:22px;height:2px;background:var(--text-3);border-radius:2px;transition:all .3s;display:block}
+.hamburger.open span:nth-child(1){transform:rotate(45deg) translate(5px,5px)}
+.hamburger.open span:nth-child(2){opacity:0}
+.hamburger.open span:nth-child(3){transform:rotate(-45deg) translate(5px,-5px)}
+.mobile-nav{display:none;flex-direction:column;background:var(--surface);border-bottom:1px solid var(--border-gold);box-shadow:var(--shadow-lg)}
+.mobile-nav.open{display:flex}
+.mobile-nav a{padding:14px 24px;border-bottom:1px solid var(--border);font-size:.9rem;color:var(--text-3);transition:color .2s,background .2s,padding-left .2s}
+.mobile-nav a:hover{color:var(--gold-light);background:var(--gold-bg);padding-left:32px}
 
-.container { max-width: var(--max-w); margin: 0 auto; padding: 3rem 2rem; }
-.blog-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-  gap: 2rem;
-  margin: 2rem 0;
-}
-.blog-card {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  overflow: hidden;
-  transition: all 0.3s;
-  cursor: pointer;
-  display: flex;
-  flex-direction: column;
-}
-.blog-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 12px 24px rgba(184,134,11,0.15);
-  border-color: var(--gold);
-}
-.blog-card-image {
-  width: 100%;
-  height: 200px;
-  background: linear-gradient(135deg, var(--gold-pale), var(--bg-3));
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 3rem;
-  color: var(--gold-dim);
-}
-.blog-card-content {
-  padding: 1.5rem;
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-}
-.blog-category {
-  display: inline-block;
-  background: rgba(184,134,11,0.1);
-  color: var(--gold);
-  padding: 0.4rem 0.8rem;
-  border-radius: 4px;
-  font-size: 0.85rem;
-  font-weight: 600;
-  margin-bottom: 0.5rem;
-  width: fit-content;
-}
-.blog-title {
-  font-family: var(--font-serif);
-  font-size: 1.3rem;
-  color: var(--text);
-  margin-bottom: 0.5rem;
-  line-height: 1.4;
-}
-.blog-excerpt {
-  color: var(--text-3);
-  font-size: 0.95rem;
-  margin-bottom: 1rem;
-  flex-grow: 1;
-}
-.blog-meta {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: var(--text-3);
-  font-size: 0.85rem;
-  border-top: 1px solid var(--border);
-  padding-top: 1rem;
-}
-.blog-date { display: flex; align-items: center; gap: 0.5rem; }
-.read-time { display: flex; align-items: center; gap: 0.5rem; }
+/* ── HERO ── */
+.blog-hero{background:linear-gradient(135deg,var(--gold-pale),var(--surface-2));padding:80px 0 60px;text-align:center;position:relative;overflow:hidden}
+[data-theme="dark"] .blog-hero{background:linear-gradient(135deg,rgba(184,134,11,0.08),var(--bg-2))}
+.blog-hero::before{content:'';position:absolute;inset:0;background-image:linear-gradient(rgba(184,134,11,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(184,134,11,.04) 1px,transparent 1px);background-size:48px 48px;mask-image:radial-gradient(ellipse 80% 80% at 50% 50%,black 0%,transparent 100%)}
+.blog-hero .container{position:relative;z-index:2}
+.blog-hero-eyebrow{font-family:var(--font-display);font-size:.6rem;letter-spacing:.3em;text-transform:uppercase;color:var(--gold-light);display:block;margin-bottom:16px}
+.blog-hero h1{font-family:var(--font-serif);font-size:clamp(2rem,4vw,3.2rem);font-weight:700;color:var(--text);margin-bottom:16px;line-height:1.1}
+.blog-hero h1 span{background:linear-gradient(135deg,var(--gold-light),var(--gold));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.blog-hero p{font-size:1.05rem;color:var(--text-3);max-width:560px;margin:0 auto 32px}
+.blog-hero-stats{display:inline-flex;gap:40px;background:var(--surface);border:1px solid var(--border-gold);border-radius:var(--radius);padding:16px 32px;box-shadow:var(--shadow)}
+.bhs-item{text-align:center}
+.bhs-n{font-family:var(--font-serif);font-size:1.5rem;font-weight:700;color:var(--gold-light)}
+.bhs-l{font-size:.68rem;color:var(--text-3);text-transform:uppercase;letter-spacing:.06em}
 
-footer {
-  background: var(--surface-2);
-  border-top: 1px solid var(--border);
-  padding: 3rem 2rem;
-  text-align: center;
-  color: var(--text-3);
-}
+/* ── FILTER BAR ── */
+.filter-bar{background:var(--surface);border-bottom:1px solid var(--border);padding:16px 0;position:sticky;top:68px;z-index:100;box-shadow:var(--shadow)}
+.filter-bar .container{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.filter-label{font-size:.78rem;color:var(--text-3);font-family:var(--font-display);letter-spacing:.1em;text-transform:uppercase;white-space:nowrap}
+.filter-btn{padding:6px 16px;border-radius:100px;border:1px solid var(--border);background:transparent;color:var(--text-3);font-size:.8rem;cursor:pointer;transition:all .25s;font-family:var(--font-body)}
+.filter-btn:hover{border-color:var(--gold-light);color:var(--gold-light);background:var(--gold-bg)}
+.filter-btn.active{background:var(--gold-light);color:#fff;border-color:var(--gold-light)}
+.filter-search{margin-left:auto;position:relative}
+.filter-search input{background:var(--bg-2);border:1px solid var(--border);border-radius:8px;padding:7px 12px 7px 32px;font-size:.83rem;color:var(--text);width:200px;transition:all .25s;font-family:var(--font-body)}
+.filter-search input:focus{outline:none;border-color:var(--gold-light);width:240px;background:var(--surface)}
+.filter-search i{position:absolute;left:10px;top:50%;transform:translateY(-50%);color:var(--text-4);font-size:.8rem}
 
-@media (max-width: 768px) {
-  .hero h1 { font-size: 2rem; }
-  .blog-grid { grid-template-columns: 1fr; }
-  .nav-links { gap: 1rem; font-size: 0.9rem; }
+/* ── BLOG GRID ── */
+.blog-section{padding:60px 0 100px}
+.blog-section .container{display:grid;grid-template-columns:1fr 300px;gap:48px;align-items:start}
+.blog-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.blog-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden;transition:all .3s var(--ease);cursor:pointer;display:flex;flex-direction:column}
+.blog-card:hover{transform:translateY(-6px);box-shadow:0 16px 40px rgba(184,134,11,0.15);border-color:var(--border-gold)}
+.blog-card.featured{grid-column:1/-1;flex-direction:row}
+.blog-card.featured .blog-card-img{width:45%;flex-shrink:0;height:auto;min-height:220px}
+.blog-card-img{height:200px;background:linear-gradient(135deg,var(--gold-pale),var(--bg-3));display:flex;align-items:center;justify-content:center;font-size:3.5rem;position:relative;overflow:hidden}
+[data-theme="dark"] .blog-card-img{background:linear-gradient(135deg,rgba(184,134,11,0.1),var(--bg-3))}
+.blog-card-img::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,transparent 60%,rgba(0,0,0,0.05))}
+.blog-card-body{padding:24px;flex-grow:1;display:flex;flex-direction:column}
+.blog-category-tag{display:inline-flex;align-items:center;gap:5px;background:var(--gold-bg);border:1px solid var(--border-gold);border-radius:100px;padding:3px 12px;font-size:.68rem;color:var(--gold-light);font-family:var(--font-display);letter-spacing:.1em;text-transform:uppercase;margin-bottom:12px;width:fit-content}
+.blog-card-title{font-family:var(--font-serif);font-size:1.25rem;font-weight:600;color:var(--text);margin-bottom:10px;line-height:1.35}
+.blog-card.featured .blog-card-title{font-size:1.6rem}
+.blog-card-excerpt{color:var(--text-3);font-size:.9rem;line-height:1.72;flex-grow:1;margin-bottom:18px}
+.blog-card-meta{display:flex;justify-content:space-between;align-items:center;padding-top:14px;border-top:1px solid var(--border);font-size:.78rem;color:var(--text-3)}
+.blog-meta-left{display:flex;align-items:center;gap:14px}
+.blog-meta-left span{display:flex;align-items:center;gap:5px}
+.blog-meta-left i{color:var(--gold-light)}
+.read-more{color:var(--gold-light);font-weight:500;display:flex;align-items:center;gap:4px;transition:gap .2s}
+.blog-card:hover .read-more{gap:8px}
+.no-results{text-align:center;padding:80px 0;color:var(--text-3)}
+.no-results i{font-size:3rem;color:var(--border);display:block;margin-bottom:16px}
+
+/* ── SIDEBAR ── */
+.sidebar{display:flex;flex-direction:column;gap:24px}
+.sidebar-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:24px}
+.sidebar-title{font-family:var(--font-display);font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold-light);margin-bottom:16px;display:flex;align-items:center;gap:8px}
+.sidebar-title::after{content:'';flex:1;height:1px;background:var(--border-gold)}
+.recent-post{display:flex;gap:12px;padding:10px 0;border-bottom:1px solid var(--border);cursor:pointer;transition:all .2s}
+.recent-post:last-child{border-bottom:none}
+.recent-post:hover{padding-left:6px}
+.recent-post-icon{width:40px;height:40px;border-radius:8px;background:var(--gold-bg);border:1px solid var(--border-gold);display:flex;align-items:center;justify-content:center;font-size:1.2rem;flex-shrink:0}
+.recent-post-title{font-size:.83rem;color:var(--text);font-weight:500;line-height:1.35;margin-bottom:4px}
+.recent-post-date{font-size:.72rem;color:var(--text-3)}
+.cta-card{background:linear-gradient(135deg,var(--gold-dim),var(--gold));border-radius:var(--radius);padding:28px;text-align:center;color:#fff}
+.cta-card h3{font-family:var(--font-serif);font-size:1.3rem;margin-bottom:8px}
+.cta-card p{font-size:.85rem;opacity:.9;margin-bottom:20px;line-height:1.6}
+.cta-card a{display:inline-flex;align-items:center;gap:8px;background:#fff;color:var(--gold);padding:10px 22px;border-radius:8px;font-weight:600;font-size:.85rem;transition:all .2s}
+.cta-card a:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(0,0,0,0.2)}
+.category-list{display:flex;flex-direction:column;gap:8px}
+.cat-item{display:flex;justify-content:space-between;align-items:center;padding:8px 12px;border-radius:8px;cursor:pointer;transition:all .2s;font-size:.87rem}
+.cat-item:hover{background:var(--gold-bg);color:var(--gold-light)}
+.cat-count{background:var(--bg-3);border-radius:100px;padding:2px 8px;font-size:.72rem;color:var(--text-3)}
+
+/* ── WHATSAPP ── */
+.whatsapp-float{position:fixed;bottom:28px;right:28px;background:#25D366;color:#fff;border-radius:50%;width:58px;height:58px;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 20px rgba(37,211,102,0.4);z-index:1000;font-size:1.6rem;transition:all .3s}
+.whatsapp-float:hover{transform:scale(1.12);box-shadow:0 8px 28px rgba(37,211,102,0.5)}
+
+/* ── FOOTER ── */
+footer{background:var(--topbar-bg);border-top:1px solid rgba(255,255,255,.06);padding:40px 0;text-align:center;color:#64748B}
+.footer-logo{font-family:var(--font-display);font-size:1.1rem;color:var(--gold-light);letter-spacing:.1em;margin-bottom:12px}
+.footer-links{display:flex;justify-content:center;gap:28px;margin:16px 0;flex-wrap:wrap}
+.footer-links a{color:#64748B;font-size:.85rem;transition:color .2s}
+.footer-links a:hover{color:var(--gold-light)}
+.footer-copy{font-size:.78rem;margin-top:8px}
+
+/* ── REVEAL ── */
+.reveal{opacity:0;transform:translateY(28px);transition:opacity .6s var(--ease),transform .6s var(--ease)}
+.reveal.visible{opacity:1;transform:none}
+
+/* ── RESPONSIVE ── */
+@media(max-width:1024px){
+  .blog-section .container{grid-template-columns:1fr}
+  .sidebar{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+}
+@media(max-width:768px){
+  .nav-links,.nav-phone{display:none}
+  .hamburger{display:flex}
+  .blog-grid{grid-template-columns:1fr}
+  .blog-card.featured{flex-direction:column}
+  .blog-card.featured .blog-card-img{width:100%;min-height:180px}
+  .blog-hero{padding:50px 0 40px}
+  .blog-hero-stats{flex-direction:column;gap:16px;padding:16px 24px}
+  .filter-bar .container{gap:8px}
+  .filter-search{margin-left:0;width:100%}
+  .filter-search input{width:100%}
+  .topbar-right .topbar-tag,.topbar-right a:not(:first-child){display:none}
+  .sidebar{display:flex;flex-direction:column}
 }
 </style>
+<script>
+(function(){
+  const t=localStorage.getItem('site-theme');
+  if(t) document.documentElement.setAttribute('data-theme',t);
+})();
+</script>
 </head>
 <body>
 
-<nav>
-  <div class="nav-container">
-    <a href="index.html" class="logo">KA</a>
+<!-- TOPBAR -->
+<div class="topbar">
+  <div class="container">
+    <span class="topbar-left">KA • Tax Consultant • Regulatory Advisory</span>
+    <div class="topbar-right">
+      <span class="topbar-tag">Est. 2008</span>
+      <a href="tel:03284675162"><i class="fas fa-phone"></i><span>0328-4675162</span></a>
+      <a href="mailto:info@kambohassociates.com"><i class="fas fa-envelope"></i><span>info@kambohassociates.com</span></a>
+    </div>
+  </div>
+</div>
+
+<!-- NAVBAR -->
+<nav class="navbar" id="navbar">
+  <div class="container">
+    <a href="index.html" class="logo">
+      <div class="logo-emblem">
+        <svg width="44" height="44" viewBox="0 0 46 46" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#1a3a1a"/>
+              <stop offset="100%" stop-color="#0d2a0d"/>
+            </linearGradient>
+            <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#F0CF6B"/>
+              <stop offset="100%" stop-color="#D4AF37"/>
+            </linearGradient>
+          </defs>
+          <circle cx="23" cy="23" r="23" fill="url(#logoGrad)"/>
+          <circle cx="23" cy="23" r="21" fill="none" stroke="url(#goldGrad)" stroke-width="1.5"/>
+          <text x="23" y="27" font-family="Cinzel,serif" font-size="13" font-weight="700" fill="url(#goldGrad)" text-anchor="middle" letter-spacing="1">KA</text>
+          <path id="circle-path" d="M 23,23 m -17,0 a 17,17 0 1,1 34,0 a 17,17 0 1,1 -34,0" fill="none"/>
+          <text font-family="Cinzel,serif" font-size="3.8" fill="#D4AF37" letter-spacing="1.8">
+            <textPath href="#circle-path" startOffset="3%">KAMBOH ASSOCIATES • TAX CONSULTANT •</textPath>
+          </text>
+        </svg>
+      </div>
+      <div>
+        <div class="logo-name">KAMBOH ASSOCIATES</div>
+        <div class="logo-sub">Tax &amp; Regulatory Excellence</div>
+      </div>
+    </a>
+
     <ul class="nav-links">
       <li><a href="index.html">Home</a></li>
-      <li><a href="blogs.html">Blog</a></li>
+      <li><a href="index.html#services">Services</a></li>
+      <li><a href="index.html#tools">Tools</a></li>
+      <li><a href="index.html#deadlines">Deadlines</a></li>
+      <li><a href="blogs.html" class="active">Blog</a></li>
       <li><a href="index.html#contact">Contact</a></li>
     </ul>
+
+    <div class="nav-actions">
+      <span class="nav-phone"><i class="fas fa-phone"></i><a href="tel:03284675162">0328-4675162</a></span>
+      <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
+        <span class="theme-toggle-icon"><i class="fas fa-sun"></i><i class="fas fa-moon"></i></span>
+      </button>
+      <button class="hamburger" id="hamburger" onclick="toggleMobileNav()" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <div class="mobile-nav" id="mobileNav">
+    <a href="index.html" onclick="closeMobileNav()">Home</a>
+    <a href="index.html#services" onclick="closeMobileNav()">Services</a>
+    <a href="index.html#tools" onclick="closeMobileNav()">Tax Tools</a>
+    <a href="index.html#deadlines" onclick="closeMobileNav()">Tax Deadlines</a>
+    <a href="blogs.html" class="active" onclick="closeMobileNav()">Blog</a>
+    <a href="index.html#contact" onclick="closeMobileNav()">Contact</a>
+    <a href="https://wa.me/923284675162" target="_blank" style="color:#25D366"><i class="fab fa-whatsapp" style="margin-right:8px"></i>WhatsApp Advisory</a>
   </div>
 </nav>
 
-<div class="hero">
-  <h1>Insights & Updates</h1>
-  <p>Expert perspectives on tax regulations, compliance, and business strategy</p>
+<!-- BLOG HERO -->
+<section class="blog-hero">
+  <div class="container">
+    <span class="blog-hero-eyebrow">Knowledge Hub</span>
+    <h1>Tax &amp; Regulatory <span>Insights</span></h1>
+    <p>Expert perspectives on Pakistan's tax laws, FBR compliance, business registration, and financial strategy</p>
+    <div class="blog-hero-stats">
+      <div class="bhs-item"><div class="bhs-n">12+</div><div class="bhs-l">Articles</div></div>
+      <div class="bhs-item"><div class="bhs-n">5</div><div class="bhs-l">Categories</div></div>
+      <div class="bhs-item"><div class="bhs-n">2026</div><div class="bhs-l">Updated</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- FILTER BAR -->
+<div class="filter-bar">
+  <div class="container">
+    <span class="filter-label">Filter:</span>
+    <button class="filter-btn active" onclick="filterPosts('all',this)">All Posts</button>
+    <button class="filter-btn" onclick="filterPosts('Tax Planning',this)">Tax Planning</button>
+    <button class="filter-btn" onclick="filterPosts('Compliance',this)">Compliance</button>
+    <button class="filter-btn" onclick="filterPosts('FBR',this)">FBR</button>
+    <button class="filter-btn" onclick="filterPosts('Business',this)">Business</button>
+    <div class="filter-search">
+      <i class="fas fa-search"></i>
+      <input type="text" placeholder="Search articles..." id="searchInput" oninput="searchPosts(this.value)">
+    </div>
+  </div>
 </div>
 
-<div class="container">
-  <div id="blog-list" class="blog-grid"></div>
-</div>
+<!-- BLOG SECTION -->
+<section class="blog-section">
+  <div class="container">
+    <div>
+      <div class="blog-grid" id="blogGrid"></div>
+      <div class="no-results hidden" id="noResults">
+        <i class="fas fa-search"></i>
+        <p>No articles found. Try a different search or category.</p>
+      </div>
+    </div>
 
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <div class="sidebar-card cta-card">
+        <h3>Need Tax Help?</h3>
+        <p>Get expert advice from our certified tax advisors. Fast, reliable, and trusted since 2008.</p>
+        <a href="index.html#contact"><i class="fas fa-arrow-right"></i> Consult Now</a>
+      </div>
+
+      <div class="sidebar-card">
+        <div class="sidebar-title"><i class="fas fa-layer-group"></i> Categories</div>
+        <div class="category-list">
+          <div class="cat-item" onclick="filterPosts('all',null)">All Articles <span class="cat-count">4</span></div>
+          <div class="cat-item" onclick="filterPosts('FBR',null)">FBR &amp; NTN <span class="cat-count">2</span></div>
+          <div class="cat-item" onclick="filterPosts('Tax Planning',null)">Tax Planning <span class="cat-count">1</span></div>
+          <div class="cat-item" onclick="filterPosts('Compliance',null)">Compliance <span class="cat-count">1</span></div>
+        </div>
+      </div>
+
+      <div class="sidebar-card">
+        <div class="sidebar-title"><i class="fas fa-clock"></i> Recent Posts</div>
+        <div id="recentPosts"></div>
+      </div>
+
+      <div class="sidebar-card">
+        <div class="sidebar-title"><i class="fas fa-calculator"></i> Quick Tools</div>
+        <a href="index.html#tools" style="display:flex;align-items:center;gap:10px;padding:10px 0;border-bottom:1px solid var(--border);color:var(--text-3);font-size:.87rem;transition:all .2s" onmouseover="this.style.color='var(--gold-light)'" onmouseout="this.style.color='var(--text-3)'">
+          <i class="fas fa-file-invoice-dollar" style="color:var(--gold-light)"></i> Salary Tax Calculator
+        </a>
+        <a href="index.html#tools" style="display:flex;align-items:center;gap:10px;padding:10px 0;border-bottom:1px solid var(--border);color:var(--text-3);font-size:.87rem;transition:all .2s" onmouseover="this.style.color='var(--gold-light)'" onmouseout="this.style.color='var(--text-3)'">
+          <i class="fas fa-percent" style="color:var(--gold-light)"></i> GST Calculator
+        </a>
+        <a href="index.html#tools" style="display:flex;align-items:center;gap:10px;padding:10px 0;color:var(--text-3);font-size:.87rem;transition:all .2s" onmouseover="this.style.color='var(--gold-light)'" onmouseout="this.style.color='var(--text-3)'">
+          <i class="fas fa-building" style="color:var(--gold-light)"></i> Business Tax Estimator
+        </a>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<!-- WHATSAPP -->
+<a href="https://wa.me/923284675162?text=Hi%20Kamboh%20Associates%2C%20I%20read%20your%20blog%20and%20want%20to%20consult." class="whatsapp-float" target="_blank" aria-label="WhatsApp">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+<!-- FOOTER -->
 <footer>
-  <p>&copy; 2026 Kamboh Associates. All rights reserved.</p>
+  <div class="container">
+    <div class="footer-logo">KAMBOH ASSOCIATES</div>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="index.html#services">Services</a>
+      <a href="index.html#tools">Tax Tools</a>
+      <a href="index.html#deadlines">Deadlines</a>
+      <a href="blogs.html">Blog</a>
+      <a href="index.html#contact">Contact</a>
+    </div>
+    <p class="footer-copy">&copy; 2026 Kamboh Associates. Tax &amp; Corporate Advisory Services. All rights reserved.</p>
+  </div>
 </footer>
 
 <script>
 const blogPosts = [
   {
+    id: 'fbr-ntn-registration-guide',
+    title: 'How to Become a Filer in Pakistan 2026: Complete FBR Guide',
+    excerpt: 'Learn how to register your NTN online via the FBR Iris portal, file your annual tax returns, and safely appear on the Active Taxpayer List (ATL) to avoid non-filer withholding tax penalties.',
+    category: 'FBR',
+    date: '2026-05-20',
+    author: 'Kamboh Associates',
+    readTime: '7 min read',
+    icon: '🏛️',
+    featured: true,
+    link: 'blog/fbr-ntn-registration-guide.html'
+  },
+  {
     id: 'tax-deductions-2026',
-    title: 'Essential Tax Deductions for 2026',
-    excerpt: 'Learn about the most valuable tax deductions available to Pakistani businesses this year.',
+    title: 'Essential Tax Deductions for Businesses in 2026',
+    excerpt: 'Learn about the most valuable tax deductions available to Pakistani businesses this year under FBR Finance Act 2024–25.',
     category: 'Tax Planning',
     date: '2026-05-19',
     author: 'Kamboh Associates',
     readTime: '5 min read',
-    icon: '📊'
+    icon: '📊',
+    featured: false,
+    link: '#'
   },
   {
-    id: 'regulatory-compliance',
-    title: 'New Regulatory Compliance Requirements',
-    excerpt: 'Stay updated with the latest regulatory changes affecting your business operations.',
+    id: 'regulatory-compliance-2026',
+    title: 'New Regulatory Compliance Requirements for 2026',
+    excerpt: 'Stay updated with the latest regulatory changes from SECP and FBR affecting your business operations in Pakistan.',
     category: 'Compliance',
     date: '2026-05-15',
     author: 'Kamboh Associates',
     readTime: '4 min read',
-    icon: '⚖️'
+    icon: '⚖️',
+    featured: false,
+    link: '#'
+  },
+  {
+    id: 'secp-company-registration',
+    title: 'SECP Company Registration: Step-by-Step 2026 Guide',
+    excerpt: 'A complete walkthrough of registering your company with SECP, from name reservation to certificate of incorporation.',
+    category: 'Business',
+    date: '2026-05-10',
+    author: 'Kamboh Associates',
+    readTime: '6 min read',
+    icon: '🏢',
+    featured: false,
+    link: '#'
   }
 ];
 
-function renderBlogList() {
-  const blogList = document.getElementById('blog-list');
-  blogList.innerHTML = blogPosts.map(post => `
-    <div class="blog-card" onclick="window.location.href='blog/${post.id}.html'">
-      <div class="blog-card-image">${post.icon}</div>
-      <div class="blog-card-content">
-        <span class="blog-category">${post.category}</span>
-        <h3 class="blog-title">${post.title}</h3>
-        <p class="blog-excerpt">${post.excerpt}</p>
-        <div class="blog-meta">
-          <span class="blog-date">
-            <i class="far fa-calendar"></i>
-            ${new Date(post.date).toLocaleDateString('en-US', {year: 'numeric', month: 'short', day: 'numeric'})}
-          </span>
-          <span class="read-time">
-            <i class="far fa-clock"></i>
-            ${post.readTime}
-          </span>
+let currentFilter = 'all';
+let currentSearch = '';
+
+function renderPosts(posts) {
+  const grid = document.getElementById('blogGrid');
+  const noResults = document.getElementById('noResults');
+  if (!posts.length) {
+    grid.innerHTML = '';
+    noResults.classList.remove('hidden');
+    return;
+  }
+  noResults.classList.add('hidden');
+  grid.innerHTML = posts.map((post,i) => `
+    <div class="blog-card${post.featured ? ' featured' : ''} reveal" style="transition-delay:${i*0.07}s" onclick="window.location.href='${post.link}'">
+      <div class="blog-card-img">${post.icon}</div>
+      <div class="blog-card-body">
+        <span class="blog-category-tag">${post.category}</span>
+        <h3 class="blog-card-title">${post.title}</h3>
+        <p class="blog-card-excerpt">${post.excerpt}</p>
+        <div class="blog-card-meta">
+          <div class="blog-meta-left">
+            <span><i class="far fa-calendar-alt"></i>${new Date(post.date).toLocaleDateString('en-US',{year:'numeric',month:'short',day:'numeric'})}</span>
+            <span><i class="far fa-clock"></i>${post.readTime}</span>
+          </div>
+          <span class="read-more">Read <i class="fas fa-arrow-right" style="font-size:.7rem"></i></span>
         </div>
+      </div>
+    </div>
+  `).join('');
+  observeReveal();
+}
+
+function filterPosts(cat, btn) {
+  currentFilter = cat;
+  if (btn) {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+  }
+  applyFilters();
+}
+
+function searchPosts(val) {
+  currentSearch = val.toLowerCase();
+  applyFilters();
+}
+
+function applyFilters() {
+  let filtered = blogPosts;
+  if (currentFilter !== 'all') filtered = filtered.filter(p => p.category === currentFilter);
+  if (currentSearch) filtered = filtered.filter(p => p.title.toLowerCase().includes(currentSearch) || p.excerpt.toLowerCase().includes(currentSearch));
+  renderPosts(filtered);
+}
+
+function renderRecent() {
+  const el = document.getElementById('recentPosts');
+  el.innerHTML = blogPosts.slice(0,3).map(p=>`
+    <div class="recent-post" onclick="window.location.href='${p.link}'">
+      <div class="recent-post-icon">${p.icon}</div>
+      <div>
+        <div class="recent-post-title">${p.title}</div>
+        <div class="recent-post-date">${new Date(p.date).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'})}</div>
       </div>
     </div>
   `).join('');
 }
 
-renderBlogList();
+/* Scroll reveal */
+function observeReveal() {
+  const io = new IntersectionObserver(entries => {
+    entries.forEach(e => { if(e.isIntersecting){e.target.classList.add('visible');io.unobserve(e.target);} });
+  },{threshold:0.1});
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+}
+
+/* Navbar scroll */
+window.addEventListener('scroll',()=>{
+  document.getElementById('navbar').classList.toggle('scrolled',window.scrollY>30);
+});
+
+/* Mobile nav */
+function toggleMobileNav(){
+  document.getElementById('hamburger').classList.toggle('open');
+  document.getElementById('mobileNav').classList.toggle('open');
+}
+function closeMobileNav(){
+  document.getElementById('hamburger').classList.remove('open');
+  document.getElementById('mobileNav').classList.remove('open');
+}
+
+/* Theme */
+function toggleTheme(){
+  const html=document.documentElement;
+  const isDark=html.getAttribute('data-theme')==='dark';
+  html.setAttribute('data-theme',isDark?'light':'dark');
+  localStorage.setItem('site-theme',isDark?'light':'dark');
+}
+
+renderPosts(blogPosts);
+renderRecent();
 </script>
 </body>
 </html>
-body { background-color: white; color: black; }
-
-/* Dark Mode (Jab class add ho jaye) */
-body.dark-mode { 
-    background-color: #0a1118 !important; 
-    color: #e2e8f0 !important; 
-}
-        }
-
-        body {
-            font-family: 'Segoe UI', Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: var(--bg-body-main) !important;
-            color: var(--text-main-color) !important;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-            transition: background-color 0.2s ease, color 0.2s ease;
-        }
-
-        /* Fixed Navigation bar layout */
-        header {
-            background-color: var(--bg-header-main) !important;
-            padding: 15px 5%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-bottom: 1px solid var(--border-main) !important;
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-            transition: background-color 0.2s ease;
-            <nav class="navbar" id="navbar">
-    <div class="container">
-        <a href="index.html" class="logo">
-            <div class="logo-emblem">
-                <svg width="44" height="44">...</svg>
-            </div>
-            <div class="logo-name">KAMBOH ASSOCIATES</div>
-            <div class="logo-sub">Tax & Regulatory Excellence</div>
-        </a>
-        <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="blogs.html" class="active">Blog</a></li>
-            <li><a href="index.html#contact">Contact</a></li>
-        </ul>
-        <div class="nav-actions">
-            <button id="theme-toggle" onclick="toggleDarkMode()">Toggle Theme</button>
-        </div>
-    </div>
-</nav><button id="theme-toggle" onclick="toggleDarkMode()">Toggle Theme</button>
-        }
-
-        .brand-box { display: flex; align-items: center; gap: 12px; text-decoration: none; }
-        .logo-emblem {
-            background: linear-gradient(135deg, #13212d, #0d2a0d);
-            color: #d4af37;
-            font-weight: 700;
-            padding: 8px 12px;
-            border-radius: 50%;
-            border: 1px solid var(--gold-color);
-            font-size: 16px;
-        }
-        .brand-text .main-title { font-weight: bold; font-size: 18px; color: var(--text-main-color) !important; letter-spacing: 0.5px; }
-        .brand-text .sub-title { color: var(--gold-color) !important; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; }
-
-        /* Balanced Central Layout Navigation links */
-        .nav-container-center { display: flex; justify-content: center; align-items: center; flex-grow: 1; }
-        .nav-links { display: flex; gap: 35px; list-style: none; margin: 0; padding: 0; }
-        .nav-links a { text-decoration: none; font-weight: 500; font-size: 15px; color: var(--text-main-color) !important; transition: color 0.2s; }
-        .nav-links a:hover, .nav-links a.active { color: var(--gold-color) !important; }
-
-        /* Blog Section Design Elements */
-        .hero-section {
-            text-align: center;
-            padding: 50px 20px;
-            background: linear-gradient(to bottom, rgba(212, 175, 55, 0.03), transparent);
-            border-bottom: 1px solid var(--border-main) !important;
-        }
-        .hero-section h1 { color: var(--gold-color) !important; font-size: 36px; margin: 0 0 10px 0; text-transform: uppercase; }
-        .hero-section p { color: var(--text-muted-color) !important; font-size: 16px; max-width: 600px; margin: 0 auto; }
-
-        .blog-container { max-width: 850px; margin: 40px auto; padding: 0 20px; flex: 1; width: 100%; box-sizing: border-box; }
-        .blog-card {
-            background-color: var(--bg-card-main) !important;
-            border-radius: 12px;
-            padding: 30px;
-            margin-bottom: 30px;
-            border: 1px solid var(--border-main) !important;
-            border-left: 5px solid var(--gold-color) !important;
-            transition: transform 0.2s ease, box-shadow 0.2s ease;
-        }
-        .blog-card:hover { transform: translateY(-4px); }
-        .blog-title { margin: 0 0 12px 0; font-size: 24px; }
-        .blog-title a { color: inherit !important; text-decoration: none; }
-        .blog-title a:hover { color: var(--gold-color) !important; }
-        .blog-meta { color: var(--text-muted-color) !important; font-size: 13px; margin-bottom: 15px; display: flex; gap: 15px; }
-        .blog-meta i { color: var(--gold-color) !important; }
-        .blog-desc { line-height: 1.6; margin-bottom: 20px; font-size: 15px; color: var(--text-muted-color) !important; }
-
-        .read-more-btn {
-            display: inline-block;
-            color: #ffffff !important;
-            background: linear-gradient(135deg, #f0cf68, var(--gold-color));
-            text-decoration: none;
-            font-weight: bold;
-            font-size: 14px;
-            padding: 8px 18px;
-            border-radius: 6px;
-        }
-
-        /* Floating Contact Widget */
-        .whatsapp-float {
-            position: fixed;
-            bottom: 25px;
-            right: 25px;
-            background-color: #25d366;
-            color: white !important;
-            border-radius: 50%;
-            width: 55px;
-            height: 55px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-            z-index: 1000;
-            text-decoration: none;
-            font-size: 28px;
-            transition: transform 0.3s;
-        }
-        .whatsapp-float:hover { transform: scale(1.1); }
-
-        /* Premium Footer Area */
-        footer {
-            text-align: center;
-            padding: 25px;
-            font-size: 14px;
-            color: var(--text-muted-color) !important;
-            background-color: var(--bg-header-main) !important;
-            border-top: 1px solid var(--border-main) !important;
-            margin-top: auto;
-        }
-    </style>
-    
-    <script>
-        function checkThemeImmediately() {
-            const currentMode = localStorage.getItem('theme');
-            if (currentMode === 'dark') {
-                document.documentElement.classList.add('dark');
-            } else {
-                document.documentElement.classList.remove('dark');
-            }
-        }
-        checkThemeImmediately();
-    </script>
-</head>
-<body>
-
-    <header>
-        <a href="index.html" class="brand-box">
-            <div class="logo-emblem">KA</div>
-            <div class="brand-text">
-                <div class="main-title">KAMBOH ASSOCIATES</div>
-                <div class="sub-title">Tax &amp; Regulatory Excellence</div>
-            </div>
-        </a>
-        <div class="nav-container-center">
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="blogs.html" class="active">Blog</a></li>
-                <li><a href="index.html#contact">Contact</a></li>
-            </ul>
-        </div>
-        <div style="width: 200px;" class="nav-spacer-desktop"></div>
-    </header>
-
-    <section class="hero-section">
-        <h1>INSIGHTS &amp; UPDATES</h1>
-        <p>Expert perspectives on tax regulations, compliance, and business strategy</p>
-    </section>
-
-    <div class="blog-container">
-        <div class="blog-card">
-            <h2 class="blog-title">
-                <a href="blog/fbr-ntn-registration-guide.html">How to Become a Filer in Pakistan 2026: Complete FBR Guide</a>
-            </h2>
-            <div class="blog-meta">
-                <span><i class="far fa-calendar-alt"></i> May 20, 2026</span>
-                <span><i class="far fa-user"></i> Kamboh Associates</span>
-            </div>
-            <p class="blog-desc">Learn how to register your NTN online via the FBR Iris portal, file your annual tax returns, and safely appear on the Active Taxpayer List (ATL) to avoid non-filer withholding tax penalties.</p>
-            <a href="blog/fbr-ntn-registration-guide.html" class="read-more-btn">Read Full Article →</a>
-        </div>
-    </div>
-
-    <a href="https://wa.me/923284675162?text=Hi%20Kamboh%20Associates%2C%20I%20read%20your%20tax%20insights%20blog%20and%20want%20to%20consult%20an%20expert." class="whatsapp-float" target="_blank">
-        <i class="fab fa-whatsapp"></i>
-    </a>
-
-    <footer>
-        © 2026 Kamboh Associates. Tax &amp; Corporate Advisory Services. All rights reserved.
-    </footer>
-
-    <script>
-    // 1. Load hote hi background set karein
-    (function() {
-        const savedTheme = localStorage.getItem('site-theme');
-        if (savedTheme === 'dark') {
-            document.body.classList.add('dark-mode');
-        }
-    })();
-
-    // 2. Toggle function ko global banayein
-    window.toggleDarkMode = function() {
-        document.body.classList.toggle('dark-mode');
-        if (document.body.classList.contains('dark-mode')) {
-            localStorage.setItem('site-theme', 'dark');
-        } else {
-            localStorage.setItem('site-theme', 'light');
-        }
-    };
-</script>
