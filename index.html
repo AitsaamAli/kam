@@ -2294,9 +2294,11 @@ function toggleTheme() {
 })();
 
 /* ─── MOBILE NAV ─── */
-function toggleMenu(btn) {
-  btn.classList.toggle('open');
-  document.getElementById('mobileNav').classList.toggle('open');
+// Is line ko toggle wale function ke andar dhoondhein ya add karein:
+if (document.body.classList.contains('dark-mode') || document.documentElement.classList.contains('dark')) {
+    localStorage.setItem('theme', 'dark');
+} else {
+    localStorage.setItem('theme', 'light');
 }
 function closeMobileNav() {
   document.getElementById('hamburger').classList.remove('open');
