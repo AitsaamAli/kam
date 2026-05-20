@@ -5,122 +5,145 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Insights & Updates - Kamboh Associates</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
     <style>
-        /* CSS Variables matching main site design token */
+        /* Exact System Variable Fallbacks */
         :root {
-            --bg-body: #ffffff;
-            --bg-header: #ffffff;
-            --bg-card: #f8fafc;
-            --border-color: rgba(176, 137, 37, 0.2);
-            --text-main: #1e293b;
-            --text-muted: #64748b;
-            --gold: #b08925;
-            --gold-light: #d4af37;
-        }
-
-        [data-theme="dark"], body.dark-mode {
-            --bg-body: #0a1118;
-            --bg-header: #111c24;
-            --bg-card: #17242f;
-            --border-color: rgba(212, 175, 55, 0.15);
-            --text-main: #e2e8f0;
+            --primary-dark: #0a1118;
+            --card-bg-dark: #111c24;
+            --accent-gold: #d4af37;
+            --text-light: #e2e8f0;
             --text-muted: #94a3b8;
-            --gold: #d4af37;
-            --gold-light: #f0cf68;
         }
 
-        body { 
-            font-family: 'Segoe UI', Arial, sans-serif; 
-            margin: 0; 
-            padding: 0; 
-            color: var(--text-main); 
-            background-color: var(--bg-body); 
-            display: flex; 
-            flex-direction: column; 
-            min-height: 100vh; 
+        /* Default Style Setup */
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #1e293b;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
             transition: background-color 0.3s, color 0.3s;
         }
 
-        /* Fixed Top Header - Exact Main Layout */
-        header, .navbar { 
-            background: var(--bg-header); 
-            padding: 15px 5%; 
+        /* Active Core Dark Mode Syncing with index classes */
+        body.dark-mode, [data-theme="dark"] body {
+            background-color: var(--primary-dark) !important;
+            color: var(--text-light) !important;
+        }
+
+        /* Fixed Top Header Base Structure */
+        header, .navbar-main {
+            padding: 15px 5%;
             display: flex;
             justify-content: space-between;
-            align-items: center; 
-            border-bottom: 1px solid var(--border-color);
+            align-items: center;
+            border-bottom: 1px solid rgba(176, 137, 37, 0.15);
             position: sticky;
             top: 0;
             z-index: 1000;
-            transition: background-color 0.3s, border-color 0.3s;
+            background: #ffffff;
+            transition: all 0.3s;
+        }
+        body.dark-mode header, [data-theme="dark"] header {
+            background: var(--card-bg-dark) !important;
+            border-bottom-color: rgba(212, 175, 55, 0.15) !important;
         }
 
+        /* Balanced Centralized Links Container */
+        .nav-container-center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-grow: 1;
+        }
+        .nav-links {
+            display: flex;
+            gap: 35px;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .nav-links a {
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 15px;
+            color: #1e293b;
+            transition: color 0.3s;
+        }
+        body.dark-mode .nav-links a, [data-theme="dark"] .nav-links a {
+            color: var(--text-light);
+        }
+        .nav-links a:hover, .nav-links a.active {
+            color: var(--accent-gold) !important;
+        }
+
+        /* Branding Box Layout */
         .brand-box { display: flex; align-items: center; gap: 12px; text-decoration: none; }
-        .logo-emblem { 
-            background: linear-gradient(135deg, #13212d, #0d2a0d); 
-            color: #d4af37; 
-            font-weight: 700; 
-            padding: 8px 12px; 
-            border-radius: 50%; 
-            border: 1px solid var(--gold);
+        .logo-emblem {
+            background: linear-gradient(135deg, #13212d, #0d2a0d);
+            color: #d4af37;
+            font-weight: 700;
+            padding: 8px 12px;
+            border-radius: 50%;
+            border: 1px solid var(--accent-gold);
             font-size: 16px;
         }
-        
-        .brand-text .main-title { color: var(--text-main); font-weight: bold; font-size: 18px; letter-spacing: 0.5px; }
-        .brand-text .sub-title { color: var(--gold); font-size: 11px; letter-spacing: 1px; text-transform: uppercase; }
+        .brand-text .main-title { font-weight: bold; font-size: 18px; color: #1e293b; letter-spacing: 0.5px; }
+        body.dark-mode .brand-text .main-title, [data-theme="dark"] .brand-text .main-title { color: #ffffff; }
+        .brand-text .sub-title { color: var(--accent-gold); font-size: 11px; text-transform: uppercase; letter-spacing: 1px; }
 
-        /* Balanced Navbar Links Matching Index */
-        .nav-links { display: flex; gap: 30px; align-items: center; list-style: none; margin: 0; padding: 0; }
-        .nav-links a { text-decoration: none; color: var(--text-main); font-weight: 500; font-size: 15px; transition: color 0.3s; }
-        .nav-links a:hover, .nav-links a.active { color: var(--gold); }
-
-        /* Premium Hero Section */
-        .hero { 
+        /* Blog Sections */
+        .hero-section {
+            text-align: center;
+            padding: 50px 20px;
             background: linear-gradient(to bottom, rgba(212, 175, 55, 0.05), transparent);
-            text-align: center; 
-            padding: 50px 20px; 
-            border-bottom: 1px solid var(--border-color);
+            border-bottom: 1px solid rgba(212, 175, 55, 0.1);
         }
-        .hero h1 { color: var(--gold); font-size: 36px; margin: 0 0 10px 0; letter-spacing: 1px; text-transform: uppercase; }
-        .hero p { color: var(--text-muted); font-size: 16px; max-width: 600px; margin: 0 auto; }
-        
-        /* Blog Area Layout */
+        .hero-section h1 { color: var(--accent-gold); font-size: 36px; margin: 0 0 10px 0; text-transform: uppercase; }
+        .hero-section p { color: #64748b; font-size: 16px; max-width: 600px; margin: 0 auto; }
+        body.dark-mode .hero-section p, [data-theme="dark"] .hero-section p { color: var(--text-muted); }
+
         .blog-container { max-width: 850px; margin: 40px auto; padding: 0 20px; flex: 1; width: 100%; box-sizing: border-box; }
-        
-        .blog-card { 
-            background: var(--bg-card); 
-            border-radius: 12px; 
-            padding: 30px; 
-            margin-bottom: 30px; 
-            box-shadow: 0 10px 30px rgba(0,0,0,0.02); 
-            border: 1px solid var(--border-color);
-            border-left: 4px solid var(--gold); 
-            transition: all 0.3s ease; 
+        .blog-card {
+            background: #f8fafc;
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 30px;
+            border: 1px solid rgba(176, 137, 37, 0.15);
+            border-left: 5px solid var(--accent-gold);
+            transition: all 0.3s;
         }
-        .blog-card:hover { transform: translateY(-5px); border-color: var(--gold); }
-        
+        body.dark-mode .blog-card, [data-theme="dark"] .blog-card {
+            background: var(--card-bg-dark) !important;
+            border-color: rgba(212, 175, 55, 0.15) !important;
+        }
+        .blog-card:hover { transform: translateY(-4px); box-shadow: 0 10px 20px rgba(0,0,0,0.05); }
         .blog-title { margin: 0 0 12px 0; font-size: 24px; }
-        .blog-title a { color: var(--text-main); text-decoration: none; transition: color 0.2s; }
-        .blog-title a:hover { color: var(--gold-light); }
-        
-        .blog-meta { color: var(--text-muted); font-size: 13px; margin-bottom: 15px; display: flex; gap: 15px; }
-        .blog-meta i { color: var(--gold); }
-        .blog-desc { color: var(--text-muted); line-height: 1.6; margin-bottom: 20px; font-size: 15px; }
-        
-        .read-more-btn { 
+        .blog-title a { color: inherit; text-decoration: none; }
+        .blog-title a:hover { color: var(--accent-gold); }
+        .blog-meta { color: #64748b; font-size: 13px; margin-bottom: 15px; display: flex; gap: 15px; }
+        body.dark-mode .blog-meta, [data-theme="dark"] .blog-meta { color: var(--text-muted); }
+        .blog-meta i { color: var(--accent-gold); }
+        .blog-desc { line-height: 1.6; margin-bottom: 20px; font-size: 15px; color: #475569; }
+        body.dark-mode .blog-desc, [data-theme="dark"] .blog-desc { color: #cbd5e1; }
+
+        .read-more-btn {
             display: inline-block;
-            color: #ffffff; 
-            background: linear-gradient(135deg, var(--gold-light), var(--gold));
-            text-decoration: none; 
-            font-weight: bold; 
-            font-size: 14px; 
+            color: #ffffff;
+            background: linear-gradient(135deg, #f0cf68, var(--accent-gold));
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 14px;
             padding: 8px 18px;
             border-radius: 6px;
-            transition: opacity 0.2s;
         }
-        .read-more-btn:hover { opacity: 0.9; }
-        
-        /* Floating WhatsApp Icon */
+        body.dark-mode .read-more-btn, [data-theme="dark"] .read-more-btn { color: var(--primary-dark); }
+
+        /* Floating WhatsApp Button Layout */
         .whatsapp-float {
             position: fixed;
             bottom: 25px;
@@ -133,7 +156,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
             z-index: 1000;
             text-decoration: none;
             font-size: 28px;
@@ -141,15 +164,20 @@
         }
         .whatsapp-float:hover { transform: scale(1.1); }
 
-        /* Premium Footer */
-        footer { 
-            text-align: center; 
-            padding: 25px; 
-            color: var(--text-muted); 
-            font-size: 14px; 
-            background: var(--bg-header); 
-            border-top: 1px solid var(--border-color); 
+        /* Footer Element Layout */
+        footer {
+            text-align: center;
+            padding: 25px;
+            font-size: 14px;
+            color: #64748b;
+            background: #f8fafc;
+            border-top: 1px solid rgba(176, 137, 37, 0.15);
             margin-top: auto;
+        }
+        body.dark-mode footer, [data-theme="dark"] footer {
+            background: #060b10 !important;
+            border-top-color: rgba(212, 175, 55, 0.15) !important;
+            color: var(--text-muted) !important;
         }
     </style>
 </head>
@@ -163,14 +191,17 @@
                 <div class="sub-title">Tax &amp; Regulatory Excellence</div>
             </div>
         </a>
-        <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="blogs.html" class="active">Blog</a></li>
-            <li><a href="index.html#contact">Contact</a></li>
-        </ul>
+        <div class="nav-container-center">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blogs.html" class="active">Blog</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div style="width: 200px;" class="nav-spacer-desktop"></div>
     </header>
 
-    <section class="hero">
+    <section class="hero-section">
         <h1>INSIGHTS &amp; UPDATES</h1>
         <p>Expert perspectives on tax regulations, compliance, and business strategy</p>
     </section>
@@ -198,11 +229,12 @@
     </footer>
 
     <script>
-        function applySavedTheme() {
-            // Yeh check karega index.html ne kis tarah theme store kiya hai (theme, mode, ya dark-mode class)
-            const localTheme = localStorage.getItem('theme') || localStorage.getItem('darkMode') || localStorage.getItem('mode');
+        function runAbsoluteThemeSync() {
+            // Yeh aapke index.html ke dono variables/classes ko check karega
+            const savedState = localStorage.getItem('theme') || localStorage.getItem('darkMode') || localStorage.getItem('mode');
+            const isDarkActive = (savedState === 'dark' || savedState === 'true' || savedState === 'enabled');
             
-            if (localTheme === 'dark' || localTheme === 'true' || localTheme === 'enabled') {
+            if (isDarkActive) {
                 document.documentElement.setAttribute('data-theme', 'dark');
                 document.body.classList.add('dark-mode');
             } else {
@@ -210,12 +242,11 @@
                 document.body.classList.remove('dark-mode');
             }
         }
-        
-        // Instant trigger on load
-        applySavedTheme();
-        // Fallback short timeout taake agar slow rendering ho tab bhi set ho jaye
-        setTimeout(applySavedTheme, 100);
-    </script>
 
+        // Parallel executions for rendering priority
+        runAbsoluteThemeSync();
+        window.addEventListener('DOMContentLoaded', runAbsoluteThemeSync);
+        window.addEventListener('load', runAbsoluteThemeSync);
+    </script>
 </body>
 </html>
