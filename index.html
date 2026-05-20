@@ -1403,17 +1403,41 @@ select.form-control { cursor: pointer }
         <i class="fas fa-phone"></i>
         <a href="tel:03284675162">0328-4675162</a>
       </span>
-      <div class="theme-toggle" id="themeToggle" onclick="toggleTheme()" title="Toggle light/dark mode" role="button" aria-label="Toggle theme">
-        <div class="theme-toggle-icon">
-          <i class="fas fa-sun" style="color:#F59E0B;font-size:.55rem"></i>
-          <i class="fas fa-moon" style="color:#94A3B8;font-size:.55rem"></i>
-        </div>
-      </div>
-      <a href="#contact" class="btn btn-gold btn-sm">Consult Expert</a>
-      <button class="hamburger" id="hamburger" onclick="toggleMenu(this)" aria-label="Menu">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
+     <!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body { transition: background 0.3s, color 0.3s; }
+        body.dark-mode { background-color: #0a1118 !important; color: #e2e8f0 !important; }
+    </style>
+</head>
+<body>
+    <button id="theme-toggle" onclick="toggleTheme()">Toggle Theme</button>
+
+    <script>
+        function applyTheme(theme) {
+            if (theme === 'dark') {
+                document.body.classList.add('dark-mode');
+            } else {
+                document.body.classList.remove('dark-mode');
+            }
+        }
+
+        window.toggleTheme = function() {
+            const isDark = document.body.classList.contains('dark-mode');
+            const newTheme = isDark ? 'light' : 'dark';
+            applyTheme(newTheme);
+            localStorage.setItem('site-theme', newTheme);
+        };
+
+        // Load time sync
+        document.addEventListener('DOMContentLoaded', () => {
+            const savedTheme = localStorage.getItem('site-theme') || 'light';
+            applyTheme(savedTheme);
+        });
+    </script>
+</body>
+</html>
   </div>
   <div class="mobile-nav" id="mobileNav">
     <a href="#" onclick="closeMobileNav()">Home</a>

@@ -1,13 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Insights & Updates - Kamboh Associates</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    
     <style>
-        /* Base Fallback Colors (Light Mode Default) */
+        body { transition: background 0.3s, color 0.3s; }
+        body.dark-mode { background-color: #0a1118 !important; color: #e2e8f0 !important; }
+    </style>
+</head>
+<body>
+    <header class="navbar">
+        <button id="theme-toggle" onclick="toggleTheme()">Toggle Theme</button>
+    </header>
+
+    <script>
+        // Bilkul same logic jo index.html mein hai
+        function applyTheme(theme) {
+            if (theme === 'dark') {
+                document.body.classList.add('dark-mode');
+            } else {
+                document.body.classList.remove('dark-mode');
+            }
+        }
+
+        window.toggleTheme = function() {
+            const isDark = document.body.classList.contains('dark-mode');
+            const newTheme = isDark ? 'light' : 'dark';
+            applyTheme(newTheme);
+            localStorage.setItem('site-theme', newTheme);
+        };
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const savedTheme = localStorage.getItem('site-theme') || 'light';
+            applyTheme(savedTheme);
+        });
+    </script>
+</body>
+</html>
         :root {
             --bg-body-main: #ffffff;
             --bg-header-main: #ffffff;
