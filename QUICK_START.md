@@ -114,11 +114,11 @@ footer { background: var(--surface-2); border-top: 1px solid var(--border); padd
 
 <nav>
   <div class="nav-container">
-    <a href="index.html" class="logo">KA</a>
+    <a href="" class="logo">KA</a>
     <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
+      <li><a href="">Home</a></li>
       <li><a href="blogs.html">Blog</a></li>
-      <li><a href="index.html#contact">Contact</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
   </div>
 </nav>

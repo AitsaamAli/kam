@@ -19,7 +19,7 @@ FILES CREATED:
   └─ GETTING_STARTED.txt        - Visual quick reference (THIS FILE)
 
 💻 CODE FILES:
-  ├─ index.html                 - Your main website (existing)
+  ├─                  - Your main website (existing)
   ├─ blogs.html                 - Blog listing/homepage
   ├─ blog-sample.html           - Template for new posts
   └─ .gitignore                 - Git configuration
@@ -115,7 +115,7 @@ FOLDER STRUCTURE EXPLANATION:
 Your project folder should look like:
 
 kam/
-├── index.html                 ← Main homepage (existing)
+├──                  ← Main homepage (existing)
 ├── blogs.html                 ← Blog listing page (NEW)
 ├── blog-sample.html           ← Template for new posts (NEW)
 ├── .gitignore                 ← Git configuration (NEW)

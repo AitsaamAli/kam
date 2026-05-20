@@ -78,7 +78,7 @@ PHASE 5: VERIFY DEPLOYMENT (5 minutes)
 
 Testing:
 ☐ Open your Vercel URL in browser
-☐ Homepage loads (index.html)
+☐ Homepage loads ()
 ☐ Blog link works (navigate to blogs.html)
 ☐ Blog listing page shows
 ☐ Sample blog entry is visible

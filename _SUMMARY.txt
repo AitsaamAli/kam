@@ -24,7 +24,7 @@ DOCUMENTATION FILES (GUIDES):
   8. GETTING_STARTED.txt          ← Visual reference card
 
 WEBSITE CODE:
-  9. index.html                   ← Your main website (existing)
+  9.                    ← Your main website (existing)
   10. blogs.html                  ← Blog listing page (NEW)
   11. blog-sample.html            ← Template for new posts (NEW)
 
@@ -111,7 +111,7 @@ LATER THIS WEEK:
 ═════════════════════════════════════════════════════════════════════════════
 
 WHEN YOU VISIT YOUR SITE:
-  • index.html → Home page (your main website)
+  •  → Home page (your main website)
   • blogs.html → Blog listing (shows all your blog posts)
   • blog-sample.html → Used as template to create new posts
 

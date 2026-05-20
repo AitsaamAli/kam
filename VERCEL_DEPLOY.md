@@ -87,7 +87,7 @@ git push
 
 ```
 kam/
-├── index.html              (your homepage)
+├──               (your homepage)
 ├── blogs.html              (blog listing)
 ├── blog-sample.html        (template for new posts)
 ├── BLOG_SETUP.md          (this setup guide)

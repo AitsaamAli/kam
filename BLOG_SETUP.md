@@ -7,7 +7,7 @@ Your blog is ready! Here's how to use it:
 ### 1. **Create Blog Directory Structure**
 ```
 your-project/
-├── index.html (existing)
+├──  (existing)
 ├── blogs.html (new)
 └── blog/
     ├── tax-deductions-2026.html (sample)
@@ -178,7 +178,7 @@ For questions about:
 
 ```bash
 # View local site (Windows)
-# Option 1: Double-click index.html
+# Option 1: Double-click 
 # Option 2: Use Live Server extension in VS Code
 
 # Deploy to Vercel

@@ -10,7 +10,7 @@
 |------|---------|
 | `blogs.html` | Main blog listing page (homepage for blog section) |
 | `blog-sample.html` | Template - copy this to create new posts |
-| `index.html` | Your main website (existing) |
+| `` | Your main website (existing) |
 | `.gitignore` | Tells Git what files to ignore |
 | `QUICK_START.md` | **Start here!** 5-minute setup checklist |
 | `BLOG_SETUP.md` | Detailed guide for adding blog posts |
@@ -110,7 +110,7 @@ Each blog post includes:
 
 ```
 kam/
-├── index.html                (your homepage - existing)
+├──                 (your homepage - existing)
 ├── blogs.html                (blog listing - new)
 ├── blog-sample.html          (template for new posts)
 ├── .gitignore                (Git configuration)

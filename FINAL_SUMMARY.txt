@@ -44,7 +44,7 @@ GUIDES & DOCUMENTATION (9 files):
 CODE FILES (3 files):
   ✓ blogs.html                   (Blog listing - NEW)
   ✓ blog-sample.html             (Template - NEW)
-  ✓ index.html                   (Main site - existing)
+  ✓                    (Main site - existing)
 
 CONFIG (1 file):
   ✓ .gitignore                   (Git config - NEW)

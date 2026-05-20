@@ -21,7 +21,7 @@ Your project folder now contains:
    6. DEPLOYMENT_CHECKLIST.txt    ← Step-by-step checklist
 
 💻 CODE FILES:
-   • index.html                   ← Your main website (existing)
+   •                    ← Your main website (existing)
    • blogs.html                   ← Blog listing page (NEW)
    • blog-sample.html             ← Template for new posts (NEW)
 

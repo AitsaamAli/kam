@@ -19,7 +19,7 @@ Your blog system has 12 files. Here's what each does:
 
 ## 💻 WEBSITE CODE
 
-**index.html** - Your main website (already exists, don't modify)
+**** - Your main website (already exists, don't modify)
 **blogs.html** - Blog listing page (NEW - shows all blog posts)
 **blog-sample.html** - Template for creating new blog posts (copy this)
 

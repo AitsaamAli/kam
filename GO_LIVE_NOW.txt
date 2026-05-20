@@ -91,7 +91,7 @@ JUST WANT FEATURES LIST? Use this:
 
 blogs.html           → Blog listing page (shows all your posts)
 blog-sample.html     → Template - copy this to create new posts
-index.html           → Your main website (existing, don't change)
+           → Your main website (existing, don't change)
 
 
 🎯 NEXT 3 STEPS (AFTER DEPLOYMENT):

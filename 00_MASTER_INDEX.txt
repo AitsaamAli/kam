@@ -68,7 +68,7 @@ FINAL_SUMMARY.txt           - آخری خلاصہ
 🟢 WEBSITE CODE FILES:
 ────────────────────────────────────────────────────────────────────────────
 
-index.html                  - آپ کی main website
+                  - آپ کی main website
 blogs.html                  - Blog listing page (نیا بنایا گیا)
 blog-sample.html            - Template، اسے copy کریں نیا post بنانے کے لیے
 

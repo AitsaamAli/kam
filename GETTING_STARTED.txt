@@ -52,7 +52,7 @@
    • VERCEL_DEPLOY.md       ← GitHub & Vercel setup
    
 💻 CODE:
-   • index.html             ← Your main website (existing)
+   •              ← Your main website (existing)
    • blogs.html             ← Blog listing page
    • blog-sample.html       ← Template for new posts
    
