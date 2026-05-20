@@ -55,6 +55,25 @@
             top: 0;
             z-index: 1000;
             transition: background-color 0.2s ease;
+            <nav class="navbar" id="navbar">
+    <div class="container">
+        <a href="index.html" class="logo">
+            <div class="logo-emblem">
+                <svg width="44" height="44">...</svg>
+            </div>
+            <div class="logo-name">KAMBOH ASSOCIATES</div>
+            <div class="logo-sub">Tax & Regulatory Excellence</div>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="blogs.html" class="active">Blog</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+            <button id="theme-toggle" onclick="toggleDarkMode()">Toggle Theme</button>
+        </div>
+    </div>
+</nav>
         }
 
         .brand-box { display: flex; align-items: center; gap: 12px; text-decoration: none; }
@@ -208,13 +227,14 @@
     </footer>
 
     <script>
-    // Page load hote hi ye chalega
-    window.onload = function() {
+    function syncTheme() {
         const savedTheme = localStorage.getItem('site-theme');
         if (savedTheme === 'dark') {
             document.body.classList.add('dark-mode');
         } else {
             document.body.classList.remove('dark-mode');
         }
-    };
+    }
+    // Page load hote hi run hoga
+    syncTheme();
 </script>
