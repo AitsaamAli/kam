@@ -6,92 +6,124 @@
     <title>Insights & Updates - Kamboh Associates</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
-        /* Premium Dark Theme Styles matching Main Site */
+        /* Theme Variables */
         :root {
-            --bg-dark: #0a1118;
-            --card-dark: #111c24;
+            /* Light Mode Colors (Default) */
+            --bg-body: #ffffff;
+            --bg-header: #ffffff;
+            --bg-card: #f8fafc;
+            --border-color: rgba(176, 137, 37, 0.2);
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --gold: #b08925;
+            --gold-light: #d4af37;
+        }
+
+        /* Dark Mode Colors (Night Mode Active) */
+        [data-theme="dark"] {
+            --bg-body: #0a1118;
+            --bg-header: rgba(10, 17, 24, 0.95);
+            --bg-card: #111c24;
+            --border-color: rgba(212, 175, 55, 0.15);
+            --text-main: #e2e8f0;
+            --text-muted: #94a3b8;
             --gold: #d4af37;
             --gold-light: #f0cf68;
-            --text-light: #e2e8f0;
-            --text-muted: #94a3b8;
         }
 
         body { 
             font-family: 'Segoe UI', Arial, sans-serif; 
             margin: 0; 
             padding: 0; 
-            color: var(--text-light); 
-            background-color: var(--bg-dark); 
+            color: var(--text-main); 
+            background-color: var(--bg-body); 
             display: flex; 
             flex-direction: column; 
             min-height: 100vh; 
+            transition: background-color 0.3s, color 0.3s;
         }
 
-        /* Fixed Top Header Matching Index */
+        /* Fixed Top Header with Center Navigation Alignment */
         header { 
-            background: rgba(10, 17, 24, 0.95); 
+            background: var(--bg-header); 
             padding: 15px 5%; 
-            display: flex; 
-            justify-content: space-between; 
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
             align-items: center; 
-            border-bottom: 1px solid rgba(212, 175, 55, 0.15);
+            border-bottom: 1px solid var(--border-color);
             position: sticky;
             top: 0;
             z-index: 1000;
             backdrop-filter: blur(10px);
+            transition: background-color 0.3s, border-color 0.3s;
         }
 
-        .brand-box { display: flex; align-items: center; gap: 12px; text-decoration: none; }
+        .brand-box { display: flex; align-items: center; gap: 12px; text-decoration: none; justify-self: start; }
         .logo-emblem { 
             background: linear-gradient(135deg, #13212d, #0d2a0d); 
-            color: var(--gold); 
+            color: #d4af37; 
             font-weight: 700; 
             padding: 8px 12px; 
             border-radius: 50%; 
             border: 1px solid var(--gold);
             font-size: 16px;
         }
-        .brand-text .main-title { color: #ffffff; font-weight: bold; font-size: 18px; letter-spacing: 0.5px; }
+        
+        .brand-text .main-title { color: var(--text-main); font-weight: bold; font-size: 18px; letter-spacing: 0.5px; }
+        [data-theme="dark"] .brand-text .main-title { color: #ffffff; }
         .brand-text .sub-title { color: var(--gold); font-size: 11px; letter-spacing: 1px; text-transform: uppercase; }
 
-        nav { display: flex; gap: 25px; align-items: center; }
-        nav a { text-decoration: none; color: var(--text-light); font-weight: 500; font-size: 15px; transition: color 0.3s; }
+        /* Balanced Centralized Navbar Links */
+        nav { display: flex; gap: 35px; align-items: center; justify-self: center; }
+        nav a { text-decoration: none; color: var(--text-main); font-weight: 500; font-size: 15px; transition: color 0.3s; position: relative; padding-bottom: 4px; }
+        [data-theme="dark"] nav a { color: #e2e8f0; }
         nav a:hover, nav a.active { color: var(--gold); }
+        nav a.active::after { content: ''; position: absolute; width: 60%; height: 2px; background: var(--gold); bottom: 0; left: 20%; border-radius: 2px; }
+
+        .header-spacer { justify-self: end; }
 
         /* Premium Hero Section */
         .hero { 
-            background: radial-gradient(circle at top, #132330 0%, var(--bg-dark) 70%);
+            background: linear-gradient(to bottom, rgba(212, 175, 55, 0.05), transparent);
             text-align: center; 
             padding: 50px 20px; 
-            border-bottom: 1px solid rgba(255,255,255,0.05);
+            border-bottom: 1px solid var(--border-color);
         }
-        .hero h1 { color: var(--gold-light); font-size: 38px; margin: 0 0 10px 0; letter-spacing: 1px; }
+        [data-theme="dark"] .hero {
+            background: radial-gradient(circle at top, #132330 0%, var(--bg-body) 70%);
+        }
+        .hero h1 { color: var(--gold); font-size: 38px; margin: 0 0 10px 0; letter-spacing: 1px; text-transform: uppercase; }
         .hero p { color: var(--text-muted); font-size: 16px; max-width: 600px; margin: 0 auto; line-height: 1.5; }
         
         /* Blog Layout */
         .blog-container { max-width: 850px; margin: 40px auto; padding: 0 20px; flex: 1; width: 100%; box-sizing: border-box; }
         
         .blog-card { 
-            background: var(--card-dark); 
+            background: var(--bg-card); 
             border-radius: 12px; 
             padding: 30px; 
             margin-bottom: 30px; 
-            box-shadow: 0 10px 30px rgba(0,0,0,0.25); 
-            border: 1px solid rgba(212, 175, 55, 0.1);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05); 
+            border: 1px solid var(--border-color);
             border-left: 4px solid var(--gold); 
             transition: all 0.3s ease; 
         }
-        .blog-card:hover { transform: translateY(-5px); border-color: rgba(212, 175, 55, 0.3); }
+        [data-theme="dark"] .blog-card { box-shadow: 0 10px 30px rgba(0,0,0,0.25); }
+        .blog-card:hover { transform: translateY(-5px); border-color: var(--gold); }
+        
         .blog-title { margin: 0 0 12px 0; font-size: 24px; }
-        .blog-title a { color: #ffffff; text-decoration: none; transition: color 0.2s; }
+        .blog-title a { color: var(--text-main); text-decoration: none; transition: color 0.2s; }
+        [data-theme="dark"] .blog-title a { color: #ffffff; }
         .blog-title a:hover { color: var(--gold-light); }
+        
         .blog-meta { color: var(--text-muted); font-size: 13px; margin-bottom: 15px; display: flex; gap: 15px; }
         .blog-meta i { color: var(--gold); }
-        .blog-desc { color: #cbd5e1; line-height: 1.6; margin-bottom: 20px; font-size: 15px; }
+        .blog-desc { color: var(--text-muted); line-height: 1.6; margin-bottom: 20px; font-size: 15px; }
+        [data-theme="dark"] .blog-desc { color: #cbd5e1; }
         
         .read-more-btn { 
             display: inline-block;
-            color: var(--bg-dark); 
+            color: #ffffff; 
             background: linear-gradient(135deg, var(--gold-light), var(--gold));
             text-decoration: none; 
             font-weight: bold; 
@@ -100,16 +132,40 @@
             border-radius: 6px;
             transition: opacity 0.2s;
         }
+        [data-theme="dark"] .read-more-btn { color: #0a1118; }
         .read-more-btn:hover { opacity: 0.9; }
         
+        /* Premium Floating WhatsApp Button */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 25px;
+            right: 25px;
+            background-color: #25d366;
+            color: white;
+            border-radius: 50%;
+            width: 55px;
+            height: 55px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            z-index: 1000;
+            text-decoration: none;
+            font-size: 28px;
+            transition: transform 0.3s;
+        }
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+        }
+
         /* Premium Footer */
         footer { 
             text-align: center; 
             padding: 25px; 
             color: var(--text-muted); 
             font-size: 14px; 
-            background: #060b10; 
-            border-top: 1px solid rgba(212, 175, 55, 0.1); 
+            background: var(--bg-header); 
+            border-top: 1px solid var(--border-color); 
             margin-top: auto;
         }
     </style>
@@ -129,6 +185,7 @@
             <a href="blogs.html" class="active">Blog</a>
             <a href="index.html#contact">Contact</a>
         </nav>
+        <div class="header-spacer"></div>
     </header>
 
     <section class="hero">
@@ -152,9 +209,25 @@
 
     </div>
 
+    <a href="https://wa.me/923284675162?text=Hi%20Kamboh%20Associates%2C%20I%20read%20your%20tax%20insights%20blog%20and%20want%20to%20consult%20an%20expert." class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
     <footer>
         © 2026 Kamboh Associates. Tax &amp; Corporate Advisory Services. All rights reserved.
     </footer>
+
+    <script>
+        function matchMainSiteTheme() {
+            const savedTheme = localStorage.getItem('theme') || localStorage.getItem('darkMode');
+            if (savedTheme === 'dark' || savedTheme === 'true') {
+                document.documentElement.setAttribute('data-theme', 'dark');
+            } else {
+                document.documentElement.removeAttribute('data-theme');
+            }
+        }
+        matchMainSiteTheme();
+    </script>
 
 </body>
 </html>
