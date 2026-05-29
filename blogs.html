@@ -141,15 +141,12 @@ ul{list-style:none}
 .blog-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
 .blog-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden;transition:all .3s var(--ease);cursor:pointer;display:flex;flex-direction:column}
 .blog-card:hover{transform:translateY(-6px);box-shadow:0 16px 40px rgba(184,134,11,0.15);border-color:var(--border-gold)}
-.blog-card.featured{grid-column:1/-1;flex-direction:row}
-.blog-card.featured .blog-card-img{width:45%;flex-shrink:0;height:auto;min-height:220px}
 .blog-card-img{height:200px;background:linear-gradient(135deg,var(--gold-pale),var(--bg-3));display:flex;align-items:center;justify-content:center;font-size:3.5rem;position:relative;overflow:hidden}
 [data-theme="dark"] .blog-card-img{background:linear-gradient(135deg,rgba(184,134,11,0.1),var(--bg-3))}
 .blog-card-img::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,transparent 60%,rgba(0,0,0,0.05))}
 .blog-card-body{padding:24px;flex-grow:1;display:flex;flex-direction:column}
 .blog-category-tag{display:inline-flex;align-items:center;gap:5px;background:var(--gold-bg);border:1px solid var(--border-gold);border-radius:100px;padding:3px 12px;font-size:.68rem;color:var(--gold-light);font-family:var(--font-display);letter-spacing:.1em;text-transform:uppercase;margin-bottom:12px;width:fit-content}
 .blog-card-title{font-family:var(--font-serif);font-size:1.25rem;font-weight:600;color:var(--text);margin-bottom:10px;line-height:1.35}
-.blog-card.featured .blog-card-title{font-size:1.6rem}
 .blog-card-excerpt{color:var(--text-3);font-size:.9rem;line-height:1.72;flex-grow:1;margin-bottom:18px}
 .blog-card-meta{display:flex;justify-content:space-between;align-items:center;padding-top:14px;border-top:1px solid var(--border);font-size:.78rem;color:var(--text-3)}
 .blog-meta-left{display:flex;align-items:center;gap:14px}
@@ -159,6 +156,7 @@ ul{list-style:none}
 .blog-card:hover .read-more{gap:8px}
 .no-results{text-align:center;padding:80px 0;color:var(--text-3)}
 .no-results i{font-size:3rem;color:var(--border);display:block;margin-bottom:16px}
+.hidden{display:none}
 
 /* ── SIDEBAR ── */
 .sidebar{display:flex;flex-direction:column;gap:24px}
@@ -306,8 +304,8 @@ footer{background:var(--topbar-bg);border-top:1px solid rgba(255,255,255,.06);pa
     <h1>Tax &amp; Regulatory <span>Insights</span></h1>
     <p>Expert perspectives on Pakistan's tax laws, FBR compliance, business registration, and financial strategy</p>
     <div class="blog-hero-stats">
-      <div class="bhs-item"><div class="bhs-n">12+</div><div class="bhs-l">Articles</div></div>
-      <div class="bhs-item"><div class="bhs-n">5</div><div class="bhs-l">Categories</div></div>
+      <div class="bhs-item"><div class="bhs-n">6</div><div class="bhs-l">Articles</div></div>
+      <div class="bhs-item"><div class="bhs-n">4</div><div class="bhs-l">Categories</div></div>
       <div class="bhs-item"><div class="bhs-n">2026</div><div class="bhs-l">Updated</div></div>
     </div>
   </div>
@@ -351,10 +349,11 @@ footer{background:var(--topbar-bg);border-top:1px solid rgba(255,255,255,.06);pa
       <div class="sidebar-card">
         <div class="sidebar-title"><i class="fas fa-layer-group"></i> Categories</div>
         <div class="category-list">
-          <div class="cat-item" onclick="filterPosts('all',null)">All Articles <span class="cat-count">4</span></div>
+          <div class="cat-item" onclick="filterPosts('all',null)">All Articles <span class="cat-count">6</span></div>
           <div class="cat-item" onclick="filterPosts('FBR',null)">FBR &amp; NTN <span class="cat-count">2</span></div>
-          <div class="cat-item" onclick="filterPosts('Tax Planning',null)">Tax Planning <span class="cat-count">1</span></div>
+          <div class="cat-item" onclick="filterPosts('Tax Planning',null)">Tax Planning <span class="cat-count">2</span></div>
           <div class="cat-item" onclick="filterPosts('Compliance',null)">Compliance <span class="cat-count">1</span></div>
+          <div class="cat-item" onclick="filterPosts('Business',null)">Business <span class="cat-count">1</span></div>
         </div>
       </div>
 
@@ -406,19 +405,18 @@ const blogPosts = [
   id: 'filer-vs-nonfiler-pakistan',
   title: 'Filer vs Non-Filer in Pakistan 2026: Complete Tax Rate Comparison',
   excerpt: 'Pakistan mein filer aur non-filer ka farq samjhein — WHT rates, property tax, banking transactions, aur real savings examples. Kamboh Associates ka complete guide.',
-  category: 'Tax Guide',
+  category: 'FBR',
   date: '2026-05-29',
   author: 'Kamboh Associates',
   readTime: '8 min read',
   icon: '⚖️',
-  featured: true,
   link: '/filer-vs-nonfiler-pakistan'
 },
 {
   id: 'income-tax-return-pakistan',
   title: 'Who Should File Income Tax Return in Pakistan?',
-  excerpt: 'Complete guide for tax filing in Pakistan.',
-  category: 'Taxation',
+  excerpt: 'Complete guide for tax filing in Pakistan — know your obligations, deadlines, and how to file through FBR Iris portal.',
+  category: 'Tax Planning',
   date: '2026-05-20',
   author: 'Kamboh Associates',
   readTime: '8 min read',
@@ -433,8 +431,6 @@ const blogPosts = [
     date: '2026-05-20',
     author: 'Kamboh Associates',
     readTime: '7 min read',
-    icon: '🏛️',
-    featured: true,
     icon: '🏛️',
     link: '/fbr-ntn-registration-guide'
   },
@@ -489,7 +485,7 @@ function renderPosts(posts) {
   }
   noResults.classList.add('hidden');
   grid.innerHTML = posts.map((post,i) => `
-    <div class="blog-card${post.featured ? ' featured' : ''} reveal" style="transition-delay:${i*0.07}s" onclick="window.location.href='${post.link}'">
+    <div class="blog-card reveal" style="transition-delay:${i*0.07}s" onclick="window.location.href='${post.link}'">
       <div class="blog-card-img">${post.icon}</div>
       <div class="blog-card-body">
         <span class="blog-category-tag">${post.category}</span>
