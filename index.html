@@ -1437,7 +1437,6 @@ select.form-control { cursor: pointer }
   box-shadow: 0 4px 24px rgba(184,134,11,.08);
 }
 [data-theme="light"] .faq-answer-box { background: #FFFDF5 }
-.faq-answer-box.faq-out { opacity: 0 !important; transform: translateY(8px) !important; pointer-events: none }
 .faq-answer-q { font-family: var(--font-serif); font-size: 1.3rem; font-weight: 600; color: var(--text) !important; margin-bottom: 14px; line-height: 1.35 }
 .faq-answer-a { font-size: .9rem; color: var(--text-2) !important; line-height: 1.85 }
 
@@ -2038,7 +2037,7 @@ select.form-control { cursor: pointer }
       <button class="faq-pill" onclick="showFaq(8,this)">When to register for GST?</button>
     </div>
 
-    <div class="faq-answer-box" id="faqAnswerBox">
+    <div class="faq-answer-box" id="faqAnswerBox" style="opacity:1;display:block;visibility:visible">
       <div class="faq-answer-q" id="faqQuestion">How do I file my income tax return with FBR?</div>
       <div class="faq-answer-a" id="faqAnswer">Filing your income tax return with FBR is fully online through the IRIS portal (iris.fbr.gov.pk). You need an active NTN, your CNIC, and a record of your annual income and expenses. At Kamboh Associates, we handle the entire process — from IRIS enrollment to final submission — with 100% accuracy and same-day service for most clients. Contact us to get started.</div>
     </div>
@@ -3006,13 +3005,8 @@ var faqData = [
 function showFaq(index, el) {
   document.querySelectorAll('.faq-pill').forEach(function(p) { p.classList.remove('active'); });
   el.classList.add('active');
-  var box = document.getElementById('faqAnswerBox');
-  box.classList.add('faq-out');
-  setTimeout(function() {
-    document.getElementById('faqQuestion').textContent = faqData[index].q;
-    document.getElementById('faqAnswer').textContent = faqData[index].a;
-    box.classList.remove('faq-out');
-  }, 210);
+  document.getElementById('faqQuestion').textContent = faqData[index].q;
+  document.getElementById('faqAnswer').textContent = faqData[index].a;
 }
 
 /* ─── HELPER ─── */
