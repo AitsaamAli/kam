@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en" data-theme="light">
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Kamboh Associates — Tax & Regulatory Excellence in Pakistan</title>
-<meta name="description" content="Kamboh Associates — Pakistan's trusted tax consultancy in Lahore. Expert FBR filing, NTN registration, SECP company formation, and regulatory compliance since 2008."/>
-<meta name="keywords" content="tax consultant Lahore, FBR filing Pakistan, NTN registration Lahore, income tax return Pakistan, SECP registration, Kamboh Associates"/>
+<meta name="description" content="Kamboh Associates — #1 tax consultant in Lahore, Pakistan. Expert FBR income tax return filing, NTN registration, SECP company formation near you. Call 0328-4675162."/>
+<meta name="keywords" content="tax consultant near me Lahore, tax consultant Lahore, FBR filing Pakistan, NTN registration Lahore, income tax return Pakistan, SECP registration, tax services Lahore, tax advisor near me, Kamboh Associates, income tax consultant Pakistan"/>
 <meta property="og:title" content="Kamboh Associates — Tax & Regulatory Excellence in Pakistan"/>
 <meta property="og:description" content="Pakistan's trusted tax consultancy in Lahore. Expert FBR filing, NTN registration, SECP company formation, and regulatory compliance since 2008."/>
 <meta property="og:type" content="website"/>
@@ -1430,7 +1430,7 @@ select.form-control { cursor: pointer }
   border: 1px solid var(--border-gold);
   border-radius: var(--radius-lg);
   padding: 36px 40px;
-  transition: all .3s var(--ease);
+  transition: opacity .25s ease, transform .25s ease;
 }
 .faq-answer-q { font-family: var(--font-serif); font-size: 1.3rem; font-weight: 600; color: var(--text); margin-bottom: 14px; line-height: 1.35 }
 .faq-answer-a { font-size: .9rem; color: var(--text-2); line-height: 1.85 }
@@ -1469,6 +1469,32 @@ select.form-control { cursor: pointer }
 }
 @media (max-width: 480px) {
   .cities-grid { grid-template-columns: repeat(2, 1fr) }
+}
+
+/* HOW IT WORKS */
+.process-section { padding: 100px 0; background: var(--bg-2); border-top: 1px solid var(--border) }
+.process-steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; position: relative; margin-top: 56px }
+.process-steps::before { content: ''; position: absolute; top: 44px; left: 12.5%; right: 12.5%; height: 2px; background: linear-gradient(90deg, var(--gold), var(--gold-light), var(--gold)); opacity: .25; z-index: 0 }
+.process-step { text-align: center; padding: 0 16px; position: relative; z-index: 1 }
+.step-num-wrap { width: 88px; height: 88px; border-radius: 50%; margin: 0 auto 24px; position: relative; display: grid; place-items: center }
+.step-num-wrap::before { content: ''; position: absolute; inset: -3px; border-radius: 50%; background: linear-gradient(135deg, var(--gold-light), var(--gold)); opacity: .18 }
+.step-num-wrap::after { content: ''; position: absolute; inset: 0; border-radius: 50%; background: var(--surface); border: 2px solid var(--border-gold) }
+.step-icon { position: relative; z-index: 1; font-size: 1.6rem; color: var(--gold-light) }
+.step-badge { position: absolute; top: -4px; right: -4px; width: 24px; height: 24px; border-radius: 50%; background: linear-gradient(135deg, var(--gold-light), var(--gold)); color: #fff; font-size: .68rem; font-weight: 700; display: grid; place-items: center; z-index: 2; font-family: var(--font-display) }
+.step-title { font-family: var(--font-serif); font-size: 1.25rem; font-weight: 600; color: var(--text); margin-bottom: 10px }
+.step-desc { font-size: .84rem; color: var(--text-3); line-height: 1.7 }
+
+/* GOOGLE MAP SECTION */
+.map-section { padding: 0 0 80px }
+.map-wrap { border-radius: var(--radius-lg); overflow: hidden; border: 1px solid var(--border); box-shadow: var(--shadow-lg) }
+
+@media (max-width: 900px) {
+  .process-steps { grid-template-columns: repeat(2, 1fr); gap: 40px }
+  .process-steps::before { display: none }
+  .map-contact-grid { grid-template-columns: 1fr !important }
+}
+@media (max-width: 480px) {
+  .process-steps { grid-template-columns: 1fr; gap: 32px }
 }
 </style>
 </head>
@@ -1623,7 +1649,7 @@ select.form-control { cursor: pointer }
             </div>
           </div>
           <div class="db-chart-area">
-            <div class="db-chart-title">Monthly Filings — FY 2024–25</div>
+            <div class="db-chart-title">Monthly Filings — FY 2025–26</div>
             <div class="db-bars" id="dbBars"></div>
             <div class="db-months">
               <span class="db-month">Jul</span><span class="db-month">Aug</span><span class="db-month">Sep</span><span class="db-month">Oct</span><span class="db-month">Nov</span><span class="db-month">Dec</span><span class="db-month">Jan</span><span class="db-month">Feb</span><span class="db-month">Mar</span><span class="db-month">Apr</span>
@@ -1754,7 +1780,7 @@ select.form-control { cursor: pointer }
       <div class="feature-items">
         <div class="feature-item">
           <div class="feature-item-icon"><i class="fas fa-bolt"></i></div>
-          <div><div class="feature-item-title">Real-Time FBR Calculations</div><div class="feature-item-desc">Instant tax computations using the latest FBR slabs and Finance Act 2024–25 amendments</div></div>
+          <div><div class="feature-item-title">Real-Time FBR Calculations</div><div class="feature-item-desc">Instant tax computations using the latest FBR slabs and Finance Act 2025–26 amendments</div></div>
         </div>
         <div class="feature-item">
           <div class="feature-item-icon"><i class="fas fa-shield-alt"></i></div>
@@ -1773,7 +1799,7 @@ select.form-control { cursor: pointer }
         <div class="tool-card-icon tool-icon-gold"><i class="fas fa-calculator"></i></div>
         <div class="tool-card-body">
           <div class="tool-card-title">Salary Tax Calculator</div>
-          <div class="tool-card-desc">Compute salaried income tax per FBR slabs FY 2024–25</div>
+          <div class="tool-card-desc">Compute salaried income tax per FBR slabs FY 2025–26</div>
         </div>
         <i class="fas fa-chevron-right tool-card-arrow"></i>
       </div>
@@ -1846,6 +1872,53 @@ select.form-control { cursor: pointer }
 </section>
 
 <!-- ══════════════════════════════════════════
+     HOW IT WORKS
+══════════════════════════════════════════ -->
+<section class="process-section">
+  <div class="container">
+    <div class="services-header reveal" style="text-align:center">
+      <span class="eyebrow">Simple &amp; Transparent</span>
+      <h2 class="section-title">How Kamboh Associates<br>Works for You</h2>
+      <p class="section-sub">From first contact to final filing — our proven 4-step process delivers results within 24 hours.</p>
+    </div>
+    <div class="process-steps">
+      <div class="process-step reveal" style="transition-delay:.05s">
+        <div class="step-num-wrap">
+          <i class="fas fa-phone-alt step-icon"></i>
+          <span class="step-badge">1</span>
+        </div>
+        <div class="step-title">Free Consultation</div>
+        <div class="step-desc">Call or WhatsApp us to discuss your tax situation. We assess your needs and recommend the right service — zero obligation.</div>
+      </div>
+      <div class="process-step reveal" style="transition-delay:.12s">
+        <div class="step-num-wrap">
+          <i class="fas fa-file-alt step-icon"></i>
+          <span class="step-badge">2</span>
+        </div>
+        <div class="step-title">Share Documents</div>
+        <div class="step-desc">Send your CNIC, salary slips, bank statements, and any other relevant documents via WhatsApp or email — securely and conveniently.</div>
+      </div>
+      <div class="process-step reveal" style="transition-delay:.19s">
+        <div class="step-num-wrap">
+          <i class="fas fa-cogs step-icon"></i>
+          <span class="step-badge">3</span>
+        </div>
+        <div class="step-title">We Prepare &amp; File</div>
+        <div class="step-desc">Our FBR-certified experts prepare your return, optimize your deductions, and submit directly to FBR's IRIS system with 100% accuracy.</div>
+      </div>
+      <div class="process-step reveal" style="transition-delay:.26s">
+        <div class="step-num-wrap">
+          <i class="fas fa-check-circle step-icon"></i>
+          <span class="step-badge">4</span>
+        </div>
+        <div class="step-title">Done — Same Day</div>
+        <div class="step-desc">You receive the FBR acknowledgment receipt within 24 hours. We handle all follow-ups, corrections, and compliance queries for free.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
      TESTIMONIALS
 ══════════════════════════════════════════ -->
 <section class="testimonials" id="testimonials">
@@ -1900,13 +1973,13 @@ select.form-control { cursor: pointer }
   <div class="container">
     <div class="services-header reveal" style="text-align:center;margin-bottom:0">
       <span class="eyebrow">FBR Compliance Calendar</span>
-      <h2 class="section-title">Tax Deadlines 2024–25</h2>
+      <h2 class="section-title">Tax Deadlines 2025–26</h2>
       <p class="section-sub" style="margin:0 auto">Never miss a critical filing date. Stay ahead of all FBR &amp; SECP deadlines with our live compliance tracker.</p>
     </div>
     <div class="deadline-grid reveal">
       <div class="deadline-card urgent-card">
         <div class="deadline-date-box"><div class="deadline-day">30</div><div class="deadline-month">Jun</div></div>
-        <div><div class="deadline-info-title">Annual Income Tax Return</div><div class="deadline-info-sub">Individuals &amp; AOP — FBR deadline for FY 2024–25</div><span class="deadline-status deadline-urgent">ACTION REQUIRED</span></div>
+        <div><div class="deadline-info-title">Annual Income Tax Return</div><div class="deadline-info-sub">Individuals &amp; AOP — FBR deadline for FY 2025–26</div><span class="deadline-status deadline-urgent">ACTION REQUIRED</span></div>
       </div>
       <div class="deadline-card">
         <div class="deadline-date-box"><div class="deadline-day">31</div><div class="deadline-month">Jul</div></div>
@@ -1989,6 +2062,58 @@ select.form-control { cursor: pointer }
       <div class="city-card"><div class="city-name">Quetta</div><div class="city-service">Tax Advisory</div></div>
     </div>
     <p class="cities-note">"Based in Lahore — we serve clients nationwide via phone, WhatsApp, and our secure digital platform."</p>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     FIND US / GOOGLE MAP
+══════════════════════════════════════════ -->
+<section class="map-section" style="padding:80px 0;background:var(--bg);border-top:1px solid var(--border)">
+  <div class="container">
+    <div class="services-header reveal" style="text-align:center;margin-bottom:40px">
+      <span class="eyebrow">Visit Our Office</span>
+      <h2 class="section-title">Find Us in Lahore</h2>
+      <p class="section-sub">Walk in or book an appointment — our Lahore head office is open 6 days a week. Remote consultations available nationwide.</p>
+    </div>
+    <div class="map-contact-grid reveal" style="display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:start">
+      <div class="map-wrap">
+        <iframe
+          src="https://maps.google.com/maps?q=Allama+Iqbal+Town+Lahore+Pakistan&output=embed&z=14"
+          width="100%" height="340" style="border:0;display:block" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Kamboh Associates Office Location — Allama Iqbal Town, Lahore">
+        </iframe>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:18px">
+        <div style="background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:22px 24px">
+          <div style="font-family:var(--font-display);font-size:.75rem;letter-spacing:.1em;color:var(--gold-light);margin-bottom:14px;text-transform:uppercase">Head Office — Lahore</div>
+          <div style="display:flex;gap:12px;align-items:flex-start;margin-bottom:14px">
+            <i class="fas fa-map-marker-alt" style="color:var(--gold-light);margin-top:3px;flex-shrink:0"></i>
+            <span style="font-size:.9rem;color:var(--text-2);line-height:1.6">Allama Iqbal Town, Opp. Shell Pump,<br>Main Boulevard, Lahore, Pakistan</span>
+          </div>
+          <div style="display:flex;gap:12px;align-items:center;margin-bottom:12px">
+            <i class="fas fa-phone" style="color:var(--gold-light);flex-shrink:0"></i>
+            <a href="tel:03284675162" style="color:var(--text-2);text-decoration:none;font-size:.9rem">0328-4675162</a>
+          </div>
+          <div style="display:flex;gap:12px;align-items:center;margin-bottom:12px">
+            <i class="fas fa-envelope" style="color:var(--gold-light);flex-shrink:0"></i>
+            <a href="mailto:info@kambohassociates.com" style="color:var(--text-2);text-decoration:none;font-size:.9rem">info@kambohassociates.com</a>
+          </div>
+          <div style="display:flex;gap:12px;align-items:center">
+            <i class="fas fa-clock" style="color:var(--gold-light);flex-shrink:0"></i>
+            <span style="font-size:.87rem;color:var(--text-3)">Mon–Sat: 9:00 AM – 6:00 PM &nbsp;|&nbsp; Fri: 9:00 – 12:30</span>
+          </div>
+        </div>
+        <div style="background:var(--gold-bg);border:1px solid var(--border-gold);border-radius:var(--radius);padding:20px 24px">
+          <div style="font-size:.84rem;font-weight:600;color:var(--text);margin-bottom:6px"><i class="fab fa-google" style="color:var(--gold-light);margin-right:8px"></i>Search us on Google Maps</div>
+          <div style="font-size:.8rem;color:var(--text-3);margin-bottom:14px">Find us by searching <strong style="color:var(--text-2)">"Kamboh Associates Lahore"</strong> or <strong style="color:var(--text-2)">"tax consultant near me Lahore"</strong> on Google.</div>
+          <a href="https://maps.google.com/?q=Kamboh+Associates+Allama+Iqbal+Town+Lahore" target="_blank" class="btn btn-gold btn-sm"><i class="fas fa-directions"></i> Get Directions</a>
+        </div>
+        <div style="background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:20px 24px">
+          <div style="font-size:.84rem;font-weight:600;color:var(--text);margin-bottom:10px"><i class="fab fa-whatsapp" style="color:#25D366;margin-right:8px"></i>Prefer Remote Advisory?</div>
+          <div style="font-size:.8rem;color:var(--text-3);margin-bottom:14px">We serve clients across all of Pakistan remotely. Send documents via WhatsApp and get your filing done without leaving home.</div>
+          <a href="https://wa.me/923284675162" target="_blank" class="btn btn-outline btn-sm" style="border-color:var(--border-gold)"><i class="fab fa-whatsapp" style="color:#25D366"></i> WhatsApp Now</a>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -2123,7 +2248,7 @@ select.form-control { cursor: pointer }
         <div class="modal-icon modal-icon-gold"><i class="fas fa-calculator"></i></div>
         <div>
           <div class="modal-title">Salary Tax Calculator</div>
-          <div class="modal-subtitle">FBR Finance Act 2024–25 — Salaried Persons</div>
+          <div class="modal-subtitle">FBR Finance Act 2025–26 — Salaried Persons</div>
         </div>
       </div>
       <button class="modal-close" onclick="closeModal('salary')"><i class="fas fa-times"></i></button>
@@ -2145,7 +2270,7 @@ select.form-control { cursor: pointer }
         <div class="form-group">
           <label class="form-label">Tax Year</label>
           <select class="form-control" onchange="calcSalaryTax()">
-            <option>2024–25</option>
+            <option selected>2025–26</option><option>2024–25</option>
           </select>
         </div>
       </div>
@@ -2174,12 +2299,12 @@ select.form-control { cursor: pointer }
         </div>
         <div class="result-note">
           <i class="fas fa-info-circle" style="color:var(--gold-light);margin-right:5px"></i>
-          Calculated per FBR Finance Act 2024–25 salaried persons tax table. Consult a KA tax advisor for precise filing.
+          Calculated per FBR Finance Act 2025–26 salaried persons tax table. Consult a KA tax advisor for precise filing.
         </div>
       </div>
 
       <div style="margin-top:22px">
-        <div class="section-label"><i class="fas fa-table"></i> FBR Salary Tax Slabs 2024–25</div>
+        <div class="section-label"><i class="fas fa-table"></i> FBR Salary Tax Slabs 2025–26</div>
         <table class="slab-table" id="slab-table">
           <thead><tr><th>Annual Income (PKR)</th><th>Rate</th><th>Fixed Tax</th></tr></thead>
           <tbody>
@@ -2291,7 +2416,7 @@ select.form-control { cursor: pointer }
         <div class="modal-icon modal-icon-green"><i class="fas fa-building-user"></i></div>
         <div>
           <div class="modal-title">Business Tax Estimator</div>
-          <div class="modal-subtitle">Corporate &amp; AOP Tax — FBR Finance Act 2024–25</div>
+          <div class="modal-subtitle">Corporate &amp; AOP Tax — FBR Finance Act 2025–26</div>
         </div>
       </div>
       <button class="modal-close" onclick="closeModal('business')"><i class="fas fa-times"></i></button>
@@ -2326,7 +2451,7 @@ select.form-control { cursor: pointer }
         <div class="form-group">
           <label class="form-label">Tax Year</label>
           <select class="form-control">
-            <option>2024–25</option>
+            <option selected>2025–26</option><option>2024–25</option>
           </select>
         </div>
       </div>
@@ -2354,7 +2479,7 @@ select.form-control { cursor: pointer }
       </div>
 
       <div style="margin-top:22px">
-        <div class="section-label"><i class="fas fa-table"></i> Corporate Tax Rates 2024–25</div>
+        <div class="section-label"><i class="fas fa-table"></i> Corporate Tax Rates 2025–26</div>
         <table class="slab-table">
           <thead><tr><th>Entity Type</th><th>Rate</th><th>Notes</th></tr></thead>
           <tbody>
@@ -2498,7 +2623,7 @@ select.form-control { cursor: pointer }
         </div>
         <div class="result-note">
           <i class="fas fa-info-circle" style="color:var(--gold-light);margin-right:5px"></i>
-          WHT is deducted at source. Non-filer rates are approximately 2× filer rates per Finance Act 2024–25.
+          WHT is deducted at source. Non-filer rates are approximately 2× filer rates per Finance Act 2025–26.
         </div>
       </div>
     </div>
@@ -2876,11 +3001,14 @@ function showFaq(index, el) {
   document.querySelectorAll('.faq-pill').forEach(function(p) { p.classList.remove('active'); });
   el.classList.add('active');
   var box = document.getElementById('faqAnswerBox');
-  document.getElementById('faqQuestion').textContent = faqData[index].q;
-  document.getElementById('faqAnswer').textContent = faqData[index].a;
   box.style.opacity = '0';
-  box.style.transform = 'translateY(8px)';
-  setTimeout(function() { box.style.opacity = '1'; box.style.transform = 'none'; }, 10);
+  box.style.transform = 'translateY(10px)';
+  setTimeout(function() {
+    document.getElementById('faqQuestion').textContent = faqData[index].q;
+    document.getElementById('faqAnswer').textContent = faqData[index].a;
+    box.style.opacity = '1';
+    box.style.transform = 'translateY(0)';
+  }, 260);
 }
 
 /* ─── HELPER ─── */
@@ -2900,39 +3028,88 @@ function toggleTheme() {
 </script>
 
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "AccountingService",
-  "name": "Kamboh Associates",
-  "url": "https://kambohassociates.com",
-  "logo": "https://kambohassociates.com/og-image.jpg",
-  "description": "Pakistan's trusted tax consultancy in Lahore offering FBR filing, NTN registration, SECP company formation, and regulatory compliance services since 2008.",
-  "telephone": "+923284675162",
-  "email": "info@kambohassociates.com",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Lahore",
-    "addressRegion": "Punjab",
-    "addressCountry": "PK"
+[
+  {
+    "@context": "https://schema.org",
+    "@type": ["AccountingService", "LocalBusiness"],
+    "name": "Kamboh Associates",
+    "alternateName": "KA Tax Consultants Lahore",
+    "url": "https://kambohassociates.com",
+    "logo": "https://kambohassociates.com/og-image.jpg",
+    "image": "https://kambohassociates.com/og-image.jpg",
+    "description": "Kamboh Associates — Pakistan's trusted tax consultancy in Lahore. Expert FBR income tax return filing, NTN registration, SECP company formation, GST registration, and regulatory compliance since 2008. Tax consultant near me Lahore.",
+    "telephone": "+923284675162",
+    "email": "info@kambohassociates.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Allama Iqbal Town, Opp. Shell Pump, Main Boulevard",
+      "addressLocality": "Lahore",
+      "addressRegion": "Punjab",
+      "postalCode": "54570",
+      "addressCountry": "PK"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 31.4877,
+      "longitude": 74.3042
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Saturday"],
+        "opens": "09:00",
+        "closes": "18:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Friday",
+        "opens": "09:00",
+        "closes": "12:30"
+      }
+    ],
+    "priceRange": "PKR 2,000–50,000",
+    "currenciesAccepted": "PKR",
+    "paymentAccepted": "Cash, Bank Transfer, Easypaisa, JazzCash",
+    "areaServed": [
+      {"@type": "City", "name": "Lahore"},
+      {"@type": "City", "name": "Karachi"},
+      {"@type": "City", "name": "Islamabad"},
+      {"@type": "City", "name": "Faisalabad"},
+      {"@type": "City", "name": "Multan"},
+      {"@type": "City", "name": "Rawalpindi"},
+      {"@type": "City", "name": "Peshawar"},
+      {"@type": "City", "name": "Sialkot"},
+      {"@type": "City", "name": "Gujranwala"},
+      {"@type": "City", "name": "Quetta"},
+      {"@type": "Country", "name": "Pakistan"}
+    ],
+    "foundingDate": "2008",
+    "sameAs": [
+      "https://www.facebook.com/kambohassociates",
+      "https://wa.me/923284675162"
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Tax & Regulatory Services",
+      "itemListElement": [
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Income Tax Return Filing", "description": "FBR income tax return filing for salaried, business, and freelance individuals in Pakistan"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "NTN Registration", "description": "National Tax Number registration with FBR IRIS for individuals and businesses"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "SECP Company Registration", "description": "Private limited company registration with SECP Pakistan"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "GST STRN Registration", "description": "Sales Tax Registration Number (STRN) with FBR for businesses"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "FBR Compliance", "description": "FBR compliance, penalty removal, and tax notices handling in Pakistan"}}
+      ]
+    }
   },
-  "areaServed": "Pakistan",
-  "foundingDate": "2008",
-  "sameAs": [
-    "https://www.facebook.com/kambohassociates",
-    "https://wa.me/923284675162"
-  ],
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Tax & Regulatory Services",
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
     "itemListElement": [
-      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Income Tax Return Filing"}},
-      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "NTN Registration"}},
-      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "SECP Company Registration"}},
-      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Sales Tax Registration"}},
-      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "FBR Compliance"}}
+      {"@type": "ListItem", "position": 1, "name": "Kamboh Associates — Tax Consultant Lahore", "item": "https://kambohassociates.com/"},
+      {"@type": "ListItem", "position": 2, "name": "Tax Services", "item": "https://kambohassociates.com/#services"},
+      {"@type": "ListItem", "position": 3, "name": "Blog", "item": "https://kambohassociates.com/blogs"}
     ]
   }
-}
+]
 </script>
 </body>
 </html>
