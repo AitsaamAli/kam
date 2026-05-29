@@ -1427,16 +1427,19 @@ select.form-control { cursor: pointer }
   max-width: 760px;
   margin: 0 auto;
   background: var(--surface-2);
-  border: 1px solid var(--border-gold);
+  border: 2px solid var(--gold-light);
   border-radius: var(--radius-lg);
   padding: 36px 40px;
-  opacity: 1;
+  opacity: 1 !important;
   transform: none;
   transition: opacity .2s ease, transform .2s ease;
+  display: block !important;
+  box-shadow: 0 4px 24px rgba(184,134,11,.08);
 }
-.faq-answer-box.faq-out { opacity: 0 !important; transform: translateY(8px) !important; }
-.faq-answer-q { font-family: var(--font-serif); font-size: 1.3rem; font-weight: 600; color: var(--text); margin-bottom: 14px; line-height: 1.35 }
-.faq-answer-a { font-size: .9rem; color: var(--text-2); line-height: 1.85 }
+[data-theme="light"] .faq-answer-box { background: #FFFDF5 }
+.faq-answer-box.faq-out { opacity: 0 !important; transform: translateY(8px) !important; pointer-events: none }
+.faq-answer-q { font-family: var(--font-serif); font-size: 1.3rem; font-weight: 600; color: var(--text) !important; margin-bottom: 14px; line-height: 1.35 }
+.faq-answer-a { font-size: .9rem; color: var(--text-2) !important; line-height: 1.85 }
 
 /* ══════════════════════════════════════════
    CITIES / SERVICE AREAS
