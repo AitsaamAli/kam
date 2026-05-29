@@ -1424,21 +1424,18 @@ select.form-control { cursor: pointer }
 .faq-pill:hover { border-color: var(--border-gold); color: var(--gold-light); background: var(--gold-bg) }
 .faq-pill.active { background: linear-gradient(135deg, var(--gold-light), var(--gold)); color: #fff; border-color: transparent; box-shadow: 0 4px 16px rgba(184,134,11,.3); font-weight: 600 }
 .faq-answer-box {
-  max-width: 760px;
-  margin: 0 auto;
   background: var(--surface-2);
   border: 2px solid var(--gold-light);
   border-radius: var(--radius-lg);
   padding: 36px 40px;
-  opacity: 1 !important;
-  transform: none;
-  transition: opacity .2s ease, transform .2s ease;
-  display: block !important;
   box-shadow: 0 4px 24px rgba(184,134,11,.08);
 }
 [data-theme="light"] .faq-answer-box { background: #FFFDF5 }
-.faq-answer-q { font-family: var(--font-serif); font-size: 1.3rem; font-weight: 600; color: var(--text) !important; margin-bottom: 14px; line-height: 1.35 }
-.faq-answer-a { font-size: .9rem; color: var(--text-2) !important; line-height: 1.85 }
+.faq-answers-wrap { max-width: 760px; margin: 0 auto }
+.faq-item-active { display: block !important }
+.faq-item-hidden { display: none !important }
+.faq-answer-q { font-family: var(--font-serif); font-size: 1.3rem; font-weight: 600; color: var(--text); margin-bottom: 14px; line-height: 1.35 }
+.faq-answer-a { font-size: .9rem; color: var(--text-2); line-height: 1.85 }
 
 /* ══════════════════════════════════════════
    CITIES / SERVICE AREAS
@@ -2026,40 +2023,72 @@ select.form-control { cursor: pointer }
     </div>
 
     <div class="faq-pills reveal">
-      <button class="faq-pill active" onclick="showFaq(0,this)">How to file income tax return?</button>
-      <button class="faq-pill" onclick="showFaq(1,this)">Documents for NTN registration?</button>
-      <button class="faq-pill" onclick="showFaq(2,this)">SECP registration cost?</button>
-      <button class="faq-pill" onclick="showFaq(3,this)">Income tax return deadline?</button>
-      <button class="faq-pill" onclick="showFaq(4,this)">How long does SECP take?</button>
-      <button class="faq-pill" onclick="showFaq(5,this)">Do salaried persons need NTN?</button>
-      <button class="faq-pill" onclick="showFaq(6,this)">NTN vs STRN difference?</button>
-      <button class="faq-pill" onclick="showFaq(7,this)">Can you file my return online?</button>
-      <button class="faq-pill" onclick="showFaq(8,this)">When to register for GST?</button>
+      <button class="faq-pill active" onclick="showFaqItem(0,this)">How to file income tax return?</button>
+      <button class="faq-pill" onclick="showFaqItem(1,this)">Documents for NTN registration?</button>
+      <button class="faq-pill" onclick="showFaqItem(2,this)">SECP registration cost?</button>
+      <button class="faq-pill" onclick="showFaqItem(3,this)">Income tax return deadline?</button>
+      <button class="faq-pill" onclick="showFaqItem(4,this)">How long does SECP take?</button>
+      <button class="faq-pill" onclick="showFaqItem(5,this)">Do salaried persons need NTN?</button>
+      <button class="faq-pill" onclick="showFaqItem(6,this)">NTN vs STRN difference?</button>
+      <button class="faq-pill" onclick="showFaqItem(7,this)">Can you file my return online?</button>
+      <button class="faq-pill" onclick="showFaqItem(8,this)">When to register for GST?</button>
     </div>
 
-    <div class="faq-answer-box" id="faqAnswerBox" style="opacity:1;display:block;visibility:visible">
-      <div class="faq-answer-q" id="faqQuestion">How do I file my income tax return with FBR?</div>
-      <div class="faq-answer-a" id="faqAnswer">Filing your income tax return with FBR is fully online through the IRIS portal (iris.fbr.gov.pk). You need an active NTN, your CNIC, and a record of your annual income and expenses. At Kamboh Associates, we handle the entire process — from IRIS enrollment to final submission — with 100% accuracy and same-day service for most clients. Contact us to get started.</div>
+    <div class="faq-answers-wrap">
+      <div class="faq-answer-box faq-item-active" id="faq-i-0">
+        <div class="faq-answer-q">How do I file my income tax return with FBR?</div>
+        <div class="faq-answer-a">Filing your income tax return with FBR is fully online through the IRIS portal (iris.fbr.gov.pk). You need an active NTN, your CNIC, and a record of your annual income and expenses. At Kamboh Associates, we handle the entire process — from IRIS enrollment to final submission — with 100% accuracy and same-day service for most clients.</div>
+      </div>
+      <div class="faq-answer-box faq-item-hidden" id="faq-i-1">
+        <div class="faq-answer-q">What documents are required for NTN registration?</div>
+        <div class="faq-answer-a">For individual NTN registration you need: (1) Original CNIC, (2) Salary certificate or business proof, (3) Utility bill as address proof, (4) Active mobile number and email. For a business NTN, you additionally need business registration documents. Kamboh Associates completes NTN registration within 24 hours.</div>
+      </div>
+      <div class="faq-answer-box faq-item-hidden" id="faq-i-2">
+        <div class="faq-answer-q">How much does SECP company registration cost?</div>
+        <div class="faq-answer-a">SECP government fees start from PKR 1,500 for private limited companies. Kamboh Associates provides a transparent all-inclusive package covering SECP fees, Memorandum &amp; Articles of Association, NTN registration, and post-incorporation compliance setup. Contact us for a detailed quote.</div>
+      </div>
+      <div class="faq-answer-box faq-item-hidden" id="faq-i-3">
+        <div class="faq-answer-q">What is the deadline for filing income tax returns?</div>
+        <div class="faq-answer-a">The FBR income tax return deadline for individuals and AOPs is September 30 each year. For companies, the deadline is December 31. Late filing attracts penalties and removes you from the active filer list — which means higher withholding tax rates on all transactions. File on time with Kamboh Associates.</div>
+      </div>
+      <div class="faq-answer-box faq-item-hidden" id="faq-i-4">
+        <div class="faq-answer-q">How long does SECP company registration take?</div>
+        <div class="faq-answer-a">With Kamboh Associates, SECP company registration typically takes 3–5 working days for a private limited company. Name reservation is completed within 1–2 days. The complete process including NTN and GST registration is handled within 7–10 working days.</div>
+      </div>
+      <div class="faq-answer-box faq-item-hidden" id="faq-i-5">
+        <div class="faq-answer-q">Do salaried employees need an NTN?</div>
+        <div class="faq-answer-a">Yes. All individuals earning taxable income in Pakistan, including salaried employees, must obtain an NTN and file an annual income tax return. Being an active filer entitles you to lower withholding tax rates on banking transactions, property purchases, and vehicle registration — saving you money.</div>
+      </div>
+      <div class="faq-answer-box faq-item-hidden" id="faq-i-6">
+        <div class="faq-answer-q">What is the difference between NTN and STRN?</div>
+        <div class="faq-answer-a">NTN (National Tax Number) is your income tax identity used for FBR income tax returns. STRN (Sales Tax Registration Number) is a separate registration required for businesses supplying taxable goods or services above the turnover threshold. A business may have both an NTN and an STRN — Kamboh Associates handles both.</div>
+      </div>
+      <div class="faq-answer-box faq-item-hidden" id="faq-i-7">
+        <div class="faq-answer-q">Can Kamboh Associates file my tax return online?</div>
+        <div class="faq-answer-a">Yes, absolutely. Kamboh Associates provides fully remote, online income tax return filing. Simply send us your income documents (salary slips, bank statements, property details) via WhatsApp or email. We prepare your return, obtain your approval, and submit directly to FBR's IRIS system — acknowledgment received same day in most cases.</div>
+      </div>
+      <div class="faq-answer-box faq-item-hidden" id="faq-i-8">
+        <div class="faq-answer-q">What is GST and when do I need to register?</div>
+        <div class="faq-answer-a">GST (General Sales Tax) is levied on taxable goods and services in Pakistan at the standard rate of 18%. Businesses must register for GST (STRN) when annual taxable turnover exceeds PKR 10 million, when importing goods, or when required by their category. Kamboh Associates handles STRN registration with FBR efficiently.</div>
+      </div>
     </div>
   </div>
 </section>
 <script>
-var faqData=[
-  {q:'How do I file my income tax return with FBR?',a:'Filing your income tax return with FBR is fully online through the IRIS portal (iris.fbr.gov.pk). You need an active NTN, your CNIC, and a record of your annual income and expenses. At Kamboh Associates, we handle the entire process — from IRIS enrollment to final submission — with 100% accuracy and same-day service for most clients.'},
-  {q:'What documents are required for NTN registration?',a:'For individual NTN registration you need: (1) Original CNIC, (2) Salary certificate or business proof, (3) Utility bill as address proof, (4) Active mobile number and email. For a business NTN, you additionally need business registration documents. Kamboh Associates completes NTN registration within 24 hours.'},
-  {q:'How much does SECP company registration cost?',a:'SECP government fees start from PKR 1,500 for private limited companies. Kamboh Associates provides a transparent all-inclusive package covering SECP fees, Memorandum & Articles of Association, NTN registration, and post-incorporation compliance setup. Contact us for a detailed quote.'},
-  {q:'What is the deadline for filing income tax returns?',a:'The FBR income tax return deadline for individuals and AOPs is September 30 each year. For companies, the deadline is December 31. Late filing attracts penalties and removes you from the active filer list — which means higher withholding tax rates on all transactions. File on time with Kamboh Associates.'},
-  {q:'How long does SECP company registration take?',a:'With Kamboh Associates, SECP company registration typically takes 3–5 working days for a private limited company. Name reservation is completed within 1–2 days. The complete process including NTN and GST registration is handled within 7–10 working days.'},
-  {q:'Do salaried employees need an NTN?',a:'Yes. All individuals earning taxable income in Pakistan, including salaried employees, must obtain an NTN and file an annual income tax return. Being an active filer entitles you to lower withholding tax rates on banking transactions, property purchases, and vehicle registration — saving you money.'},
-  {q:'What is the difference between NTN and STRN?',a:'NTN (National Tax Number) is your income tax identity used for FBR income tax returns. STRN (Sales Tax Registration Number) is a separate registration required for businesses supplying taxable goods or services above the turnover threshold. A business may have both an NTN and an STRN — Kamboh Associates handles both.'},
-  {q:'Can Kamboh Associates file my tax return online?',a:'Yes, absolutely. Kamboh Associates provides fully remote, online income tax return filing. Simply send us your income documents (salary slips, bank statements, property details) via WhatsApp or email. We prepare your return, obtain your approval, and submit directly to FBR\'s IRIS system — acknowledgment received same day in most cases.'},
-  {q:'What is GST and when do I need to register?',a:'GST (General Sales Tax) is levied on taxable goods and services in Pakistan at the standard rate of 18%. Businesses must register for GST (STRN) when annual taxable turnover exceeds PKR 10 million, when importing goods, or when required by their category. Kamboh Associates handles STRN registration with FBR efficiently.'}
-];
-function showFaq(idx,el){
-  document.querySelectorAll('.faq-pill').forEach(function(p){p.classList.remove('active');});
+function showFaqItem(idx,el){
+  var pills=document.querySelectorAll('.faq-pill');
+  var items=document.querySelectorAll('.faq-answer-box');
+  for(var i=0;i<pills.length;i++) pills[i].classList.remove('active');
+  for(var j=0;j<items.length;j++){
+    items[j].classList.remove('faq-item-active');
+    items[j].classList.add('faq-item-hidden');
+  }
   el.classList.add('active');
-  document.getElementById('faqQuestion').textContent=faqData[idx].q;
-  document.getElementById('faqAnswer').textContent=faqData[idx].a;
+  var target=document.getElementById('faq-i-'+idx);
+  if(target){
+    target.classList.remove('faq-item-hidden');
+    target.classList.add('faq-item-active');
+  }
 }
 </script>
 
