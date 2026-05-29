@@ -10,6 +10,11 @@
     { "source": "/tax-deductions-2026.html", "destination": "/tax-deductions-2026", "permanent": true },
     { "source": "/regulatory-compliance-2026.html", "destination": "/regulatory-compliance-2026", "permanent": true },
     { "source": "/secp-company-registration.html", "destination": "/secp-company-registration", "permanent": true },
-    { "source": "/how-to-become-active-taxpayer-pakistan.html", "destination": "/how-to-become-active-taxpayer-pakistan", "permanent": true }
+    { "source": "/how-to-become-active-taxpayer-pakistan.html", "destination": "/how-to-become-active-taxpayer-pakistan", "permanent": true },
+    { "source": "/atl-pakistan-guide.html", "destination": "/atl-pakistan-guide", "permanent": true },
+    { "source": "/how-to-check-atl-status-pakistan.html", "destination": "/how-to-check-atl-status-pakistan", "permanent": true },
+    { "source": "/income-tax-return-mistakes-pakistan.html", "destination": "/income-tax-return-mistakes-pakistan", "permanent": true },
+    { "source": "/documents-income-tax-return-pakistan.html", "destination": "/documents-income-tax-return-pakistan", "permanent": true },
+    { "source": "/salaried-person-tax-return-pakistan.html", "destination": "/salaried-person-tax-return-pakistan", "permanent": true }
   ]
 }
