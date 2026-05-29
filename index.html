@@ -1349,6 +1349,127 @@ select.form-control { cursor: pointer }
   .nav-actions .btn { display: none }
   .btn-gold.hero-btn, .btn-outline.hero-btn { padding: 13px 22px }
 }
+
+/* ══════════════════════════════════════════
+   TESTIMONIALS
+══════════════════════════════════════════ */
+.testimonials { padding: 110px 0; background: var(--bg-2); border-top: 1px solid var(--border) }
+.testimonials-header { text-align: center; margin-bottom: 60px }
+.testimonials-header .section-sub { margin: 0 auto }
+.testi-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px }
+.testi-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 32px 28px;
+  transition: all .35s var(--ease);
+}
+.testi-card:hover { border-color: var(--border-gold); transform: translateY(-4px); box-shadow: var(--shadow-xl) }
+.testi-stars { color: var(--gold-light); font-size: .95rem; margin-bottom: 16px; letter-spacing: 3px }
+.testi-quote {
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  color: var(--text-2);
+  line-height: 1.75;
+  font-style: italic;
+  margin-bottom: 24px;
+  padding-left: 22px;
+  position: relative;
+}
+.testi-quote::before {
+  content: '\201C';
+  position: absolute;
+  left: 0; top: -6px;
+  font-size: 2.8rem;
+  color: var(--gold-light);
+  opacity: .35;
+  font-family: var(--font-serif);
+  line-height: 1;
+}
+.testi-author { display: flex; align-items: center; gap: 12px; padding-top: 20px; border-top: 1px solid var(--border) }
+.testi-avatar {
+  width: 44px; height: 44px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--gold-light), var(--gold));
+  display: grid;
+  place-items: center;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: .85rem;
+  color: #fff;
+  flex-shrink: 0;
+}
+.testi-name { font-weight: 600; font-size: .88rem; color: var(--text) }
+.testi-role { font-size: .7rem; color: var(--text-3); text-transform: uppercase; letter-spacing: .07em; margin-top: 2px }
+
+/* ══════════════════════════════════════════
+   FAQ SECTION (pill-style)
+══════════════════════════════════════════ */
+.faq-section { padding: 110px 0; background: var(--bg); border-top: 1px solid var(--border) }
+.faq-header { text-align: center; margin-bottom: 50px }
+.faq-header .section-sub { margin: 0 auto }
+.faq-pills { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-bottom: 40px }
+.faq-pill {
+  padding: 10px 22px;
+  border-radius: 100px;
+  border: 1.5px solid var(--border);
+  background: var(--surface);
+  color: var(--text-3);
+  font-size: .83rem;
+  cursor: pointer;
+  transition: all .25s var(--ease);
+  font-family: var(--font-body);
+  font-weight: 500;
+}
+.faq-pill:hover { border-color: var(--border-gold); color: var(--gold-light); background: var(--gold-bg) }
+.faq-pill.active { background: linear-gradient(135deg, var(--gold-light), var(--gold)); color: #fff; border-color: transparent; box-shadow: 0 4px 16px rgba(184,134,11,.3); font-weight: 600 }
+.faq-answer-box {
+  max-width: 760px;
+  margin: 0 auto;
+  background: var(--surface-2);
+  border: 1px solid var(--border-gold);
+  border-radius: var(--radius-lg);
+  padding: 36px 40px;
+  transition: all .3s var(--ease);
+}
+.faq-answer-q { font-family: var(--font-serif); font-size: 1.3rem; font-weight: 600; color: var(--text); margin-bottom: 14px; line-height: 1.35 }
+.faq-answer-a { font-size: .9rem; color: var(--text-2); line-height: 1.85 }
+
+/* ══════════════════════════════════════════
+   CITIES / SERVICE AREAS
+══════════════════════════════════════════ */
+.cities-section { padding: 80px 0; background: var(--topbar-bg) }
+[data-theme="light"] .cities-section { background: #0F172A }
+.cities-header { text-align: center; margin-bottom: 50px }
+.cities-header .section-title { color: #fff }
+.cities-header .section-sub { color: #64748B; margin: 0 auto }
+.cities-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 14px }
+.city-card {
+  background: rgba(255,255,255,.05);
+  border: 1px solid rgba(255,255,255,.08);
+  border-radius: var(--radius);
+  padding: 22px 16px;
+  text-align: center;
+  transition: all .3s var(--ease);
+}
+.city-card:hover { background: rgba(184,134,11,.1); border-color: rgba(184,134,11,.3); transform: translateY(-3px) }
+.city-name { font-family: var(--font-display); font-size: .84rem; font-weight: 700; color: #fff; letter-spacing: .05em; margin-bottom: 5px }
+.city-service { font-size: .62rem; color: #64748B; letter-spacing: .12em; text-transform: uppercase }
+.cities-note { text-align: center; margin-top: 30px; font-size: .82rem; color: #475569; font-style: italic }
+@media (max-width: 1024px) {
+  .testi-grid { grid-template-columns: 1fr 1fr }
+  .cities-grid { grid-template-columns: repeat(4, 1fr) }
+}
+@media (max-width: 768px) {
+  .testi-grid { grid-template-columns: 1fr }
+  .cities-grid { grid-template-columns: repeat(3, 1fr) }
+  .faq-answer-box { padding: 24px 20px }
+  .faq-pills { gap: 8px }
+  .faq-pill { font-size: .78rem; padding: 8px 16px }
+}
+@media (max-width: 480px) {
+  .cities-grid { grid-template-columns: repeat(2, 1fr) }
+}
 </style>
 </head>
 <body>
@@ -1725,6 +1846,54 @@ select.form-control { cursor: pointer }
 </section>
 
 <!-- ══════════════════════════════════════════
+     TESTIMONIALS
+══════════════════════════════════════════ -->
+<section class="testimonials" id="testimonials">
+  <div class="container">
+    <div class="testimonials-header reveal">
+      <span class="eyebrow">Client Success Stories</span>
+      <h2 class="section-title">Trusted by Thousands<br>Across Pakistan</h2>
+      <p class="section-sub">Real clients. Real results. See how Kamboh Associates has helped businesses and professionals achieve tax compliance and regulatory excellence.</p>
+    </div>
+    <div class="testi-grid">
+      <div class="testi-card reveal" style="transition-delay:.05s">
+        <div class="testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="testi-quote">KA filed my FBR return within 24 hours. Their team handled everything from start to finish — I didn't need to visit any office. Highly professional and reliable.</p>
+        <div class="testi-author">
+          <div class="testi-avatar">MS</div>
+          <div>
+            <div class="testi-name">Muhammad Saad Khan</div>
+            <div class="testi-role">Business Owner &middot; Lahore</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card reveal" style="transition-delay:.1s">
+        <div class="testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="testi-quote">Got my NTN registered and income tax return filed seamlessly. The team explained every step clearly. Best tax consultancy in Lahore without question.</p>
+        <div class="testi-author">
+          <div class="testi-avatar">AT</div>
+          <div>
+            <div class="testi-name">Ayesha Tahir</div>
+            <div class="testi-role">Salaried Professional &middot; Lahore</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card reveal" style="transition-delay:.15s">
+        <div class="testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="testi-quote">Our company registration with SECP was completed in record time. Kamboh Associates handled NTN, GST, and all documentation. Truly an end-to-end solution.</p>
+        <div class="testi-author">
+          <div class="testi-avatar">UR</div>
+          <div>
+            <div class="testi-name">Usman Raza</div>
+            <div class="testi-role">Company Director &middot; Lahore</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
      TAX DEADLINES TRACKER
 ══════════════════════════════════════════ -->
 <section class="deadline-section" id="deadlines">
@@ -1764,6 +1933,62 @@ select.form-control { cursor: pointer }
       <a href="#contact" class="btn btn-gold"><i class="fas fa-calendar-check"></i> Get Compliance Reminder</a>
       <a href="https://wa.me/923284675162" target="_blank" class="btn btn-outline" style="margin-left:10px"><i class="fab fa-whatsapp"></i> WhatsApp Alerts</a>
     </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     FAQ
+══════════════════════════════════════════ -->
+<section class="faq-section" id="faq">
+  <div class="container">
+    <div class="faq-header reveal">
+      <span class="eyebrow">Support</span>
+      <h2 class="section-title">Frequently Asked Questions</h2>
+      <p class="section-sub">Find clear answers about tax filing, NTN registration, SECP company formation, and our advisory services.</p>
+    </div>
+
+    <div class="faq-pills reveal">
+      <button class="faq-pill active" onclick="showFaq(0,this)">How to file income tax return?</button>
+      <button class="faq-pill" onclick="showFaq(1,this)">Documents for NTN registration?</button>
+      <button class="faq-pill" onclick="showFaq(2,this)">SECP registration cost?</button>
+      <button class="faq-pill" onclick="showFaq(3,this)">Income tax return deadline?</button>
+      <button class="faq-pill" onclick="showFaq(4,this)">How long does SECP take?</button>
+      <button class="faq-pill" onclick="showFaq(5,this)">Do salaried persons need NTN?</button>
+      <button class="faq-pill" onclick="showFaq(6,this)">NTN vs STRN difference?</button>
+      <button class="faq-pill" onclick="showFaq(7,this)">Can you file my return online?</button>
+      <button class="faq-pill" onclick="showFaq(8,this)">When to register for GST?</button>
+    </div>
+
+    <div class="faq-answer-box reveal" id="faqAnswerBox">
+      <div class="faq-answer-q" id="faqQuestion">How do I file my income tax return with FBR?</div>
+      <div class="faq-answer-a" id="faqAnswer">Filing your income tax return with FBR is fully online through the IRIS portal (iris.fbr.gov.pk). You need an active NTN, your CNIC, and a record of your annual income and expenses. At Kamboh Associates, we handle the entire process — from IRIS enrollment to final submission — with 100% accuracy and same-day service for most clients. Contact us to get started.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     SERVICE AREAS
+══════════════════════════════════════════ -->
+<section class="cities-section">
+  <div class="container">
+    <div class="cities-header reveal">
+      <span class="eyebrow" style="color:var(--gold-light)">Our Reach</span>
+      <h2 class="section-title">Serving Clients<br>Across Pakistan</h2>
+      <p class="section-sub">Based in Lahore, Kamboh Associates provides remote tax filing and regulatory advisory to clients in all major cities through our secure digital platform.</p>
+    </div>
+    <div class="cities-grid reveal">
+      <div class="city-card"><div class="city-name">Lahore</div><div class="city-service">Head Office</div></div>
+      <div class="city-card"><div class="city-name">Karachi</div><div class="city-service">Tax Advisory</div></div>
+      <div class="city-card"><div class="city-name">Islamabad</div><div class="city-service">Tax Advisory</div></div>
+      <div class="city-card"><div class="city-name">Faisalabad</div><div class="city-service">Tax Advisory</div></div>
+      <div class="city-card"><div class="city-name">Multan</div><div class="city-service">Tax Advisory</div></div>
+      <div class="city-card"><div class="city-name">Rawalpindi</div><div class="city-service">Tax Advisory</div></div>
+      <div class="city-card"><div class="city-name">Peshawar</div><div class="city-service">Tax Advisory</div></div>
+      <div class="city-card"><div class="city-name">Sialkot</div><div class="city-service">Tax Advisory</div></div>
+      <div class="city-card"><div class="city-name">Gujranwala</div><div class="city-service">Tax Advisory</div></div>
+      <div class="city-card"><div class="city-name">Quetta</div><div class="city-service">Tax Advisory</div></div>
+    </div>
+    <p class="cities-note">"Based in Lahore — we serve clients nationwide via phone, WhatsApp, and our secure digital platform."</p>
   </div>
 </section>
 
@@ -2630,6 +2855,32 @@ function calcWHT() {
   document.getElementById('wht-r-rate').textContent = (rate * 100).toFixed(1) + '% (' + (filerStatus === 'filer' ? 'Active Filer' : 'Non-Filer') + ')';
   document.getElementById('wht-r-wht').textContent = 'PKR ' + fmt(Math.round(whtAmt));
   document.getElementById('wht-r-net').textContent = 'PKR ' + fmt(Math.round(net));
+}
+
+/* ════════════════════════════════════
+   FAQ PILL SYSTEM
+════════════════════════════════════ */
+var faqData = [
+  { q: 'How do I file my income tax return with FBR?', a: 'Filing your income tax return with FBR is fully online through the IRIS portal (iris.fbr.gov.pk). You need an active NTN, your CNIC, and a record of your annual income and expenses. At Kamboh Associates, we handle the entire process — from IRIS enrollment to final submission — with 100% accuracy and same-day service for most clients.' },
+  { q: 'What documents are required for NTN registration?', a: 'For individual NTN registration you need: (1) Original CNIC, (2) Salary certificate or business proof, (3) Utility bill as address proof, (4) Active mobile number and email. For a business NTN, you additionally need business registration documents. Kamboh Associates completes NTN registration within 24 hours.' },
+  { q: 'How much does SECP company registration cost?', a: 'SECP government fees start from PKR 1,500 for private limited companies. Kamboh Associates provides a transparent all-inclusive package covering SECP fees, Memorandum & Articles of Association, NTN registration, and post-incorporation compliance setup. Contact us for a detailed quote.' },
+  { q: 'What is the deadline for filing income tax returns?', a: 'The FBR income tax return deadline for individuals and AOPs is September 30 each year. For companies, the deadline is December 31. Late filing attracts penalties and removes you from the active filer list — which means higher withholding tax rates on all transactions. File on time with Kamboh Associates.' },
+  { q: 'How long does SECP company registration take?', a: 'With Kamboh Associates, SECP company registration typically takes 3–5 working days for a private limited company. Name reservation is completed within 1–2 days. The complete process including NTN and GST registration is handled within 7–10 working days.' },
+  { q: 'Do salaried employees need an NTN?', a: 'Yes. All individuals earning taxable income in Pakistan, including salaried employees, must obtain an NTN and file an annual income tax return. Being an active filer entitles you to lower withholding tax rates on banking transactions, property purchases, and vehicle registration — saving you money.' },
+  { q: 'What is the difference between NTN and STRN?', a: 'NTN (National Tax Number) is your income tax identity used for FBR income tax returns. STRN (Sales Tax Registration Number) is a separate registration required for businesses supplying taxable goods or services above the turnover threshold. A business may have both an NTN and an STRN — Kamboh Associates handles both.' },
+  { q: 'Can Kamboh Associates file my tax return online?', a: 'Yes, absolutely. Kamboh Associates provides fully remote, online income tax return filing. Simply send us your income documents (salary slips, bank statements, property details) via WhatsApp or email. We prepare your return, obtain your approval, and submit directly to FBR\'s IRIS system — acknowledgment received same day in most cases.' },
+  { q: 'What is GST and when do I need to register?', a: 'GST (General Sales Tax) is levied on taxable goods and services in Pakistan at the standard rate of 18%. Businesses must register for GST (STRN) when annual taxable turnover exceeds PKR 10 million, when importing goods, or when required by their category. Kamboh Associates handles STRN registration with FBR efficiently.' }
+];
+
+function showFaq(index, el) {
+  document.querySelectorAll('.faq-pill').forEach(function(p) { p.classList.remove('active'); });
+  el.classList.add('active');
+  var box = document.getElementById('faqAnswerBox');
+  document.getElementById('faqQuestion').textContent = faqData[index].q;
+  document.getElementById('faqAnswer').textContent = faqData[index].a;
+  box.style.opacity = '0';
+  box.style.transform = 'translateY(8px)';
+  setTimeout(function() { box.style.opacity = '1'; box.style.transform = 'none'; }, 10);
 }
 
 /* ─── HELPER ─── */
