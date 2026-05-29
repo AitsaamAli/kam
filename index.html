@@ -4,6 +4,17 @@
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Kamboh Associates — Tax & Regulatory Excellence in Pakistan</title>
+<meta name="description" content="Kamboh Associates — Pakistan's trusted tax consultancy in Lahore. Expert FBR filing, NTN registration, SECP company formation, and regulatory compliance since 2008."/>
+<meta name="keywords" content="tax consultant Lahore, FBR filing Pakistan, NTN registration Lahore, income tax return Pakistan, SECP registration, Kamboh Associates"/>
+<meta property="og:title" content="Kamboh Associates — Tax & Regulatory Excellence in Pakistan"/>
+<meta property="og:description" content="Pakistan's trusted tax consultancy in Lahore. Expert FBR filing, NTN registration, SECP company formation, and regulatory compliance since 2008."/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://kambohassociates.com/"/>
+<meta property="og:image" content="https://kambohassociates.com/og-image.jpg"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Kamboh Associates — Tax & Regulatory Excellence in Pakistan"/>
+<meta name="twitter:description" content="Pakistan's trusted tax consultancy in Lahore. Expert FBR filing, NTN registration, and regulatory compliance."/>
+<link rel="canonical" href="https://kambohassociates.com/"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500;600&family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet"/>
@@ -1394,7 +1405,7 @@ select.form-control { cursor: pointer }
     <li><a href="#services">Services</a></li>
     <li><a href="#tools">Tools</a></li>
     <li><a href="#deadlines">Deadlines</a></li>
-    <li><a href="blogs.html">Blog</a></li>
+    <li><a href="/blogs">Blog</a></li>
     <li><a href="#contact">Contact</a></li>
 </ul>
 
@@ -1415,7 +1426,7 @@ select.form-control { cursor: pointer }
     <a href="#services" onclick="closeMobileNav()">Services</a>
     <a href="#tools" onclick="closeMobileNav()">Tools</a>
     <a href="#deadlines" onclick="closeMobileNav()">Tax Deadlines</a>
-    <a href="blogs.html" onclick="closeMobileNav()">Blog</a>
+    <a href="/blogs" onclick="closeMobileNav()">Blog</a>
     <a href="#contact" onclick="closeMobileNav()">Contact</a>
     <div class="mobile-nav-tools">
       <button class="btn btn-gold btn-sm" onclick="openModal('salary');closeMobileNav()"><i class="fas fa-calculator"></i> Salary Tax</button>
@@ -2109,7 +2120,7 @@ select.form-control { cursor: pointer }
         <div class="result-actions">
           <button class="btn btn-outline btn-sm" onclick="printResult('biz-result')"><i class="fas fa-print"></i> Print</button>
          <a href="#contact" class="btn btn-outline btn-sm" onclick="closeModal('business')"><i class="fas fa-phone-alt"></i> Contact Us</a>
-<a href="blogs.html" class="btn btn-gold btn-sm" style="margin-left: 8px;"><i class="fas fa-book-open"></i> Read Blogs</a>
+<a href="/blogs" class="btn btn-gold btn-sm" style="margin-left: 8px;"><i class="fas fa-book-open"></i> Read Blogs</a>
         </div>
         <div class="result-note">
           <i class="fas fa-info-circle" style="color:var(--gold-light);margin-right:5px"></i>
@@ -2635,6 +2646,42 @@ function toggleTheme() {
   const saved = localStorage.getItem('site-theme');
   if (saved) document.documentElement.setAttribute('data-theme', saved);
 })();
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AccountingService",
+  "name": "Kamboh Associates",
+  "url": "https://kambohassociates.com",
+  "logo": "https://kambohassociates.com/og-image.jpg",
+  "description": "Pakistan's trusted tax consultancy in Lahore offering FBR filing, NTN registration, SECP company formation, and regulatory compliance services since 2008.",
+  "telephone": "+923284675162",
+  "email": "info@kambohassociates.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Lahore",
+    "addressRegion": "Punjab",
+    "addressCountry": "PK"
+  },
+  "areaServed": "Pakistan",
+  "foundingDate": "2008",
+  "sameAs": [
+    "https://www.facebook.com/kambohassociates",
+    "https://wa.me/923284675162"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Tax & Regulatory Services",
+    "itemListElement": [
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Income Tax Return Filing"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "NTN Registration"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "SECP Company Registration"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Sales Tax Registration"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "FBR Compliance"}}
+    ]
+  }
+}
 </script>
 </body>
 </html>

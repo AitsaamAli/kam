@@ -3,7 +3,15 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<meta name="description" content="Latest insights on tax, regulatory compliance, and business strategy from Kamboh Associates."/>
+<meta name="description" content="Latest insights on tax, regulatory compliance, and business strategy from Kamboh Associates. Expert guides on FBR filing, NTN registration, and Pakistan tax law."/>
+<meta name="keywords" content="tax blog Pakistan, FBR news Lahore, income tax Pakistan 2026, NTN registration guide, Kamboh Associates blog"/>
+<meta property="og:title" content="Blog — Kamboh Associates | Tax & Regulatory Excellence in Pakistan"/>
+<meta property="og:description" content="Latest insights on tax, regulatory compliance, and business strategy from Kamboh Associates."/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://kambohassociates.com/blogs"/>
+<meta property="og:image" content="https://kambohassociates.com/og-image.jpg"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<link rel="canonical" href="https://kambohassociates.com/blogs"/>
 <title>Blog — Kamboh Associates | Tax & Regulatory Excellence in Pakistan</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
@@ -266,7 +274,7 @@ footer{background:var(--topbar-bg);border-top:1px solid rgba(255,255,255,.06);pa
       <li><a href="#services">Services</a></li>
       <li><a href="#tools">Tools</a></li>
       <li><a href="#deadlines">Deadlines</a></li>
-      <li><a href="blogs.html" class="active">Blog</a></li>
+      <li><a href="/blogs" class="active">Blog</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
 
@@ -285,7 +293,7 @@ footer{background:var(--topbar-bg);border-top:1px solid rgba(255,255,255,.06);pa
     <a href="#services" onclick="closeMobileNav()">Services</a>
     <a href="#tools" onclick="closeMobileNav()">Tax Tools</a>
     <a href="#deadlines" onclick="closeMobileNav()">Tax Deadlines</a>
-    <a href="blogs.html" class="active" onclick="closeMobileNav()">Blog</a>
+    <a href="/blogs" class="active" onclick="closeMobileNav()">Blog</a>
     <a href="#contact" onclick="closeMobileNav()">Contact</a>
     <a href="https://wa.me/923284675162" target="_blank" style="color:#25D366"><i class="fab fa-whatsapp" style="margin-right:8px"></i>WhatsApp Advisory</a>
   </div>
@@ -385,7 +393,7 @@ footer{background:var(--topbar-bg);border-top:1px solid rgba(255,255,255,.06);pa
       <a href="#services">Services</a>
       <a href="#tools">Tax Tools</a>
       <a href="#deadlines">Deadlines</a>
-      <a href="blogs.html">Blog</a>
+      <a href="/blogs">Blog</a>
       <a href="#contact">Contact</a>
     </div>
     <p class="footer-copy">&copy; 2026 Kamboh Associates. Tax &amp; Corporate Advisory Services. All rights reserved.</p>
@@ -403,7 +411,7 @@ const blogPosts = [
   author: 'Kamboh Associates',
   readTime: '8 min read',
   icon: '🏛️',
-  link: 'income-tax-return-pakistan.html'
+  link: '/income-tax-return-pakistan'
 },
   {
     id: 'fbr-ntn-registration-guide',
@@ -416,7 +424,7 @@ const blogPosts = [
     icon: '🏛️',
     featured: true,
     icon: '🏛️',
-    link: 'fbr-ntn-registration-guide.html'
+    link: '/fbr-ntn-registration-guide'
   },
   {
     id: 'tax-deductions-2026',
@@ -555,6 +563,41 @@ function toggleTheme(){
 
 renderPosts(blogPosts);
 renderRecent();
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "name": "Kamboh Associates Blog",
+  "url": "https://kambohassociates.com/blogs",
+  "description": "Expert guides on Pakistani tax law, FBR compliance, NTN registration, and regulatory requirements.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Kamboh Associates",
+    "url": "https://kambohassociates.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://kambohassociates.com/og-image.jpg"
+    }
+  },
+  "blogPost": [
+    {
+      "@type": "BlogPosting",
+      "headline": "Who Should File Income Tax Return in Pakistan?",
+      "url": "https://kambohassociates.com/income-tax-return-pakistan",
+      "datePublished": "2026-05-20",
+      "author": {"@type": "Organization", "name": "Kamboh Associates"}
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "How to Become a Filer in Pakistan 2026: Complete FBR ATL Guide",
+      "url": "https://kambohassociates.com/fbr-ntn-registration-guide",
+      "datePublished": "2026-05-20",
+      "author": {"@type": "Organization", "name": "Kamboh Associates"}
+    }
+  ]
+}
 </script>
 </body>
 </html>
