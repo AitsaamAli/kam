@@ -36,9 +36,9 @@
   --gold-dim:    #8B6914;
   --gold-pale:   #FDF6E3;
   --amber:       #D97706;
-  --blue:        #1E40AF;
-  --blue-mid:    #2563EB;
-  --blue-light:  #3B82F6;
+  --blue:        #0F766E;
+  --blue-mid:    #0D9488;
+  --blue-light:  #14B8A6;
   --green:       #059669;
   --red:         #DC2626;
 
@@ -74,7 +74,7 @@
   --shadow-lg:   0 8px 32px rgba(0,0,0,0.1), 0 2px 8px rgba(0,0,0,0.06);
   --shadow-xl:   0 20px 60px rgba(0,0,0,0.12);
   --gold-bg:     rgba(184,134,11,0.06);
-  --blue-bg:     rgba(37,99,235,0.06);
+  --blue-bg:     rgba(13,148,136,0.06);
   --card-hover:  #FAFBFC;
   --modal-bg:    #FFFFFF;
   --input-bg:    #F8F9FA;
@@ -105,11 +105,11 @@
   --shadow-lg:   0 8px 32px rgba(0,0,0,0.5);
   --shadow-xl:   0 20px 60px rgba(0,0,0,0.6);
   --gold-bg:     rgba(212,175,55,0.08);
-  --blue-bg:     rgba(37,99,235,0.1);
+  --blue-bg:     rgba(13,148,136,0.1);
   --card-hover:  rgba(30,41,59,0.9);
   --modal-bg:    #1A2540;
   --input-bg:    rgba(255,255,255,0.05);
-  --result-bg:   rgba(37,99,235,0.06);
+  --result-bg:   rgba(13,148,136,0.06);
   --result-total-bg: rgba(184,134,11,0.1);
   --hero-overlay:rgba(10,15,30,0.5);
 }
@@ -192,9 +192,9 @@ ul { list-style: none }
 .btn-blue {
   background: linear-gradient(135deg, var(--blue-mid) 0%, var(--blue) 100%);
   color: #fff;
-  box-shadow: 0 4px 16px rgba(37,99,235,.3);
+  box-shadow: 0 4px 16px rgba(13,148,136,.3);
 }
-.btn-blue:hover { transform: translateY(-2px); box-shadow: 0 8px 28px rgba(37,99,235,.45) }
+.btn-blue:hover { transform: translateY(-2px); box-shadow: 0 8px 28px rgba(13,148,136,.45) }
 .btn-sm { padding: 9px 20px; font-size: .8rem }
 .reveal { opacity: 0; transform: translateY(30px); transition: opacity .65s var(--ease), transform .65s var(--ease) }
 .reveal-left { opacity: 0; transform: translateX(-35px); transition: opacity .65s var(--ease), transform .65s var(--ease) }
@@ -392,12 +392,12 @@ ul { list-style: none }
   z-index: 0;
   background-image:
     radial-gradient(circle at 70% 30%, rgba(184,134,11,.06) 0%, transparent 50%),
-    radial-gradient(circle at 20% 70%, rgba(37,99,235,.04) 0%, transparent 50%);
+    radial-gradient(circle at 20% 70%, rgba(13,148,136,.04) 0%, transparent 50%);
 }
 [data-theme="dark"] .hero-pattern {
   background-image:
     radial-gradient(circle at 70% 30%, rgba(212,175,55,.08) 0%, transparent 50%),
-    radial-gradient(circle at 20% 70%, rgba(37,99,235,.08) 0%, transparent 50%);
+    radial-gradient(circle at 20% 70%, rgba(13,148,136,.08) 0%, transparent 50%);
 }
 .hero-grid {
   position: absolute;
@@ -647,7 +647,7 @@ ul { list-style: none }
   font-size: 1.25rem;
 }
 .svc-icon-gold { background: var(--gold-bg); border: 1px solid var(--border-gold); color: var(--gold-light) }
-.svc-icon-blue { background: var(--blue-bg); border: 1px solid rgba(37,99,235,.2); color: var(--blue-mid) }
+.svc-icon-blue { background: var(--blue-bg); border: 1px solid rgba(13,148,136,.2); color: var(--blue-mid) }
 .svc-title { font-family: var(--font-serif); font-size: 1.25rem; font-weight: 600; color: var(--text); margin-bottom: 16px }
 .svc-list { margin-bottom: 24px }
 .svc-list li {
@@ -682,11 +682,11 @@ ul { list-style: none }
 }
 .svc-link:hover { gap: 12px }
 .svc-card.featured {
-  background: linear-gradient(145deg, rgba(37,99,235,.06), var(--surface));
-  border-color: rgba(37,99,235,.2);
+  background: linear-gradient(145deg, rgba(13,148,136,.06), var(--surface));
+  border-color: rgba(13,148,136,.2);
 }
-[data-theme="dark"] .svc-card.featured { background: linear-gradient(145deg, rgba(37,99,235,.1), var(--surface)) }
-.svc-card.featured:hover { border-color: rgba(37,99,235,.4) }
+[data-theme="dark"] .svc-card.featured { background: linear-gradient(145deg, rgba(13,148,136,.1), var(--surface)) }
+.svc-card.featured:hover { border-color: rgba(13,148,136,.4) }
 .featured-badge {
   position: absolute;
   top: 14px; right: 14px;
@@ -813,7 +813,7 @@ ul { list-style: none }
   flex-shrink: 0;
 }
 .tool-icon-gold { background: var(--gold-bg); color: var(--gold-light); border: 1px solid var(--border-gold) }
-.tool-icon-blue { background: var(--blue-bg); color: var(--blue-mid); border: 1px solid rgba(37,99,235,.2) }
+.tool-icon-blue { background: var(--blue-bg); color: var(--blue-mid); border: 1px solid rgba(13,148,136,.2) }
 .tool-icon-amber { background: rgba(217,119,6,.08); color: var(--amber); border: 1px solid rgba(217,119,6,.2) }
 .tool-icon-green { background: rgba(5,150,105,.08); color: var(--green); border: 1px solid rgba(5,150,105,.2) }
 .tool-card-body { flex: 1 }
@@ -966,7 +966,7 @@ ul { list-style: none }
   inset: 0;
   background:
     radial-gradient(circle at 25% 50%, rgba(184,134,11,.08) 0%, transparent 45%),
-    radial-gradient(circle at 75% 50%, rgba(37,99,235,.08) 0%, transparent 45%);
+    radial-gradient(circle at 75% 50%, rgba(13,148,136,.08) 0%, transparent 45%);
 }
 .cta-inner { position: relative; z-index: 1; text-align: center }
 .cta-section .section-title { color: #fff; font-size: clamp(2rem, 4.5vw, 3rem) }
@@ -1104,7 +1104,7 @@ footer {
 .modal-header-left { display: flex; align-items: center; gap: 13px }
 .modal-icon { width: 44px; height: 44px; border-radius: 11px; display: grid; place-items: center; font-size: 1.2rem }
 .modal-icon-gold { background: var(--gold-bg); color: var(--gold-light); border: 1px solid var(--border-gold) }
-.modal-icon-blue { background: var(--blue-bg); color: var(--blue-mid); border: 1px solid rgba(37,99,235,.2) }
+.modal-icon-blue { background: var(--blue-bg); color: var(--blue-mid); border: 1px solid rgba(13,148,136,.2) }
 .modal-icon-amber { background: rgba(217,119,6,.08); color: var(--amber); border: 1px solid rgba(217,119,6,.2) }
 .modal-icon-green { background: rgba(5,150,105,.08); color: var(--green); border: 1px solid rgba(5,150,105,.2) }
 .modal-title { font-family: var(--font-serif); font-size: 1.35rem; font-weight: 600; color: var(--text) }
@@ -1267,7 +1267,7 @@ select.form-control { cursor: pointer }
 .progress-bar-fill { height: 100%; background: linear-gradient(90deg, var(--gold-dim), var(--gold-light)); border-radius: 3px; transition: width 1s var(--ease) }
 
 /* GST chip */
-.gst-chip { display: inline-flex; align-items: center; gap: 6px; background: var(--blue-bg); border: 1px solid rgba(37,99,235,.2); border-radius: 100px; padding: 4px 13px; font-size: .7rem; color: var(--blue-mid); font-family: var(--font-display); letter-spacing: .1em; margin-bottom: 10px }
+.gst-chip { display: inline-flex; align-items: center; gap: 6px; background: var(--blue-bg); border: 1px solid rgba(13,148,136,.2); border-radius: 100px; padding: 4px 13px; font-size: .7rem; color: var(--blue-mid); font-family: var(--font-display); letter-spacing: .1em; margin-bottom: 10px }
 [data-theme="dark"] .gst-chip { color: var(--blue-light) }
 
 /* WHT categories */
