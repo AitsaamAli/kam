@@ -1,0 +1,105 @@
+# ═══════════════════════════════════════════════════
+# .htaccess — kambohassociates.com
+# NOTE: This site uses Vercel (static hosting).
+# Vercel handles redirects via vercel.json instead.
+# This file is provided as reference for Apache hosting.
+# ═══════════════════════════════════════════════════
+
+# Enable Rewrite Engine
+Options +FollowSymLinks
+RewriteEngine On
+
+# ─── HTTPS Redirect ────────────────────────────────
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# ─── www → non-www Redirect ────────────────────────
+RewriteCond %{HTTP_HOST} ^www\.kambohassociates\.com [NC]
+RewriteRule ^(.*)$ https://kambohassociates.com/$1 [L,R=301]
+
+# ─── Remove .html Extension from URLs ─────────────
+RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
+RewriteRule ^ /%1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^([^.]+)$ $1.html [L]
+
+# ─── Trailing Slash Consistency ───────────────────
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} (.+)/$
+RewriteRule ^ %1 [R=301,L]
+
+# ─── Custom 404 Page ──────────────────────────────
+ErrorDocument 404 /404.html
+
+# ─── Security Headers ─────────────────────────────
+Header always set X-Content-Type-Options "nosniff"
+Header always set X-Frame-Options "SAMEORIGIN"
+Header always set X-XSS-Protection "1; mode=block"
+Header always set Referrer-Policy "strict-origin-when-cross-origin"
+
+# ─── Gzip Compression ─────────────────────────────
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html
+  AddOutputFilterByType DEFLATE text/css
+  AddOutputFilterByType DEFLATE text/javascript
+  AddOutputFilterByType DEFLATE application/javascript
+  AddOutputFilterByType DEFLATE application/json
+  AddOutputFilterByType DEFLATE application/ld+json
+  AddOutputFilterByType DEFLATE image/svg+xml
+  AddOutputFilterByType DEFLATE text/xml
+</IfModule>
+
+# ─── Browser Caching ──────────────────────────────
+<IfModule mod_expires.c>
+  ExpiresActive On
+  # HTML: 1 day
+  ExpiresByType text/html "access plus 1 day"
+  # CSS & JS: 1 year (versioned)
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
+  # Images: 1 year
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/gif "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  # Fonts: 1 year
+  ExpiresByType font/woff2 "access plus 1 year"
+  ExpiresByType font/woff "access plus 1 year"
+</IfModule>
+
+# ─── Block Bad Bots ───────────────────────────────
+RewriteCond %{HTTP_USER_AGENT} (AhrefsBot|MJ12bot|DotBot|SemrushBot|BLEXBot|Bytespider|GPTBot|CCBot) [NC]
+RewriteRule .* - [F,L]
+
+# ═══════════════════════════════════════════════════
+# VERCEL EQUIVALENT (vercel.json)
+# Add this file to project root for Vercel redirects:
+# ═══════════════════════════════════════════════════
+# {
+#   "redirects": [
+#     {
+#       "source": "/:path*.html",
+#       "destination": "/:path*",
+#       "permanent": true
+#     }
+#   ],
+#   "headers": [
+#     {
+#       "source": "/(.*)",
+#       "headers": [
+#         { "key": "X-Content-Type-Options", "value": "nosniff" },
+#         { "key": "X-Frame-Options", "value": "SAMEORIGIN" },
+#         { "key": "X-XSS-Protection", "value": "1; mode=block" },
+#         { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" }
+#       ]
+#     },
+#     {
+#       "source": "/images/(.*)",
+#       "headers": [
+#         { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+#       ]
+#     }
+#   ]
+# }
