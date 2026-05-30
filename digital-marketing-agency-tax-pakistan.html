@@ -161,6 +161,10 @@ footer{background:var(--topbar-bg);border-top:1px solid rgba(255,255,255,.06);pa
 @media(max-width:1024px){.blog-layout{grid-template-columns:1fr;gap:36px}.sidebar{position:static;display:grid;grid-template-columns:1fr 1fr;gap:16px}}
 @media(max-width:768px){.nav-links,.nav-phone{display:none}.hamburger{display:flex}.blog-layout{padding:36px 0 60px}.article-body{padding:26px 22px}.deduct-grid{grid-template-columns:1fr}.sidebar{display:flex;flex-direction:column}.article-cta{padding:26px 20px}.article-cta .cta-btns{flex-direction:column;align-items:center}.tax-table{font-size:.8rem}}
 @media(max-width:480px){.container{padding:0 16px}.blog-post-hero{padding:36px 0 32px}}
+
+.featured-img-block{margin:-44px -48px 36px;overflow:hidden;border-radius:var(--radius-lg) var(--radius-lg) 0 0;line-height:0}
+.featured-img-block img{width:100%;height:340px;object-fit:cover;object-position:top;display:block}
+@media(max-width:768px){.featured-img-block{margin:-26px -22px 28px}.featured-img-block img{height:220px}}
 </style>
 <script>(function(){const t=localStorage.getItem('site-theme');if(t)document.documentElement.setAttribute('data-theme',t);else if(window.matchMedia('(prefers-color-scheme: dark)').matches)document.documentElement.setAttribute('data-theme','dark');})();</script>
 </head>
@@ -196,6 +200,7 @@ footer{background:var(--topbar-bg);border-top:1px solid rgba(255,255,255,.06);pa
   <div class="blog-layout">
     <article>
       <div class="article-body reveal">
+        <div class="featured-img-block"><img src="/images/Digital Marketing Agency Tax Guide.png" alt="digital marketing agency tax pakistan" loading="lazy"></div>
         <p class="article-lead">
           Pakistan mein digital marketing agencies tezi se barhti industry hai. Lahore mein Gulberg se lekar DHA tak, dozens of agencies hain jo SEO, social media management, PPC, aur content marketing services provide karti hain — local aur foreign clients dono ko. Lekin tax compliance mein yeh agencies aksar confused rehti hain — <strong>income tax, withholding tax, sales tax on services, aur PSEB ke benefits</strong> sab mila kar ek complex picture banate hain. Is guide mein sab clearly explain karenge.
         </p>

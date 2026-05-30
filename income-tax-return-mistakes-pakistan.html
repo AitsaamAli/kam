@@ -37,7 +37,7 @@ a{text-decoration:none;color:inherit}img{max-width:100%;display:block}ul{list-st
 .container{max-width:var(--max-w);margin:0 auto;padding:0 24px}
 .topbar{background:var(--topbar-bg);border-bottom:1px solid rgba(255,255,255,.06);padding:8px 0;font-size:.75rem;color:var(--topbar-text)}
 .topbar .container{display:flex;justify-content:space-between;align-items:center;gap:12px}
-.topbar-left{flex:1;overflow:hidden;white-space:nowrap;max-width:56%}.topbar-promo-wrap{display:inline-flex;animation:kascroll 26s linear infinite}.topbar-promo{font-family:var(--font-display);font-size:.58rem;letter-spacing:.14em;color:var(--gold-light);text-transform:uppercase;white-space:nowrap;flex-shrink:0}@keyframes kascroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+.topbar-left{flex:1;overflow:hidden;white-space:nowrap}.topbar-right{display:none!important}.topbar-promo-wrap{display:inline-flex;animation:kascroll 26s linear infinite}.topbar-promo{font-family:var(--font-display);font-size:.68rem;letter-spacing:.2em;color:var(--gold-light);text-transform:uppercase;white-space:nowrap;flex-shrink:0;font-weight:600;text-shadow:0 0 12px rgba(212,175,55,.7),0 0 28px rgba(212,175,55,.3),0 0 50px rgba(212,175,55,.15)}@keyframes kascroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
 .topbar-right{display:flex;gap:20px;align-items:center}
 .topbar-right a{color:var(--topbar-text);transition:color .2s;display:flex;align-items:center;gap:5px}
 .topbar-right a:hover{color:var(--gold-light)}.topbar-right i{color:var(--gold-light)}
@@ -153,6 +153,10 @@ footer{background:var(--topbar-bg);border-top:1px solid rgba(255,255,255,.06);pa
 @media(max-width:1024px){.blog-layout{grid-template-columns:1fr;gap:36px}.sidebar{position:static;display:grid;grid-template-columns:1fr 1fr;gap:16px}}
 @media(max-width:768px){.nav-links,.nav-phone{display:none}.hamburger{display:flex}.topbar-left{display:none}.blog-layout{padding:36px 0 60px}.article-body{padding:26px 22px}.sidebar{display:flex;flex-direction:column}.article-cta{padding:26px 20px}.article-cta .cta-btns{flex-direction:column;align-items:center}.topbar-right a span{display:none}}
 @media(max-width:480px){.container{padding:0 16px}.blog-post-hero{padding:36px 0 32px}}
+
+.featured-img-block{margin:-44px -48px 36px;overflow:hidden;border-radius:var(--radius-lg) var(--radius-lg) 0 0;line-height:0}
+.featured-img-block img{width:100%;height:340px;object-fit:cover;object-position:top;display:block}
+@media(max-width:768px){.featured-img-block{margin:-26px -22px 28px}.featured-img-block img{height:220px}}
 </style>
 <script>(function(){const t=localStorage.getItem('site-theme');if(t)document.documentElement.setAttribute('data-theme',t);else if(window.matchMedia('(prefers-color-scheme: dark)').matches)document.documentElement.setAttribute('data-theme','dark');})();</script>
 </head>
@@ -221,6 +225,7 @@ footer{background:var(--topbar-bg);border-top:1px solid rgba(255,255,255,.06);pa
     <article>
       <div class="article-body reveal">
 
+        <div class="featured-img-block"><img src="/images/10 Common Income Tax Return Mistakes to Avoid in Pakistan 2026.png" alt="income tax return mistakes pakistan" loading="lazy"></div>
         <p class="article-lead">
           Pakistan mein hazaron log har saal FBR IRIS portal par <strong>income tax return file karte hain lekin galat طریقے سے</strong>. Kuch chhoti chhoti ghaltiyan FBR notice, penalties, ya refund miss hone ka sabab banti hain. Kamboh Associates ki 18 saal ki expertise ke baad hum ne yeh <strong>10 sabse common galtiyan</strong> identify ki hain — aur unhe avoid karne ka tareeqa bhi batate hain. Is guide ko padh kar aap apni return perfectly file kar sakenge.
         </p>

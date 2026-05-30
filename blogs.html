@@ -752,6 +752,32 @@ const catMeta = {
   'Compliance':   {bg:'linear-gradient(135deg,#1c1917 0%,#44403c 100%)',  icon:'fas fa-shield-alt',accent:'#d4af37'},
 };
 const defaultCat = {bg:'linear-gradient(135deg,#1a1a2e 0%,#16213e 100%)',icon:'fas fa-file-alt',accent:'#d4af37'};
+const postImages = {
+  'shopify-seller-tax-pakistan':'/images/Shopify Seller Tax Guide Pakistan 2026 — Complete Compliance Handbook.png',
+  'amazon-seller-tax-pakistan':'/images/Amazon Seller Tax Filing Checklist Pakistan 2026 — Complete FBR Compliance Guide.png',
+  'payoneer-tax-pakistan':'/images/Tax on Payoneer Withdrawals in Pakistan 2026 — Complete WHT & Income Tax Guide.png',
+  'upwork-income-tax-pakistan':'/images/Tax on Upwork Income in Pakistan 2026 — Everything a Pakistani Freelancer Needs to Know.png',
+  'fiverr-income-tax-pakistan':'/images/Tax on Fiverr Income in Pakistan 2026 — Complete Guide for Pakistani Freelancers.png',
+  'freelancer-filer-pakistan':'/images/How Freelancers Become Active Filers in Pakistan 2026 — Complete Tax Guide.png',
+  'ntn-application-rejection-reasons-pakistan':'/images/8 Common Reasons NTN Applications Get Rejected in Pakistan — And Exactly How to Fix Each One.png',
+  'ntn-registration-time-pakistan':'/images/How Long Does NTN Registration Take in Pakistan 2026.png',
+  'ntn-registration-cost-pakistan':'/images/NTN Registration Cost in Pakistan 2026 — FBR Portal is FREE, But Here’s What Consultants Charge.png',
+  'income-tax-return-filing-cost-pakistan':'/images/Income Tax Return Filing Cost in Pakistan 2026 — What Consultants Actually Charge.png',
+  'salaried-person-tax-return-pakistan':'/images/How Salaried Persons Can File Tax Returns Online in Pakistan 2026 — Step-by-Step Guide.png',
+  'documents-income-tax-return-pakistan':'/images/Documents Required for Income Tax Return Filing in Pakistan 2026 — Complete Checklist.png',
+  'income-tax-return-mistakes-pakistan':'/images/10 Common Income Tax Return Mistakes to Avoid in Pakistan 2026.png',
+  'how-to-check-atl-status-pakistan':'/images/How to Check ATL Status Online in Pakistan 2026 — 3 Easy Methods.png',
+  'atl-pakistan-guide':'/images/Complete Guide to ATL in Pakistan 2026 — FBR Active Taxpayer List Explained.png',
+  'how-to-become-active-taxpayer-pakistan':'/images/How to Become an Active Taxpayer in Pakistan 2026 — Complete FBR ATL Guide.png',
+  'filer-vs-nonfiler-pakistan':'/images/Filer vs Non-Filer in Pakistan 2026.png',
+  'income-tax-return-pakistan':'/images/Who Should File Income Tax Return in Pakistan.png',
+  'fbr-ntn-registration-guide':'/images/How to Become a Filer in Pakistan 2026.png',
+  'youtube-monetization-tax-pakistan':'/images/YouTube Monetization Tax in Pakistan.png',
+  'tiktok-creator-tax-pakistan':'/images/TikTok Creator Tax Guide   .png',
+  'digital-marketing-agency-tax-pakistan':'/images/Digital Marketing Agency Tax Guide.png',
+  'software-house-tax-pakistan':'/images/Software House Tax Filing Process  .png',
+  'secp-vs-sole-proprietorship-pakistan':'/images/SECP vs Sole Proprietorship.png',
+};
 
 function renderPosts(posts) {
   const grid = document.getElementById('blogGrid');
@@ -765,14 +791,16 @@ function renderPosts(posts) {
   grid.innerHTML = posts.map((post,i) => {
     const cm = catMeta[post.category] || defaultCat;
     const isLinkable = post.link && post.link !== '#';
+    const imgSrc = postImages[post.id];
+    const imgHtml = imgSrc
+      ? `<img src="${imgSrc}" alt="${post.title}" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:top">`
+      : `<div class="blog-card-img-corner"><i class="${cm.icon}" style="color:${cm.accent}"></i></div><span class="card-img-icon">${post.icon}</span><span class="card-img-cat-label">${post.category}</span>`;
+    const imgStyle = imgSrc ? '' : `style="background:${cm.bg}"`;
     return `
     <div class="blog-card reveal" style="transition-delay:${i*0.07}s" onclick="${isLinkable ? "window.location.href='"+post.link+"'" : ''}">
-      <div class="blog-card-img" style="background:${cm.bg}">
-        <div class="blog-card-img-corner"><i class="${cm.icon}" style="color:${cm.accent}"></i></div>
-        <span class="card-img-icon">${post.icon}</span>
-        <span class="card-img-cat-label">${post.category}</span>
-      </div>
+      <div class="blog-card-img" ${imgStyle}>${imgHtml}</div>
       <div class="blog-card-body">
+        <span class="blog-category-tag">${post.category}</span>
         <h3 class="blog-card-title">${post.title}</h3>
         <p class="blog-card-excerpt">${post.excerpt}</p>
         <div class="blog-card-meta">
