@@ -24,8 +24,10 @@
 <title>How to Become a Filer in Pakistan 2026 | Kamboh Associates</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500;600&family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+<link href="https://fonts.googleapis.com/css2?display=swap&family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@400;500;600&family=Cinzel:wght@600;700&display=swap" rel="stylesheet"/>
+<link rel="preconnect" href="https://cdnjs.cloudflare.com"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" media="print" onload="this.media='all'"/>
+<noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/></noscript>
 <style>
 /* ══ TOKENS ══ */
 :root {
@@ -570,9 +572,6 @@ footer{background:var(--topbar-bg);border-top:1px solid rgba(255,255,255,.06);pa
         <i class="fas fa-phone"></i>
         <a href="tel:03284675162">0328-4675162</a>
       </span>
-      <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
-        <span class="theme-toggle-icon"><i class="fas fa-sun"></i><i class="fas fa-moon"></i></span>
-      </button>
       <button class="hamburger" id="hamburger" onclick="toggleMobileNav()" aria-label="Menu">
         <span></span><span></span><span></span>
       </button>
@@ -925,13 +924,6 @@ footer{background:var(--topbar-bg);border-top:1px solid rgba(255,255,255,.06);pa
 
 <script>
 /* Theme */
-function toggleTheme(){
-  const html=document.documentElement;
-  const isDark=html.getAttribute('data-theme')==='dark';
-  html.setAttribute('data-theme',isDark?'light':'dark');
-  localStorage.setItem('site-theme',isDark?'light':'dark');
-}
-
 /* Mobile Nav */
 function toggleMobileNav(){
   document.getElementById('hamburger').classList.toggle('open');

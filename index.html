@@ -22,8 +22,11 @@
 <link rel="canonical" href="https://kambohassociates.com/"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500;600&family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+<link rel="preconnect" href="https://cdnjs.cloudflare.com"/>
+<link rel="dns-prefetch" href="https://www.googletagmanager.com"/>
+<link href="https://fonts.googleapis.com/css2?display=swap&family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@400;500;600&family=Cinzel:wght@600;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" media="print" onload="this.media='all'"/>
+<noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/></noscript>
 <style>
 /* ══════════════════════════════════════════
    DESIGN TOKENS — LIGHT & DARK THEMES
@@ -342,25 +345,32 @@ ul { list-style: none }
 .nav-phone i { color: var(--gold-light) }
 .nav-phone a { color: var(--text-3); transition: color .2s }
 .nav-phone a:hover { color: var(--gold-light) }
-.hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 4px; background: none; border: none }
-.hamburger span { width: 22px; height: 2px; background: var(--text-3); border-radius: 2px; transition: all .3s; display: block }
-.hamburger.open span:nth-child(1) { transform: rotate(45deg) translate(5px,5px) }
-.hamburger.open span:nth-child(2) { opacity: 0 }
-.hamburger.open span:nth-child(3) { transform: rotate(-45deg) translate(5px,-5px) }
+.hamburger { display: none; flex-direction: column; gap: 6px; cursor: pointer; padding: 6px; background: none; border: none; width: 40px; height: 40px; justify-content: center; align-items: center; border-radius: 8px; transition: background .2s }
+.hamburger:hover { background: var(--bg-3) }
+.hamburger span { width: 24px; height: 2.5px; background: var(--text); border-radius: 3px; transition: all .35s cubic-bezier(0.4,0,0.2,1); display: block }
+.hamburger.open span:nth-child(1) { transform: rotate(45deg) translate(0px, 8.5px) }
+.hamburger.open span:nth-child(2) { opacity: 0; transform: scaleX(0) }
+.hamburger.open span:nth-child(3) { transform: rotate(-45deg) translate(0px, -8.5px) }
 .mobile-nav {
   display: none;
   flex-direction: column;
   background: var(--surface);
-  border-bottom: 1px solid var(--border-gold);
-  box-shadow: var(--shadow-lg);
+  border-bottom: 2px solid var(--border-gold);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+  animation: mnavIn .25s ease;
 }
+@keyframes mnavIn { from { opacity:0; transform:translateY(-8px) } to { opacity:1; transform:translateY(0) } }
 .mobile-nav.open { display: flex }
 .mobile-nav a {
-  padding: 14px 24px;
+  padding: 15px 24px;
   border-bottom: 1px solid var(--border);
-  font-size: .9rem;
-  color: var(--text-3);
+  font-size: .92rem;
+  font-weight: 500;
+  color: var(--text-2);
   transition: color .2s, background .2s, padding-left .2s;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 .mobile-nav a:hover { color: var(--gold-light); background: var(--gold-bg); padding-left: 32px }
 .mobile-nav-tools { padding: 12px 24px; display: flex; gap: 10px; border-bottom: 1px solid var(--border) }
@@ -1573,9 +1583,6 @@ select.form-control { cursor: pointer }
         <i class="fas fa-phone"></i>
         <a href="tel:03284675162">0328-4675162</a>
       </span>
-      <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()" aria-label="Toggle dark mode">
-        <span class="theme-toggle-icon"><i class="fas fa-sun"></i><i class="fas fa-moon"></i></span>
-      </button>
       <button class="hamburger" id="hamburger" onclick="toggleMobileNav()" aria-label="Menu">
         <span></span><span></span><span></span>
       </button>
@@ -2703,29 +2710,8 @@ function showFaqItem(idx,el){
      JAVASCRIPT
 ══════════════════════════════════════════ -->
 <script>
-/* ─── THEME ─── */
-// Isko apne purane toggle function ki jagah copy-paste karein
-// Isko apne purane toggle function ki jagah copy-paste karein
-function toggleDarkMode() {
-    const body = document.body;
-    body.classList.toggle('dark-mode');
-    
-    // Check karein aur save karein
-    if (body.classList.contains('dark-mode')) {
-        localStorage.setItem('site-theme', 'dark');
-    } else {
-        localStorage.setItem('site-theme', 'light');
-    }
+/* ─── MOBILE NAV ─── */
 }
-
-
-(function() {
-  const saved = localStorage.getItem('ka-theme');
-  if (saved) document.documentElement.setAttribute('data-theme', saved);
-  else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-    document.documentElement.setAttribute('data-theme', 'dark');
-  }
-})();
 
 /* ─── MOBILE NAV ─── */
 function toggleMobileNav() {
@@ -3055,12 +3041,6 @@ function calcWHT() {
 function fmt(n) { return n.toLocaleString('en-PK'); }
 
 /* ─── THEME TOGGLE ─── */
-function toggleTheme() {
-  const html = document.documentElement;
-  const isDark = html.getAttribute('data-theme') === 'dark';
-  html.setAttribute('data-theme', isDark ? 'light' : 'dark');
-  localStorage.setItem('site-theme', isDark ? 'light' : 'dark');
-}
 (function() {
   const saved = localStorage.getItem('site-theme');
   if (saved) document.documentElement.setAttribute('data-theme', saved);
