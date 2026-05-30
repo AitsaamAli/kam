@@ -282,21 +282,17 @@ ul { list-style: none }
    TOPBAR
 ══════════════════════════════════════════ */
 .topbar {
-  background: var(--topbar-bg);
-  border-bottom: 1px solid rgba(255,255,255,.06);
-  padding: 8px 0;
+  background: #060D18;
+  border-bottom: 1px solid rgba(212,175,55,.12);
+  padding: 9px 0;
   font-size: .75rem;
-  color: var(--topbar-text);
 }
-.topbar .container { display: flex; justify-content: space-between; align-items: center; gap: 12px }
-.topbar-left{flex:1;overflow:hidden;white-space:nowrap;max-width:56%}
-.topbar-promo-wrap{display:inline-flex;animation:kascroll 26s linear infinite}
-.topbar-promo{font-family:var(--font-display);font-size:.58rem;letter-spacing:.14em;color:var(--gold-light);text-transform:uppercase;white-space:nowrap;flex-shrink:0}
+.topbar .container { display: flex; justify-content: center; align-items: center }
+.topbar-left{flex:1;overflow:hidden;white-space:nowrap;max-width:100%}
+.topbar-promo-wrap{display:inline-flex;animation:kascroll 28s linear infinite}
+.topbar-promo{font-family:var(--font-display);font-size:.62rem;letter-spacing:.18em;color:var(--gold-light);text-transform:uppercase;white-space:nowrap;flex-shrink:0;text-shadow:0 0 14px rgba(212,175,55,.6),0 0 32px rgba(212,175,55,.25)}
 @keyframes kascroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
-.topbar-right { display: flex; gap: 20px; align-items: center }
-.topbar-right a { color: var(--topbar-text); transition: color .2s; display: flex; align-items: center; gap: 5px }
-.topbar-right a:hover { color: var(--gold-light) }
-.topbar-right i { color: var(--gold-light) }
+.topbar-right { display: none !important }
 .topbar-tag {
   background: rgba(184,134,11,.12);
   border: 1px solid rgba(184,134,11,.25);
@@ -315,12 +311,13 @@ ul { list-style: none }
   position: sticky;
   top: 0;
   z-index: 1000;
-  background: var(--nav-bg);
-  backdrop-filter: blur(20px);
-  border-bottom: 1px solid var(--nav-border);
-  transition: box-shadow .3s, border-color .3s, background .3s;
+  background: rgba(255,255,255,0.98);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border-bottom: 1.5px solid rgba(212,175,55,.15);
+  transition: box-shadow .3s, border-color .3s;
 }
-.navbar.scrolled { box-shadow: var(--shadow-lg); border-bottom-color: var(--border-gold) }
+.navbar.scrolled { box-shadow: 0 4px 24px rgba(0,0,0,.08); border-bottom-color: rgba(212,175,55,.3) }
 .navbar .container { display: flex; align-items: center; justify-content: space-between; height: 68px }
 .logo { display: flex; align-items: center; gap: 12px }
 .logo-emblem svg { filter: drop-shadow(0 2px 8px rgba(184,134,11,.25)) }
@@ -658,8 +655,8 @@ ul { list-style: none }
   margin-bottom: 22px;
   font-size: 1.25rem;
 }
-.svc-icon-gold { background: var(--gold-bg); border: 1px solid var(--border-gold); color: var(--gold-light) }
-.svc-icon-teal { background: var(--teal-bg); border: 1px solid rgba(11,138,126,.2); color: var(--teal-mid) }
+.svc-icon-gold { background: rgba(184,134,11,.09); border: 1px solid rgba(184,134,11,.28); color: var(--gold-light) }
+.svc-icon-teal { background: rgba(12,155,141,.09); border: 1px solid rgba(12,155,141,.28); color: var(--teal-mid) }
 .svc-title { font-family: var(--font-serif); font-size: 1.25rem; font-weight: 600; color: var(--text); margin-bottom: 16px }
 .svc-list { margin-bottom: 24px }
 .svc-list li {
@@ -1538,12 +1535,7 @@ select.form-control { cursor: pointer }
 ══════════════════════════════════════════ -->
 <div class="topbar">
   <div class="container">
-    <div class="topbar-left"><div class="topbar-promo-wrap"><span class="topbar-promo">File Your Taxes In Just 6 Minutes With Our Qualified Consultants! &nbsp;&nbsp;•&nbsp;&nbsp; Now Available in Just Rs. 3,500/- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="topbar-promo" aria-hidden="true">File Your Taxes In Just 6 Minutes With Our Qualified Consultants! &nbsp;&nbsp;•&nbsp;&nbsp; Now Available in Just Rs. 3,500/- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></div></div>
-    <div class="topbar-right">
-      <span class="topbar-tag">Est. 2008</span>
-      <a href="tel:03284675162"><i class="fas fa-phone"></i><span>0328-4675162</span></a>
-      <a href="mailto:info@kambohassociates.com"><i class="fas fa-envelope"></i><span>info@kambohassociates.com</span></a>
-    </div>
+    <div class="topbar-left" style="max-width:100%"><div class="topbar-promo-wrap"><span class="topbar-promo">File Your Taxes In Just 6 Minutes With Our Qualified Consultants! &nbsp;&nbsp;•&nbsp;&nbsp; Now Available in Just Rs. 3,500/- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="topbar-promo" aria-hidden="true">File Your Taxes In Just 6 Minutes With Our Qualified Consultants! &nbsp;&nbsp;•&nbsp;&nbsp; Now Available in Just Rs. 3,500/- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></div></div>
   </div>
 </div>
 
