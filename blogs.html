@@ -73,7 +73,7 @@ ul{list-style:none}
 .topbar{background:var(--topbar-bg);border-bottom:1px solid rgba(255,255,255,.06);padding:8px 0;font-size:.75rem;color:var(--topbar-text)}
 .container{max-width:var(--max-w);margin:0 auto;padding:0 24px}
 .topbar .container{display:flex;justify-content:space-between;align-items:center;gap:12px}
-.topbar-left{flex:1;overflow:hidden;white-space:nowrap;max-width:56%}.topbar-promo-wrap{display:inline-flex;animation:kascroll 26s linear infinite}.topbar-promo{font-family:var(--font-display);font-size:.58rem;letter-spacing:.14em;color:var(--gold-light);text-transform:uppercase;white-space:nowrap;flex-shrink:0}@keyframes kascroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+.topbar-left{flex:1;overflow:hidden;white-space:nowrap}.topbar-right{display:none!important}.topbar-promo-wrap{display:inline-flex;animation:kascroll 26s linear infinite}.topbar-promo{font-family:var(--font-display);font-size:.68rem;letter-spacing:.2em;color:var(--gold-light);text-transform:uppercase;white-space:nowrap;flex-shrink:0;font-weight:600;text-shadow:0 0 12px rgba(212,175,55,.7),0 0 28px rgba(212,175,55,.3),0 0 50px rgba(212,175,55,.15)}@keyframes kascroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
 .topbar-right{display:flex;gap:20px;align-items:center}
 .topbar-right a{color:var(--topbar-text);transition:color .2s;display:flex;align-items:center;gap:5px}
 .topbar-right a:hover{color:var(--gold-light)}
@@ -356,13 +356,13 @@ footer{background:var(--topbar-bg);border-top:1px solid rgba(255,255,255,.06);pa
       <div class="sidebar-card">
         <div class="sidebar-title"><i class="fas fa-layer-group"></i> Categories</div>
         <div class="category-list">
-          <div class="cat-item" onclick="filterPosts('all',null)"><i class="fas fa-border-all" style="color:var(--gold-light);width:16px"></i> All Articles <span class="cat-count">22</span></div>
+          <div class="cat-item" onclick="filterPosts('all',null)"><i class="fas fa-border-all" style="color:var(--gold-light);width:16px"></i> All Articles <span class="cat-count">27</span></div>
           <div class="cat-item" onclick="filterPosts('FBR',null)"><i class="fas fa-landmark" style="color:var(--gold-light);width:16px"></i> FBR &amp; NTN <span class="cat-count">8</span></div>
           <div class="cat-item" onclick="filterPosts('Tax Planning',null)"><i class="fas fa-lightbulb" style="color:var(--gold-light);width:16px"></i> Tax Planning <span class="cat-count">6</span></div>
-          <div class="cat-item" onclick="filterPosts('Freelancer Tax',null)"><i class="fas fa-laptop-code" style="color:var(--gold-light);width:16px"></i> Freelancer Tax <span class="cat-count">4</span></div>
+          <div class="cat-item" onclick="filterPosts('Freelancer Tax',null)"><i class="fas fa-laptop-code" style="color:var(--gold-light);width:16px"></i> Freelancer Tax <span class="cat-count">6</span></div>
           <div class="cat-item" onclick="filterPosts('E-Commerce Tax',null)"><i class="fas fa-shopping-cart" style="color:var(--gold-light);width:16px"></i> E-Commerce Tax <span class="cat-count">2</span></div>
           <div class="cat-item" onclick="filterPosts('Compliance',null)"><i class="fas fa-shield-alt" style="color:var(--gold-light);width:16px"></i> Compliance <span class="cat-count">1</span></div>
-          <div class="cat-item" onclick="filterPosts('Business',null)"><i class="fas fa-briefcase" style="color:var(--gold-light);width:16px"></i> Business <span class="cat-count">1</span></div>
+          <div class="cat-item" onclick="filterPosts('Business',null)"><i class="fas fa-briefcase" style="color:var(--gold-light);width:16px"></i> Business <span class="cat-count">4</span></div>
         </div>
       </div>
 
@@ -654,6 +654,61 @@ const blogPosts = [
     icon: '🏢',
     featured: false,
     link: '#'
+  },
+  {
+    id: 'youtube-monetization-tax-pakistan',
+    title: 'YouTube Monetization Tax in Pakistan 2026 — Complete Creator Guide',
+    excerpt: 'Is YouTube income taxable in Pakistan? W-8BEN form, AdSense WHT, IT export exemptions, declaration on FBR IRIS — complete guide for Pakistani YouTubers.',
+    category: 'Freelancer Tax',
+    date: '2026-05-30',
+    author: 'Kamboh Associates',
+    readTime: '8 min read',
+    icon: '▶️',
+    link: '/youtube-monetization-tax-pakistan'
+  },
+  {
+    id: 'tiktok-creator-tax-pakistan',
+    title: 'TikTok Creator Tax Guide Pakistan 2026 — Income Declaration & FBR',
+    excerpt: 'TikTok income taxable in Pakistan 2026. Brand deals, LIVE gifts, affiliate income — how to declare on FBR IRIS. Complete tax guide.',
+    category: 'Freelancer Tax',
+    date: '2026-05-30',
+    author: 'Kamboh Associates',
+    readTime: '7 min read',
+    icon: '🎵',
+    link: '/tiktok-creator-tax-pakistan'
+  },
+  {
+    id: 'secp-vs-sole-proprietorship-pakistan',
+    title: 'SECP Company vs Sole Proprietorship Pakistan 2026 — Complete Comparison',
+    excerpt: 'SECP Private Limited Company ya Sole Proprietorship — which business structure is better? Cost, taxes, liability, compliance comparison guide.',
+    category: 'Business',
+    date: '2026-05-30',
+    author: 'Kamboh Associates',
+    readTime: '9 min read',
+    icon: '⚖️',
+    link: '/secp-vs-sole-proprietorship-pakistan'
+  },
+  {
+    id: 'digital-marketing-agency-tax-pakistan',
+    title: 'Digital Marketing Agency Tax Guide Pakistan 2026 — Income Tax, WHT, GST & PSEB',
+    excerpt: 'Digital marketing agency tax filing in Pakistan. Income tax, WHT on client payments, GST on services, PSEB registration — complete guide.',
+    category: 'Business',
+    date: '2026-05-30',
+    author: 'Kamboh Associates',
+    readTime: '9 min read',
+    icon: '📊',
+    link: '/digital-marketing-agency-tax-pakistan'
+  },
+  {
+    id: 'software-house-tax-pakistan',
+    title: 'Software House Tax Filing in Pakistan 2026 — PSEB, IT Export Exemption & Process',
+    excerpt: 'Software house tax filing in Pakistan. PSEB registration, IT export exemption, employee WHT, company structure — complete guide.',
+    category: 'Business',
+    date: '2026-05-30',
+    author: 'Kamboh Associates',
+    readTime: '10 min read',
+    icon: '💻',
+    link: '/software-house-tax-pakistan'
   }
 ];
 
