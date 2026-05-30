@@ -309,8 +309,8 @@ footer{background:var(--topbar-bg);border-top:1px solid rgba(255,255,255,.06);pa
     <h1>Tax &amp; Regulatory <span>Insights</span></h1>
     <p>Expert perspectives on Pakistan's tax laws, FBR compliance, business registration, and financial strategy</p>
     <div class="blog-hero-stats">
-      <div class="bhs-item"><div class="bhs-n">12</div><div class="bhs-l">Articles</div></div>
-      <div class="bhs-item"><div class="bhs-n">4</div><div class="bhs-l">Categories</div></div>
+      <div class="bhs-item"><div class="bhs-n">22</div><div class="bhs-l">Articles</div></div>
+      <div class="bhs-item"><div class="bhs-n">6</div><div class="bhs-l">Categories</div></div>
       <div class="bhs-item"><div class="bhs-n">2026</div><div class="bhs-l">Updated</div></div>
     </div>
   </div>
@@ -323,6 +323,8 @@ footer{background:var(--topbar-bg);border-top:1px solid rgba(255,255,255,.06);pa
     <button class="filter-btn active" onclick="filterPosts('all',this)"><i class="fas fa-border-all"></i> All Posts</button>
     <button class="filter-btn" onclick="filterPosts('FBR',this)"><i class="fas fa-landmark"></i> FBR</button>
     <button class="filter-btn" onclick="filterPosts('Tax Planning',this)"><i class="fas fa-lightbulb"></i> Tax Planning</button>
+    <button class="filter-btn" onclick="filterPosts('Freelancer Tax',this)"><i class="fas fa-laptop-code"></i> Freelancer Tax</button>
+    <button class="filter-btn" onclick="filterPosts('E-Commerce Tax',this)"><i class="fas fa-shopping-cart"></i> E-Commerce</button>
     <button class="filter-btn" onclick="filterPosts('Compliance',this)"><i class="fas fa-shield-alt"></i> Compliance</button>
     <button class="filter-btn" onclick="filterPosts('Business',this)"><i class="fas fa-briefcase"></i> Business</button>
     <div class="filter-search">
@@ -354,9 +356,11 @@ footer{background:var(--topbar-bg);border-top:1px solid rgba(255,255,255,.06);pa
       <div class="sidebar-card">
         <div class="sidebar-title"><i class="fas fa-layer-group"></i> Categories</div>
         <div class="category-list">
-          <div class="cat-item" onclick="filterPosts('all',null)"><i class="fas fa-border-all" style="color:var(--gold-light);width:16px"></i> All Articles <span class="cat-count">12</span></div>
-          <div class="cat-item" onclick="filterPosts('FBR',null)"><i class="fas fa-landmark" style="color:var(--gold-light);width:16px"></i> FBR &amp; NTN <span class="cat-count">5</span></div>
-          <div class="cat-item" onclick="filterPosts('Tax Planning',null)"><i class="fas fa-lightbulb" style="color:var(--gold-light);width:16px"></i> Tax Planning <span class="cat-count">5</span></div>
+          <div class="cat-item" onclick="filterPosts('all',null)"><i class="fas fa-border-all" style="color:var(--gold-light);width:16px"></i> All Articles <span class="cat-count">22</span></div>
+          <div class="cat-item" onclick="filterPosts('FBR',null)"><i class="fas fa-landmark" style="color:var(--gold-light);width:16px"></i> FBR &amp; NTN <span class="cat-count">8</span></div>
+          <div class="cat-item" onclick="filterPosts('Tax Planning',null)"><i class="fas fa-lightbulb" style="color:var(--gold-light);width:16px"></i> Tax Planning <span class="cat-count">6</span></div>
+          <div class="cat-item" onclick="filterPosts('Freelancer Tax',null)"><i class="fas fa-laptop-code" style="color:var(--gold-light);width:16px"></i> Freelancer Tax <span class="cat-count">4</span></div>
+          <div class="cat-item" onclick="filterPosts('E-Commerce Tax',null)"><i class="fas fa-shopping-cart" style="color:var(--gold-light);width:16px"></i> E-Commerce Tax <span class="cat-count">2</span></div>
           <div class="cat-item" onclick="filterPosts('Compliance',null)"><i class="fas fa-shield-alt" style="color:var(--gold-light);width:16px"></i> Compliance <span class="cat-count">1</span></div>
           <div class="cat-item" onclick="filterPosts('Business',null)"><i class="fas fa-briefcase" style="color:var(--gold-light);width:16px"></i> Business <span class="cat-count">1</span></div>
         </div>
@@ -406,6 +410,116 @@ footer{background:var(--topbar-bg);border-top:1px solid rgba(255,255,255,.06);pa
 
 <script>
 const blogPosts = [
+{
+  id: 'shopify-seller-tax-pakistan',
+  title: 'Shopify Seller Tax Guide Pakistan 2026 — Complete Compliance Handbook',
+  excerpt: 'Shopify income taxable hai Pakistan mein. Payment gateway WHT, income declaration, deductible expenses (subscription, ads, COGS), aur FBR compliance checklist — sab ek guide mein.',
+  category: 'E-Commerce Tax',
+  date: '2026-05-30',
+  author: 'Kamboh Associates',
+  readTime: '8 min read',
+  icon: '🛒',
+  link: '/shopify-seller-tax-pakistan'
+},
+{
+  id: 'amazon-seller-tax-pakistan',
+  title: 'Amazon Seller Tax Filing Checklist Pakistan 2026 — Complete FBR Compliance Guide',
+  excerpt: 'Amazon FBA, dropshipping, private label — Pakistani Amazon sellers ke liye complete tax guide. NTN, income declaration, expenses (FBA fees, PPC), aur compliance checklist.',
+  category: 'E-Commerce Tax',
+  date: '2026-05-30',
+  author: 'Kamboh Associates',
+  readTime: '9 min read',
+  icon: '📦',
+  link: '/amazon-seller-tax-pakistan'
+},
+{
+  id: 'payoneer-tax-pakistan',
+  title: 'Tax on Payoneer Withdrawals in Pakistan 2026 — Complete WHT & Income Tax Guide',
+  excerpt: 'Payoneer bank transfer par filer 1% WHT, non-filer 2%. Yeh adjustable hai — return mein credit milta hai. Complete Payoneer tax guide for Pakistani freelancers.',
+  category: 'Freelancer Tax',
+  date: '2026-05-30',
+  author: 'Kamboh Associates',
+  readTime: '7 min read',
+  icon: '💸',
+  link: '/payoneer-tax-pakistan'
+},
+{
+  id: 'upwork-income-tax-pakistan',
+  title: 'Tax on Upwork Income in Pakistan 2026 — Everything a Pakistani Freelancer Needs to Know',
+  excerpt: 'Upwork income Pakistan mein taxable hai — lekin IT export exemption available hai. WHT rates, income declaration on IRIS, deductible expenses (Upwork fees, tools), aur common mistakes.',
+  category: 'Freelancer Tax',
+  date: '2026-05-30',
+  author: 'Kamboh Associates',
+  readTime: '8 min read',
+  icon: '💼',
+  link: '/upwork-income-tax-pakistan'
+},
+{
+  id: 'fiverr-income-tax-pakistan',
+  title: 'Tax on Fiverr Income in Pakistan 2026 — Complete Guide for Pakistani Freelancers',
+  excerpt: 'Fiverr income taxable hai — lekin IT export exemption significant savings deti hai. WHT 1% vs 2%, IRIS mein income declare karna, Fiverr commission deduction, aur common mistakes.',
+  category: 'Freelancer Tax',
+  date: '2026-05-30',
+  author: 'Kamboh Associates',
+  readTime: '8 min read',
+  icon: '🌐',
+  link: '/fiverr-income-tax-pakistan'
+},
+{
+  id: 'freelancer-filer-pakistan',
+  title: 'How Freelancers Become Active Filers in Pakistan 2026 — Complete Tax Guide',
+  excerpt: 'Fiverr, Upwork, Toptal — kisi bhi platform ka income ho. Step-by-step freelancer filer guide: NTN, income declaration, IT export exemption, deductions, aur ATL verification.',
+  category: 'Freelancer Tax',
+  date: '2026-05-30',
+  author: 'Kamboh Associates',
+  readTime: '9 min read',
+  icon: '💻',
+  link: '/freelancer-filer-pakistan'
+},
+{
+  id: 'ntn-application-rejection-reasons-pakistan',
+  title: '8 Common Reasons NTN Applications Get Rejected in Pakistan — And Exactly How to Fix Each One',
+  excerpt: 'NTN application rejected? Mobile not linked to CNIC, duplicate NTN, wrong jurisdiction, expired CNIC — top 8 rejection reasons aur inka exact solution in one guide.',
+  category: 'FBR',
+  date: '2026-05-30',
+  author: 'Kamboh Associates',
+  readTime: '8 min read',
+  icon: '❌',
+  link: '/ntn-application-rejection-reasons-pakistan'
+},
+{
+  id: 'ntn-registration-time-pakistan',
+  title: 'How Long Does NTN Registration Take in Pakistan 2026? — Complete Timeline',
+  excerpt: 'Online individual NTN: same day. Business NTN: 24-48 hours. Company NTN: 3-5 days. Delays ke reasons aur NTN ke baad kya karna hai — complete timeline guide.',
+  category: 'FBR',
+  date: '2026-05-30',
+  author: 'Kamboh Associates',
+  readTime: '5 min read',
+  icon: '⏱️',
+  link: '/ntn-registration-time-pakistan'
+},
+{
+  id: 'ntn-registration-cost-pakistan',
+  title: 'NTN Registration Cost in Pakistan 2026 — FBR Portal is FREE, But Here\'s What Consultants Charge',
+  excerpt: 'FBR IRIS par NTN registration bilkul free hai. Consultant charges individual Rs. 1,500-3,000, business Rs. 2,000-6,000. DIY vs professional comparison with documents required.',
+  category: 'FBR',
+  date: '2026-05-30',
+  author: 'Kamboh Associates',
+  readTime: '5 min read',
+  icon: '💳',
+  link: '/ntn-registration-cost-pakistan'
+},
+{
+  id: 'income-tax-return-filing-cost-pakistan',
+  title: 'Income Tax Return Filing Cost in Pakistan 2026 — What Consultants Actually Charge',
+  excerpt: 'FBR IRIS par filing bilkul free hai. Consultant charges: salaried Rs. 2,000-5,000, business Rs. 5,000-15,000, company Rs. 20,000+. DIY vs professional honest comparison.',
+  category: 'Tax Planning',
+  date: '2026-05-30',
+  author: 'Kamboh Associates',
+  readTime: '7 min read',
+  icon: '💰',
+  link: '/income-tax-return-filing-cost-pakistan'
+},
 {
   id: 'salaried-person-tax-return-pakistan',
   title: 'How Salaried Persons Can File Tax Returns Online in Pakistan 2026',

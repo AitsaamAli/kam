@@ -892,10 +892,8 @@ window.addEventListener('scroll',function(){
   if(window.scrollY>60) nav.classList.add('scrolled'); else nav.classList.remove('scrolled');
   if(window.scrollY>400) bt.classList.add('visible'); else bt.classList.remove('visible');
 });
-const ro=new IntersectionObserver(function(entries){
-  entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('visible');ro.unobserve(e.target);}});
-},{threshold:0.1,rootMargin:'0px 0px -40px 0px'});
-document.querySelectorAll('.reveal').forEach(function(el){ro.observe(el);});
+const ro=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('visible');ro.unobserve(e.target);}});},{threshold:0});
+document.querySelectorAll('.reveal').forEach(function(el){const r=el.getBoundingClientRect();if(r.top<(window.innerHeight||document.documentElement.clientHeight)&&r.bottom>0){el.classList.add('visible');}else{ro.observe(el);}});
 </script>
 
 <script type="application/ld+json">
