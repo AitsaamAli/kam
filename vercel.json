@@ -1,15 +1,32 @@
 {
   "cleanUrls": true,
   "trailingSlash": false,
+  "headers": [
+    {
+      "source": "/(.*).html",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }
+      ]
+    },
+    {
+      "source": "/((?!images/).*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }
+      ]
+    },
+    {
+      "source": "/images/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    }
+  ],
   "redirects": [
     { "source": "/index.html", "destination": "/", "permanent": true },
     { "source": "/blogs.html", "destination": "/blogs", "permanent": true },
     { "source": "/income-tax-return-pakistan.html", "destination": "/income-tax-return-pakistan", "permanent": true },
     { "source": "/fbr-ntn-registration-guide.html", "destination": "/fbr-ntn-registration-guide", "permanent": true },
     { "source": "/filer-vs-nonfiler-pakistan.html", "destination": "/filer-vs-nonfiler-pakistan", "permanent": true },
-    { "source": "/tax-deductions-2026.html", "destination": "/tax-deductions-2026", "permanent": true },
-    { "source": "/regulatory-compliance-2026.html", "destination": "/regulatory-compliance-2026", "permanent": true },
-    { "source": "/secp-company-registration.html", "destination": "/secp-company-registration", "permanent": true },
     { "source": "/how-to-become-active-taxpayer-pakistan.html", "destination": "/how-to-become-active-taxpayer-pakistan", "permanent": true },
     { "source": "/atl-pakistan-guide.html", "destination": "/atl-pakistan-guide", "permanent": true },
     { "source": "/how-to-check-atl-status-pakistan.html", "destination": "/how-to-check-atl-status-pakistan", "permanent": true },
@@ -25,6 +42,11 @@
     { "source": "/upwork-income-tax-pakistan.html", "destination": "/upwork-income-tax-pakistan", "permanent": true },
     { "source": "/payoneer-tax-pakistan.html", "destination": "/payoneer-tax-pakistan", "permanent": true },
     { "source": "/amazon-seller-tax-pakistan.html", "destination": "/amazon-seller-tax-pakistan", "permanent": true },
-    { "source": "/shopify-seller-tax-pakistan.html", "destination": "/shopify-seller-tax-pakistan", "permanent": true }
+    { "source": "/shopify-seller-tax-pakistan.html", "destination": "/shopify-seller-tax-pakistan", "permanent": true },
+    { "source": "/youtube-monetization-tax-pakistan.html", "destination": "/youtube-monetization-tax-pakistan", "permanent": true },
+    { "source": "/tiktok-creator-tax-pakistan.html", "destination": "/tiktok-creator-tax-pakistan", "permanent": true },
+    { "source": "/digital-marketing-agency-tax-pakistan.html", "destination": "/digital-marketing-agency-tax-pakistan", "permanent": true },
+    { "source": "/software-house-tax-pakistan.html", "destination": "/software-house-tax-pakistan", "permanent": true },
+    { "source": "/secp-vs-sole-proprietorship-pakistan.html", "destination": "/secp-vs-sole-proprietorship-pakistan", "permanent": true }
   ]
 }
