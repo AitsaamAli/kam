@@ -892,15 +892,15 @@ ul { list-style: none }
 .numbers-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  border: 1px solid var(--border-gold);
-  border-radius: var(--radius-lg);
+  border: none;
+  border-radius: 0;
   overflow: hidden;
-  background: var(--surface);
-  box-shadow: var(--shadow);
+  background: transparent;
+  box-shadow: none;
 }
-.num-item { padding: 40px 28px; text-align: center; border-right: 1px solid rgba(201,168,76,.2); position: relative; transition: background .3s }
+.num-item { padding: 44px 28px; text-align: center; border-right: 1px solid rgba(201,168,76,.18); position: relative; transition: background .3s }
 .num-item:last-child { border-right: none }
-.num-item:hover { background: rgba(255,255,255,.05) }
+.num-item:hover { background: rgba(255,255,255,.04) }
 .num-val {
   font-family: var(--font-serif);
   font-size: 2.8rem;
