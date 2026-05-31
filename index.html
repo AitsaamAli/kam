@@ -90,7 +90,7 @@
   --result-bg:   #F8FAF9;
   --result-total-bg: #FFFBEE;
   --hero-overlay:rgba(232,245,233,0.4);
-  --section-dark-bg: #060D18;
+  --section-dark-bg: #059669;
   --section-dark-text: #E8EDF5;
 }
 
@@ -290,7 +290,7 @@ ul { list-style: none }
 .topbar .container { display: flex; justify-content: center; align-items: center }
 .topbar-left{flex:1;overflow:hidden;white-space:nowrap;max-width:100%}
 .topbar-promo-wrap{display:inline-flex;animation:kascroll 28s linear infinite}
-.topbar-promo{font-family:var(--font-display);font-size:.62rem;letter-spacing:.18em;color:var(--gold-light);text-transform:uppercase;white-space:nowrap;flex-shrink:0;text-shadow:0 0 14px rgba(212,175,55,.6),0 0 32px rgba(212,175,55,.25)}
+.topbar-promo{font-family:var(--font-display);font-size:.62rem;letter-spacing:.18em;color:#ffffff;text-transform:uppercase;white-space:nowrap;flex-shrink:0;font-weight:500;letter-spacing:.15em;opacity:.95}
 @keyframes kascroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
 .topbar-right { display: none !important }
 .topbar-tag {
@@ -452,7 +452,7 @@ ul { list-style: none }
   0%,100% { transform: scale(1); opacity: 1 }
   50% { transform: scale(.6); opacity: .5 }
 }
-.hero-title { color: var(--forest);
+.hero-title { color: #0F172A;
   font-family: var(--font-serif);
   font-size: clamp(2.4rem, 5vw, 4rem);
   font-weight: 700;
@@ -888,7 +888,7 @@ ul { list-style: none }
 /* ══════════════════════════════════════════
    NUMBERS
 ══════════════════════════════════════════ */
-.numbers { padding: 80px 0; background: var(--forest) }
+.numbers { padding: 80px 0; background: #065F46 }
 .numbers-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -969,7 +969,7 @@ ul { list-style: none }
   position: relative;
   overflow: hidden;
 }
-[data-theme="light"] .cta-section { background: linear-gradient(135deg, #059669 0%, #047857 100%) }
+[data-theme="light"] .cta-section { background: linear-gradient(135deg, #065F46 0%, #059669 100%) }
 .cta-bg-decor {
   position: absolute;
   inset: 0;
@@ -993,7 +993,7 @@ footer {
   border-top: 1px solid var(--border-gold);
   padding: 72px 0 0;
 }
-[data-theme="light"] footer { background: #022C22 }
+[data-theme="light"] footer { background: #064E3B }
 .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 48px; padding-bottom: 56px }
 .footer-brand-desc { font-size: .84rem; color: rgba(255,255,255,0.65); line-height: 1.8; margin: 16px 0 22px; max-width: 280px }
 .footer-contact-row { display: flex; align-items: flex-start; gap: 10px; font-size: .8rem; color: rgba(255,255,255,0.65); margin-bottom: 10px }
