@@ -466,7 +466,7 @@ ul { list-style: none }
 .hero-stats {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  border: 1px solid var(--border-gold);
+  border: 1px solid rgba(20,184,166,.2);
   border-radius: var(--radius);
   overflow: hidden;
   background: var(--surface);
@@ -475,16 +475,16 @@ ul { list-style: none }
 .hero-stat {
   padding: 16px 14px;
   text-align: center;
-  border-right: 1px solid var(--border-gold);
+  border-right: 1px solid rgba(20,184,166,.15);
   transition: background .25s;
 }
 .hero-stat:last-child { border-right: none }
-.hero-stat:hover { background: var(--gold-bg) }
+.hero-stat:hover { background: rgba(20,184,166,.07) }
 .stat-n {
   font-family: var(--font-serif);
   font-size: 1.55rem;
   font-weight: 700;
-  color: var(--gold-light);
+  color: #14B8A6;
   line-height: 1;
 }
 .stat-l { font-size: .67rem; color: var(--text-3); letter-spacing: .05em; text-transform: uppercase; margin-top: 4px }
@@ -1312,7 +1312,7 @@ select.form-control { cursor: pointer }
   .hero-btns { justify-content: center }
   .hero-stats { grid-template-columns: repeat(2, 1fr) }
   .hero-stat:nth-child(2) { border-right: none }
-  .hero-stat:nth-child(3), .hero-stat:nth-child(4) { border-top: 1px solid var(--border-gold) }
+  .hero-stat:nth-child(3), .hero-stat:nth-child(4) { border-top: 1px solid rgba(20,184,166,.15) }
   .hero-stat:nth-child(4) { border-right: none }
   .services-grid { grid-template-columns: repeat(2, 1fr) }
   .accred-inner { grid-template-columns: 1fr }
