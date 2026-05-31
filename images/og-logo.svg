@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F172A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#14B8A6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a3a1a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d2a0d;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F0CF6B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D4AF37;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+
+  <!-- Logo Circle -->
+  <circle cx="200" cy="315" r="140" fill="url(#logoGrad)"/>
+  <circle cx="200" cy="315" r="130" fill="none" stroke="url(#goldGrad)" stroke-width="8"/>
+
+  <!-- KA Text in Circle -->
+  <text x="200" y="340" font-family="Cinzel, serif" font-size="72" font-weight="700" fill="url(#goldGrad)" text-anchor="middle" letter-spacing="4">KA</text>
+
+  <!-- Company Name -->
+  <text x="420" y="280" font-family="Cinzel, serif" font-size="64" font-weight="700" fill="#FFFFFF" letter-spacing="2">KAMBOH</text>
+  <text x="420" y="340" font-family="Cinzel, serif" font-size="64" font-weight="700" fill="#14B8A6" letter-spacing="2">ASSOCIATES</text>
+
+  <!-- Tagline -->
+  <text x="420" y="390" font-family="DM Sans, sans-serif" font-size="28" fill="#94A3B8" letter-spacing="1">Tax &amp; Regulatory Excellence</text>
+
+  <!-- Subtext -->
+  <text x="420" y="450" font-family="DM Sans, sans-serif" font-size="22" fill="#5EEAD4">Pakistan's #1 Tax Consultant • Lahore</text>
+
+  <!-- Certifications -->
+  <text x="420" y="530" font-family="DM Sans, sans-serif" font-size="18" fill="#94A3B8">✓ FBR Certified  ✓ SECP Authorized  ✓ Since 2008  ✓ ISO-9001</text>
+</svg>
