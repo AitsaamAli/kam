@@ -1,0 +1,62 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Who is required to file income tax return in Pakistan?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Any person with annual income above PKR 600,000, all NTN holders, salaried individuals earning above the tax threshold, freelancers earning foreign income, business owners, and property/vehicle owners are required to file an income tax return in Pakistan under FBR regulations."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is NTN registration and how do I get it in Pakistan?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "NTN (National Tax Number) is a unique identifier issued by FBR (Federal Board of Revenue) to taxpayers in Pakistan. You can register for NTN online through the IRIS portal at iris.fbr.gov.pk, or hire a tax consultant like Kamboh Associates who can complete your NTN registration same day."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between a filer and non-filer in Pakistan?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A tax filer in Pakistan pays lower withholding tax rates on banking transactions, property purchases, and vehicle registration. Non-filers pay double the withholding tax rate. For example, filers pay 15% tax on bank profits while non-filers pay 30%. Becoming a filer saves thousands of rupees annually."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does it cost to file income tax return in Pakistan?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Income tax return filing cost in Pakistan ranges from PKR 2,000 to PKR 15,000 depending on income complexity. Salaried persons pay PKR 2,000–5,000, freelancers PKR 5,000–10,000, and businesses PKR 8,000–15,000+. Kamboh Associates offers transparent fixed-fee pricing with no hidden charges."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can freelancers and Fiverr/Upwork earners get tax exemption in Pakistan?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Pakistani freelancers earning foreign remittance through official banking channels can avail 100% income tax exemption on foreign-source income under SRO 1747 as amended. However, they must register as filers, maintain proper records, and file annual returns. Kamboh Associates specializes in freelancer tax compliance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does NTN registration take in Pakistan?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "NTN registration in Pakistan takes 1–3 business days through the IRIS online portal. With a tax consultant handling the process, same-day NTN registration is possible. You need CNIC, mobile number, email, and basic income information to register."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What documents are required for income tax return filing in Pakistan?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Documents required for Pakistan income tax return: CNIC, NTN number, bank statements for the full year, salary certificate (for salaried persons), foreign remittance certificates (for freelancers), property and vehicle details, rental income records, and any investment receipts. Kamboh Associates guides you through the complete document checklist."
+      }
+    }
+  ]
+}

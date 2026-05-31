@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "REPLACE: Article headline (primary keyword first, max 110 chars)",
+  "description": "REPLACE: 150-160 character description with primary keyword",
+  "image": {
+    "@type": "ImageObject",
+    "url": "REPLACE: https://kambohassociates.com/images/[article-image].png",
+    "width": 1200,
+    "height": 630
+  },
+  "datePublished": "REPLACE: 2026-05-31",
+  "dateModified": "REPLACE: 2026-05-31",
+  "author": {
+    "@type": "Organization",
+    "name": "Kamboh Associates",
+    "@id": "https://kambohassociates.com/#organization",
+    "url": "https://kambohassociates.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://kambohassociates.com/#organization",
+    "name": "Kamboh Associates",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://kambohassociates.com/images/og-logo.svg"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "REPLACE: https://kambohassociates.com/[page-slug]"
+  },
+  "about": {
+    "@type": "Thing",
+    "name": "REPLACE: Topic name",
+    "description": "REPLACE: What this article is about"
+  },
+  "keywords": ["REPLACE: keyword1", "keyword2", "keyword3"],
+  "inLanguage": "en-PK",
+  "isPartOf": {
+    "@type": "WebSite",
+    "@id": "https://kambohassociates.com/#website"
+  }
+}

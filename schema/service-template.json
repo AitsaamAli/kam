@@ -1,0 +1,62 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "REPLACE: Service Name (e.g. NTN Registration Pakistan)",
+  "serviceType": "REPLACE: e.g. Tax Compliance / Business Registration",
+  "description": "REPLACE: 2-3 sentence description with primary keywords",
+  "url": "REPLACE: https://kambohassociates.com/[service-slug]",
+  "provider": {
+    "@type": "Organization",
+    "@id": "https://kambohassociates.com/#organization",
+    "name": "Kamboh Associates",
+    "telephone": "+92-328-4675162"
+  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Lahore"
+    },
+    {
+      "@type": "State",
+      "name": "Punjab"
+    },
+    {
+      "@type": "Country",
+      "name": "Pakistan"
+    }
+  ],
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "PKR",
+    "price": "REPLACE: Starting price (e.g. 2000)",
+    "priceSpecification": {
+      "@type": "PriceSpecification",
+      "priceCurrency": "PKR",
+      "minPrice": "REPLACE: minimum price",
+      "maxPrice": "REPLACE: maximum price"
+    },
+    "availability": "https://schema.org/InStock",
+    "validFrom": "2026-01-01"
+  },
+  "termsOfService": "https://kambohassociates.com/#contact",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "REPLACE: Service features list",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "REPLACE: Feature 1"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "REPLACE: Feature 2"
+        }
+      }
+    ]
+  }
+}

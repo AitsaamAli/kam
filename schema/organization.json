@@ -1,0 +1,93 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://kambohassociates.com/#organization",
+  "name": "Kamboh Associates",
+  "alternateName": "KambohAssociates",
+  "url": "https://kambohassociates.com",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://kambohassociates.com/images/og-logo.svg",
+    "width": 1200,
+    "height": 630
+  },
+  "image": "https://kambohassociates.com/images/og-logo.svg",
+  "description": "Kamboh Associates is Pakistan's leading tax consultancy based in Lahore, providing FBR income tax filing, NTN registration, SECP company formation, and regulatory compliance services since 2008.",
+  "foundingDate": "2008",
+  "knowsAbout": [
+    "Income Tax Return Filing Pakistan",
+    "NTN Registration FBR",
+    "SECP Company Registration",
+    "Sales Tax STRN Registration",
+    "Freelancer Tax Filing Pakistan",
+    "Business Tax Advisory",
+    "ATL Active Taxpayer List",
+    "FBR Tax Compliance Pakistan"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Tax & Regulatory Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Income Tax Return Filing",
+          "url": "https://kambohassociates.com/income-tax-filing"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "NTN Registration",
+          "url": "https://kambohassociates.com/ntn-registration"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Sales Tax STRN Registration",
+          "url": "https://kambohassociates.com/sales-tax-registration"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Business Advisory & Tax Planning",
+          "url": "https://kambohassociates.com/business-advisory"
+        }
+      }
+    ]
+  },
+  "sameAs": [
+    "https://www.facebook.com/kambohassociates",
+    "https://www.linkedin.com/company/kamboh-associates",
+    "https://g.page/r/CYzrn3EEiZVwEBM"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+92-328-4675162",
+    "contactType": "customer service",
+    "areaServed": "PK",
+    "availableLanguage": ["English", "Urdu"],
+    "hoursAvailable": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+      "opens": "09:00",
+      "closes": "18:00"
+    }
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Lahore",
+    "addressRegion": "Punjab",
+    "addressCountry": "PK"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "Pakistan"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://kambohassociates.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "REPLACE: Section (e.g. Blog / Services)",
+      "item": "REPLACE: https://kambohassociates.com/[section]"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "REPLACE: Page Title (e.g. NTN Registration Guide)",
+      "item": "REPLACE: https://kambohassociates.com/[full-page-slug]"
+    }
+  ]
+}
+
+// ═══════════════════════════════════════════
+// USAGE PER PAGE TYPE:
+// ═══════════════════════════════════════════
+//
+// HOMEPAGE — No breadcrumb needed
+//
+// SERVICE PAGE (e.g. /ntn-registration):
+// positions: Home > Services > NTN Registration
+//
+// BLOG POST (e.g. /fbr-ntn-registration-guide):
+// positions: Home > Blog > FBR NTN Registration Guide
+//
+// CALCULATOR (e.g. /tax-calculator):
+// positions: Home > Tools > Income Tax Calculator
+//
+// ═══════════════════════════════════════════
+// IMPLEMENTATION — Add inside <head> of each page:
+// ═══════════════════════════════════════════
+// <script type="application/ld+json">
+//   { ...this JSON with REPLACE values filled in... }
+// </script>

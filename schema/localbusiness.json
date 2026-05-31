@@ -1,0 +1,60 @@
+{
+  "@context": "https://schema.org",
+  "@type": ["LocalBusiness", "LegalService", "FinancialService"],
+  "@id": "https://kambohassociates.com/#localbusiness",
+  "name": "Kamboh Associates",
+  "image": "https://kambohassociates.com/images/og-logo.svg",
+  "telephone": "+92-328-4675162",
+  "email": "info@kambohassociates.com",
+  "url": "https://kambohassociates.com",
+  "priceRange": "$$",
+  "currenciesAccepted": "PKR",
+  "paymentAccepted": "Cash, Bank Transfer, EasyPaisa, JazzCash",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Lahore",
+    "addressLocality": "Lahore",
+    "addressRegion": "Punjab",
+    "postalCode": "54000",
+    "addressCountry": "PK"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 31.4877,
+    "longitude": 74.3042
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+      "opens": "09:00",
+      "closes": "18:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Saturday",
+      "opens": "10:00",
+      "closes": "15:00"
+    }
+  ],
+  "areaServed": [
+    "Lahore",
+    "Karachi",
+    "Islamabad",
+    "Rawalpindi",
+    "Faisalabad",
+    "Multan",
+    "Sialkot",
+    "Gujranwala",
+    "Punjab",
+    "Pakistan"
+  ],
+  "serviceArea": {
+    "@type": "Country",
+    "name": "Pakistan"
+  },
+  "hasMap": "https://g.page/r/CYzrn3EEiZVwEBM",
+  "foundingDate": "2008",
+  "description": "Pakistan's trusted tax consultancy in Lahore. Expert FBR income tax filing, NTN registration, SECP company formation, and regulatory compliance since 2008.",
+  "slogan": "Tax & Regulatory Excellence"
+}
