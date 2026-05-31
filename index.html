@@ -1517,7 +1517,7 @@ select.form-control { cursor: pointer }
   gtag('js', new Date());
   gtag('config', 'G-2ZLVR968Y8');
 </script>
-</head>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22><text y=%2228%22 font-size=%2228%22 font-weight=%22bold%22 fill=%22%230F172A%22>KA</text></svg>"/></head>
 <body>
 
 <!-- ══════════════════════════════════════════
@@ -2789,7 +2789,25 @@ function printResult(id) {
   win.document.write('.note{font-size:.72rem;color:#64748B;margin-top:12px;line-height:1.6}');
   win.document.write('.header{border-bottom:2px solid #B8960C;padding-bottom:12px;margin-bottom:18px}');
   win.document.write('.label{color:#64748B}.val{font-weight:600}');
-  win.document.write('</style></head><body>');
+  win.document.write('
+@media(max-width:768px) {
+  .nav-links, .nav-phone, .nav-cta { display: none !important; }
+  .hamburger { display: flex !important; }
+  .mobile-nav { display: none; }
+  .mobile-nav.open { display: flex !important; }
+}
+@media(max-width:480px) {
+  .container { padding: 0 16px; }
+  .calc-input, .calc-select, input, textarea, select {
+    width: 100% !important;
+    padding: 12px 16px !important;
+    font-size: 16px !important;
+  }
+  .btn { width: 100%; justify-content: center; }
+  .pricing-card { padding: 20px; }
+  .step-card { padding: 20px; }
+}
+</style></head><body>');
   win.document.write('<div class="header"><h2>KAMBOH ASSOCIATES</h2><small>Tax &amp; Regulatory Excellence — Lahore, Pakistan | 0328-4675162</small></div>');
   const rows = el.querySelectorAll('.result-row');
   rows.forEach(function(r) {
