@@ -410,7 +410,7 @@ ul { list-style: none }
   background-size: 56px 56px;
   mask-image: radial-gradient(ellipse 80% 80% at 50% 50%, black 0%, transparent 100%);
 }
-.hero .container {
+.hero .container { position: relative; z-index: 10;
   position: relative;
   z-index: 2;
   display: grid;
@@ -457,6 +457,10 @@ ul { list-style: none }
   color: #14B8A6;
   -webkit-text-fill-color: #14B8A6;
 }
+
+.hero-content { position: relative; z-index: 10; flex: 1; max-width: 520px }
+.hero-visual { position: relative; z-index: 10; flex: 1; min-height: 500px }
+
 .hero-desc { font-size: 1rem; color: var(--text-3); max-width: 460px; margin-bottom: 38px; line-height: 1.82 }
 .hero-btns { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 48px }
 .hero-stats {
