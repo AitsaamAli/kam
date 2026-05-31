@@ -987,8 +987,16 @@ document.querySelectorAll('.nav-drop-menu [data-cat]').forEach(function(link){
   });
 });
 
-renderPosts(blogPosts);
-renderRecent();
+/* Force render on DOMContentLoaded to ensure grid is ready */
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', function() {
+    renderPosts(blogPosts);
+    renderRecent();
+  });
+} else {
+  renderPosts(blogPosts);
+  renderRecent();
+}
 </script>
 
 <script type="application/ld+json">
