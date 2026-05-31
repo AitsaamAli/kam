@@ -47,6 +47,14 @@
     { "source": "/tiktok-creator-tax-pakistan.html", "destination": "/tiktok-creator-tax-pakistan", "permanent": true },
     { "source": "/digital-marketing-agency-tax-pakistan.html", "destination": "/digital-marketing-agency-tax-pakistan", "permanent": true },
     { "source": "/software-house-tax-pakistan.html", "destination": "/software-house-tax-pakistan", "permanent": true },
-    { "source": "/secp-vs-sole-proprietorship-pakistan.html", "destination": "/secp-vs-sole-proprietorship-pakistan", "permanent": true }
+    { "source": "/secp-vs-sole-proprietorship-pakistan.html", "destination": "/secp-vs-sole-proprietorship-pakistan", "permanent": true },
+    { "source": "/tax-calculator.html", "destination": "/tax-calculator", "permanent": true },
+    { "source": "/salary-calculator.html", "destination": "/salary-calculator", "permanent": true },
+    { "source": "/gst-calculator.html", "destination": "/gst-calculator", "permanent": true },
+    { "source": "/income-estimator.html", "destination": "/income-estimator", "permanent": true },
+    { "source": "/income-tax-filing.html", "destination": "/income-tax-filing", "permanent": true },
+    { "source": "/ntn-registration.html", "destination": "/ntn-registration", "permanent": true },
+    { "source": "/sales-tax-registration.html", "destination": "/sales-tax-registration", "permanent": true },
+    { "source": "/business-advisory.html", "destination": "/business-advisory", "permanent": true }
   ]
 }
