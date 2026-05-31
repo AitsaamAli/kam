@@ -356,26 +356,37 @@ ul { list-style: none }
 .mobile-nav {
   display: none;
   flex-direction: column;
-  background: var(--surface);
-  border-bottom: 2px solid var(--border-gold);
-  box-shadow: 0 8px 32px rgba(0,0,0,0.12);
-  animation: mnavIn .25s ease;
+  position: fixed;
+  top: 68px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 999;
+  background: #FFFFFF;
+  border-bottom: 3px solid #14B8A6;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.15);
+  max-height: calc(100vh - 68px);
+  overflow-y: auto;
+  animation: mnavIn .22s ease;
 }
-@keyframes mnavIn { from { opacity:0; transform:translateY(-8px) } to { opacity:1; transform:translateY(0) } }
+@keyframes mnavIn { from { opacity:0; transform:translateY(-6px) } to { opacity:1; transform:translateY(0) } }
 .mobile-nav.open { display: flex }
 .mobile-nav a {
-  padding: 15px 24px;
-  border-bottom: 1px solid var(--border);
-  font-size: .92rem;
+  padding: 16px 24px;
+  border-bottom: 1px solid #F1F5F9;
+  font-size: .95rem;
   font-weight: 500;
-  color: var(--text-2);
-  transition: color .2s, background .2s, padding-left .2s;
+  color: #1E293B;
+  transition: color .15s, background .15s, padding-left .15s;
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
+  min-height: 52px;
 }
-.mobile-nav a:hover { color: var(--gold-light); background: var(--gold-bg); padding-left: 32px }
-.mobile-nav-tools { padding: 12px 24px; display: flex; gap: 10px; border-bottom: 1px solid var(--border) }
+.mobile-nav a:hover,
+.mobile-nav a:active { color: #14B8A6; background: #F0FDFA; padding-left: 32px }
+.mobile-nav-tools { padding: 14px 24px; display: flex; gap: 10px; border-bottom: 1px solid #F1F5F9; flex-wrap: wrap }
+.mobile-nav-tools .btn { flex: 1; min-height: 44px; font-size: .85rem; justify-content: center }
 
 /* ══════════════════════════════════════════
    HERO
@@ -2764,13 +2775,33 @@ function showFaqItem(idx,el){
 <script>
 /* ─── MOBILE NAV ─── */
 function toggleMobileNav() {
-  document.getElementById('hamburger').classList.toggle('open');
-  document.getElementById('mobileNav').classList.toggle('open');
+  var ham = document.getElementById('hamburger');
+  var nav = document.getElementById('mobileNav');
+  var nb  = document.getElementById('navbar');
+  var isOpen = nav.classList.contains('open');
+  ham.classList.toggle('open');
+  nav.classList.toggle('open');
+  // Set top dynamically based on navbar height
+  nav.style.top = nb.offsetHeight + 'px';
+  // Prevent background scroll when menu open
+  document.body.style.overflow = isOpen ? '' : 'hidden';
 }
 function closeMobileNav() {
   document.getElementById('hamburger').classList.remove('open');
   document.getElementById('mobileNav').classList.remove('open');
+  document.body.style.overflow = '';
 }
+
+/* ─── CLOSE MOBILE NAV ON OUTSIDE CLICK ─── */
+document.addEventListener('click', function(e) {
+  var nav = document.getElementById('mobileNav');
+  var ham = document.getElementById('hamburger');
+  if (nav && nav.classList.contains('open')) {
+    if (!nav.contains(e.target) && !ham.contains(e.target)) {
+      closeMobileNav();
+    }
+  }
+});
 
 /* ─── NAVBAR SCROLL ─── */
 window.addEventListener('scroll', function() {
@@ -2778,6 +2809,8 @@ window.addEventListener('scroll', function() {
   const bt = document.getElementById('backTop');
   nb.classList.toggle('scrolled', window.scrollY > 60);
   bt.classList.toggle('visible', window.scrollY > 400);
+  // Close mobile nav on scroll
+  closeMobileNav();
 });
 
 /* ─── MODAL SYSTEM ─── */
