@@ -489,6 +489,7 @@ footer{background:var(--topbar-bg);border-top:1px solid rgba(255,255,255,.06);pa
 const blogPosts = [
   {
     id: 'tax-audit-preparation-checklist-pakistan',
+    featured: true,
     link: '/tax-audit-preparation-checklist-pakistan',
     title: 'Tax Audit Preparation Checklist Pakistan 2026 — Complete FBR Guide',
     excerpt: 'Complete checklist to prepare for FBR tax audit. 10-step preparation guide, documents needed, and your legal rights during audit.',
@@ -499,6 +500,7 @@ const blogPosts = [
   },
   {
     id: 'tax-benefits-filer-pakistan',
+    featured: true,
     link: '/tax-benefits-filer-pakistan',
     title: 'Tax Benefits of Being a Filer in Pakistan 2026 — Save Lakhs Annually',
     excerpt: 'Lower WHT on property, banking, vehicles, dividends. Filer vs non-filer rate comparison and how to get on ATL today.',
@@ -999,6 +1001,7 @@ const postImages = {
 };
 
 function renderPosts(posts) {
+  posts = [...posts].sort((a,b) => (b.featured?1:0)-(a.featured?1:0));
   const grid = document.getElementById('blogGrid');
   const noResults = document.getElementById('noResults');
   if (!posts.length) {
@@ -1010,6 +1013,7 @@ function renderPosts(posts) {
   grid.innerHTML = posts.map((post,i) => {
     const cm = catMeta[post.category] || defaultCat;
     const isLinkable = post.link && post.link !== '#';
+    const pinnedBadge = post.featured ? '<span style="position:absolute;top:10px;left:10px;z-index:2;background:#14B8A6;color:#fff;font-size:.65rem;font-weight:700;padding:3px 8px;border-radius:4px;letter-spacing:.05em">📌 PINNED</span>' : '';
     const imgSrc = postImages[post.id];
     const imgHtml = imgSrc
       ? `<img src="${imgSrc}" alt="${post.title}" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:top">`
