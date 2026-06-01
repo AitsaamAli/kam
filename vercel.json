@@ -56,6 +56,9 @@
     { "source": "/startup-registration-pakistan.html", "destination": "/startup-registration-pakistan", "permanent": true },
     { "source": "/online-business-registration-pakistan.html", "destination": "/online-business-registration-pakistan", "permanent": true },
     { "source": "/fbr-registration-new-business-pakistan.html", "destination": "/fbr-registration-new-business-pakistan", "permanent": true },
-    { "source": "/wealth-statement-mistakes-pakistan.html", "destination": "/wealth-statement-mistakes-pakistan", "permanent": true }
+    { "source": "/wealth-statement-mistakes-pakistan.html", "destination": "/wealth-statement-mistakes-pakistan", "permanent": true },
+    { "source": "/tax-deductions-business-pakistan-2026.html", "destination": "/tax-deductions-business-pakistan-2026", "permanent": true },
+    { "source": "/regulatory-compliance-requirements-2026.html", "destination": "/regulatory-compliance-requirements-2026", "permanent": true },
+    { "source": "/secp-company-registration-guide-2026.html", "destination": "/secp-company-registration-guide-2026", "permanent": true }
   ]
 }
