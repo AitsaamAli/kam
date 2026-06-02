@@ -455,5 +455,6 @@ window.addEventListener('scroll',function(){var nb=document.getElementById('navb
 var ro=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('visible');ro.unobserve(e.target);}});},{threshold:0});
 document.querySelectorAll('.reveal').forEach(function(el){var r=el.getBoundingClientRect();if(r.top<(window.innerHeight||document.documentElement.clientHeight)&&r.bottom>0){el.classList.add('visible');}else{ro.observe(el);}});
 </script>
+<button id="themeToggle" onclick="toggleTheme()" style="position:fixed;bottom:100px;right:28px;z-index:998;width:50px;height:50px;background:var(--surface);border:1px solid var(--border);border-radius:50%;display:grid;place-items:center;cursor:pointer;transition:all .2s;color:var(--text)"><i class="fas fa-moon" id="themeIcon" style="font-size:1.1rem"></i></button><script>function toggleTheme(){const t=document.documentElement.getAttribute("data-theme");const n=t==="dark"?"light":"dark";document.documentElement.setAttribute("data-theme",n);localStorage.setItem("site-theme",n);updateThemeIcon();}function updateThemeIcon(){const t=document.documentElement.getAttribute("data-theme");const i=document.getElementById("themeIcon");if(i){i.className=t==="dark"?"fas fa-sun":"fas fa-moon";}}</script>
 </body>
 </html>
