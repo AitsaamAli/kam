@@ -152,17 +152,6 @@ footer{background:var(--topbar-bg);border-top:1px solid rgba(255,255,255,.06);pa
 .reveal{opacity:0;transform:translateY(24px);transition:opacity .6s var(--ease),transform .6s var(--ease)}.reveal.visible{opacity:1;transform:none}
 .featured-img-block{margin:-44px -48px 36px;overflow:hidden;border-radius:var(--radius-lg) var(--radius-lg) 0 0;line-height:0}
 .featured-img-block img{width:100%;height:340px;object-fit:cover;object-position:top;display:block}
-.page-hero{background:var(--bg-2);border-bottom:1px solid var(--border);padding:56px 0 48px;position:relative;overflow:hidden}
-.page-hero::before{content:'';position:absolute;inset:0;background-image:linear-gradient(rgba(20,184,166,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(20,184,166,.04) 1px,transparent 1px);background-size:52px 52px;mask-image:radial-gradient(ellipse 80% 80% at 50% 50%,black 0%,transparent 100%)}
-.page-hero::after{content:'';position:absolute;inset:0;background:radial-gradient(circle at 70% 30%,rgba(20,184,166,.06) 0%,transparent 50%)}
-.page-hero .container{position:relative;z-index:2}
-.page-hero h1{font-family:var(--font-serif);font-size:clamp(1.9rem,4vw,3rem);font-weight:700;color:var(--text);line-height:1.12;margin-bottom:18px;max-width:780px}
-.page-hero p{font-family:var(--font-serif);font-size:1.1rem;color:var(--text-2);line-height:1.8;margin-bottom:24px;max-width:680px}
-.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 28px;border-radius:8px;font-weight:600;font-size:.88rem;transition:all .2s;text-decoration:none;border:none;cursor:pointer}
-.btn-teal{background:#14B8A6;color:#fff}
-.btn-teal:hover{background:#0D9488;transform:translateY(-2px)}
-.btn-navy{background:#0F172A;color:#fff}
-.btn-navy:hover{background:#14B8A6;transform:translateY(-2px)}
 @media(max-width:1024px){.blog-layout{grid-template-columns:1fr;gap:36px}.sidebar{position:static;display:grid;grid-template-columns:1fr 1fr;gap:16px}}
 @media(max-width:768px){.nav-links,.nav-phone,.nav-cta{display:none!important}.hamburger{display:flex!important}.blog-layout{padding:36px 0 60px}.article-body{padding:26px 22px}.sidebar{display:flex;flex-direction:column}.article-cta{padding:26px 20px}.article-cta .cta-btns{flex-direction:column;align-items:center}}
 @media(max-width:480px){.container{padding:0 16px}.blog-post-hero{padding:36px 0 32px}.featured-img-block{margin:-26px -22px 28px}.featured-img-block img{height:220px}}
