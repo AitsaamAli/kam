@@ -69,6 +69,23 @@
     { "source": "/tax-filing-exporters-pakistan.html", "destination": "/tax-filing-exporters-pakistan", "permanent": true },
     { "source": "/tax-filing-importers-pakistan.html", "destination": "/tax-filing-importers-pakistan", "permanent": true },
     { "source": "/tax-benefits-filer-pakistan.html", "destination": "/tax-benefits-filer-pakistan", "permanent": true },
-    { "source": "/tax-audit-preparation-checklist-pakistan.html", "destination": "/tax-audit-preparation-checklist-pakistan", "permanent": true }
+    { "source": "/tax-audit-preparation-checklist-pakistan.html", "destination": "/tax-audit-preparation-checklist-pakistan", "permanent": true },
+    { "source": "/blogs/rental-income-tax-calculator-pakistan.html", "destination": "/blogs/rental-income-tax-calculator-pakistan", "permanent": true },
+    { "source": "/blogs/tax-on-commercial-property-pakistan.html", "destination": "/blogs/tax-on-commercial-property-pakistan", "permanent": true },
+    { "source": "/blogs/tax-on-agricultural-income-pakistan.html", "destination": "/blogs/tax-on-agricultural-income-pakistan", "permanent": true },
+    { "source": "/blogs/fbr-notice-after-tax-return-pakistan.html", "destination": "/blogs/fbr-notice-after-tax-return-pakistan", "permanent": true },
+    { "source": "/blogs/how-to-respond-to-tax-notices-pakistan.html", "destination": "/blogs/how-to-respond-to-tax-notices-pakistan", "permanent": true },
+    { "source": "/blogs/tax-penalties-in-pakistan.html", "destination": "/blogs/tax-penalties-in-pakistan", "permanent": true },
+    { "source": "/blogs/tax-audit-preparation-checklist.html", "destination": "/blogs/tax-audit-preparation-checklist", "permanent": true },
+    { "source": "/blogs/pra-registration-guide-pakistan.html", "destination": "/blogs/pra-registration-guide-pakistan", "permanent": true },
+    { "source": "/blogs/srb-registration-guide-pakistan.html", "destination": "/blogs/srb-registration-guide-pakistan", "permanent": true },
+    { "source": "/blogs/kpra-registration-guide-pakistan.html", "destination": "/blogs/kpra-registration-guide-pakistan", "permanent": true },
+    { "source": "/blogs/eobi-registration-guide-pakistan.html", "destination": "/blogs/eobi-registration-guide-pakistan", "permanent": true },
+    { "source": "/blogs/social-security-registration-pakistan.html", "destination": "/blogs/social-security-registration-pakistan", "permanent": true },
+    { "source": "/blogs/business-compliance-checklist-pakistan.html", "destination": "/blogs/business-compliance-checklist-pakistan", "permanent": true },
+    { "source": "/blogs/annual-company-filing-guide-pakistan.html", "destination": "/blogs/annual-company-filing-guide-pakistan", "permanent": true },
+    { "source": "/blogs/trademark-registration-cost-pakistan.html", "destination": "/blogs/trademark-registration-cost-pakistan", "permanent": true },
+    { "source": "/blogs/brand-name-registration-guide-pakistan.html", "destination": "/blogs/brand-name-registration-guide-pakistan", "permanent": true },
+    { "source": "/blogs/logo-registration-process-pakistan.html", "destination": "/blogs/logo-registration-process-pakistan", "permanent": true }
   ]
 }
