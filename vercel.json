@@ -143,6 +143,11 @@
     { "source": "/blogs/tax-consultant-township-lahore", "destination": "/tax-consultant-township-lahore", "permanent": true },
     { "source": "/blogs/income-tax-return-filing-lahore", "destination": "/income-tax-return-filing-lahore", "permanent": true },
     { "source": "/blogs/ntn-registration-lahore", "destination": "/ntn-registration-lahore", "permanent": true },
-    { "source": "/blogs/sales-tax-consultant-lahore", "destination": "/sales-tax-consultant-lahore", "permanent": true }
+    { "source": "/blogs/sales-tax-consultant-lahore", "destination": "/sales-tax-consultant-lahore", "permanent": true },
+    { "source": "/tax-consultant-samanabad-lahore.html", "destination": "/tax-consultant-samanabad-lahore", "permanent": true },
+    { "source": "/tax-consultant-shadman-lahore.html", "destination": "/tax-consultant-shadman-lahore", "permanent": true },
+    { "source": "/tax-consultant-cavalry-ground-lahore.html", "destination": "/tax-consultant-cavalry-ground-lahore", "permanent": true },
+    { "source": "/tax-consultant-gulshan-ravi-lahore.html", "destination": "/tax-consultant-gulshan-ravi-lahore", "permanent": true },
+    { "source": "/tax-audit-consultant-lahore.html", "destination": "/tax-audit-consultant-lahore", "permanent": true }
   ]
 }
