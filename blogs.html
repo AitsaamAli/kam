@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" data-theme="light">
 <head>
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large"/>
@@ -405,6 +405,7 @@ footer{background:var(--topbar-bg);border-top:1px solid rgba(255,255,255,.06);pa
     <button class="filter-btn" onclick="filterPosts('E-Commerce Tax',this)"><i class="fas fa-shopping-cart"></i> E-Commerce</button>
     <button class="filter-btn" onclick="filterPosts('Compliance',this)"><i class="fas fa-shield-alt"></i> Compliance</button>
     <button class="filter-btn" onclick="filterPosts('Business',this)"><i class="fas fa-briefcase"></i> Business</button>
+    <button class="filter-btn" onclick="filterPosts('Lahore Local',this)"><i class="fas fa-map-pin"></i> Lahore</button>
     <div class="filter-search">
       <i class="fas fa-search"></i>
       <input type="text" placeholder="Search articles..." id="searchInput" oninput="searchPosts(this.value)">
@@ -1137,9 +1138,8 @@ function renderRecent() {
 }
 
 /* Scroll reveal */
-function observeReveal() {
-  const io = new IntersectionObserver(entries => {
-    entries.forEach(e => { if(e.isIntersecting){e.target.classList.add('visible');io.unobserve(e.target);} });
+const _ro=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');_ro.unobserve(e.target);}});},{threshold:0});
+function observeReveal(){document.querySelectorAll('.reveal').forEach(el=>{const r=el.getBoundingClientRect();if(r.top<(window.innerHeight||document.documentElement.clientHeight)&&r.bottom>0){el.classList.add('visible');}else{_ro.observe(el);}});} });
   },{threshold:0.1});
   document.querySelectorAll('.reveal').forEach(el => io.observe(el));
 }
