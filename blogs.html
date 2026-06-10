@@ -1079,7 +1079,7 @@ function renderPosts(posts) {
       : `<div class="blog-card-img-corner"><i class="${cm.icon}" style="color:${cm.accent}"></i></div><span class="card-img-icon">${post.icon}</span><span class="card-img-cat-label">${post.category}</span>`;
     const imgStyle = imgSrc ? '' : `style="background:${cm.bg}"`;
     return `
-    <div class="blog-card reveal" style="transition-delay:${i*0.07}s" onclick="${isLinkable ? "window.location.href='"+post.link+"'" : ''}">
+    <div class="blog-card reveal" style="transition-delay:${i*0.07}s" ${isLinkable ? 'data-link="'+post.link+'"' : ''}>
       <div class="blog-card-img" ${imgStyle}>${imgHtml}</div>
       <div class="blog-card-body">
         <span class="blog-category-tag">${post.category}</span>
@@ -1096,6 +1096,9 @@ function renderPosts(posts) {
     </div>`;
   }).join('');
   observeReveal();
+  document.querySelectorAll('.blog-card[data-link]').forEach(function(card){
+    card.addEventListener('click', function(){ window.location.href = this.getAttribute('data-link'); });
+  });
 }
 
 function filterPosts(cat, btn) {
