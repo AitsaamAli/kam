@@ -1083,10 +1083,8 @@ function renderPosts(posts) {
       ? `<img src="${imgSrc}" alt="${post.title}" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:top">`
       : `<div class="blog-card-img-corner"><i class="${cm.icon}" style="color:${cm.accent}"></i></div><span class="card-img-icon">${post.icon}</span><span class="card-img-cat-label">${post.category}</span>`;
     const imgStyle = imgSrc ? '' : `style="background:${cm.bg}"`;
-    const cardTag = isLinkable ? `a href="${post.link}"` : 'div';
-    const cardClose = isLinkable ? 'a' : 'div';
     return `
-    <${cardTag} class="blog-card reveal" style="transition-delay:${i*0.07}s;display:flex;flex-direction:column;text-decoration:none;color:inherit">
+    <div class="blog-card reveal" style="transition-delay:${i*0.07}s" onclick="${isLinkable ? 'window.location.href=\'' + post.link + '\'' : ''}">
       <div class="blog-card-img" ${imgStyle}>${imgHtml}</div>
       <div class="blog-card-body">
         <span class="blog-category-tag">${post.category}</span>
@@ -1100,7 +1098,7 @@ function renderPosts(posts) {
           ${isLinkable ? '<span class="read-more">Read <i class="fas fa-arrow-right" style="font-size:.7rem"></i></span>' : '<span class="read-more" style="opacity:.4">Coming Soon</span>'}
         </div>
       </div>
-    </${cardClose}>`;
+    </div>`;
   }).join('');
   observeReveal();
 }
