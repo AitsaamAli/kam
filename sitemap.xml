@@ -7,78 +7,225 @@
   <!-- ═══ HOMEPAGE ═══ -->
   <url>
     <loc>https://kambohassociates.com/</loc>
-    <lastmod>2026-05-31</lastmod>
+    <lastmod>2026-06-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
-  <!-- ═══ SERVICE PAGES ═══ -->
+  <!-- ═══ CORE SERVICE PAGES ═══ -->
   <url>
     <loc>https://kambohassociates.com/ntn-registration</loc>
-    <lastmod>2026-05-31</lastmod>
+    <lastmod>2026-06-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.95</priority>
   </url>
 
   <url>
     <loc>https://kambohassociates.com/income-tax-filing</loc>
-    <lastmod>2026-05-31</lastmod>
+    <lastmod>2026-06-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.95</priority>
   </url>
 
   <url>
     <loc>https://kambohassociates.com/sales-tax-registration</loc>
-    <lastmod>2026-05-31</lastmod>
+    <lastmod>2026-06-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.90</priority>
   </url>
 
   <url>
     <loc>https://kambohassociates.com/business-advisory</loc>
-    <lastmod>2026-05-31</lastmod>
+    <lastmod>2026-06-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.90</priority>
   </url>
 
-  <!-- ═══ CALCULATORS / TOOLS ═══ -->
-  <url>
-    <loc>https://kambohassociates.com/tax-calculator</loc>
-    <lastmod>2026-05-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
-  </url>
-
-  <url>
-    <loc>https://kambohassociates.com/salary-calculator</loc>
-    <lastmod>2026-05-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.78</priority>
-  </url>
-
-  <url>
-    <loc>https://kambohassociates.com/gst-calculator</loc>
-    <lastmod>2026-05-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.78</priority>
-  </url>
-
-  <url>
-    <loc>https://kambohassociates.com/income-estimator</loc>
-    <lastmod>2026-05-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
-  </url>
-
-  <!-- ═══ BLOG INDEX ═══ -->
+  <!-- ═══ BLOGS LISTING ═══ -->
   <url>
     <loc>https://kambohassociates.com/blogs</loc>
-    <lastmod>2026-05-31</lastmod>
+    <lastmod>2026-06-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
 
-  <!-- ═══ FBR & NTN BLOGS ═══ -->
+  <!-- ═══ LAHORE LOCAL SEO — HIGH COMMERCIAL INTENT ═══ -->
+  <url>
+    <loc>https://kambohassociates.com/income-tax-return-filing-lahore</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://kambohassociates.com/ntn-registration-lahore</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://kambohassociates.com/fbr-consultant-near-me-lahore</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://kambohassociates.com/income-tax-consultant-dha-lahore</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.88</priority>
+  </url>
+
+  <url>
+    <loc>https://kambohassociates.com/tax-consultant-johar-town-lahore</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.88</priority>
+  </url>
+
+  <url>
+    <loc>https://kambohassociates.com/tax-consultant-model-town-lahore</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.88</priority>
+  </url>
+
+  <url>
+    <loc>https://kambohassociates.com/tax-consultant-garden-town-lahore</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.88</priority>
+  </url>
+
+  <url>
+    <loc>https://kambohassociates.com/tax-consultant-gulshan-ravi-lahore</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.88</priority>
+  </url>
+
+  <url>
+    <loc>https://kambohassociates.com/tax-consultant-samanabad-lahore</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.88</priority>
+  </url>
+
+  <url>
+    <loc>https://kambohassociates.com/tax-consultant-shadman-lahore</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.88</priority>
+  </url>
+
+  <url>
+    <loc>https://kambohassociates.com/tax-consultant-cavalry-ground-lahore</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.88</priority>
+  </url>
+
+  <url>
+    <loc>https://kambohassociates.com/tax-consultant-lahore-cantt</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.88</priority>
+  </url>
+
+  <url>
+    <loc>https://kambohassociates.com/tax-consultant-allama-iqbal-town-lahore</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.88</priority>
+  </url>
+
+  <url>
+    <loc>https://kambohassociates.com/tax-consultant-township-lahore</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.88</priority>
+  </url>
+
+  <url>
+    <loc>https://kambohassociates.com/tax-consultant-wapda-town-lahore</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.88</priority>
+  </url>
+
+  <url>
+    <loc>https://kambohassociates.com/tax-consultant-faisal-town-lahore</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.88</priority>
+  </url>
+
+  <url>
+    <loc>https://kambohassociates.com/ntn-registration-gulberg-lahore</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.88</priority>
+  </url>
+
+  <url>
+    <loc>https://kambohassociates.com/tax-filing-bahria-town-lahore</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.88</priority>
+  </url>
+
+  <url>
+    <loc>https://kambohassociates.com/company-registration-consultant-lahore</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.88</priority>
+  </url>
+
+  <url>
+    <loc>https://kambohassociates.com/gst-registration-lahore</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.88</priority>
+  </url>
+
+  <url>
+    <loc>https://kambohassociates.com/corporate-tax-consultant-lahore</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.88</priority>
+  </url>
+
+  <url>
+    <loc>https://kambohassociates.com/wealth-statement-consultant-lahore</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.88</priority>
+  </url>
+
+  <url>
+    <loc>https://kambohassociates.com/atl-registration-lahore</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.88</priority>
+  </url>
+
+  <url>
+    <loc>https://kambohassociates.com/sales-tax-consultant-lahore</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.88</priority>
+  </url>
+
+  <url>
+    <loc>https://kambohassociates.com/tax-audit-consultant-lahore</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.88</priority>
+  </url>
+
+  <!-- ═══ HIGH-VALUE FBR & TAX GUIDES ═══ -->
   <url>
     <loc>https://kambohassociates.com/income-tax-return-pakistan</loc>
     <lastmod>2026-05-31</lastmod>
@@ -101,60 +248,17 @@
   </url>
 
   <url>
-    <loc>https://kambohassociates.com/how-to-become-active-taxpayer-pakistan</loc>
+    <loc>https://kambohassociates.com/tax-benefits-filer-pakistan</loc>
     <lastmod>2026-05-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
 
   <url>
-    <loc>https://kambohassociates.com/atl-pakistan-guide</loc>
+    <loc>https://kambohassociates.com/tax-audit-preparation-checklist-pakistan</loc>
     <lastmod>2026-05-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://kambohassociates.com/how-to-check-atl-status-pakistan</loc>
-    <lastmod>2026-05-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
-  </url>
-
-  <url>
-    <loc>https://kambohassociates.com/ntn-registration-cost-pakistan</loc>
-    <lastmod>2026-05-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
-  </url>
-
-  <url>
-    <loc>https://kambohassociates.com/ntn-registration-time-pakistan</loc>
-    <lastmod>2026-05-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
-  </url>
-
-  <url>
-    <loc>https://kambohassociates.com/ntn-application-rejection-reasons-pakistan</loc>
-    <lastmod>2026-05-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
-  </url>
-
-  <!-- ═══ TAX RETURN BLOGS ═══ -->
-  <url>
-    <loc>https://kambohassociates.com/income-tax-return-mistakes-pakistan</loc>
-    <lastmod>2026-05-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.82</priority>
-  </url>
-
-  <url>
-    <loc>https://kambohassociates.com/documents-income-tax-return-pakistan</loc>
-    <lastmod>2026-05-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
   </url>
 
   <url>
@@ -165,56 +269,153 @@
   </url>
 
   <url>
+    <loc>https://kambohassociates.com/how-to-become-active-taxpayer-pakistan</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://kambohassociates.com/wealth-statement-mistakes-pakistan</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.83</priority>
+  </url>
+
+  <url>
+    <loc>https://kambohassociates.com/tax-deductions-business-pakistan-2026</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.83</priority>
+  </url>
+
+  <url>
+    <loc>https://kambohassociates.com/atl-pakistan-guide</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.83</priority>
+  </url>
+
+  <url>
+    <loc>https://kambohassociates.com/how-to-check-atl-status-pakistan</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.83</priority>
+  </url>
+
+  <url>
+    <loc>https://kambohassociates.com/ntn-registration-cost-pakistan</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.83</priority>
+  </url>
+
+  <url>
+    <loc>https://kambohassociates.com/ntn-registration-time-pakistan</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.83</priority>
+  </url>
+
+  <url>
+    <loc>https://kambohassociates.com/ntn-application-rejection-reasons-pakistan</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.83</priority>
+  </url>
+
+  <url>
     <loc>https://kambohassociates.com/income-tax-return-filing-cost-pakistan</loc>
     <lastmod>2026-05-31</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.82</priority>
+    <priority>0.83</priority>
   </url>
 
-  <!-- ═══ FREELANCER TAX BLOGS ═══ -->
+  <url>
+    <loc>https://kambohassociates.com/income-tax-return-mistakes-pakistan</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.83</priority>
+  </url>
+
+  <url>
+    <loc>https://kambohassociates.com/documents-income-tax-return-pakistan</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.83</priority>
+  </url>
+
+  <url>
+    <loc>https://kambohassociates.com/fbr-notice-after-tax-return-pakistan</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.83</priority>
+  </url>
+
+  <url>
+    <loc>https://kambohassociates.com/how-to-respond-to-tax-notices-pakistan</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.83</priority>
+  </url>
+
+  <url>
+    <loc>https://kambohassociates.com/tax-penalties-in-pakistan</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.83</priority>
+  </url>
+
+  <url>
+    <loc>https://kambohassociates.com/tax-audit-preparation-checklist</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- ═══ FREELANCER & DIGITAL TAX ═══ -->
   <url>
     <loc>https://kambohassociates.com/freelancer-filer-pakistan</loc>
     <lastmod>2026-05-31</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://kambohassociates.com/fiverr-income-tax-pakistan</loc>
-    <lastmod>2026-05-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.83</priority>
   </url>
 
   <url>
     <loc>https://kambohassociates.com/upwork-income-tax-pakistan</loc>
     <lastmod>2026-05-31</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.82</priority>
+  </url>
+
+  <url>
+    <loc>https://kambohassociates.com/fiverr-income-tax-pakistan</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.82</priority>
   </url>
 
   <url>
     <loc>https://kambohassociates.com/payoneer-tax-pakistan</loc>
     <lastmod>2026-05-31</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.82</priority>
   </url>
 
   <url>
     <loc>https://kambohassociates.com/youtube-monetization-tax-pakistan</loc>
     <lastmod>2026-05-31</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.82</priority>
   </url>
 
   <url>
     <loc>https://kambohassociates.com/tiktok-creator-tax-pakistan</loc>
     <lastmod>2026-05-31</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.82</priority>
   </url>
 
-  <!-- ═══ E-COMMERCE TAX BLOGS ═══ -->
   <url>
     <loc>https://kambohassociates.com/amazon-seller-tax-pakistan</loc>
     <lastmod>2026-05-31</lastmod>
@@ -229,83 +430,18 @@
     <priority>0.82</priority>
   </url>
 
-  <!-- ═══ BUSINESS / COMPANY FORMATION BLOGS ═══ -->
   <url>
     <loc>https://kambohassociates.com/digital-marketing-agency-tax-pakistan</loc>
     <lastmod>2026-05-31</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.83</priority>
+    <priority>0.82</priority>
   </url>
 
   <url>
     <loc>https://kambohassociates.com/software-house-tax-pakistan</loc>
     <lastmod>2026-05-31</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.83</priority>
-  </url>
-
-  <url>
-    <loc>https://kambohassociates.com/secp-vs-sole-proprietorship-pakistan</loc>
-    <lastmod>2026-05-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.83</priority>
-  </url>
-
-  <!-- ═══ NEW BUSINESS & STARTUP BLOGS ═══ -->
-  <url>
-    <loc>https://kambohassociates.com/best-business-structure-pakistan</loc>
-    <lastmod>2026-05-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://kambohassociates.com/startup-registration-pakistan</loc>
-    <lastmod>2026-05-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://kambohassociates.com/online-business-registration-pakistan</loc>
-    <lastmod>2026-05-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.83</priority>
-  </url>
-
-  <url>
-    <loc>https://kambohassociates.com/fbr-registration-new-business-pakistan</loc>
-    <lastmod>2026-05-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.83</priority>
-  </url>
-
-  <url>
-    <loc>https://kambohassociates.com/wealth-statement-mistakes-pakistan</loc>
-    <lastmod>2026-05-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://kambohassociates.com/tax-deductions-business-pakistan-2026</loc>
-    <lastmod>2026-05-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://kambohassociates.com/regulatory-compliance-requirements-2026</loc>
-    <lastmod>2026-05-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.83</priority>
-  </url>
-
-  <url>
-    <loc>https://kambohassociates.com/secp-company-registration-guide-2026</loc>
-    <lastmod>2026-05-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.87</priority>
+    <priority>0.82</priority>
   </url>
 
   <!-- ═══ PROFESSIONAL TAX GUIDES ═══ -->
@@ -313,367 +449,229 @@
     <loc>https://kambohassociates.com/tax-filing-doctors-pakistan</loc>
     <lastmod>2026-05-31</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.82</priority>
   </url>
 
   <url>
     <loc>https://kambohassociates.com/tax-filing-lawyers-pakistan</loc>
     <lastmod>2026-05-31</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://kambohassociates.com/tax-filing-consultants-pakistan</loc>
-    <lastmod>2026-05-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.82</priority>
   </url>
 
   <url>
     <loc>https://kambohassociates.com/tax-filing-engineers-pakistan</loc>
     <lastmod>2026-05-31</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.82</priority>
+  </url>
+
+  <url>
+    <loc>https://kambohassociates.com/tax-filing-consultants-pakistan</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.82</priority>
   </url>
 
   <url>
     <loc>https://kambohassociates.com/tax-filing-architects-pakistan</loc>
     <lastmod>2026-05-31</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.82</priority>
   </url>
 
-  <!-- ═══ BUSINESS TAX GUIDES ═══ -->
   <url>
     <loc>https://kambohassociates.com/tax-filing-traders-pakistan</loc>
     <lastmod>2026-05-31</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.82</priority>
   </url>
 
   <url>
     <loc>https://kambohassociates.com/tax-filing-exporters-pakistan</loc>
     <lastmod>2026-05-31</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.82</priority>
   </url>
 
   <url>
     <loc>https://kambohassociates.com/tax-filing-importers-pakistan</loc>
     <lastmod>2026-05-31</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.82</priority>
   </url>
 
-  <!-- ═══ TAX PLANNING & COMPLIANCE ═══ -->
-  <url>
-    <loc>https://kambohassociates.com/tax-benefits-filer-pakistan</loc>
-    <lastmod>2026-05-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.87</priority>
-  </url>
-
-  <url>
-    <loc>https://kambohassociates.com/tax-audit-preparation-checklist-pakistan</loc>
-    <lastmod>2026-05-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <!-- ═══ NEW BLOG SERIES: TAX & COMPLIANCE GUIDES (17 BLOGS) ═══ -->
+  <!-- ═══ PROPERTY TAX ═══ -->
   <url>
     <loc>https://kambohassociates.com/rental-income-tax-calculator-pakistan</loc>
-    <lastmod>2026-06-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.88</priority>
-  </url>
-
-  <url>
-    <loc>https://kambohassociates.com/tax-on-commercial-property-pakistan</loc>
-    <lastmod>2026-06-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.87</priority>
-  </url>
-
-  <url>
-    <loc>https://kambohassociates.com/tax-on-agricultural-income-pakistan</loc>
-    <lastmod>2026-06-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.86</priority>
-  </url>
-
-  <url>
-    <loc>https://kambohassociates.com/fbr-notice-after-tax-return-pakistan</loc>
-    <lastmod>2026-06-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.87</priority>
-  </url>
-
-  <url>
-    <loc>https://kambohassociates.com/how-to-respond-to-tax-notices-pakistan</loc>
-    <lastmod>2026-06-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.87</priority>
-  </url>
-
-  <url>
-    <loc>https://kambohassociates.com/tax-penalties-in-pakistan</loc>
-    <lastmod>2026-06-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.86</priority>
-  </url>
-
-  <url>
-    <loc>https://kambohassociates.com/tax-audit-preparation-checklist</loc>
-    <lastmod>2026-06-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.86</priority>
-  </url>
-
-  <url>
-    <loc>https://kambohassociates.com/pra-registration-guide-pakistan</loc>
-    <lastmod>2026-06-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.84</priority>
-  </url>
-
-  <url>
-    <loc>https://kambohassociates.com/srb-registration-guide-pakistan</loc>
-    <lastmod>2026-06-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.84</priority>
-  </url>
-
-  <url>
-    <loc>https://kambohassociates.com/kpra-registration-guide-pakistan</loc>
-    <lastmod>2026-06-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.84</priority>
-  </url>
-
-  <url>
-    <loc>https://kambohassociates.com/eobi-registration-guide-pakistan</loc>
-    <lastmod>2026-06-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.84</priority>
-  </url>
-
-  <url>
-    <loc>https://kambohassociates.com/social-security-registration-pakistan</loc>
     <lastmod>2026-06-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.83</priority>
   </url>
 
   <url>
+    <loc>https://kambohassociates.com/tax-on-commercial-property-pakistan</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.82</priority>
+  </url>
+
+  <url>
+    <loc>https://kambohassociates.com/tax-on-agricultural-income-pakistan</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- ═══ BUSINESS & COMPANY ═══ -->
+  <url>
+    <loc>https://kambohassociates.com/secp-company-registration-guide-2026</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.83</priority>
+  </url>
+
+  <url>
+    <loc>https://kambohassociates.com/best-business-structure-pakistan</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.82</priority>
+  </url>
+
+  <url>
+    <loc>https://kambohassociates.com/startup-registration-pakistan</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.82</priority>
+  </url>
+
+  <url>
+    <loc>https://kambohassociates.com/online-business-registration-pakistan</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.82</priority>
+  </url>
+
+  <url>
+    <loc>https://kambohassociates.com/fbr-registration-new-business-pakistan</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.82</priority>
+  </url>
+
+  <url>
+    <loc>https://kambohassociates.com/secp-vs-sole-proprietorship-pakistan</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://kambohassociates.com/regulatory-compliance-requirements-2026</loc>
+    <lastmod>2026-05-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
     <loc>https://kambohassociates.com/business-compliance-checklist-pakistan</loc>
     <lastmod>2026-06-04</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.86</priority>
+    <priority>0.80</priority>
   </url>
 
   <url>
     <loc>https://kambohassociates.com/annual-company-filing-guide-pakistan</loc>
     <lastmod>2026-06-04</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.86</priority>
+    <priority>0.80</priority>
   </url>
 
+  <!-- ═══ REGISTRATION GUIDES ═══ -->
+  <url>
+    <loc>https://kambohassociates.com/pra-registration-guide-pakistan</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://kambohassociates.com/srb-registration-guide-pakistan</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://kambohassociates.com/kpra-registration-guide-pakistan</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://kambohassociates.com/eobi-registration-guide-pakistan</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://kambohassociates.com/social-security-registration-pakistan</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- ═══ LEGAL & IP ═══ -->
   <url>
     <loc>https://kambohassociates.com/trademark-registration-cost-pakistan</loc>
     <lastmod>2026-06-04</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.80</priority>
   </url>
 
   <url>
     <loc>https://kambohassociates.com/brand-name-registration-guide-pakistan</loc>
     <lastmod>2026-06-04</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.80</priority>
   </url>
 
   <url>
     <loc>https://kambohassociates.com/logo-registration-process-pakistan</loc>
     <lastmod>2026-06-04</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.78</priority>
+  </url>
+
+  <!-- ═══ TOOLS & CALCULATORS ═══ -->
+  <url>
+    <loc>https://kambohassociates.com/tax-calculator</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
   </url>
 
   <url>
-    <loc>https://kambohassociates.com/income-tax-consultant-dha-lahore</loc>
-    <lastmod>2026-06-04</lastmod>
+    <loc>https://kambohassociates.com/salary-calculator</loc>
+    <lastmod>2026-06-10</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.78</priority>
   </url>
 
   <url>
-    <loc>https://kambohassociates.com/ntn-registration-gulberg-lahore</loc>
-    <lastmod>2026-06-04</lastmod>
+    <loc>https://kambohassociates.com/gst-calculator</loc>
+    <lastmod>2026-06-10</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.78</priority>
   </url>
 
   <url>
-    <loc>https://kambohassociates.com/tax-consultant-johar-town-lahore</loc>
-    <lastmod>2026-06-04</lastmod>
+    <loc>https://kambohassociates.com/income-estimator</loc>
+    <lastmod>2026-06-10</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://kambohassociates.com/company-registration-consultant-lahore</loc>
-    <lastmod>2026-06-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://kambohassociates.com/fbr-consultant-near-me-lahore</loc>
-    <lastmod>2026-06-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://kambohassociates.com/tax-filing-bahria-town-lahore</loc>
-    <lastmod>2026-06-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://kambohassociates.com/corporate-tax-consultant-lahore</loc>
-    <lastmod>2026-06-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://kambohassociates.com/gst-registration-lahore</loc>
-    <lastmod>2026-06-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://kambohassociates.com/wealth-statement-consultant-lahore</loc>
-    <lastmod>2026-06-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://kambohassociates.com/atl-registration-lahore</loc>
-    <lastmod>2026-06-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://kambohassociates.com/tax-consultant-model-town-lahore</loc>
-    <lastmod>2026-06-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://kambohassociates.com/tax-consultant-garden-town-lahore</loc>
-    <lastmod>2026-06-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://kambohassociates.com/tax-consultant-faisal-town-lahore</loc>
-    <lastmod>2026-06-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://kambohassociates.com/tax-consultant-wapda-town-lahore</loc>
-    <lastmod>2026-06-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://kambohassociates.com/tax-consultant-lahore-cantt</loc>
-    <lastmod>2026-06-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://kambohassociates.com/tax-consultant-allama-iqbal-town-lahore</loc>
-    <lastmod>2026-06-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://kambohassociates.com/tax-consultant-township-lahore</loc>
-    <lastmod>2026-06-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://kambohassociates.com/income-tax-return-filing-lahore</loc>
-    <lastmod>2026-06-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://kambohassociates.com/ntn-registration-lahore</loc>
-    <lastmod>2026-06-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://kambohassociates.com/sales-tax-consultant-lahore</loc>
-    <lastmod>2026-06-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://kambohassociates.com/tax-consultant-samanabad-lahore</loc>
-    <lastmod>2026-06-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://kambohassociates.com/tax-consultant-shadman-lahore</loc>
-    <lastmod>2026-06-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://kambohassociates.com/tax-consultant-cavalry-ground-lahore</loc>
-    <lastmod>2026-06-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://kambohassociates.com/tax-consultant-gulshan-ravi-lahore</loc>
-    <lastmod>2026-06-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://kambohassociates.com/tax-audit-consultant-lahore</loc>
-    <lastmod>2026-06-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.75</priority>
   </url>
 
 </urlset>
