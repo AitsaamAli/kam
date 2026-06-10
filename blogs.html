@@ -1139,10 +1139,7 @@ function renderRecent() {
 
 /* Scroll reveal */
 const _ro=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');_ro.unobserve(e.target);}});},{threshold:0});
-function observeReveal(){document.querySelectorAll('.reveal').forEach(el=>{const r=el.getBoundingClientRect();if(r.top<(window.innerHeight||document.documentElement.clientHeight)&&r.bottom>0){el.classList.add('visible');}else{_ro.observe(el);}});} });
-  },{threshold:0.1});
-  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
-}
+function observeReveal(){document.querySelectorAll('.reveal').forEach(el=>{const r=el.getBoundingClientRect();if(r.top<(window.innerHeight||document.documentElement.clientHeight)&&r.bottom>0){el.classList.add('visible');}else{_ro.observe(el);}});}
 
 /* Navbar scroll */
 window.addEventListener('scroll',()=>{
