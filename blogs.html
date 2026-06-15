@@ -148,20 +148,16 @@ ul{list-style:none}
 .blog-section{padding:60px 0 100px}
 .blog-section .container{display:grid;grid-template-columns:1fr 300px;gap:48px;align-items:start}
 .blog-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
-.blog-card{background:var(--surface);border:1px solid var(--border);border-top:3px solid var(--bc-accent,#D4AF37);border-radius:var(--radius-lg);overflow:hidden;transition:all .3s var(--ease);cursor:pointer;display:flex;flex-direction:column}
-.blog-card:hover{transform:translateY(-5px);box-shadow:0 20px 48px rgba(0,0,0,.1);background:var(--card-hover)}
-.blog-card-body{padding:26px 26px 24px;flex-grow:1;display:flex;flex-direction:column}
-.bc-cat-row{display:flex;align-items:center;gap:7px;margin-bottom:14px}
-.bc-icon-txt{font-size:1rem;line-height:1}
-.bc-cat-label{font-family:var(--font-display);font-size:.58rem;letter-spacing:.2em;text-transform:uppercase;color:var(--bc-accent,#D4AF37);font-weight:600}
-.blog-card-title{font-family:var(--font-serif);font-size:1.22rem;font-weight:600;color:var(--text);margin-bottom:10px;line-height:1.38}
-.blog-card-excerpt{color:var(--text-3);font-size:.875rem;line-height:1.78;flex-grow:1;margin-bottom:18px}
-.blog-card-meta{display:flex;justify-content:space-between;align-items:center;padding-top:13px;border-top:1px solid var(--border);font-size:.76rem;color:var(--text-3)}
-.blog-meta-left{display:flex;align-items:center;gap:14px}
-.blog-meta-left span{display:flex;align-items:center;gap:5px}
-.blog-meta-left i{color:#14B8A6}
-.read-more{color:var(--bc-accent,#D4AF37);font-weight:600;display:flex;align-items:center;gap:4px;transition:gap .2s;font-size:.78rem}
-.blog-card:hover .read-more{gap:8px}
+.blog-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden;transition:all .3s var(--ease);cursor:pointer;display:flex;flex-direction:column}
+.blog-card:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(0,0,0,.09);border-color:rgba(184,150,12,.35)}
+.blog-card-body{padding:28px 28px 24px;flex-grow:1;display:flex;flex-direction:column}
+.bc-cat-label{font-family:var(--font-display);font-size:.6rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold-light);font-weight:600;display:block;margin-bottom:13px}
+.blog-card-title{font-family:var(--font-serif);font-size:1.2rem;font-weight:600;color:var(--text);margin-bottom:11px;line-height:1.4}
+.blog-card-excerpt{color:var(--text-3);font-size:.875rem;line-height:1.8;flex-grow:1;margin-bottom:20px}
+.blog-card-meta{display:flex;justify-content:space-between;align-items:center;padding-top:14px;border-top:1px solid var(--border);font-size:.76rem;color:var(--text-3)}
+.blog-meta-left{display:flex;align-items:center;gap:16px}
+.read-more{color:var(--gold-light);font-weight:600;font-size:.76rem;letter-spacing:.02em}
+.blog-card:hover .read-more{color:var(--teal)}
 .no-results{text-align:center;padding:80px 0;color:var(--text-3)}
 .no-results i{font-size:3rem;color:var(--border);display:block;margin-bottom:16px}
 .hidden{display:none}
@@ -1108,19 +1104,19 @@ function renderPosts(posts) {
   grid.innerHTML = posts.map((post,i) => {
     const cm = catMeta[post.category] || defaultCat;
     const isLinkable = post.link && post.link !== '#';
-    const pinnedLabel = post.featured ? ' <span style="background:#14B8A6;color:#fff;font-size:.58rem;font-weight:700;padding:2px 7px;border-radius:4px;letter-spacing:.04em;vertical-align:middle">📌 PINNED</span>' : '';
+    const pinnedLabel = post.featured ? ' <span style="font-size:.58rem;font-weight:700;color:#14B8A6;letter-spacing:.06em;vertical-align:middle">PINNED</span>' : '';
     return `
-    <div class="blog-card reveal" style="--bc-accent:${cm.accent};transition-delay:${i*0.07}s" ${isLinkable ? 'data-link="'+post.link+'"' : ''}>
+    <div class="blog-card reveal" style="transition-delay:${i*0.07}s" ${isLinkable ? 'data-link="'+post.link+'"' : ''}>
       <div class="blog-card-body">
-        <div class="bc-cat-row"><span class="bc-icon-txt">${post.icon||'📄'}</span><span class="bc-cat-label">${post.category||''}</span>${pinnedLabel}</div>
+        <span class="bc-cat-label">${post.category||''}${pinnedLabel}</span>
         <h3 class="blog-card-title">${post.title}</h3>
         <p class="blog-card-excerpt">${post.excerpt}</p>
         <div class="blog-card-meta">
           <div class="blog-meta-left">
-            <span><i class="far fa-calendar-alt"></i>${new Date(post.date).toLocaleDateString('en-US',{year:'numeric',month:'short',day:'numeric'})}</span>
-            <span><i class="far fa-clock"></i>${post.readTime}</span>
+            <span>${new Date(post.date).toLocaleDateString('en-US',{year:'numeric',month:'short',day:'numeric'})}</span>
+            <span>${post.readTime||''}</span>
           </div>
-          ${isLinkable ? '<span class="read-more">Read <i class="fas fa-arrow-right" style="font-size:.65rem"></i></span>' : '<span style="opacity:.35;font-size:.76rem">Coming Soon</span>'}
+          ${isLinkable ? '<span class="read-more">Read &rarr;</span>' : '<span style="opacity:.3;font-size:.76rem">Coming Soon</span>'}
         </div>
       </div>
     </div>`;
