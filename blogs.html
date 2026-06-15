@@ -495,7 +495,8 @@ const blogPosts = [
     date: '2026-05-31',
     category: 'Tax Compliance',
     readTime: '10 min read',
-    author: 'Kamboh Associates'
+    author: 'Kamboh Associates',
+    icon: '📋'
   },
   {
     id: 'tax-benefits-filer-pakistan',
@@ -506,7 +507,8 @@ const blogPosts = [
     date: '2026-05-31',
     category: 'Tax Planning',
     readTime: '8 min read',
-    author: 'Kamboh Associates'
+    author: 'Kamboh Associates',
+    icon: '⭐'
   },
   {
     id: 'tax-filing-importers-pakistan',
@@ -516,7 +518,8 @@ const blogPosts = [
     date: '2026-05-31',
     category: 'Business Tax',
     readTime: '9 min read',
-    author: 'Kamboh Associates'
+    author: 'Kamboh Associates',
+    icon: '📦'
   },
   {
     id: 'tax-filing-exporters-pakistan',
@@ -526,7 +529,8 @@ const blogPosts = [
     date: '2026-05-31',
     category: 'Business Tax',
     readTime: '9 min read',
-    author: 'Kamboh Associates'
+    author: 'Kamboh Associates',
+    icon: '📤'
   },
   {
     id: 'tax-filing-traders-pakistan',
@@ -536,7 +540,8 @@ const blogPosts = [
     date: '2026-05-31',
     category: 'Business Tax',
     readTime: '9 min read',
-    author: 'Kamboh Associates'
+    author: 'Kamboh Associates',
+    icon: '🛒'
   },
   {
     id: 'tax-filing-architects-pakistan',
@@ -546,7 +551,8 @@ const blogPosts = [
     date: '2026-05-31',
     category: 'Professional Tax',
     readTime: '7 min read',
-    author: 'Kamboh Associates'
+    author: 'Kamboh Associates',
+    icon: '📐'
   },
   {
     id: 'tax-filing-engineers-pakistan',
@@ -556,7 +562,8 @@ const blogPosts = [
     date: '2026-05-31',
     category: 'Professional Tax',
     readTime: '8 min read',
-    author: 'Kamboh Associates'
+    author: 'Kamboh Associates',
+    icon: '⚙️'
   },
   {
     id: 'tax-filing-consultants-pakistan',
@@ -566,7 +573,8 @@ const blogPosts = [
     date: '2026-05-31',
     category: 'Professional Tax',
     readTime: '8 min read',
-    author: 'Kamboh Associates'
+    author: 'Kamboh Associates',
+    icon: '💼'
   },
   {
     id: 'tax-filing-lawyers-pakistan',
@@ -576,7 +584,8 @@ const blogPosts = [
     date: '2026-05-31',
     category: 'Professional Tax',
     readTime: '8 min read',
-    author: 'Kamboh Associates'
+    author: 'Kamboh Associates',
+    icon: '⚖️'
   },
   {
     id: 'tax-filing-doctors-pakistan',
@@ -586,7 +595,8 @@ const blogPosts = [
     date: '2026-05-31',
     category: 'Professional Tax',
     readTime: '9 min read',
-    author: 'Kamboh Associates'
+    author: 'Kamboh Associates',
+    icon: '🏥'
   },
   {
     id: "secp-company-registration-guide-2026",
@@ -1032,7 +1042,8 @@ const catMeta = {
   'Business Tax':{bg:'linear-gradient(135deg,#1a2a3a 0%,#1e4a6a 100%)',icon:'fas fa-briefcase',accent:'#60a5fa'},
   'IT Export':  {bg:'linear-gradient(135deg,#0f3a2a 0%,#0d5040 100%)',icon:'fas fa-file-export',accent:'#34d399'},
   'Creator Tax':{bg:'linear-gradient(135deg,#2a1a3a 0%,#4a2a6a 100%)',icon:'fas fa-star',accent:'#c084fc'},
-  'E-Commerce Tax':{bg:'linear-gradient(135deg,#431407 0%,#9a3412 100%)', icon:'fas fa-shopping-cart',accent:'#fb923c'},
+  'Professional Tax':{bg:'linear-gradient(135deg,#1a2a4a 0%,#1e3a6a 100%)',icon:'fas fa-user-tie',accent:'#818cf8'},
+  'Tax Compliance':{bg:'linear-gradient(135deg,#1c1917 0%,#44403c 100%)',icon:'fas fa-shield-alt',accent:'#fbbf24'},
 };
 const defaultCat = {bg:'linear-gradient(135deg,#1a1a2e 0%,#16213e 100%)',icon:'fas fa-file-alt',accent:'#d4af37'};
 const postImages = {
@@ -1101,7 +1112,7 @@ function renderPosts(posts) {
     return `
     <div class="blog-card reveal" style="--bc-accent:${cm.accent};transition-delay:${i*0.07}s" ${isLinkable ? 'data-link="'+post.link+'"' : ''}>
       <div class="blog-card-body">
-        <div class="bc-cat-row"><span class="bc-icon-txt">${post.icon}</span><span class="bc-cat-label">${post.category}</span>${pinnedLabel}</div>
+        <div class="bc-cat-row"><span class="bc-icon-txt">${post.icon||'📄'}</span><span class="bc-cat-label">${post.category||''}</span>${pinnedLabel}</div>
         <h3 class="blog-card-title">${post.title}</h3>
         <p class="blog-card-excerpt">${post.excerpt}</p>
         <div class="blog-card-meta">
