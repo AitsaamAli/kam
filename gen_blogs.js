@@ -1,151 +1,169 @@
-const fs = require('fs');
-// Use doctors page as template — replace specific sections per blog
+﻿const fs = require("fs");
+const template = fs.readFileSync("blogs/tax-consultant-askari-lahore.html","utf8");
+const areas = [
+  ["johar-town-lahore-area","Johar Town","Lahore","2026-11-07"],
+  ["shadman-lahore-area","Shadman","Lahore","2026-11-08"],
+  ["cavalry-ground-lahore-area","Cavalry Ground","Lahore","2026-11-09"],
+  ["dha-lahore-area","DHA","Lahore","2026-11-10"],
+  ["gulshan-ravi-lahore-area","Gulshan Ravi","Lahore","2026-11-11"],
+  ["samanabad-lahore-area","Samanabad","Lahore","2026-11-12"],
+  ["shahdara-lahore","Shahdara","Lahore","2026-11-13"],
+  ["kot-lakhpat-lahore","Kot Lakhpat","Lahore","2026-11-14"],
+  ["raiwind-lahore","Raiwind","Lahore","2026-11-15"],
+  ["harbanspura-lahore","Harbanspura","Lahore","2026-11-16"],
+  ["mughalpura-lahore","Mughalpura","Lahore","2026-11-17"],
+  ["ichra-lahore","Ichra","Lahore","2026-11-18"],
+  ["mozang-lahore","Mozang","Lahore","2026-11-19"],
+  ["garhi-shahu-lahore","Garhi Shahu","Lahore","2026-11-20"],
+  ["baghbanpura-lahore","Baghbanpura","Lahore","2026-11-21"],
+  ["nishtar-colony-lahore","Nishtar Colony","Lahore","2026-11-22"],
+  ["krishan-nagar-lahore","Krishan Nagar","Lahore","2026-11-23"],
+  ["sundar-lahore","Sundar","Lahore","2026-11-24"],
+  ["manga-mandi-lahore","Manga Mandi","Lahore","2026-11-25"],
+  ["shalamar-lahore","Shalamar","Lahore","2026-11-26"],
+  ["gulshan-e-maymar-karachi","Gulshan-e-Maymar","Karachi","2026-11-27"],
+  ["north-karachi-karachi","North Karachi","Karachi","2026-11-28"],
+  ["scheme-33-karachi","Scheme 33","Karachi","2026-11-29"],
+  ["gadap-town-karachi","Gadap Town","Karachi","2026-11-30"],
+  ["manghopir-karachi","Manghopir","Karachi","2026-12-01"],
+  ["shah-latif-town-karachi","Shah Latif Town","Karachi","2026-12-02"],
+  ["scheme-45-karachi","Scheme 45","Karachi","2026-12-03"],
+  ["dha-phase-2-karachi","DHA Phase 2","Karachi","2026-12-04"],
+  ["dha-phase-6-karachi","DHA Phase 6","Karachi","2026-12-05"],
+  ["bahria-precinct-karachi","Bahria Precinct","Karachi","2026-12-06"],
+  ["malir-city-karachi","Malir City","Karachi","2026-12-07"],
+  ["landhi-industrial-karachi","Landhi Industrial Area","Karachi","2026-12-08"],
+  ["f-9-islamabad","F-9","Islamabad","2026-12-09"],
+  ["g-14-islamabad","G-14","Islamabad","2026-12-10"],
+  ["g-15-islamabad","G-15","Islamabad","2026-12-11"],
+  ["h-9-islamabad","H-9","Islamabad","2026-12-12"],
+  ["h-10-islamabad","H-10","Islamabad","2026-12-13"],
+  ["d-12-islamabad","D-12","Islamabad","2026-12-14"],
+  ["b-17-islamabad","B-17","Islamabad","2026-12-15"],
+  ["satellite-town-rawalpindi","Satellite Town","Rawalpindi","2026-12-16"],
+  ["chaklala-rawalpindi","Chaklala","Rawalpindi","2026-12-17"],
+  ["westridge-rawalpindi","Westridge","Rawalpindi","2026-12-18"],
+  ["bahria-town-rawalpindi","Bahria Town","Rawalpindi","2026-12-19"],
+  ["wah-cantt-rawalpindi","Wah Cantt","Rawalpindi","2026-12-20"],
+  ["taxila-rawalpindi","Taxila","Rawalpindi","2026-12-21"],
+  ["gujrat-city","City Centre","Gujrat","2026-12-22"],
+  ["sheikhupura-city","City Centre","Sheikhupura","2026-12-23"],
+  ["jhang-city","City Centre","Jhang","2026-12-24"],
+  ["okara-city","City Centre","Okara","2026-12-25"],
+  ["kasur-city","City Centre","Kasur","2026-12-26"],
+  ["narowal-city","City Centre","Narowal","2026-12-27"],
+  ["hafizabad-city","City Centre","Hafizabad","2026-12-28"],
+  ["chiniot-city","City Centre","Chiniot","2026-12-29"],
+  ["khushab-city","City Centre","Khushab","2026-12-30"],
+  ["mandi-bahauddin-city","City Centre","Mandi Bahauddin","2026-12-31"],
+  ["attock-city","City Centre","Attock","2027-01-01"],
+  ["chakwal-city","City Centre","Chakwal","2027-01-02"],
+  ["jhelum-city","City Centre","Jhelum","2027-01-03"],
+  ["khanewal-city","City Centre","Khanewal","2027-01-04"],
+  ["pakpattan-city","City Centre","Pakpattan","2027-01-05"],
+  ["vehari-city","City Centre","Vehari","2027-01-06"],
+  ["lodhran-city","City Centre","Lodhran","2027-01-07"],
+  ["toba-tek-singh-city","City Centre","Toba Tek Singh","2027-01-08"],
+  ["layyah-city","City Centre","Layyah","2027-01-09"],
+  ["bhakkar-city","City Centre","Bhakkar","2027-01-10"],
+  ["muzaffargarh-city","City Centre","Muzaffargarh","2027-01-11"],
+  ["rajanpur-city","City Centre","Rajanpur","2027-01-12"],
+  ["dera-ghazi-khan-city","City Centre","Dera Ghazi Khan","2027-01-13"],
+  ["swabi-city","City Centre","Swabi","2027-01-14"],
+  ["nowshera-city","City Centre","Nowshera","2027-01-15"],
+  ["kohat-city","City Centre","Kohat","2027-01-16"],
+  ["bannu-city","City Centre","Bannu","2027-01-17"],
+  ["dera-ismail-khan-city","City Centre","Dera Ismail Khan","2027-01-18"],
+  ["mansehra-city","City Centre","Mansehra","2027-01-19"],
+  ["haripur-city","City Centre","Haripur","2027-01-20"],
+  ["mingora-swat","City Centre Mingora","Swat","2027-01-21"],
+  ["charsadda-city","City Centre","Charsadda","2027-01-22"],
+  ["karak-city","City Centre","Karak","2027-01-23"],
+  ["hangu-city","City Centre","Hangu","2027-01-24"],
+  ["chitral-city","City Centre","Chitral","2027-01-25"],
+  ["tank-city","City Centre","Tank","2027-01-26"],
+  ["lakki-marwat-city","City Centre","Lakki Marwat","2027-01-27"],
+  ["mirpurkhas-city","City Centre","Mirpurkhas","2027-01-28"],
+  ["tando-allahyar-city","City Centre","Tando Allahyar","2027-01-29"],
+  ["tando-adam-city","City Centre","Tando Adam","2027-01-30"],
+  ["sanghar-city","City Centre","Sanghar","2027-01-31"],
+  ["badin-city","City Centre","Badin","2027-02-01"],
+  ["thatta-city","City Centre","Thatta","2027-02-02"],
+  ["dadu-city","City Centre","Dadu","2027-02-03"],
+  ["jacobabad-city","City Centre","Jacobabad","2027-02-04"],
+  ["shikarpur-city","City Centre","Shikarpur","2027-02-05"],
+  ["khairpur-city","City Centre","Khairpur","2027-02-06"],
+  ["umerkot-city","City Centre","Umerkot","2027-02-07"],
+  ["ghotki-city","City Centre","Ghotki","2027-02-08"],
+  ["matiari-city","City Centre","Matiari","2027-02-09"],
+  ["turbat-city","City Centre","Turbat","2027-02-10"],
+  ["khuzdar-city","City Centre","Khuzdar","2027-02-11"],
+  ["hub-city","City Centre","Hub","2027-02-12"],
+  ["chaman-city","City Centre","Chaman","2027-02-13"],
+  ["zhob-city","City Centre","Zhob","2027-02-14"],
+  ["gwadar-city","City Centre","Gwadar","2027-02-15"],
+  ["sibi-city","City Centre","Sibi","2027-02-16"],
+  ["loralai-city","City Centre","Loralai","2027-02-17"],
+  ["kharan-city","City Centre","Kharan","2027-02-18"],
+  ["rawalakot-city","City Centre","Rawalakot","2027-02-19"],
+  ["kotli-city","City Centre","Kotli","2027-02-20"],
+  ["bhimber-city","City Centre","Bhimber","2027-02-21"],
+  ["gilgit-city","City Centre","Gilgit","2027-02-22"],
+  ["skardu-city","City Centre","Skardu","2027-02-23"],
+  ["hunza-city","City Centre","Hunza","2027-02-24"],
+];
 
-const doctorsHtml = fs.readFileSync('tax-filing-doctors-pakistan.html', 'utf8');
+let blogEntries = "";
+let sitemapEntries = "";
+let created = 0;
 
-function makeBlog(slug, titleStr, descStr, keywordsStr, imgFile, metaTagIcon, metaTagText, h1Str, leadStr, bodyHtml, tocItems, related1, related2, related3, waText, schemaHeadline) {
-  let html = doctorsHtml;
+areas.forEach(function(row) {
+  var slug = row[0], short = row[1], city = row[2], date = row[3];
+  var display = (short === "City Centre") ? city : (short + " " + city);
+  var shortName = (short === "City Centre") ? city : short;
 
-  // Title
-  html = html.replace(/Tax Filing for Doctors in Pakistan 2026 — Complete FBR Guide \| Kamboh Associates/, titleStr + ' | Kamboh Associates');
+  var outPath = "blogs/tax-consultant-" + slug + ".html";
+  if (fs.existsSync(outPath)) { console.log("SKIP: " + slug); return; }
 
-  // Meta desc
-  html = html.replace(/content="Complete income tax guide for doctors in Pakistan 2026\. Private practice, hospital salary, clinic expenses, advance tax, FBR IRIS filing — expert guide by Kamboh Associates Lahore\."/, 'content="' + descStr + '"');
+  var out = template
+    .replace(/tax-consultant-askari-lahore/g, slug)
+    .replace(/Best Tax Consultant in Askari Lahore/g, "Best Tax Consultant in " + display)
+    .replace(/Askari Lahore/g, display)
+    .replace(/Askari, Lahore/g, shortName + ", " + city)
+    .replace(/addressLocality":"Lahore"/g, "addressLocality\":\"" + city + "\"")
+    .replace(/addressRegion":"Punjab"/g, "addressRegion\":\"Pakistan\"")
+    .replace(/Lahore Local Tax Guide/g, city + " Local Tax Guide")
+    .replace(/Why Askari Residents Need/g, "Why " + shortName + " Residents Need")
+    .replace(/Key Insight for Askari Residents/g, "Key Insight for " + shortName + " Residents")
+    .replace(/Our Services for Askari Clients/g, "Our Services for " + shortName + " Clients")
+    .replace(/Benefits of Being a Filer in Askari/g, "Benefits of Being a Filer in " + shortName)
+    .replace(/Get Expert Tax Help in Askari Today/g, "Get Expert Tax Help in " + shortName + " Today")
+    .replace(/serves all Askari clients remotely/g, "serves all " + shortName + " clients remotely")
+    .replace(/Tax Consultant in Askari/g, "Tax Consultant in " + shortName)
+    .replace(/I\+need\+tax\+help\+in\+Askari\./g, "I+need+tax+help+in+" + display.replace(/ /g, "+") + ".")
+    .replace(/Who needs to file income tax in Askari, Lahore/g, "Who needs to file income tax in " + shortName + ", " + city)
+    .replace(/Any Askari resident/g, "Any " + shortName + " resident")
+    .replace(/How much does tax filing cost in Askari/g, "How much does tax filing cost in " + shortName)
+    .replace(/We serve all Askari clients/g, "We serve all " + shortName + " clients")
+    .replace(/NTN registration for Askari clients/g, "NTN registration for " + shortName + " clients")
+    .replace(/all Lahore areas remotely/g, "all " + city + " areas remotely")
+    .replace(/all areas of Lahore, Pakistan/g, "all areas of " + city + ", Pakistan")
+    .replace(/2026-07-07/g, date)
+    .replace(/July 7, 2026/g, date);
 
-  // Meta keywords
-  html = html.replace(/content="tax filing for doctors Pakistan, doctor income tax Pakistan, private practice tax Pakistan, FBR tax doctor, doctor NTN registration Pakistan, medical professional tax Lahore"/, 'content="' + keywordsStr + '"');
+  fs.writeFileSync(outPath, out);
+  created++;
 
-  // og:title
-  html = html.replace(/content="Tax Filing for Doctors in Pakistan 2026 \| Kamboh Associates"/, 'content="' + titleStr + ' | Kamboh Associates"');
+  var cat = "Other Cities";
+  if (city === "Lahore") cat = "Lahore Local";
+  else if (city === "Karachi") cat = "Karachi Local";
+  else if (city === "Islamabad" || city === "Rawalpindi") cat = "Islamabad Local";
 
-  // og:description
-  html = html.replace(/content="Complete income tax guide for doctors in Pakistan\. Private practice, hospital salary, clinic expenses, advance tax, FBR IRIS filing 2026\."/, 'content="' + descStr + '"');
+  blogEntries += "  { id:\"tax-consultant-" + slug + "\", title:\"Best Tax Consultant in " + display + " 2026\", excerpt:\"Top tax consultant in " + display + ". NTN registration, income tax filing, FBR compliance.\", date:\"" + date + "\", category:\"" + cat + "\", readTime:\"7 min read\", author:\"Kamboh Associates\", icon:\"📍\", link:\"/blogs/tax-consultant-" + slug + "\" },\n";
 
-  // og:url and og:image
-  html = html.replace(/content="https:\/\/kambohassociates\.com\/tax-filing-doctors-pakistan"/, 'content="https://kambohassociates.com/' + slug + '"');
-  html = html.replace(/content="https:\/\/kambohassociates\.com\/images\/tax-filing-doctors-pakistan\.png"/, 'content="https://kambohassociates.com/images/' + imgFile + '"');
+  sitemapEntries += "\n  <url>\n    <loc>https://kambohassociates.com/blogs/tax-consultant-" + slug + "</loc>\n    <lastmod>" + date + "</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.85</priority>\n  </url>";
+});
 
-  // twitter:title
-  html = html.replace(/content="Tax Filing for Doctors in Pakistan 2026 \| Kamboh Associates"\s*\/>\s*<link rel="canonical"/, 'content="' + titleStr + ' | Kamboh Associates"/>\n<link rel="canonical"');
-
-  // canonical
-  html = html.replace(/href="https:\/\/kambohassociates\.com\/tax-filing-doctors-pakistan"\/>/, 'href="https://kambohassociates.com/' + slug + '"/>');
-
-  // Schema - replace the whole script block (simplified: just change headline and image)
-  html = html.replace(/"headline":"Tax Filing for Doctors in Pakistan 2026 — Complete FBR Guide"/, '"headline":"' + schemaHeadline + '"');
-  html = html.replace(/"image":"https:\/\/kambohassociates\.com\/images\/tax-filing-doctors-pakistan\.png"/g, '"image":"https://kambohassociates.com/images/' + imgFile + '"');
-  html = html.replace(/"@id":"https:\/\/kambohassociates\.com\/tax-filing-doctors-pakistan"/, '"@id":"https://kambohassociates.com/' + slug + '"');
-  html = html.replace(/"item":"https:\/\/kambohassociates\.com\/tax-filing-doctors-pakistan"/, '"item":"https://kambohassociates.com/' + slug + '"');
-  html = html.replace(/"name":"Tax Filing for Doctors in Pakistan 2026","item"/, '"name":"' + titleStr + '","item"');
-
-  // Breadcrumb span
-  html = html.replace(/<span>Tax Filing for Doctors Pakistan<\/span>/, '<span>' + metaTagText + '</span>');
-
-  // Meta tag icon and label
-  html = html.replace(/class="fas fa-stethoscope"><\/i> Professional Tax Guide/, 'class="' + metaTagIcon + '"></i> Professional Tax Guide');
-
-  // H1
-  html = html.replace(/<h1>Tax Filing for Doctors in Pakistan 2026 — Complete FBR Guide<\/h1>/, '<h1>' + h1Str + '</h1>');
-
-  // Lead paragraph
-  html = html.replace(/<p class="article-lead">[\s\S]*?<\/p>/, '<p class="article-lead">' + leadStr + '</p>');
-
-  // Featured image
-  html = html.replace(/src="\/images\/tax-filing-doctors-pakistan\.png" alt="Tax Filing for Doctors in Pakistan 2026 — complete FBR income tax guide by Kamboh Associates"/, 'src="/images/' + imgFile + '" alt="' + h1Str + ' — guide by Kamboh Associates"');
-
-  // Article body - replace everything between lead and article-cta
-  const bodyStart = html.indexOf('</p>\n\n        <h2 id="who-must-file">');
-  const ctaStart = html.indexOf('<div class="article-cta">');
-  if (bodyStart > 0 && ctaStart > 0) {
-    html = html.substring(0, bodyStart + 5) + '\n\n        ' + bodyHtml;
-    // Re-get ctaStart since html changed
-  }
-
-  // TOC
-  const tocStart = html.indexOf('<li class="toc-item"><a href="#who-must-file">');
-  const tocEnd = html.indexOf('</ul>\n      </div>');
-  if (tocStart > 0 && tocEnd > 0) {
-    html = html.substring(0, tocStart) + tocItems + html.substring(tocEnd);
-  }
-
-  // Related posts sidebar
-  const relStart = html.indexOf('<div class="related-post" onclick="window.location.href=\'/income-tax-filing\'">');
-  const relEnd = html.indexOf('</div>\n      </div>\n      <div class="sidebar-card reveal" style="transition-delay:.25s">');
-  if (relStart > 0 && relEnd > 0) {
-    html = html.substring(0, relStart) + related1 + related2 + related3 + html.substring(relEnd);
-  }
-
-  // WA button text
-  html = html.replace(/Hi%20Kamboh%20Associates%2C%20doctor%20tax%20filing%20ke%20bare%20mein%20guide%20chahiye\./, waText);
-
-  // Share title
-  html = html.replace(/'Tax Filing for Doctors in Pakistan 2026 — Kamboh Associates'/, "'" + titleStr + " — Kamboh Associates'");
-
-  // Consult card sidebar title
-  html = html.replace(/Doctor Tax Expert/, metaTagText);
-  html = html.replace(/Kamboh Associates handles complete tax filing for medical professionals\. Private practice, hospital income, wealth statements\./, 'Kamboh Associates handles complete tax filing for professionals across Pakistan — NTN, returns, and wealth statements.');
-
-  return html;
-}
-
-// Engineers
-const engBody = `<h2 id="who-must-file">Who Must File?</h2>
-        <p>All engineers earning above <strong>Rs 600,000 annually</strong> must file an income tax return with FBR — including salaried engineers, freelancers, and those running consulting firms.</p>
-        <div class="info-box"><i class="fas fa-lightbulb"></i><p><strong>Software engineers:</strong> If you earn in foreign currency through Upwork or direct client payments, you may qualify for the <strong>0.25% fixed income tax on foreign remittances</strong> — a major saving versus normal slab rates up to 35%.</p></div>
-        <h2 id="income-types">Income Types for Engineers</h2>
-        <ul>
-          <li><strong>Salary income:</strong> Monthly pay from employer — employer deducts tax at source</li>
-          <li><strong>Consultancy fees:</strong> Project-based income — 7.5% WHT deducted by corporate clients</li>
-          <li><strong>Freelance contracts:</strong> Direct client payments via bank or digital transfer</li>
-          <li><strong>Foreign remittances:</strong> Overseas payments — potentially 0.25% final tax</li>
-        </ul>
-        <h2 id="deductions">Deductible Expenses for Engineers</h2>
-        <ul>
-          <li><strong>Laptop and workstation:</strong> 30% annual depreciation on IT equipment</li>
-          <li><strong>Engineering software:</strong> AutoCAD, MATLAB, SolidWorks, VS Code paid plans</li>
-          <li><strong>PEC registration:</strong> Pakistan Engineering Council annual membership fee</li>
-          <li><strong>Home office:</strong> Proportionate share of rent and utilities if working from home</li>
-          <li><strong>Professional development:</strong> Engineering certifications, courses, seminars</li>
-          <li><strong>Vehicle and travel:</strong> Site visits and client meetings (maintain mileage log)</li>
-        </ul>
-        <h2 id="tax-slabs">The 0.25% Foreign Income Benefit</h2>
-        <p>Engineers (especially software engineers) who receive foreign currency via official banking channels can opt for <strong>0.25% income tax as a final tax</strong> on those remittances — far lower than normal slab rates. Requirements: payment via Pakistani bank, from overseas client, registered NTN, service exported.</p>
-        <h2 id="how-to-file">How to File Your Return</h2>
-        <ol>
-          <li>Register on FBR IRIS (iris.fbr.gov.pk) — get your NTN</li>
-          <li>Collect salary certificates, client invoices, and WHT certificates</li>
-          <li>Open IRIS → Declaration → Income Tax Return (Form IT-2)</li>
-          <li>Enter all income heads — salary and/or business/freelance income</li>
-          <li>Claim deductible expenses under business income section</li>
-          <li>Apply all WHT credits and complete wealth statement</li>
-          <li>Pay balance tax via PSID and submit before September 30</li>
-        </ol>
-        <div class="article-cta">
-          <h3>Need Help Filing Your Engineer Tax Return?</h3>
-          <p>Kamboh Associates helps engineers with NTN registration, freelance income declarations, and foreign income claims.</p>
-          <div class="cta-btns">
-            <a href="https://wa.me/923284675162?text=Hi%2C%20I%20am%20an%20engineer%20and%20need%20help%20with%20tax%20filing." class="cta-btn-white" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i> Free Consultation</a>
-            <a href="tel:03284675162" class="cta-btn-ghost"><i class="fas fa-phone"></i> Call: 0328-4675162</a>
-          </div>
-        </div>
-        <h2 id="faqs">Frequently Asked Questions</h2>
-        <div class="faq-list">
-          <div class="faq-item"><div class="faq-q" onclick="toggleFAQ(this)">Do engineers need to file income tax in Pakistan?<i class="fas fa-plus"></i></div><div class="faq-a">Yes. All engineers earning above Rs 600,000 annually must file with FBR. Salaried engineers use salary certificate; freelance engineers file under business income.</div></div>
-          <div class="faq-item"><div class="faq-q" onclick="toggleFAQ(this)">What is the 0.25% tax for software engineers?<i class="fas fa-plus"></i></div><div class="faq-a">IT engineers receiving foreign currency via Pakistani banks can pay just 0.25% as final income tax on those remittances under SRO 1487(I)/2022 — instead of normal slab rates up to 35%.</div></div>
-          <div class="faq-item"><div class="faq-q" onclick="toggleFAQ(this)">Can engineers deduct PEC membership fees?<i class="fas fa-plus"></i></div><div class="faq-a">Yes. PEC annual membership and renewal fees are deductible as professional expenses for engineers running a private practice or consultancy.</div></div>
-        </div>`;
-
-const engTOC = `<li class="toc-item"><a href="#who-must-file"><i class="fas fa-circle"></i> Who Must File?</a></li>
-          <li class="toc-item"><a href="#income-types"><i class="fas fa-circle"></i> Income Types</a></li>
-          <li class="toc-item"><a href="#deductions"><i class="fas fa-circle"></i> Deductible Expenses</a></li>
-          <li class="toc-item"><a href="#tax-slabs"><i class="fas fa-circle"></i> 0.25% Foreign Benefit</a></li>
-          <li class="toc-item"><a href="#how-to-file"><i class="fas fa-circle"></i> How to File</a></li>
-          <li class="toc-item"><a href="#faqs"><i class="fas fa-circle"></i> FAQs</a></li>`;
-
-const engR1 = `<div class="related-post" onclick="window.location.href='/tax-filing-consultants-pakistan'"><div class="related-post-icon">💼</div><div><div class="related-post-title">Tax Filing for Consultants</div><div class="related-post-cat">Professional Tax</div></div></div>`;
-const engR2 = `<div class="related-post" onclick="window.location.href='/tax-filing-architects-pakistan'"><div class="related-post-icon">🏗️</div><div><div class="related-post-title">Tax Filing for Architects</div><div class="related-post-cat">Professional Tax</div></div></div>`;
-const engR3 = `<div class="related-post" onclick="window.location.href='/tax-benefits-filer-pakistan'"><div class="related-post-icon">✅</div><div><div class="related-post-title">Tax Benefits of Being a Filer</div><div class="related-post-cat">Tax Guide</div></div></div>`;
-
-const engHtml = makeBlog('tax-filing-engineers-pakistan','Tax Filing for Engineers in Pakistan 2026 — Complete FBR Guide','Complete income tax guide for engineers in Pakistan 2026. Civil, mechanical, electrical, software engineers — salaried vs freelance, deductions, 0.25% foreign tax, FBR IRIS filing.','tax filing for engineers Pakistan, engineer income tax Pakistan, software engineer tax Pakistan, FBR tax engineers, 0.25% foreign income tax Pakistan','tax-filing-engineers-pakistan.png','fas fa-cogs','Tax Filing for Engineers','Tax Filing for Engineers in Pakistan 2026 — Complete FBR Guide','Engineers in Pakistan span multiple disciplines — civil, mechanical, electrical, software, and more. Whether you work for a multinational, a government department, or you freelance internationally, your tax obligations depend on your income type and employment structure. This guide covers everything for 2026.',engBody,engTOC,engR1,engR2,engR3,'Hi%20Kamboh%20Associates%2C%20engineer%20tax%20filing%20ke%20bare%20mein%20guide%20chahiye.','Tax Filing for Engineers in Pakistan 2026 — Complete FBR Guide');
-fs.writeFileSync('tax-filing-engineers-pakistan.html', engHtml);
-console.log('Engineers written:', fs.statSync('tax-filing-engineers-pakistan.html').size, 'bytes');
+fs.writeFileSync("C:/tmp/blog_entries.txt", blogEntries);
+fs.writeFileSync("C:/tmp/sitemap_entries.txt", sitemapEntries);
+console.log("Created: " + created + " files");
