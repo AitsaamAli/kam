@@ -6,7 +6,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Tax on Upwork Income in Pakistan 2026 — Complete Guide | Kamboh Associates</title>
 <meta name="description" content="How is Upwork income taxed in Pakistan? Complete guide on Upwork tax return filing, IT export exemption, WHT rates, deductions. By Kamboh Associates Lahore."/>
-<meta name="keywords" content="Upwork income tax Pakistan 2026, tax on Upwork earnings Pakistan, Upwork Pakistan tax return, Upwork freelancer tax FBR, Upwork income declare Pakistan, IT export tax Pakistan, Upwork Payoneer tax, tax consultant Lahore, Kamboh Associates"/>
+
+            param($m)
+            $existing = $m.Groups[2].Value
+            # Add core keywords if not already present
+            if ($existing -notmatch 'Kamboh Associates') {
+                "$($m.Groups[1].Value)$existing, $coreKeywords$($m.Groups[3].Value)"
+            } else {
+                $m.Value
+            }
+        />
 <meta name="geo.region" content="PK-PB"/>
 <meta name="geo.placename" content="Lahore, Punjab, Pakistan"/>
 <meta name="geo.position" content="31.4877;74.3042"/>
@@ -421,3 +430,4 @@ document.querySelectorAll('.reveal').forEach(function(el){const r=el.getBounding
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Kya Upwork income taxable hai Pakistan mein?","acceptedAnswer":{"@type":"Answer","text":"Haan. IT export income par significant exemptions available hain when received through designated Pakistani banking channels."}},{"@type":"Question","name":"Upwork income FBR mein kahan declare karein?","acceptedAnswer":{"@type":"Answer","text":"IRIS mein Business Income ya Income from Other Sources section mein. Net income declare karein after deducting Upwork fees and business expenses."}},{"@type":"Question","name":"Kya Upwork ki service fee deduct hoti hai?","acceptedAnswer":{"@type":"Answer","text":"Haan. Upwork ka 5-20% tiered service fee directly deductible business expense hai."}}]}</script>
 </body>
 </html>
+

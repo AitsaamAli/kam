@@ -5,7 +5,16 @@
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>GST Sales Tax Calculator Pakistan 2025 â€” Add/Remove Tax | Kamboh Associates</title>
-<meta name="keywords" content="GST calculator Pakistan, sales tax calculator Pakistan, FBR GST calculator 2026, Pakistan tax calculator online"/>
+
+            param($m)
+            $existing = $m.Groups[2].Value
+            # Add core keywords if not already present
+            if ($existing -notmatch 'Kamboh Associates') {
+                "$($m.Groups[1].Value)$existing, $coreKeywords$($m.Groups[3].Value)"
+            } else {
+                $m.Value
+            }
+        />
 <meta name="description" content="Free Pakistan GST & Sales Tax calculator 2025. Add tax to price or remove tax from total. Multiple tax rates â€” 18%, 17%, 16%, 13%. By Kamboh Associates."/>
 <link rel="canonical" href="https://kambohassociates.com/gst-calculator"/>
 <meta property="og:title" content="GST Sales Tax Calculator Pakistan 2025 â€” Add/Remove Tax | Kamboh Associates"/>
@@ -318,5 +327,6 @@ window.addEventListener('scroll',function(){var nb=document.getElementById('navb
 </script>
 </body>
 </html>
+
 
 

@@ -6,7 +6,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>How Salaried Persons Can File Tax Returns Online in Pakistan 2026 | Kamboh Associates</title>
 <meta name="description" content="Step-by-step guide for salaried persons to file income tax returns online in Pakistan 2026 via FBR IRIS portal. Complete guide by Kamboh Associates Lahore."/>
-<meta name="keywords" content="salaried person tax return Pakistan, salaried employee income tax return, how to file tax return salaried person Pakistan, FBR IRIS salaried return, salary tax return Pakistan, income tax return Pakistan, tax consultant Lahore, best tax consultant Pakistan, Kamboh Associates"/>
+
+            param($m)
+            $existing = $m.Groups[2].Value
+            # Add core keywords if not already present
+            if ($existing -notmatch 'Kamboh Associates') {
+                "$($m.Groups[1].Value)$existing, $coreKeywords$($m.Groups[3].Value)"
+            } else {
+                $m.Value
+            }
+        />
 <meta name="geo.region" content="PK-PB"/>
 <meta name="geo.placename" content="Lahore, Punjab, Pakistan"/>
 <meta name="geo.position" content="31.4877;74.3042"/>
@@ -552,4 +561,5 @@ document.querySelectorAll('.reveal').forEach(function(el){const r=el.getBounding
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Salaried person ko return file kyun karni chahiye?","acceptedAnswer":{"@type":"Answer","text":"ATL mein naam aane ke liye, property aur banking par filer rates pane ke liye, aur refund claim karne ke liye."}},{"@type":"Question","name":"Employer tax kata hai — kya alag tax bhi dena hoga?","acceptedAnswer":{"@type":"Answer","text":"Nahi. Agar employer ne sahi tax deduct kiya hai to additional tax nahi. Balke zyada deduct hua ho to refund milta hai."}},{"@type":"Question","name":"Salaried return file karne ke kitne din mein ATL active hota hai?","acceptedAnswer":{"@type":"Answer","text":"24-72 ghante mein naam ATL mein aa jata hai. SMS 9966 se verify karein."}}]}</script>
 </body>
 </html>
+
 

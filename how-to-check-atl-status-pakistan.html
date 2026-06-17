@@ -6,7 +6,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>How to Check ATL Status Online in Pakistan 2026 — FBR Active Taxpayer | Kamboh Associates</title>
 <meta name="description" content="3 easy ways to check ATL status online in Pakistan — SMS 9966, FBR portal, IRIS dashboard. Step-by-step guide by Kamboh Associates Lahore."/>
-<meta name="keywords" content="how to check ATL status Pakistan, ATL status check online, FBR ATL check, check active taxpayer status Pakistan, ATL 9966 SMS, atl.fbr.gov.pk, active taxpayer list check, NTN registration Lahore, tax consultant Lahore, best tax consultant Pakistan"/>
+
+            param($m)
+            $existing = $m.Groups[2].Value
+            # Add core keywords if not already present
+            if ($existing -notmatch 'Kamboh Associates') {
+                "$($m.Groups[1].Value)$existing, $coreKeywords$($m.Groups[3].Value)"
+            } else {
+                $m.Value
+            }
+        />
 <meta name="geo.region" content="PK-PB"/>
 <meta name="geo.placename" content="Lahore, Punjab, Pakistan"/>
 <meta name="geo.position" content="31.4877;74.3042"/>
@@ -496,4 +505,5 @@ document.querySelectorAll('.reveal').forEach(function(el){const r=el.getBounding
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"ATL check karna free hai?","acceptedAnswer":{"@type":"Answer","text":"Haan, bilkul free hai. SMS 9966 ya atl.fbr.gov.pk par check karein — koi charge nahi."}},{"@type":"Question","name":"Return file ke baad ATL update mein kitna time lagta hai?","acceptedAnswer":{"@type":"Answer","text":"Generally 24-72 ghante. ATL har Monday ko officially update hoti hai."}},{"@type":"Question","name":"Kya main kisi doosre ka ATL status check kar sakta hoon?","acceptedAnswer":{"@type":"Answer","text":"Haan. ATL publicly accessible hai. Kisi bhi CNIC ka status atl.fbr.gov.pk ya SMS 9966 se check kar sakte hain."}}]}</script>
 </body>
 </html>
+
 

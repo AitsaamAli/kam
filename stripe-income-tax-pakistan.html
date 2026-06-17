@@ -6,7 +6,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Stripe Income Tax Pakistan 2026 — How to Declare & File | Kamboh Associates</title>
 <meta name="description" content="Receiving payments via Stripe in Pakistan? Learn how to declare Stripe income on FBR IRIS, claim IT export exemption, and avoid tax notices. Complete 2026 guide by Kamboh Associates."/>
-<meta name="keywords" content="Stripe income tax Pakistan, Stripe FBR declaration Pakistan, Stripe Atlas tax Pakistan, Stripe Payoneer tax Pakistan, declare Stripe income IRIS, IT export exemption Stripe, Kamboh Associates"/>
+
+            param($m)
+            $existing = $m.Groups[2].Value
+            # Add core keywords if not already present
+            if ($existing -notmatch 'Kamboh Associates') {
+                "$($m.Groups[1].Value)$existing, $coreKeywords$($m.Groups[3].Value)"
+            } else {
+                $m.Value
+            }
+        />
 <meta name="geo.region" content="PK-PB"/><meta name="geo.placename" content="Lahore, Punjab, Pakistan"/>
 <meta property="og:locale" content="en_PK"/><meta property="og:title" content="Stripe Income Tax Pakistan 2026 | FBR Declaration Guide | Kamboh Associates"/><meta property="og:description" content="How to declare Stripe income on FBR IRIS, claim IT export exemption, avoid tax notices — complete 2026 guide."/><meta property="og:type" content="article"/><meta property="og:url" content="https://kambohassociates.com/stripe-income-tax-pakistan"/><meta property="og:image" content="https://kambohassociates.com/images/logo.jpg"/>
 <meta property="article:published_time" content="2026-06-10"/><meta property="article:author" content="Kamboh Associates"/>
@@ -227,3 +236,4 @@ document.querySelectorAll('.reveal').forEach(function(el){const r=el.getBounding
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is Stripe income taxable in Pakistan?","acceptedAnswer":{"@type":"Answer","text":"Haan, Stripe income taxable hai. Lekin IT/digital services income jo designated Pakistani bank ke zariye receive ki jaye, IT export exemption under significantly exempt ho sakti hai."}},{"@type":"Question","name":"How do I transfer Stripe money to Pakistani bank legally?","acceptedAnswer":{"@type":"Answer","text":"Stripe → Payoneer (US receiving account) → Pakistani bank. Ya Stripe Atlas US LLC → US bank → wire transfer to Pakistani bank."}},{"@type":"Question","name":"Does Stripe Atlas US LLC income need to be declared in Pakistan?","acceptedAnswer":{"@type":"Answer","text":"Haan. Pakistani tax resident ke tor par, US LLC profits Pakistan mein declare karne honge."}}]}</script>
 </body>
 </html>
+

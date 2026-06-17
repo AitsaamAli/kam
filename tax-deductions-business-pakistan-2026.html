@@ -6,7 +6,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Essential Tax Deductions for Businesses in Pakistan 2026 | Kamboh Associates</title>
 <meta name="description" content="Complete guide to tax deductions for businesses in Pakistan 2026. Salaries, rent, depreciation, marketing — legally reduce your FBR tax bill. Expert guide by Kamboh Associates Lahore."/>
-<meta name="keywords" content="tax deductions businesses Pakistan 2026, business tax deductions FBR, allowable deductions income tax Pakistan, reduce business tax Pakistan, depreciation deduction Pakistan, Kamboh Associates Lahore, business expenses tax Pakistan"/>
+
+            param($m)
+            $existing = $m.Groups[2].Value
+            # Add core keywords if not already present
+            if ($existing -notmatch 'Kamboh Associates') {
+                "$($m.Groups[1].Value)$existing, $coreKeywords$($m.Groups[3].Value)"
+            } else {
+                $m.Value
+            }
+        />
 <meta name="geo.region" content="PK-PB"/>
 <meta name="geo.placename" content="Lahore, Punjab, Pakistan"/>
 <meta name="geo.position" content="31.4877;74.3042"/>
@@ -519,3 +528,4 @@ document.querySelectorAll('.reveal').forEach(function(el){var r=el.getBoundingCl
 </script>
 </body>
 </html>
+

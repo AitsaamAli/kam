@@ -6,7 +6,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>YouTube Monetization Tax in Pakistan 2026 — Complete Guide | Kamboh Associates</title>
 <meta name="description" content="Is YouTube income taxable in Pakistan? Yes — but IT export exemptions apply. AdSense WHT, W-8BEN form, income declaration on FBR IRIS. Complete guide by Kamboh Associates Lahore."/>
-<meta name="keywords" content="YouTube monetization tax Pakistan, YouTube income tax Pakistan, AdSense tax Pakistan, YouTube creator tax return, YouTube earnings FBR Pakistan, Google AdSense WHT Pakistan, W-8BEN form Pakistan, digital creator tax Pakistan 2026, Kamboh Associates Lahore"/>
+
+            param($m)
+            $existing = $m.Groups[2].Value
+            # Add core keywords if not already present
+            if ($existing -notmatch 'Kamboh Associates') {
+                "$($m.Groups[1].Value)$existing, $coreKeywords$($m.Groups[3].Value)"
+            } else {
+                $m.Value
+            }
+        />
 <meta name="geo.region" content="PK-PB"/>
 <meta name="geo.placename" content="Lahore, Punjab, Pakistan"/>
 <meta name="geo.position" content="31.4877;74.3042"/>
@@ -464,3 +473,4 @@ document.querySelectorAll('.reveal').forEach(function(el){const r=el.getBounding
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Kya YouTube AdSense income Pakistan mein taxable hai?","acceptedAnswer":{"@type":"Answer","text":"Haan. Pakistan mein resident ki sari income taxable hai. Lekin W-8BEN form se US withholding avoid ki ja sakti hai, aur IT export exemption se Pakistan tax bhi reduce ho sakta hai."}},{"@type":"Question","name":"W-8BEN form kya hota hai?","acceptedAnswer":{"@type":"Answer","text":"W-8BEN Google/YouTube ko batata hai ke aap non-US entity hain. Pakistan-US treaty ke under 0% US WHT applicable hai — form submit kiye bina 24% US tax deduct hota hai."}},{"@type":"Question","name":"YouTube income FBR mein kaise declare karein?","acceptedAnswer":{"@type":"Answer","text":"IRIS mein Business Income section mein total AdSense + brand deals declare karein. Bank statement documentation ke tor par rakhein."}}]}</script>
 </body>
 </html>
+

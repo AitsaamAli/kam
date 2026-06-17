@@ -6,7 +6,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Shopify Seller Tax Guide Pakistan 2026 — Complete Compliance Guide | Kamboh Associates</title>
 <meta name="description" content="Complete Shopify seller tax guide for Pakistan 2026 — NTN registration, income declaration, payment gateway tax, deductions, FBR compliance. By Kamboh Associates Lahore."/>
-<meta name="keywords" content="Shopify seller tax Pakistan 2026, Shopify Pakistan tax return, Shopify income declare FBR, Shopify ecommerce tax Pakistan, Shopify Payoneer Stripe tax Pakistan, ecommerce compliance Pakistan, tax consultant Lahore, Kamboh Associates"/>
+
+            param($m)
+            $existing = $m.Groups[2].Value
+            # Add core keywords if not already present
+            if ($existing -notmatch 'Kamboh Associates') {
+                "$($m.Groups[1].Value)$existing, $coreKeywords$($m.Groups[3].Value)"
+            } else {
+                $m.Value
+            }
+        />
 <meta name="geo.region" content="PK-PB"/>
 <meta name="geo.placename" content="Lahore, Punjab, Pakistan"/>
 <meta name="geo.position" content="31.4877;74.3042"/>
@@ -419,3 +428,4 @@ document.querySelectorAll('.reveal').forEach(function(el){const r=el.getBounding
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Kya Shopify income Pakistan mein taxable hai?","acceptedAnswer":{"@type":"Answer","text":"Haan. Shopify se Pakistani bank mein aane wali income taxable hai. Digital products income par IT export exemption possible hai."}},{"@type":"Question","name":"Shopify subscription fee deductible hai?","acceptedAnswer":{"@type":"Answer","text":"Haan. Monthly Shopify subscription directly deductible business expense hai. Shopify billing PDF as documentation."}},{"@type":"Question","name":"Facebook ads ka spend deductible hai?","acceptedAnswer":{"@type":"Answer","text":"Haan. Facebook, Instagram, Google, TikTok advertising spend directly deductible business expense hai — with billing statements as proof."}}]}</script>
 </body>
 </html>
+

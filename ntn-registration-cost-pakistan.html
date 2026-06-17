@@ -6,7 +6,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>NTN Registration Cost in Pakistan 2026 — FBR Fee Guide | Kamboh Associates</title>
 <meta name="description" content="NTN registration on FBR IRIS is completely FREE. Consultant charges range from Rs. 1,500 to 8,000 depending on taxpayer type. Complete cost guide by Kamboh Associates Lahore."/>
-<meta name="keywords" content="NTN registration cost Pakistan 2026, NTN registration fee Pakistan, how much NTN registration Pakistan, FBR NTN charges, NTN registration consultant fee Lahore, National Tax Number fee Pakistan, tax registration cost Pakistan, Kamboh Associates"/>
+
+            param($m)
+            $existing = $m.Groups[2].Value
+            # Add core keywords if not already present
+            if ($existing -notmatch 'Kamboh Associates') {
+                "$($m.Groups[1].Value)$existing, $coreKeywords$($m.Groups[3].Value)"
+            } else {
+                $m.Value
+            }
+        />
 <meta name="geo.region" content="PK-PB"/>
 <meta name="geo.placename" content="Lahore, Punjab, Pakistan"/>
 <meta name="geo.position" content="31.4877;74.3042"/>
@@ -482,3 +491,4 @@ document.querySelectorAll('.reveal').forEach(function(el){const r=el.getBounding
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Kya NTN registration ke liye FBR koi fee leta hai?","acceptedAnswer":{"@type":"Answer","text":"Bilkul nahi. FBR IRIS portal par NTN registration completely free hai. Consultant fee alag hoti hai — government fee nahi."}},{"@type":"Question","name":"Individual NTN number kya hota hai?","acceptedAnswer":{"@type":"Answer","text":"Pakistan mein individual ka NTN usi ka CNIC number hota hai. Business NTN alag 7-digit number hota hai."}},{"@type":"Question","name":"NTN registration mein kitna time lagta hai?","acceptedAnswer":{"@type":"Answer","text":"Online registration same day — max 24 hours. Manual ya complex registration 3–7 working days."}}]}</script>
 </body>
 </html>
+

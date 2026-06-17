@@ -6,7 +6,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Tax Filing for Exporters in Pakistan 2026 â€” Complete FBR Guide | Kamboh Associates</title>
 <meta name="description" content="Complete income tax guide for exporters in Pakistan 2026. 1% final tax on exports, DTRE scheme, IT service 0.25% tax, and annual FBR IRIS filing."/>
-<meta name="keywords" content="tax filing for exporters Pakistan, exporter income tax Pakistan, 1% export tax Pakistan, DTRE scheme, IT export tax Pakistan"/>
+
+            param($m)
+            $existing = $m.Groups[2].Value
+            # Add core keywords if not already present
+            if ($existing -notmatch 'Kamboh Associates') {
+                "$($m.Groups[1].Value)$existing, $coreKeywords$($m.Groups[3].Value)"
+            } else {
+                $m.Value
+            }
+        />
 <meta name="geo.region" content="PK-PB"/>
 <meta name="geo.placename" content="Lahore, Punjab, Pakistan"/>
 <meta property="og:locale" content="en_PK"/>
@@ -327,3 +336,4 @@ window.addEventListener('scroll',function(){var nb=document.getElementById('navb
 </script>
 </body>
 </html>
+

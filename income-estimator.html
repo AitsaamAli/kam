@@ -5,7 +5,16 @@
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Income Tax Estimator Pakistan 2025 â€” Freelancer & Business | Kamboh Associates</title>
-<meta name="keywords" content="income estimator Pakistan, annual income calculator Pakistan, tax bracket estimator FBR, taxable income calculator Pakistan 2026"/>
+
+            param($m)
+            $existing = $m.Groups[2].Value
+            # Add core keywords if not already present
+            if ($existing -notmatch 'Kamboh Associates') {
+                "$($m.Groups[1].Value)$existing, $coreKeywords$($m.Groups[3].Value)"
+            } else {
+                $m.Value
+            }
+        />
 <meta name="description" content="Free income tax estimator for Pakistani freelancers, business owners, and salaried individuals. Estimate your FBR tax liability for 2025-26. By Kamboh Associates."/>
 <link rel="canonical" href="https://kambohassociates.com/income-estimator"/>
 <meta property="og:title" content="Income Tax Estimator Pakistan 2025 â€” Freelancer & Business | Kamboh Associates"/>
@@ -312,5 +321,6 @@ window.addEventListener('scroll',function(){var nb=document.getElementById('navb
 </script>
 </body>
 </html>
+
 
 

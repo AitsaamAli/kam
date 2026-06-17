@@ -6,7 +6,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Remote Worker Tax Guide Pakistan 2026 — FBR Rules for Remote Jobs | Kamboh Associates</title>
 <meta name="description" content="Working remotely for a foreign company from Pakistan? Learn FBR tax rules, salary declaration, IT export exemption, and compliance for remote workers in 2026. Complete guide."/>
-<meta name="keywords" content="remote worker tax Pakistan, remote job tax Pakistan, foreign company salary tax Pakistan, remote work FBR rules, work from home tax Pakistan 2026, IT export exemption remote worker, Kamboh Associates"/>
+
+            param($m)
+            $existing = $m.Groups[2].Value
+            # Add core keywords if not already present
+            if ($existing -notmatch 'Kamboh Associates') {
+                "$($m.Groups[1].Value)$existing, $coreKeywords$($m.Groups[3].Value)"
+            } else {
+                $m.Value
+            }
+        />
 <meta name="geo.region" content="PK-PB"/><meta name="geo.placename" content="Lahore, Punjab, Pakistan"/>
 <meta property="og:locale" content="en_PK"/><meta property="og:title" content="Remote Worker Tax Guide Pakistan 2026 | FBR Rules | Kamboh Associates"/><meta property="og:description" content="FBR tax rules for remote workers in Pakistan — salary declaration, IT export exemption, wealth statement. Complete 2026 guide."/><meta property="og:type" content="article"/><meta property="og:url" content="https://kambohassociates.com/remote-worker-tax-guide-pakistan"/><meta property="og:image" content="https://kambohassociates.com/images/logo.jpg"/>
 <meta property="article:published_time" content="2026-06-10"/><meta property="article:author" content="Kamboh Associates"/>
@@ -237,3 +246,4 @@ document.querySelectorAll('.reveal').forEach(function(el){const r=el.getBounding
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Do I need to pay tax if my employer is foreign and pays in USD?","acceptedAnswer":{"@type":"Answer","text":"Haan. Pakistani tax resident hone ke baad aapko worldwide income declare karni hoti hai. IT export exemption tax liability significantly reduce kar sakta hai."}},{"@type":"Question","name":"Does remote employment income qualify for IT export exemption?","acceptedAnswer":{"@type":"Answer","text":"Software developers, designers, DevOps, ML engineers working remotely for foreign companies generally qualify for IT export exemption when salary received in designated Pakistani bank."}},{"@type":"Question","name":"How do I convert USD salary to PKR for FBR?","acceptedAnswer":{"@type":"Answer","text":"Har mahine ki salary ko us din ke SBP exchange rate par convert karein. Bank statement usually PKR equivalent show karti hai."}}]}</script>
 </body>
 </html>
+

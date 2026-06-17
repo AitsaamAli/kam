@@ -6,7 +6,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Tax Filing for Architects in Pakistan 2026 â€” Complete FBR Guide | Kamboh Associates</title>
 <meta name="description" content="Complete income tax guide for architects in Pakistan 2026. Design fees, PCATP membership, studio expenses, 7.5% WHT, FBR IRIS tax filing."/>
-<meta name="keywords" content="tax filing for architects Pakistan, architect income tax Pakistan, PCATP tax Pakistan, design fee tax Pakistan, studio expense deduction"/>
+
+            param($m)
+            $existing = $m.Groups[2].Value
+            # Add core keywords if not already present
+            if ($existing -notmatch 'Kamboh Associates') {
+                "$($m.Groups[1].Value)$existing, $coreKeywords$($m.Groups[3].Value)"
+            } else {
+                $m.Value
+            }
+        />
 <meta name="geo.region" content="PK-PB"/>
 <meta name="geo.placename" content="Lahore, Punjab, Pakistan"/>
 <meta property="og:locale" content="en_PK"/>
@@ -327,3 +336,4 @@ window.addEventListener('scroll',function(){var nb=document.getElementById('navb
 </script>
 </body>
 </html>
+

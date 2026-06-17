@@ -6,7 +6,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Amazon Seller Tax Filing Checklist Pakistan 2026 — Complete Guide | Kamboh Associates</title>
 <meta name="description" content="Complete tax guide for Amazon sellers in Pakistan 2026 — NTN, income declaration, sales tax, deductions, and FBR compliance checklist. By Kamboh Associates Lahore."/>
-<meta name="keywords" content="Amazon seller tax Pakistan 2026, Amazon Pakistan tax return, Amazon FBA tax Pakistan, Amazon seller NTN Pakistan, Amazon Pakistan FBR, ecommerce tax Pakistan, Amazon income declare FBR, tax consultant Lahore, Kamboh Associates"/>
+
+            param($m)
+            $existing = $m.Groups[2].Value
+            # Add core keywords if not already present
+            if ($existing -notmatch 'Kamboh Associates') {
+                "$($m.Groups[1].Value)$existing, $coreKeywords$($m.Groups[3].Value)"
+            } else {
+                $m.Value
+            }
+        />
 <meta name="geo.region" content="PK-PB"/>
 <meta name="geo.placename" content="Lahore, Punjab, Pakistan"/>
 <meta name="geo.position" content="31.4877;74.3042"/>
@@ -414,3 +423,4 @@ document.querySelectorAll('.reveal').forEach(function(el){const r=el.getBounding
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Kya Amazon income Pakistan mein taxable hai?","acceptedAnswer":{"@type":"Answer","text":"Haan. Amazon se Pakistani bank mein aane wali income taxable hai. Income declare karna zaroori aur faydemand hai."}},{"@type":"Question","name":"Amazon seller ko Pakistan mein sales tax registration chahiye?","acceptedAnswer":{"@type":"Answer","text":"Most cases mein nahi for international selling. Local threshold cross hone par sales tax zaroori hoti hai."}},{"@type":"Question","name":"Amazon PPC advertising expense deductible hai?","acceptedAnswer":{"@type":"Answer","text":"Haan. Amazon advertising spend directly deductible business expense hai — documented from Amazon Seller Central billing."}}]}</script>
 </body>
 </html>
+

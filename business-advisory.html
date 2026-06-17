@@ -9,7 +9,16 @@
 <meta name="geo.placename" content="Lahore, Punjab, Pakistan"/>
 <meta name="geo.position" content="31.4877;74.3042"/>
 <meta name="ICBM" content="31.4877, 74.3042"/>
-<meta name="keywords" content="business advisory Pakistan, tax planning Pakistan, business structure advice, SECP guidance Pakistan, Kamboh Associates Lahore"/>
+
+            param($m)
+            $existing = $m.Groups[2].Value
+            # Add core keywords if not already present
+            if ($existing -notmatch 'Kamboh Associates') {
+                "$($m.Groups[1].Value)$existing, $coreKeywords$($m.Groups[3].Value)"
+            } else {
+                $m.Value
+            }
+        />
 <meta name="description" content="Expert business advisory: tax planning, compliance strategy, business structure optimization, SECP guidance. For startups, SMEs, growing companies."/>
 <link rel="canonical" href="https://kambohassociates.com/business-advisory"/>
 <meta property="og:title" content="Business Advisory & Tax Planning Pakistan | Kamboh Associates"/>
@@ -327,5 +336,6 @@ window.addEventListener('scroll',function(){var nb=document.getElementById('navb
 </script>
 </body>
 </html>
+
 
 

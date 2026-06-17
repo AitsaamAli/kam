@@ -6,7 +6,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Common Reasons NTN Applications Get Rejected in Pakistan 2026 — How to Fix | Kamboh Associates</title>
 <meta name="description" content="NTN application rejected? 8 most common rejection reasons for FBR NTN applications in Pakistan and how to fix them. Guide by Kamboh Associates Lahore."/>
-<meta name="keywords" content="NTN application rejected Pakistan, NTN rejection reasons FBR, why NTN rejected Pakistan, NTN application fix Pakistan, FBR NTN error Pakistan, NTN registration problem Pakistan 2026, tax consultant Lahore, Kamboh Associates"/>
+
+            param($m)
+            $existing = $m.Groups[2].Value
+            # Add core keywords if not already present
+            if ($existing -notmatch 'Kamboh Associates') {
+                "$($m.Groups[1].Value)$existing, $coreKeywords$($m.Groups[3].Value)"
+            } else {
+                $m.Value
+            }
+        />
 <meta name="geo.region" content="PK-PB"/>
 <meta name="geo.placename" content="Lahore, Punjab, Pakistan"/>
 <meta name="geo.position" content="31.4877;74.3042"/>
@@ -503,4 +512,5 @@ document.querySelectorAll('.reveal').forEach(function(el){const r=el.getBounding
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"NTN rejection ke baad dobara apply kar sakte hain?","acceptedAnswer":{"@type":"Answer","text":"Haan. Issue fix karein aur fresh application submit karein. Rejection permanent block nahi hai."}},{"@type":"Question","name":"Sab se zyada common NTN rejection reason kya hai?","acceptedAnswer":{"@type":"Answer","text":"Mobile number ka CNIC se register na hona sabse common reason hai. Biometric verification se fix hota hai."}},{"@type":"Question","name":"Duplicate NTN issue kaise resolve hota hai?","acceptedAnswer":{"@type":"Answer","text":"atl.fbr.gov.pk par CNIC check karein — existing NTN hai to FBR helpline se credentials recover karein."}}]}</script>
 </body>
 </html>
+
 

@@ -6,7 +6,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>How Freelancers Become Active Filers in Pakistan 2026 — Complete Tax Guide | Kamboh Associates</title>
 <meta name="description" content="Complete guide for Pakistani freelancers to become active filers in 2026. NTN registration, income declaration, IT export exemption, ATL status — by Kamboh Associates Lahore."/>
-<meta name="keywords" content="freelancer filer Pakistan 2026, how freelancer become filer Pakistan, freelancer income tax Pakistan, Fiverr Upwork tax Pakistan, freelancer NTN registration Pakistan, IT export tax exemption Pakistan, tax consultant Lahore, Kamboh Associates"/>
+
+            param($m)
+            $existing = $m.Groups[2].Value
+            # Add core keywords if not already present
+            if ($existing -notmatch 'Kamboh Associates') {
+                "$($m.Groups[1].Value)$existing, $coreKeywords$($m.Groups[3].Value)"
+            } else {
+                $m.Value
+            }
+        />
 <meta name="geo.region" content="PK-PB"/>
 <meta name="geo.placename" content="Lahore, Punjab, Pakistan"/>
 <meta name="geo.position" content="31.4877;74.3042"/>
@@ -507,4 +516,5 @@ document.querySelectorAll('.reveal').forEach(function(el){const r=el.getBounding
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Kya freelancer income taxable hai Pakistan mein?","acceptedAnswer":{"@type":"Answer","text":"Haan, freelance income taxable hai. Lekin IT export income par significant exemptions available hain when remitted through designated Pakistani banks."}},{"@type":"Question","name":"Freelancer NTN ke liye business registration zaroor hai?","acceptedAnswer":{"@type":"Answer","text":"Nahi. Freelancers ke liye sirf Individual NTN kafi hota hai — koi alag business registration ki zaroorat nahi."}},{"@type":"Question","name":"Payoneer se income declare karni hoti hai?","acceptedAnswer":{"@type":"Answer","text":"Haan. Payoneer ka pura amount jo Pakistani bank account mein transfer hota hai woh declare karna hota hai."}}]}</script>
 </body>
 </html>
+
 

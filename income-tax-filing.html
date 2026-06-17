@@ -9,7 +9,16 @@
 <meta name="geo.placename" content="Lahore, Punjab, Pakistan"/>
 <meta name="geo.position" content="31.4877;74.3042"/>
 <meta name="ICBM" content="31.4877, 74.3042"/>
-<meta name="keywords" content="income tax filing Pakistan, FBR tax return Pakistan, income tax consultant Lahore, tax filing service Pakistan 2026, Kamboh Associates"/>
+
+            param($m)
+            $existing = $m.Groups[2].Value
+            # Add core keywords if not already present
+            if ($existing -notmatch 'Kamboh Associates') {
+                "$($m.Groups[1].Value)$existing, $coreKeywords$($m.Groups[3].Value)"
+            } else {
+                $m.Value
+            }
+        />
 <meta name="description" content="Expert income tax filing service. Same-day filing from PKR 2,500. FBR certified. Salaried, freelance, business, rental income. Lahore tax consultant."/>
 <link rel="canonical" href="https://kambohassociates.com/income-tax-filing"/>
 <meta property="og:title" content="Income Tax Filing Service Pakistan — FBR Certified | Kamboh Associates"/>
@@ -365,5 +374,6 @@ window.addEventListener('scroll',function(){var nb=document.getElementById('navb
 </script>
 </body>
 </html>
+
 
 

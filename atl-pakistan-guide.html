@@ -6,7 +6,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Complete Guide to ATL Pakistan 2026 — FBR Active Taxpayer List | Kamboh Associates</title>
 <meta name="description" content="Complete guide to FBR Active Taxpayer List (ATL) Pakistan 2026. Learn benefits, how to get on ATL, surcharge, and maintain active status — Kamboh Associates Lahore."/>
-<meta name="keywords" content="ATL Pakistan, Active Taxpayer List Pakistan, FBR ATL 2026, ATL benefits Pakistan, ATL surcharge Pakistan, active taxpayer list FBR, NTN registration Lahore, income tax return Pakistan, tax consultant Lahore, best tax consultant Pakistan, Kamboh Associates"/>
+
+            param($m)
+            $existing = $m.Groups[2].Value
+            # Add core keywords if not already present
+            if ($existing -notmatch 'Kamboh Associates') {
+                "$($m.Groups[1].Value)$existing, $coreKeywords$($m.Groups[3].Value)"
+            } else {
+                $m.Value
+            }
+        />
 <meta name="geo.region" content="PK-PB"/>
 <meta name="geo.placename" content="Lahore, Punjab, Pakistan"/>
 <meta name="geo.position" content="31.4877;74.3042"/>
@@ -532,4 +541,5 @@ document.querySelectorAll('.reveal').forEach(function(el){const r=el.getBounding
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Kya sirf NTN lene se ATL mein naam aa jata hai?","acceptedAnswer":{"@type":"Answer","text":"Nahi. ATL mein naam aane ke liye income tax return file karna zaroori hai. Sirf NTN se aap non-filer hain."}},{"@type":"Question","name":"ATL mein naam kab aata hai return file karne ke baad?","acceptedAnswer":{"@type":"Answer","text":"Return file karne ke 24-72 ghante mein naam aa jata hai. ATL har Monday ko update hoti hai."}},{"@type":"Question","name":"ATL surcharge kab lagti hai?","acceptedAnswer":{"@type":"Answer","text":"September 30 deadline miss karne par ATL surcharge lagti hai. Individual Rs.1,000, AOP Rs.10,000, Company Rs.20,000. Last date 1 March."}}]}</script>
 </body>
 </html>
+
 

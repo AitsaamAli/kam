@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en" data-theme="light">
 <head>
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large"/>
@@ -6,7 +6,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Tax Consultant in Shadman Lahore 2026 | Kamboh Associates</title>
 <meta name="description" content="Expert tax consultant in Shadman Lahore. NTN registration, income tax filing, FBR compliance, wealth statement. Remote service for Shadman Colony residents."/>
-<meta name="keywords" content="tax consultant Shadman Lahore, NTN registration Shadman, income tax Shadman Lahore, FBR consultant Shadman, tax filing Shadman Colony"/>
+
+            param($m)
+            $existing = $m.Groups[2].Value
+            # Add core keywords if not already present
+            if ($existing -notmatch 'Kamboh Associates') {
+                "$($m.Groups[1].Value)$existing, $coreKeywords$($m.Groups[3].Value)"
+            } else {
+                $m.Value
+            }
+        />
 <meta name="geo.region" content="PK-PB"/>
 <meta name="geo.placename" content="Shadman, Lahore"/>
 <meta property="og:locale" content="en_PK"/>
@@ -313,3 +322,4 @@ document.querySelectorAll('.reveal').forEach(function(el){var r=el.getBoundingCl
 </script>
 </body>
 </html>
+

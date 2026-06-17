@@ -6,7 +6,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Tax on Fiverr Income in Pakistan 2026 — Complete Guide | Kamboh Associates</title>
 <meta name="description" content="Is Fiverr income taxable in Pakistan? Yes — but IT export exemptions apply. Complete guide on Fiverr tax return filing, WHT rates, deductions by Kamboh Associates Lahore."/>
-<meta name="keywords" content="Fiverr income tax Pakistan 2026, tax on Fiverr earnings Pakistan, Fiverr Pakistan tax, Fiverr freelancer tax return Pakistan, Fiverr income declare FBR, IT export tax Pakistan, Fiverr Payoneer tax, tax consultant Lahore, Kamboh Associates"/>
+
+            param($m)
+            $existing = $m.Groups[2].Value
+            # Add core keywords if not already present
+            if ($existing -notmatch 'Kamboh Associates') {
+                "$($m.Groups[1].Value)$existing, $coreKeywords$($m.Groups[3].Value)"
+            } else {
+                $m.Value
+            }
+        />
 <meta name="geo.region" content="PK-PB"/>
 <meta name="geo.placename" content="Lahore, Punjab, Pakistan"/>
 <meta name="geo.position" content="31.4877;74.3042"/>
@@ -421,3 +430,4 @@ document.querySelectorAll('.reveal').forEach(function(el){const r=el.getBounding
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Kya Fiverr income Pakistan mein taxable hai?","acceptedAnswer":{"@type":"Answer","text":"Haan. Lekin IT export income par significant exemptions available hain when remitted through designated Pakistani banks."}},{"@type":"Question","name":"Fiverr Payoneer withdrawal par WHT kitna hai?","acceptedAnswer":{"@type":"Answer","text":"Filer: 1%, Non-filer: 2% withholding tax on foreign remittance transfers to Pakistani bank."}},{"@type":"Question","name":"Kya Fiverr commission expense deduct hoti hai?","acceptedAnswer":{"@type":"Answer","text":"Haan. Fiverr ka 20% service fee directly deductible business expense hai."}}]}</script>
 </body>
 </html>
+

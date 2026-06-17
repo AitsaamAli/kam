@@ -6,7 +6,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>New Regulatory Compliance Requirements for Businesses in Pakistan 2026 | Kamboh Associates</title>
 <meta name="description" content="Complete guide to new regulatory compliance requirements in Pakistan 2026 — FBR, SECP, SECP filing deadlines, WHT changes. Stay compliant with Kamboh Associates Lahore."/>
-<meta name="keywords" content="regulatory compliance Pakistan 2026, SECP compliance requirements, FBR compliance 2026, super tax Pakistan, WHT statement Pakistan, SECP annual return, FBR POS integration"/>
+
+            param($m)
+            $existing = $m.Groups[2].Value
+            # Add core keywords if not already present
+            if ($existing -notmatch 'Kamboh Associates') {
+                "$($m.Groups[1].Value)$existing, $coreKeywords$($m.Groups[3].Value)"
+            } else {
+                $m.Value
+            }
+        />
 <meta name="geo.region" content="PK-PB"/>
 <meta name="geo.placename" content="Lahore, Punjab, Pakistan"/>
 <meta name="geo.position" content="31.4877;74.3042"/>
@@ -529,3 +538,4 @@ document.querySelectorAll('.reveal').forEach(function(el){var r=el.getBoundingCl
 </script>
 </body>
 </html>
+

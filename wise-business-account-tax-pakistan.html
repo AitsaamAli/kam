@@ -6,7 +6,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Wise Business Account Tax Guide Pakistan 2026 | FBR Declaration | Kamboh Associates</title>
 <meta name="description" content="Using Wise Business in Pakistan? How to declare Wise transfers to FBR, claim IT export exemption, maintain records. Complete 2026 tax guide by Kamboh Associates Lahore."/>
-<meta name="keywords" content="Wise business account tax Pakistan, Wise FBR declaration Pakistan, TransferWise income tax Pakistan, Wise IT export exemption Pakistan, declare Wise income IRIS, Kamboh Associates"/>
+
+            param($m)
+            $existing = $m.Groups[2].Value
+            # Add core keywords if not already present
+            if ($existing -notmatch 'Kamboh Associates') {
+                "$($m.Groups[1].Value)$existing, $coreKeywords$($m.Groups[3].Value)"
+            } else {
+                $m.Value
+            }
+        />
 <meta name="geo.region" content="PK-PB"/><meta name="geo.placename" content="Lahore, Punjab, Pakistan"/>
 <meta property="og:locale" content="en_PK"/><meta property="og:title" content="Wise Business Account Tax Guide Pakistan 2026 | Kamboh Associates"/><meta property="og:description" content="How to declare Wise transfers to FBR, claim IT export exemption, maintain records — complete 2026 guide."/><meta property="og:type" content="article"/><meta property="og:url" content="https://kambohassociates.com/wise-business-account-tax-pakistan"/><meta property="og:image" content="https://kambohassociates.com/images/logo.jpg"/>
 <meta property="article:published_time" content="2026-06-10"/><meta property="article:author" content="Kamboh Associates"/>
@@ -225,3 +234,4 @@ document.querySelectorAll('.reveal').forEach(function(el){const r=el.getBounding
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is Wise a designated banking channel in Pakistan?","acceptedAnswer":{"@type":"Answer","text":"Wise se Pakistani bank mein transfer kiya gaya paise designated banking channel se guzarta hai — IT export exemption ke liye eligible. Sirf Wise balance mein rakhna sufficient nahi."}},{"@type":"Question","name":"Does IT export exemption apply to Wise income?","acceptedAnswer":{"@type":"Answer","text":"Haan, agar income IT/digital services se hai aur Wise se Pakistani bank mein transfer ki jaye, IT export exemption applicable hai."}},{"@type":"Question","name":"How do I get a Wise annual statement for FBR?","acceptedAnswer":{"@type":"Answer","text":"Wise app: Account → Statements → select account → choose July 1 to June 30 date range → download PDF."}}]}</script>
 </body>
 </html>
+

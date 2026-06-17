@@ -6,7 +6,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Digital Agency Compliance Pakistan — FBR Tax, SECP & Registration Guide 2026 | Kamboh Associates</title>
 <meta name="description" content="Complete digital agency compliance guide Pakistan 2026 — FBR tax registration, SECP company setup, sales tax, IT export exemption, invoicing rules. Expert guide by Kamboh Associates."/>
-<meta name="keywords" content="digital agency tax Pakistan, digital marketing agency compliance Pakistan, SECP digital agency, FBR digital agency registration, IT export exemption digital agency, Kamboh Associates"/>
+
+            param($m)
+            $existing = $m.Groups[2].Value
+            # Add core keywords if not already present
+            if ($existing -notmatch 'Kamboh Associates') {
+                "$($m.Groups[1].Value)$existing, $coreKeywords$($m.Groups[3].Value)"
+            } else {
+                $m.Value
+            }
+        />
 <meta name="geo.region" content="PK-PB"/><meta name="geo.placename" content="Lahore, Punjab, Pakistan"/>
 <meta property="og:locale" content="en_PK"/><meta property="og:title" content="Digital Agency Compliance Pakistan — FBR, SECP & Tax Guide 2026 | Kamboh Associates"/><meta property="og:description" content="FBR tax, SECP registration, IT export exemption, invoicing rules for digital agencies in Pakistan. Complete 2026 compliance guide."/><meta property="og:type" content="article"/><meta property="og:url" content="https://kambohassociates.com/digital-agency-compliance-pakistan"/><meta property="og:image" content="https://kambohassociates.com/images/logo.jpg"/>
 <meta name="twitter:card" content="summary_large_image"/>
@@ -218,3 +227,4 @@ document.querySelectorAll('.reveal').forEach(function(el){const r=el.getBounding
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Does a digital agency need SECP registration in Pakistan?","acceptedAnswer":{"@type":"Answer","text":"Small agencies sole proprietorship kaafi hai. SECP Private Limited tab fayda deta hai jab large corporate clients chahte hain company hona, ya investment chahiye."}},{"@type":"Question","name":"Can a digital agency claim IT export exemption in Pakistan?","acceptedAnswer":{"@type":"Answer","text":"Haan — SEO, web design, social media, content, Google Ads sab IT-enabled services hain jo IT export exemption qualify karti hain. Payment designated banking channel se aani chahiye."}}]}</script>
 </body>
 </html>
+

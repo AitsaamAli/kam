@@ -6,7 +6,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>AI Business Taxation in Pakistan 2026 — FBR Tax Guide | Kamboh Associates</title>
 <meta name="description" content="Running an AI business in Pakistan? Learn FBR tax rules, NTN registration, IT export exemptions, and compliance for AI startups and agencies. Complete 2026 guide by Kamboh Associates."/>
-<meta name="keywords" content="AI business tax Pakistan, artificial intelligence company tax Pakistan, AI agency FBR registration, IT export exemption AI Pakistan, AI startup tax 2026, chatbot business tax Pakistan, Kamboh Associates"/>
+
+            param($m)
+            $existing = $m.Groups[2].Value
+            # Add core keywords if not already present
+            if ($existing -notmatch 'Kamboh Associates') {
+                "$($m.Groups[1].Value)$existing, $coreKeywords$($m.Groups[3].Value)"
+            } else {
+                $m.Value
+            }
+        />
 <meta name="geo.region" content="PK-PB"/><meta name="geo.placename" content="Lahore, Punjab, Pakistan"/><meta name="geo.position" content="31.4877;74.3042"/><meta name="ICBM" content="31.4877, 74.3042"/>
 <meta property="og:locale" content="en_PK"/>
 <meta property="og:title" content="AI Business Taxation Pakistan 2026 — FBR Guide | Kamboh Associates"/>
@@ -125,7 +134,7 @@ footer{background:var(--topbar-bg);border-top:1px solid rgba(255,255,255,.06);pa
 </section>
 
 <div class="container">
-  <div class="blog-layout">
+total   <div class="blog-layout">
     <article>
       <div class="article-body reveal">
         <p class="article-lead">AI businesses in Pakistan — chatbot agencies, AI SaaS tools, machine learning consultancies, and automation service providers — are a rapidly growing sector. FBR treats AI services income as IT/software services, making them eligible for significant tax benefits under SRO 1125. But proper registration and compliance is essential to claim these benefits and avoid notices.</p>
@@ -255,3 +264,4 @@ document.querySelectorAll('.reveal').forEach(function(el){const r=el.getBounding
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is AI consulting income taxable in Pakistan?","acceptedAnswer":{"@type":"Answer","text":"Haan, AI consulting income taxable hai. Lekin foreign clients se income, jab designated Pakistani bank ke zariye receive ki jaye, IT export exemption ke under significantly exempt ho sakti hai."}},{"@type":"Question","name":"Do AI agencies qualify for IT export tax exemption?","acceptedAnswer":{"@type":"Answer","text":"Haan, AI agencies SRO 1125(I)/2023 ke under IT export exemption ke liye eligible hain kyunke AI services IT/software services ki category mein aati hain."}},{"@type":"Question","name":"Should I register as sole proprietor or company for an AI business?","acceptedAnswer":{"@type":"Answer","text":"Solo AI consultants ke liye Individual NTN kafi hai. Employees hire karne ya investors lene ke liye Pvt Ltd company zyada suitable hai."}}]}</script>
 </body>
 </html>
+
