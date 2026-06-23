@@ -208,9 +208,19 @@ footer{background:var(--navy);border-top:1px solid rgba(255,255,255,.06);padding
 .footer-bottom-links a:hover{color:var(--teal)}
 
 @media(max-width:900px){.nav-links,.nav-phone{display:none}.hamburger{display:flex}}
-@media(max-width:768px){.contact-layout{grid-template-columns:1fr}.form-row{grid-template-columns:1fr}}
-@media(max-width:640px){.page-hero{padding:56px 0 44px}.section{padding:56px 0}.quick-strip .container{gap:16px}.chips-grid{grid-template-columns:1fr 1fr}.cta-btns{flex-direction:column;align-items:center}.footer-simple{flex-direction:column}}
-@media(max-width:420px){.chips-grid{grid-template-columns:1fr}}
+@media(max-width:768px){
+  .contact-layout{grid-template-columns:1fr}
+  .form-row{grid-template-columns:1fr}
+  .quick-strip .container{display:grid;grid-template-columns:1fr 1fr;gap:14px;padding:0 16px}
+  .quick-item{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:10px;padding:12px 14px}
+  .quick-value{font-size:.82rem}
+  .quick-value a{word-break:break-all}
+  .page-hero p{font-size:.92rem}
+  .hero-tags{gap:7px}
+  .hero-tag{font-size:.72rem;padding:5px 12px}
+}
+@media(max-width:640px){.page-hero{padding:56px 0 44px}.section{padding:56px 0}.chips-grid{grid-template-columns:1fr 1fr}.cta-btns{flex-direction:column;align-items:center}.footer-simple{flex-direction:column}}
+@media(max-width:420px){.chips-grid{grid-template-columns:1fr}.quick-strip .container{grid-template-columns:1fr}}
 </style>
 <link rel="stylesheet" href="/mobile-fixes.css">
 </head>
