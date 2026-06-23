@@ -5,149 +5,705 @@
     {
       "source": "/(.*)",
       "headers": [
-        { "key": "Cache-Control", "value": "no-cache, no-store, must-revalidate" },
-        { "key": "Pragma", "value": "no-cache" },
-        { "key": "Expires", "value": "0" }
+        {
+          "key": "Cache-Control",
+          "value": "no-cache, no-store, must-revalidate"
+        },
+        {
+          "key": "Pragma",
+          "value": "no-cache"
+        },
+        {
+          "key": "Expires",
+          "value": "0"
+        }
       ]
     },
     {
       "source": "/images/(.*)",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
       ]
     }
   ],
   "redirects": [
-    { "source": "/index.html", "destination": "/", "permanent": true },
-    { "source": "/blogs.html", "destination": "/blogs", "permanent": true },
-    { "source": "/income-tax-return-pakistan.html", "destination": "/income-tax-return-pakistan", "permanent": true },
-    { "source": "/fbr-ntn-registration-guide.html", "destination": "/fbr-ntn-registration-guide", "permanent": true },
-    { "source": "/filer-vs-nonfiler-pakistan.html", "destination": "/filer-vs-nonfiler-pakistan", "permanent": true },
-    { "source": "/how-to-become-active-taxpayer-pakistan.html", "destination": "/how-to-become-active-taxpayer-pakistan", "permanent": true },
-    { "source": "/atl-pakistan-guide.html", "destination": "/atl-pakistan-guide", "permanent": true },
-    { "source": "/how-to-check-atl-status-pakistan.html", "destination": "/how-to-check-atl-status-pakistan", "permanent": true },
-    { "source": "/income-tax-return-mistakes-pakistan.html", "destination": "/income-tax-return-mistakes-pakistan", "permanent": true },
-    { "source": "/documents-income-tax-return-pakistan.html", "destination": "/documents-income-tax-return-pakistan", "permanent": true },
-    { "source": "/salaried-person-tax-return-pakistan.html", "destination": "/salaried-person-tax-return-pakistan", "permanent": true },
-    { "source": "/income-tax-return-filing-cost-pakistan.html", "destination": "/income-tax-return-filing-cost-pakistan", "permanent": true },
-    { "source": "/ntn-registration-cost-pakistan.html", "destination": "/ntn-registration-cost-pakistan", "permanent": true },
-    { "source": "/ntn-registration-time-pakistan.html", "destination": "/ntn-registration-time-pakistan", "permanent": true },
-    { "source": "/ntn-application-rejection-reasons-pakistan.html", "destination": "/ntn-application-rejection-reasons-pakistan", "permanent": true },
-    { "source": "/freelancer-filer-pakistan.html", "destination": "/freelancer-filer-pakistan", "permanent": true },
-    { "source": "/fiverr-income-tax-pakistan.html", "destination": "/fiverr-income-tax-pakistan", "permanent": true },
-    { "source": "/upwork-income-tax-pakistan.html", "destination": "/upwork-income-tax-pakistan", "permanent": true },
-    { "source": "/payoneer-tax-pakistan.html", "destination": "/payoneer-tax-pakistan", "permanent": true },
-    { "source": "/amazon-seller-tax-pakistan.html", "destination": "/amazon-seller-tax-pakistan", "permanent": true },
-    { "source": "/shopify-seller-tax-pakistan.html", "destination": "/shopify-seller-tax-pakistan", "permanent": true },
-    { "source": "/youtube-monetization-tax-pakistan.html", "destination": "/youtube-monetization-tax-pakistan", "permanent": true },
-    { "source": "/tiktok-creator-tax-pakistan.html", "destination": "/tiktok-creator-tax-pakistan", "permanent": true },
-    { "source": "/digital-marketing-agency-tax-pakistan.html", "destination": "/digital-marketing-agency-tax-pakistan", "permanent": true },
-    { "source": "/software-house-tax-pakistan.html", "destination": "/software-house-tax-pakistan", "permanent": true },
-    { "source": "/secp-vs-sole-proprietorship-pakistan.html", "destination": "/secp-vs-sole-proprietorship-pakistan", "permanent": true },
-    { "source": "/tax-calculator.html", "destination": "/tax-calculator", "permanent": true },
-    { "source": "/salary-calculator.html", "destination": "/salary-calculator", "permanent": true },
-    { "source": "/gst-calculator.html", "destination": "/gst-calculator", "permanent": true },
-    { "source": "/income-estimator.html", "destination": "/income-estimator", "permanent": true },
-    { "source": "/income-tax-filing.html", "destination": "/income-tax-filing", "permanent": true },
-    { "source": "/ntn-registration.html", "destination": "/ntn-registration", "permanent": true },
-    { "source": "/sales-tax-registration.html", "destination": "/sales-tax-registration", "permanent": true },
-    { "source": "/business-advisory.html", "destination": "/business-advisory", "permanent": true },
-    { "source": "/best-business-structure-pakistan.html", "destination": "/best-business-structure-pakistan", "permanent": true },
-    { "source": "/startup-registration-pakistan.html", "destination": "/startup-registration-pakistan", "permanent": true },
-    { "source": "/online-business-registration-pakistan.html", "destination": "/online-business-registration-pakistan", "permanent": true },
-    { "source": "/fbr-registration-new-business-pakistan.html", "destination": "/fbr-registration-new-business-pakistan", "permanent": true },
-    { "source": "/wealth-statement-mistakes-pakistan.html", "destination": "/wealth-statement-mistakes-pakistan", "permanent": true },
-    { "source": "/tax-deductions-business-pakistan-2026.html", "destination": "/tax-deductions-business-pakistan-2026", "permanent": true },
-    { "source": "/regulatory-compliance-requirements-2026.html", "destination": "/regulatory-compliance-requirements-2026", "permanent": true },
-    { "source": "/secp-company-registration-guide-2026.html", "destination": "/secp-company-registration-guide-2026", "permanent": true },
-    { "source": "/tax-filing-doctors-pakistan.html", "destination": "/tax-filing-doctors-pakistan", "permanent": true },
-    { "source": "/tax-filing-lawyers-pakistan.html", "destination": "/tax-filing-lawyers-pakistan", "permanent": true },
-    { "source": "/tax-filing-consultants-pakistan.html", "destination": "/tax-filing-consultants-pakistan", "permanent": true },
-    { "source": "/tax-filing-engineers-pakistan.html", "destination": "/tax-filing-engineers-pakistan", "permanent": true },
-    { "source": "/tax-filing-architects-pakistan.html", "destination": "/tax-filing-architects-pakistan", "permanent": true },
-    { "source": "/tax-filing-traders-pakistan.html", "destination": "/tax-filing-traders-pakistan", "permanent": true },
-    { "source": "/tax-filing-exporters-pakistan.html", "destination": "/tax-filing-exporters-pakistan", "permanent": true },
-    { "source": "/tax-filing-importers-pakistan.html", "destination": "/tax-filing-importers-pakistan", "permanent": true },
-    { "source": "/tax-benefits-filer-pakistan.html", "destination": "/tax-benefits-filer-pakistan", "permanent": true },
-    { "source": "/tax-audit-preparation-checklist-pakistan.html", "destination": "/tax-audit-preparation-checklist-pakistan", "permanent": true },
-    { "source": "/rental-income-tax-calculator-pakistan.html", "destination": "/rental-income-tax-calculator-pakistan", "permanent": true },
-    { "source": "/tax-on-commercial-property-pakistan.html", "destination": "/tax-on-commercial-property-pakistan", "permanent": true },
-    { "source": "/tax-on-agricultural-income-pakistan.html", "destination": "/tax-on-agricultural-income-pakistan", "permanent": true },
-    { "source": "/fbr-notice-after-tax-return-pakistan.html", "destination": "/fbr-notice-after-tax-return-pakistan", "permanent": true },
-    { "source": "/how-to-respond-to-tax-notices-pakistan.html", "destination": "/how-to-respond-to-tax-notices-pakistan", "permanent": true },
-    { "source": "/tax-penalties-in-pakistan.html", "destination": "/tax-penalties-in-pakistan", "permanent": true },
-    { "source": "/tax-audit-preparation-checklist.html", "destination": "/tax-audit-preparation-checklist", "permanent": true },
-    { "source": "/pra-registration-guide-pakistan.html", "destination": "/pra-registration-guide-pakistan", "permanent": true },
-    { "source": "/srb-registration-guide-pakistan.html", "destination": "/srb-registration-guide-pakistan", "permanent": true },
-    { "source": "/kpra-registration-guide-pakistan.html", "destination": "/kpra-registration-guide-pakistan", "permanent": true },
-    { "source": "/eobi-registration-guide-pakistan.html", "destination": "/eobi-registration-guide-pakistan", "permanent": true },
-    { "source": "/social-security-registration-pakistan.html", "destination": "/social-security-registration-pakistan", "permanent": true },
-    { "source": "/business-compliance-checklist-pakistan.html", "destination": "/business-compliance-checklist-pakistan", "permanent": true },
-    { "source": "/annual-company-filing-guide-pakistan.html", "destination": "/annual-company-filing-guide-pakistan", "permanent": true },
-    { "source": "/trademark-registration-cost-pakistan.html", "destination": "/trademark-registration-cost-pakistan", "permanent": true },
-    { "source": "/brand-name-registration-guide-pakistan.html", "destination": "/brand-name-registration-guide-pakistan", "permanent": true },
-    { "source": "/logo-registration-process-pakistan.html", "destination": "/logo-registration-process-pakistan", "permanent": true },
-    { "source": "/tax-consultant-johar-town-lahore.html", "destination": "/tax-consultant-johar-town-lahore", "permanent": true },
-    { "source": "/ntn-registration-gulberg-lahore.html", "destination": "/ntn-registration-gulberg-lahore", "permanent": true },
-    { "source": "/income-tax-consultant-dha-lahore.html", "destination": "/income-tax-consultant-dha-lahore", "permanent": true },
-    { "source": "/tax-filing-bahria-town-lahore.html", "destination": "/tax-filing-bahria-town-lahore", "permanent": true },
-    { "source": "/fbr-consultant-near-me-lahore.html", "destination": "/fbr-consultant-near-me-lahore", "permanent": true },
-    { "source": "/company-registration-consultant-lahore.html", "destination": "/company-registration-consultant-lahore", "permanent": true },
-    { "source": "/gst-registration-lahore.html", "destination": "/gst-registration-lahore", "permanent": true },
-    { "source": "/corporate-tax-consultant-lahore.html", "destination": "/corporate-tax-consultant-lahore", "permanent": true },
-    { "source": "/wealth-statement-consultant-lahore.html", "destination": "/wealth-statement-consultant-lahore", "permanent": true },
-    { "source": "/atl-registration-lahore.html", "destination": "/atl-registration-lahore", "permanent": true },
-    { "source": "/tax-consultant-model-town-lahore.html", "destination": "/tax-consultant-model-town-lahore", "permanent": true },
-    { "source": "/tax-consultant-garden-town-lahore.html", "destination": "/tax-consultant-garden-town-lahore", "permanent": true },
-    { "source": "/tax-consultant-wapda-town-lahore.html", "destination": "/tax-consultant-wapda-town-lahore", "permanent": true },
-    { "source": "/tax-consultant-faisal-town-lahore.html", "destination": "/tax-consultant-faisal-town-lahore", "permanent": true },
-    { "source": "/tax-consultant-lahore-cantt.html", "destination": "/tax-consultant-lahore-cantt", "permanent": true },
-    { "source": "/tax-consultant-allama-iqbal-town-lahore.html", "destination": "/tax-consultant-allama-iqbal-town-lahore", "permanent": true },
-    { "source": "/tax-consultant-township-lahore.html", "destination": "/tax-consultant-township-lahore", "permanent": true },
-    { "source": "/income-tax-return-filing-lahore.html", "destination": "/income-tax-return-filing-lahore", "permanent": true },
-    { "source": "/ntn-registration-lahore.html", "destination": "/ntn-registration-lahore", "permanent": true },
-    { "source": "/sales-tax-consultant-lahore.html", "destination": "/sales-tax-consultant-lahore", "permanent": true },
-    { "source": "/blogs/rental-income-tax-calculator-pakistan", "destination": "/rental-income-tax-calculator-pakistan", "permanent": true },
-    { "source": "/blogs/tax-on-commercial-property-pakistan", "destination": "/tax-on-commercial-property-pakistan", "permanent": true },
-    { "source": "/blogs/tax-on-agricultural-income-pakistan", "destination": "/tax-on-agricultural-income-pakistan", "permanent": true },
-    { "source": "/blogs/fbr-notice-after-tax-return-pakistan", "destination": "/fbr-notice-after-tax-return-pakistan", "permanent": true },
-    { "source": "/blogs/how-to-respond-to-tax-notices-pakistan", "destination": "/how-to-respond-to-tax-notices-pakistan", "permanent": true },
-    { "source": "/blogs/tax-penalties-in-pakistan", "destination": "/tax-penalties-in-pakistan", "permanent": true },
-    { "source": "/blogs/tax-audit-preparation-checklist", "destination": "/tax-audit-preparation-checklist", "permanent": true },
-    { "source": "/blogs/pra-registration-guide-pakistan", "destination": "/pra-registration-guide-pakistan", "permanent": true },
-    { "source": "/blogs/srb-registration-guide-pakistan", "destination": "/srb-registration-guide-pakistan", "permanent": true },
-    { "source": "/blogs/kpra-registration-guide-pakistan", "destination": "/kpra-registration-guide-pakistan", "permanent": true },
-    { "source": "/blogs/eobi-registration-guide-pakistan", "destination": "/eobi-registration-guide-pakistan", "permanent": true },
-    { "source": "/blogs/social-security-registration-pakistan", "destination": "/social-security-registration-pakistan", "permanent": true },
-    { "source": "/blogs/business-compliance-checklist-pakistan", "destination": "/business-compliance-checklist-pakistan", "permanent": true },
-    { "source": "/blogs/annual-company-filing-guide-pakistan", "destination": "/annual-company-filing-guide-pakistan", "permanent": true },
-    { "source": "/blogs/trademark-registration-cost-pakistan", "destination": "/trademark-registration-cost-pakistan", "permanent": true },
-    { "source": "/blogs/brand-name-registration-guide-pakistan", "destination": "/brand-name-registration-guide-pakistan", "permanent": true },
-    { "source": "/blogs/logo-registration-process-pakistan", "destination": "/logo-registration-process-pakistan", "permanent": true },
-    { "source": "/blogs/tax-consultant-johar-town-lahore", "destination": "/tax-consultant-johar-town-lahore", "permanent": true },
-    { "source": "/blogs/ntn-registration-gulberg-lahore", "destination": "/ntn-registration-gulberg-lahore", "permanent": true },
-    { "source": "/blogs/income-tax-consultant-dha-lahore", "destination": "/income-tax-consultant-dha-lahore", "permanent": true },
-    { "source": "/blogs/tax-filing-bahria-town-lahore", "destination": "/tax-filing-bahria-town-lahore", "permanent": true },
-    { "source": "/blogs/fbr-consultant-near-me-lahore", "destination": "/fbr-consultant-near-me-lahore", "permanent": true },
-    { "source": "/blogs/company-registration-consultant-lahore", "destination": "/company-registration-consultant-lahore", "permanent": true },
-    { "source": "/blogs/gst-registration-lahore", "destination": "/gst-registration-lahore", "permanent": true },
-    { "source": "/blogs/corporate-tax-consultant-lahore", "destination": "/corporate-tax-consultant-lahore", "permanent": true },
-    { "source": "/blogs/wealth-statement-consultant-lahore", "destination": "/wealth-statement-consultant-lahore", "permanent": true },
-    { "source": "/blogs/atl-registration-lahore", "destination": "/atl-registration-lahore", "permanent": true },
-    { "source": "/blogs/tax-consultant-model-town-lahore", "destination": "/tax-consultant-model-town-lahore", "permanent": true },
-    { "source": "/blogs/tax-consultant-garden-town-lahore", "destination": "/tax-consultant-garden-town-lahore", "permanent": true },
-    { "source": "/blogs/tax-consultant-wapda-town-lahore", "destination": "/tax-consultant-wapda-town-lahore", "permanent": true },
-    { "source": "/blogs/tax-consultant-faisal-town-lahore", "destination": "/tax-consultant-faisal-town-lahore", "permanent": true },
-    { "source": "/blogs/tax-consultant-lahore-cantt", "destination": "/tax-consultant-lahore-cantt", "permanent": true },
-    { "source": "/blogs/tax-consultant-allama-iqbal-town-lahore", "destination": "/tax-consultant-allama-iqbal-town-lahore", "permanent": true },
-    { "source": "/blogs/tax-consultant-township-lahore", "destination": "/tax-consultant-township-lahore", "permanent": true },
-    { "source": "/blogs/income-tax-return-filing-lahore", "destination": "/income-tax-return-filing-lahore", "permanent": true },
-    { "source": "/blogs/ntn-registration-lahore", "destination": "/ntn-registration-lahore", "permanent": true },
-    { "source": "/blogs/sales-tax-consultant-lahore", "destination": "/sales-tax-consultant-lahore", "permanent": true },
-    { "source": "/tax-consultant-samanabad-lahore.html", "destination": "/tax-consultant-samanabad-lahore", "permanent": true },
-    { "source": "/tax-consultant-shadman-lahore.html", "destination": "/tax-consultant-shadman-lahore", "permanent": true },
-    { "source": "/tax-consultant-cavalry-ground-lahore.html", "destination": "/tax-consultant-cavalry-ground-lahore", "permanent": true },
-    { "source": "/tax-consultant-gulshan-ravi-lahore.html", "destination": "/tax-consultant-gulshan-ravi-lahore", "permanent": true },
-    { "source": "/tax-audit-consultant-lahore.html", "destination": "/tax-audit-consultant-lahore", "permanent": true }
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/blogs.html",
+      "destination": "/blogs",
+      "permanent": true
+    },
+    {
+      "source": "/income-tax-return-pakistan.html",
+      "destination": "/income-tax-return-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/fbr-ntn-registration-guide.html",
+      "destination": "/fbr-ntn-registration-guide",
+      "permanent": true
+    },
+    {
+      "source": "/filer-vs-nonfiler-pakistan.html",
+      "destination": "/filer-vs-nonfiler-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-become-active-taxpayer-pakistan.html",
+      "destination": "/how-to-become-active-taxpayer-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/atl-pakistan-guide.html",
+      "destination": "/atl-pakistan-guide",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-check-atl-status-pakistan.html",
+      "destination": "/how-to-check-atl-status-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/income-tax-return-mistakes-pakistan.html",
+      "destination": "/income-tax-return-mistakes-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/documents-income-tax-return-pakistan.html",
+      "destination": "/documents-income-tax-return-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/salaried-person-tax-return-pakistan.html",
+      "destination": "/salaried-person-tax-return-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/income-tax-return-filing-cost-pakistan.html",
+      "destination": "/income-tax-return-filing-cost-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/ntn-registration-cost-pakistan.html",
+      "destination": "/ntn-registration-cost-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/ntn-registration-time-pakistan.html",
+      "destination": "/ntn-registration-time-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/ntn-application-rejection-reasons-pakistan.html",
+      "destination": "/ntn-application-rejection-reasons-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/freelancer-filer-pakistan.html",
+      "destination": "/freelancer-filer-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/fiverr-income-tax-pakistan.html",
+      "destination": "/fiverr-income-tax-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/upwork-income-tax-pakistan.html",
+      "destination": "/upwork-income-tax-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/payoneer-tax-pakistan.html",
+      "destination": "/payoneer-tax-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/amazon-seller-tax-pakistan.html",
+      "destination": "/amazon-seller-tax-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/shopify-seller-tax-pakistan.html",
+      "destination": "/shopify-seller-tax-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/youtube-monetization-tax-pakistan.html",
+      "destination": "/youtube-monetization-tax-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/tiktok-creator-tax-pakistan.html",
+      "destination": "/tiktok-creator-tax-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/digital-marketing-agency-tax-pakistan.html",
+      "destination": "/digital-marketing-agency-tax-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/software-house-tax-pakistan.html",
+      "destination": "/software-house-tax-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/secp-vs-sole-proprietorship-pakistan.html",
+      "destination": "/secp-vs-sole-proprietorship-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/tax-calculator.html",
+      "destination": "/tax-calculator",
+      "permanent": true
+    },
+    {
+      "source": "/salary-calculator.html",
+      "destination": "/salary-calculator",
+      "permanent": true
+    },
+    {
+      "source": "/gst-calculator.html",
+      "destination": "/gst-calculator",
+      "permanent": true
+    },
+    {
+      "source": "/income-estimator.html",
+      "destination": "/income-estimator",
+      "permanent": true
+    },
+    {
+      "source": "/income-tax-filing.html",
+      "destination": "/income-tax-filing",
+      "permanent": true
+    },
+    {
+      "source": "/ntn-registration.html",
+      "destination": "/ntn-registration",
+      "permanent": true
+    },
+    {
+      "source": "/sales-tax-registration.html",
+      "destination": "/sales-tax-registration",
+      "permanent": true
+    },
+    {
+      "source": "/business-advisory.html",
+      "destination": "/business-advisory",
+      "permanent": true
+    },
+    {
+      "source": "/best-business-structure-pakistan.html",
+      "destination": "/best-business-structure-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/startup-registration-pakistan.html",
+      "destination": "/startup-registration-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/online-business-registration-pakistan.html",
+      "destination": "/online-business-registration-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/fbr-registration-new-business-pakistan.html",
+      "destination": "/fbr-registration-new-business-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/wealth-statement-mistakes-pakistan.html",
+      "destination": "/wealth-statement-mistakes-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/tax-deductions-business-pakistan-2026.html",
+      "destination": "/tax-deductions-business-pakistan-2026",
+      "permanent": true
+    },
+    {
+      "source": "/regulatory-compliance-requirements-2026.html",
+      "destination": "/regulatory-compliance-requirements-2026",
+      "permanent": true
+    },
+    {
+      "source": "/secp-company-registration-guide-2026.html",
+      "destination": "/secp-company-registration-guide-2026",
+      "permanent": true
+    },
+    {
+      "source": "/tax-filing-doctors-pakistan.html",
+      "destination": "/tax-filing-doctors-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/tax-filing-lawyers-pakistan.html",
+      "destination": "/tax-filing-lawyers-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/tax-filing-consultants-pakistan.html",
+      "destination": "/tax-filing-consultants-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/tax-filing-engineers-pakistan.html",
+      "destination": "/tax-filing-engineers-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/tax-filing-architects-pakistan.html",
+      "destination": "/tax-filing-architects-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/tax-filing-traders-pakistan.html",
+      "destination": "/tax-filing-traders-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/tax-filing-exporters-pakistan.html",
+      "destination": "/tax-filing-exporters-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/tax-filing-importers-pakistan.html",
+      "destination": "/tax-filing-importers-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/tax-benefits-filer-pakistan.html",
+      "destination": "/tax-benefits-filer-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/tax-audit-preparation-checklist-pakistan.html",
+      "destination": "/tax-audit-preparation-checklist-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/rental-income-tax-calculator-pakistan.html",
+      "destination": "/rental-income-tax-calculator-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/tax-on-commercial-property-pakistan.html",
+      "destination": "/tax-on-commercial-property-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/tax-on-agricultural-income-pakistan.html",
+      "destination": "/tax-on-agricultural-income-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/fbr-notice-after-tax-return-pakistan.html",
+      "destination": "/fbr-notice-after-tax-return-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-respond-to-tax-notices-pakistan.html",
+      "destination": "/how-to-respond-to-tax-notices-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/tax-penalties-in-pakistan.html",
+      "destination": "/tax-penalties-in-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/tax-audit-preparation-checklist.html",
+      "destination": "/tax-audit-preparation-checklist",
+      "permanent": true
+    },
+    {
+      "source": "/pra-registration-guide-pakistan.html",
+      "destination": "/pra-registration-guide-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/srb-registration-guide-pakistan.html",
+      "destination": "/srb-registration-guide-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/kpra-registration-guide-pakistan.html",
+      "destination": "/kpra-registration-guide-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/eobi-registration-guide-pakistan.html",
+      "destination": "/eobi-registration-guide-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/social-security-registration-pakistan.html",
+      "destination": "/social-security-registration-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/business-compliance-checklist-pakistan.html",
+      "destination": "/business-compliance-checklist-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/annual-company-filing-guide-pakistan.html",
+      "destination": "/annual-company-filing-guide-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/trademark-registration-cost-pakistan.html",
+      "destination": "/trademark-registration-cost-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/brand-name-registration-guide-pakistan.html",
+      "destination": "/brand-name-registration-guide-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/logo-registration-process-pakistan.html",
+      "destination": "/logo-registration-process-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/tax-consultant-johar-town-lahore.html",
+      "destination": "/tax-consultant-johar-town-lahore",
+      "permanent": true
+    },
+    {
+      "source": "/ntn-registration-gulberg-lahore.html",
+      "destination": "/ntn-registration-gulberg-lahore",
+      "permanent": true
+    },
+    {
+      "source": "/income-tax-consultant-dha-lahore.html",
+      "destination": "/income-tax-consultant-dha-lahore",
+      "permanent": true
+    },
+    {
+      "source": "/tax-filing-bahria-town-lahore.html",
+      "destination": "/tax-filing-bahria-town-lahore",
+      "permanent": true
+    },
+    {
+      "source": "/fbr-consultant-near-me-lahore.html",
+      "destination": "/fbr-consultant-near-me-lahore",
+      "permanent": true
+    },
+    {
+      "source": "/company-registration-consultant-lahore.html",
+      "destination": "/company-registration-consultant-lahore",
+      "permanent": true
+    },
+    {
+      "source": "/gst-registration-lahore.html",
+      "destination": "/gst-registration-lahore",
+      "permanent": true
+    },
+    {
+      "source": "/corporate-tax-consultant-lahore.html",
+      "destination": "/corporate-tax-consultant-lahore",
+      "permanent": true
+    },
+    {
+      "source": "/wealth-statement-consultant-lahore.html",
+      "destination": "/wealth-statement-consultant-lahore",
+      "permanent": true
+    },
+    {
+      "source": "/atl-registration-lahore.html",
+      "destination": "/atl-registration-lahore",
+      "permanent": true
+    },
+    {
+      "source": "/tax-consultant-model-town-lahore.html",
+      "destination": "/tax-consultant-model-town-lahore",
+      "permanent": true
+    },
+    {
+      "source": "/tax-consultant-garden-town-lahore.html",
+      "destination": "/tax-consultant-garden-town-lahore",
+      "permanent": true
+    },
+    {
+      "source": "/tax-consultant-wapda-town-lahore.html",
+      "destination": "/tax-consultant-wapda-town-lahore",
+      "permanent": true
+    },
+    {
+      "source": "/tax-consultant-faisal-town-lahore.html",
+      "destination": "/tax-consultant-faisal-town-lahore",
+      "permanent": true
+    },
+    {
+      "source": "/tax-consultant-lahore-cantt.html",
+      "destination": "/tax-consultant-lahore-cantt",
+      "permanent": true
+    },
+    {
+      "source": "/tax-consultant-allama-iqbal-town-lahore.html",
+      "destination": "/tax-consultant-allama-iqbal-town-lahore",
+      "permanent": true
+    },
+    {
+      "source": "/tax-consultant-township-lahore.html",
+      "destination": "/tax-consultant-township-lahore",
+      "permanent": true
+    },
+    {
+      "source": "/income-tax-return-filing-lahore.html",
+      "destination": "/income-tax-return-filing-lahore",
+      "permanent": true
+    },
+    {
+      "source": "/ntn-registration-lahore.html",
+      "destination": "/ntn-registration-lahore",
+      "permanent": true
+    },
+    {
+      "source": "/sales-tax-consultant-lahore.html",
+      "destination": "/sales-tax-consultant-lahore",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/rental-income-tax-calculator-pakistan",
+      "destination": "/rental-income-tax-calculator-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/tax-on-commercial-property-pakistan",
+      "destination": "/tax-on-commercial-property-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/tax-on-agricultural-income-pakistan",
+      "destination": "/tax-on-agricultural-income-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/fbr-notice-after-tax-return-pakistan",
+      "destination": "/fbr-notice-after-tax-return-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/how-to-respond-to-tax-notices-pakistan",
+      "destination": "/how-to-respond-to-tax-notices-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/tax-penalties-in-pakistan",
+      "destination": "/tax-penalties-in-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/tax-audit-preparation-checklist",
+      "destination": "/tax-audit-preparation-checklist",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/pra-registration-guide-pakistan",
+      "destination": "/pra-registration-guide-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/srb-registration-guide-pakistan",
+      "destination": "/srb-registration-guide-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/kpra-registration-guide-pakistan",
+      "destination": "/kpra-registration-guide-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/eobi-registration-guide-pakistan",
+      "destination": "/eobi-registration-guide-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/social-security-registration-pakistan",
+      "destination": "/social-security-registration-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/business-compliance-checklist-pakistan",
+      "destination": "/business-compliance-checklist-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/annual-company-filing-guide-pakistan",
+      "destination": "/annual-company-filing-guide-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/trademark-registration-cost-pakistan",
+      "destination": "/trademark-registration-cost-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/brand-name-registration-guide-pakistan",
+      "destination": "/brand-name-registration-guide-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/logo-registration-process-pakistan",
+      "destination": "/logo-registration-process-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/tax-consultant-johar-town-lahore",
+      "destination": "/tax-consultant-johar-town-lahore",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/ntn-registration-gulberg-lahore",
+      "destination": "/ntn-registration-gulberg-lahore",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/income-tax-consultant-dha-lahore",
+      "destination": "/income-tax-consultant-dha-lahore",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/tax-filing-bahria-town-lahore",
+      "destination": "/tax-filing-bahria-town-lahore",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/fbr-consultant-near-me-lahore",
+      "destination": "/fbr-consultant-near-me-lahore",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/company-registration-consultant-lahore",
+      "destination": "/company-registration-consultant-lahore",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/gst-registration-lahore",
+      "destination": "/gst-registration-lahore",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/corporate-tax-consultant-lahore",
+      "destination": "/corporate-tax-consultant-lahore",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/wealth-statement-consultant-lahore",
+      "destination": "/wealth-statement-consultant-lahore",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/atl-registration-lahore",
+      "destination": "/atl-registration-lahore",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/tax-consultant-model-town-lahore",
+      "destination": "/tax-consultant-model-town-lahore",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/tax-consultant-garden-town-lahore",
+      "destination": "/tax-consultant-garden-town-lahore",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/tax-consultant-wapda-town-lahore",
+      "destination": "/tax-consultant-wapda-town-lahore",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/tax-consultant-faisal-town-lahore",
+      "destination": "/tax-consultant-faisal-town-lahore",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/tax-consultant-lahore-cantt",
+      "destination": "/tax-consultant-lahore-cantt",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/tax-consultant-allama-iqbal-town-lahore",
+      "destination": "/tax-consultant-allama-iqbal-town-lahore",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/tax-consultant-township-lahore",
+      "destination": "/tax-consultant-township-lahore",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/income-tax-return-filing-lahore",
+      "destination": "/income-tax-return-filing-lahore",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/ntn-registration-lahore",
+      "destination": "/ntn-registration-lahore",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/sales-tax-consultant-lahore",
+      "destination": "/sales-tax-consultant-lahore",
+      "permanent": true
+    },
+    {
+      "source": "/tax-consultant-samanabad-lahore.html",
+      "destination": "/tax-consultant-samanabad-lahore",
+      "permanent": true
+    },
+    {
+      "source": "/tax-consultant-shadman-lahore.html",
+      "destination": "/tax-consultant-shadman-lahore",
+      "permanent": true
+    },
+    {
+      "source": "/tax-consultant-cavalry-ground-lahore.html",
+      "destination": "/tax-consultant-cavalry-ground-lahore",
+      "permanent": true
+    },
+    {
+      "source": "/tax-consultant-gulshan-ravi-lahore.html",
+      "destination": "/tax-consultant-gulshan-ravi-lahore",
+      "permanent": true
+    },
+    {
+      "source": "/tax-audit-consultant-lahore.html",
+      "destination": "/tax-audit-consultant-lahore",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/how-to-check-atl-status-pakistan",
+      "destination": "/how-to-check-atl-status-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/tax-consultant-cavalry-ground-lahore",
+      "destination": "/tax-consultant-cavalry-ground-lahore",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/tax-consultant-gulshan-ravi-lahore",
+      "destination": "/tax-consultant-gulshan-ravi-lahore",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/tax-consultant-shadman-lahore",
+      "destination": "/tax-consultant-shadman-lahore",
+      "permanent": true
+    }
   ]
 }

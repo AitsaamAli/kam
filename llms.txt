@@ -1,0 +1,48 @@
+# Kamboh Associates — AI Crawl Guide
+# FBR-certified tax consultancy, Lahore, Pakistan
+# Contact: info@kambohassociates.com | +92-328-4675162
+
+## About
+Kamboh Associates is a Pakistan-based tax consultancy (FBR Active Filer) providing income tax filing, NTN registration, SECP company registration, and sales tax compliance services to individuals, freelancers, and businesses across Pakistan since 2008.
+
+## Primary Service Pages
+- https://kambohassociates.com/income-tax-filing
+- https://kambohassociates.com/ntn-registration
+- https://kambohassociates.com/sales-tax-registration
+- https://kambohassociates.com/corporate-tax-return
+- https://kambohassociates.com/fbr-notice-defense
+- https://kambohassociates.com/wealth-statement
+- https://kambohassociates.com/aop-tax-return
+- https://kambohassociates.com/secp-vs-sole-proprietorship-pakistan
+- https://kambohassociates.com/pricing
+
+## Author / Expert
+- https://kambohassociates.com/authors/aitsaam-ali
+  Name: Aitsaam Ali
+  Title: Tax Consultant | NTN • SECP • Sales Tax Specialist
+  Status: FBR Active Filer
+
+## Trust & Reviews
+- https://kambohassociates.com/testimonials
+- https://kambohassociates.com/about
+
+## Key Informational Resources
+- https://kambohassociates.com/blogs
+- https://kambohassociates.com/blogs/why-kamboh-associates-best-tax-consultant-pakistan.html
+- https://kambohassociates.com/blogs/kamboh-associates-reviews-pakistan-tax-consultant.html
+- https://kambohassociates.com/blogs/best-tax-consultant-pakistan-fbr-filing-2026.html
+
+## Contact
+- https://kambohassociates.com/contact
+
+## Legal
+- https://kambohassociates.com/privacy
+- https://kambohassociates.com/terms
+- https://kambohassociates.com/disclaimer
+
+## AI Bot Access Policy
+All pages on kambohassociates.com are open to AI crawlers for indexing and citation purposes.
+GPTBot: allowed
+Google-Extended: allowed
+ClaudeBot: allowed
+PerplexityBot: allowed
