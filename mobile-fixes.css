@@ -1,0 +1,220 @@
+/* ═══════════════════════════════════════════════════════════════
+   KAMBOH ASSOCIATES — GLOBAL MOBILE FIXES
+   Applied to ALL pages via <link> injection
+   Overrides: overflow, nav, WA button, blog layout, service pages
+═══════════════════════════════════════════════════════════════ */
+
+/* ── 1. PREVENT HORIZONTAL SCROLL ON ALL PAGES ───────────────── */
+html, body {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+* { box-sizing: border-box }
+img, video, iframe, table { max-width: 100% }
+
+/* ── 2. NAVBAR — ALL PAGES ───────────────────────────────────── */
+@media (max-width: 768px) {
+  .navbar .container { height: 60px; padding: 0 16px }
+  .logo-name { font-size: .82rem }
+  .logo-sub { display: none }
+  .nav-links, .nav-phone, .nav-cta { display: none !important }
+  .hamburger { display: flex !important }
+
+  /* Logo SVG smaller on mobile */
+  .logo svg { width: 36px; height: 36px }
+}
+
+/* ── 3. MOBILE NAV DROPDOWN — ALL PAGES ─────────────────────── */
+@media (max-width: 768px) {
+  .mobile-nav {
+    position: fixed;
+    top: 60px;
+    left: 0; right: 0;
+    z-index: 9999;
+    background: #fff;
+    border-bottom: 3px solid #14B8A6;
+    box-shadow: 0 12px 40px rgba(0,0,0,.18);
+    max-height: calc(100vh - 60px);
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .mobile-nav a {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    border-bottom: 1px solid #F1F5F9;
+    font-size: .92rem;
+    font-weight: 500;
+    color: #1E293B;
+    min-height: 52px;
+    text-decoration: none;
+  }
+  .mobile-nav a:active { background: #F0FDFA; color: #14B8A6 }
+}
+
+/* ── 4. WHATSAPP FLOATING BUTTON — BLOG/SERVICE PAGES ───────── */
+@media (max-width: 767px) {
+  /* Hide floating WA button — mobile bottom bar is better */
+  .wa-btn, a.wa-btn { display: none !important }
+  .back-top { bottom: 90px !important; right: 16px !important }
+}
+
+/* ── 5. MOBILE STICKY BOTTOM CTA BAR (blog/service pages) ────── */
+.mobile-bottom-bar {
+  display: none;
+  position: fixed;
+  bottom: 0; left: 0; right: 0;
+  z-index: 1000;
+  background: #fff;
+  border-top: 2px solid #14B8A6;
+  padding: 10px 16px;
+  padding-bottom: max(12px, env(safe-area-inset-bottom));
+  gap: 10px;
+  box-shadow: 0 -4px 20px rgba(0,0,0,.15);
+}
+@media (max-width: 767px) {
+  .mobile-bottom-bar { display: flex }
+  body { padding-bottom: 76px }
+}
+.mobile-bottom-bar a {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  padding: 13px 8px;
+  border-radius: 10px;
+  font-size: .88rem;
+  font-weight: 700;
+  text-decoration: none;
+  min-height: 48px;
+  transition: opacity .15s;
+}
+.mobile-bottom-bar a:active { opacity: .75 }
+.mobile-bottom-bar .mb-call { background: #0F172A; color: #fff !important }
+.mobile-bottom-bar .mb-wa   { background: #25D366; color: #fff !important }
+
+/* ── 6. BLOG PAGES — ARTICLE LAYOUT ────────────────────────── */
+@media (max-width: 768px) {
+  .blog-layout {
+    grid-template-columns: 1fr !important;
+    gap: 28px !important;
+    padding: 32px 0 60px !important;
+  }
+  .article-body {
+    padding: 22px 18px !important;
+    border-radius: 12px !important;
+  }
+  .sidebar {
+    position: static !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 16px !important;
+  }
+  .article-cta {
+    padding: 24px 18px !important;
+  }
+  .article-cta .cta-btns {
+    flex-direction: column !important;
+    align-items: stretch !important;
+  }
+  .article-cta .cta-btns a {
+    justify-content: center !important;
+  }
+  .article-body h2 { font-size: 1.35rem !important }
+  .blog-post-hero h1 { font-size: 1.7rem !important; line-height: 1.2 !important }
+  .blog-post-hero { padding: 36px 0 28px !important }
+  .article-lead { font-size: 1.05rem !important }
+  /* Tables: scroll on mobile */
+  .data-table, .compare-table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch }
+  /* Info grid */
+  .info-grid, .trust-grid, .rating-summary { grid-template-columns: 1fr 1fr !important }
+}
+@media (max-width: 480px) {
+  .blog-post-hero h1 { font-size: 1.45rem !important }
+  .article-body { padding: 18px 14px !important }
+  .article-body h2 { font-size: 1.2rem !important }
+  .info-grid, .trust-grid { grid-template-columns: 1fr 1fr !important }
+  .sidebar-card { padding: 16px !important }
+  .consult-card { padding: 20px 16px !important }
+}
+
+/* ── 7. BLOG LIST PAGE (blogs.html) ─────────────────────────── */
+@media (max-width: 768px) {
+  .blogs-layout {
+    grid-template-columns: 1fr !important;
+  }
+  .blogs-sidebar {
+    display: none !important; /* hidden on mobile — filter bar replaces */
+  }
+  .filter-bar .container {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 8px;
+    flex-wrap: nowrap !important;
+    gap: 6px;
+  }
+  .filter-btn {
+    flex-shrink: 0;
+    font-size: .75rem !important;
+    padding: 5px 12px !important;
+  }
+  .posts-grid {
+    grid-template-columns: 1fr !important;
+    gap: 16px !important;
+  }
+}
+
+/* ── 8. SERVICE PAGES — GENERAL ─────────────────────────────── */
+@media (max-width: 768px) {
+  .service-layout, .page-layout {
+    grid-template-columns: 1fr !important;
+  }
+  .page-sidebar { display: none !important }
+  .hero-section, .page-hero { padding: 48px 0 32px !important }
+  .hero-section h1, .page-hero h1 { font-size: 1.8rem !important }
+}
+
+/* ── 9. TESTIMONIALS PAGE ─────────────────────────────────────── */
+@media (max-width: 768px) {
+  .reviews-grid, .review-grid {
+    grid-template-columns: 1fr !important;
+    gap: 16px !important;
+  }
+  .review-card, .review-card.featured {
+    padding: 20px 16px !important;
+  }
+  .highlight-band .container {
+    flex-direction: column !important;
+    gap: 12px !important;
+    text-align: center !important;
+  }
+}
+
+/* ── 10. CONTAINER PADDING ─────────────────────────────────────── */
+@media (max-width: 480px) {
+  .container { padding: 0 14px !important }
+}
+
+/* ── 11. TOPBAR — hide on mobile ──────────────────────────────── */
+@media (max-width: 768px) {
+  .topbar { display: none }
+}
+
+/* ── 12. GENERAL TOUCH TARGETS ────────────────────────────────── */
+@media (max-width: 768px) {
+  button, a { min-height: 36px }
+  .faq-q { min-height: 52px; padding: 14px 16px !important }
+}
+
+/* ── 13. PRICING PAGE ─────────────────────────────────────────── */
+@media (max-width: 768px) {
+  .pricing-grid { grid-template-columns: 1fr !important; gap: 16px !important }
+  .pricing-card { padding: 24px 20px !important }
+}
+
+/* ── 14. CONTACT PAGE ─────────────────────────────────────────── */
+@media (max-width: 768px) {
+  .contact-grid { grid-template-columns: 1fr !important; gap: 24px !important }
+  .form-row { grid-template-columns: 1fr !important }
+}
