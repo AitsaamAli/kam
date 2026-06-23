@@ -386,6 +386,9 @@ ul { list-style: none }
 }
 .mobile-nav a:hover,
 .mobile-nav a:active { color: #14B8A6; background: #F0FDFA; padding-left: 32px }
+/* WA button in mobile nav — preserve its own style */
+.mobile-nav a[href*="wa.me"]:hover,
+.mobile-nav a[href*="wa.me"]:active { background: #1ebe5a; color: #fff; padding-left: 24px }
 .mobile-nav-tools { padding: 14px 24px; display: flex; gap: 10px; border-bottom: 1px solid #F1F5F9; flex-wrap: wrap }
 .mobile-nav-tools .btn { flex: 1; min-height: 44px; font-size: .85rem; justify-content: center }
 
@@ -1063,9 +1066,9 @@ footer {
   box-shadow: var(--shadow);
 }
 .wa-btn:hover .wa-tip { opacity: 1 }
-@media (max-width: 480px) {
-  .wa-btn { width: 56px; height: 56px; font-size: 1.6rem; bottom: max(80px, env(safe-area-inset-bottom) + 70px) }
-  .wa-tip { display: none }
+@media (max-width: 767px) {
+  /* Hide floating buttons on mobile — bottom bar handles CTA */
+  .wa-btn, .call-btn { display: none !important }
 }
 
 /* Floating Call Button */
@@ -1108,10 +1111,7 @@ footer {
   box-shadow: var(--shadow);
 }
 .call-btn:hover .call-tip { opacity: 1 }
-@media (max-width: 480px) {
-  .call-btn { width: 46px; height: 46px; font-size: 1.3rem; right: max(90px, env(safe-area-inset-right) + 76px); bottom: max(80px, env(safe-area-inset-bottom) + 70px) }
-  .call-tip { display: none }
-}
+/* call-btn mobile hidden above */
 
 /* Mobile Sticky Bottom Bar */
 .mobile-cta-bar {
@@ -1120,10 +1120,11 @@ footer {
   bottom: 0; left: 0; right: 0;
   z-index: 1000;
   background: var(--surface);
-  border-top: 1px solid var(--border);
-  padding: 10px 16px max(10px, env(safe-area-inset-bottom));
+  border-top: 2px solid var(--border-teal);
+  padding: 10px 16px;
+  padding-bottom: max(12px, env(safe-area-inset-bottom));
   gap: 10px;
-  box-shadow: 0 -4px 20px rgba(0,0,0,.25);
+  box-shadow: 0 -6px 24px rgba(0,0,0,.18);
 }
 .mobile-cta-bar a {
   flex: 1;
@@ -1131,23 +1132,23 @@ footer {
   align-items: center;
   justify-content: center;
   gap: 8px;
-  padding: 13px 10px;
-  border-radius: 10px;
-  font-size: .95rem;
+  padding: 14px 10px;
+  border-radius: 12px;
+  font-size: .9rem;
   font-weight: 700;
   font-family: var(--font-body);
   text-decoration: none;
-  transition: opacity .2s;
+  transition: opacity .15s;
+  min-height: 50px;
 }
-.mobile-cta-bar a:active { opacity: .8 }
-.mobile-cta-call { background: #2563EB; color: #fff !important; }
+.mobile-cta-bar a:active { opacity: .75; transform: scale(.97) }
+.mobile-cta-call { background: #0F172A; color: #fff !important; }
 .mobile-cta-wa { background: #25D366; color: #fff !important; }
 @media (max-width: 767px) {
   .mobile-cta-bar { display: flex }
-  /* push WA and call floaters above the bar */
-  .wa-btn { bottom: max(84px, env(safe-area-inset-bottom) + 74px) }
-  .call-btn { bottom: max(84px, env(safe-area-inset-bottom) + 74px) }
-  .back-top { bottom: max(84px, env(safe-area-inset-bottom) + 74px); right: 94px }
+  /* push page content above sticky bar */
+  body { padding-bottom: 76px }
+  .back-top { bottom: 90px; right: 20px }
 }
 
 /* Exit Intent Popup */
@@ -1824,18 +1825,15 @@ select.form-control { cursor: pointer }
       </button>
     </div>
   <div class="mobile-nav" id="mobileNav">
-    <a href="#home" onclick="closeMobileNav()">Home</a>
-    <a href="#services" onclick="closeMobileNav()">Services</a>
-    <a href="#tools" onclick="closeMobileNav()">Tools</a>
-    <a href="#deadlines" onclick="closeMobileNav()">Tax Deadlines</a>
-    <a href="/pricing" onclick="closeMobileNav()">Pricing & Fees</a>
-    <a href="/blogs" onclick="closeMobileNav()">Blog</a>
-    <a href="/contact" onclick="closeMobileNav()">Contact</a>
-    <div class="mobile-nav-tools">
-      <button class="btn btn-gold btn-sm" onclick="openModal('salary');closeMobileNav()"><i class="fas fa-calculator"></i> Salary Tax</button>
-      <button class="btn btn-outline btn-sm" onclick="openModal('gst');closeMobileNav()"><i class="fas fa-percent"></i> GST Calc</button>
-    </div>
-    <a href="https://wa.me/923284675162" target="_blank" style="color:#25D366"><i class="fab fa-whatsapp" style="margin-right:8px"></i>WhatsApp Advisory</a>
+    <a href="#home" onclick="closeMobileNav()"><i class="fas fa-home" style="color:#14B8A6;width:18px;margin-right:6px"></i>Home</a>
+    <a href="#services" onclick="closeMobileNav()"><i class="fas fa-briefcase" style="color:#14B8A6;width:18px;margin-right:6px"></i>Services</a>
+    <a href="/pricing" onclick="closeMobileNav()"><i class="fas fa-tags" style="color:#14B8A6;width:18px;margin-right:6px"></i>Pricing &amp; Fees</a>
+    <a href="/testimonials" onclick="closeMobileNav()" style="display:flex;align-items:center;justify-content:space-between"><span><i class="fas fa-star" style="color:#D4AF37;width:18px;margin-right:6px"></i>Reviews</span><span style="background:#14B8A6;color:#fff;font-size:.65rem;padding:2px 8px;border-radius:10px;font-weight:700">4.9★ 697+</span></a>
+    <a href="/blogs" onclick="closeMobileNav()"><i class="fas fa-book" style="color:#14B8A6;width:18px;margin-right:6px"></i>Blog</a>
+    <a href="/contact" onclick="closeMobileNav()"><i class="fas fa-envelope" style="color:#14B8A6;width:18px;margin-right:6px"></i>Contact</a>
+    <a href="#tools" onclick="closeMobileNav()"><i class="fas fa-calculator" style="color:#14B8A6;width:18px;margin-right:6px"></i>Tax Calculators</a>
+    <a href="#deadlines" onclick="closeMobileNav()"><i class="fas fa-calendar-alt" style="color:#14B8A6;width:18px;margin-right:6px"></i>Tax Deadlines</a>
+    <a href="https://wa.me/923284675162?text=Assalam%20o%20Alaikum%2C%20I%20need%20tax%20help" target="_blank" rel="noopener" style="color:#fff;background:#25D366;margin:8px 16px;border-radius:10px;display:flex;align-items:center;justify-content:center;gap:8px;padding:14px;font-weight:700;font-size:.95rem"><i class="fab fa-whatsapp"></i>WhatsApp Free Consultation</a>
   </div>
 </nav>
 
