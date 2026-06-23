@@ -310,12 +310,12 @@ ul { list-style: none }
 .logo-name { font-family: var(--font-display); font-size: .92rem; font-weight: 700; color: var(--text); letter-spacing: .07em; line-height: 1.2 }
 .logo-sub { font-size: .56rem; letter-spacing: .18em; color: var(--gold-light); text-transform: uppercase }
 /* ── ENTERPRISE NAV ── */
-.nav-links { display: flex; align-items: center; gap: 4px }
+.nav-links { display: flex; align-items: center; gap: 2px }
 .nav-links > li { position: relative; list-style: none }
 .nav-links > li > a {
-  font-size: .84rem; font-weight: 500; color: var(--text-2);
+  font-size: .82rem; font-weight: 500; color: var(--text-2);
   letter-spacing: .01em; display: flex; align-items: center; gap: 4px;
-  padding: 8px 14px; border-radius: 8px; transition: all .2s;
+  padding: 8px 11px; border-radius: 8px; transition: all .2s;
   white-space: nowrap;
 }
 .nav-links > li > a:hover { color: var(--teal); background: var(--teal-pale) }
@@ -341,10 +341,10 @@ ul { list-style: none }
 .nav-drop a:hover { background: var(--teal-pale); color: var(--teal) }
 .nav-drop a i { width: 16px; text-align: center; color: var(--teal); font-size: .78rem; opacity: .8 }
 .nav-drop-divider { height: 1px; background: var(--border); margin: 4px 8px }
-.nav-actions { display: flex; align-items: center; gap: 10px }
-.nav-phone { font-size: .8rem; color: var(--text-3); display: flex; align-items: center; gap: 6px }
+.nav-actions { display: flex; align-items: center; gap: 8px }
+.nav-phone { font-size: .8rem; color: var(--text-3); display: flex; align-items: center; gap: 6px; white-space: nowrap; flex-shrink: 0 }
 .nav-phone i { color: var(--teal) }
-.nav-phone a { color: var(--text-2); transition: color .2s; font-weight: 500 }
+.nav-phone a { color: var(--text-2); transition: color .2s; font-weight: 500; white-space: nowrap }
 .nav-phone a:hover { color: var(--teal) }
 .nav-cta { background: var(--navy); color: #fff !important; padding: 8px 18px !important; border-radius: 8px !important; font-size: .82rem !important; font-weight: 600 !important; transition: all .2s !important }
 .nav-cta:hover { background: var(--teal) !important; transform: translateY(-1px) }
@@ -1802,7 +1802,6 @@ select.form-control { cursor: pointer }
       <li><a href="/pricing">Pricing</a></li>
       <li><a href="/testimonials">Reviews <span style="background:#14B8A6;color:#fff;font-size:.6rem;padding:2px 6px;border-radius:10px;margin-left:3px;font-weight:700">4.9★</span></a></li>
       <li><a href="/contact">Contact</a></li>
-      <li><a href="/about">About</a></li>
       <li>
         <a href="/blogs">Blog <i class="fas fa-chevron-down nav-chevron"></i></a>
         <div class="nav-drop">
