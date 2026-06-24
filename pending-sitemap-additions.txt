@@ -1,0 +1,21 @@
+# Sitemap additions — add after removing [VERIFY] flags and noindex meta
+# 2026-06-24
+
+<url><loc>https://kambohassociates.com/tools</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://kambohassociates.com/tools/income-tax-calculator-pakistan</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://kambohassociates.com/tools/salary-tax-calculator</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://kambohassociates.com/tools/property-capital-gains-calculator</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://kambohassociates.com/tools/filer-vs-non-filer-calculator</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://kambohassociates.com/guides</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://kambohassociates.com/guides/finance-act-2026-pakistan-summary</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://kambohassociates.com/guides/pakistan-tax-calendar-2026-27</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://kambohassociates.com/guides/how-to-file-tax-return-iris-portal</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://kambohassociates.com/guides/filer-vs-non-filer-pakistan</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://kambohassociates.com/guides/property-tax-cgt-pakistan-2026</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://kambohassociates.com/guides/crypto-tax-pakistan</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://kambohassociates.com/news</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://kambohassociates.com/news/finance-act-2026-passed</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://kambohassociates.com/news/return-filing-season-2026</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://kambohassociates.com/ur</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://kambohassociates.com/ur/guides/finance-act-2026-pakistan-summary</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://kambohassociates.com/ur/guides/pakistan-tax-calendar-2026-27</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
