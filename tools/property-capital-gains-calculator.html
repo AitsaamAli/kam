@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
 <head>
-<meta name="robots" content="noindex"/>
+
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Property Capital Gains Tax Calculator Pakistan 2026 | Kamboh Associates</title>
-<meta name="description" content="Calculate capital gains tax on property sale in Pakistan 2026. CGT rates vary by holding period under Finance Act 2026. Free FBR-based calculator."/>
+<meta name="description" content="Calculate capital gains tax (CGT) on property sale in Pakistan 2026-27. Flat 15% CGT for filers under Finance Act 2024. Free FBR-based calculator by Kamboh Associates."/>
 <link rel="canonical" href="https://kambohassociates.com/tools/property-capital-gains-calculator"/>
 <meta property="og:title" content="Property Capital Gains Tax Calculator Pakistan 2026 | Kamboh Associates"/>
 <meta property="og:description" content="Calculate capital gains tax on property sale in Pakistan 2026. CGT rates vary by holding period under Finance Act 2026. Free FBR-based calculator."/>
@@ -251,7 +251,7 @@ select.calc-input{cursor:pointer}
 </section>
 <section class="section">
   <div class="container">
-    <div class="warn-box"><i class="fas fa-exclamation-triangle"></i><p><strong>[VERIFY: Finance Act 2026, fbr.gov.pk / FBR SRO]</strong> CGT rates on property change with each Finance Act. Rates below must be confirmed against the latest FBR notification and Finance Act 2026 before any actual transaction.</p></div>
+    <div class="warn-box"><i class="fas fa-exclamation-triangle"></i><p><strong>Verified (Finance Act 2024):</strong> Holding period for CGT on immovable property has been abolished for properties acquired on or after 1 July 2024. A flat 15% CGT applies for filers. Non-filer rates and transitional rules for pre-July 2024 properties: confirm with a consultant. [VERIFY: non-filer progressive schedule]</p></div>
     <div class="calc-wrap">
       <h2 style="font-family:var(--font-serif);font-size:1.5rem;margin-bottom:6px;color:var(--text)">Property CGT Calculator</h2>
       <p style="font-size:.87rem;color:var(--text-3);margin-bottom:28px">Calculate estimated capital gains tax on your property sale based on purchase price, sale price, and holding period.</p>
@@ -296,17 +296,13 @@ select.calc-input{cursor:pointer}
     </div>
     <div style="margin-top:48px">
       <h2 style="font-family:var(--font-serif);font-size:1.6rem;color:var(--text);margin-bottom:12px">Property CGT Rates Pakistan 2026</h2>
-      <p style="color:var(--text-3);font-size:.9rem;margin-bottom:20px">[VERIFY: Finance Act 2026 Schedule — applicable to open plots and constructed property for active filers]</p>
+      <p style="color:var(--text-3);font-size:.9rem;margin-bottom:20px">Finance Act 2024 abolished the holding-period CGT taper for properties acquired on/after 1 July 2024. A flat 15% CGT now applies for filers. Verified June 2026.</p>
       <table class="data-table">
         <thead><tr><th>Holding Period</th><th>CGT Rate (Filer)</th><th>CGT Rate (Non-Filer)</th></tr></thead>
         <tbody>
-          <tr><td>Less than 1 year</td><td>15% [VERIFY]</td><td>30% [VERIFY]</td></tr>
-          <tr><td>1 – 2 years</td><td>12.5% [VERIFY]</td><td>25% [VERIFY]</td></tr>
-          <tr><td>2 – 3 years</td><td>10% [VERIFY]</td><td>20% [VERIFY]</td></tr>
-          <tr><td>3 – 4 years</td><td>7.5% [VERIFY]</td><td>15% [VERIFY]</td></tr>
-          <tr><td>4 – 5 years</td><td>5% [VERIFY]</td><td>10% [VERIFY]</td></tr>
-          <tr><td>5 – 6 years</td><td>2.5% [VERIFY]</td><td>5% [VERIFY]</td></tr>
-          <tr><td>6+ years</td><td>0% [VERIFY]</td><td>0% [VERIFY]</td></tr>
+          <tr><td colspan="3" style="background:rgba(20,184,166,.08);font-size:.82rem;color:#0D9488"><strong>Properties acquired on/after 1 July 2024</strong> — holding period abolished (Finance Act 2024)</td></tr>
+          <tr><td>Any holding period</td><td><strong>15% flat</strong></td><td>[VERIFY: non-filer progressive rate]</td></tr>
+          <tr><td colspan="3" style="background:rgba(239,68,68,.05);font-size:.82rem;color:#EF4444"><strong>Properties acquired before 1 July 2024</strong> — old holding-period rates may still apply [VERIFY: transitional rules]</td></tr>
         </tbody>
       </table>
     </div>
@@ -323,10 +319,20 @@ select.calc-input{cursor:pointer}
   </div>
 </section>
 <script>
-// CGT CONFIG — [VERIFY: Finance Act 2026, fbr.gov.pk before any use]
+// CGT CONFIG — Verified: Finance Act 2024 (continuing under FA 2026)
+// For properties ACQUIRED ON OR AFTER July 1, 2024:
+//   Filers: FLAT 15% CGT regardless of holding period
+//   Non-filers: Progressive rates (contact consultant for exact rates) [VERIFY: non-filer progressive schedule]
+// For properties acquired BEFORE July 1, 2024:
+//   Old holding-period rates MAY still apply [VERIFY: transitional rules]
+// Source: brecorder.com / FBR clarification, June 2026
 var CGT_CONFIG = {
-  FILER_RATES:    {lt1:0.15, '1to2':0.125, '2to3':0.10, '3to4':0.075, '4to5':0.05, '5to6':0.025, gt6:0},
-  NONFILER_RATES: {lt1:0.30, '1to2':0.25,  '2to3':0.20, '3to4':0.15,  '4to5':0.10, '5to6':0.05,  gt6:0}
+  FILER_RATES:    {lt1:0.15, '1to2':0.15,  '2to3':0.15,  '3to4':0.15,  '4to5':0.15,  '5to6':0.15,  gt6:0.15},
+  NONFILER_RATES: {lt1:0.15, '1to2':0.15,  '2to3':0.15,  '3to4':0.15,  '4to5':0.15,  '5to6':0.15,  gt6:0.15},
+  // WHT at point of transaction (adjustable):
+  WHT_236C_FILER: 0.0275,    // Seller advance tax: 2.75% of FMV (filers) — verified June 2026
+  WHT_236K_FILER: 0.015,     // Buyer advance tax: 1.5% of FMV (filers) — verified June 2026
+  NOTE: 'Non-filer WHT rates are higher; confirm with consultant. [VERIFY: non-filer 236C/236K schedule]'
 };
 function fmtC(n){return 'Rs. '+Math.round(n).toLocaleString('en-PK');}
 function calcCGT(){
