@@ -355,6 +355,27 @@ footer{background:var(--topbar-bg);border-top:1px solid rgba(255,255,255,.06);pa
     <span class="blog-hero-eyebrow">Knowledge Hub</span>
     <h1>Tax &amp; Regulatory <span>Insights</span></h1>
     <p>Expert perspectives on Pakistan's tax laws, FBR compliance, business registration, and financial strategy</p>
+
+    <!-- HERO SEARCH -->
+    <div style="margin:28px auto 0;max-width:620px;position:relative">
+      <input type="text" id="heroSearch" placeholder="Search 1,627+ articles... e.g. NTN registration, freelancer tax, FBR notice"
+        oninput="document.getElementById('searchInput').value=this.value;searchPosts(this.value);document.getElementById('blogSection').scrollIntoView({behavior:'smooth',block:'start'})"
+        style="width:100%;padding:16px 56px 16px 22px;border-radius:14px;border:2px solid rgba(20,184,166,.35);font-size:.97rem;font-family:inherit;background:#fff;color:#0F172A;box-shadow:0 8px 32px rgba(0,0,0,.12);outline:none;transition:border .2s"
+        onfocus="this.style.borderColor='#14B8A6'" onblur="this.style.borderColor='rgba(20,184,166,.35)'">
+      <i class="fas fa-search" style="position:absolute;right:20px;top:50%;transform:translateY(-50%);color:#14B8A6;font-size:1.1rem;pointer-events:none"></i>
+    </div>
+    <!-- QUICK SEARCH CHIPS -->
+    <div style="margin-top:12px;display:flex;gap:8px;justify-content:center;flex-wrap:wrap">
+      <span style="font-size:.72rem;color:#64748B;align-self:center;font-weight:500">Quick:</span>
+      <button onclick="setHeroSearch('income tax return')" style="border:1px solid #E2E8F0;background:#fff;color:#334155;padding:5px 13px;border-radius:50px;font-size:.75rem;cursor:pointer;font-family:inherit;transition:all .15s" onmouseover="this.style.borderColor='#14B8A6';this.style.color='#0D9488'" onmouseout="this.style.borderColor='#E2E8F0';this.style.color='#334155'">Income Tax Return</button>
+      <button onclick="setHeroSearch('NTN registration')" style="border:1px solid #E2E8F0;background:#fff;color:#334155;padding:5px 13px;border-radius:50px;font-size:.75rem;cursor:pointer;font-family:inherit;transition:all .15s" onmouseover="this.style.borderColor='#14B8A6';this.style.color='#0D9488'" onmouseout="this.style.borderColor='#E2E8F0';this.style.color='#334155'">NTN Registration</button>
+      <button onclick="setHeroSearch('freelancer')" style="border:1px solid #E2E8F0;background:#fff;color:#334155;padding:5px 13px;border-radius:50px;font-size:.75rem;cursor:pointer;font-family:inherit;transition:all .15s" onmouseover="this.style.borderColor='#14B8A6';this.style.color='#0D9488'" onmouseout="this.style.borderColor='#E2E8F0';this.style.color='#334155'">Freelancer Tax</button>
+      <button onclick="setHeroSearch('FBR notice')" style="border:1px solid #E2E8F0;background:#fff;color:#334155;padding:5px 13px;border-radius:50px;font-size:.75rem;cursor:pointer;font-family:inherit;transition:all .15s" onmouseover="this.style.borderColor='#14B8A6';this.style.color='#0D9488'" onmouseout="this.style.borderColor='#E2E8F0';this.style.color='#334155'">FBR Notice</button>
+      <button onclick="setHeroSearch('property tax')" style="border:1px solid #E2E8F0;background:#fff;color:#334155;padding:5px 13px;border-radius:50px;font-size:.75rem;cursor:pointer;font-family:inherit;transition:all .15s" onmouseover="this.style.borderColor='#14B8A6';this.style.color='#0D9488'" onmouseout="this.style.borderColor='#E2E8F0';this.style.color='#334155'">Property Tax</button>
+      <button onclick="setHeroSearch('company registration')" style="border:1px solid #E2E8F0;background:#fff;color:#334155;padding:5px 13px;border-radius:50px;font-size:.75rem;cursor:pointer;font-family:inherit;transition:all .15s" onmouseover="this.style.borderColor='#14B8A6';this.style.color='#0D9488'" onmouseout="this.style.borderColor='#E2E8F0';this.style.color='#334155'">Company Registration</button>
+      <button onclick="setHeroSearch('islamabad')" style="border:1px solid #E2E8F0;background:#fff;color:#334155;padding:5px 13px;border-radius:50px;font-size:.75rem;cursor:pointer;font-family:inherit;transition:all .15s" onmouseover="this.style.borderColor='#14B8A6';this.style.color='#0D9488'" onmouseout="this.style.borderColor='#E2E8F0';this.style.color='#334155'">Islamabad</button>
+    </div>
+
     <div class="blog-hero-stats">
       <div class="bhs-item"><div class="bhs-n">1627+</div><div class="bhs-l">Articles</div></div>
       <div class="bhs-item"><div class="bhs-n">27</div><div class="bhs-l">Categories</div></div>
@@ -387,7 +408,7 @@ footer{background:var(--topbar-bg);border-top:1px solid rgba(255,255,255,.06);pa
 </section>
 
 <!-- FILTER BAR -->
-<div class="filter-bar">
+<div class="filter-bar" id="blogSection">
   <div class="container">
     <span class="filter-label">Filter:</span>
     <button class="filter-btn active" onclick="filterPosts('all',this)"><i class="fas fa-border-all"></i> All Posts</button>
@@ -3839,6 +3860,15 @@ function filterPosts(cat, btn) {
   applyFilters();
 }
 
+function setHeroSearch(val) {
+  var hi=document.getElementById('heroSearch');
+  var si=document.getElementById('searchInput');
+  if(hi) hi.value=val;
+  if(si) si.value=val;
+  searchPosts(val);
+  var bs=document.getElementById('blogSection');
+  if(bs) bs.scrollIntoView({behavior:'smooth',block:'start'});
+}
 function searchPosts(val) {
   currentSearch = val.toLowerCase();
   applyFilters();
