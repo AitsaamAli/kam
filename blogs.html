@@ -200,6 +200,12 @@ footer{background:var(--topbar-bg);border-top:1px solid rgba(255,255,255,.06);pa
 /* ── REVEAL ── */
 .reveal{opacity:0;transform:translateY(28px);transition:opacity .6s var(--ease),transform .6s var(--ease)}
 .reveal.visible{opacity:1;transform:none}
+@keyframes blogFade{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+/* ── PAGINATION ── */
+.pg-btn{min-width:36px;height:36px;padding:0 10px;border-radius:8px;border:1px solid var(--border);background:transparent;color:var(--text-2);font-size:.82rem;cursor:pointer;transition:all .2s;font-family:var(--font-body)}
+.pg-btn:hover{border-color:var(--gold-light);color:var(--gold-light);background:var(--gold-bg)}
+.pg-btn.active{background:var(--gold-light);color:#fff;border-color:var(--gold-light);font-weight:600}
+.pg-btn:disabled{opacity:.35;cursor:default}
 
 /* ── NAV DROPDOWN ── */
 .nav-has-dropdown{position:relative}
@@ -453,6 +459,7 @@ footer{padding-bottom:100px}
         <i class="fas fa-search"></i>
         <p>No articles found. Try a different search or category.</p>
       </div>
+      <div id="blogPagination" style="display:flex;align-items:center;justify-content:center;gap:8px;flex-wrap:wrap;margin:32px 0 8px"></div>
     </div>
 
     <!-- SIDEBAR -->
@@ -3813,26 +3820,36 @@ const postImages = {
   'secp-company-registration-guide-2026':'/images/secp-company-registration-guide-2026.png',
 };
 
+var PAGE_SIZE = 24;
+var _currentSorted = [];
+var _currentPage = 1;
+
 function renderPosts(posts) {
-  posts = [...posts].sort((a,b) => {
+  _currentSorted = [...posts].sort((a,b) => {
     const fa = b.featured?1:0, fb = a.featured?1:0;
     if (fa !== fb) return fa - fb;
     return new Date(b.date) - new Date(a.date);
   });
+  _currentPage = 1;
+  _renderPage();
+}
+
+function _renderPage() {
   const grid = document.getElementById('blogGrid');
   const noResults = document.getElementById('noResults');
-  if (!posts.length) {
+  if (!_currentSorted.length) {
     grid.innerHTML = '';
     noResults.classList.remove('hidden');
+    _renderPagination(0);
     return;
   }
   noResults.classList.add('hidden');
-  grid.innerHTML = posts.map((post,i) => {
-    const cm = catMeta[post.category] || defaultCat;
+  const start = (_currentPage - 1) * PAGE_SIZE;
+  const pagePosts = _currentSorted.slice(start, start + PAGE_SIZE);
+  grid.innerHTML = pagePosts.map((post) => {
     const isLinkable = post.link && post.link !== '#';
     const pinnedLabel = post.featured ? ' <span style="font-size:.58rem;font-weight:700;color:#14B8A6;letter-spacing:.06em;vertical-align:middle">PINNED</span>' : '';
-    return `
-    <div class="blog-card reveal" style="transition-delay:${i*0.07}s" ${isLinkable ? 'data-link="'+post.link+'"' : ''}>
+    return `<div class="blog-card" style="animation:blogFade .35s ease both" ${isLinkable ? 'data-link="'+post.link+'"' : ''}>
       <div class="blog-card-body">
         <span class="bc-cat-label">${post.category||''}${pinnedLabel}</span>
         <h3 class="blog-card-title">${post.title}</h3>
@@ -3847,10 +3864,40 @@ function renderPosts(posts) {
       </div>
     </div>`;
   }).join('');
-  observeReveal();
+  _renderPagination(Math.ceil(_currentSorted.length / PAGE_SIZE));
   document.querySelectorAll('.blog-card[data-link]').forEach(function(card){
     card.addEventListener('click', function(){ window.location.href = this.getAttribute('data-link'); });
   });
+  if (_currentPage > 1) { grid.scrollIntoView({behavior:'smooth',block:'start'}); }
+}
+
+function _renderPagination(totalPages) {
+  const el = document.getElementById('blogPagination');
+  if (!el) return;
+  if (totalPages <= 1) { el.innerHTML = ''; return; }
+  const p = _currentPage;
+  const pages = [];
+  var prev=p-1, next=p+1;
+  pages.push('<button class="pg-btn" onclick="_goPage('+prev+')" '+(p===1?'disabled':'')+'>&#8592; Prev</button>');
+  const range = [];
+  for (var i=1;i<=totalPages;i++){
+    if(i===1||i===totalPages||Math.abs(i-p)<=2) range.push(i);
+    else if(range[range.length-1]!=='…') range.push('…');
+  }
+  range.forEach(function(r){
+    if(r==='…') pages.push('<span style="padding:0 4px;color:var(--text-3)">…</span>');
+    else pages.push('<button class="pg-btn'+(r===p?' active':'')+'" onclick="_goPage('+r+')">'+r+'</button>');
+  });
+  pages.push('<button class="pg-btn" onclick="_goPage('+next+')" '+(p===totalPages?'disabled':'')+'>Next &#8594;</button>');
+  el.innerHTML = pages.join('');
+}
+
+function _goPage(n) {
+  var totalPages = Math.ceil(_currentSorted.length / PAGE_SIZE);
+  n = Math.max(1, Math.min(n, totalPages));
+  if (n === _currentPage) return;
+  _currentPage = n;
+  _renderPage();
 }
 
 function filterPosts(cat, btn) {
@@ -3931,12 +3978,12 @@ function renderRecent() {
   `).join('');
 }
 
-/* Scroll reveal */
+/* observeReveal: kept for non-blog reveal elements */
 function observeReveal() {
   const io = new IntersectionObserver(entries => {
     entries.forEach(e => { if(e.isIntersecting){e.target.classList.add('visible');io.unobserve(e.target);} });
   },{threshold:0.1});
-  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+  document.querySelectorAll('.reveal:not(.blog-card)').forEach(el => io.observe(el));
 }
 
 /* Navbar scroll */
@@ -3980,15 +4027,16 @@ document.querySelectorAll('.nav-drop-menu [data-cat]').forEach(function(link){
   });
 });
 
-/* Force render on DOMContentLoaded to ensure grid is ready */
-if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', function() {
-    renderPosts(blogPosts);
-    renderRecent();
-  });
-} else {
+/* Init */
+function _init() {
   renderPosts(blogPosts);
   renderRecent();
+  observeReveal();
+}
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', _init);
+} else {
+  _init();
 }
 </script>
 
