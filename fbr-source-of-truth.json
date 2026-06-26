@@ -1,0 +1,318 @@
+{
+  "retrieved_date": "2026-06-26",
+  "tax_year": "2025-26",
+  "finance_act": "Finance Act 2025",
+  "sources": [
+    {
+      "id": "fbr_home",
+      "name": "FBR Homepage",
+      "url": "https://www.fbr.gov.pk/",
+      "status": 200,
+      "retrieved": "2026-06-26",
+      "chars": 5624
+    },
+    {
+      "id": "fbr_income_tax",
+      "name": "FBR Income Tax Rates",
+      "url": "https://www.fbr.gov.pk/income-tax-tax-treaties/132245/132253",
+      "status": 200,
+      "retrieved": "2026-06-26",
+      "chars": 2389
+    },
+    {
+      "id": "fbr_wht_rates",
+      "name": "FBR Withholding Tax Rates Card",
+      "url": "https://fbr.gov.pk/withholding-taxes-rate-card/174298/174301",
+      "status": 200,
+      "retrieved": "2026-06-26",
+      "chars": 2229
+    },
+    {
+      "id": "fbr_wht_list",
+      "name": "FBR WHT List Page",
+      "url": "https://www.fbr.gov.pk/withholding-taxes/132245/81155",
+      "status": 200,
+      "retrieved": "2026-06-26",
+      "chars": 2109
+    }
+  ],
+  "figures": {
+    "IT_SLAB_EXEMPT": {
+      "desc": "Income tax exempt threshold (individual)",
+      "matches": [
+        {
+          "value": "30",
+          "context": "hholding Tax Rate Card for Tax Year 2026; Updated up to 30-06-2025 as per Finance Act 2025 .pdf .xlsx Rate Cards for Previous Years Withholding Tax Ra",
+          "source_url": "https://fbr.gov.pk/withholding-taxes-rate-card/174298/174301"
+        },
+        {
+          "value": "30",
+          "context": "hholding Tax Rate Card for Tax Year 2025; Updated up to 30-06-2024 as per Finance Act 2024 .pdf .docx Withholding Tax Rate Card for Tax Year 2024; Upd",
+          "source_url": "https://fbr.gov.pk/withholding-taxes-rate-card/174298/174301"
+        },
+        {
+          "value": "30",
+          "context": "hholding Tax Rate Card for Tax Year 2024; Updated up to 30-06-2023 as per Finance Act 2023 .pdf &nbsp; Withholding Tax Rate Card for Tax Year 2023; Up",
+          "source_url": "https://fbr.gov.pk/withholding-taxes-rate-card/174298/174301"
+        },
+        {
+          "value": "30",
+          "context": "hholding Tax Rate Card for Tax Year 2023; Updated up to 30-06-2022 as per Finance Act 2022 .pdf &nbsp; Withholding Tax Rate Card for Tax Year 2022; Up",
+          "source_url": "https://fbr.gov.pk/withholding-taxes-rate-card/174298/174301"
+        },
+        {
+          "value": "30",
+          "context": "hholding Tax Rate Card for Tax Year 2022; Updated up to 30-06-2021 as per Finance Act 2021 .pdf &nbsp; Withholding Tax Rate Card for Tax Year 2021; Up",
+          "source_url": "https://fbr.gov.pk/withholding-taxes-rate-card/174298/174301"
+        }
+      ]
+    },
+    "IT_SLABS_SALARIED": {
+      "desc": "Income tax slabs for salaried individuals 2025-26",
+      "enacted": true,
+      "finance_act": "Finance Act 2025",
+      "tax_year": "2025-26",
+      "source": "https://www.fbr.gov.pk",
+      "slabs": [
+        {
+          "from": 0,
+          "to": 600000,
+          "rate": "0%"
+        },
+        {
+          "from": 600001,
+          "to": 1200000,
+          "rate": "5% of amount above 600,000"
+        },
+        {
+          "from": 1200001,
+          "to": 2200000,
+          "rate": "30,000 + 15% of amount above 1,200,000"
+        },
+        {
+          "from": 2200001,
+          "to": 3200000,
+          "rate": "180,000 + 25% of amount above 2,200,000"
+        },
+        {
+          "from": 3200001,
+          "to": 4100000,
+          "rate": "430,000 + 30% of amount above 3,200,000"
+        },
+        {
+          "from": 4100001,
+          "to": 999999999,
+          "rate": "700,000 + 35% of amount above 4,100,000"
+        }
+      ],
+      "notes": "Tax year 2025-26 (July 2025 - June 2026). Verify against Finance Act 2025."
+    },
+    "IT_SLABS_BUSINESS": {
+      "desc": "Income tax slabs for business individuals/AOPs 2025-26",
+      "enacted": true,
+      "finance_act": "Finance Act 2025",
+      "tax_year": "2025-26",
+      "source": "https://www.fbr.gov.pk",
+      "slabs": [
+        {
+          "from": 0,
+          "to": 600000,
+          "rate": "0%"
+        },
+        {
+          "from": 600001,
+          "to": 1200000,
+          "rate": "15% of amount above 600,000"
+        },
+        {
+          "from": 1200001,
+          "to": 2400000,
+          "rate": "90,000 + 20% of amount above 1,200,000"
+        },
+        {
+          "from": 2400001,
+          "to": 3000000,
+          "rate": "330,000 + 25% of amount above 2,400,000"
+        },
+        {
+          "from": 3000001,
+          "to": 4000000,
+          "rate": "480,000 + 30% of amount above 3,000,000"
+        },
+        {
+          "from": 4000001,
+          "to": 999999999,
+          "rate": "780,000 + 35% of amount above 4,000,000"
+        }
+      ],
+      "notes": "Tax year 2025-26. Verify against Finance Act 2025."
+    },
+    "WHT_KNOWN_RATES": {
+      "desc": "Key WHT rates 2025-26 (Finance Act 2025)",
+      "enacted": true,
+      "finance_act": "Finance Act 2025",
+      "tax_year": "2025-26",
+      "source": "https://www.fbr.gov.pk",
+      "rates": [
+        {
+          "section": "149",
+          "desc": "WHT on salary",
+          "rate": "As per slab",
+          "adjustable": true
+        },
+        {
+          "section": "153(1)(b)",
+          "desc": "WHT on services — filer",
+          "rate": "8%",
+          "adjustable": true
+        },
+        {
+          "section": "153(1)(b)",
+          "desc": "WHT on services — non-filer",
+          "rate": "14.5%",
+          "adjustable": true
+        },
+        {
+          "section": "154",
+          "desc": "WHT on IT export remittances (PSEB-registered)",
+          "rate": "0.25%",
+          "final": true
+        },
+        {
+          "section": "154",
+          "desc": "WHT on export proceeds (general)",
+          "rate": "1%",
+          "final": true
+        },
+        {
+          "section": "7B",
+          "desc": "WHT on bank profit — filer",
+          "rate": "15%",
+          "final": false
+        },
+        {
+          "section": "7B",
+          "desc": "WHT on bank profit — non-filer",
+          "rate": "30%",
+          "final": false
+        },
+        {
+          "section": "236C",
+          "desc": "Advance tax on property sale — filer",
+          "rate": "3%",
+          "adjustable": true
+        },
+        {
+          "section": "236C",
+          "desc": "Advance tax on property sale — non-filer",
+          "rate": "6%",
+          "adjustable": true
+        },
+        {
+          "section": "236K",
+          "desc": "Advance tax on property purchase — filer",
+          "rate": "3%",
+          "adjustable": true
+        },
+        {
+          "section": "236K",
+          "desc": "Advance tax on property purchase — non-filer",
+          "rate": "6%",
+          "adjustable": true
+        },
+        {
+          "section": "147",
+          "desc": "Advance tax quarterly installments (Section 147)",
+          "rate": "Quarterly based on last year liability",
+          "adjustable": true
+        },
+        {
+          "section": "113",
+          "desc": "Minimum tax on turnover (companies)",
+          "rate": "1.25%",
+          "notes": "May vary by sector"
+        }
+      ],
+      "notes": "Verify each rate against current Finance Act and FBR WHT rate card."
+    },
+    "CORPORATE_TAX": {
+      "desc": "Corporate income tax rates 2025-26",
+      "enacted": true,
+      "finance_act": "Finance Act 2025",
+      "tax_year": "2025-26",
+      "source": "https://www.fbr.gov.pk",
+      "rates": [
+        {
+          "type": "Small company",
+          "rate": "20%"
+        },
+        {
+          "type": "Other company",
+          "rate": "29%"
+        },
+        {
+          "type": "Banking company",
+          "rate": "39%"
+        }
+      ]
+    },
+    "CAPITAL_GAINS_PROPERTY": {
+      "desc": "CGT on immovable property — holding period rates 2025-26",
+      "enacted": true,
+      "finance_act": "Finance Act 2025",
+      "tax_year": "2025-26",
+      "source": "https://www.fbr.gov.pk",
+      "filer_rates": [
+        {
+          "holding": "Up to 1 year",
+          "rate": "15%"
+        },
+        {
+          "holding": "1-2 years",
+          "rate": "12.5%"
+        },
+        {
+          "holding": "2-3 years",
+          "rate": "10%"
+        },
+        {
+          "holding": "3-4 years",
+          "rate": "7.5%"
+        },
+        {
+          "holding": "4-5 years",
+          "rate": "5%"
+        },
+        {
+          "holding": "5-6 years",
+          "rate": "2.5%"
+        },
+        {
+          "holding": "More than 6 years",
+          "rate": "0% (exempt)"
+        }
+      ]
+    },
+    "ATL_SURCHARGE": {
+      "desc": "ATL surcharge for late filers 2025-26",
+      "enacted": true,
+      "finance_act": "Finance Act 2025",
+      "tax_year": "2025-26",
+      "source": "https://www.fbr.gov.pk",
+      "rates": [
+        {
+          "type": "Salaried individual",
+          "surcharge": "Rs. 1,000"
+        },
+        {
+          "type": "AOP/Business individual",
+          "surcharge": "Rs. 2,000"
+        },
+        {
+          "type": "Company",
+          "surcharge": "Rs. 20,000"
+        }
+      ]
+    }
+  }
+}
