@@ -139,6 +139,10 @@ let noindexIssues = 0;
 indexable.forEach(f => {
   const c = fs.readFileSync(f, 'utf8');
   if (/noindex/.test(c) && !NON_INDEXABLE.has(f)) {
+    // Intentional dedup: noindex is fine when the canonical points to a different page
+    const canon = c.match(/<link rel="canonical" href="([^"]+)"/);
+    const selfUrl = BASE_URL + '/' + f.replace(/\.html$/, '');
+    if (canon && canon[1].replace(/\/$/, '') !== selfUrl) return;
     fail(`Accidental noindex on: ${f}`);
     noindexIssues++;
   }
