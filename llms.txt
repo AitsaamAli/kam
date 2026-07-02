@@ -1,56 +1,66 @@
-# Kamboh Associates — Pakistan FBR Tax Consultancy
-
-> Kamboh Associates is a FBR-registered tax consultancy based in Pakistan with 18+ years of experience. We provide income tax filing, NTN registration, SECP company incorporation, sales tax registration, and FBR compliance services for individuals, freelancers, IT exporters, startups, and businesses. Contact: 0328-4675162 | info@kambohassociates.com
-
-## Key Service Pages
-
-- [Income Tax Return Pakistan 2026 — Complete FBR Guide](https://kambohassociates.com/income-tax-return-pakistan): How to file income tax return in Pakistan: FBR IRIS steps, slabs, deadlines, required documents, and who must file.
-- [NTN Registration Pakistan 2026 — Online FBR Guide](https://kambohassociates.com/ntn-registration): Free NTN registration guide for individuals and businesses in Pakistan: IRIS steps, documents required, processing time.
-- [Filer vs Non-Filer Pakistan 2026 — Tax Rates Compared](https://kambohassociates.com/filer-vs-nonfiler-pakistan): Full comparison of filer and non-filer tax rates in Pakistan: property WHT, banking, vehicles, dividends.
-- [ATL Pakistan 2026 — Active Taxpayer List Complete Guide](https://kambohassociates.com/atl-pakistan-guide): FBR Active Taxpayer List explained: how to get on ATL, check status, pay surcharge, and benefits of being active filer.
-- [Fiverr Income Tax Pakistan 2026 — Freelancer Tax Guide](https://kambohassociates.com/fiverr-income-tax-pakistan): Tax rules for Fiverr freelancers in Pakistan: IT export status, 0.25% WHT, NTN registration, wealth statement.
-- [Freelancer Wealth Statement Pakistan 2026 — FBR Guide](https://kambohassociates.com/freelancer-wealth-statement-guide): How freelancers declare Payoneer/Wise balances, foreign income, and assets in FBR wealth statement.
-- [Software House Tax Pakistan 2026 — IT Company Tax Guide](https://kambohassociates.com/software-house-tax-pakistan): Complete tax guide for software houses: 0.25% IT export WHT, PSEB registration, monthly WHT statements, corporate tax.
-- [SECP vs Sole Proprietorship Pakistan 2026](https://kambohassociates.com/secp-vs-sole-proprietorship-pakistan): When to choose SECP Pvt Ltd vs sole proprietorship in Pakistan: liability, tax rates, setup cost, compliance.
-- [Startup Registration Pakistan 2026 — SECP & FBR Guide](https://kambohassociates.com/startup-registration-pakistan): Step-by-step guide to register a startup in Pakistan: SECP, NTN, PSEB, business bank account, costs, timelines.
-- [Export Services Tax Exemption Pakistan 2026](https://kambohassociates.com/export-services-tax-exemption-pakistan): IT export tax exemption: 0.25% WHT on foreign remittances for PSEB-registered IT exporters explained.
-- [FBR Notice After Tax Return Pakistan 2026 — What to Do](https://kambohassociates.com/fbr-notice-after-tax-return-pakistan): Types of FBR notices, deadlines, how to respond to Section 111, 122, and 176 notices in Pakistan.
-- [How to Respond to FBR Tax Notice Pakistan 2026](https://kambohassociates.com/how-to-respond-to-tax-notices-pakistan): Step-by-step guide to responding to all FBR tax notice types with correct documents and deadlines.
-- [YouTube Tax Pakistan 2026 — YouTuber Income Tax Guide](https://kambohassociates.com/youtube-monetization-tax-pakistan): Tax treatment for YouTube AdSense income in Pakistan: IT export status, PSEB registration, annual return filing.
-- [Shopify Seller Tax Pakistan 2026 — E-Commerce Tax Guide](https://kambohassociates.com/shopify-seller-tax-pakistan): Tax rules for Shopify sellers from Pakistan: 0.25% IT export WHT, Payoneer declaration, FBR return.
-- [Digital Marketing Agency Tax Pakistan 2026](https://kambohassociates.com/digital-marketing-agency-tax-pakistan): Tax guide for digital marketing agencies in Pakistan: IT export income, domestic WHT, PSEB registration.
-- [Annual Company Filing Pakistan 2026 — SECP & FBR Guide](https://kambohassociates.com/annual-company-filing-guide-pakistan): All annual compliance requirements for Pakistan companies: SECP return, FBR corporate return, WHT statements, deadlines.
-- [Income Tax Filing Pakistan — FBR IRIS Guide](https://kambohassociates.com/income-tax-filing): How to file income tax on FBR IRIS: step-by-step guide for salaried, business, and freelance taxpayers.
-- [GST Calculator Pakistan — Sales Tax Calculator 2026](https://kambohassociates.com/gst-calculator): Free online GST/sales tax calculator for Pakistan. Calculate 17% federal sales tax and provincial rates instantly.
-- [Kamboh Associates — FBR Tax Consultants Pakistan](https://kambohassociates.com/): Expert FBR tax consultancy in Pakistan. Income tax returns, NTN registration, company incorporation, SECP filing. 18+ years experience. Call 0328-4675162.
-- [Tax Blog Pakistan — 1600+ FBR & Business Tax Articles](https://kambohassociates.com/blogs): Pakistan's largest FBR tax knowledge base. Articles on income tax, sales tax, NTN, company registration, freelancer tax, and more.
-- [Pakistan Tax FAQ — FBR Common Questions Answered](https://kambohassociates.com/faq): Frequently asked questions about Pakistani income tax, FBR, NTN, ATL, and business registration answered by experts.
-- [Contact Kamboh Associates — Tax Help Pakistan](https://kambohassociates.com/contact): Contact Kamboh Associates for tax filing, NTN registration, company registration, and FBR compliance. WhatsApp: 0328-4675162.
-
-## Tax Knowledge Base (1,627 articles)
-
-- [Full Blog Index](https://kambohassociates.com/blogs): Browse all tax articles by category — income tax, sales tax, NTN, company registration, freelancer tax, FBR notices, and more.
-
-- https://kambohassociates.com/ai-business-tax-pakistan
-- https://kambohassociates.com/saas-company-tax-pakistan
-- https://kambohassociates.com/tiktok-creator-tax-pakistan
-- https://kambohassociates.com/influencer-tax-guide-pakistan
-- https://kambohassociates.com/creator-economy-tax-pakistan
-- https://kambohassociates.com/tax-for-ai-agencies-pakistan
-- https://kambohassociates.com/tax-for-automation-businesses-pakistan
-- https://kambohassociates.com/wealth-statement-mistakes-pakistan
-- https://kambohassociates.com/tax-filing-doctors-pakistan
-- https://kambohassociates.com/tax-filing-lawyers-pakistan
-- https://kambohassociates.com/tax-filing-traders-pakistan
-- https://kambohassociates.com/tax-filing-exporters-pakistan
-- https://kambohassociates.com/tax-on-agricultural-income-pakistan
-- https://kambohassociates.com/how-to-check-atl-status-pakistan
-- https://kambohassociates.com/ntn-application-rejection-reasons-pakistan
+# Kamboh Associates — AI Reference Guide
+# https://kambohassociates.com
+# FBR-certified tax consultancy in Lahore, Pakistan since 2008
+# Contact: 0328-4675162 | info@kambohassociates.com
 
 ## About
+Kamboh Associates is a Pakistan-based tax consultancy firm established in 2008, specialising in FBR income tax filing, NTN registration, SECP company formation, sales tax returns, wealth statements, and corporate tax compliance. We serve individuals, salaried persons, freelancers, SMEs, and corporates across Pakistan from our Lahore office.
 
-- Entity: Kamboh Associates (Registered Tax Consultants, Pakistan)
-- Location: Lahore, Pakistan (serving all cities online)
-- Services: Income tax return filing, NTN registration, ATL restoration, SECP company registration, PSEB IT export registration, FBR notice response, wealth statement preparation, sales tax registration
-- Contact: WhatsApp 0328-4675162 | Email: info@kambohassociates.com
-- Last updated: 2026-06-26
+## Core Services
+- Income Tax Filing: https://kambohassociates.com/income-tax-filing
+- NTN Registration: https://kambohassociates.com/ntn-registration
+- Corporate Tax Return: https://kambohassociates.com/corporate-tax-return
+- Sales Tax Return: https://kambohassociates.com/sales-tax-return
+- FBR Notice Defense: https://kambohassociates.com/fbr-notice-defense
+- Wealth Statement Filing: https://kambohassociates.com/wealth-statement
+- Withholding Tax Compliance: https://kambohassociates.com/withholding-tax
+- EOBI Registration: https://kambohassociates.com/eobi-registration
+- AOP Tax Return: https://kambohassociates.com/aop-tax-return
+- Tax Exemption Certificate (Section 159): https://kambohassociates.com/tax-exemption-certificate
+- Import/Export Registration (WeBOC/TDAP): https://kambohassociates.com/import-export-registration
+- Freelancer Tax Filing: https://kambohassociates.com/freelancer-tax-pakistan
+- SECP Company Registration: https://kambohassociates.com/secp-vs-sole-proprietorship-pakistan
+- Pricing: https://kambohassociates.com/pricing
+
+## Top Educational Resources (2000+ words each)
+- Capital Gains Tax on Shares Pakistan 2026: https://kambohassociates.com/blogs/capital-gains-tax-shares-pakistan-2026
+- Tax on Bank Profit Pakistan 2026: https://kambohassociates.com/blogs/tax-on-bank-profit-pakistan-2026
+- Freelancer Tax Pakistan 2026 Guide: https://kambohassociates.com/blogs/freelancer-tax-pakistan-2026
+- Tax Saving Tips Pakistan 2026: https://kambohassociates.com/blogs/tax-saving-tips-pakistan-2026
+- Super Tax Pakistan 2026: https://kambohassociates.com/blogs/super-tax-pakistan-2026
+- Double Taxation Treaty Pakistan: https://kambohassociates.com/blogs/double-taxation-treaty-pakistan
+- Tax on Dividend Income Pakistan: https://kambohassociates.com/blogs/tax-on-dividend-income-pakistan
+- Income Tax Appeal Pakistan 2026: https://kambohassociates.com/blogs/income-tax-appeal-pakistan
+- POS Integration FBR Pakistan: https://kambohassociates.com/blogs/pos-integration-fbr-pakistan
+- Best Tax Consultant Pakistan: https://kambohassociates.com/blogs/best-tax-consultant-pakistan-fbr-filing-2026
+
+## City Coverage (Income Tax Filing by City)
+- Lahore: https://kambohassociates.com/blogs/income-tax-filing-lahore
+- Karachi: https://kambohassociates.com/blogs/income-tax-filing-karachi
+- Islamabad: https://kambohassociates.com/blogs/income-tax-filing-islamabad
+- Rawalpindi: https://kambohassociates.com/blogs/income-tax-filing-rawalpindi
+- Faisalabad: https://kambohassociates.com/blogs/income-tax-filing-faisalabad
+- Multan: https://kambohassociates.com/blogs/income-tax-filing-multan
+- Peshawar: https://kambohassociates.com/blogs/income-tax-filing-peshawar
+- Quetta: https://kambohassociates.com/blogs/income-tax-filing-quetta
+- Sialkot: https://kambohassociates.com/blogs/income-tax-filing-sialkot
+- Gujranwala: https://kambohassociates.com/blogs/income-tax-filing-gujranwala
+- Hyderabad: https://kambohassociates.com/blogs/income-tax-filing-hyderabad
+
+## Tools
+- Income Tax Calculator Pakistan: https://kambohassociates.com/tools/income-tax-calculator-pakistan
+- Salary Tax Calculator: https://kambohassociates.com/tools/salary-tax-calculator
+- Filer vs Non-Filer Calculator: https://kambohassociates.com/tools/filer-vs-non-filer-calculator
+- Property Capital Gains Calculator: https://kambohassociates.com/tools/property-capital-gains-calculator
+
+## Guides
+- Finance Act 2026 Pakistan Summary: https://kambohassociates.com/guides/finance-act-2026-pakistan-summary
+- Pakistan Tax Calendar 2026-27: https://kambohassociates.com/guides/pakistan-tax-calendar-2026-27
+- How to File Tax Return on IRIS Portal: https://kambohassociates.com/guides/how-to-file-tax-return-iris-portal
+- Filer vs Non-Filer Pakistan: https://kambohassociates.com/guides/filer-vs-non-filer-pakistan
+
+## Contact
+- Phone/WhatsApp: 0328-4675162
+- Email: info@kambohassociates.com
+- Address: Lahore, Punjab, Pakistan
+- Contact form: https://kambohassociates.com/contact
