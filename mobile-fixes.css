@@ -218,3 +218,18 @@ img, video, iframe, table { max-width: 100% }
   .contact-grid { grid-template-columns: 1fr !important; gap: 24px !important }
   .form-row { grid-template-columns: 1fr !important }
 }
+
+/* ── 15. GLOBAL THEME TOKEN ALIGNMENT ─────────────────────────── */
+/* Canonical values (match index.html) — fixes drift between the
+   homepage design tokens and per-page inline CSS on blog/service pages */
+[data-theme="light"] {
+  --bg-2: #F8FAFC;
+  --border-gold: rgba(212,175,55,0.25);
+  --gold-bg: rgba(212,175,55,0.06);
+  --teal-bg: rgba(20,184,166,0.07);
+}
+
+/* ── 16. SINGLE FLOATING WHATSAPP BUTTON ──────────────────────── */
+/* Pages without a bottom CTA bar keep .wa-float-btn as their only
+   floating button; align its position with .wa-btn */
+.wa-float-btn { bottom: 28px !important; right: 28px !important; z-index: 999 !important }
