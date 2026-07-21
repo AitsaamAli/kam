@@ -1,12 +1,10 @@
-# Kamboh Associates — AI Reference Guide
-# https://kambohassociates.com
-# FBR-certified tax consultancy in Lahore, Pakistan since 2008
-# Contact: 0328-4675162 | info@kambohassociates.com
+# Kamboh Associates
+> FBR-registered tax consultancy in Lahore, Pakistan. Specialising in income tax filing, NTN registration, SECP company formation, sales tax returns, wealth statements, and corporate tax compliance since 2008.
 
 ## About
-Kamboh Associates is a Pakistan-based tax consultancy firm established in 2008, specialising in FBR income tax filing, NTN registration, SECP company formation, sales tax returns, wealth statements, and corporate tax compliance. We serve individuals, salaried persons, freelancers, SMEs, and corporates across Pakistan from our Lahore office.
+Kamboh Associates is a Pakistan-based tax consultancy firm established in 2008. We serve individuals, salaried persons, freelancers, SMEs, and corporates across Pakistan from our Lahore office. FBR-certified consultants. WhatsApp: 0328-4675162. Address: Shop No 34 Rizwan Block Market, opposite Rizwan Park, Awan Town, Lahore 54660, Pakistan.
 
-## Core Services
+## Services
 - Income Tax Filing: https://kambohassociates.com/income-tax-filing
 - NTN Registration: https://kambohassociates.com/ntn-registration
 - Corporate Tax Return: https://kambohassociates.com/corporate-tax-return
@@ -16,25 +14,27 @@ Kamboh Associates is a Pakistan-based tax consultancy firm established in 2008, 
 - Withholding Tax Compliance: https://kambohassociates.com/withholding-tax
 - EOBI Registration: https://kambohassociates.com/eobi-registration
 - AOP Tax Return: https://kambohassociates.com/aop-tax-return
-- Tax Exemption Certificate (Section 159): https://kambohassociates.com/tax-exemption-certificate
-- Import/Export Registration (WeBOC/TDAP): https://kambohassociates.com/import-export-registration
 - Freelancer Tax Filing: https://kambohassociates.com/freelancer-tax-pakistan
 - SECP Company Registration: https://kambohassociates.com/secp-vs-sole-proprietorship-pakistan
 - Pricing: https://kambohassociates.com/pricing
 
-## Top Educational Resources (2000+ words each)
-- Capital Gains Tax on Shares Pakistan 2026: https://kambohassociates.com/blogs/capital-gains-tax-shares-pakistan-2026
-- Tax on Bank Profit Pakistan 2026: https://kambohassociates.com/blogs/tax-on-bank-profit-pakistan-2026
-- Freelancer Tax Pakistan 2026 Guide: https://kambohassociates.com/blogs/freelancer-tax-pakistan-2026
-- Tax Saving Tips Pakistan 2026: https://kambohassociates.com/blogs/tax-saving-tips-pakistan-2026
-- Super Tax Pakistan 2026: https://kambohassociates.com/blogs/super-tax-pakistan-2026
-- Double Taxation Treaty Pakistan: https://kambohassociates.com/blogs/double-taxation-treaty-pakistan
-- Tax on Dividend Income Pakistan: https://kambohassociates.com/blogs/tax-on-dividend-income-pakistan
-- Income Tax Appeal Pakistan 2026: https://kambohassociates.com/blogs/income-tax-appeal-pakistan
-- POS Integration FBR Pakistan: https://kambohassociates.com/blogs/pos-integration-fbr-pakistan
-- Best Tax Consultant Pakistan: https://kambohassociates.com/blogs/best-tax-consultant-pakistan-fbr-filing-2026
+## Key Tax Guides (Pakistan 2026)
+- Filer vs Non-Filer Pakistan 2026: https://kambohassociates.com/blogs/filer-vs-non-filer-pakistan-2026
+- NTN Registration Online Pakistan: https://kambohassociates.com/blogs/ntn-registration-online-pakistan
+- FBR Notice Response Guide: https://kambohassociates.com/blogs/fbr-notice-response-guide-pakistan
+- Salary Tax Calculator Pakistan 2026: https://kambohassociates.com/blogs/salary-tax-calculator-pakistan-2026
+- Bank Profit Tax Pakistan 2026: https://kambohassociates.com/blogs/bank-profit-tax-pakistan-2026
+- Rental Income Tax Guide Pakistan 2026: https://kambohassociates.com/blogs/rental-income-tax-guide-pakistan-2026
+- DHA Bahria Town Property Tax Lahore 2026: https://kambohassociates.com/blogs/dha-bahria-town-property-tax-lahore-2026
+- Property Transfer Tax 2026-27 Pakistan (236C/236K): https://kambohassociates.com/blogs/property-transfer-tax-2026-27-pakistan-236c-236k
+- Zameen.com Property Tax Pakistan 2026: https://kambohassociates.com/blogs/zameen-com-property-tax-pakistan-2026
+- PakWheels Car Tax Pakistan 2026: https://kambohassociates.com/blogs/pakwheels-car-tax-filer-pakistan-2026
+- OLX Seller Tax Guide Pakistan 2026: https://kambohassociates.com/blogs/olx-property-car-seller-tax-pakistan-2026
+- Advance Tax Pakistan 2026: https://kambohassociates.com/blogs/advance-tax-pakistan-2026
+- Best Tax Consultant Pakistan 2026: https://kambohassociates.com/blogs/best-tax-consultant-pakistan-fbr-filing-2026
+- Why Kamboh Associates: https://kambohassociates.com/blogs/why-kamboh-associates-best-tax-consultant-pakistan
 
-## City Coverage (Income Tax Filing by City)
+## City Coverage
 - Lahore: https://kambohassociates.com/blogs/income-tax-filing-lahore
 - Karachi: https://kambohassociates.com/blogs/income-tax-filing-karachi
 - Islamabad: https://kambohassociates.com/blogs/income-tax-filing-islamabad
@@ -45,22 +45,10 @@ Kamboh Associates is a Pakistan-based tax consultancy firm established in 2008, 
 - Quetta: https://kambohassociates.com/blogs/income-tax-filing-quetta
 - Sialkot: https://kambohassociates.com/blogs/income-tax-filing-sialkot
 - Gujranwala: https://kambohassociates.com/blogs/income-tax-filing-gujranwala
-- Hyderabad: https://kambohassociates.com/blogs/income-tax-filing-hyderabad
-
-## Tools
-- Income Tax Calculator Pakistan: https://kambohassociates.com/tools/income-tax-calculator-pakistan
-- Salary Tax Calculator: https://kambohassociates.com/tools/salary-tax-calculator
-- Filer vs Non-Filer Calculator: https://kambohassociates.com/tools/filer-vs-non-filer-calculator
-- Property Capital Gains Calculator: https://kambohassociates.com/tools/property-capital-gains-calculator
-
-## Guides
-- Finance Act 2026 Pakistan Summary: https://kambohassociates.com/guides/finance-act-2026-pakistan-summary
-- Pakistan Tax Calendar 2026-27: https://kambohassociates.com/guides/pakistan-tax-calendar-2026-27
-- How to File Tax Return on IRIS Portal: https://kambohassociates.com/guides/how-to-file-tax-return-iris-portal
-- Filer vs Non-Filer Pakistan: https://kambohassociates.com/guides/filer-vs-non-filer-pakistan
 
 ## Contact
 - Phone/WhatsApp: 0328-4675162
 - Email: info@kambohassociates.com
-- Address: Lahore, Punjab, Pakistan
-- Contact form: https://kambohassociates.com/contact
+- Address: Shop No 34 Rizwan Block Market, opposite Rizwan Park, Awan Town, Lahore, 54660, Pakistan
+- Contact: https://kambohassociates.com/contact
+- Blog: https://kambohassociates.com/blogs
