@@ -76,6 +76,21 @@
   ],
   "redirects": [
     {
+      "source": "/blogs/tax-consultant-garden-town-lahore",
+      "destination": "/tax-consultant-garden-town-lahore",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/tax-consultant-faisal-town-lahore",
+      "destination": "/tax-consultant-faisal-town-lahore",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/tax-consultant-cavalry-ground-lahore",
+      "destination": "/tax-consultant-cavalry-ground-lahore",
+      "permanent": true
+    },
+    {
       "source": "/index.html",
       "destination": "/",
       "permanent": true
@@ -661,18 +676,8 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-garden-town-lahore",
-      "destination": "/tax-consultant-garden-town-lahore",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-wapda-town-lahore",
       "destination": "/tax-consultant-wapda-town-lahore",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-faisal-town-lahore",
-      "destination": "/tax-consultant-faisal-town-lahore",
       "permanent": true
     },
     {
@@ -736,11 +741,6 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-cavalry-ground-lahore",
-      "destination": "/tax-consultant-cavalry-ground-lahore",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-gulshan-ravi-lahore",
       "destination": "/tax-consultant-gulshan-ravi-lahore",
       "permanent": true
@@ -791,11 +791,6 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-abbottabad",
-      "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-abu-dhabi-pakistanis",
       "destination": "/income-tax-filing",
       "permanent": true
@@ -836,28 +831,8 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-airport-road-rawalpindi",
-      "destination": "/income-tax-filing-rawalpindi",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-ait-block-b-lahore",
-      "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-ajman-pakistanis",
       "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-al-hamra-town-lahore",
-      "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-al-kabir-town-lahore",
-      "destination": "/income-tax-filing-lahore",
       "permanent": true
     },
     {
@@ -881,38 +856,13 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-anarkali-lahore",
-      "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-ancholi-karachi",
       "destination": "/income-tax-filing-karachi",
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-arifwala",
-      "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-army-officers-pakistan",
       "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-askari-1-lahore",
-      "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-askari-10-lahore",
-      "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-askari-14-rawalpindi",
-      "destination": "/income-tax-filing-rawalpindi",
       "permanent": true
     },
     {
@@ -922,11 +872,6 @@
     },
     {
       "source": "/blogs/tax-consultant-askari-6-lahore",
-      "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-askari-lahore",
       "destination": "/income-tax-filing-lahore",
       "permanent": true
     },
@@ -981,11 +926,6 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-bahadurabad-karachi",
-      "destination": "/income-tax-filing-karachi",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-bahawalpur-cantt",
       "destination": "/income-tax-filing",
       "permanent": true
@@ -1016,18 +956,8 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-bahria-town-islamabad",
-      "destination": "/income-tax-filing-islamabad",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-bahria-town-karachi",
       "destination": "/income-tax-filing-karachi",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-bahria-town-rawalpindi",
-      "destination": "/income-tax-filing-rawalpindi",
       "permanent": true
     },
     {
@@ -1036,23 +966,8 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-baldia-town-karachi",
-      "destination": "/income-tax-filing-karachi",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-baleli-quetta",
       "destination": "/income-tax-filing-quetta",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-banda-road-lahore",
-      "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-bani-gala-islamabad",
-      "destination": "/income-tax-filing-islamabad",
       "permanent": true
     },
     {
@@ -1066,22 +981,7 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-barkat-market-lahore",
-      "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-barkat-nagar-lahore",
-      "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-bath-island-karachi",
-      "destination": "/income-tax-filing-karachi",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-bedian-road-lahore",
       "destination": "/income-tax-filing-lahore",
       "permanent": true
     },
@@ -1096,23 +996,8 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-bhakkar",
-      "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-bhara-kahu-islamabad",
       "destination": "/income-tax-filing-islamabad",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-bhatti-gate-lahore",
-      "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-bhimber",
-      "destination": "/income-tax-filing",
       "permanent": true
     },
     {
@@ -1128,11 +1013,6 @@
     {
       "source": "/blogs/tax-consultant-blackburn-pakistanis",
       "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-blue-area-islamabad",
-      "destination": "/income-tax-filing-islamabad",
       "permanent": true
     },
     {
@@ -1161,11 +1041,6 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-brandreth-road-lahore",
-      "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-brewery-road-quetta",
       "destination": "/income-tax-filing-quetta",
       "permanent": true
@@ -1181,27 +1056,12 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-burewala",
-      "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-calgary-pakistanis",
       "destination": "/income-tax-filing",
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-canal-bank-road-lahore",
-      "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-canal-colony-lahore",
-      "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-canal-road-lahore",
       "destination": "/income-tax-filing-lahore",
       "permanent": true
     },
@@ -1213,16 +1073,6 @@
     {
       "source": "/blogs/tax-consultant-cantt-hyderabad",
       "destination": "/income-tax-filing-hyderabad",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-cantt-lahore",
-      "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-cantt-multan",
-      "destination": "/income-tax-filing-multan",
       "permanent": true
     },
     {
@@ -1241,18 +1091,8 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-cbr-town-islamabad",
-      "destination": "/income-tax-filing-islamabad",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-centaurus-islamabad",
       "destination": "/income-tax-filing-islamabad",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-chaklala-rawalpindi",
-      "destination": "/income-tax-filing-rawalpindi",
       "permanent": true
     },
     {
@@ -1291,16 +1131,6 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-chichawatni",
-      "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-chilas",
-      "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-chiniot-city-centre",
       "destination": "/income-tax-filing",
       "permanent": true
@@ -1313,11 +1143,6 @@
     {
       "source": "/blogs/tax-consultant-chishtian",
       "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-chungi-no-9-multan",
-      "destination": "/income-tax-filing-multan",
       "permanent": true
     },
     {
@@ -1356,28 +1181,13 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-clifton-block-9-karachi",
-      "destination": "/income-tax-filing-karachi",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-clifton-heights-islamabad",
       "destination": "/income-tax-filing-islamabad",
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-clifton-karachi",
-      "destination": "/income-tax-filing-karachi",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-clock-tower-faisalabad",
       "destination": "/income-tax-filing-faisalabad",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-commercial-market-rawalpindi",
-      "destination": "/income-tax-filing-rawalpindi",
       "permanent": true
     },
     {
@@ -1396,11 +1206,6 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-d-ground-faisalabad",
-      "destination": "/income-tax-filing-faisalabad",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-dadu-city",
       "destination": "/income-tax-filing",
       "permanent": true
@@ -1411,17 +1216,7 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-dalazak-road-peshawar",
-      "destination": "/income-tax-filing-peshawar",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-dallas-pakistanis",
-      "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-darya-khan",
       "destination": "/income-tax-filing",
       "permanent": true
     },
@@ -1432,11 +1227,6 @@
     },
     {
       "source": "/blogs/tax-consultant-data-darbar-lahore",
-      "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-data-nagar-lahore",
       "destination": "/income-tax-filing-lahore",
       "permanent": true
     },
@@ -1466,11 +1256,6 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-dera-bugti",
-      "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-dera-ghazi-khan-city",
       "destination": "/income-tax-filing",
       "permanent": true
@@ -1481,38 +1266,8 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-dera-ismail-khan",
-      "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-dg-khan",
-      "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-dha-city-karachi",
       "destination": "/income-tax-filing-karachi",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-dha-islamabad",
-      "destination": "/income-tax-filing-islamabad",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-dha-karachi",
-      "destination": "/income-tax-filing-karachi",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-dha-phase-1-karachi",
-      "destination": "/income-tax-filing-karachi",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-dha-phase-1-lahore",
-      "destination": "/income-tax-filing-lahore",
       "permanent": true
     },
     {
@@ -1522,36 +1277,6 @@
     },
     {
       "source": "/blogs/tax-consultant-dha-phase-11-lahore",
-      "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-dha-phase-2-karachi",
-      "destination": "/income-tax-filing-karachi",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-dha-phase-2-lahore",
-      "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-dha-phase-5-lahore",
-      "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-dha-phase-6-karachi",
-      "destination": "/income-tax-filing-karachi",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-dha-phase-8-lahore",
-      "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-dha-phase-9-lahore",
       "destination": "/income-tax-filing-lahore",
       "permanent": true
     },
@@ -1571,17 +1296,7 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-dhoke-hassu-rawalpindi",
-      "destination": "/income-tax-filing-rawalpindi",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-dijkot-faisalabad",
-      "destination": "/income-tax-filing-faisalabad",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-dijkot-road-faisalabad",
       "destination": "/income-tax-filing-faisalabad",
       "permanent": true
     },
@@ -1598,11 +1313,6 @@
     {
       "source": "/blogs/tax-consultant-diplomatic-enclave-islamabad",
       "destination": "/income-tax-filing-islamabad",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-dir-lower",
-      "destination": "/income-tax-filing",
       "permanent": true
     },
     {
@@ -1636,26 +1346,6 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-e11-islamabad",
-      "destination": "/income-tax-filing-islamabad",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-e7-islamabad",
-      "destination": "/income-tax-filing-islamabad",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-eden-abad-lahore",
-      "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-eden-city-lahore",
-      "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-eden-value-homes-lahore",
       "destination": "/income-tax-filing-lahore",
       "permanent": true
@@ -1663,11 +1353,6 @@
     {
       "source": "/blogs/tax-consultant-eminabad",
       "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-emporium-mall-lahore",
-      "destination": "/income-tax-filing-lahore",
       "permanent": true
     },
     {
@@ -1746,18 +1431,8 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-f10-islamabad",
-      "destination": "/income-tax-filing-islamabad",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-faisal-avenue-islamabad",
       "destination": "/income-tax-filing-islamabad",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-faisal-town-block-a-lahore",
-      "destination": "/income-tax-filing-lahore",
       "permanent": true
     },
     {
@@ -1776,21 +1451,6 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-faisalabad-district",
-      "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-faisalabad",
-      "destination": "/income-tax-filing-faisalabad",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-faizabad-rawalpindi",
-      "destination": "/income-tax-filing-rawalpindi",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-faqirabad-peshawar",
       "destination": "/income-tax-filing-peshawar",
       "permanent": true
@@ -1801,23 +1461,8 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-fateh-jang",
-      "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-fb-area-karachi",
-      "destination": "/income-tax-filing-karachi",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-federal-b-area-karachi",
       "destination": "/income-tax-filing-karachi",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-ferozewala",
-      "destination": "/income-tax-filing",
       "permanent": true
     },
     {
@@ -1886,31 +1531,6 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-g10-islamabad",
-      "destination": "/income-tax-filing-islamabad",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-g11-islamabad",
-      "destination": "/income-tax-filing-islamabad",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-g13-islamabad",
-      "destination": "/income-tax-filing-islamabad",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-g14-islamabad",
-      "destination": "/income-tax-filing-islamabad",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-g9-islamabad",
-      "destination": "/income-tax-filing-islamabad",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-gadap-town-karachi",
       "destination": "/income-tax-filing-karachi",
       "permanent": true
@@ -1921,23 +1541,8 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-garden-block-lahore",
-      "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-garden-karachi",
       "destination": "/income-tax-filing-karachi",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-garden-town-block-a-lahore",
-      "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-garden-town-multan",
-      "destination": "/income-tax-filing-multan",
       "permanent": true
     },
     {
@@ -1948,16 +1553,6 @@
     {
       "source": "/blogs/tax-consultant-garden-west-karachi",
       "destination": "/income-tax-filing-karachi",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-garhi-shahu-lahore",
-      "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-ghalib-market-lahore",
-      "destination": "/income-tax-filing-lahore",
       "permanent": true
     },
     {
@@ -1991,11 +1586,6 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-golra-islamabad",
-      "destination": "/income-tax-filing-islamabad",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-gondlanwala-gujranwala",
       "destination": "/income-tax-filing-gujranwala",
       "permanent": true
@@ -2003,16 +1593,6 @@
     {
       "source": "/blogs/tax-consultant-government-employees-pakistan",
       "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-green-town-block-a-lahore",
-      "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-green-town-block-b-lahore",
-      "destination": "/income-tax-filing-lahore",
       "permanent": true
     },
     {
@@ -2026,18 +1606,8 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-gujar-khan",
-      "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-gujranwala-satellite-town",
       "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-gujranwala",
-      "destination": "/income-tax-filing-gujranwala",
       "permanent": true
     },
     {
@@ -2051,18 +1621,8 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-gujrat",
-      "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-gulberg-4-lahore",
       "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-gulberg-faisalabad",
-      "destination": "/income-tax-filing-faisalabad",
       "permanent": true
     },
     {
@@ -2081,11 +1641,6 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-gulberg-karachi",
-      "destination": "/income-tax-filing-karachi",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-gulberg-v-lahore",
       "destination": "/income-tax-filing-lahore",
       "permanent": true
@@ -2093,11 +1648,6 @@
     {
       "source": "/blogs/tax-consultant-gulberg-vi-lahore",
       "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-gulgasht-multan",
-      "destination": "/income-tax-filing-multan",
       "permanent": true
     },
     {
@@ -2111,18 +1661,8 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-gulistan-jauhar-karachi",
-      "destination": "/income-tax-filing-karachi",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-gulraiz-housing-islamabad",
       "destination": "/income-tax-filing-islamabad",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-gulshan-block-1-karachi",
-      "destination": "/income-tax-filing-karachi",
       "permanent": true
     },
     {
@@ -2143,26 +1683,6 @@
     {
       "source": "/blogs/tax-consultant-gulshan-e-maymar-karachi",
       "destination": "/income-tax-filing-karachi",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-gulshan-iqbal-karachi",
-      "destination": "/income-tax-filing-karachi",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-gulshan-ravi-block-a-lahore",
-      "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-gulshan-ravi-block-b-lahore",
-      "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-gulshan-ravi-block-d-lahore",
-      "destination": "/income-tax-filing-lahore",
       "permanent": true
     },
     {
@@ -2191,17 +1711,7 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-gulzar-e-quaid-rawalpindi",
-      "destination": "/income-tax-filing-rawalpindi",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-gwadar-city",
-      "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-gwadar",
       "destination": "/income-tax-filing",
       "permanent": true
     },
@@ -2236,11 +1746,6 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-h13-islamabad",
-      "destination": "/income-tax-filing-islamabad",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-hafeezabad-multan",
       "destination": "/income-tax-filing-multan",
       "permanent": true
@@ -2263,21 +1768,6 @@
     {
       "source": "/blogs/tax-consultant-hali-road-hyderabad",
       "destination": "/income-tax-filing-hyderabad",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-hall-road-lahore",
-      "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-hanjarwal-lahore",
-      "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-harbanspura-lahore",
-      "destination": "/income-tax-filing-lahore",
       "permanent": true
     },
     {
@@ -2308,16 +1798,6 @@
     {
       "source": "/blogs/tax-consultant-hawkes-bay-karachi",
       "destination": "/income-tax-filing-karachi",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-hayatabad-peshawar",
-      "destination": "/income-tax-filing-peshawar",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-hazro",
-      "destination": "/income-tax-filing",
       "permanent": true
     },
     {
@@ -2356,11 +1836,6 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-hyderabad",
-      "destination": "/income-tax-filing-hyderabad",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-hyderi-karachi",
       "destination": "/income-tax-filing-karachi",
       "permanent": true
@@ -2396,11 +1871,6 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-i8-islamabad",
-      "destination": "/income-tax-filing-islamabad",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-importers-pakistan-2026",
       "destination": "/income-tax-filing",
       "permanent": true
@@ -2416,33 +1886,13 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-iqbal-park-lahore",
-      "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-iqbal-town-sialkot",
       "destination": "/income-tax-filing-sialkot",
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-islamabad",
-      "destination": "/income-tax-filing-islamabad",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-jail-road-lahore",
       "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-jamshoro",
-      "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-jaranwala",
-      "destination": "/income-tax-filing",
       "permanent": true
     },
     {
@@ -2458,16 +1908,6 @@
     {
       "source": "/blogs/tax-consultant-jhelum-city-centre",
       "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-jhelum",
-      "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-jinnah-colony-faisalabad",
-      "destination": "/income-tax-filing-faisalabad",
       "permanent": true
     },
     {
@@ -2496,22 +1936,7 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-johar-town-block-e2-lahore",
-      "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-johar-town-block-g-lahore",
-      "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-johar-town-h1-lahore",
-      "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-johar-town-h2-lahore",
       "destination": "/income-tax-filing-lahore",
       "permanent": true
     },
@@ -2546,11 +1971,6 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-johar-town-phase-1-lahore",
-      "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-johar-town-q-block-lahore",
       "destination": "/income-tax-filing-lahore",
       "permanent": true
@@ -2567,11 +1987,6 @@
     },
     {
       "source": "/blogs/tax-consultant-kala-shah-kaku",
-      "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-kalat",
       "destination": "/income-tax-filing",
       "permanent": true
     },
@@ -2598,11 +2013,6 @@
     {
       "source": "/blogs/tax-consultant-kamoke",
       "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-karachi",
-      "destination": "/income-tax-filing-karachi",
       "permanent": true
     },
     {
@@ -2656,11 +2066,6 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-khanpur",
-      "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-kharan-city",
       "destination": "/income-tax-filing",
       "permanent": true
@@ -2691,11 +2096,6 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-khuzdar",
-      "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-kirani-road-quetta",
       "destination": "/income-tax-filing-quetta",
       "permanent": true
@@ -2708,11 +2108,6 @@
     {
       "source": "/blogs/tax-consultant-kohat-road-rwp-rawalpindi",
       "destination": "/income-tax-filing-rawalpindi",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-kohinoor-city-faisalabad",
-      "destination": "/income-tax-filing-faisalabad",
       "permanent": true
     },
     {
@@ -2731,43 +2126,8 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-korangi-karachi",
-      "destination": "/income-tax-filing-karachi",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-korangi-township-karachi",
       "destination": "/income-tax-filing-karachi",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-kot-abdul-malik-lahore",
-      "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-kot-addu",
-      "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-kot-khawaja-saeed-lahore",
-      "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-kot-momin",
-      "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-kot-radha-kishan",
-      "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-kotli",
-      "destination": "/income-tax-filing",
       "permanent": true
     },
     {
@@ -2796,22 +2156,7 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-lakki-marwat",
-      "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-lalamusa",
-      "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-landhi-industrial-karachi",
-      "destination": "/income-tax-filing-karachi",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-landhi-karachi",
       "destination": "/income-tax-filing-karachi",
       "permanent": true
     },
@@ -2841,11 +2186,6 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-lda-avenue-lahore",
-      "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-leeds-pakistanis",
       "destination": "/income-tax-filing",
       "permanent": true
@@ -2856,22 +2196,7 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-liaquatabad-karachi",
-      "destination": "/income-tax-filing-karachi",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-link-road-lahore",
-      "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-lodhran-city",
-      "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-lodhran",
       "destination": "/income-tax-filing",
       "permanent": true
     },
@@ -2883,16 +2208,6 @@
     {
       "source": "/blogs/tax-consultant-loralai-city",
       "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-loralai",
-      "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-low-income-scheme-multan",
-      "destination": "/income-tax-filing-multan",
       "permanent": true
     },
     {
@@ -2911,16 +2226,6 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-madina-town-faisalabad",
-      "destination": "/income-tax-filing-faisalabad",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-mailsi",
-      "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-malakand-city",
       "destination": "/income-tax-filing",
       "permanent": true
@@ -2933,16 +2238,6 @@
     {
       "source": "/blogs/tax-consultant-malir-city-karachi",
       "destination": "/income-tax-filing-karachi",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-malir-karachi",
-      "destination": "/income-tax-filing-karachi",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-mall-road-lahore",
-      "destination": "/income-tax-filing-lahore",
       "permanent": true
     },
     {
@@ -2981,11 +2276,6 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-margalla-hills-islamabad",
-      "destination": "/income-tax-filing-islamabad",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-margalla-town-islamabad",
       "destination": "/income-tax-filing-islamabad",
       "permanent": true
@@ -2996,38 +2286,13 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-mastung",
-      "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-matiari-city",
       "destination": "/income-tax-filing",
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-mauripur-karachi",
-      "destination": "/income-tax-filing-karachi",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-mcleod-road-lahore",
-      "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-mda-chowk-multan",
       "destination": "/income-tax-filing-multan",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-media-town-islamabad",
-      "destination": "/income-tax-filing-islamabad",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-medical-housing-society-lahore",
-      "destination": "/income-tax-filing-lahore",
       "permanent": true
     },
     {
@@ -3041,18 +2306,8 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-mian-channu",
-      "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-millat-town-faisalabad",
       "destination": "/income-tax-filing-faisalabad",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-mingora-swat",
-      "destination": "/income-tax-filing",
       "permanent": true
     },
     {
@@ -3073,21 +2328,6 @@
     {
       "source": "/blogs/tax-consultant-mississauga-pakistanis",
       "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-mm-alam-road-lahore",
-      "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-model-colony-karachi",
-      "destination": "/income-tax-filing-karachi",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-model-town-a-lahore",
-      "destination": "/income-tax-filing-lahore",
       "permanent": true
     },
     {
@@ -3136,18 +2376,8 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-model-town-extension-lahore",
-      "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-model-town-gujranwala",
       "destination": "/income-tax-filing-gujranwala",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-mozang-lahore",
-      "destination": "/income-tax-filing-lahore",
       "permanent": true
     },
     {
@@ -3161,23 +2391,8 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-multan",
-      "destination": "/income-tax-filing-multan",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-muridke-lahore",
-      "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-murree",
       "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-muslim-park-lahore",
-      "destination": "/income-tax-filing-lahore",
       "permanent": true
     },
     {
@@ -3206,22 +2421,12 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-nankana-sahib",
-      "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-narowal-city-centre",
       "destination": "/income-tax-filing",
       "permanent": true
     },
     {
       "source": "/blogs/tax-consultant-narowal-city",
-      "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-narowal",
       "destination": "/income-tax-filing",
       "permanent": true
     },
@@ -3261,16 +2466,6 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-nazimabad-karachi",
-      "destination": "/income-tax-filing-karachi",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-near-high-court-lahore",
-      "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-near-ittefaq-hospital-lahore",
       "destination": "/income-tax-filing-lahore",
       "permanent": true
@@ -3288,11 +2483,6 @@
     {
       "source": "/blogs/tax-consultant-new-lalazar-rawalpindi",
       "destination": "/income-tax-filing-rawalpindi",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-new-multan",
-      "destination": "/income-tax-filing-multan",
       "permanent": true
     },
     {
@@ -3326,11 +2516,6 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-north-nazimabad-karachi",
-      "destination": "/income-tax-filing-karachi",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-nowshera-city",
       "destination": "/income-tax-filing",
       "permanent": true
@@ -3341,38 +2526,13 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-nowshera",
-      "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-nushki",
-      "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-okara-city",
-      "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-okara",
       "destination": "/income-tax-filing",
       "permanent": true
     },
     {
       "source": "/blogs/tax-consultant-oldham-pakistanis",
       "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-orangi-town-karachi",
-      "destination": "/income-tax-filing-karachi",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-packages-mall-lahore",
-      "destination": "/income-tax-filing-lahore",
       "permanent": true
     },
     {
@@ -3391,17 +2551,7 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-pak-town-islamabad",
-      "destination": "/income-tax-filing-islamabad",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-pakpattan-city",
-      "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-panjgur",
       "destination": "/income-tax-filing",
       "permanent": true
     },
@@ -3426,42 +2576,12 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-pasrur",
-      "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-pattoki",
-      "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-pechs-karachi",
-      "destination": "/income-tax-filing-karachi",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-peoples-colony-faisalabad",
-      "destination": "/income-tax-filing-faisalabad",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-peoples-colony-gujranwala",
       "destination": "/income-tax-filing-gujranwala",
       "permanent": true
     },
     {
       "source": "/blogs/tax-consultant-perth-pakistanis",
-      "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-peshawar",
-      "destination": "/income-tax-filing-peshawar",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-phalia",
       "destination": "/income-tax-filing",
       "permanent": true
     },
@@ -3473,11 +2593,6 @@
     {
       "source": "/blogs/tax-consultant-pib-colony-karachi",
       "destination": "/income-tax-filing-karachi",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-piplan",
-      "destination": "/income-tax-filing",
       "permanent": true
     },
     {
@@ -3516,18 +2631,8 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-qasimabad-hyderabad",
-      "destination": "/income-tax-filing-hyderabad",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-queens-road-lahore",
       "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-quetta",
-      "destination": "/income-tax-filing-quetta",
       "permanent": true
     },
     {
@@ -3551,16 +2656,6 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-raiwind-lahore",
-      "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-raiwind-road-lahore",
-      "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-rajanpur-city",
       "destination": "/income-tax-filing",
       "permanent": true
@@ -3571,17 +2666,7 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-ravi-road-lahore",
-      "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-rawalakot-city",
-      "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-rawalakot",
       "destination": "/income-tax-filing",
       "permanent": true
     },
@@ -3601,18 +2686,8 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-rawalpindi",
-      "destination": "/income-tax-filing-rawalpindi",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-real-estate-agents-pakistan",
       "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-regi-model-town-peshawar",
-      "destination": "/income-tax-filing-peshawar",
       "permanent": true
     },
     {
@@ -3631,23 +2706,8 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-ring-road-lahore",
-      "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-ring-road-peshawar",
-      "destination": "/income-tax-filing-peshawar",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-ring-road-psh-peshawar",
       "destination": "/income-tax-filing-peshawar",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-rohri",
-      "destination": "/income-tax-filing",
       "permanent": true
     },
     {
@@ -3676,27 +2736,7 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-saddar-karachi",
-      "destination": "/income-tax-filing-karachi",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-saddar-peshawar",
-      "destination": "/income-tax-filing-peshawar",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-saddar-rawalpindi",
-      "destination": "/income-tax-filing-rawalpindi",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-sadiqabad-ryk",
-      "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-sadiqabad",
       "destination": "/income-tax-filing",
       "permanent": true
     },
@@ -3726,21 +2766,6 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-samanabad-block-a-lahore",
-      "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-samanabad-block-b-lahore",
-      "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-samanabad-block-d-lahore",
-      "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-samanabad-block-e-lahore",
       "destination": "/income-tax-filing-lahore",
       "permanent": true
@@ -3756,17 +2781,7 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-samanabad-faisalabad",
-      "destination": "/income-tax-filing-faisalabad",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-samanabad-lahore-area",
-      "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-sambrial",
       "destination": "/income-tax-filing",
       "permanent": true
     },
@@ -3796,11 +2811,6 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-sargodha",
-      "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-sariab-road-quetta",
       "destination": "/income-tax-filing-quetta",
       "permanent": true
@@ -3816,11 +2826,6 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-satellite-town-rawalpindi",
-      "destination": "/income-tax-filing-rawalpindi",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-scheme-33-karachi",
       "destination": "/income-tax-filing-karachi",
       "permanent": true
@@ -3831,28 +2836,13 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-sector-e-bahria-lahore",
-      "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-shadman-lahore-area",
       "destination": "/income-tax-filing",
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-shah-faisal-colony-karachi",
-      "destination": "/income-tax-filing-karachi",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-shah-latif-town-karachi",
       "destination": "/income-tax-filing-karachi",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-shah-rukn-e-alam-multan",
-      "destination": "/income-tax-filing-multan",
       "permanent": true
     },
     {
@@ -3868,11 +2858,6 @@
     {
       "source": "/blogs/tax-consultant-shahdadpur",
       "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-shahdara-lahore",
-      "destination": "/income-tax-filing-lahore",
       "permanent": true
     },
     {
@@ -3896,17 +2881,7 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-shakargarh",
-      "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-shalamar-lahore",
-      "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-shalimar-link-road-lahore",
       "destination": "/income-tax-filing-lahore",
       "permanent": true
     },
@@ -3918,11 +2893,6 @@
     {
       "source": "/blogs/tax-consultant-sharjah-pakistanis",
       "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-shaukat-town-lahore",
-      "destination": "/income-tax-filing-lahore",
       "permanent": true
     },
     {
@@ -3961,11 +2931,6 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-shikarpur",
-      "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-shopkeepers-pakistan",
       "destination": "/income-tax-filing",
       "permanent": true
@@ -3973,11 +2938,6 @@
     {
       "source": "/blogs/tax-consultant-shujabad",
       "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-sialkot",
-      "destination": "/income-tax-filing-sialkot",
       "permanent": true
     },
     {
@@ -4001,11 +2961,6 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-soldier-bazaar-karachi",
-      "destination": "/income-tax-filing-karachi",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-southall-pakistanis",
       "destination": "/income-tax-filing",
       "permanent": true
@@ -4013,11 +2968,6 @@
     {
       "source": "/blogs/tax-consultant-spini-road-quetta",
       "destination": "/income-tax-filing-quetta",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-state-life-housing-lahore",
-      "destination": "/income-tax-filing-lahore",
       "permanent": true
     },
     {
@@ -4051,21 +3001,6 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-sukkur",
-      "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-surjani-town-karachi",
-      "destination": "/income-tax-filing-karachi",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-susan-road-faisalabad",
-      "destination": "/income-tax-filing-faisalabad",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-swabi-city",
       "destination": "/income-tax-filing",
       "permanent": true
@@ -4081,22 +3016,7 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-talagang",
-      "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-tandlianwala",
-      "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-tando-allahyar-city",
-      "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-tando-allahyar",
       "destination": "/income-tax-filing",
       "permanent": true
     },
@@ -4108,16 +3028,6 @@
     {
       "source": "/blogs/tax-consultant-tank-city",
       "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-tariq-road-karachi",
-      "destination": "/income-tax-filing-karachi",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-tarlai-islamabad",
-      "destination": "/income-tax-filing-islamabad",
       "permanent": true
     },
     {
@@ -4146,17 +3056,7 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-timergara",
-      "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-toba-tek-singh-city",
-      "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-toba-tek-singh",
       "destination": "/income-tax-filing",
       "permanent": true
     },
@@ -4167,11 +3067,6 @@
     },
     {
       "source": "/blogs/tax-consultant-township-sector-b2-lahore",
-      "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-township-sector-c-lahore",
       "destination": "/income-tax-filing-lahore",
       "permanent": true
     },
@@ -4216,11 +3111,6 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-university-town-peshawar",
-      "destination": "/income-tax-filing-peshawar",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-upper-mall-lahore",
       "destination": "/income-tax-filing-lahore",
       "permanent": true
@@ -4261,11 +3151,6 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-wah-cantt",
-      "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-walled-city-lahore",
       "destination": "/income-tax-filing-lahore",
       "permanent": true
@@ -4281,23 +3166,8 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-wapda-city-multan",
-      "destination": "/income-tax-filing-multan",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-wapda-town-gujranwala",
       "destination": "/income-tax-filing-gujranwala",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-war-memorial-faisalabad",
-      "destination": "/income-tax-filing-faisalabad",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-warsak-road-peshawar",
-      "destination": "/income-tax-filing-peshawar",
       "permanent": true
     },
     {
@@ -4311,16 +3181,6 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-westridge-rawalpindi",
-      "destination": "/income-tax-filing-rawalpindi",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-yazman",
-      "destination": "/income-tax-filing",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-younas-colony-lahore",
       "destination": "/income-tax-filing-lahore",
       "permanent": true
@@ -4328,11 +3188,6 @@
     {
       "source": "/blogs/tax-consultant-zafar-ali-road-lahore",
       "destination": "/income-tax-filing-lahore",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/tax-consultant-zafarwal",
-      "destination": "/income-tax-filing",
       "permanent": true
     },
     {
