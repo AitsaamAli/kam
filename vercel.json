@@ -76,6 +76,31 @@
   ],
   "redirects": [
     {
+      "source": "/blogs/advance-tax-section-147-pakistan",
+      "destination": "/blogs/advance-tax-installments-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/advance-income-tax-pakistan",
+      "destination": "/blogs/advance-tax-installments-pakistan",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/corporate-income-tax-pakistan-2026",
+      "destination": "/blogs/corporate-tax-rate-pakistan-2026",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/prize-bond-tax-pakistan",
+      "destination": "/blogs/tax-on-prize-bonds-pakistan-2026",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/business-income-tax-return-pakistan",
+      "destination": "/blogs/business-income-tax-pakistan-2026",
+      "permanent": true
+    },
+    {
       "source": "/blogs/tax-consultant-garden-town-lahore",
       "destination": "/tax-consultant-garden-town-lahore",
       "permanent": true
