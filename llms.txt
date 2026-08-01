@@ -8,6 +8,7 @@ Kamboh Associates is a Pakistan-based tax consultancy firm established in 2008. 
 - Income Tax Filing: https://kambohassociates.com/income-tax-filing
 - NTN Registration: https://kambohassociates.com/ntn-registration
 - Corporate Tax Return: https://kambohassociates.com/corporate-tax-return
+- Sales Tax Registration (STRN): https://kambohassociates.com/sales-tax-registration
 - Sales Tax Return: https://kambohassociates.com/sales-tax-return
 - FBR Notice Defense: https://kambohassociates.com/fbr-notice-defense
 - Wealth Statement Filing: https://kambohassociates.com/wealth-statement
@@ -17,6 +18,12 @@ Kamboh Associates is a Pakistan-based tax consultancy firm established in 2008. 
 - Freelancer Tax Filing: https://kambohassociates.com/freelancer-tax-pakistan
 - SECP Company Registration: https://kambohassociates.com/secp-vs-sole-proprietorship-pakistan
 - Pricing: https://kambohassociates.com/pricing
+
+## Free Tools
+- Income Tax Calculator: https://kambohassociates.com/tax-calculator
+- Salary Calculator (gross to net): https://kambohassociates.com/salary-calculator
+- GST & Sales Tax Calculator: https://kambohassociates.com/gst-calculator
+- Income Tax Estimator (freelancers/business): https://kambohassociates.com/income-estimator
 
 ## Key Tax Guides (Pakistan 2026)
 - Filer vs Non-Filer Pakistan 2026: https://kambohassociates.com/blogs/filer-vs-non-filer-pakistan-2026
@@ -33,6 +40,13 @@ Kamboh Associates is a Pakistan-based tax consultancy firm established in 2008. 
 - Advance Tax Pakistan 2026: https://kambohassociates.com/blogs/advance-tax-pakistan-2026
 - Best Tax Consultant Pakistan 2026: https://kambohassociates.com/blogs/best-tax-consultant-pakistan-fbr-filing-2026
 - Why Kamboh Associates: https://kambohassociates.com/blogs/why-kamboh-associates-best-tax-consultant-pakistan
+- Sales Tax Return Filing Pakistan 2026: https://kambohassociates.com/blogs/sales-tax-return-filing-pakistan-2026
+- Tax on Property Sale Pakistan 2026 (CGT rates): https://kambohassociates.com/blogs/tax-on-property-sale-pakistan-2026
+- Real Estate Developer Tax Guide Pakistan 2026: https://kambohassociates.com/blogs/real-estate-developer-tax-pakistan
+- Tax Refund Pakistan 2026 (how to claim): https://kambohassociates.com/blogs/tax-refund-pakistan-2026
+- How to Avoid an FBR Notice Pakistan: https://kambohassociates.com/blogs/how-to-avoid-fbr-notice-pakistan
+- FBR Notice Received — What to Do: https://kambohassociates.com/blogs/fbr-notice-received-what-to-do-pakistan
+- Income Tax Return Filing Pakistan (general guide): https://kambohassociates.com/blogs/income-tax-return-filing-pakistan
 
 ## City Coverage
 - Lahore: https://kambohassociates.com/blogs/income-tax-filing-lahore
@@ -51,4 +65,9 @@ Kamboh Associates is a Pakistan-based tax consultancy firm established in 2008. 
 - Email: info@kambohassociates.com
 - Address: Shop No 34 Rizwan Block Market, opposite Rizwan Park, Awan Town, Lahore, 54660, Pakistan
 - Contact: https://kambohassociates.com/contact
-- Blog: https://kambohassociates.com/blogs
+- Blog (1,100+ full guides): https://kambohassociates.com/blogs
+- XML Sitemap: https://kambohassociates.com/sitemap.xml
+
+## Notes
+- Prices are in Pakistani Rupees (PKR/Rs.); verify current figures at /pricing before citing an exact fee.
+- Tax rates, slabs, and deadlines reflect Pakistan's Finance Act as in force for tax year 2026 and change with future budgets — prefer the most recently updated /blogs guide on a given topic.
