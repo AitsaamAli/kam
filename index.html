@@ -2035,37 +2035,37 @@ select.form-control { cursor: pointer }
         <div class="svc-icon svc-icon-gold"><i class="fas fa-shield-alt"></i></div>
         <h3 class="svc-title">FBR Notice Defense</h3>
         <ul class="svc-list"><li>Audit notice representation</li><li>FBR officer hearings</li><li>Legal reply drafting</li><li>Appeals &amp; reconciliation</li></ul>
-        <a href="/fbr-notice-defense" class="svc-link">Learn More <i class="fas fa-arrow-right"></i></a>
+        <a href="/fbr-notice-defense" class="svc-link" aria-label="Learn more about FBR Notice Defense">Learn More <i class="fas fa-arrow-right"></i></a>
       </div>
       <div class="svc-card reveal" style="transition-delay:.4s">
         <div class="svc-icon svc-icon-gold"><i class="fas fa-wallet"></i></div>
         <h3 class="svc-title">Wealth Statement</h3>
         <ul class="svc-list"><li>Assets &amp; liabilities reconciliation</li><li>Foreign assets disclosure</li><li>FBR wealth statement filing</li><li>Year-on-year comparison</li></ul>
-        <a href="/wealth-statement" class="svc-link">Learn More <i class="fas fa-arrow-right"></i></a>
+        <a href="/wealth-statement" class="svc-link" aria-label="Learn more about Wealth Statement">Learn More <i class="fas fa-arrow-right"></i></a>
       </div>
       <div class="svc-card reveal" style="transition-delay:.45s">
         <div class="svc-icon svc-icon-teal"><i class="fas fa-hand-holding-usd"></i></div>
         <h3 class="svc-title">Withholding Tax (WHT)</h3>
         <ul class="svc-list"><li>Monthly WHT deduction</li><li>CPR challan submission</li><li>Annual WHT statement</li><li>Withholding agent registration</li></ul>
-        <a href="/withholding-tax" class="svc-link" style="color:var(--teal-mid)">Learn More <i class="fas fa-arrow-right"></i></a>
+        <a href="/withholding-tax" class="svc-link" style="color:var(--teal-mid)" aria-label="Learn more about Withholding Tax">Learn More <i class="fas fa-arrow-right"></i></a>
       </div>
       <div class="svc-card reveal" style="transition-delay:.5s">
         <div class="svc-icon svc-icon-gold"><i class="fas fa-building"></i></div>
         <h3 class="svc-title">Corporate Tax Return</h3>
         <ul class="svc-list"><li>Company annual tax filing</li><li>Deferred tax computation</li><li>Transfer pricing compliance</li><li>SECP &amp; FBR coordination</li></ul>
-        <a href="/corporate-tax-return" class="svc-link">Learn More <i class="fas fa-arrow-right"></i></a>
+        <a href="/corporate-tax-return" class="svc-link" aria-label="Learn more about Corporate Tax Return">Learn More <i class="fas fa-arrow-right"></i></a>
       </div>
       <div class="svc-card reveal" style="transition-delay:.55s">
         <div class="svc-icon svc-icon-teal"><i class="fas fa-file-alt"></i></div>
         <h3 class="svc-title">Sales Tax Return</h3>
         <ul class="svc-list"><li>Monthly GST return filing</li><li>Input/output tax reconciliation</li><li>SRB &amp; PRA filings</li><li>GST refund claims</li></ul>
-        <a href="/sales-tax-return" class="svc-link" style="color:var(--teal-mid)">Learn More <i class="fas fa-arrow-right"></i></a>
+        <a href="/sales-tax-return" class="svc-link" style="color:var(--teal-mid)" aria-label="Learn more about Sales Tax Return">Learn More <i class="fas fa-arrow-right"></i></a>
       </div>
       <div class="svc-card reveal" style="transition-delay:.6s">
         <div class="svc-icon svc-icon-gold"><i class="fas fa-users"></i></div>
         <h3 class="svc-title">EOBI Registration</h3>
         <ul class="svc-list"><li>Employer EOBI registration</li><li>Employee enrollment</li><li>Monthly contribution filing</li><li>EOBI compliance management</li></ul>
-        <a href="/eobi-registration" class="svc-link">Learn More <i class="fas fa-arrow-right"></i></a>
+        <a href="/eobi-registration" class="svc-link" aria-label="Learn more about EOBI Registration">Learn More <i class="fas fa-arrow-right"></i></a>
       </div>
     </div>
   </div>
@@ -2688,11 +2688,11 @@ function showFaqItem(idx,el){
       <div>
         <div class="footer-col-head">Tax Tools</div>
         <ul class="footer-links">
-          <li><a href="javascript:void(0)" onclick="openModal('salary')">Salary Tax Calculator</a></li>
-          <li><a href="javascript:void(0)" onclick="openModal('gst')">GST Calculator</a></li>
-          <li><a href="javascript:void(0)" onclick="openModal('wht')">WHT Calculator</a></li>
-          <li><a href="javascript:void(0)" onclick="openModal('business')">Business Tax Estimator</a></li>
-          <li><a href="javascript:void(0)" onclick="openModal('ntn')">NTN Checker</a></li>
+          <li><a href="/salary-calculator" onclick="openModal('salary');return false;">Salary Tax Calculator</a></li>
+          <li><a href="/gst-calculator" onclick="openModal('gst');return false;">GST Calculator</a></li>
+          <li><a href="/tax-calculator" onclick="openModal('wht');return false;">WHT Calculator</a></li>
+          <li><a href="/income-estimator" onclick="openModal('business');return false;">Business Tax Estimator</a></li>
+          <li><a href="/ntn-registration" onclick="openModal('ntn');return false;">NTN Checker</a></li>
         </ul>
       </div>
       <div>
@@ -3301,13 +3301,11 @@ document.querySelectorAll('[data-count]').forEach(function(el) {
 /* ─── DASHBOARD BARS ─── */
 (function() {
   const barData = [42,55,38,62,48,70,58,45,65,80];
-  const colors = ['gold','teal','gold','teal','gold','gold','teal','gold','teal','gold'];
   const container = document.getElementById('dbBars');
   if (!container) return;
   const maxVal = Math.max(...barData);
   barData.forEach(function(val, i) {
     const bar = document.createElement('div');
-    bar.className = 'db-bar db-bar-' + colors[i % 2 === 0 ? 'gold' : 'teal'].replace('gold','gold').replace('teal','teal');
     bar.className = 'db-bar ' + (i % 2 === 0 ? 'db-bar-gold' : 'db-bar-teal');
     bar.style.height = '4px';
     bar.title = 'Month ' + (i+1) + ': ' + val + ' filings';
