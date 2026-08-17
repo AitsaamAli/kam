@@ -1,16 +1,109 @@
+# ============================================
+# robots.txt — kambohassociates.com
+# Last updated: 2026-08-17
+# Strategy: open to search + AI, block only utility/aggressive-scraper paths
+# ============================================
+
 User-agent: *
 Allow: /
 
-User-agent: GPTBot
+# ---------- Traditional search engines ----------
+User-agent: Googlebot
 Allow: /
 
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# ---------- Google AI (Gemini / AI grounding) ----------
+# NOTE: blocking this does NOT affect Google Search rankings,
+# but it DOES remove us from Gemini grounding. Keep allowed.
 User-agent: Google-Extended
 Allow: /
 
+# ---------- OpenAI ----------
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# ---------- Anthropic (Claude) ----------
 User-agent: ClaudeBot
 Allow: /
 
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# ---------- Perplexity ----------
 User-agent: PerplexityBot
 Allow: /
 
+User-agent: Perplexity-User
+Allow: /
+
+# ---------- Apple ----------
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# ---------- Meta ----------
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+# ---------- Others ----------
+User-agent: Amazonbot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+# ---------- Aggressive scrapers (throttle / block) ----------
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+# ---------- Sitemap ----------
 Sitemap: https://kambohassociates.com/sitemap.xml
