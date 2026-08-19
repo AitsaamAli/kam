@@ -61,6 +61,16 @@ Corporate tax consultant / company registration consultant / GST registration co
 | 25 | SME Tax Consultant in Faisalabad | `sme-tax-consultant-faisalabad.html` |
 | 26 | SME Tax Consultant in Sialkot (Export Sector Focus) | `sme-tax-consultant-sialkot.html` |
 
+## Addendum 2026-08-19 — Competitor keyword research cross-check
+User provided two external "audit"/keyword-strategy documents claiming several head-term pages (crypto-tax-pakistan-2026, filer-vs-non-filer-pakistan-2026, withholding-tax-rates-pakistan-2026, etc.) were 404/missing. Verified against the actual repo: **all of these already exist as real, live content** — the external audit was checking non-existent root-level alias URLs, not the real `/blogs/` pages (same false-premise pattern already caught and documented in memory). No content-creation action needed there.
+
+Cross-checking the same document's competitor/keyword clusters against actual site coverage did surface 3 genuine, previously-unplanned gaps, added as new priority topics:
+101. PSEB Registration & Freelancer Tax Exemption Guide (dedicated deep-dive — currently only a passing 5-mention reference inside `freelancer-tax-pakistan-2026.html`, competitor research confirms this is a validated high-value long-tail: "PSEB registration tax exemption")
+102. NTN Registration for Overseas Pakistanis (consolidated general guide — existing coverage is scattered/country-specific like Dubai only; competitor research flags this as an underserved sub-topic with only 1-2 competitors)
+103. Tax Filing Package / Bundle Pricing (all-in-one compliance package — genuine gap, zero existing coverage; competitor research flags most competitors price services individually, not as bundles — differentiation + AOV opportunity)
+
+Also independently validates the existing plan: Section C (pricing), Section D (hire-for-persona), Section E (near-me), and Section K (urgency/same-day) all directly match this document's own "Cluster 13 — Commercial/Transactional Intent" as the highest-conversion, highest-priority cluster to build next — proceeding with Section C first as originally planned.
+
 ## Section C — Pricing / Fee / Cost Pages (12 topics)
 Only 1 generic fees page exists sitewide. Genuine gap — high commercial intent ("X cost/fee/price" = near-decision searcher).
 
