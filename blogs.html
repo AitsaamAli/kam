@@ -49,19 +49,7 @@
   --gold-bg:rgba(184,150,12,0.06); --teal-bg:rgba(20,184,166,0.06);
   --card-hover:#FAFBFC;
 }
-[data-theme="dark"] {
-  --bg:#0A0F1E; --bg-2:#0F172A; --bg-3:#1E293B; --bg-4:#263247;
-  --surface:#0F172A; --surface-2:#1A2540;
-  --border:rgba(255,255,255,0.08); --border-gold:rgba(212,175,55,0.2);
-  --text:#F1F5F9; --text-2:#CBD5E1; --text-3:#64748B; --text-4:#475569;
-  --topbar-bg:#060C1A; --topbar-text:#64748B;
-  --nav-bg:rgba(10,15,30,0.97); --nav-border:rgba(255,255,255,0.06);
-  --shadow:0 1px 3px rgba(0,0,0,0.4),0 4px 16px rgba(0,0,0,0.3);
-  --shadow-lg:0 8px 32px rgba(0,0,0,0.5);
-  --shadow-xl:0 20px 60px rgba(0,0,0,0.6);
-  --gold-bg:rgba(212,175,55,0.08); --teal-bg:rgba(20,184,166,0.1);
-  --card-hover:rgba(30,41,59,0.9);
-}
+
 
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth;font-size:16px}
@@ -122,7 +110,7 @@ ul{list-style:none}
 
 /* ── HERO ── */
 .blog-hero{background:linear-gradient(135deg,var(--gold-pale),var(--surface-2));padding:80px 0 60px;text-align:center;position:relative;overflow:hidden}
-[data-theme="dark"] .blog-hero{background:linear-gradient(135deg,rgba(184,150,12,0.08),var(--bg-2))}
+
 .blog-hero::before{content:'';position:absolute;inset:0;background-image:linear-gradient(rgba(184,150,12,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(184,150,12,.04) 1px,transparent 1px);background-size:48px 48px;mask-image:radial-gradient(ellipse 80% 80% at 50% 50%,black 0%,transparent 100%)}
 .blog-hero .container{position:relative;z-index:2}
 .blog-hero-eyebrow{font-family:var(--font-display);font-size:.6rem;letter-spacing:.3em;text-transform:uppercase;color:#14B8A6;display:block;margin-bottom:16px}
@@ -245,12 +233,6 @@ footer{background:var(--topbar-bg);border-top:1px solid rgba(255,255,255,.06);pa
 footer{padding-bottom:100px}
 @media(max-width:767px){footer{padding-bottom:100px}}
 </style>
-<script>
-(function(){
-  const t=localStorage.getItem('site-theme');
-  if(t) document.documentElement.setAttribute('data-theme',t);
-})();
-</script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-2ZLVR968Y8"></script>
 <script>
