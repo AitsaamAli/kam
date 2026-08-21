@@ -67,11 +67,11 @@ a{text-decoration:none;color:inherit}ul{list-style:none}
 .highlight-box{background:var(--teal-bg);border-left:4px solid #14B8A6;border-radius:0 var(--radius) var(--radius) 0;padding:18px 20px;margin:20px 0}
 .highlight-box p{margin:0;font-size:.93rem;color:var(--text-2)}
 .faq-list{margin:0}
-.faq-item{border:1px solid var(--border);border-radius:var(--radius);margin-bottom:10px;overflow:hidden}
+.faq-item{border:1px solid var(--border);border-radius:var(--radius);margin-bottom:10px;overflow:hidden;border-left:3px solid #B8860C;box-shadow:0 1px 2px rgba(15,23,42,.03);}
 .faq-q{padding:16px 20px;font-weight:600;cursor:pointer;display:flex;justify-content:space-between;align-items:center;font-size:.95rem;background:var(--bg-2)}.faq-q:hover{color:#14B8A6}
-.faq-q i{transition:transform .3s;color:#14B8A6;flex-shrink:0}
+.faq-q i{color:#fff;transition:transform .3s ease,background .3s ease;flex-shrink:0;width:24px;height:24px;border-radius:50%;background:linear-gradient(150deg,#0F172A,#14B8A6);display:inline-flex;align-items:center;justify-content:center;box-shadow:0 6px 14px -6px rgba(15,23,42,.4);font-size:.8rem;}
 .faq-a{display:none;padding:16px 20px;border-top:1px solid var(--border);color:var(--text-2);font-size:.9rem;line-height:1.7}
-.faq-item.open .faq-a{display:block}.faq-item.open .faq-q i{transform:rotate(180deg)}
+.faq-item.open .faq-a{display:block}.faq-item.open .faq-q i{transform:rotate(180deg);background:linear-gradient(150deg,#E4C158,#B8860C);}
 .article-cta{position:relative;overflow:hidden;background:radial-gradient(120% 140% at 15% -10%,#1E3A5F 0%,#0F172A 46%,#06110E 100%);border-radius:var(--radius-lg,20px);padding:40px 36px;text-align:center;margin:40px 0 0;color:#fff;box-shadow:0 24px 50px -18px rgba(0,0,0,.5),0 0 0 1px rgba(228,193,88,.22);}.article-cta::before{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(circle at 88% -6%,rgba(228,193,88,.35),transparent 52%),radial-gradient(circle at -6% 108%,rgba(20,184,166,.3),transparent 50%);}
 .article-cta h3{font-family:var(--font-serif);font-size:1.6rem;margin-bottom:10px;position:relative;}
 .article-cta p{font-size:.9rem;opacity:.85;margin-bottom:24px;line-height:1.7;max-width:480px;margin-left:auto;margin-right:auto;color:#fff!important;position:relative;}
