@@ -33,6 +33,7 @@ Read files in this order depending on your task:
 10. `10-known-issues-and-open-items.md` — unresolved/deferred items a future session should know about
 11. `11-working-norms-and-user-preferences.md` — corrections and confirmed preferences from the user, i.e. don't repeat these mistakes
 12. `12-chronological-work-log.md` — month-by-month timeline of what happened, for orientation
+13. `13-remaining-countries-blog-titles.md` — finalized blog **titles** for every country cluster not yet written (Germany, Canada, USA, Ireland, Gulf, Italy/Spain/Greece/Portugal) — titles/plan only, none of this content exists yet
 
 ## Critical ground rules (do not skip)
 
