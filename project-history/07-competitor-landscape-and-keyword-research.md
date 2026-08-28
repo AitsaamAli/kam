@@ -1,6 +1,44 @@
 # Competitor Landscape & Keyword Research Method
 
-## Known competitors (confirmed via live research across multiple sessions)
+## Companion documents (in Downloads, not this repo — pull into the project if referenced again)
+Two detailed reports exist outside this repo, prepared 2026-08-19 by a "Claude (Cowork)" session:
+- `Kamboh_Associates_Keyword_Cluster_Strategy.md` — 12-cluster keyword map with Demand/Competition tiers (A/B/C), built from **18 live Google SERP queries** (not Semrush — API units were exhausted), so it's a real "who currently ranks" snapshot rather than volume/CPC data.
+- `Kamboh_Associates_Indexing_Audit.md` — the companion technical audit this keyword report cross-references (broken URLs, doorway-page risk, missing schema). Not yet read into this history folder — pull it in if a future session needs the technical side.
+
+### General local-tax-consultancy competitors (verified via live SERP research, 2026-08-19)
+Distinct from the earlier informational-content-gap competitor list below — this set was built specifically from **currently-ranking, commercial-intent queries** (not blog-topic coverage):
+
+| Competitor | Base | Strongest at | Threat |
+|---|---|---|---|
+| waystax.com | Pakistan-wide | Freelancer tax, SECP/company registration, general listicles | High — broad footprint |
+| taxationpk.com | Pakistan-wide | Filer guide, WHT rate card, AOP/partnership | High |
+| bacoconsultants.com | Islamabad | WHT rates, filer vs non-filer, FBR notices, seasonal content | High — publishes fast |
+| paktaxcalc.com / paktaxcalculator.pk | Pakistan-wide | Calculators + filer/deadline content, tool+content hybrid | High |
+| righttaxadvisor.pk | Pakistan-wide | FBR notice/audit defense, **owns AOP/partnership near-monopoly** (5 of 9 results in one query) | Medium-High, narrow but deep |
+| akbartaxstore.com | Pakistan-wide | Calculators, WHT rates, deadlines | Medium-High |
+| qureshiandcompany.com | Lahore (Samanabad) | Hyper-local Lahore neighborhood pages, NTN + sales tax | **High for Lahore local** — closest direct local competitor |
+| irshadandco.com | Lahore | Filing guide, FBR notice types (17-notice reference asset), "best tax consultant Lahore" | High for Lahore local |
+| ict.net.pk / ict.edu.pk | Pakistan-wide | Freelancer/crypto/filer/sales-tax, publishes across almost every 2026 topic | Medium-High |
+| pakfiler.com, urcapk.com, jzarrfilers.com, taxflow.com.pk | Pakistan-wide | GST, freelancer, NTN, filer-vs-nonfiler respectively | Low-Medium each |
+| sarmaaya.pk | Pakistan-wide (fintech) | Salary tax calculator — high-authority platform, not a services competitor but outranks on calculator intent | Medium (DA risk) |
+| corptaxsolution.com, taxcare.pk, tmrc.com.pk, ascoconsultant.com, zallp.com, paktaxservices.com | Lahore/Pakistan-wide | Generic "tax consultant [city]" directory rankings | Low-Medium each, but collectively crowd the head local terms |
+
+**Kamboh Associates already ranks live** (confirmed in this same research) for: `income-tax-return-deadline-pakistan-2026`, `fbr-income-tax-return-deadline-2026-pakistan`, `company-registration-pakistan-2026`, `fbr-notice-defense`, `tax-audit-consultant-lahore` — proof the template/content works when the URL resolves; per that audit, several ranking gaps are a **distribution/technical problem** (broken URLs — see below), not a content-quality one.
+
+### Keyword clusters (Tier A = 8+ competitor pages, hardest; B = 4-7; C = 1-3 or a spotted gap, easiest win)
+Full 12-cluster table lives in `Kamboh_Associates_Keyword_Cluster_Strategy.md` (Downloads) — headline findings worth remembering without re-reading the whole file:
+- **Tier A (hardest, highest-value):** Income Tax Filing & Registration, Filer vs Non-Filer, Withholding Tax rates, Freelancer/Digital Economy tax, Tax Calculators.
+- **Tier B (winnable):** Crypto Tax (**rising fast — no tax-consultancy firm has a strong page yet**, only exchange/finance blogs; a licensed consultant beats them on E-E-A-T), NTN Registration (**overseas-Pakistani angle is a genuine gap**, only 1-2 competitors), Sales Tax/GST, Property Tax/Capital Gains (**dominated by real-estate sites, not tax firms** — a compliance-framing page is a clear differentiator), Corporate/SECP (Kamboh already competes here), FBR Notices/Audit (Kamboh already competes here).
+- **Tier C (easiest win):** AOP/Partnership tax — righttaxadvisor.pk dominates by page *count*, not necessarily quality; a single comprehensive AOP hub page can realistically outrank it.
+
+**Cross-reference finding (important — technical, not content):** at the time of that report, several sitemap URLs were reportedly 404ing that map directly onto Tier-A clusters: `/filer-vs-nonfiler`, `/income-tax-filing-lahore` (+ karachi/islamabad), `/withholding-tax-rates-pakistan`, `/crypto-tax-pakistan-2026`. **Re-verify current status before trusting this** — this report predates the 2026-08-19 sitemap-cache root-cause fix documented in `04-seo-technical-history.md` Wave 5 (same day), so some or all of these may already be resolved. Check live with `curl` rather than assuming either way.
+
+### AEO/FAQ question-shaped keywords worth targeting (from the same report)
+"How much tax do I have to pay in Pakistan?", "What happens if I don't file my tax return?", "Is filing a tax return mandatory in Pakistan?", "Can overseas Pakistanis file a tax return?", "What is Section 7E in Pakistan tax law?", "How do I respond to an FBR notice?" — these map to clusters already covered on the site; ensure the cornerstone page for each has this exact question phrasing in its visible FAQ + JSON-LD.
+
+---
+
+## Known competitors — informational content-gap research (confirmed via live research, 2026-08-13 era)
 
 ### General Pakistani tax-filing/FBR-consultant competitors
 Found via live web search when researching the informational 100-topic content-gap plan:

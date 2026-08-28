@@ -66,13 +66,25 @@ User wants to target the audience of Pakistanis applying for foreign student/wor
 - **Portugal** — the Golden Visa route Pakistanis used to pursue is **no longer available** — a live "what changed / what to do instead" angle. Seasonal work visa route still open.
 - ⚠️ **Known issue:** the existing Spain/Greece/Portugal pillar pages have 16-34% content overlap with each other (flagged to user, not yet resolved) — see `10-known-issues-and-open-items.md`. Any new work in this Tier 3 group should fix that overlap, not add to it.
 
-### Recommendation from the report (still valid guidance for what's next)
-- **Next pick: Germany** — similar tax-doc strength to UK/Australia, thin existing coverage, second-fastest growth after UK.
-- **Fastest news-hook opportunity: Italy** — but as a #2 cluster given the thinner tax-doc angle.
-- **Avoid leading with Canada.**
+### Recommendation from the report (UK, Australia, Germany, Italy, and USA all now done — see status below)
+- ~~Next pick: Germany~~ **DONE 2026-08-28.**
+- ~~Fastest news-hook opportunity: Italy~~ **DONE 2026-08-28** (as a 4-post cluster, not 5 — see below).
+- **USA also done 2026-08-28**, ahead of its original lower-priority ranking, because a complete content package was drafted externally and delivered ready to publish — see `13-remaining-countries-blog-titles.md` for what's genuinely still remaining (Canada, Ireland, the Gulf, Spain/Greece/Portugal).
+- **Avoid leading with Canada** (still applies — approval rate collapsed to ~38%).
 - If the goal shifts to pure traffic volume over visa-tax-doc relevance, Saudi/UAE/Gulf content (NTN + filer-status-for-overseas-workers) would reach a far larger audience — a distinct project for later.
 
-### The 5-post cluster template (used for both UK and Australia, reuse for the next country)
+### Status as of 2026-08-28: UK, Australia, Germany, Italy, USA all done
+- **UK** — pillar rewritten + 5-post cluster (student/skilled-worker/business-investor/visitor/after-moving). Done 2026-08-25.
+- **Australia** — pillar rewritten + 5-post cluster (same pattern). Done 2026-08-25.
+- **Germany** — pillar rewritten (919→2,595 words) + **4-post cluster** (student, Blue Card, Opportunity Card, after-moving — Opportunity Card replaces the visitor slot since Germany has no meaningful visitor-visa tax-doc angle). Done 2026-08-28. Content drafted externally (a "Claude Cowork" session, per its own byline) following this project's documented process, then verified/wired in here — see `05-blog-content-inventory-and-rewrite-method.md` and the git log for commit `87bff701`.
+- **Italy** — pillar **re-platformed** (was on an older, different CSS template — not MINIFIED like the rest of the series — and had a real factual error: it claimed FBR returns are needed for Italy's work-permit route, which fresh research found false for the 2026 Decreto Flussi quota visa) + **4-post cluster** (quota news-hook, seasonal work + 182-day rule, moving-to-Italy, remittance/property — not the student/skilled/business/visitor pattern, because Decreto Flussi has no proof-of-funds step to write a "financial evidence checklist" about). Done 2026-08-28. Commit `e390b9d8`.
+- **USA** — brand-new pillar (0 dedicated pages existed before) + full 5-post cluster (F-1, H-1B, EB-5, B1/B2, after-moving). Done 2026-08-28, ahead of its original lower-priority ranking (small visa pool) because a complete, well-researched content package was delivered externally. EB-5's USCIS source-of-funds standard (8 CFR 204.6(j)) makes it the single most FBR-document-heavy visa route on the entire site. Commit `a45268e1`.
+
+**Open finding from the USA batch:** its own README claimed a uniqueness cross-check against a "Canada cluster" (`05-moving-to-canada.js`) that does not exist anywhere in the repo or in any delivered zip. This could not be verified and should be treated as an unconfirmed/likely-erroneous claim in that source material — flagged, not corrected, since the actual uniqueness checks that *could* be run (against UK/Australia/Germany/Italy and the real existing Canada pillar) all came back clean.
+
+**Genuinely still remaining:** Canada (full cluster, existing pillar at 1,533 words), Ireland (new pillar needed), the Gulf (Saudi/UAE/Qatar — different content structure, see `07-competitor-landscape-and-keyword-research.md`), and fixing the Spain/Greece/Portugal overlap (`10-known-issues-and-open-items.md` item #1) before any Tier 3 expansion. See `13-remaining-countries-blog-titles.md` for the up-to-date list.
+
+### The 5-post cluster template (established with UK and Australia; Germany/Italy show it should flex per-country, not be applied rigidly)
 Each country gets: (1) a rewritten/upgraded pillar page if the existing one is thin, then 5 new posts:
 1. **Student Visa** — FBR Tax Documents & Financial Evidence Checklist
 2. **Skilled/Work Visa** — NTN, Tax Returns & Sponsorship Document Guide

@@ -4,7 +4,7 @@ This folder is a deep-dive project history for **kambohassociates.com**, written
 
 **Repo:** `C:\Users\786\Desktop\kam` (GitHub: `github.com/AitsaamAli/kam`, branch `main`, Vercel auto-deploy on push)
 **Site:** kambohassociates.com — Pakistani tax consultancy (FBR/NTN filing, SECP company registration, sales tax, overseas Pakistani tax compliance), based in Lahore, founded 2008.
-**Scale as of 2026-08-27:** 1,282 files in `blogs/`, 141 root-level HTML pages, 1,439 URLs in `sitemap.xml`, 550+ git commits since the 2026-05-19 initial commit.
+**Scale as of 2026-08-28:** 1,296 files in `blogs/`, 141 root-level HTML pages, 1,453 URLs in `sitemap.xml`, 555+ git commits since the 2026-05-19 initial commit.
 
 ## How to use this folder
 
