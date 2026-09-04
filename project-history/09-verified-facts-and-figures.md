@@ -14,9 +14,9 @@
 
 ## Kamboh Associates — trust stats (live on homepage, verify via grep before reuse if this doc is old)
 - **5,000+** satisfied clients
-- **312+** verified reviews, **4.9/5** rating
+- **347** verified reviews, **4.9/5** rating (confirmed correct 2026-09-03; other figures like 180+/300+/312+ seen elsewhere were stale/inconsistent)
 - Founded **2008**, based in **Lahore**
-- Credentials: **FBR Certified, SECP Registered, ISO 9001:2015**
+- Self-claimed credential: **FBR Certified** only. SECP Registered and ISO 9001:2015 were removed sitewide as self-claims on 2026-09-04 (per explicit user instruction — Kamboh does not actually hold these) — see [[11-working-norms-and-user-preferences.md]] §11a. Do not reintroduce either as a Kamboh credential; SECP as a service/topic mention is still fine.
 
 ## Canonical Pakistani property-tax rates (must stay consistent across every property-related page)
 - Section 236C (property sale WHT): **2.75% filer / 5.5% non-filer**
