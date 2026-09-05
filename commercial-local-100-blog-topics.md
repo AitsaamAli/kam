@@ -71,7 +71,7 @@ Cross-checking the same document's competitor/keyword clusters against actual si
 
 Also independently validates the existing plan: Section C (pricing), Section D (hire-for-persona), Section E (near-me), and Section K (urgency/same-day) all directly match this document's own "Cluster 13 — Commercial/Transactional Intent" as the highest-conversion, highest-priority cluster to build next — proceeding with Section C first as originally planned.
 
-## Section C — Pricing / Fee / Cost Pages (12 topics)
+## Section C — Pricing / Fee / Cost Pages (12 topics) — DONE 2026-09-05
 Only 1 generic fees page exists sitewide. Genuine gap — high commercial intent ("X cost/fee/price" = near-decision searcher).
 
 | # | Title | Suggested Slug |
@@ -105,8 +105,8 @@ Zero "hire" pages exist sitewide.
 | 47 | Hire a Tax Consultant for Importers & Exporters | `hire-tax-consultant-importers-exporters-pakistan.html` |
 | 48 | Hire a Tax Consultant for Returning Overseas Pakistanis | `hire-tax-consultant-returning-overseas-pakistanis.html` |
 
-## Section E — "Near Me" Local-Commercial Pages (8 topics)
-Only 1 generic near-me page exists.
+## Section E — "Near Me" Local-Commercial Pages (8 topics) — DONE 2026-09-05
+Only 1 generic near-me page exists. **Note:** by the time this was drafted, `best-tax-consultant-near-me-lahore.html` already existed (item #49 below), so Faisalabad was substituted to keep the section at 8 topics — see `tax-consultant-near-me-faisalabad.html`.
 
 | # | Title | Suggested Slug |
 |---|---|---|
