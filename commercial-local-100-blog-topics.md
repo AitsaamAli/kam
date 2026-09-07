@@ -89,7 +89,7 @@ Only 1 generic fees page exists sitewide. Genuine gap — high commercial intent
 | 37 | Freelancer Tax Filing Service Charges in Pakistan | `freelancer-tax-filing-charges-pakistan.html` |
 | 38 | Tax Consultant Monthly Retainer Cost in Pakistan | `tax-consultant-monthly-retainer-cost-pakistan.html` |
 
-## Section D — "Hire a Tax Consultant for [Persona]" (10 topics)
+## Section D — "Hire a Tax Consultant for [Persona]" (10 topics) — DONE 2026-09-06
 Zero "hire" pages exist sitewide.
 
 | # | Title | Suggested Slug |
