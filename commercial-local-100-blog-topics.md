@@ -161,7 +161,7 @@ Funnels a cautious searcher toward hiring — zero equivalent pages exist.
 | 79 | Is It Safe to Share NTN/CNIC Details With a Tax Consultant Online | `safe-share-cnic-ntn-tax-consultant-online-pakistan.html` |
 | 80 | How to Switch Tax Consultants Without Losing FBR Compliance History | `how-to-switch-tax-consultants-pakistan.html` |
 
-## Section I — Overseas/NRP Commercial-Local Hybrid (6 topics)
+## Section I — Overseas/NRP Commercial-Local Hybrid (6 topics) — DONE 2026-09-08 (4/6, 2 dropped as duplicates of Section D)
 Existing overseas content is informational only — none framed as a hiring decision.
 
 | # | Title | Suggested Slug |
