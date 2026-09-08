@@ -3,6 +3,8 @@
 **Role:** content-strategist | **Date:** 2026-09-08 | **Workflow:** onboard (7/8)
 **Built on:** keyword-research (named-competitor comparison = highest-priority open cluster), competitor-intel (real, verified competitor names and their actual gaps), llm-visibility (confirmed this exact content type is what AI platforms disproportionately cite for consideration-stage prompts, and confirmed zero current comparison content exists)
 
+**UPDATE 2026-09-08, same day, operator decision:** the operator has explicitly ruled out ever naming **Befiler** anywhere on the site, in any content, effective immediately. The "Kamboh Associates vs Befiler" page below is **cancelled, will not be written**. This is now a standing content rule — see [[feedback_no_named_competitor_content]] — not a one-time edit to this plan alone. The PakFiler comparison remains active since it was not objected to, but any future proposal that names a specific competitor should be flagged to the operator for explicit sign-off before drafting, rather than assumed approved by default.
+
 ## The one real content gap three separate specialists converged on independently
 
 keyword-research flagged "named-competitor comparison" as the single genuinely open, high-leverage cluster. competitor-intel independently produced the real, verified material to build it from (Befiler's price/app-based model, PakFiler's capped weekend hours, FilerPK's identical pricing). llm-visibility independently confirmed the exact query shape ("X vs Y") is unaddressed and is disproportionately what AI platforms cite at the comparison stage. Three roles landing on the same gap from three different angles is a strong signal, not a coincidence to double-check away.
@@ -15,7 +17,7 @@ Per head-search's direction and strategy-director's sequencing: **this is not an
 
 | Piece | Format | Targets | Outcome it's accountable for |
 |---|---|---|---|
-| **Kamboh Associates vs Befiler** | Comparison page (table-led, per `comparison-pages` role's format) | The "X vs Befiler" query shape confirmed unclaimed by llm-visibility; Befiler's real, verified differentiators (Rs. 1,500 NTN, 3-day turnaround, mobile app) conceded honestly, not hidden | Appears in a "vs" query's AI-generated answer within 60-90 days when retested — the concrete, checkable outcome from the llm-visibility tracking table, not a vague "more visibility" |
+| ~~Kamboh Associates vs Befiler~~ | **CANCELLED 2026-09-08 — operator ruled out naming this competitor anywhere on the site.** Do not write, do not reschedule. | — | — |
 | **Kamboh Associates vs PakFiler** | Comparison page | PakFiler's real capped hours (Mon-Sat 9am-6pm) conceded and directly contrasted against this project's own weekend/24-hour pages | Same measurable outcome — retest in the llm-visibility tracking table |
 | **"Tax filing app vs a real consultant" — general framing** | Already exists (`tax-app-vs-human-consultant-pakistan`, Section F) | N/A — do not duplicate | Confirm this existing page is genuinely serving the general version of this query before assuming a gap remains here |
 | *(Held, not scheduled yet)* Kamboh Associates vs FilerPK | Comparison page | Identical pricing means this comparison has to win on depth/trust, not price — lower priority since the differentiator is thinner | Only build once the first two comparison pages are actually retested and shown to move the needle — don't build all three speculatively |
@@ -26,7 +28,7 @@ Internal links from the two highest-traffic-adjacent existing pages this content
 
 ## Honest concession requirement (per KNOWLEDGE.md's comparison-pages guidance)
 
-Both pieces must concede a real competitor strength plainly (Befiler's price/speed, PakFiler's CA-review-style trust signal if genuinely comparable) rather than one-sidedly favorable copy — per KNOWLEDGE.md's GEO section, "where to concede a weakness to stay credible" is part of what makes comparison content actually citable by AI systems, not just self-promotional.
+The PakFiler piece must concede a real competitor strength plainly (their capped-but-real support model, or any other genuine strength found at drafting time) rather than one-sidedly favorable copy — per KNOWLEDGE.md's GEO section, "where to concede a weakness to stay credible" is part of what makes comparison content actually citable by AI systems, not just self-promotional.
 
 ## Hands off to
 
