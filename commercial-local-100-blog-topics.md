@@ -173,7 +173,7 @@ Existing overseas content is informational only — none framed as a hiring deci
 | 85 | Hire an NTN Consultant for Non-Resident Pakistanis | `hire-ntn-consultant-non-resident-pakistanis.html` |
 | 86 | Remote/Online Tax Filing Service for Expats & Overseas Pakistanis | `remote-online-tax-filing-service-expats-pakistan.html` |
 
-## Section J — Profession + City Commercial Combos (8 topics)
+## Section J — Profession + City Commercial Combos (8 topics) — DONE 2026-09-08 (8/8)
 
 | # | Title | Suggested Slug |
 |---|---|---|
