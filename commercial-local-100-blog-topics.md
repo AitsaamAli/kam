@@ -186,7 +186,7 @@ Existing overseas content is informational only — none framed as a hiring deci
 | 93 | Tax Consultant for Restaurant Owners in Karachi | `tax-consultant-restaurant-owners-karachi.html` |
 | 94 | Tax Consultant for Manufacturers in Gujranwala | `tax-consultant-manufacturers-gujranwala.html` |
 
-## Section K — Urgency / Turnaround Commercial Intent (6 topics)
+## Section K — Urgency / Turnaround Commercial Intent (6 topics) — DONE 2026-09-08 (3/6, 3 dropped as duplicates — see notes)
 Distinct from the existing `same-day-income-tax-return-filing-pakistan.html` (that page = filing speed only). These target broader urgency intent across other services.
 
 | # | Title | Suggested Slug |
