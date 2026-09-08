@@ -119,7 +119,7 @@ Only 1 generic near-me page exists. **Note:** by the time this was drafted, `bes
 | 55 | Sales Tax Registration Consultant Near Me | `sales-tax-registration-consultant-near-me-pakistan.html` |
 | 56 | Online Tax Consultant Near Me — Remote/Virtual Filing Option | `online-tax-consultant-near-me-remote-pakistan.html` |
 
-## Section F — Decision / Comparison Pages (8 topics)
+## Section F — Decision / Comparison Pages (8 topics) — DONE 2026-09-08 (7/8, 1 dropped as duplicate)
 Zero DIY-vs-consultant or model-comparison pages exist. No named competitors — compares approaches only.
 
 | # | Title | Suggested Slug |
@@ -133,7 +133,7 @@ Zero DIY-vs-consultant or model-comparison pages exist. No named competitors —
 | 63 | Retainer-Based vs One-Time Tax Consultant: Which Saves More | `retainer-vs-one-time-tax-consultant-pakistan.html` |
 | 64 | Tax Filing App vs Human Tax Consultant: What's Right for You | `tax-app-vs-human-consultant-pakistan.html` |
 
-## Section G — Confirmed Location Gaps + Karachi Near-Me Depth (10 topics)
+## Section G — Confirmed Location Gaps + Karachi Near-Me Depth (10 topics) — DONE 2026-09-08 (5/10, 5 dropped as duplicates)
 Items 65-68 are confirmed gaps (city has NTN/income-tax-filing pages but no consultant page). Items 69-74 add a "near me" layer to Karachi neighborhoods that currently have only one generic page each (Lahore already has this depth; Karachi doesn't) — differentiated by intent modifier, not a retitled duplicate. **Re-verify each against current `blogs/` listing immediately before drafting.**
 
 | # | Title | Suggested Slug |
@@ -149,7 +149,7 @@ Items 65-68 are confirmed gaps (city has NTN/income-tax-filing pages but no cons
 | 73 | Tax Consultant Near Me in Malir, Karachi | `tax-consultant-near-me-malir-karachi.html` |
 | 74 | Tax Consultant Near Me in Clifton, Karachi | `tax-consultant-near-me-clifton-karachi.html` |
 
-## Section H — Trust / How-to-Choose (Commercial-Adjacent AEO) (6 topics)
+## Section H — Trust / How-to-Choose (Commercial-Adjacent AEO) (6 topics) — DONE 2026-09-08 (6/6)
 Funnels a cautious searcher toward hiring — zero equivalent pages exist.
 
 | # | Title | Suggested Slug |
