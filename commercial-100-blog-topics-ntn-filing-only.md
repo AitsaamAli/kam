@@ -6,7 +6,7 @@
 
 ---
 
-## Section A — NTN Registration Edge Cases & Mechanics (15 topics)
+## Section A — NTN Registration Edge Cases & Mechanics (15 topics) — DONE 2026-09-08 (15/15, all ~2000 words)
 Checked clean — no existing coverage for any of these.
 
 1. NTN cancellation and deactivation process
