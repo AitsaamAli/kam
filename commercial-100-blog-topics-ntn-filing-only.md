@@ -51,7 +51,8 @@ Note: landed below the strict 2000+ word instruction due to time constraints (35
 20. Return filing combining agricultural income with salary income
 
 ## Section C — Property & Multi-Source Return Filing (10 topics)
-Checked clean.
+**SUPERSEDED 2026-09-09** by a more detailed, operator-supplied 65-topic plan covering Sections C-H — see `content-batches/plan-sections-C-to-H.md`. That plan reorganizes C-H with different (Roman Urdu + English) titles/slugs and a 13-part batch schedule. Progress: Part 1 (C01-C05) DONE 2026-09-09, avg ~2730 words, 0 validator errors, all uniqueness checks clean. Parts 2-13 (C06 through H10) not yet written — write only on explicit instruction.
+Checked clean (original list, now superseded).
 
 1. Rental-income-only filer return (no salary)
 2. Return filing with multiple rental properties
