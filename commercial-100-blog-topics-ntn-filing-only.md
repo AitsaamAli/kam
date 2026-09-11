@@ -66,7 +66,8 @@ Checked clean (original list, now superseded).
 10. Return filing for someone whose filer/non-filer status changed mid-year
 
 ## Section D — Return Filing Corrections & Special Situations (15 topics)
-Checked clean.
+**SUPERSEDED** along with Section C by `content-batches/plan-sections-C-to-H.md` (see Section C note above). Progress: D06-D10 DONE 2026-09-11 (avg ~2252 words, 0 validator errors). **D01-D05 (batch-D1) have NOT been delivered/written yet** despite D06-D10's own README assuming they had been — their forward-references to D01-D05 slugs were redirected to pages that actually exist (other D06-D10 posts + one Section A NTN-correction page) until batch-D1 ships; revisit those related-links once it does.
+Checked clean (original list, now superseded).
 
 1. Revised/amended return filing service (correcting a mistake in an already-filed return)
 2. Return rejected by FBR — what to do and refiling service
