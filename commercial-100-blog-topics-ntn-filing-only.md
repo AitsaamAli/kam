@@ -51,7 +51,7 @@ Note: landed below the strict 2000+ word instruction due to time constraints (35
 20. Return filing combining agricultural income with salary income
 
 ## Section C — Property & Multi-Source Return Filing (10 topics)
-**SUPERSEDED 2026-09-09** by a more detailed, operator-supplied 65-topic plan covering Sections C-H — see `content-batches/plan-sections-C-to-H.md`. That plan reorganizes C-H with different (Roman Urdu + English) titles/slugs and a 13-part batch schedule. Progress: Part 1 (C01-C05) DONE 2026-09-09, avg ~2730 words, 0 validator errors, all uniqueness checks clean. Parts 2-13 (C06 through H10) not yet written — write only on explicit instruction.
+**SUPERSEDED 2026-09-09** by a more detailed, operator-supplied 65-topic plan covering Sections C-H — see `content-batches/plan-sections-C-to-H.md`. That plan reorganizes C-H with different (Roman Urdu + English) titles/slugs and a 13-part batch schedule. Progress: Part 1 (C01-C05) DONE 2026-09-09, avg ~2730 words. **C06-C10 DONE 2026-09-11 (self-authored, avg ~2020 words, 0 tag/JSON-LD issues, uniqueness clean 7.5%-9.7%)** — batch-C2 never arrived from the operator's external pipeline, so this session wrote it directly instead of waiting; source at `content-batches/self-authored/c06-c10-data.js`. Section C is now 10/10 complete. Parts 12-13 (G/H) not yet written — write only on explicit instruction.
 Checked clean (original list, now superseded).
 
 1. Rental-income-only filer return (no salary)
@@ -66,7 +66,7 @@ Checked clean (original list, now superseded).
 10. Return filing for someone whose filer/non-filer status changed mid-year
 
 ## Section D — Return Filing Corrections & Special Situations (15 topics)
-**SUPERSEDED** along with Section C by `content-batches/plan-sections-C-to-H.md` (see Section C note above). Progress: D06-D10 DONE 2026-09-11 (avg ~2252 words, 0 validator errors). **D01-D05 (batch-D1) have NOT been delivered/written yet** despite D06-D10's own README assuming they had been — their forward-references to D01-D05 slugs were redirected to pages that actually exist (other D06-D10 posts + one Section A NTN-correction page) until batch-D1 ships; revisit those related-links once it does.
+**SUPERSEDED** along with Section C by `content-batches/plan-sections-C-to-H.md` (see Section C note above). Progress: D06-D10 DONE 2026-09-11 (avg ~2252 words, 0 validator errors). **D01-D05 self-authored 2026-09-11 (avg ~2000 words)** — batch-D1 never arrived from the operator's external pipeline, so this session wrote it directly instead of waiting; source at `content-batches/self-authored/d01-d05-data.js`. This also let the D06-D10 related-links that were pointing to placeholder targets get fixed to the real D01-D05 pages (done inline). Section D is now 10/15 complete (D11-D15 not started).
 Checked clean (original list, now superseded).
 
 1. Revised/amended return filing service (correcting a mistake in an already-filed return)
