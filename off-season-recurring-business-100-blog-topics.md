@@ -22,7 +22,7 @@ Advance tax under Section 147 is due four times a year (on/around 15 Sep, 15 Dec
 9. Advance Tax for Freelancers and Consultants Without a Fixed Employer
 10. Setting Up a Standing Quarterly Advance Tax Service — What It Actually Includes
 
-## Section B — Monthly Sales Tax Return Filing for STRN Holders (10)
+## Section B — Monthly Sales Tax Return Filing for STRN Holders (10) — DONE 2026-09-14 (10/10, avg ~2010 words, uniqueness clean 1.9%-9.0%)
 Every STRN holder files a sales tax return monthly, all year — the single most reliable recurring-revenue service line for a firm once a client is registered. Checked clean.
 
 1. Monthly Sales Tax Return Filing — What a Registered Business Must Do Every Month
