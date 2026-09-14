@@ -8,7 +8,7 @@ No fabricated rates or slabs — every post hedges to the firm's real, published
 
 ---
 
-## Section A — Quarterly Advance Tax: A Built-In Reason to Stay in Touch All Year (10)
+## Section A — Quarterly Advance Tax: A Built-In Reason to Stay in Touch All Year (10) — DONE 2026-09-14 (10/10, avg ~2020 words, uniqueness clean 7.6%-8.3%)
 Advance tax under Section 147 is due four times a year (on/around 15 Sep, 15 Dec, 15 Mar, 15 Jun for most taxpayers) — this alone gives a firm four natural touchpoints with a client outside filing season. Checked clean — existing advance-tax pages are general explainers, not this quarterly-engagement angle.
 
 1. Advance Tax Due Dates Calendar — All Four Quarters Explained
