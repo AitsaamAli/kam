@@ -36,7 +36,7 @@ Every STRN holder files a sales tax return monthly, all year — the single most
 9. Reconciling Monthly Sales Tax Returns With Your Annual Income Tax Return
 10. Outsourcing Monthly Sales Tax Filing — What a Retainer Actually Covers
 
-## Section C — Monthly and Bi-Annual Withholding Tax Statement Filing (10)
+## Section C — Monthly and Bi-Annual Withholding Tax Statement Filing (10) — DONE 2026-09-14 (10/10, avg ~2021 words, uniqueness clean 2.0%-9.1%)
 Registered withholding agents file periodic WHT statements — another recurring, non-seasonal compliance obligation. Checked: `withholding-tax-agent-registration-pakistan.html` exists (registration only); these are the ongoing-filing angle, differentiated.
 
 1. Monthly Withholding Statement Filing — What a Registered Withholding Agent Must Submit
