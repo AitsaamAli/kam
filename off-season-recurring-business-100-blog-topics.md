@@ -64,8 +64,8 @@ A registered company's SECP obligations run on its own incorporation-date calend
 9. Crossing the Audit Threshold — When a Small Company's Financial Statements Must Be Audited *(retargeted from "Annual Financial Statement Filing With SECP — What's Actually Required")*
 10. Ongoing SECP Compliance Retainer for a Small Private Limited Company
 
-## Section E — After the Deadline: Notices, Corrections and Catch-Up Work (10)
-FBR discrepancy notices and audit-selection activity typically surface in the months right after the filing deadline — this is naturally an October-onward business line, not a filing-season one. Checked: `fbr-notice-*` series exists as general notice-response content; these are specifically post-deadline-timed angles.
+## Section E — After the Deadline: Notices, Corrections and Catch-Up Work (10) — DONE 2026-09-15 (10/10, avg ~2024 words, uniqueness clean 1.5%-8.4%)
+FBR discrepancy notices and audit-selection activity typically surface in the months right after the filing deadline — this is naturally an October-onward business line, not a filing-season one. Checked: `fbr-notice-*` series, `atl-pakistan-guide.html`, `how-to-become-active-taxpayer-pakistan.html`, `how-to-check-atl-status-pakistan.html` all exist as general notice/ATL content — these are specifically post-deadline-timed angles, confirmed clean via uniqueness-check (max 2.1% overlap) after writing.
 
 1. Why FBR Notices Spike in October and November — What to Expect After Filing Season
 2. Return Filed on 30 September But Notice Still Arrived — Why That Happens
