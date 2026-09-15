@@ -78,12 +78,12 @@ FBR discrepancy notices and audit-selection activity typically surface in the mo
 9. Refund Claims From This Year's Return — Realistic Post-Season Processing Timeline
 10. Year-Round FBR Notice Monitoring Retainer — What It Actually Covers
 
-## Section F — Provincial Sales Tax on Services (PRA/SRB/BRA/KPRA) (10)
-A completely separate, monthly-filing tax regime for services businesses, independent of the federal individual-return calendar — largely unaddressed on the current site. Checked clean.
+## Section F — Provincial Sales Tax on Services (PRA/SRB/BRA/KPRA) (10) — DONE 2026-09-15 (10/10, avg ~2022 words, uniqueness clean 1.7%-9.2%)
+A completely separate, monthly-filing tax regime for services businesses, independent of the federal individual-return calendar. Re-audit 2026-09-15 found `pra-registration-guide-pakistan.html`, `srb-registration-guide-pakistan.html`, `kpra-registration-guide-pakistan.html` exist as generic registration guides — topics 2 and 3 below were retargeted from a registration angle to a post-registration monthly-filing angle to differentiate; verified clean via uniqueness-check (max 1.8% overlap) after writing.
 
 1. Provincial Sales Tax on Services — Which Province's Authority Applies to You
-2. PRA Registration for a Punjab-Based Services Business
-3. SRB Registration for a Sindh-Based Services Business
+2. After PRA Registration — What a Punjab Services Business Must File Every Month *(retargeted from "PRA Registration for a Punjab-Based Services Business")*
+3. After SRB Registration — What a Sindh Services Business Must File Every Month *(retargeted from "SRB Registration for a Sindh-Based Services Business")*
 4. Monthly Provincial Sales Tax Return — What Services Businesses Must File
 5. Double Registration Risk — When a Business Needs Both FBR and Provincial Sales Tax
 6. Provincial Sales Tax for Freelancers Offering Services Across Provinces
