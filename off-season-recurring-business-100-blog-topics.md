@@ -50,10 +50,10 @@ Registered withholding agents file periodic WHT statements — another recurring
 9. Reconciling a Full Year of Withholding Statements Before the Annual Return
 10. Ongoing Withholding Compliance Retainer — What It Actually Includes
 
-## Section D — SECP and Corporate Statutory Compliance (10)
-A registered company's SECP obligations run on its own incorporation-date calendar, completely independent of the 30 September individual deadline — genuine year-round work. Checked: only `secp-annual-return-filing-pakistan-2026.html` exists; these 10 go beyond that one page.
+## Section D — SECP and Corporate Statutory Compliance (10) — DONE 2026-09-15 (10/10, avg ~2023 words, uniqueness clean 2.1%-9.4%)
+A registered company's SECP obligations run on its own incorporation-date calendar, completely independent of the 30 September individual deadline — genuine year-round work. Re-audit 2026-09-15 found `secp-annual-return-filing-pakistan-2026.html` is actually a fairly comprehensive overview (covers Form A, Form 29, AGM, audited statements, penalties) — topics 1 and 9 below were retargeted from the original plan to a distinct angle (a recurring compliance-calendar angle, and an audit-threshold-crossing angle) to differentiate; verified clean via uniqueness-check (max 2.1% overlap) after writing.
 
-1. Form A and Form 29 — What Every Private Limited Company Must File and When
+1. SECP Compliance Calendar for a Private Limited Company — Every Recurring Filing Tracked *(retargeted from "Form A and Form 29 — What Every Private Limited Company Must File and When")*
 2. First Annual General Meeting After Incorporation — SECP Requirements
 3. Changing a Company's Registered Address — SECP Filing Process
 4. Adding or Removing a Director — SECP Filing Requirements
@@ -61,7 +61,7 @@ A registered company's SECP obligations run on its own incorporation-date calend
 6. SECP Late Filing Penalty — How It Builds Up Month by Month
 7. Company Struck Off by SECP for Non-Filing — Restoration Process
 8. Increasing Authorized or Paid-Up Capital — SECP Filing Steps
-9. Annual Financial Statement Filing With SECP — What's Actually Required
+9. Crossing the Audit Threshold — When a Small Company's Financial Statements Must Be Audited *(retargeted from "Annual Financial Statement Filing With SECP — What's Actually Required")*
 10. Ongoing SECP Compliance Retainer for a Small Private Limited Company
 
 ## Section E — After the Deadline: Notices, Corrections and Catch-Up Work (10)
