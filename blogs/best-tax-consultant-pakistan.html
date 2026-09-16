@@ -369,5 +369,6 @@ function toggleFAQ(el){el.closest('.faq-item').classList.toggle('open')}
 document.querySelectorAll('.reveal').forEach(function(el){new IntersectionObserver(function(e){e.forEach(function(en){if(en.isIntersecting)en.target.classList.add('visible')})},{threshold:0.1}).observe(el)})
 </script>
 
+<script id="kamboh-wa-click-track">document.addEventListener('click',function(e){var a=e.target.closest('a[href*="wa.me"]');if(a&&window.gtag){gtag('event','whatsapp_click',{'link_url':a.href,'page_location':location.href,'page_path':location.pathname});}});</script>
 </body>
 </html>

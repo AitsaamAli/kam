@@ -207,5 +207,6 @@ document.querySelectorAll('.fq-q').forEach(q=>q.addEventListener('click',()=>{va
 var ro=new IntersectionObserver(function(e){e.forEach(function(x){if(x.isIntersecting){x.target.classList.add('visible');ro.unobserve(x.target);}});},{threshold:0});
 document.querySelectorAll('.reveal').forEach(function(el){var r=el.getBoundingClientRect();if(r.top<(window.innerHeight||document.documentElement.clientHeight)&&r.bottom>0){el.classList.add('visible');}else{ro.observe(el);}});
 </script>
+<script id="kamboh-wa-click-track">document.addEventListener('click',function(e){var a=e.target.closest('a[href*="wa.me"]');if(a&&window.gtag){gtag('event','whatsapp_click',{'link_url':a.href,'page_location':location.href,'page_path':location.pathname});}});</script>
 </body>
 </html>

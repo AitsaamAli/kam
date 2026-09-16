@@ -128,6 +128,13 @@ footer{background:#0F172A;border-top:1px solid rgba(255,255,255,.06);padding:32p
 .nav-drop a i{width:16px;text-align:center;color:#14B8A6;font-size:.78rem}
 @media(max-width:768px){.nav-drop{display:none!important}}
 </style>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2ZLVR968Y8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-2ZLVR968Y8');
+</script>
 </head>
 <body>
 
@@ -363,5 +370,6 @@ footer{background:#0F172A;border-top:1px solid rgba(255,255,255,.06);padding:32p
 <script>
 document.querySelectorAll('.faq-q').forEach(q=>{q.addEventListener('click',()=>q.parentElement.classList.toggle('open'))});
 </script>
+<script id="kamboh-wa-click-track">document.addEventListener('click',function(e){var a=e.target.closest('a[href*="wa.me"]');if(a&&window.gtag){gtag('event','whatsapp_click',{'link_url':a.href,'page_location':location.href,'page_path':location.pathname});}});</script>
 </body>
 </html>
