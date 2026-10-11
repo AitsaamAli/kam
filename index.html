@@ -2672,7 +2672,7 @@ function showFaqItem(idx,el){
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© 2026 Kamboh Associates. Orchestrating Financial Sovereignty since 2008. &nbsp;|&nbsp; Also from Kamboh: <a href="/digital" style="color:#94A3B8">Kamboh Digital &mdash; web development</a></span>
+      <span>© 2026 Kamboh Associates. Orchestrating Financial Sovereignty since 2008. &nbsp;|&nbsp; <a href="/digital" style="color:#94A3B8">Web Development Services</a></span>
       <div class="footer-bottom-links"><a href="/privacy">Privacy</a><a href="/terms">Terms</a><a href="/disclaimer">Disclaimer</a></div>
     </div>
   </div>
@@ -3542,13 +3542,14 @@ document.addEventListener('keydown', function(e) {
       "addressCountry": "PK"
     },
     "geo": {"@type": "GeoCoordinates", "latitude": 31.5184, "longitude": 74.3575},
-    "department": {
-      "@type": "ProfessionalService",
-      "@id": "https://kambohassociates.com/digital#organization",
-      "name": "Kamboh Digital",
-      "url": "https://kambohassociates.com/digital",
-      "description": "Kamboh Digital is the web development division of Kamboh Associates, building business websites, e-commerce stores and web applications for small businesses in Ireland, Canada and the UAE.",
-      "parentOrganization": {"@id": "https://kambohassociates.com/#organization"}
+    "makesOffer": {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Web Development",
+        "url": "https://kambohassociates.com/digital",
+        "description": "Business websites, e-commerce stores and web applications, built and priced by Kamboh Associates."
+      }
     },
     "openingHoursSpecification": [
       {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Saturday"], "opens": "09:00", "closes": "18:00"},
