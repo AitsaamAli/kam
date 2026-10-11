@@ -43,9 +43,9 @@ ul{list-style:none}
 .logo{display:flex;align-items:center;gap:12px}
 .logo-name{font-family:var(--font-display);font-size:.92rem;font-weight:700;color:var(--text);letter-spacing:.07em;line-height:1.2}
 .logo-sub{font-size:.56rem;letter-spacing:.18em;color:var(--gold-light);text-transform:uppercase}
-.nav-links{display:flex;align-items:center;gap:2px}
+.nav-links{display:flex;align-items:center;gap:4px}
 .nav-links>li{position:relative;list-style:none}
-.nav-links>li>a{font-size:.81rem;font-weight:500;color:#1E293B;letter-spacing:.01em;display:flex;align-items:center;gap:4px;padding:8px 9px;border-radius:8px;transition:all .2s;white-space:nowrap}
+.nav-links>li>a{font-size:.84rem;font-weight:500;color:#1E293B;letter-spacing:.01em;display:flex;align-items:center;gap:4px;padding:8px 14px;border-radius:8px;transition:all .2s;white-space:nowrap}
 .nav-links>li>a:hover{color:#14B8A6;background:#F0FDFA}
 .nav-links>li>a.active{color:#14B8A6}
 .nav-drop{position:absolute;top:calc(100% + 8px);left:50%;transform:translateX(-50%) translateY(-6px);z-index:2000;min-width:220px;background:#fff;border:1px solid #E2E8F0;border-radius:12px;box-shadow:0 8px 32px rgba(15,23,42,.12),0 2px 8px rgba(15,23,42,.06);padding:8px;opacity:0;visibility:hidden;pointer-events:none;transition:all .2s}
@@ -144,7 +144,6 @@ footer{background:var(--topbar-bg);border-top:1px solid rgba(255,255,255,.06);pa
 .back-top.visible{display:grid}
 .reveal{opacity:0;transform:translateY(24px);transition:opacity .6s var(--ease),transform .6s var(--ease)}
 .reveal.visible{opacity:1;transform:none}
-@media(max-width:1240px){.nav-links,.nav-phone{display:none}.hamburger{display:flex}}
 @media(max-width:1024px){.blog-layout{grid-template-columns:1fr;gap:36px}.sidebar{position:static;display:grid;grid-template-columns:1fr 1fr;gap:16px}}
 @media(max-width:768px){.nav-links,.nav-phone,.nav-cta{display:none!important}.hamburger{display:flex!important}.mobile-nav{display:none}.mobile-nav.open{display:flex!important}.topbar-left{display:none}.blog-layout{padding:36px 0 60px}.article-body{padding:26px 22px}.sidebar{display:flex;flex-direction:column}.article-cta{padding:26px 20px}.article-cta .cta-btns{flex-direction:column;align-items:center}.topbar-right a span{display:none}.service-grid{grid-template-columns:1fr!important}}
 @media(max-width:480px){.container{padding:0 16px}.blog-post-hero{padding:36px 0 32px}.nav-actions .btn{display:none}}
@@ -238,16 +237,9 @@ footer{padding-bottom:100px}
           <div class="nav-drop-divider"></div>
           <a href="/business-advisory"><i class="fas fa-chart-line"></i> Business Advisory</a>
           <div class="nav-drop-divider"></div>
-          <a href="/pricing"><i class="fas fa-tags"></i> Pricing &amp; Fees</a>
-        </div></li>
-      <li><a href="/digital" class="active">Web Development <i class="fas fa-chevron-down nav-chevron"></i></a><div class="nav-drop">
-          <a href="/digital"><i class="fas fa-globe"></i> Overview</a>
-          <a href="/digital/business-websites"><i class="fas fa-display"></i> Business Websites</a>
-          <a href="/digital/ecommerce-development"><i class="fas fa-cart-shopping"></i> E-commerce Development</a>
-          <a href="/digital/web-app-development"><i class="fas fa-code"></i> Web App Development</a>
+          <a href="/digital"><i class="fas fa-globe"></i> Web Development</a>
           <div class="nav-drop-divider"></div>
-          <a href="/digital/pricing"><i class="fas fa-tags"></i> Pricing</a>
-          <a href="/digital/contact" class="active"><i class="fas fa-comment"></i> Contact</a>
+          <a href="/pricing"><i class="fas fa-tags"></i> Pricing &amp; Fees</a>
         </div></li>
       <li>
         <a href="/#tools">Tools <i class="fas fa-chevron-down nav-chevron"></i></a>
