@@ -323,9 +323,9 @@ ul { list-style: none }
 .nav-links { display: flex; align-items: center; gap: 2px }
 .nav-links > li { position: relative; list-style: none }
 .nav-links > li > a {
-  font-size: .82rem; font-weight: 500; color: var(--text-2);
+  font-size: .81rem; font-weight: 500; color: var(--text-2);
   letter-spacing: .01em; display: flex; align-items: center; gap: 4px;
-  padding: 8px 11px; border-radius: 8px; transition: all .2s;
+  padding: 8px 9px; border-radius: 8px; transition: all .2s;
   white-space: nowrap;
 }
 .nav-links > li > a:hover { color: var(--teal); background: var(--teal-pale) }
@@ -358,6 +358,10 @@ ul { list-style: none }
 .nav-phone a:hover { color: var(--teal) }
 .nav-cta { background: var(--navy); color: #fff !important; padding: 8px 18px !important; border-radius: 8px !important; font-size: .82rem !important; font-weight: 600 !important; transition: all .2s !important }
 .nav-cta:hover { background: var(--teal) !important; transform: translateY(-1px) }
+@media (max-width: 1240px) {
+  .nav-links, .nav-phone { display: none }
+  .hamburger { display: flex }
+}
 .hamburger { display: none; flex-direction: column; gap: 6px; cursor: pointer; padding: 6px; background: none; border: none; width: 40px; height: 40px; justify-content: center; align-items: center; border-radius: 8px; transition: background .2s }
 .hamburger:hover { background: var(--bg-3) }
 .hamburger span { width: 24px; height: 2.5px; background: var(--text); border-radius: 3px; transition: all .35s cubic-bezier(0.4,0,0.2,1); display: block }
