@@ -282,13 +282,15 @@ ul { list-style: none }
   padding: 8px 0;
   font-size: .75rem;
 }
-.topbar .container { display: flex; justify-content: center; align-items: center }
-.topbar-left{flex:1;overflow:hidden;white-space:nowrap;max-width:100%}
+.topbar .container { display: flex; justify-content: space-between; align-items: center; gap: 16px }
+.topbar-left{flex:1;overflow:hidden;white-space:nowrap;min-width:0}
 .topbar-promo-wrap{display:inline-flex;animation:kascroll 28s linear infinite}
 .topbar-promo{font-family:var(--font-body);font-size:.73rem;letter-spacing:.04em;color:rgba(148,163,184,.9);text-transform:none;white-space:nowrap;flex-shrink:0;font-weight:400}
 .topbar-promo strong,.topbar-promo b{color:#14B8A6;font-weight:600}
 @keyframes kascroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
-.topbar-right { display: none !important }
+.topbar-right { display: flex; align-items: center; gap: 10px; flex-shrink: 0 }
+.topbar-right a { color: rgba(148,163,184,.9); transition: color .2s; display: flex; align-items: center; gap: 5px }
+.topbar-right a:hover { color: var(--gold-light) }
 .topbar-tag {
   background: rgba(184,150,12,.12);
   border: 1px solid rgba(184,150,12,.25);
@@ -299,6 +301,9 @@ ul { list-style: none }
   font-family: var(--font-display);
   letter-spacing: .1em;
 }
+.topbar-webdev { background: rgba(20,184,166,.12); border: 1px solid rgba(20,184,166,.3); border-radius: 100px; padding: 2px 12px; font-size: .68rem; color: #14B8A6 !important; font-weight: 600; white-space: nowrap }
+.topbar-webdev:hover { color: #0D9488 !important }
+@media (max-width: 640px) { .topbar-right { display: none !important } }
 
 /* ══════════════════════════════════════════
    NAVBAR
@@ -1739,7 +1744,8 @@ select.form-control { cursor: pointer }
 ══════════════════════════════════════════ -->
 <div class="topbar">
   <div class="container">
-    <div class="topbar-left" style="max-width:100%"><div class="topbar-promo-wrap"><span class="topbar-promo">File Your Taxes In Just 6 Minutes With Our Qualified Consultants! &nbsp;&nbsp;&bull;&nbsp;&nbsp; Now Available in Just Rs. 3,500/- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="topbar-promo" aria-hidden="true">File Your Taxes In Just 6 Minutes With Our Qualified Consultants! &nbsp;&nbsp;&bull;&nbsp;&nbsp; Now Available in Just Rs. 3,500/- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></div></div>
+    <div class="topbar-left"><div class="topbar-promo-wrap"><span class="topbar-promo">File Your Taxes In Just 6 Minutes With Our Qualified Consultants! &nbsp;&nbsp;&bull;&nbsp;&nbsp; Now Available in Just Rs. 3,500/- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="topbar-promo" aria-hidden="true">File Your Taxes In Just 6 Minutes With Our Qualified Consultants! &nbsp;&nbsp;&bull;&nbsp;&nbsp; Now Available in Just Rs. 3,500/- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></div></div>
+    <div class="topbar-right"><a href="/digital" class="topbar-webdev"><i class="fas fa-globe"></i> Web Development</a></div>
   </div>
 </div>
 
@@ -1801,7 +1807,6 @@ select.form-control { cursor: pointer }
           <a href="/pricing"><i class="fas fa-tags"></i> Pricing & Fees</a>
         </div>
       </li>
-      <li><a href="/digital">Web Development</a></li>
       <li>
         <a href="#tools">Tools <i class="fas fa-chevron-down nav-chevron"></i></a>
         <div class="nav-drop">
