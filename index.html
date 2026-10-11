@@ -320,10 +320,10 @@ ul { list-style: none }
 }
 .navbar.scrolled { box-shadow: 0 4px 24px rgba(0,0,0,.06); }
 .navbar .container { display: flex; align-items: center; justify-content: space-between; height: 68px }
-.logo { display: flex; align-items: center; gap: 12px }
+.logo { display: flex; align-items: center; gap: 12px; flex-shrink: 0 }
 .logo-emblem svg { filter: drop-shadow(0 2px 8px rgba(184,150,12,.25)) }
-.logo-name { font-family: var(--font-display); font-size: .92rem; font-weight: 700; color: var(--text); letter-spacing: .07em; line-height: 1.2 }
-.logo-sub { font-size: .56rem; letter-spacing: .18em; color: var(--gold-light); text-transform: uppercase }
+.logo-name { font-family: var(--font-display); font-size: .92rem; font-weight: 700; color: var(--text); letter-spacing: .07em; line-height: 1.2; white-space: nowrap }
+.logo-sub { font-size: .56rem; letter-spacing: .18em; color: var(--gold-light); text-transform: uppercase; white-space: nowrap }
 /* ── ENTERPRISE NAV ── */
 .nav-links { display: flex; align-items: center; gap: 2px }
 .nav-links > li { position: relative; list-style: none }
@@ -358,12 +358,17 @@ ul { list-style: none }
 .nav-drop-divider { height: 1px; background: var(--border); margin: 4px 8px }
 .nav-actions { display: flex; align-items: center; gap: 8px }
 .nav-phone { font-size: .8rem; color: var(--text-3); display: flex; align-items: center; gap: 6px; white-space: nowrap; flex-shrink: 0 }
+.nav-actions { flex-shrink: 0 }
 .nav-phone i { color: var(--teal) }
 .nav-phone a { color: var(--text-2); transition: color .2s; font-weight: 500; white-space: nowrap }
 .nav-phone a:hover { color: var(--teal) }
 .nav-cta { background: var(--navy); color: #fff !important; padding: 8px 18px !important; border-radius: 8px !important; font-size: .82rem !important; font-weight: 600 !important; transition: all .2s !important }
 .nav-cta:hover { background: var(--teal) !important; transform: translateY(-1px) }
 .navbar .container { flex-wrap: nowrap }
+@media (max-width: 1320px) {
+  .nav-links, .nav-phone { display: none }
+  .hamburger { display: flex }
+}
 .hamburger { display: none; flex-direction: column; gap: 6px; cursor: pointer; padding: 6px; background: none; border: none; width: 40px; height: 40px; justify-content: center; align-items: center; border-radius: 8px; transition: background .2s }
 .hamburger:hover { background: var(--bg-3) }
 .hamburger span { width: 24px; height: 2.5px; background: var(--text); border-radius: 3px; transition: all .35s cubic-bezier(0.4,0,0.2,1); display: block }
