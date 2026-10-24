@@ -379,7 +379,7 @@ An association of persons, such as a partnership firm, pays Rs 8,000 for its ret
 
 ## Monthly Compliance
 
-Businesses registered for sales tax pay Rs 3,000 for STRN registration and Rs 3,000 a month for preparing and filing the monthly sales tax return. Employers and others who must file withholding statements pay Rs 2,500 a month for that work. EOBI registration is Rs 8,000.
+Businesses registered for sales tax pay Rs 3,000 for STRN registration and Rs 3,000 a month for preparing and filing the monthly sales tax return. Employers and others who must file withholding statements pay Rs 3,000 a month for that work. EOBI registration is Rs 8,000.
 
 ## Overseas Pakistanis
 

@@ -33,7 +33,7 @@ SERVICES = {
     "pvtltd": ("Pvt Ltd company registration", "Rs. 15,000+", "/secp-company-registration-guide-2026"),
     "notice": ("FBR notice response", "Rs. 5,000+", "/fbr-notice-defense"),
     "overseas": ("Overseas Pakistani return", "Rs. 6,000", "/freelancer-overseas-tax-guide-pakistan"),
-    "wht": ("Withholding tax statement", "Rs. 2,500 / month", "/withholding-tax"),
+    "wht": ("Withholding tax statement", "Rs. 3,000 / month", "/withholding-tax"),
     "corporate": ("Company income tax return", "Rs. 18,000+", "/corporate-tax-return"),
     "eobi": ("EOBI employer registration", "Rs. 8,000", "/eobi-registration"),
     "impexp": ("Import / export registration", "Rs. 10,000+", "/import-export-registration"),

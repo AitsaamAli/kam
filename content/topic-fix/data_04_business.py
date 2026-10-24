@@ -63,7 +63,7 @@ Many SMEs start as sole proprietorships, later add a partner and then incorporat
 
 ## What Our SME Package Covers
 
-Monthly withholding statements (Rs 2,500 per month), monthly sales tax returns (Rs 3,000 per month), EOBI registration (Rs 8,000) and the annual return, as listed on our [pricing page](/pricing).""",
+Monthly withholding statements (Rs 3,000 per month), monthly sales tax returns (Rs 3,000 per month), EOBI registration (Rs 8,000) and the annual return, as listed on our [pricing page](/pricing).""",
     "faq": [
         ("When is quarterly advance tax due?",
          "Under section 147, instalments are due on 25 September, 25 December, 25 March and 15 June for taxpayers whose income crosses the threshold."),

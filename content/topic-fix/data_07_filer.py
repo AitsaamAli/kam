@@ -376,7 +376,7 @@ A company that misses its filing date can face a penalty under section 182 and d
 
 ## Fees
 
-Corporate returns start from Rs 18,000, NTN registration is Rs 2,000 and withholding statements are Rs 2,500 per month on our [pricing page](/pricing).""",
+Corporate returns start from Rs 18,000, NTN registration is Rs 2,000 and withholding statements are Rs 3,000 per month on our [pricing page](/pricing).""",
     "faq": [
         ("Is a company late-filing penalty automatic?",
          "It is imposed through a notice and an order under section 182, giving the company a chance to explain the delay."),
@@ -493,7 +493,7 @@ A withholding agent must give each payee a certificate of tax deducted, showing 
 - Payees' NTN or CNIC and their status on the Active Taxpayers List on the payment date.
 - Filed withholding statements and their acknowledgements.
 
-Monthly withholding statements are Rs 2,500 per month on our [pricing page](/pricing).""",
+Monthly withholding statements are Rs 3,000 per month on our [pricing page](/pricing).""",
     "faq": [
         ("Must a withholding agent give certificates to payees?",
          "Yes. Each payee should receive a certificate showing the payment, tax deducted and deposit date, so they can claim the credit."),
@@ -509,7 +509,7 @@ Rates for services, goods, contracts and rent are set in the First Schedule and 
 
 ## Fees
 
-Monthly withholding statement filing is Rs 2,500 per month on our [pricing page](/pricing).""",
+Monthly withholding statement filing is Rs 3,000 per month on our [pricing page](/pricing).""",
     "faq": [
         ("Where can a business find current withholding rates?",
          "In FBR's Withholding Tax Regime Card for the tax year, which lists sections, rates and responsibilities after each Finance Act."),

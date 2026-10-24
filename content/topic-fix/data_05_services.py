@@ -79,7 +79,7 @@ PAGES["blogs/affordable-tax-consultant-pakistan.html"] = {
 | AOP return | Rs 8,000 |
 | Sales tax registration (STRN) | Rs 3,000 |
 | Monthly sales tax return | Rs 3,000 per month |
-| Withholding statement | Rs 2,500 per month |
+| Withholding statement | Rs 3,000 per month |
 | FBR notice reply | From Rs 5,000 |
 | Private limited company registration | From Rs 15,000 |
 
@@ -310,7 +310,7 @@ Using one bank account for both business and household spending is the most comm
 
 ## Fees
 
-Sole proprietor returns are Rs 5,000, NTN registration Rs 2,000 and monthly withholding statements Rs 2,500, per our [pricing page](/pricing).""",
+Sole proprietor returns are Rs 5,000, NTN registration Rs 2,000 and monthly withholding statements Rs 3,000, per our [pricing page](/pricing).""",
     "faq": [
         ("Do sole proprietors use the salaried tax slabs?",
          "No. Individuals with business income use the non-salaried slab rates, which are different from the salaried slabs."),
