@@ -525,3 +525,6 @@ faq("pishtakhara-peshawar", "Do I need an NTN to buy a plot in Pishtakhara?", "I
 faq("regi-model-town-peshawar", "What if I inherited a Regi Model Town allotment?", "Complete the transfer with the authority; each heir then shows their share in their own wealth statement from that year.")
 faq("ring-road-peshawar", "Is warehouse rent from a distributor taxed at source?", "Corporate tenants usually deduct tax from rent, which the owner claims as a credit in the return.")
 faq("warsak-road-peshawar", "How do school owners show building improvements?", "Additions to a school building owned by the owner are assets at cost; improvements to rented premises are business expenses or depreciated over time.")
+PAGES["blogs/tax-consultant-jamrud-road-peshawar.html"]["body"] += "\n\nInstitutions along Jamrud Road that rent buildings from individuals should also check whether they must deduct tax on that rent."
+PAGES["blogs/tax-consultant-ring-road-peshawar.html"]["body"] += "\n\nMany Ring Road businesses are family partnerships; the firm files as an AOP and each partner declares his share of profit in his own return."
+PAGES["blogs/tax-consultant-warsak-road-peshawar.html"]["body"] += "\n\nTeachers who also give private tuition after school hours declare that income with their salary."
