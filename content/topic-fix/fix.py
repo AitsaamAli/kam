@@ -134,6 +134,24 @@ def source_html(rel):
     return open(os.path.join(base_tree(), rel), encoding="utf-8-sig").read()
 
 
+_PATHS = None
+
+
+def fix_internal_links(h):
+    """Clean-URL internal blog links and point links to missing blog pages at the general filing guide."""
+    global _PATHS
+    if _PATHS is None:
+        _PATHS = {"/blogs/" + os.path.basename(f)[:-5] for f in glob.glob(os.path.join(ROOT, "blogs", "*.html"))}
+
+    def repl(m):
+        path = m.group(1)[:-5] if m.group(1).endswith(".html") else m.group(1)
+        if path not in _PATHS:
+            path = "/blogs/income-tax-return-filing-pakistan"
+        return f'href="{path}"'
+
+    return re.sub(r'href="(/blogs/[a-z0-9-]+(?:\.html)?)"', repl, h)
+
+
 def load_data():
     data = {}
     for p in sorted(glob.glob(os.path.join(HERE, "data_*.py"))):
@@ -214,7 +232,7 @@ def fix_page(rel, page, freq, dry):
         new += f'<h2 id="faqs">{H.escape(page.get("faq_heading", "Frequently Asked Questions"))}</h2>\n<div class="tf-faq">{faq_html}</div>\n'
     # page-specific sections go after the kept content, before any closing CTA div
     article = "".join(kept)
-    tail = "".join(excess_closers(p) for p in drop_parts)
+    tail = excess_closers("".join(drop_parts))
     cta = re.search(r'<div class="(?:cta-box|article-cta)', article)
     if cta:
         article = article[: cta.start()] + new + article[cta.start():]
@@ -234,7 +252,9 @@ def fix_page(rel, page, freq, dry):
         elif old not in h:
             raise SystemExit(f"{rel}: replace target not found: {old[:60]}")
     if page.get("lead"):
-        article = re.sub(r'(<p class="lead">)[\s\S]*?(</p>)', lambda x: x.group(1) + inline(page["lead"]) + x.group(2), article, count=1)
+        article = re.sub(r'(<p class="(?:lead|article-lead)">)[\s\S]*?(</p>)', lambda x: x.group(1) + inline(page["lead"]) + x.group(2), article, count=1)
+        # the TL;DR box on city pages repeats the same sentence on every page
+        article = re.sub(r'<div class="tldr-box"[\s\S]*?</p></div>', "", article, count=1)
     h = h[: m.start(2)] + article + h[m.end(2):]
     # the same wrong figure is often repeated in meta tags and JSON-LD outside <article>
     for old, new_text in page.get("replace", []):
@@ -243,6 +263,7 @@ def fix_page(rel, page, freq, dry):
         d = H.escape(page["desc"], quote=True)
         h = re.sub(r'(<meta name="description" content=")[^"]*(")', lambda x: x.group(1) + d + x.group(2), h, count=1)
         h = re.sub(r'(<meta property="og:description" content=")[^"]*(")', lambda x: x.group(1) + d + x.group(2), h, count=1)
+    h = fix_internal_links(h)
     ids = set(re.findall(r'id="([^"]+)"', h))
     h = re.sub(r'<a href="#([^"]+)"[^>]*>[\s\S]*?</a>', lambda x: x.group(0) if x.group(1) in ids else "", h)
     h = rebuild_jsonld(h, faq)

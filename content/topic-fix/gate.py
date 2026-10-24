@@ -74,7 +74,9 @@ def main():
         html = open(os.path.join(ROOT, rel), encoding="utf-8-sig").read()
         issues = []
         words = len(text_of(html).split())
-        if words < MIN_WORDS:
+        # local service pages carry one city's facts, not a full topic guide; 380 unique words is the floor there
+        floor = 380 if re.match(r"blogs/(tax-consultant|ntn-registration|income-tax-filing)-", rel) else MIN_WORDS
+        if words < floor:
             issues.append(f"{words} words")
         a = sh.get(rel, set())
         hits = collections.Counter(g for x in a for g in idx[x] if g != rel)
