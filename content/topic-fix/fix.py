@@ -221,13 +221,14 @@ def fix_page(rel, page, freq, dry):
             drop_parts.append(p)
     if dry:
         return kept, removed, salvaged
-    body_html, _ = render_body(page["body"])
+    body_src = page.get("body", "") + ("\n\n" + page["body_more"] if page.get("body_more") else "")
+    body_html, _ = render_body(body_src)
     salvaged = [x for x in salvaged if x[0] not in page.get("faq_skip", [])]
     for old_s, new_s in page.get("replace", []):
         salvaged = [(q, a.replace(H.unescape(old_s), H.unescape(new_s))) for q, a in salvaged]
-    faq = page["faq"] + [x for x in salvaged if x[0] not in {q for q, _ in page["faq"]}][: max(0, 6 - len(page["faq"]))]
+    faq = page.get("faq", []) + [x for x in salvaged if x[0] not in {q for q, _ in page.get("faq", [])}][: max(0, 6 - len(page.get("faq", [])))]
     faq_html = "".join(f"<details><summary>{H.escape(q)}</summary><p>{inline(a)}</p></details>" for q, a in faq)
-    new = f'<div class="tf-sec">\n{body_html}\n</div>\n' if page["body"].strip() else ""
+    new = f'<div class="tf-sec">\n{body_html}\n</div>\n' if body_src.strip() else ""
     if faq:
         new += f'<h2 id="faqs">{H.escape(page.get("faq_heading", "Frequently Asked Questions"))}</h2>\n<div class="tf-faq">{faq_html}</div>\n'
     # page-specific sections go after the kept content, before any closing CTA div
