@@ -18,13 +18,24 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(os.path.dirname(HERE))
 sys.path.insert(0, os.path.join(ROOT, "content", "lahore-areas"))
 
-from check import text_of, shingles, existing_paths  # noqa: E402
+from check import text_of as article_text, shingles, existing_paths  # noqa: E402
 sys.path.insert(0, HERE)
 from fix import load_data  # noqa: E402
 
 LIMIT = 15.0
 MIN_WORDS = 480
 TAGS = ("div", "table", "ul", "ol", "li", "article", "h2", "p", "section", "details")
+
+
+def text_of(html):
+    """Article text, or for pages without <article> the body minus scripts, styles and site chrome."""
+    if re.search(r"<article[^>]*>", html):
+        return article_text(html)
+    m = re.search(r"<body[\s\S]*</body>", html)
+    b = re.sub(r"<(script|style|nav|footer|header)\b[\s\S]*?</\1>", " ", m.group(0) if m else html)
+    b = re.sub(r"<[^>]+>", " ", b)
+    b = re.sub(r"&[a-z#0-9]+;", " ", b)
+    return re.sub(r"\s+", " ", b).strip().lower()
 
 
 def indexed_pages():
@@ -57,7 +68,7 @@ def main():
     for rel, s in sh.items():
         for x in s:
             idx[x].append(rel)
-    paths = existing_paths() | {"/authors/" + os.path.basename(f)[:-5] for f in glob.glob(os.path.join(ROOT, "authors", "*.html"))}
+    paths = existing_paths() | {f"/{d}/" + os.path.basename(f)[:-5] for d in ("authors", "guides", "news") for f in glob.glob(os.path.join(ROOT, d, "*.html"))}
     bad = 0
     for rel in targets:
         html = open(os.path.join(ROOT, rel), encoding="utf-8-sig").read()
