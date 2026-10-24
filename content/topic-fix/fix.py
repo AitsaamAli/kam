@@ -248,6 +248,9 @@ def fix_page(rel, page, freq, dry):
     h = rebuild_jsonld(h, faq)
     h = re.sub(r'<style id="tf-style">[\s\S]*?</style>\n?', "", h)
     h = h.replace("</head>", STYLE + "\n</head>", 1)
+    # regex fixes run last so they also reach salvaged FAQs and the rebuilt FAQPage JSON-LD
+    for pat, repl in page.get("regex", []):
+        h = re.sub(pat, repl, h)
     open(path, "w", encoding="utf-8").write(h)
     return kept, removed, salvaged
 
