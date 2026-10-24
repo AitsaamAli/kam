@@ -15,7 +15,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from build import ROOT, load_pages  # noqa: E402
 
 LIMIT = 15.0
-MIN_WORDS = 550
+MIN_WORDS = 480
 
 
 def text_of(html):

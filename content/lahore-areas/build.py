@@ -223,7 +223,8 @@ def build_page(page, pages_by_slug, clusters, shell):
                           "logo": {"@type": "ImageObject", "url": f"{SITE}/android-chrome-512x512.png"}},
             "mainEntityOfPage": {"@type": "WebPage", "@id": url},
             "about": {"@type": "Place", "name": f"{name}, {page.get('locality', 'Lahore')}",
-                      "containedInPlace": {"@type": "City", "name": page.get("locality", "Lahore")}},
+                      "containedInPlace": {"@type": "City" if page.get("locality", "Lahore") == "Lahore" else "AdministrativeArea",
+                                           "name": page.get("locality", "Lahore")}},
         },
         {
             "@context": "https://schema.org",
