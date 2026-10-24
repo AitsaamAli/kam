@@ -50,15 +50,19 @@ CTA = [
 
 
 def load_pages():
-    pages, clusters = [], {}
+    pages, clusters, extras = [], {}, {}
     for path in sorted(glob.glob(os.path.join(HERE, "data_*.py"))):
         spec = importlib.util.spec_from_file_location(os.path.basename(path)[:-3], path)
         mod = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(mod)
         clusters.update(getattr(mod, "CLUSTERS", {}))
+        extras.update(getattr(mod, "EXTRA", {}))
         for p in mod.PAGES:
             p["_file"] = os.path.basename(path)
             pages.append(p)
+    for p in pages:
+        if p["slug"] in extras:
+            p["body"] = p["body"].rstrip() + "\n" + extras[p["slug"]]
     return pages, clusters
 
 
