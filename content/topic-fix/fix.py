@@ -155,6 +155,8 @@ def fix_internal_links(h):
 def load_data():
     data = {}
     for p in sorted(glob.glob(os.path.join(HERE, "data_*.py"))):
+        if HERE not in sys.path:
+            sys.path.insert(0, HERE)
         spec = importlib.util.spec_from_file_location(os.path.basename(p)[:-3], p)
         mod = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(mod)
@@ -206,6 +208,12 @@ def fix_page(rel, page, freq, dry):
         faq_sec = "frequently asked" in hd or hd.startswith("faq")
         if hd == "__intro__":
             kept.append(p)
+        elif page.get("drop_all"):
+            # town pages: every original section is a name-swapped template, keep only the intro
+            if faq_sec:
+                salvaged += salvage_faq(p, freq)
+            removed.append(hd)
+            drop_parts.append(p)
         elif faq_sec:
             salvaged += salvage_faq(p, freq)
             removed.append(hd)
@@ -223,7 +231,7 @@ def fix_page(rel, page, freq, dry):
         return kept, removed, salvaged
     body_src = page.get("body", "") + ("\n\n" + page["body_more"] if page.get("body_more") else "")
     body_html, _ = render_body(body_src)
-    salvaged = [x for x in salvaged if x[0] not in page.get("faq_skip", [])]
+    salvaged = [] if page.get("faq_skip_all") else [x for x in salvaged if x[0] not in page.get("faq_skip", [])]
     for old_s, new_s in page.get("replace", []):
         salvaged = [(q, a.replace(H.unescape(old_s), H.unescape(new_s))) for q, a in salvaged]
     faq = page.get("faq", []) + [x for x in salvaged if x[0] not in {q for q, _ in page.get("faq", [])}][: max(0, 6 - len(page.get("faq", [])))]
