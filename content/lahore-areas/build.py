@@ -272,7 +272,7 @@ def build_page(page, pages_by_slug, clusters, shell):
         f'<div class="meta-item"><i class="fas fa-map-pin"></i> {html.escape(name)}</div></div>\n'
         "</div></section>"
     )
-    toc_links = "".join(f'<a href="#{i}"><i class="fas fa-circle"></i> {html.escape(strip_tags(t))[:46]}</a>' for i, t in toc)
+    toc_links = "".join(f'<a href="#{i}"><i class="fas fa-circle"></i> {html.escape(strip_tags(t))[:60]}</a>' for i, t in toc)
     aside = (
         '<aside class="sidebar">\n'
         f'  <div class="sc reveal"><div class="st"><i class="fas fa-list"></i> Contents</div><nav class="rl">{toc_links}</nav></div>\n'
@@ -371,7 +371,7 @@ def build_hub(pages, clusters, shell):
         '  <div class="hero-meta"><div class="meta-item"><i class="far fa-calendar-alt"></i> Updated October 2026</div>'
         '<div class="meta-item"><i class="fas fa-map-pin"></i> Awan Town, Lahore</div></div>\n</div></section>'
     )
-    toc_links = "".join(f'<a href="#{i}"><i class="fas fa-circle"></i> {html.escape(t)[:46]}</a>' for i, t in toc)
+    toc_links = "".join(f'<a href="#{i}"><i class="fas fa-circle"></i> {html.escape(t)[:60]}</a>' for i, t in toc)
     aside = (
         '<aside class="sidebar">\n'
         f'  <div class="sc reveal"><div class="st"><i class="fas fa-list"></i> Areas</div><nav class="rl">{toc_links}</nav></div>\n'
