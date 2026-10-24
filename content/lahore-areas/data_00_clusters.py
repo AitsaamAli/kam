@@ -22,6 +22,7 @@ CLUSTERS = {
     "south": {"short": "Ferozepur Road & South Lahore", "parent_href": HUB, "parent_label": "Tax Consultant Lahore — All Areas"},
     "southwest": {"short": "Multan Road, Thokar & Raiwind Road", "parent_href": HUB, "parent_label": "Tax Consultant Lahore — All Areas"},
     "outskirts": {"short": "Towns Around Lahore", "parent_href": HUB, "parent_label": "Tax Consultant Lahore — All Areas"},
+    "localities": {"short": "Other Lahore Localities", "parent_href": HUB, "parent_label": "Tax Consultant Lahore — All Areas"},
     "landmarks": {"short": "Near Lahore Hospitals & Campuses", "parent_href": HUB, "parent_label": "Tax Consultant Lahore — All Areas"},
 }
 
