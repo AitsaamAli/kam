@@ -198,6 +198,7 @@ def fix_page(rel, page, freq, dry):
     if dry:
         return kept, removed, salvaged
     body_html, _ = render_body(page["body"])
+    salvaged = [x for x in salvaged if x[0] not in page.get("faq_skip", [])]
     faq = page["faq"] + [x for x in salvaged if x[0] not in {q for q, _ in page["faq"]}][: max(0, 6 - len(page["faq"]))]
     faq_html = "".join(f"<details><summary>{H.escape(q)}</summary><p>{inline(a)}</p></details>" for q, a in faq)
     new = f'<div class="tf-sec">\n{body_html}\n</div>\n' if page["body"].strip() else ""
@@ -219,13 +220,19 @@ def fix_page(rel, page, freq, dry):
         else:
             article = article + new + saved
     article += tail
+    doc_replace = []
     for old, new_text in page.get("replace", []):
-        if old not in article:
+        if old in article:
+            article = article.replace(old, new_text)
+        elif old in h:
+            doc_replace.append((old, new_text))  # outside <article>, e.g. sidebar links
+        else:
             raise SystemExit(f"{rel}: replace target not found: {old[:60]}")
-        article = article.replace(old, new_text)
     if page.get("lead"):
         article = re.sub(r'(<p class="lead">)[\s\S]*?(</p>)', lambda x: x.group(1) + inline(page["lead"]) + x.group(2), article, count=1)
     h = h[: m.start(2)] + article + h[m.end(2):]
+    for old, new_text in doc_replace:
+        h = h.replace(old, new_text)
     if page.get("desc"):
         d = H.escape(page["desc"], quote=True)
         h = re.sub(r'(<meta name="description" content=")[^"]*(")', lambda x: x.group(1) + d + x.group(2), h, count=1)
