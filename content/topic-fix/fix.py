@@ -34,7 +34,10 @@ STYLE = ("<style id=\"tf-style\">.tf-sec table{width:100%;border-collapse:collap
          ".tf-sec th{background:#0F172A;color:#fff}.tf-sec .ib{background:rgba(20,184,166,.07);border-left:4px solid #14B8A6;"
          "border-radius:0 10px 10px 0;padding:14px 18px;margin:18px 0}.tf-sec .ib i{display:none}"
          ".tf-faq details{border:1px solid #E2E8F0;border-radius:10px;margin:0 0 10px;padding:12px 16px;background:#F8FAFC}"
-         ".tf-faq summary{font-weight:600;cursor:pointer}.tf-faq details p{margin:10px 0 0}</style>")
+         ".tf-faq summary{font-weight:600;cursor:pointer}.tf-faq details p{margin:10px 0 0}"
+         "@media(max-width:768px){html,body{overflow-x:hidden}main,article,.layout>*,.article-wrap>*{min-width:0;max-width:100%}"
+         ".topbar{overflow:hidden}article ul,article ol{max-width:calc(100% - 20px)}"
+         "article p,article li{overflow-wrap:break-word}article table{display:block;overflow-x:auto;max-width:100%}}</style>")
 
 
 def norm(s):
@@ -137,7 +140,10 @@ def load_data():
         spec = importlib.util.spec_from_file_location(os.path.basename(p)[:-3], p)
         mod = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(mod)
-        data.update(mod.PAGES)
+        for rel, page in mod.PAGES.items():
+            cur = data.setdefault(rel, {})
+            for k, v in page.items():
+                cur[k] = cur.get(k, []) + v if isinstance(v, list) and k in cur else v
     return data
 
 
@@ -199,6 +205,8 @@ def fix_page(rel, page, freq, dry):
         return kept, removed, salvaged
     body_html, _ = render_body(page["body"])
     salvaged = [x for x in salvaged if x[0] not in page.get("faq_skip", [])]
+    for old_s, new_s in page.get("replace", []):
+        salvaged = [(q, a.replace(H.unescape(old_s), H.unescape(new_s))) for q, a in salvaged]
     faq = page["faq"] + [x for x in salvaged if x[0] not in {q for q, _ in page["faq"]}][: max(0, 6 - len(page["faq"]))]
     faq_html = "".join(f"<details><summary>{H.escape(q)}</summary><p>{inline(a)}</p></details>" for q, a in faq)
     new = f'<div class="tf-sec">\n{body_html}\n</div>\n' if page["body"].strip() else ""
@@ -220,18 +228,16 @@ def fix_page(rel, page, freq, dry):
         else:
             article = article + new + saved
     article += tail
-    doc_replace = []
     for old, new_text in page.get("replace", []):
         if old in article:
             article = article.replace(old, new_text)
-        elif old in h:
-            doc_replace.append((old, new_text))  # outside <article>, e.g. sidebar links
-        else:
+        elif old not in h:
             raise SystemExit(f"{rel}: replace target not found: {old[:60]}")
     if page.get("lead"):
         article = re.sub(r'(<p class="lead">)[\s\S]*?(</p>)', lambda x: x.group(1) + inline(page["lead"]) + x.group(2), article, count=1)
     h = h[: m.start(2)] + article + h[m.end(2):]
-    for old, new_text in doc_replace:
+    # the same wrong figure is often repeated in meta tags and JSON-LD outside <article>
+    for old, new_text in page.get("replace", []):
         h = h.replace(old, new_text)
     if page.get("desc"):
         d = H.escape(page["desc"], quote=True)
@@ -240,8 +246,8 @@ def fix_page(rel, page, freq, dry):
     ids = set(re.findall(r'id="([^"]+)"', h))
     h = re.sub(r'<a href="#([^"]+)"[^>]*>[\s\S]*?</a>', lambda x: x.group(0) if x.group(1) in ids else "", h)
     h = rebuild_jsonld(h, faq)
-    if 'id="tf-style"' not in h:
-        h = h.replace("</head>", STYLE + "\n</head>", 1)
+    h = re.sub(r'<style id="tf-style">[\s\S]*?</style>\n?', "", h)
+    h = h.replace("</head>", STYLE + "\n</head>", 1)
     open(path, "w", encoding="utf-8").write(h)
     return kept, removed, salvaged
 
