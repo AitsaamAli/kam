@@ -74,3 +74,11 @@ Two threads, both user-initiated:
 3. Continue the commercial/local-intent 100-topic plan (Sections C-K, 74 topics remaining).
 4. The broader "premium & trust feel" roadmap (trust-badge strip, "how it works" visual, security microcopy, live social-proof ticker) was proposed but not yet built/approved via mockup — resume if the user picks it back up.
 5. Whatever the user directs next — check `10-known-issues-and-open-items.md` for what's flagged-but-unresolved if no new direction is given.
+
+## 2026-10-24 — Lahore neighbourhood doorway pages fixed in place (no noindex, no redirects)
+- All 284 live `blogs/tax-consultant-<area>-lahore.html` pages rewritten so each answers a different, area-relevant tax question (max 6-word shingle overlap between any two pages now ~8%, was 85–89%). The 8 area blog URLs that were already 301-redirected by long-standing `vercel.json` rules, and 6 topic pages in the same filename pattern (doctors, real-estate-agents, etc.), were left untouched.
+- Removed the fake per-area `LocalBusiness` schema (it put the office address in every neighbourhood); pages now carry BlogPosting + Place + BreadcrumbList + FAQPage matching the visible FAQ.
+- Added a citywide hub `/tax-consultant-lahore` linking every area page by zone; every area page links to its parent area page, neighbouring areas and the hub (previously near-orphans linked only from blogs.html).
+- Towns outside Lahore District (Chunian, Pattoki, Raja Jang → Kasur; Muridke, Kala Shah Kaku, Sharaqpur, Ferozewala, Kot Abdul Malik → Sheikhupura; Allama Iqbal Industrial City → Faisalabad) now name their real district.
+- Pages are generated from `content/lahore-areas/` (`build.py` + `data_*.py`; `check.py` gates uniqueness ≥15% overlap, ≥480 article words, JSON-LD, tag balance, broken links, title/description length). Edit the data files and rebuild rather than hand-editing the HTML. `content/lahore-areas/` is excluded from deploys via `.vercelignore`.
+- Fees on these pages follow `pricing.html`. Property WHT uses the canonical 236K 1.25%/2.5% and 236C 2.75%/5.5% (transfers from 1 July 2026).
