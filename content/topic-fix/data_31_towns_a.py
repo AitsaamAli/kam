@@ -78,7 +78,7 @@ A guest house with Rs 4,800,000 revenue for the year, Rs 3,100,000 in costs and 
 
 ## Getting Started
 
-Returns for tax year 2026 are due by 30 September 2026. Send documents on WhatsApp; a salaried return is Rs 3,500 on our [pricing page](/pricing).""",
+Tax year 2026 returns were due by 15 October 2026 after the extension; late returns are still accepted. Send documents on WhatsApp; a salaried return is Rs 3,500 on our [pricing page](/pricing).""",
           [("Can hotel owners deduct building depreciation?",
             "Yes, buildings and furniture used in the business are depreciated under the tax rules."),
            ("Do retirees declare rent from houses in other cities?",
@@ -157,7 +157,7 @@ Land, the shop, vehicles and credit given to farmers on 30 June all belong in th
 
 ## Getting Started
 
-Returns for tax year 2026 are due by 30 September 2026. Send your records on WhatsApp; business returns are Rs 5,000 on our [pricing page](/pricing).""",
+Tax year 2026 returns were due by 15 October 2026 after the extension; late returns are still accepted. Send your records on WhatsApp; business returns are Rs 5,000 on our [pricing page](/pricing).""",
           [("Is credit given to farmers an asset?",
             "Yes, amounts receivable from farmers on 30 June are assets in the wealth statement."),
            ("Do mills deduct tax from arhtis?",
@@ -213,7 +213,7 @@ A transport contractor receives Rs 6,000,000 from an exploration company, which 
 
 ## Getting Started
 
-Returns for tax year 2026 are due by 30 September 2026. Send documents on WhatsApp 0328-4675162.""",
+Tax year 2026 returns were due by 15 October 2026 after the extension; late returns are still accepted. Send documents on WhatsApp 0328-4675162.""",
           [("Can contractors get refunds of tax deducted?",
             "If deductions exceed their final liability and the deduction was adjustable, the excess can be claimed."),
            ("Do engineers declare consulting income?",
@@ -292,7 +292,7 @@ A lecturer earns Rs 2,400,000 salary with tax deducted and Rs 300,000 from consu
 
 ## Getting Started
 
-Returns for tax year 2026 are due by 30 September 2026. Send documents on WhatsApp.""",
+Tax year 2026 returns were due by 15 October 2026 after the extension; late returns are still accepted. Send documents on WhatsApp.""",
           [("Are pay arrears taxed in the year received?",
             "There is an option to tax them at the rates of the years they relate to."),
            ("Do landowners attach a wealth statement?",
@@ -371,7 +371,7 @@ A transporter with two coaches earns Rs 5,000,000 in fares, spends Rs 3,600,000 
 
 ## Getting Started
 
-Returns for tax year 2026 are due by 30 September 2026. Send documents on WhatsApp.""",
+Tax year 2026 returns were due by 15 October 2026 after the extension; late returns are still accepted. Send documents on WhatsApp.""",
           [("Do Gulf workers from Bannu file in Pakistan?",
             "Non-residents declare only Pakistani income but may file to obtain filer rates."),
            ("Can transporters claim vehicle tax?",
@@ -498,7 +498,7 @@ A rice mill processes paddy worth Rs 40 million and sells rice for Rs 46 million
 
 ## Getting Started
 
-Returns for tax year 2026 are due by 30 September 2026. Send documents on WhatsApp.""",
+Tax year 2026 returns were due by 15 October 2026 after the extension; late returns are still accepted. Send documents on WhatsApp.""",
           [("How should a family mill buy the family's own crop?",
             "At market price with records, as from any other supplier."),
            ("Can minimum tax apply to rice mills?",

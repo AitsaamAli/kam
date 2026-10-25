@@ -678,7 +678,7 @@ Prepare a summary of purchases and sales, closing stock and electricity bills. P
 
 ## Deadline
 
-Returns for tax year 2026 are due by 30 September 2026. Filing early avoids the last-week rush on IRIS.
+Wah Cantt filers who missed the extended 15 October 2026 date can still submit a late return for tax year 2026 and get back on the ATL.
 
 ## Getting Started
 

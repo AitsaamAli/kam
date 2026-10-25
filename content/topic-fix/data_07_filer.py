@@ -309,14 +309,14 @@ PAGES["blogs/income-tax-slab-pakistan-2026.html"] = {
     "faq_skip": ["What tax slab applies to freelancers in Pakistan?"],
     "body": """## What Changed for Tax Year 2026
 
-The slab tables above show the rates set by the Finance Act 2024 for tax year 2025. The Finance Act 2025 revised them for tax year 2026 (1 July 2025 to 30 June 2026). The best-known change for salaried taxpayers was the cut on the Rs 600,001 to Rs 1,200,000 band from 5% to 1%, with reductions on several higher bands as well. Before filing your return due on 30 September 2026, confirm the full tax year 2026 table on FBR's website or with us, because using the older table will overstate the tax on most salaries.
+The slab tables above show the rates set by the Finance Act 2024 for tax year 2025. The Finance Act 2025 revised them for tax year 2026 (1 July 2025 to 30 June 2026). The best-known change for salaried taxpayers was the cut on the Rs 600,001 to Rs 1,200,000 band from 5% to 1%, with reductions on several higher bands as well. Before filing your tax year 2026 return, confirm the full tax year 2026 table on FBR's website or with us, because using the older table will overstate the tax on most salaries.
 
 ## Reading a Slab Table Correctly
 
 Each band shows a fixed amount plus a percentage of income above the band's lower limit. Tax is not charged at the top rate on your whole income. Find the band your total taxable income falls into, take the fixed amount and add the percentage on the excess.""",
     "faq": [
         ("Are the tax year 2025 slabs used for returns due in September 2026?",
-         "No. Returns due on 30 September 2026 are for tax year 2026, which uses the revised slabs from the Finance Act 2025."),
+         "No. Returns due in September–October 2026 are for tax year 2026, which uses the revised slabs from the Finance Act 2025."),
         ("How do freelancers find the right slab?",
          "Freelancers usually have business income and use the non-salaried slabs, unless their IT export income is taxed under the reduced regime on proceeds."),
     ],
