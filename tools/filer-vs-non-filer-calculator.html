@@ -293,8 +293,8 @@ select.calc-input{cursor:pointer}
         <thead><tr><th>Transaction</th><th>Filer Rate</th><th>Non-Filer Rate</th><th>Section</th></tr></thead>
         <tbody>
           <tr><td>Bank cash withdrawal (above limit)</td><td>0.6%</td><td>1.2%</td><td>231A</td></tr>
-          <tr><td>Property purchase (236K)</td><td>3%</td><td>6%</td><td>236K</td></tr>
-          <tr><td>Property sale (236C)</td><td>4%</td><td>8%</td><td>236C</td></tr>
+          <tr><td>Property purchase (236K)</td><td>1.25%</td><td>2.5%</td><td>236K</td></tr>
+          <tr><td>Property sale (236C)</td><td>2.75%</td><td>5.5%</td><td>236C</td></tr>
           <tr><td>Vehicle registration (new)</td><td>2%</td><td>4%</td><td>231B</td></tr>
           <tr><td>Dividend income</td><td>15%</td><td>30%</td><td>150</td></tr>
           <tr><td>Contract / supply payments</td><td>7.5%</td><td>15%</td><td>153</td></tr>
@@ -318,8 +318,8 @@ select.calc-input{cursor:pointer}
 var WHT_CONFIG = {
   bank_cash:     {filer:0.006,  nonfiler:0.012, label:'Bank Cash Withdrawal (Sec 231A)'},
   bank_transfer: {filer:0.003,  nonfiler:0.006, label:'Banking / Cheque Transaction'},
-  property_buy:  {filer:0.03,   nonfiler:0.06,  label:'Property Purchase (Sec 236K)'},
-  property_sell: {filer:0.04,   nonfiler:0.08,  label:'Property Sale (Sec 236C)'},
+  property_buy:  {filer:0.0125, nonfiler:0.025,  label:'Property Purchase (Sec 236K)'},
+  property_sell: {filer:0.0275, nonfiler:0.055,  label:'Property Sale (Sec 236C)'},
   vehicle:       {filer:0.02,   nonfiler:0.04,  label:'Vehicle Registration (Sec 231B)'},
   dividend:      {filer:0.15,   nonfiler:0.30,  label:'Dividend Income (Sec 150)'},
   contract:      {filer:0.075,  nonfiler:0.15,  label:'Contract / Supply (Sec 153)'}

@@ -199,25 +199,25 @@
         {
           "section": "236C",
           "desc": "Advance tax on property sale — filer",
-          "rate": "3%",
+          "rate": "2.75%",
           "adjustable": true
         },
         {
           "section": "236C",
           "desc": "Advance tax on property sale — non-filer",
-          "rate": "6%",
+          "rate": "5.5%",
           "adjustable": true
         },
         {
           "section": "236K",
           "desc": "Advance tax on property purchase — filer",
-          "rate": "3%",
+          "rate": "1.25%",
           "adjustable": true
         },
         {
           "section": "236K",
           "desc": "Advance tax on property purchase — non-filer",
-          "rate": "6%",
+          "rate": "2.5%",
           "adjustable": true
         },
         {
