@@ -33,3 +33,4 @@ dist/
 # Build artifacts
 *.log
 *.gz
+__pycache__/

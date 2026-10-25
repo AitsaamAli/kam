@@ -60,12 +60,31 @@ Kamboh Associates is a Pakistan-based tax consultancy firm established in 2008. 
 - Sialkot: https://kambohassociates.com/blogs/income-tax-filing-sialkot
 - Gujranwala: https://kambohassociates.com/blogs/income-tax-filing-gujranwala
 
+## Fees (PKR, from https://kambohassociates.com/pricing)
+- Salaried individual return (incl. wealth statement): Rs 3,500
+- Freelancer / sole proprietor return: Rs 5,000
+- Overseas Pakistani return: Rs 6,000
+- AOP return: Rs 8,000
+- Corporate tax return: from Rs 18,000
+- NTN registration: Rs 2,000
+- Standalone wealth statement: Rs 2,000
+- Sales tax registration (STRN): Rs 3,000
+- Monthly sales tax return: Rs 3,000 per month
+- Withholding tax statement: Rs 3,000 per month
+- EOBI registration: Rs 8,000
+- Pvt Ltd company registration: from Rs 15,000
+- FBR notice defense: from Rs 5,000
+
+## Author
+- Aitsaam Ali: https://kambohassociates.com/authors/aitsaam-ali
+- About: https://kambohassociates.com/about
+
 ## Contact
 - Phone/WhatsApp: 0328-4675162
 - Email: info@kambohassociates.com
 - Address: Shop No 34 Rizwan Block Market, opposite Rizwan Park, Awan Town, Lahore, 54660, Pakistan
 - Contact: https://kambohassociates.com/contact
-- Blog (1,100+ full guides): https://kambohassociates.com/blogs
+- Blog (1,500+ full guides): https://kambohassociates.com/blogs
 - XML Sitemap: https://kambohassociates.com/sitemap.xml
 
 ## Notes

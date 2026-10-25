@@ -1,0 +1,27 @@
+content/lahore-areas/
+content/topic-fix/
+news/_TEMPLATE.html
+
+# Internal working files: keep them out of the public deploy
+/*.js
+/*.csv
+/*.zip
+/*.ps1
+/*.py
+/*.md
+/*.broken
+/GO_LIVE_ACTION_PLAN.txt
+/pending-sitemap-additions.txt
+/fbr-source-of-truth.json
+/progress.json
+/topic-cluster-map.json
+content/
+content-batches/
+outreach/
+project-history/
+reports/
+schema/
+searchops-team/
+seo_output/
+gsc_export_temp/
+gsc_valid_temp/
