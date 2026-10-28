@@ -107,3 +107,4 @@ Disallow: /
 
 # ---------- Sitemap ----------
 Sitemap: https://kambohassociates.com/sitemap.xml
+Sitemap: https://kambohassociates.com/sitemap-digital.xml
