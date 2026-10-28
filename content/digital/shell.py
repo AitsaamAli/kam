@@ -63,7 +63,7 @@ LOGO_SVG = ('<svg width="{s}" height="{s}" viewBox="0 0 46 46" xmlns="http://www
             '<text x="23" y="27" font-family="Cinzel,serif" font-size="12" font-weight="700" fill="url(#{p}g2)" text-anchor="middle" letter-spacing="1">KA</text></svg>')
 
 NAV = [("/digital", "Home"), ("/digital/business-websites", "Business Websites"), ("/digital/ecommerce-development", "Online Stores"),
-       ("/digital/web-app-development", "Web Apps"), ("/digital/pricing", "Pricing"), ("/digital/contact", "Contact")]
+       ("/digital/web-app-development", "Web Apps"), ("/digital/pricing", "Pricing"), ("/digital/blog", "Blog"), ("/digital/contact", "Contact")]
 
 
 def header(active):
@@ -137,6 +137,7 @@ def footer():
         <ul class="footer-links">
           <li><a href="/digital/web-development-lahore">Lahore Team</a></li>
           <li><a href="/digital/pricing">Pricing</a></li>
+          <li><a href="/digital/blog">Guides &amp; Blog</a></li>
           <li><a href="/digital/contact">Get a Quote</a></li>
         </ul>
       </div>
@@ -215,8 +216,9 @@ def build(p):
         s = re.sub(r'(<meta property="og:site_name" content=")[^"]*(")', r"\1Kamboh Associates Digital\2", s)
     s = fix_schema(s, p)
     # the shared stylesheet hides the menu below 1500px for the long tax menu; ours is short
-    if 'id="dg-nav"' not in s:
-        s = s.replace("</head>", '<style id="dg-nav">@media(min-width:1025px){.nav-links,.nav-phone{display:flex!important}.hamburger{display:none!important}}</style>\n</head>', 1)
+    s = re.sub(r'<style id="dg-nav">[\s\S]*?</style>\n?', "", s)
+    s = s.replace("</head>", '<style id="dg-nav">@media(min-width:1025px){.nav-links,.nav-phone{display:flex!important}.hamburger{display:none!important}}'
+                  '.blog-layout>*{min-width:0}@media(max-width:700px){.article-body table{display:block;overflow-x:auto;max-width:100%}}</style>\n</head>', 1)
     open(os.path.join(ROOT, p), "w", encoding="utf-8").write(s)
     return url
 

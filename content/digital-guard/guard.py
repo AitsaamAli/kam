@@ -21,6 +21,7 @@ Checks
   G8  Overlap         - /digital body text overlaps < 15% with any other page (6-word shingles)
   G9  Indexing        - self canonical, no noindex, listed in sitemap-digital.xml and not in sitemap.xml
   G10 Shell           - no tax promo bar, tax navigation or tax footer on /digital pages
+  G11 Links           - every /digital link points to an existing /digital page
 """
 import argparse
 import glob
@@ -141,7 +142,12 @@ def main():
         url = SITE + "/" + (p[:-len("/index.html")] if p.endswith("/index.html") else p[:-5])
         # G4
         for u in links(h):
-            if u.startswith("/digital") or u in LEGAL or ASSET.search(u):
+            if u.startswith("/digital"):
+                t = u.rstrip("/").lstrip("/")
+                if not (os.path.exists(os.path.join(ROOT, t + ".html")) or os.path.exists(os.path.join(ROOT, t, "index.html"))):
+                    fail("G11", "%s has a broken internal link: %s" % (p, u))
+                continue
+            if u in LEGAL or ASSET.search(u):
                 continue
             fail("G4", "%s links into the tax site: %s" % (p, u))
         # G5
