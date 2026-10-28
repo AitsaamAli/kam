@@ -19,7 +19,7 @@ ORG_ID = SITE + "/digital#organization"
 TODAY = date.today().isoformat()
 
 # Prices come from digital/pricing.html; keep them in one place.
-PRICES = {"starter": "$450", "standard": "$750", "store": "$1,200", "app": "$2,500"}
+PRICES = {"starter": "Rs 45,000", "business": "Rs 95,000", "store": "Rs 175,000", "app": "Rs 400,000"}
 
 DIGITAL_ORG = {
     "@type": "Organization",
@@ -34,20 +34,24 @@ DIGITAL_ORG = {
     "logo": {"@type": "ImageObject", "url": SITE + "/android-chrome-512x512.png", "width": 512, "height": 512},
 }
 
+# Starting prices used in Service schema (must match digital/pricing.html)
+OFFERS = {"digital/business-websites.html": "45000", "digital/ecommerce-development.html": "175000",
+          "digital/web-app-development.html": "400000", "digital/web-development-lahore.html": "45000"}
+
 # Day-1 titles and descriptions (no tax terms; unique site-wide).
 META = {
     "digital/index.html": ("Web Development Company in Pakistan | Kamboh Associates",
-                           "Business websites from $450, online stores from $1,200 and web apps from $2,500, built by a Lahore team for clients in Pakistan and abroad."),
-    "digital/business-websites.html": ("Business Website Development, from $450",
+                           "Business websites from Rs 45,000, online stores from Rs 175,000 and web apps from Rs 400,000, built by a Lahore team for clients in Pakistan and abroad."),
+    "digital/business-websites.html": ("Business Website Development in Pakistan, from Rs 45,000",
                                        "Fast, mobile-first business websites with fixed prices and clear timelines: 5–10 pages, CMS, WhatsApp and click-to-call, ready in two weeks."),
-    "digital/ecommerce-development.html": ("E-commerce Website Development, from $1,200",
+    "digital/ecommerce-development.html": ("E-commerce Website Development, from Rs 175,000",
                                            "Online stores built to sell: product catalogue, payment setup, courier and COD flow, WhatsApp ordering and a checkout that works on mobile."),
-    "digital/web-app-development.html": ("Custom Web Application Development, from $2,500",
+    "digital/web-app-development.html": ("Custom Web Application Development, from Rs 400,000",
                                          "Booking systems, client portals and internal tools for businesses that have outgrown a standard website. Scoped first, priced before we build."),
     "digital/web-development-lahore.html": ("Web Development Company in Lahore | Kamboh Associates",
                                             "A Lahore web development team you can meet in person: business websites, online stores and web apps with fixed prices and same-day replies."),
-    "digital/pricing.html": ("Website Development Prices 2026: Published Price List",
-                             "Published starting prices for business websites ($450), online stores ($1,200) and web apps ($2,500), with payment milestones and worked examples."),
+    "digital/pricing.html": ("Website Development Price in Pakistan 2026: Price List",
+                             "Published PKR prices: websites from Rs 45,000, online stores from Rs 175,000, web apps from Rs 400,000, with milestones and market comparison."),
     "digital/contact.html": ("Get a Website Quote in One Business Day",
                              "Message us on WhatsApp with your project and get a real price and timeline within one business day, not a sales call. Lahore team, clients worldwide."),
 }
@@ -172,6 +176,9 @@ def fix_schema(s, p):
                 continue
             if "provider" in o:
                 o["provider"] = DIGITAL_ORG
+                if p in OFFERS:
+                    o["offers"] = {"@type": "Offer", "price": OFFERS[p], "priceCurrency": "PKR",
+                                   "url": SITE + "/digital/pricing", "description": "Starting price"}
             if o.get("@type") == "BreadcrumbList":
                 items = [i for i in o["itemListElement"] if i.get("item") != SITE + "/"]
                 for n, i in enumerate(items, 1):
