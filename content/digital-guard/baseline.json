@@ -1,0 +1,6 @@
+{
+  "note": "Tax pages that already linked to /digital when the isolation guard was introduced (main @ 6998d3c). Frozen: the guard blocks any new ones. Not edited, to keep tax pages untouched.",
+  "tax_pages_linking_to_digital": [
+    "index.html"
+  ]
+}
