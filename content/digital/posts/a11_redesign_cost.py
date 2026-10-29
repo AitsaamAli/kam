@@ -15,9 +15,7 @@ POST = dict(
     category="Costs & Budgets",
     published="2026-10-28", published_h="28 October 2026",
     updated="2026-10-28", updated_h="28 October 2026",
-    answer=(f"A full redesign usually costs about the same as a new website of the same size: from {P['starter']} for a small site and "
-            f"{P['business']} for a ten-page business site with us. Many sites do not need one. Fixing speed, mobile layout, content and "
-            "calls to action often costs far less, and a redesign done carelessly can lose the Google rankings you already have."),
+    answer=(f"Website redesign cost is usually about the same as a new site of the same size: {P['starter']} for a small site and {P['business']} for ten pages with us. Many sites only need fixes to speed, mobile layout, content or calls to action, which cost less and protect your existing Google rankings."),
     takeaways=[
         "Redesign when the platform is outdated, the site cannot be edited, or the brand has changed. Fix when the problems are speed, content or conversion.",
         "A redesign is priced like a new build because the design, development and testing work is similar.",
@@ -39,7 +37,7 @@ POST = dict(
 <tr><td>Not mobile-friendly at all</td><td>Redesign</td></tr>
 </table>
 
-<h2 id="cost">What Does a Redesign Cost?</h2>
+<h2 id="cost">Website Redesign Cost: What You Will Pay</h2>
 <p>A full redesign involves the same steps as a new site: planning, design, development, content migration and testing. It is therefore priced like a new build of the same size. Our prices:</p>
 <table>
 <tr><th>Scope</th><th>Typical price with us</th></tr>
@@ -98,17 +96,17 @@ POST = dict(
         ("How much does a website redesign cost in Pakistan?",
          f"A full redesign is usually priced like a new site of the same size. With us that means {P['starter']} for up to five pages and {P['business']} for up to ten pages. Smaller fixes for speed, mobile layout or conversions cost less and are quoted after an audit."),
         ("Will redesigning my website affect my Google rankings?",
-         "It can, if URLs change without redirects or ranking content is removed. Keeping URLs, mapping 301 redirects, preserving important content and submitting a new sitemap protects most rankings."),
+         "It can, if URLs change without redirects or pages that bring traffic are removed or heavily rewritten. Keeping URLs where possible, mapping 301 redirects for every changed address, preserving important content and submitting a new sitemap in Search Console protects most rankings during a redesign."),
         ("How do I know if my website needs a redesign?",
-         "Redesign if you cannot edit the site, it is built on an unsupported platform, it is not mobile-friendly, or your brand has changed. If the problems are speed, content or low enquiries, targeted fixes are usually enough."),
+         "Redesign if you cannot edit the site, it is built on an unsupported platform, it is not mobile-friendly, or your brand has changed. If the problems are speed, content or low enquiries, targeted fixes are usually enough. A short audit can tell you which situation you are in."),
         ("What is a 301 redirect?",
          "A 301 redirect permanently sends visitors and search engines from an old URL to a new one. It passes most of the old page's search value to the new page, which is why every changed URL needs one during a redesign."),
         ("How long does a website redesign take?",
-         "A small site redesign usually takes two to four weeks, a business site four to eight weeks, and a store or platform move longer, depending on how much content must be migrated and tested."),
+         "A small site redesign usually takes two to four weeks, a business site four to eight weeks, and an online store or platform move longer. The timeline depends mostly on how much content must be migrated, how quickly feedback is given and how many redirects need testing."),
         ("Can I keep my content and just change the design?",
-         "Yes. A design refresh keeps your structure and content and changes how it looks. It is often the cheapest way to modernise a site that still works well."),
+         "Yes. A design refresh keeps your page structure, URLs and content, and changes only how the site looks. It is often the cheapest way to modernise a site that still works well, and it carries much less risk to your Google rankings than a full rebuild."),
         ("Should I change platforms during a redesign?",
-         "Only if the current platform limits you, for example if you cannot edit or export it, or it is no longer supported. Moving adds content and URL migration work, so plan and budget it from the start."),
+         "Only if the current platform limits you, for example if you cannot edit or export it, or it is no longer supported. Moving adds content and URL migration work, so plan and budget it from the start. Map every old URL to its new address before launch."),
     ],
     sources=[
         ("Google Search Central — Site moves with URL changes", "https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes"),

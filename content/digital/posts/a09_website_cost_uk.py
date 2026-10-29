@@ -8,16 +8,14 @@ POST = dict(
     title="How Much Does a Website Cost in the UK in 2026?",
     h1="How Much Does a Website Cost in the UK in 2026, and What an Offshore Team Charges",
     crumb="Website Cost in the UK",
-    description="UK small business websites typically cost £3,000 to £6,000 in 2026. See freelancer vs agency prices, yearly costs, and when hiring a Pakistani team makes sense.",
+    description="How much does a website cost in the UK? Most small businesses pay £3,000 to £6,000 in 2026. Freelancer vs agency prices, yearly costs and offshore options.",
     keyword="how much does a website cost uk",
     cluster=["small business website cost uk", "web design prices uk", "website cost uk 2026",
              "outsource website development pakistan", "offshore web design uk"],
     category="Costs & Budgets",
     published="2026-10-28", published_h="28 October 2026",
     updated="2026-10-28", updated_h="28 October 2026",
-    answer=("Most UK small businesses pay £3,000 to £6,000 for a professionally built website in 2026, according to UK pricing data. A "
-            "five-page brochure site costs about £1,500 to £3,000 from a freelancer and £3,000 to £5,000 from an agency, with £500 to £3,000 "
-            "a year for upkeep. Offshore teams, including ours in Lahore, quote a fraction of that for comparable scope."),
+    answer=("How much does a website cost in the UK? Most small businesses pay £3,000 to £6,000 in 2026: about £1,500 to £3,000 from a freelancer or £3,000 to £5,000 from an agency for five pages, plus £500 to £3,000 a year upkeep. Offshore teams, including ours, quote far less."),
     takeaways=[
         "UK prices depend mostly on who builds the site (freelancer, small agency, larger agency) and on scope.",
         "Budget for ongoing costs: UK guides estimate £500 to £3,000 a year for maintenance, plus hosting and domains.",
@@ -26,7 +24,7 @@ POST = dict(
         f"We quote and invoice in Pakistani rupees: business websites from {P['business']}, online stores from {P['store']}.",
     ],
     body=f"""
-<h2 id="uk-prices">Website Prices in the UK in 2026</h2>
+<h2 id="uk-prices">How Much Does a Website Cost in the UK in 2026?</h2>
 <p>UK agencies and pricing researchers publish fairly consistent figures for small business websites. The table summarises 2026 sources:</p>
 <table>
 <tr><th>Type of build</th><th>Typical UK price</th></tr>
@@ -90,19 +88,19 @@ POST = dict(
 """,
     faqs=[
         ("How much does a small business website cost in the UK?",
-         "UK pricing data for 2026 shows most small businesses paying £3,000 to £6,000 for a professionally built website. Freelancers typically charge £1,500 to £3,000 for a five-page site and agencies £3,000 to £5,000 for the same scope."),
+         "UK pricing data for 2026 shows most small businesses paying £3,000 to £6,000 for a professionally built website. Freelancers typically charge £1,500 to £3,000 for a five-page site and agencies £3,000 to £5,000 for the same scope. Hosting, domain and upkeep are usually extra each year."),
         ("How much does website maintenance cost in the UK?",
-         "UK sources estimate ongoing maintenance at about £500 to £3,000 a year, depending on how often the site changes and whether hosting, backups and security monitoring are included."),
+         "UK sources estimate ongoing website maintenance at about £500 to £3,000 a year in 2026, depending on how often the site changes and whether hosting, backups, security monitoring and content updates are included. Online stores and sites with frequent updates usually sit at the higher end of that range."),
         ("Is it safe to outsource a website to Pakistan?",
-         "It can be, if you check a real portfolio, agree a written scope, pay in milestones and keep the domain, hosting and code in your name. Those steps protect you with any developer, local or offshore."),
+         "It can be, if you check a real portfolio, agree a written scope, pay in milestones and keep the domain, hosting and code in your name. Those steps protect you with any developer, local or offshore. Start with a smaller first milestone if you want to test the working relationship."),
         ("What time difference is there between the UK and Pakistan?",
-         "Pakistan is four hours ahead of the UK during British Summer Time and five hours ahead in winter. That gives a comfortable morning overlap for calls with UK clients."),
+         "Pakistan is four hours ahead of the UK during British Summer Time and five hours ahead in winter. A Lahore team starting its day at 9am is therefore working during the UK early morning, which gives several hours of comfortable overlap for calls, reviews and quick feedback."),
         ("How do UK clients pay a Pakistani web development company?",
-         "We invoice in Pakistani rupees and UK clients pay by international bank transfer. The written quote states the exact rupee figure, and payments are made in milestones."),
+         "We invoice in Pakistani rupees and UK clients pay by international bank transfer in milestones: a deposit, a mid-project payment and the balance on delivery. The written quote states the exact rupee figure before any deposit, so there is no ambiguity about the amount agreed."),
         ("Will an offshore team handle UK GDPR and accessibility?",
-         "They can, but list these requirements in your brief: cookie consent, a privacy policy, accessibility to WCAG 2.2 AA and your preferred payment provider. Check them at each milestone."),
+         "A capable team can, but list these requirements in your brief rather than assuming them: a cookie consent banner, a privacy policy suitable for UK GDPR, accessibility to WCAG 2.2 AA and your preferred UK payment provider. Check each item at every milestone and before final payment."),
         ("Is a website builder cheaper than hiring someone?",
-         "In upfront cost, yes: UK sources quote about £10 to £50 a month for builders like Wix or Squarespace. You trade lower cost for your own time and the builder's limits on design, speed and features."),
+         "In upfront cost, yes: UK sources quote about £10 to £50 a month for builders like Wix or Squarespace. You trade lower cost for your own time and the builder's limits on design, speed and features. Compare the total cost over three years, not just the first month."),
     ],
     sources=[
         ("Whito — Website costs in the UK (2026 pricing data)", "https://whito.co.uk/start/website-costs/"),

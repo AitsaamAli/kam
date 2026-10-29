@@ -8,16 +8,14 @@ POST = dict(
     title="Why Website Quotes Vary From Rs 20,000 to Rs 500,000",
     h1="Why Website Quotes Vary From Rs 20,000 to Rs 500,000 (and How to Compare Them)",
     crumb="Why Website Quotes Vary",
-    description="Two website quotes can differ by Rs 400,000 for good reasons. See a line-by-line comparison of cheap and premium quotes and a checklist to compare them fairly.",
+    description="Why website prices vary from Rs 20,000 to Rs 500,000: a line-by-line comparison of cheap and premium quotes and a checklist to compare website quotes fairly.",
     keyword="why website prices vary",
     cluster=["cheap vs expensive website", "website quote comparison", "website development quotation pakistan",
              "how to compare website quotes", "website price difference"],
     category="Costs & Budgets",
     published="2026-10-28", published_h="28 October 2026",
     updated="2026-10-28", updated_h="28 October 2026",
-    answer=("Website quotes in Pakistan range from about Rs 20,000 to Rs 500,000 because they describe different products: a theme with "
-            "your logo versus an original design, your text versus professionally written content, a contact form versus payments and "
-            "integrations, and no support versus a maintained site you own. Compare quotes line by line, not by the total."),
+    answer=("Website prices vary from about Rs 20,000 to Rs 500,000 in Pakistan because quotes describe different products: a theme versus original design, your text versus written content, a contact form versus payments and integrations, and no support versus a maintained site you own. Compare quotes line by line."),
     takeaways=[
         "The total price hides the real differences; the scope lines explain them.",
         "Low quotes often leave out content, testing, licences, backups and ownership of the domain.",
@@ -26,7 +24,7 @@ POST = dict(
         "Never compare a quote that includes content and support with one that does not.",
     ],
     body=f"""
-<h2 id="same-word">Same Word, Different Products</h2>
+<h2 id="same-word">Why Website Prices Vary So Much</h2>
 <p>When you ask five developers for "a website", you receive five answers to five different questions. Published 2026 price guides from Pakistani agencies span roughly Rs 20,000 for a basic template site to Rs 600,000 for a large online store, and much more for custom applications. The gap is explained by scope, not by honesty or dishonesty.</p>
 
 <h2 id="side-by-side">Two Quotes Side by Side</h2>
@@ -94,17 +92,17 @@ POST = dict(
 """,
     faqs=[
         ("Why are website prices so different in Pakistan?",
-         "Because developers quote for different products. Design approach, number of pages, content writing, features, testing, licences, ownership and support all vary, and each changes the amount of skilled work involved."),
+         "Because developers quote for different products under the same word, website. Design approach, number of pages, who writes the content, features and integrations, testing, licences, ownership of the domain and support after launch all vary, and each changes the amount of skilled work behind the price."),
         ("Is a cheap website always bad?",
-         "No. A cheap template site can be fine for a business that just needs a basic online presence. Problems arise when low prices leave out ownership, licences, mobile testing, backups or basic SEO without saying so."),
+         "No. A cheap template site can be fine for a business that just needs a basic online presence. Problems arise when low prices leave out ownership, licences, mobile testing, backups or basic SEO without saying so. Ask for the list of inclusions and exclusions before deciding."),
         ("How do I compare website quotes fairly?",
-         "Ask every developer the same questions about pages, content, design, features, SEO, testing, ownership, payment schedule and support, and put the answers in one table. Compare complete answers, not totals."),
+         "Ask every developer the same questions about pages, content, design, features, SEO basics, testing, ownership, payment schedule and support, then put the answers side by side in one table. Compare complete answers rather than totals; the cheapest complete answer is usually the best value."),
         ("What should a website quotation include?",
-         "A list of pages, the design approach, features and integrations, content responsibilities, SEO basics, testing, ownership of the domain and hosting, the payment schedule, the timeline and support after launch."),
+         "A professional quotation lists the pages, the design approach and revision rounds, features and integrations, who supplies the content, SEO basics, testing, ownership of the domain and hosting, the payment schedule, the timeline with milestones and the support included after launch."),
         ("Should I pay 100% upfront for a website?",
-         "It is safer to pay a deposit, a mid-project payment and the balance on delivery, with the scope agreed in writing. Full upfront payment leaves you with little leverage if the work stalls."),
+         "It is safer not to. Pay a deposit to start, a payment at a mid-project checkpoint and the balance on delivery, with the scope agreed in writing first. Full upfront payment leaves you with very little leverage if the work slows down or the developer stops responding."),
         ("Why do some developers charge Rs 500,000 for a website?",
-         "Large quotes usually cover custom design, extensive content, many integrations, online payments, multiple languages or a large catalogue, plus project management and support. Ask which lines drive the price and whether you need them."),
+         "Large quotes usually cover custom design, extensive copywriting, many integrations, online payments, several languages or a big product catalogue, plus project management and ongoing support. Ask which lines drive the price and whether your business genuinely needs each of them before comparing it with smaller quotes."),
     ],
     sources=[
         ("Ezitech — Website Development Cost in Pakistan 2026", "https://ezitech.org/website-development-cost-in-pakistan/"),

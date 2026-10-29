@@ -8,16 +8,14 @@ POST = dict(
     title="Web App Development Cost in Pakistan 2026: Real Ranges",
     h1="Web App Development Cost in Pakistan: Portals, Booking Systems and SaaS",
     crumb="Web App Development Cost",
-    description="Custom web apps in Pakistan cost about Rs 150,000 to Rs 2,000,000+ in 2026. See what drives the price, hourly rates, timelines and how to scope a first version.",
+    description="Web application development cost in Pakistan 2026: roughly Rs 150,000 to Rs 2,000,000+. What drives price, hourly rates, timelines and scoping a first version.",
     keyword="web application development cost pakistan",
     cluster=["custom software cost pakistan", "web app development price", "portal development cost",
              "booking system development cost", "saas development cost pakistan"],
     category="Costs & Budgets",
     published="2026-10-28", published_h="28 October 2026",
     updated="2026-10-28", updated_h="28 October 2026",
-    answer=("A custom web application in Pakistan typically costs from about Rs 150,000 for a small, single-purpose tool to Rs 2,000,000 "
-            "or more for a multi-role platform, with most small-business projects in between. Timelines run from about six weeks to nine "
-            f"months. Our web apps start at {P['app']}, and most land between {P['app_range'].replace('Rs 360,000 to ', 'Rs 360,000 and ')}."),
+    answer=(f"Web application development cost in Pakistan ranges from about Rs 150,000 for a small single-purpose tool to Rs 2,000,000 or more for a multi-role platform, with timelines of six weeks to nine months. Our web apps start at {P['app']}, and most land between Rs 360,000 and Rs 1,350,000."),
     takeaways=[
         "Price follows complexity: number of user roles, screens, business rules and integrations.",
         "Pakistani agency rates in 2026 are roughly Rs 1,500 to Rs 8,000 an hour, depending on the size of the firm.",
@@ -26,7 +24,7 @@ POST = dict(
         "Budget 15–25% of the build cost a year for hosting, fixes and small improvements.",
     ],
     body=f"""
-<h2 id="ranges">How Much Does a Web App Cost in Pakistan?</h2>
+<h2 id="ranges">How Much Does Web Application Development Cost in Pakistan?</h2>
 <p>"Web app" covers anything from a simple booking form with an admin screen to a full software product with subscriptions. Pakistani agency guides published in 2026 give these broad ranges:</p>
 <table>
 <tr><th>Type of application</th><th>Typical price (PKR)</th><th>Typical timeline</th></tr>
@@ -88,21 +86,21 @@ POST = dict(
 """,
     faqs=[
         ("How much does a custom web application cost in Pakistan?",
-         f"In 2026 a small single-purpose web app typically costs Rs 150,000 to Rs 400,000, a business system Rs 400,000 to Rs 1,000,000 and a complex platform Rs 1,000,000 or more. Our web apps start at {P['app']}."),
+         f"In 2026 a small single-purpose web app typically costs Rs 150,000 to Rs 400,000, a business system Rs 400,000 to Rs 1,000,000 and a complex platform Rs 1,000,000 or more. Our web apps start at {P['app']}. A written scope is the only reliable way to get an accurate figure."),
         ("How long does it take to build a web app?",
          "A small tool can be built in four to eight weeks. A business system such as a booking platform or client portal usually takes two to four months, and complex platforms four to nine months, depending on scope and how quickly decisions are made."),
         ("What are software developer rates in Pakistan?",
          "One 2026 Pakistani guide lists indicative rates of about Rs 500 to 1,500 an hour for freelancers, Rs 1,500 to 3,500 for small agencies and Rs 3,000 to 8,000 for established software houses. Rates vary with experience and project size."),
         ("How can I reduce the cost of a web application?",
-         "Build a first version with only the core journey, reuse proven components instead of custom-building everything, limit integrations at launch, and write a clear scope before development so changes do not surface halfway through."),
+         "Build a first version with only the core user journey, reuse proven components instead of custom-building everything, limit integrations at launch, and write a detailed scope before development starts. Most overruns come from requirements discovered halfway through, so time spent on the scope is the cheapest saving available."),
         ("Should I choose a fixed price or hourly billing for a web app?",
-         "A fixed price works well when the scope is written in detail. Hourly or monthly billing suits projects where requirements will change. Many projects combine both: a fixed-price first version, then hourly work for improvements."),
+         "A fixed price works well when the scope is written in detail. Hourly or monthly billing suits projects where requirements will change. Many projects combine both: a fixed-price first version, then hourly work for improvements. Either way, review working software every week or two so you can see real progress."),
         ("Who owns the code of my web application?",
-         "You should. The agreement should state that the source code, database and accounts transfer to you on payment, and the code should live in a repository you control. Ask for this in writing before starting."),
+         "You should. The agreement should state that the source code, database and accounts transfer to you on payment, and the code should live in a repository you control. Ask for this in writing before starting. Ask for the code repository to be created in your own account from the first day."),
         ("Can a Pakistani team build a web app for my overseas business?",
-         "Yes. Many overseas businesses work with Pakistani teams for cost and talent reasons. Agree overlapping working hours, a written scope, milestone payments and code ownership before starting."),
+         "Yes. Many businesses in the UK, the Gulf and North America build web apps with Pakistani teams for cost and talent reasons. Agree overlapping working hours, a written scope with acceptance criteria, milestone payments and code ownership in your name before any development begins, exactly as you would with a local team."),
         ("What maintenance does a web app need after launch?",
-         "Security updates, bug fixes, hosting management, backups and small changes. A common rule of thumb is to budget 15 to 25 percent of the build cost each year for maintenance and improvements."),
+         "A web app needs security updates, dependency upgrades, bug fixes, hosting management, backups and small improvements as users give feedback. A common rule of thumb is to budget 15 to 25 percent of the build cost each year, more if the app handles payments or sensitive customer data."),
     ],
     sources=[
         ("Ezitech — Website Development Cost in Pakistan 2026 (custom application band, hourly rates)", "https://ezitech.org/website-development-cost-in-pakistan/"),

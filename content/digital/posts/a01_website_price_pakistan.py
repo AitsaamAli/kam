@@ -8,7 +8,7 @@ POST = dict(
     title="Website Price in Pakistan 2026: Real Costs Explained",
     h1="Website Price in Pakistan 2026: What a Business Website Really Costs",
     crumb="Website Price in Pakistan",
-    description="A business website in Pakistan costs about Rs 20,000 to Rs 250,000 in 2026, and online stores more. See real PKR ranges, yearly costs and how to compare quotes.",
+    description="Website price in Pakistan 2026: a business site costs about Rs 20,000 to Rs 250,000, online stores more. Real PKR ranges, yearly costs and how to compare quotes.",
     keyword="website price in pakistan",
     cluster=["website development cost in pakistan", "website kitne ki banti hai", "website banane ka kharcha",
              "website design price pakistan", "business website cost pakistan"],
@@ -16,7 +16,7 @@ POST = dict(
     published="2026-10-28", published_h="28 October 2026",
     updated="2026-10-28", updated_h="28 October 2026",
     answer=("In 2026 a template business website in Pakistan usually costs Rs 20,000 to Rs 80,000, a custom-designed "
-            "business site Rs 80,000 to Rs 250,000, and an online store Rs 120,000 to Rs 600,000. On top of the build you "
+            "business site Rs 80,000 to Rs 250,000, and an online store Rs 80,000 to Rs 600,000. On top of the build you "
             f"pay roughly Rs 8,000 to Rs 25,000 a year for hosting and a domain. Our own prices start at {P['starter']}."),
     takeaways=[
         "Most of the price difference comes from scope: number of pages, custom design versus a theme, and features such as payments or bookings.",
@@ -32,7 +32,7 @@ POST = dict(
 <tr><th>Type of website</th><th>Typical market price (PKR)</th><th>What you usually get</th><th>Typical timeline</th></tr>
 <tr><td>Template / starter site (3–5 pages)</td><td class="price">Rs 20,000 – 80,000</td><td>A purchased theme customised with your logo, text and photos; contact form</td><td>1–2 weeks</td></tr>
 <tr><td>Custom-designed business site (5–20 pages)</td><td class="price">Rs 80,000 – 250,000</td><td>Original design, content management, on-page SEO structure, analytics</td><td>3–8 weeks</td></tr>
-<tr><td>Online store</td><td class="price">Rs 120,000 – 600,000</td><td>Product catalogue, cart and checkout, payments, order management, courier flow</td><td>3–14 weeks</td></tr>
+<tr><td>Online store</td><td class="price">Rs 80,000 – 600,000</td><td>Product catalogue, cart and checkout, payments, order management, courier flow</td><td>3–14 weeks</td></tr>
 <tr><td>Custom web application</td><td class="price">Rs 150,000 – 2,000,000+</td><td>Portals, booking systems, dashboards, user roles and integrations</td><td>2–9 months</td></tr>
 </table>
 <p>The wide ranges are not a sign that the market is random. They reflect genuinely different products sold under the same word, "website". A three-page site built on a ready-made theme and a twenty-page site with original design, written content and integrations take very different amounts of skilled time, and that time is what you pay for.</p>
@@ -125,7 +125,7 @@ POST = dict(
         ("Are domain and hosting included in the website price?",
          "Usually not, and it is better that way. Domain and hosting should be registered in your own name and paid directly to the provider, so you are never locked in. Expect about Rs 8,000 to Rs 25,000 a year for both together on a typical business site."),
         ("How much does an e-commerce website cost in Pakistan?",
-         f"Published 2026 agency guides put online stores at roughly Rs 120,000 to Rs 600,000, depending on the number of products, payment methods and integrations. Our e-commerce package is {P['store']} for up to 100 products with cash on delivery, a payment gateway and courier booking."),
+         f"Published 2026 agency guides put online stores at roughly Rs 80,000 to Rs 600,000, depending on the number of products, payment methods and integrations. Our e-commerce package is {P['store']} for up to 100 products with cash on delivery, a payment gateway and courier booking."),
         ("Why do website prices vary so much between developers?",
          "Because the word website covers very different products. Page count, original design versus a theme, who writes the content, payments and other integrations, and the timeline all change the amount of skilled work involved. Compare quotes line by line, not by the headline number."),
         ("Should I pay the full amount upfront?",
@@ -133,7 +133,7 @@ POST = dict(
         ("How long does it take to build a website in Pakistan?",
          "A template-based starter site can be ready in one to two weeks. A custom-designed business site usually takes two to eight weeks, and an online store three to fourteen weeks. Having your content and photos ready is the single biggest factor in keeping to the timeline."),
         ("How much does website maintenance cost per month?",
-         f"Vendor price guides put basic maintenance at around Rs 5,000 to Rs 15,000 a month, covering updates, backups and security. Larger stores need more. Our maintenance plans start at {P['maint']} a month and are optional."),
+         f"Vendor price guides put basic maintenance at around Rs 5,000 to Rs 15,000 a month, covering updates, backups and security. Larger stores need more. Our maintenance plans start at {P['maint']} a month and are optional. Ask for the included tasks in writing before you sign."),
         ("Can I get a website built in Pakistan if my business is abroad?",
          "Yes. Many Pakistani teams, including ours, work with clients in the UK, the Gulf and North America. We quote and invoice in rupees, and clients pay by international bank transfer. Agree working hours, a written scope and milestones before starting."),
         ("Does a website price include SEO?",

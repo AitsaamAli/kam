@@ -8,16 +8,14 @@ POST = dict(
     title="Domain and Hosting Price in Pakistan 2026 (.pk vs .com)",
     h1="Domain and Hosting Price in Pakistan 2026: .pk vs .com and Which Hosting to Buy",
     crumb="Domain and Hosting Price",
-    description="A .pk domain costs Rs 2,100 a year at PKNIC since August 2026, and shared hosting about Rs 5,500 to Rs 15,000 a year. Compare .pk and .com and avoid renewal traps.",
+    description="Domain and hosting price in Pakistan 2026: a .pk domain is Rs 2,100 a year at PKNIC and shared hosting about Rs 5,500 to Rs 15,000. Compare .pk vs .com.",
     keyword="domain hosting price pakistan",
     cluster=[".pk domain price", "pknic domain registration", "hosting price in pakistan", "web hosting charges pakistan",
              ".pk domain kaise le"],
     category="Costs & Budgets",
     published="2026-10-28", published_h="28 October 2026",
     updated="2026-10-28", updated_h="28 October 2026",
-    answer=("Since 1 August 2026 a .pk domain costs Rs 2,100 per year at the PKNIC registry for Pakistani registrants, billed in two-year "
-            "blocks; resellers charge more for convenience. Shared hosting suitable for most business websites costs about Rs 5,500 to "
-            "Rs 15,000 a year. Register both in your own name, never your developer's."),
+    answer=("The domain and hosting price in Pakistan starts with a .pk domain at Rs 2,100 a year from the PKNIC registry since 1 August 2026, billed in two-year blocks, and shared hosting at about Rs 5,500 to Rs 15,000 a year. Register both in your own name, never your developer's."),
     takeaways=[
         "PKNIC raised the .pk fee from Rs 1,800 to Rs 2,100 per domain per year on 1 August 2026; foreign registrants pay $15.99 a year.",
         "PKNIC bills on a two-year basis and allows prepayment for up to ten years.",
@@ -82,7 +80,7 @@ POST = dict(
 <li>Set up business email (for example info@yourcompany.pk) and turn on auto-renew or set calendar reminders.</li>
 </ol>
 
-<h2 id="budget">A Simple Yearly Budget for a Business Website</h2>
+<h2 id="budget">Domain and Hosting Price in Pakistan: A Simple Yearly Budget</h2>
 <table>
 <tr><th>Item</th><th>Yearly amount</th></tr>
 <tr><td>.pk domain (registry rate)</td><td>Rs 2,100</td></tr>
@@ -94,21 +92,21 @@ POST = dict(
 """,
     faqs=[
         ("How much does a .pk domain cost in 2026?",
-         "PKNIC charges Pakistani registrants Rs 2,100 per domain per year since 1 August 2026, billed every two years, so Rs 4,200 per billing period. Foreign registrants pay $15.99 a year. Resellers charge more for handling the registration."),
+         "PKNIC charges Pakistani registrants Rs 2,100 per domain per year since 1 August 2026, billed every two years, so Rs 4,200 per billing period. Foreign registrants pay $15.99 a year. Resellers charge more for handling the registration. Check the registrar's total, as some resellers add a service charge."),
         (".pk domain kaise le?",
          "PKNIC ki website ya kisi reseller se naam check karein, apne naam aur email par account banayein, kam az kam do saal ki fees (Rs 4,200, yani Rs 2,100 saalana) ada karein, phir domain ko apni hosting se connect karein aur auto-renew on rakhein."),
         ("Is .pk or .com better for a Pakistani business?",
-         "Use .pk for a business that serves Pakistan and .com if you sell internationally. Many businesses register both. Google ranks either normally; content, speed and relevance matter far more than the extension."),
+         "Use a .pk domain if you mainly serve customers in Pakistan, and a .com if you sell internationally. Many businesses register both and point one to the other to protect the brand. Google ranks either normally; content quality, speed and relevance matter far more than the domain extension."),
         ("How much is web hosting in Pakistan per year?",
-         "Shared hosting suitable for most business websites costs about Rs 5,500 to Rs 15,000 a year in Pakistan. Busy online stores and web applications may need VPS or cloud hosting, which typically costs Rs 25,000 or more a year."),
+         "Shared hosting suitable for most business websites costs about Rs 5,500 to Rs 15,000 a year in Pakistan. Busy online stores and web applications may need VPS or cloud hosting, which typically costs Rs 25,000 or more a year. Always compare renewal prices, not only first-year offers."),
         ("Should my developer register the domain for me?",
-         "They can do the work, but the domain must be registered in your name and email. If it is registered to the developer, you may lose your website and email address if the relationship ends."),
+         "They can do the work, but the domain must be registered in your name and email. If it is registered to the developer, you may lose your website and email address if the relationship ends. If they set it up, make sure your name and email are the registrant details."),
         ("Is hosting included in a website price?",
-         "Usually not. Most professional developers recommend you buy hosting in your own name and pay the host directly, so you stay in control. Some offer hosting as part of a maintenance plan; check whose name the account is in."),
+         "Usually not. Most professional developers recommend you buy hosting in your own name and pay the host directly, so you stay in control. Some offer hosting as part of a maintenance plan; check whose name the account is in. Ask every developer to state this clearly in the quote."),
         ("What happens if my domain expires?",
-         "Your website and email stop working, and after a grace period the domain can be registered by someone else. Turn on auto-renew or set reminders, and keep your registrar contact email up to date."),
+         "Your website and business email stop working as soon as the domain expires. After a short grace period, someone else can register it, including competitors. Turn on auto-renew, keep the registrar contact email current, and set a calendar reminder a month before each renewal date."),
         ("Do I need to pay for an SSL certificate?",
-         "Usually not. Most hosting companies include a free SSL certificate, which gives your site the padlock and https address. Paid certificates are only needed in special cases."),
+         "Usually not. Most hosting companies in Pakistan and abroad include a free SSL certificate, which gives your website the padlock and the https address that browsers and Google expect. Paid certificates are only needed in special cases, such as organisation-validated certificates for some financial or government-facing sites."),
     ],
     sources=[
         ("PKNIC — fees, updates and FAQ (accessed 28 Oct 2026)", "https://pknic.net.pk/"),
