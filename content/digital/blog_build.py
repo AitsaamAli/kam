@@ -24,6 +24,8 @@ EXTRA_CSS = """<style id="dg-blog">
 /* icons get their width before the icon font loads, so the hero line does not re-wrap (layout shift) */
 .blog-hero-meta i,.breadcrumb i,.blog-meta-tag i{display:inline-block;width:1.25em;text-align:center}
 @media(max-width:600px){.blog-hero-meta{flex-direction:column;align-items:flex-start;gap:8px}}
+/* keep the breadcrumb on one line on phones so its height never changes when web fonts arrive (layout shift) */
+@media(max-width:600px){.blog-post-hero .breadcrumb{flex-wrap:nowrap;white-space:nowrap;overflow:hidden}.blog-post-hero .breadcrumb>span{min-width:0;overflow:hidden;text-overflow:ellipsis}}
 .related-post{display:flex;gap:12px;padding:10px 0;border-bottom:1px solid var(--border);cursor:pointer;transition:all .2s}
 .related-post:last-child{border-bottom:none}
 .related-post:hover{padding-left:5px}
