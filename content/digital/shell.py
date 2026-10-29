@@ -58,12 +58,12 @@ META = {
 
 LOGO_SVG = ('<svg width="{s}" height="{s}" viewBox="0 0 46 46" xmlns="http://www.w3.org/2000/svg"><defs>'
             '<linearGradient id="{p}g1" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#1E293B"/><stop offset="100%" stop-color="#0F172A"/></linearGradient>'
-            '<linearGradient id="{p}g2" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#5EEAD4"/><stop offset="100%" stop-color="#14B8A6"/></linearGradient></defs>'
+            '<linearGradient id="{p}g2" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#F0CF6B"/><stop offset="100%" stop-color="#D4AF37"/></linearGradient></defs>'
             '<circle cx="23" cy="23" r="23" fill="url(#{p}g1)"/><circle cx="23" cy="23" r="21" fill="none" stroke="url(#{p}g2)" stroke-width="1.5"/>'
-            '<text x="23" y="27" font-family="Cinzel,serif" font-size="12" font-weight="700" fill="url(#{p}g2)" text-anchor="middle" letter-spacing="1">KA</text></svg>')
+            '<text x="23" y="27" font-family="Cinzel,serif" font-size="13" font-weight="700" fill="url(#{p}g2)" text-anchor="middle" letter-spacing="1">KA</text></svg>')
 
 NAV = [("/digital", "Home"), ("/digital/business-websites", "Business Websites"), ("/digital/ecommerce-development", "Online Stores"),
-       ("/digital/web-app-development", "Web Apps"), ("/digital/pricing", "Pricing"), ("/digital/contact", "Contact")]
+       ("/digital/web-app-development", "Web Apps"), ("/digital/pricing", "Pricing"), ("/digital/blog", "Blog"), ("/digital/contact", "Contact")]
 
 
 def header(active):
@@ -123,6 +123,7 @@ def footer():
         <div class="footer-contact-row"><i class="fas fa-map-marker-alt"></i><span>Shop No 34 Rizwan Block Market, opposite Rizwan Park, Awan Town, Lahore 54660, Pakistan</span></div>
         <div class="footer-contact-row"><i class="fas fa-phone"></i><a href="tel:+923284675162">0328-4675162</a></div>
         <div class="footer-contact-row"><i class="fas fa-envelope"></i><a href="mailto:info@kambohassociates.com">info@kambohassociates.com</a></div>
+        <a href="https://g.page/r/CYzrn3EEiZVwEBM/review" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:8px;margin:14px 0 6px;padding:9px 18px;background:rgba(255,255,255,.05);border:1px solid rgba(212,175,55,.25);border-radius:8px;font-size:.8rem;color:#D4AF37;font-family:var(--font-display);letter-spacing:.08em;text-transform:uppercase;transition:all .2s" onmouseover="this.style.background='rgba(212,175,55,.12)'" onmouseout="this.style.background='rgba(255,255,255,.05)'"><i class="fab fa-google" style="font-size:.9rem"></i> Google Review Do</a>
       </div>
       <div>
         <div class="footer-col-head">What We Build</div>
@@ -137,6 +138,7 @@ def footer():
         <ul class="footer-links">
           <li><a href="/digital/web-development-lahore">Lahore Team</a></li>
           <li><a href="/digital/pricing">Pricing</a></li>
+          <li><a href="/digital/blog">Guides &amp; Blog</a></li>
           <li><a href="/digital/contact">Get a Quote</a></li>
         </ul>
       </div>
@@ -155,6 +157,22 @@ def footer():
   </div>
 </footer>'''
 
+
+CTA = """<!--dg-cta--><a href="tel:+923284675162" class="call-btn" aria-label="Call Now"><i class="fas fa-phone"></i><span class="call-tip">Call: 0328-4675162</span></a>
+<div class="mobile-cta-bar"><a href="tel:+923284675162" class="mobile-cta-call"><i class="fas fa-phone"></i> Call Now</a><a href="https://wa.me/923284675162?text=Hi%2C%20I%20need%20a%20quote%20for%20a%20website" target="_blank" rel="noopener" class="mobile-cta-wa"><i class="fab fa-whatsapp"></i> WhatsApp</a></div><!--/dg-cta-->"""
+
+# copied from the main site's stylesheet so both sections look the same
+CTA_CSS = ("@media(max-width:767px){.wa-btn,.call-btn{display:none!important}}"
+           ".call-btn{position:fixed;bottom:max(28px,env(safe-area-inset-bottom) + 12px);right:max(100px,env(safe-area-inset-right) + 84px);z-index:999;width:50px;height:50px;background:#2563EB;border-radius:50%;display:grid;place-items:center;color:#fff;font-size:1.45rem;box-shadow:0 8px 28px rgba(37,99,235,.4);transition:transform .25s var(--ease-spring),box-shadow .25s;animation:call-pulse 2.8s ease-in-out infinite 1.1s}"
+           "@keyframes call-pulse{0%,100%{box-shadow:0 8px 28px rgba(37,99,235,.4),0 0 0 0 rgba(37,99,235,.45)}50%{box-shadow:0 8px 28px rgba(37,99,235,.4),0 0 0 12px rgba(37,99,235,0)}}"
+           ".call-btn:hover{transform:scale(1.12);box-shadow:0 12px 40px rgba(37,99,235,.55);animation:none}"
+           ".call-tip{position:absolute;right:calc(100% + 12px);top:50%;transform:translateY(-50%);background:var(--surface);border:1px solid var(--border-gold);border-radius:8px;padding:8px 16px;font-size:.8rem;white-space:nowrap;color:var(--text);opacity:0;pointer-events:none;transition:opacity .25s;font-family:var(--font-body);box-shadow:var(--shadow)}"
+           ".call-btn:hover .call-tip{opacity:1}"
+           ".mobile-cta-bar{display:none;position:fixed;bottom:0;left:0;right:0;z-index:1000;background:var(--surface);border-top:2px solid rgba(20,184,166,.2);padding:10px 16px;padding-bottom:max(12px,env(safe-area-inset-bottom));gap:10px;box-shadow:0 -6px 24px rgba(0,0,0,.18)}"
+           ".mobile-cta-bar a{flex:1;display:flex;align-items:center;justify-content:center;gap:8px;padding:14px 10px;border-radius:12px;font-size:.9rem;font-weight:700;font-family:var(--font-body);text-decoration:none;transition:opacity .15s;min-height:50px}"
+           ".mobile-cta-bar a:active{opacity:.75;transform:scale(.97)}.mobile-cta-call{background:#0F172A;color:#fff!important}.mobile-cta-wa{background:#25D366;color:#fff!important}"
+           ".back-top{right:170px}"
+           "@media(max-width:767px){.mobile-cta-bar{display:flex}body{padding-bottom:76px}.back-top{display:none!important}}")
 
 ABOUT = ('<div class="sidebar-card"><div class="sidebar-title"><i class="fas fa-building"></i> About Us</div>'
          '<p style="font-size:.85rem;color:var(--text-3);line-height:1.7">A Lahore-based team building business websites, '
@@ -214,9 +232,13 @@ def build(p):
             s = re.sub(pat, lambda m: m.group(1) + H.escape(t) + m.group(2), s)
         s = re.sub(r'(<meta property="og:site_name" content=")[^"]*(")', r"\1Kamboh Associates Digital\2", s)
     s = fix_schema(s, p)
+    # floating call button and phone bottom bar, as on the main site
+    s = re.sub(r"<!--dg-cta-->[\s\S]*?<!--/dg-cta-->\n?", "", s)
+    s = s.replace("</body>", CTA + "\n</body>", 1)
     # the shared stylesheet hides the menu below 1500px for the long tax menu; ours is short
-    if 'id="dg-nav"' not in s:
-        s = s.replace("</head>", '<style id="dg-nav">@media(min-width:1025px){.nav-links,.nav-phone{display:flex!important}.hamburger{display:none!important}}</style>\n</head>', 1)
+    s = re.sub(r'<style id="dg-nav">[\s\S]*?</style>\n?', "", s)
+    s = s.replace("</head>", '<style id="dg-nav">@media(min-width:1025px){.nav-links,.nav-phone{display:flex!important}.hamburger{display:none!important}}'
+                  '.blog-layout>*{min-width:0}@media(max-width:700px){.article-body table{display:block;overflow-x:auto;max-width:100%}.table-wrap table.compare-table{display:table;max-width:none}}' + CTA_CSS + '</style>\n</head>', 1)
     open(os.path.join(ROOT, p), "w", encoding="utf-8").write(s)
     return url
 
