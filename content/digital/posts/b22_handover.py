@@ -10,7 +10,7 @@ POST = dict(
     crumb="Website Handover Checklist",
     description="A website handover checklist for launch day: the logins, files, backups, licences and documents you must receive before making the final payment to your developer.",
     keyword="website handover checklist",
-    cluster=["website handover document", "what to get from web developer", "website launch checklist",
+    cluster=["website handover document", "what to get from web developer", "website handover process",
              "website credentials handover", "website documentation"],
     category="Hiring a Developer",
     published="2026-10-28", published_h="28 October 2026",

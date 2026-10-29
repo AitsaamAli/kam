@@ -508,7 +508,7 @@ The build adds an author box, a disclosure and dates. Your `method` field must h
 - **Industries (cluster E) and regulated topics.** For clinics, dental, pharmacy and law firms, name the regulator and link its official site in `sources`:
   - PMDC (pmdc.pk) for doctors and dentists
   - DRAP (drap.gov.pk) for medicines
-  - the Pakistan Bar Council (pbc.org.pk) for lawyers
+  - the Pakistan Bar Council (pakistanbarcouncil.org) for lawyers
 
   Tell readers to confirm current advertising and privacy rules with them. Do not state specific legal rules you cannot source. Patient and client privacy must be discussed.
 - **Local (cluster F).**
@@ -609,7 +609,7 @@ Never cite a page you have not opened. Never guess a deep link.
 - https://www.ontario.ca/page/about-accessibility-laws
 - https://www.payoneer.com/
 - https://www.paypal.com/pk/home
-- https://www.pbc.org.pk/
+- https://pakistanbarcouncil.org/
 - https://www.pknic.net.pk/
 - https://www.pseb.org.pk/
 - https://www.shopify.com/pricing
