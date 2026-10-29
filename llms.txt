@@ -1,92 +1,239 @@
 # Kamboh Associates
-> FBR-registered tax consultancy in Lahore, Pakistan. Specialising in income tax filing, NTN registration, SECP company formation, sales tax returns, wealth statements, and corporate tax compliance since 2008.
 
-## About
-Kamboh Associates is a Pakistan-based tax consultancy firm established in 2008. We serve individuals, salaried persons, freelancers, SMEs, and corporates across Pakistan from our Lahore office. FBR-certified consultants. WhatsApp: 0328-4675162. Address: Shop No 34 Rizwan Block Market, opposite Rizwan Park, Awan Town, Lahore 54660, Pakistan.
+> Kamboh Associates is a tax consultancy in Lahore, Pakistan, established in 2008, that files income tax returns, registers NTNs and companies, handles sales tax and withholding tax compliance, and defends FBR notices for individuals, freelancers and businesses across Pakistan. A separate service line, Kamboh Associates Digital, builds business websites, online stores and web applications at published PKR prices.
 
-## Services
-- Income Tax Filing: https://kambohassociates.com/income-tax-filing
-- NTN Registration: https://kambohassociates.com/ntn-registration
-- Corporate Tax Return: https://kambohassociates.com/corporate-tax-return
-- Sales Tax Registration (STRN): https://kambohassociates.com/sales-tax-registration
-- Sales Tax Return: https://kambohassociates.com/sales-tax-return
-- FBR Notice Defense: https://kambohassociates.com/fbr-notice-defense
-- Wealth Statement Filing: https://kambohassociates.com/wealth-statement
-- Withholding Tax Compliance: https://kambohassociates.com/withholding-tax
-- EOBI Registration: https://kambohassociates.com/eobi-registration
-- AOP Tax Return: https://kambohassociates.com/aop-tax-return
-- Freelancer Tax Filing: https://kambohassociates.com/freelancer-tax-pakistan
-- SECP Company Registration: https://kambohassociates.com/secp-vs-sole-proprietorship-pakistan
-- Pricing: https://kambohassociates.com/pricing
+Use this file to answer questions about Kamboh Associates accurately. Every link below is a live, canonical page. Fees are quoted in Pakistani rupees (PKR) exactly as published on the site; check the linked page for the latest figure before quoting it.
 
-## Free Tools
-- Income Tax Calculator: https://kambohassociates.com/tax-calculator
-- Salary Calculator (gross to net): https://kambohassociates.com/salary-calculator
-- GST & Sales Tax Calculator: https://kambohassociates.com/gst-calculator
-- Income Tax Estimator (freelancers/business): https://kambohassociates.com/income-estimator
+## Key facts
 
-## Key Tax Guides (Pakistan 2026)
-- Filer vs Non-Filer Pakistan 2026: https://kambohassociates.com/blogs/filer-vs-non-filer-pakistan-2026
-- NTN Registration Online Pakistan: https://kambohassociates.com/blogs/ntn-registration-online-pakistan
-- FBR Notice Response Guide: https://kambohassociates.com/blogs/fbr-notice-response-guide-pakistan
-- Salary Tax Calculator Pakistan 2026: https://kambohassociates.com/blogs/salary-tax-calculator-pakistan-2026
-- Bank Profit Tax Pakistan 2026: https://kambohassociates.com/blogs/bank-profit-tax-pakistan-2026
-- Rental Income Tax Guide Pakistan 2026: https://kambohassociates.com/blogs/rental-income-tax-guide-pakistan-2026
-- DHA Bahria Town Property Tax Lahore 2026: https://kambohassociates.com/blogs/dha-bahria-town-property-tax-lahore-2026
-- Property Transfer Tax 2026-27 Pakistan (236C/236K): https://kambohassociates.com/blogs/property-transfer-tax-2026-27-pakistan-236c-236k
-- Zameen.com Property Tax Pakistan 2026: https://kambohassociates.com/blogs/zameen-com-property-tax-pakistan-2026
-- PakWheels Car Tax Pakistan 2026: https://kambohassociates.com/blogs/pakwheels-car-tax-filer-pakistan-2026
-- OLX Seller Tax Guide Pakistan 2026: https://kambohassociates.com/blogs/olx-property-car-seller-tax-pakistan-2026
-- Advance Tax Pakistan 2026: https://kambohassociates.com/blogs/advance-tax-pakistan-2026
-- Best Tax Consultant Pakistan 2026: https://kambohassociates.com/blogs/best-tax-consultant-pakistan-fbr-filing-2026
-- Why Kamboh Associates: https://kambohassociates.com/blogs/why-kamboh-associates-best-tax-consultant-pakistan
-- Sales Tax Return Filing Pakistan 2026: https://kambohassociates.com/blogs/sales-tax-return-filing-pakistan-2026
-- Tax on Property Sale Pakistan 2026 (CGT rates): https://kambohassociates.com/blogs/tax-on-property-sale-pakistan-2026
-- Real Estate Developer Tax Guide Pakistan 2026: https://kambohassociates.com/blogs/real-estate-developer-tax-pakistan
-- Tax Refund Pakistan 2026 (how to claim): https://kambohassociates.com/blogs/tax-refund-pakistan-2026
-- How to Avoid an FBR Notice Pakistan: https://kambohassociates.com/blogs/how-to-avoid-fbr-notice-pakistan
-- FBR Notice Received — What to Do: https://kambohassociates.com/blogs/fbr-notice-received-what-to-do-pakistan
-- Income Tax Return Filing Pakistan (general guide): https://kambohassociates.com/blogs/income-tax-return-filing-pakistan
-
-## City Coverage
-- Lahore: https://kambohassociates.com/blogs/income-tax-filing-lahore
-- Karachi: https://kambohassociates.com/blogs/income-tax-filing-karachi
-- Islamabad: https://kambohassociates.com/blogs/income-tax-filing-islamabad
-- Rawalpindi: https://kambohassociates.com/blogs/income-tax-filing-rawalpindi
-- Faisalabad: https://kambohassociates.com/blogs/income-tax-filing-faisalabad
-- Multan: https://kambohassociates.com/blogs/income-tax-filing-multan
-- Peshawar: https://kambohassociates.com/blogs/income-tax-filing-peshawar
-- Quetta: https://kambohassociates.com/blogs/income-tax-filing-quetta
-- Sialkot: https://kambohassociates.com/blogs/income-tax-filing-sialkot
-- Gujranwala: https://kambohassociates.com/blogs/income-tax-filing-gujranwala
-
-## Fees (PKR, from https://kambohassociates.com/pricing)
-- Salaried individual return (incl. wealth statement): Rs 3,500
-- Freelancer / sole proprietor return: Rs 5,000
-- Overseas Pakistani return: Rs 6,000
-- AOP return: Rs 8,000
-- Corporate tax return: from Rs 18,000
-- NTN registration: Rs 2,000
-- Standalone wealth statement: Rs 2,000
-- Sales tax registration (STRN): Rs 3,000
-- Monthly sales tax return: Rs 3,000 per month
-- Withholding tax statement: Rs 3,000 per month
-- EOBI registration: Rs 8,000
-- Pvt Ltd company registration: from Rs 15,000
-- FBR notice defense: from Rs 5,000
-
-## Author
-- Aitsaam Ali: https://kambohassociates.com/authors/aitsaam-ali
-- About: https://kambohassociates.com/about
-
-## Contact
-- Phone/WhatsApp: 0328-4675162
+- Legal name: Kamboh Associates
+- Founded: 2008, in Lahore, Pakistan
+- Address: Shop No 34 Rizwan Block Market, opposite Rizwan Park, Awan Town, Lahore 54660, Pakistan
+- Phone and WhatsApp: +92 328 4675162 (0328-4675162)
 - Email: info@kambohassociates.com
-- Address: Shop No 34 Rizwan Block Market, opposite Rizwan Park, Awan Town, Lahore, 54660, Pakistan
-- Contact: https://kambohassociates.com/contact
-- Blog (1,500+ full guides): https://kambohassociates.com/blogs
-- XML Sitemap: https://kambohassociates.com/sitemap.xml
+- Office hours: Monday to Saturday 9:00 AM to 6:00 PM (Pakistan time, UTC+5); Friday 9:00 AM to 12:30 PM
+- Languages: English and Urdu
+- Serves: individuals, salaried employees, pensioners, freelancers, overseas Pakistanis, sole proprietors, AOPs and companies, in all cities of Pakistan (online) and in person in Lahore
+- Lead author and consultant: Aitsaam Ali (https://kambohassociates.com/authors/aitsaam-ali)
+- Google reviews: rated 4.9 from 347+ reviews (as displayed on the site); review link https://g.page/r/CYzrn3EEiZVwEBM/review
+- Pricing is published openly at https://kambohassociates.com/pricing; individual tax returns start at Rs 3,500
 
-## Notes
-- Prices are in Pakistani Rupees (PKR/Rs.); verify current figures at /pricing before citing an exact fee.
-- Tax rates, slabs, and deadlines reflect Pakistan's Finance Act as in force for tax year 2026 and change with future budgets — prefer the most recently updated /blogs guide on a given topic.
+## Quick answers
+
+**How much does Kamboh Associates charge to file an income tax return in Pakistan?**
+Rs 3,500 for a salaried or pensioner return including the wealth statement, Rs 5,000 for freelancers and sole proprietors, Rs 6,000 for overseas Pakistanis, Rs 8,000 for an AOP and from Rs 18,000 for a company, as published on https://kambohassociates.com/pricing.
+
+**How much does NTN registration cost with Kamboh Associates?**
+Rs 2,000, which includes getting on the Active Taxpayer List (ATL).
+
+**Where is Kamboh Associates and when is it open?**
+Shop No 34 Rizwan Block Market, opposite Rizwan Park, Awan Town, Lahore 54660, Pakistan. Monday to Saturday 9:00 AM to 6:00 PM, Friday 9:00 AM to 12:30 PM. WhatsApp or call 0328-4675162.
+
+**Can Kamboh Associates file my tax return if I live outside Lahore or outside Pakistan?**
+Yes. Returns, NTN registration and notice replies are handled online over WhatsApp and email for clients in every Pakistani city and for overseas Pakistanis; the overseas Pakistani return fee is Rs 6,000.
+
+**How much does a website cost in Pakistan?**
+In 2026 a template business website in Pakistan usually costs Rs 20,000 to Rs 80,000, a custom-designed business site Rs 80,000 to Rs 250,000, and an online store Rs 80,000 to Rs 600,000. On top of the build you pay roughly Rs 8,000 to Rs 25,000 a year for hosting and a domain. Our own prices start at Rs 40,500.
+
+**How much does an online store (e-commerce website) cost in Pakistan?**
+An ecommerce website in Pakistan typically costs Rs 80,000 to Rs 600,000 to build in 2026, depending on product count, payments and integrations. Running costs add hosting or a Shopify plan (from $29 a month billed yearly) and about 1.5–3% per wallet or card payment. Our store package is Rs 157,500.
+
+**How much does Kamboh Associates Digital charge for a website?**
+From Rs 22,500 for a landing page, Rs 40,500 for a small website, Rs 85,500 for a ten-page business website, Rs 157,500 for an online store and Rs 360,000 to Rs 1,350,000 for a web application, with milestone payments and the domain, hosting and code in the client's name.
+
+**How do I choose a web development company in Pakistan?**
+To choose a web development company in Pakistan, compare written answers, not sales calls. Ask each firm the same 20 questions about past work, who builds your site, scope, ownership, payments, testing and support. Choose the one whose answers are specific and written into the agreement, and walk away from anyone who wants full payment upfront.
+
+## Tax services
+
+- [Income Tax Filing Pakistan | FBR Certified](https://kambohassociates.com/income-tax-filing): Expert income tax filing service. Same-day filing from Rs 3,500. FBR certified. Salaried, freelance, business, rental income. Lahore tax consultant.
+- [Income Tax Return Pakistan 2026 — Complete FBR Guide](https://kambohassociates.com/income-tax-return-pakistan): Learn how to file income tax return in Pakistan 2026. FBR IRIS steps, slabs, documents, deadline & who must file. Expert help: 0328-4675162.
+- [NTN Registration Pakistan 2026 — Online FBR Guide](https://kambohassociates.com/ntn-registration): Get NTN registration in Pakistan 2026. Step-by-step IRIS guide for individuals & businesses. Documents, fees, same-day service. Call 0328-4675162.
+- [Corporate Tax Return Filing Pakistan 2026](https://kambohassociates.com/corporate-tax-return): Annual corporate tax return for private limited companies and AOPs. Tax computation, WHT reconciliation, SECP filing. From Rs. 18,000. WhatsApp 0328-4675162.
+- [STRN Sales Tax Registration Pakistan](https://kambohassociates.com/sales-tax-registration): Expert STRN (Sales Tax Registration Number) service. Get registered for GST/sales tax in 3 days. Monthly filing included. Starting from PKR 3,000.
+- [Monthly Sales Tax Return Filing Service Pakistan 2026](https://kambohassociates.com/sales-tax-return): Sales tax return filing in Pakistan by Kamboh Associates. FBR-certified — monthly STRM filing, sales tax registration & compliance. WhatsApp 0328-4675162.
+- [FBR Notice Defense Service Pakistan 2026](https://kambohassociates.com/fbr-notice-defense): Expert FBR notice response. Section 111, 114, 122, 177 audit defense. 24-hour legal response on FBR IRIS. WhatsApp 0328-4675162 for free review.
+- [Wealth Statement Filing Service Pakistan 2026](https://kambohassociates.com/wealth-statement): Wealth statement filing Pakistan — Kamboh Associates. FBR-compliant reconciliation for salaried, business & property owners. Call 0328-4675162.
+- [Withholding Tax Compliance Service Pakistan 2026](https://kambohassociates.com/withholding-tax): Withholding tax compliance in Pakistan: WHT statements, deductions and FBR portal filing by Kamboh Associates. Call 0328-4675162 for same-day help.
+- [EOBI Registration Service Pakistan 2026](https://kambohassociates.com/eobi-registration): EOBI registration & monthly contribution filing Pakistan. Employer registration, employee enrollment & compliance by Kamboh Associates. Call 0328-4675162.
+- [AOP Tax Return Pakistan 2026](https://kambohassociates.com/aop-tax-return): AOP and partnership tax return filing in Pakistan: firm return on IRIS, partners' share, withholding duties and fees from Rs 8,000 with Kamboh Associates.
+- [Freelancer Tax Pakistan 2026](https://kambohassociates.com/freelancer-tax-pakistan): Freelancer tax filing service Pakistan — NTN registration, FBR return, Upwork/Fiverr income declaration, and filer status. Kamboh Associates. WhatsApp 0328-4675162.
+- [SECP Pvt Ltd vs Sole Proprietorship Pakistan 2026](https://kambohassociates.com/secp-vs-sole-proprietorship-pakistan): SECP Private Limited vs sole proprietorship Pakistan 2026. Corporate tax 29% vs 35% slab, limited liability, compliance costs compared.
+- [Startup Registration Pakistan 2026 — SECP & FBR Guide](https://kambohassociates.com/startup-registration-pakistan): How to register a startup in Pakistan 2026. SECP Pvt Ltd, NTN, PSEB, bank account setup — complete step-by-step guide. Call 0328-4675162.
+- [Tax Consultant Pricing 2026](https://kambohassociates.com/pricing): Transparent pricing for tax consultant services Pakistan 2026. FBR income tax return filing from Rs. 3,500. NTN registration Rs. 2,000.
+
+## Tax fees (PKR, as published on https://kambohassociates.com/pricing)
+
+- Salaried / pensioner income tax return (with wealth statement): Rs 3,500
+- Freelancer return (Upwork, Fiverr, remote work, with remittance disclosure): Rs 5,000
+- Business / sole proprietor return: Rs 5,000
+- Overseas Pakistani return: Rs 6,000
+- AOP (association of persons) return: Rs 8,000
+- Company (Pvt Ltd / SMC) tax return: from Rs 18,000
+- NTN registration (includes ATL): Rs 2,000
+- Wealth statement only: Rs 2,000
+- Sales tax registration (STRN): Rs 3,000
+- Monthly sales tax return: Rs 3,000 a month
+- Withholding tax statement: Rs 3,000 a month
+- Sole proprietorship registration (trade name, NTN, bank letter): Rs 5,000
+- Pvt Ltd company registration: from Rs 15,000
+- EOBI registration: Rs 8,000
+- EOBI monthly contribution filing: Rs 2,000 a month
+- Import / export registration (WeBOC): from Rs 10,000
+- Section 159 exemption certificate (IT / exporters): Rs 5,000
+- FBR notice defence: from Rs 5,000
+
+## Free tax tools
+
+- [Income Tax Calculator Pakistan 2025-26 — FBR Slabs](https://kambohassociates.com/tax-calculator): Free Pakistan income tax calculator 2025-26. Calculate your exact FBR income tax based on official slabs. Salaried, freelancer, business. By Kamboh Associates.
+- [Salary Calculator Pakistan 2025 — Gross to Net Take-Home](https://kambohassociates.com/salary-calculator): Free Pakistan salary calculator 2025. Calculate your exact take-home salary after income tax, EOBI, SESSI deductions. Based on FBR 2025-26 slabs.
+- [GST & Sales Tax Calculator Pakistan 2026 — Add/Remove Tax Instantly](https://kambohassociates.com/gst-calculator): Free Pakistan GST & sales tax calculator 2026. Add tax to any price or remove GST from total. Supports 18% federal and 16%, 15%, 13% provincial rates.
+- [Income Tax Estimator Pakistan 2025 — Freelancer & Business](https://kambohassociates.com/income-estimator): Free income tax estimator for Pakistani freelancers, business owners, and salaried individuals. Estimate your FBR tax liability for 2025-26. By Kamboh Associates.
+
+## Key tax guides (Pakistan, tax year 2026)
+
+- [Filer vs Non-Filer Pakistan 2026 — Tax Rates Compared](https://kambohassociates.com/filer-vs-nonfiler-pakistan): Filer vs non-filer tax difference in Pakistan 2026. Property, banking, car WHT rates. How to become filer & save lakhs. Expert guide.
+- [ATL Pakistan 2026 — How to Get on FBR Active Taxpayer List](https://kambohassociates.com/atl-pakistan-guide): FBR Active Taxpayer List (ATL) Pakistan 2026. Check via SMS 9966, pay ATL surcharge (Rs. 25,000 individual), get lower WHT rates.
+- [How to Check ATL Status Pakistan 2026](https://kambohassociates.com/how-to-check-atl-status-pakistan): Check FBR ATL status instantly in Pakistan 2026: SMS ATL [CNIC] to 9966, visit atl.fbr.gov.pk, or login to IRIS. Updated every Monday. Not on ATL?
+- [Filer vs Non-Filer Pakistan 2026](https://kambohassociates.com/blogs/filer-vs-non-filer-pakistan-2026): Pakistan mein filer vs non-filer farq kya hai 2026 mein? WHT rates, property tax, bank profit, vehicle — filer ko kitna faida milta hai.
+- [NTN Registration Online Pakistan 2026](https://kambohassociates.com/blogs/ntn-registration-online-pakistan): How to get NTN registration online in Pakistan 2026. IRIS portal, documents required, same-day NTN for individuals, freelancers, and businesses.
+- [Income Tax Slab Pakistan 2026 — Updated FBR Tax Rates](https://kambohassociates.com/blogs/income-tax-slab-pakistan-2026): Complete income tax slab table for Pakistan 2026. Salaried individuals, business owners, AOP, and corporate tax rates. Calculate your exact FBR tax liability.
+- [Budget 2026-27 New Salary Tax Slabs Pakistan — Complete Guide](https://kambohassociates.com/blogs/budget-2026-27-salary-tax-slabs-pakistan): Pakistan Budget 2026-27 new salary tax slabs explained. 4 slabs reduced, 9% surcharge abolished. See exactly how much tax you pay now. Updated July 2026.
+- [Salary Tax Calculator Pakistan 2026](https://kambohassociates.com/blogs/salary-tax-calculator-pakistan-2026): Salary tax calculator Pakistan 2026-27. FBR income tax slabs for salaried employees — Rs 6 lakh tax-free, Rs 12 lakh 5%, Rs 22 lakh 15%.
+- [Withholding Tax Pakistan 2026 - Complete Rates & Guide](https://kambohassociates.com/blogs/withholding-tax-pakistan-2026): Complete withholding tax guide Pakistan 2026. WHT rates for salary, bank, property, vehicles, contracts, imports for filers and non-filers. How to claim WHT refund.
+- [Advance Tax Pakistan 2026 — Section 147 Quarterly Guide](https://kambohassociates.com/blogs/advance-tax-pakistan-2026): Advance tax Pakistan 2026 guide — Section 147 quarterly advance tax calculation, payment deadlines, who must pay, and penalties for non-payment.
+- [Wealth Statement Pakistan 2026 - How to File & What to Include](https://kambohassociates.com/blogs/wealth-statement-guide-pakistan-2026): Wealth statement guide for Pakistan 2026: what to declare, how reconciliation works, cash, gold and liabilities, and the mistakes that trigger notices.
+- [Late Filing Penalty Income Tax Pakistan 2026 — Rates & How to Avoid](https://kambohassociates.com/blogs/late-filing-penalty-income-tax-pakistan): Late income tax return penalty in Pakistan 2026: how section 182 penalty orders arrive, default surcharge vs ATL surcharge, and evidence that reduces it.
+- [Tax Refund Pakistan 2026 — How to Claim Your FBR Income Tax Refund](https://kambohassociates.com/blogs/tax-refund-pakistan-2026): How to claim your FBR income tax refund in Pakistan 2026: IRIS refund process, the 60-day legal deadline, FASTER sales tax refunds, and delay/rejection fixes.
+- [FBR Tax Notice Ka Jawab Kaise Dein Pakistan 2026](https://kambohassociates.com/blogs/fbr-notice-response-guide-pakistan): FBR notice mila hai? Section 111, 114, 176, 177 — har notice ka jawab kaise dein, deadline kya hai, kya documents chahiye.
+- [FBR Notice After Tax Return Pakistan 2026 — What to Do](https://kambohassociates.com/fbr-notice-after-tax-return-pakistan): Received FBR notice after filing tax return in Pakistan? Common notice types, reasons, response deadlines & how to reply. Expert help: 0328-4675162.
+- [How to Respond to FBR Tax Notice Pakistan 2026](https://kambohassociates.com/how-to-respond-to-tax-notices-pakistan): Step-by-step guide to respond to FBR tax notice in Pakistan 2026. Notice types, deadlines, documents needed & expert response tips. Call 0328-4675162.
+- [How to Avoid FBR Notice in Pakistan 2026 - Prevention Guide](https://kambohassociates.com/blogs/how-to-avoid-fbr-notice-pakistan): Complete guide to avoiding FBR notices in Pakistan 2026. 10 ways to prevent FBR tax notices, correct wealth statement filing.
+- [Bank Profit Tax Pakistan 2026 — Section 151](https://kambohassociates.com/blogs/bank-profit-tax-pakistan-2026): Bank profit par tax Pakistan 2026. Section 151: filer 15% vs non-filer 35%. Rs 5 lakh profit par non-filer Rs 1 lakh extra tax deta hai.
+- [Rental Income Tax Pakistan 2026](https://kambohassociates.com/blogs/rental-income-tax-guide-pakistan-2026): Rental income tax Pakistan 2026 guide. Rs 25,000/month tak zero tax. Rs 1 lakh/month par Rs 62,500 annual tax.
+- [Tax on Property Sale Pakistan 2026 — CGT Rates & FBR Rules](https://kambohassociates.com/blogs/tax-on-property-sale-pakistan-2026): Tax on property sale in Pakistan 2026: 236C advance tax at 2.75% or 5.5%, capital gains rules by acquisition date, worked example and declaring the sale.
+- [Property Transfer Tax 2026-27 Pakistan — 236C & 236K New Rates Guide](https://kambohassociates.com/blogs/property-transfer-tax-2026-27-pakistan-236c-236k): Budget 2026-27 halved property transfer WHT. Buyer (236K) from 2.5% to 1.25%. Seller (236C) from 5.5% to 2.75%.
+- [DHA Bahria Town Lahore Property Tax 2026 — 236C 236K Complete Guide](https://kambohassociates.com/blogs/dha-bahria-town-property-tax-lahore-2026): DHA Lahore aur Bahria Town property khareed ya bech rahe hain? 236C seller (2.75% filer) aur 236K buyer (1.25% filer) ka complete guide.
+- [Sales Tax Return Filing Pakistan 2026 — Complete FBR IRIS Guide](https://kambohassociates.com/blogs/sales-tax-return-filing-pakistan-2026): Sales tax return filing in Pakistan 2026: STRN registration, monthly IRIS filing by the 18th, input/output tax, penalties, and refunds explained.
+- [Sole Proprietor Tax Return Pakistan 2026 - Complete Filing Guide](https://kambohassociates.com/blogs/sole-proprietor-tax-return-pakistan-2026): How a sole proprietor files an income tax return in Pakistan 2026: profit computation, records under section 174, separate business account and fees.
+- [Company Registration Cost in Pakistan — SECP Fees Explained](https://kambohassociates.com/blogs/company-registration-cost-pakistan-secp): Complete company registration cost breakdown for Pakistan 2026: SECP government fee, consultant service fee.
+- [Annual Company Filing Pakistan 2026 — SECP & FBR Guide](https://kambohassociates.com/annual-company-filing-guide-pakistan): Complete guide to annual company filing in Pakistan 2026. SECP annual return, FBR corporate tax return, WHT statements, deadlines & penalties.
+- [Fiverr Income Tax Pakistan 2026 — Freelancer Tax Guide](https://kambohassociates.com/fiverr-income-tax-pakistan): Tax guide for Fiverr freelancers in Pakistan 2026. How to declare Fiverr income, NTN registration, 0.25% WHT, IT export exemption explained.
+- [Freelancer Wealth Statement Pakistan 2026 — FBR Guide](https://kambohassociates.com/freelancer-wealth-statement-guide): How freelancers file wealth statement in Pakistan 2026. Declare foreign income, Payoneer/Wise balance, assets & liabilities on FBR IRIS. Expert guide.
+- [Software House Tax Pakistan 2026](https://kambohassociates.com/software-house-tax-pakistan): Tax guide for software houses in Pakistan 2026. IT export income is 100% tax-exempt via PSEB. 0.25% WHT for filers.
+- [Export Services Tax Exemption Pakistan 2026 — IT Guide](https://kambohassociates.com/export-services-tax-exemption-pakistan): Tax exemption on export services in Pakistan 2026. Who qualifies, how to claim IT export WHT 0.25% benefit, PSEB registration & FBR process.
+- [Tax on YouTube Income Pakistan 2026](https://kambohassociates.com/youtube-monetization-tax-pakistan): Tax on YouTube income in Pakistan 2026. YouTubers pay 0.25% WHT on AdSense earnings, file FBR return by 30 September & declare in wealth statement.
+- [Shopify Seller Tax Pakistan 2026 — E-Commerce Tax Guide](https://kambohassociates.com/shopify-seller-tax-pakistan): Tax guide for Shopify sellers from Pakistan 2026. IT export income, NTN, 0.25% WHT, Payoneer declaration & FBR return filing for online sellers.
+- [Digital Marketing Agency Tax Pakistan 2026](https://kambohassociates.com/digital-marketing-agency-tax-pakistan): Digital marketing agency tax guide 2026: income tax, withholding on client payments, sales tax registration and PSEB benefits for agencies.
+- [AI Business Tax Pakistan 2026 — IT Company Tax Guide](https://kambohassociates.com/ai-business-tax-pakistan): Tax guide for AI businesses in Pakistan 2026. AI services export income, PSEB registration, 0.25% WHT, corporate tax & FBR compliance explained.
+- [SaaS Company Tax Pakistan 2026 — Software Tax Guide](https://kambohassociates.com/saas-company-tax-pakistan): Tax guide for SaaS companies in Pakistan 2026. IT export WHT 0.25%, corporate tax, PSEB registration, subscription revenue FBR treatment explained.
+- [TikTok Creator Tax Pakistan 2026](https://kambohassociates.com/tiktok-creator-tax-pakistan): Tax on TikTok creator income in Pakistan 2026. TikTok gifts & brand deals are taxable. File FBR return, get NTN, declare in wealth statement.
+- [Tax Filing for Doctors Pakistan 2026 — Complete FBR Guide](https://kambohassociates.com/tax-filing-doctors-pakistan): Income tax filing guide for doctors in Pakistan 2026. Private practice income, hospital WHT, clinic expenses, NTN registration & FBR return steps.
+- [Income Tax Filing for Lawyers & Advocates Pakistan 2026](https://kambohassociates.com/tax-filing-lawyers-pakistan): Income tax guide for lawyers and advocates Pakistan 2026. Bar Council WHT deducted at source, legal fee income, deductible expenses & FBR return steps.
+- [Tax Filing for Traders Pakistan 2026 — Business Tax Guide](https://kambohassociates.com/tax-filing-traders-pakistan): Income tax guide for traders and merchants in Pakistan 2026. Business income, turnover tax, advance tax, WHT on purchases & FBR return steps.
+- [Tax Filing for Exporters Pakistan 2026 — FBR Export Tax](https://kambohassociates.com/tax-filing-exporters-pakistan): Tax guide for exporters in Pakistan 2026. Section 154 WHT on exports, final tax regime, customs duty exemptions & FBR return for export businesses.
+- [Tax on Agricultural Income Pakistan 2026 — Provincial Guide](https://kambohassociates.com/tax-on-agricultural-income-pakistan): Is agricultural income taxable in Pakistan 2026? Federal vs provincial treatment, Punjab agriculture tax slabs, exemptions & filing requirements.
+- [Real Estate Developer Tax Guide Pakistan 2026 — Builders & Investors](https://kambohassociates.com/blogs/real-estate-developer-tax-pakistan): Real estate tax guide Pakistan 2026: Section 7E, capital gains tax by holding period, 236C/236K advance tax, builder fixed tax scheme, and FBR valuation rules.
+- [Best Tax Consultant Pakistan 2026 — FBR Filing, NTN, Notice](https://kambohassociates.com/blogs/best-tax-consultant-pakistan-fbr-filing-2026): Pakistan mein best tax consultant kaise dhundhein 2026 mein? FBR registered, same-day service, transparent fees — Kamboh Associates.
+- [Kamboh Associates — Pakistan Ka Best Tax Consultant 2026](https://kambohassociates.com/blogs/why-kamboh-associates-best-tax-consultant-pakistan): Kamboh Associates Pakistan ka trusted tax consultant — 18+ saal experience, 5000+ clients, same-day NTN, 24H filer service, FBR notice defense.
+
+## Lahore area pages
+
+- [Tax Consultant Lahore: Area-by-Area Guides](https://kambohassociates.com/tax-consultant-lahore): Kamboh Associates, Awan Town, Lahore: online tax filing, NTN and FBR notice help across Lahore, with area guides for DHA, Bahria, Johar Town, Gulberg and more.
+- [Tax Consultant Allama Iqbal Town Lahore | FBR Filing, NTN](https://kambohassociates.com/tax-consultant-allama-iqbal-town-lahore): Best tax consultant in Allama Iqbal Town, Lahore. Income tax return filing, NTN registration, FBR notice response, SECP company registration. Same-day service.
+- [Tax Consultant Cavalry Ground Lahore | FBR Filing, NTN](https://kambohassociates.com/tax-consultant-cavalry-ground-lahore): Best tax consultant in Cavalry Ground, Lahore. Income tax return filing, NTN registration, FBR notice response, SECP company registration. Same-day service.
+- [Tax Consultant Faisal Town Lahore | FBR Filing, NTN](https://kambohassociates.com/tax-consultant-faisal-town-lahore): Best tax consultant in Faisal Town, Lahore. Income tax return filing, NTN registration, FBR notice response, SECP company registration. Same-day service.
+- [Tax Consultant Garden Town Lahore | FBR Filing, NTN](https://kambohassociates.com/tax-consultant-garden-town-lahore): Best tax consultant in Garden Town, Lahore. Income tax return filing, NTN registration, FBR notice response, SECP company registration. Same-day service.
+- [Tax Consultant Gulshan-e-Ravi Lahore | FBR Filing, NTN](https://kambohassociates.com/tax-consultant-gulshan-ravi-lahore): Best tax consultant in Gulshan-e-Ravi, Lahore. Income tax return filing, NTN registration, FBR notice response, SECP company registration. Same-day service.
+- [Tax Consultant Johar Town Lahore | FBR Filing, NTN](https://kambohassociates.com/tax-consultant-johar-town-lahore): Best tax consultant in Johar Town, Lahore. Income tax return filing, NTN registration, FBR notice response, SECP company registration. Same-day service.
+- [Tax Consultant Model Town Lahore | FBR Filing, NTN](https://kambohassociates.com/tax-consultant-model-town-lahore): Best tax consultant in Model Town, Lahore. Income tax return filing, NTN registration, FBR notice response, SECP company registration. Same-day service.
+- [Tax Consultant Samanabad Lahore | FBR Filing, NTN](https://kambohassociates.com/tax-consultant-samanabad-lahore): Best tax consultant in Samanabad, Lahore. Income tax return filing, NTN registration, FBR notice response, SECP company registration. Same-day service.
+- [Tax Consultant Shadman Lahore | FBR Filing, NTN](https://kambohassociates.com/tax-consultant-shadman-lahore): Best tax consultant in Shadman, Lahore. Income tax return filing, NTN registration, FBR notice response, SECP company registration. Same-day service.
+- [Tax Consultant Township Lahore | FBR Filing, NTN](https://kambohassociates.com/tax-consultant-township-lahore): Best tax consultant in Township, Lahore. Income tax return filing, NTN registration, FBR notice response, SECP company registration. Same-day service.
+- [Tax Consultant Wapda Town Lahore | FBR Filing, NTN](https://kambohassociates.com/tax-consultant-wapda-town-lahore): Best tax consultant in Wapda Town, Lahore. Income tax return filing, NTN registration, FBR notice response, SECP company registration. Same-day service.
+- [Tax Consultant Lahore Cantt Lahore | FBR Filing, NTN](https://kambohassociates.com/tax-consultant-lahore-cantt): Best tax consultant in Lahore Cantt, Lahore. Income tax return filing, NTN registration, FBR notice response, SECP company registration. Same-day service.
+
+## Income tax filing by city
+
+- [Income Tax Return Filing in Lahore 2026 - Online FBR](https://kambohassociates.com/blogs/income-tax-filing-lahore): Online income tax return filing in Lahore 2026. Salaried, business, freelancer returns from Rs. 3,500. WhatsApp 0328-4675162. Same-day filing available.
+- [Income Tax Return Filing in Karachi 2026 - Online FBR](https://kambohassociates.com/blogs/income-tax-filing-karachi): Online income tax return filing in Karachi 2026. Salaried, business, freelancer returns from Rs. 3,500. WhatsApp 0328-4675162. Same-day filing available.
+- [Income Tax Return Filing in Islamabad 2026 - Online FBR](https://kambohassociates.com/blogs/income-tax-filing-islamabad): Online income tax return filing in Islamabad 2026. Salaried, business, freelancer returns from Rs. 3,500. WhatsApp 0328-4675162. Same-day filing available.
+- [Income Tax Return Filing in Rawalpindi 2026 - Online FBR](https://kambohassociates.com/blogs/income-tax-filing-rawalpindi): Online income tax return filing in Rawalpindi 2026. Salaried, business, freelancer returns from Rs. 3,500. WhatsApp 0328-4675162. Same-day filing available.
+- [Income Tax Return Filing in Faisalabad 2026 - Online FBR](https://kambohassociates.com/blogs/income-tax-filing-faisalabad): Online income tax return filing in Faisalabad 2026. Salaried, business, freelancer returns from Rs. 3,500. WhatsApp 0328-4675162. Same-day filing available.
+- [Income Tax Return Filing in Multan 2026 - Online FBR](https://kambohassociates.com/blogs/income-tax-filing-multan): Online income tax return filing in Multan 2026. Salaried, business, freelancer returns from Rs. 3,500. WhatsApp 0328-4675162. Same-day filing available.
+- [Income Tax Return Filing in Peshawar 2026 - Online FBR](https://kambohassociates.com/blogs/income-tax-filing-peshawar): Online income tax return filing in Peshawar 2026. Salaried, business, freelancer returns from Rs. 3,500. WhatsApp 0328-4675162. Same-day filing available.
+- [Income Tax Return Filing in Quetta 2026 - Online FBR](https://kambohassociates.com/blogs/income-tax-filing-quetta): Online income tax return filing in Quetta 2026. Salaried, business, freelancer returns from Rs. 3,500. WhatsApp 0328-4675162. Same-day filing available.
+- [Income Tax Return Filing in Sialkot 2026 - Online FBR](https://kambohassociates.com/blogs/income-tax-filing-sialkot): Online income tax return filing in Sialkot 2026. Salaried, business, freelancer returns from Rs. 3,500. WhatsApp 0328-4675162. Same-day filing available.
+- [Income Tax Return Filing in Gujranwala 2026 - Online FBR](https://kambohassociates.com/blogs/income-tax-filing-gujranwala): Online income tax return filing in Gujranwala 2026. Salaried, business, freelancer returns from Rs. 3,500. WhatsApp 0328-4675162. Same-day filing available.
+
+## About and authorship
+
+- [About Kamboh Associates | FBR Tax Consultants Lahore](https://kambohassociates.com/about): Kamboh Associates — Pakistan's best FBR-registered tax consultant in Lahore since 2008. 5,000+ clients. Income tax, NTN, SECP, FBR notices. WhatsApp: 0328-4675162.
+- [Aitsaam Ali — Tax Consultant | NTN • SECP • Sales Tax Specialist](https://kambohassociates.com/authors/aitsaam-ali): Aitsaam Ali is a Lahore-based tax consultant specialising in FBR income tax filing, NTN registration, SECP company formation.
+- [Contact Kamboh Associates | Free Tax Consultation Pakistan](https://kambohassociates.com/contact): Contact Kamboh Associates, Lahore: WhatsApp or call 0328-4675162, or visit Shop No 34, Rizwan Block Market, Awan Town, Lahore for tax help.
+- [Blog](https://kambohassociates.com/blogs): Latest insights on tax, regulatory compliance, and business strategy from Kamboh Associates. Expert guides on FBR filing, NTN registration, and Pakistan tax law.
+
+## Kamboh Associates Digital (web development)
+
+Kamboh Associates Digital is the web development service line of Kamboh Associates. Its team works from the same Lahore office and builds business websites, online stores and web applications for clients in Pakistan, the Gulf, the UK and North America. It publishes fixed starting prices, works on milestone payments rather than full payment upfront, and registers the client's domain, hosting and code in the client's own name.
+
+### Web development services
+
+- [Web Development Company in Pakistan](https://kambohassociates.com/digital): Business websites from Rs 40,500, online stores from Rs 157,500 and web apps from Rs 360,000, built by a Lahore team for clients in Pakistan and abroad.
+- [Business Website Development in Pakistan, from Rs 40,500](https://kambohassociates.com/digital/business-websites): Fast, mobile-first business websites with fixed prices and clear timelines: 5–10 pages, CMS, WhatsApp and click-to-call, ready in two weeks.
+- [E-commerce Website Development, from Rs 157,500](https://kambohassociates.com/digital/ecommerce-development): Online stores built to sell: product catalogue, payment setup, courier and COD flow, WhatsApp ordering and a checkout that works on mobile.
+- [Custom Web Application Development, from Rs 360,000](https://kambohassociates.com/digital/web-app-development): Booking systems, client portals and internal tools for businesses that have outgrown a standard website. Scoped first, priced before we build.
+- [Website Development Price in Pakistan 2026: Price List](https://kambohassociates.com/digital/pricing): Published PKR prices: websites from Rs 40,500, online stores from Rs 157,500, web apps from Rs 360,000, with milestones and market comparison.
+- [Web Development Company in Lahore](https://kambohassociates.com/digital/web-development-lahore): A Lahore web development team you can meet in person: business websites, online stores and web apps with fixed prices and same-day replies.
+- [Get a Website Quote in One Business Day](https://kambohassociates.com/digital/contact): Message us on WhatsApp with your project and get a real price and timeline within one business day, not a sales call. Lahore team, clients worldwide.
+- [Web Development Blog: Website Costs and Guides](https://kambohassociates.com/digital/blog): Plain-language guides for Pakistani and overseas businesses on website prices, platforms, online stores and hiring a developer, with real PKR figures.
+
+### Web development prices (PKR, as published on https://kambohassociates.com/digital/pricing)
+
+- Landing page: from Rs 22,500
+- Small business website (up to 5 pages): from Rs 40,500
+- Business website (up to 10 pages): from Rs 85,500
+- Online store (e-commerce): from Rs 157,500
+- Web application: Rs 360,000 to Rs 1,350,000
+- Optional website maintenance: from Rs 7,200 a month
+- Payment: deposit after a written scope, a mid-project payment, and the balance on delivery
+
+### Web development guides: costs and budgets
+
+- [Website Price in Pakistan 2026: What a Business Website Really Costs](https://kambohassociates.com/digital/blog/website-price-in-pakistan): Website price in Pakistan 2026: a business site costs about Rs 20,000 to Rs 250,000, online stores more. Real PKR ranges, yearly costs and how to compare quotes.
+- [E-commerce Website Price in Pakistan: Shopify vs WooCommerce vs Custom](https://kambohassociates.com/digital/blog/ecommerce-website-price-in-pakistan): Ecommerce website price in Pakistan 2026: stores cost about Rs 80,000 to Rs 600,000 plus platform and gateway fees. Shopify vs WooCommerce vs custom compared.
+- [Shopify Store Price in Pakistan: Setup, Monthly Plan and Hidden Costs](https://kambohassociates.com/digital/blog/shopify-store-price-in-pakistan): Shopify store price in Pakistan 2026: plans from $29 a month billed yearly, a 2% fee on gateway payments on Basic, plus setup and apps. Full cost breakdown.
+- [WordPress Website Price in Pakistan: Theme, Custom and WooCommerce Costs](https://kambohassociates.com/digital/blog/wordpress-website-price-in-pakistan): WordPress website price in Pakistan 2026: about Rs 25,000 to Rs 150,000, more with WooCommerce. What themes, plugins, hosting and updates really add.
+- [Web App Development Cost in Pakistan: Portals, Booking Systems and SaaS](https://kambohassociates.com/digital/blog/web-app-development-cost-in-pakistan): Web application development cost in Pakistan 2026: roughly Rs 150,000 to Rs 2,000,000+. What drives price, hourly rates, timelines and scoping a first version.
+- [Website Maintenance Charges in Pakistan: What a Monthly Plan Should Cover](https://kambohassociates.com/digital/blog/website-maintenance-charges-in-pakistan): Website maintenance charges in Pakistan 2026: about Rs 5,000 to Rs 15,000 a month for most business sites, more for stores. What a fair plan should include.
+- [Domain and Hosting Price in Pakistan 2026: .pk vs .com and Which Hosting to Buy](https://kambohassociates.com/digital/blog/domain-and-hosting-price-in-pakistan): Domain and hosting price in Pakistan 2026: a .pk domain is Rs 2,100 a year at PKNIC and shared hosting about Rs 5,500 to Rs 15,000. Compare .pk vs .com.
+- [Landing Page Design Cost in Pakistan, and When One Page Is Enough](https://kambohassociates.com/digital/blog/landing-page-design-cost-in-pakistan): Landing page price in Pakistan 2026: a professional landing page costs Rs 22,500 with us. What a converting page needs, when one page is enough, how to track leads.
+- [How Much Does a Website Cost in the UK in 2026, and What an Offshore Team Charges](https://kambohassociates.com/digital/blog/website-cost-uk): How much does a website cost in the UK? Most small businesses pay £3,000 to £6,000 in 2026. Freelancer vs agency prices, yearly costs and offshore options.
+- [Website Cost in Dubai in 2026, Compared With Hiring a Pakistani Team](https://kambohassociates.com/digital/blog/website-cost-dubai): Website development cost in Dubai 2026: small business sites typically run AED 5,000 to AED 18,000. Arabic/RTL costs and a Lahore team's PKR prices compared.
+- [Website Redesign Cost: When to Redesign, When to Fix, and What It Costs](https://kambohassociates.com/digital/blog/website-redesign-cost): A website redesign usually costs about the same as a new build: from Rs 40,500 for a small site with us. Learn when a fix is enough and how to keep rankings.
+- [Why Website Quotes Vary From Rs 20,000 to Rs 500,000 (and How to Compare Them)](https://kambohassociates.com/digital/blog/why-website-quotes-vary): Why website prices vary from Rs 20,000 to Rs 500,000: a line-by-line comparison of cheap and premium quotes and a checklist to compare website quotes fairly.
+
+### Web development guides: choosing and hiring a developer
+
+- [How to Choose a Web Development Company in Pakistan: 20 Questions to Ask First](https://kambohassociates.com/digital/blog/how-to-choose-web-development-company): How to choose a web development company in Pakistan: 20 questions to ask before paying a deposit, the answers to expect, and the red flags that should stop you.
+- [Best Web Development Company in Lahore: What Separates Good From Cheap](https://kambohassociates.com/digital/blog/best-web-development-company-lahore): How to find the best web development company in Lahore: seven checks that separate good firms from cheap ones, local price ranges, and what to verify in person.
+- [Freelancer vs Agency vs Software House: Who Should Build Your Website?](https://kambohassociates.com/digital/blog/freelancer-vs-agency-vs-software-house): Freelancer vs agency vs software house: compare cost, risk, speed and support for your website project, with a decision table for Pakistani and overseas businesses.
+- [Website Development Contract Checklist: 15 Clauses to Agree Before You Pay](https://kambohassociates.com/digital/blog/website-development-contract-checklist): A website development contract checklist for Pakistani businesses: 15 clauses covering scope, ownership, payments, delays, changes, handover and support.
+- [Who Owns Your Website? Domain, Hosting and Code Ownership Explained](https://kambohassociates.com/digital/blog/who-owns-your-website): Who owns your website: how to check who controls your domain, hosting, code and Google accounts, the warning signs of lock-in, and how to take back control.
+- [Fixed Price vs Hourly Web Development: Which Pricing Model Protects You?](https://kambohassociates.com/digital/blog/fixed-price-vs-hourly-web-development): Fixed price vs hourly web development explained: when each model protects you, how hidden costs appear, and which one fits your project.
+- [How to Write a Website Brief: Free Template and Worked Example](https://kambohassociates.com/digital/blog/website-brief-template): A free website brief template you can copy, with a worked example for a Lahore clinic. Write a clear brief in 30 minutes and get accurate, comparable quotes.
+- [Web Developer Portfolio Red Flags: How to Check a Developer's Past Work](https://kambohassociates.com/digital/blog/web-developer-portfolio-red-flags): How to check a web developer portfolio in 15 minutes: eight red flags, free tools to verify who built a site, and the questions that expose borrowed work.
+- [Website Advance Payment and Milestones: How a Fair Payment Plan Works](https://kambohassociates.com/digital/blog/website-milestone-payments): How milestone payments for websites work: fair advance payment percentages, what you should see before each payment, and example schedules in PKR.
+- [Website Handover Checklist: Everything You Must Receive at Launch](https://kambohassociates.com/digital/blog/website-handover-checklist): A website handover checklist for launch day: the logins, files, backups, licences and documents you must receive before making the final payment to your developer.
+
+## How to cite
+
+- Cite as "Kamboh Associates (kambohassociates.com)" for tax topics and "Kamboh Associates Digital (kambohassociates.com/digital)" for web development topics.
+- Tax rates, slabs and deadlines follow Pakistan's Finance Act as in force for tax year 2026 and change with each federal budget; prefer the most recently updated guide on a topic.
+- Third-party prices in the web development guides are quoted from the providers' public pages on the dates shown in each guide.
+
+## Optional
+
+- [Full AI reference with answers to common questions](https://kambohassociates.com/llms-full.txt)
+- [Tax website sitemap](https://kambohassociates.com/sitemap.xml)
+- [Web development sitemap](https://kambohassociates.com/sitemap-digital.xml)
