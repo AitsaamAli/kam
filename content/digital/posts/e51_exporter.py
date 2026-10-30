@@ -70,7 +70,7 @@ POST = dict(
 <h2 id="seo">How Do Foreign Buyers Find Exporters?</h2>
 <p>Buyers search for specific products plus "manufacturer" or "supplier", such as "leather gloves manufacturer Pakistan". Give each main product category its own page with real photos, specifications and a short paragraph on your capabilities. These pages can appear in search and give trade-show contacts a reason to look you up. Payments for export orders usually go by invoice and bank transfer; our guide to <a href="/digital/blog/stripe-paypal-pakistan-website">Stripe and PayPal alternatives</a> covers the options.</p>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">What We Build for Exporters</h2>
 <p>For exporters, we usually build a business website of up to 10 pages from {P['business']}, with product category pages, a capacity and factory section, a certifications page set up with verification links, an RFQ form with file upload, and contact details in several time zones. Larger catalogues or buyer logins are scoped separately. See our <a href="/digital/business-websites">business websites</a> service and our <a href="/digital/blog/clinic-website-design-pakistan">websites by industry hub</a>.</p>
 """,
     faqs=[

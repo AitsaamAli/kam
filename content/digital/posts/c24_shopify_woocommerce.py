@@ -80,7 +80,7 @@ POST = dict(
 <h2 id="couriers">What About Courier Integration?</h2>
 <p>Pakistani couriers such as TCS, Leopards, PostEx and Trax offer cash on delivery services and merchant portals. Booking parcels directly from your store depends on whether the courier offers an app, plugin or API, and these change often. On Shopify, check the app store and ask the courier. On WooCommerce, a developer can usually connect any courier that offers an API. Our <a href="/digital/blog/courier-integration-online-store-pakistan">courier integration guide</a> explains what to ask each courier.</p>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">How We Build Shopify and WooCommerce Stores</h2>
 <p>We build online stores on both platforms from {P['store']}. The package includes product set-up, COD checkout, a gateway connection where available, delivery charges by city, WhatsApp order buttons and order notifications. We recommend the platform after looking at your payment mix and who will run the store day to day. See our <a href="/digital/ecommerce-development">online store development</a> service for what is included. Optional maintenance starts at {P['maint']} a month, mainly useful for WooCommerce stores.</p>
 
 <h2 id="checklist">Questions to Ask Before You Choose</h2>
@@ -94,7 +94,7 @@ POST = dict(
 <p>For the wider choice, including custom builds, see our <a href="/digital/blog/wordpress-vs-shopify-vs-custom-website">WordPress vs Shopify vs custom guide</a>. For what a store build costs, read the <a href="/digital/blog/ecommerce-website-price-in-pakistan">e-commerce website price guide</a>.</p>
 """,
     faqs=[
-        ("Is Shopify or WooCommerce better for Pakistan?",
+        ("Which suits a Pakistani store better, Shopify or WooCommerce?",
          "Shopify is better if you want low upkeep and most orders are cash on delivery, because COD carries no Shopify fee. WooCommerce is better if many customers pay online, because Shopify adds a 2% fee on Basic to third-party gateway payments. Both handle COD, product variants and order management well."),
         ("Does Shopify work in Pakistan?",
          "Yes, you can run a Shopify store from Pakistan and sell with cash on delivery and third-party payment gateways. Shopify Payments is not available for Pakistan, so Shopify charges an extra transaction fee of 2%, 1% or 0.6% by plan on gateway payments. The plan itself is billed in US dollars."),

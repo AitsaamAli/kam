@@ -78,7 +78,7 @@ POST = dict(
 <h2 id="example">A Worked Example: Reducing COD Returns With Raast</h2>
 <p>Illustrative example, not a real client. A home-décor store offers Rs 150 off for orders paid by Raast. Customers who pay first rarely refuse delivery, so returned parcels on those orders fall. The discount costs less than a returned parcel, which carries delivery charges both ways. Test a small discount on your own store and compare return rates by payment method. Our guide to <a href="/digital/blog/cod-website-fake-orders-pakistan">reducing COD fake orders and returns</a> covers other ways to do this.</p>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">How We Add Raast and Bank Transfer Checkout</h2>
 <p>As part of our online store package, from {P['store']}, we set up a Raast and bank transfer option with clear payment instructions, a QR code on the thank-you page and email, an "awaiting payment" order status, a WhatsApp link for payment proof and automatic cancellation of unpaid orders. Where your bank or provider offers automated Raast confirmation for online checkout, we quote the integration in the written scope. See our <a href="/digital/ecommerce-development">online store development</a> service.</p>
 
 <h2 id="next-step">Questions to Ask Your Bank</h2>

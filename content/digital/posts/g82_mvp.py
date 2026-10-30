@@ -71,7 +71,7 @@ POST = dict(
 <li>Can they continue after launch, or hand over cleanly?</li>
 </ul>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">Our Six-Week MVP Package</h2>
 <p>We build MVPs as web applications in Laravel, Node.js or Next.js, starting from {P['app']}. A tight one-workflow MVP sits at the lower end of {P['app_range']}; adding payments, several roles or integrations moves it up. Every project starts with a written scope and fixed price, weekly demos and milestone payments, and you own the code after final payment. See our <a href="/digital/web-app-development">web app development</a> service, the <a href="/digital/blog/multi-vendor-marketplace-website-cost">marketplace MVP guide</a> and the <a href="/digital/blog/hire-pakistani-web-developers">guide to hiring Pakistani developers</a>.</p>
 """,
     faqs=[

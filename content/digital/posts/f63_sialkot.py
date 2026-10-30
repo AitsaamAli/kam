@@ -26,7 +26,7 @@ POST = dict(
         "We work with Sialkot firms remotely from Lahore, about two hours' drive away, and welcome visits to our office.",
     ],
     body=f"""
-<h2 id="sialkot-exporters">What Should Website Design in Sialkot Focus On?</h2>
+<h2 id="sialkot-exporters">What Do Sialkot's Foreign Buyers Look For on a Website?</h2>
 <p>Sialkot is unusual among Pakistani cities: much of its industry sells abroad. Its workshops and factories are known worldwide for sports goods, especially hand-stitched and machine-made footballs, for surgical and dental instruments, and for leather gloves, garments and sportswear. The city's business community is also known for building shared infrastructure, including its dry port and an international airport developed with local business backing.</p>
 <p>For a Sialkot firm, a website is rarely about local walk-in customers. It is a sales tool for buyers in Europe, the US and the Middle East who compare suppliers from several countries before sending an enquiry.</p>
 
@@ -61,10 +61,10 @@ POST = dict(
 <li><strong>Fast pages abroad.</strong> Choose hosting near your buyers and test speed from their region with PageSpeed Insights.</li>
 </ol>
 
-<h2 id="remote">How Do We Work With Sialkot Businesses?</h2>
+<h2 id="remote">Can a Sialkot Exporter Work With a Lahore Team?</h2>
 <p>Our office is in Lahore, roughly two hours by motorway from Sialkot; we have no office in Sialkot. Most Sialkot clients work with us entirely online: a video call to understand the product lines, a written scope and fixed price, design reviews on screen share and milestone payments by bank transfer. Owners who prefer to sit down in person can visit us in Lahore. Product photography is best done at your factory by a local photographer; we brief them on the shots the website needs.</p>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">What We Build for Sialkot Exporters</h2>
 <p>A Sialkot exporter website with category pages, customisation and sampling pages, a quality and documents page, an RFQ form with file upload and multi-time-zone contact details starts from {P['business']} for up to 10 pages. Larger catalogues, multiple languages or a buyer portal for order tracking are scoped separately, with portals built as web applications from {P['app']}. See our <a href="/digital/business-websites">business websites</a> service, or read our <a href="/digital/blog/best-web-development-company-lahore">Lahore web development guide</a> for how to compare developers.</p>
 """,
     faqs=[

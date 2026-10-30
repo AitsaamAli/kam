@@ -64,7 +64,7 @@ POST = dict(
 <h2 id="link-website">How Should the Profile Connect to Your Website?</h2>
 <p>Link the profile to the most useful page, such as the booking or contact page, and make sure the name, address, phone and hours match the website exactly. Add the same details to your website's structured data. Our <a href="/digital/blog/schema-markup-business-websites">schema markup guide</a> explains how.</p>
 
-<h2 id="what-we-build">How We Help</h2>
+<h2 id="what-we-build">How We Set Up Your Business Profile</h2>
 <p>We set up or clean up Business Profiles with you as owner, alongside every website we build: a 5-page site starts from {P['starter']}, and Lahore businesses can meet our team in person. For existing businesses, profile set-up and fixes can be included in maintenance at {P['maint']} a month. See our <a href="/digital/web-development-lahore">Lahore team page</a> and the <a href="/digital/blog/get-business-website-on-google">guide to getting your website on Google</a>.</p>
 """,
     faqs=[

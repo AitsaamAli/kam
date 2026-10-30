@@ -67,10 +67,10 @@ POST = dict(
 <h2 id="export-pages">What Do Home Textile Exporters Add?</h2>
 <p>Exporters of bed linen, towels and kitchen textiles sell to foreign retailers who care about consistency and compliance. Add a private label page explaining how you work with a buyer's designs and packaging, a capacity page with monthly volumes you can genuinely meet, and a page listing the social and quality audits you actually hold, with dates. Buyers often ask for these before they ask for a price.</p>
 
-<h2 id="remote">How Do We Work With Faisalabad Clients?</h2>
+<h2 id="remote">How Do Faisalabad Mills Brief Us Without Travelling?</h2>
 <p>We are based in Lahore and have no office in Faisalabad. Faisalabad firms work with us through video calls and WhatsApp, with a written scope and fixed price before any deposit, and payments tied to milestones. The cities are close, so owners sometimes prefer to visit our Lahore office for the first meeting, which we welcome. Your sales team will be shown how to add new articles to the catalogue themselves.</p>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">What We Build for Faisalabad Textile Firms</h2>
 <p>A textile business website with a filterable fabric catalogue, capability pages, swatch galleries and an RFQ form starts from {P['business']} for up to 10 pages; very large catalogues are scoped separately. A buyer or dealer portal with private price lists and order history is a web application from {P['app']}. See our <a href="/digital/business-websites">business websites</a> service, our <a href="/digital/blog/exporter-website-b2b-pakistan">exporter website guide</a> and our <a href="/digital/blog/best-web-development-company-lahore">guide to choosing a developer</a>.</p>
 """,
     faqs=[

@@ -78,7 +78,7 @@ POST = dict(
 <li>A Google Business Profile with the correct office address and hours.</li>
 </ul>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">What We Build for Law Firms and Chambers</h2>
 <p>For chambers and firms, we build restrained, fast websites: a 5-page site from {P['starter']} for a sole practitioner, or up to 10 pages from {P['business']} for a firm with several practice areas. We draft page structure and neutral wording for your review, and we do not add claims you have not approved. Client portals for document sharing are scoped as web applications. See our <a href="/digital/business-websites">business websites</a> service, and our <a href="/digital/blog/clinic-website-design-pakistan">websites by industry hub</a> for other professions. Firms serving overseas clients may also find our <a href="/digital/blog/exporter-website-b2b-pakistan">exporter website guide</a> useful for international enquiries.</p>
 """,
     faqs=[

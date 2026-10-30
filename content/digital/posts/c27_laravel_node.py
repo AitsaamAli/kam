@@ -67,7 +67,7 @@ POST = dict(
 <li>Ignoring hosting: a Node.js app on hosting that cannot run it will not launch.</li>
 </ul>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">How We Choose the Stack for Your Web App</h2>
 <p>We build business web apps in both Laravel and Node.js, and we choose with you after mapping your screens, users and workflows. Web apps start at {P['app']} and typically fall within {P['app_range']}, depending on the number of user roles, integrations and reports. The scope and fixed price are agreed in writing before any deposit, and you own the code after final payment. See our <a href="/digital/web-app-development">web app development</a> service, or read <a href="/digital/blog/web-app-development-cost-in-pakistan">what a web app costs in Pakistan</a>.</p>
 
 <h2 id="next-step">Questions to Ask a Developer</h2>

@@ -86,7 +86,7 @@ POST = dict(
 <li><strong>A clear exchange policy:</strong> customers refuse less when they know they can exchange a size.</li>
 </ul>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">The COD Verification Flow We Build</h2>
 <p>Every store we build, starting at {P['store']}, comes with a COD checkout with phone and address validation, a city list with delivery charges, WhatsApp order confirmation links, order statuses for "awaiting confirmation" and "confirmed", and an optional partial-advance rule for high-value orders. Automated WhatsApp messaging through a provider is quoted in the written scope. See our <a href="/digital/ecommerce-development">online store development</a> service, and our <a href="/digital/blog/start-online-store-pakistan">guide to starting an online store</a> for the full picture.</p>
 """,
     faqs=[

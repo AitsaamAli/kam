@@ -36,7 +36,7 @@ POST = dict(
 </ul>
 <p>A web development company that understands these differences will recommend a different website for a Jodia Bazaar distributor than for a Tariq Road fashion label.</p>
 
-<h2 id="by-business-type">Which Website Fits Which Karachi Business?</h2>
+<h2 id="by-business-type">Importer, Trader or Seller: Which Karachi Website Fits?</h2>
 <table>
 <tr><th>Business</th><th>Website that fits</th><th>Starting price with us</th></tr>
 <tr><td>Importer or distributor</td><td>Product catalogue with enquiry routing and dealer WhatsApp</td><td class="price">{P['business']}</td></tr>
@@ -72,7 +72,7 @@ POST = dict(
 </table>
 <p>A nearby office is convenient but not a guarantee of quality. Our <a href="/digital/blog/how-to-choose-web-development-company">guide to choosing a web development company</a> lists more checks.</p>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">How We Work With Karachi Businesses From Lahore</h2>
 <p>For Karachi clients we build the same packages at the same published prices as for Lahore clients: a landing page from {P['landing']}, a 5-page website from {P['starter']}, a 10-page website from {P['business']}, an online store from {P['store']} and web applications from {P['app']}. Optional maintenance is {P['maint']} a month. Send us a WhatsApp message or use our <a href="/digital/contact">quote form</a>, and we will reply with a scope and price within one business day.</p>
 """,
     faqs=[

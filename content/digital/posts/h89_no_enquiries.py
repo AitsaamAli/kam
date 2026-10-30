@@ -61,7 +61,7 @@ POST = dict(
 <h2 id="measure">How Do You Know What Worked?</h2>
 <p>Set up events in Google Analytics for WhatsApp clicks, call clicks and form submissions. Google's recommended events include one for lead generation. Change one or two things at a time, then compare enquiries over the next few weeks. Without measurement, a redesign is a guess.</p>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">How We Turn Visitors Into Enquiries</h2>
 <p>We can run this 12-point audit on your existing site and fix what fails, under maintenance at {P['maint']} a month or as a one-off scoped job. If the site needs rebuilding, our websites include mobile call and WhatsApp bars, short forms, trust sections and click tracking as standard, from {P['starter']}. Use our <a href="/digital/contact">contact page</a> to request an audit, and read the <a href="/digital/blog/get-business-website-on-google">guide to getting your website on Google</a>.</p>
 """,
     faqs=[

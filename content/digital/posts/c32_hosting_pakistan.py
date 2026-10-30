@@ -78,7 +78,7 @@ POST = dict(
 <tr><td>Web app or portal</td><td>VPS or cloud server managed by your developer</td></tr>
 </table>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">How We Set Up Hosting for Pakistani Visitors</h2>
 <p>We do not resell hosting at a mark-up. We help you choose a plan for your audience and register it in your name, so you stay in control. Our websites start at {P['starter']} for up to 5 pages, and we set up SSL, caching and backups as part of the build. Optional maintenance at {P['maint']} a month covers updates, backup checks and uptime monitoring. See our <a href="/digital/business-websites">business websites</a> service.</p>
 
 <h2 id="next-step">Questions to Ask a Hosting Company</h2>

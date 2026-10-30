@@ -76,7 +76,7 @@ POST = dict(
 <li>Large, uncompressed images that load slowly on mobile.</li>
 </ul>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">How We Build Product Pages for Pakistani Stores</h2>
 <p>When we build a store, starting at {P['store']}, every product page gets templates with variant buttons, stock per size, a size chart section, delivery and COD notes, a returns summary, reviews and a pre-filled WhatsApp button. We compress images on upload and test pages on mid-range Android phones. See our <a href="/digital/ecommerce-development">online store development</a> service. If you sell clothing, read our <a href="/digital/blog/clothing-brand-website-pakistan">clothing brand website guide</a>, and for the full set-up, <a href="/digital/blog/start-online-store-pakistan">how to start an online store in Pakistan</a>.</p>
 """,
     faqs=[

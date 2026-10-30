@@ -70,7 +70,7 @@ POST = dict(
 <h2 id="when-local">When Is a Local UK Designer Better?</h2>
 <p>If you want someone to visit your premises regularly, need deep local marketing knowledge, or cannot spare time to review work and answer questions, a local designer may justify the higher price. Offshore teams work best with clients who can describe what they want and give timely feedback.</p>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">What We Build for UK Small Businesses</h2>
 <p>For UK small businesses, we build websites in British English with a privacy notice template, a cookie consent banner that blocks non-essential tags until consent, accessible layouts and secure forms. A 5-page site starts from {P['starter']}, a 10-page site from {P['business']}, and maintenance is {P['maint']} a month. We invoice in rupees, paid by international transfer in milestones. See our <a href="/digital/business-websites">business websites</a> service and the <a href="/digital/blog/hire-pakistani-web-developers">guide to hiring Pakistani developers</a>.</p>
 """,
     faqs=[

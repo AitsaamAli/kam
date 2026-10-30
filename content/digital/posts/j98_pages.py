@@ -71,7 +71,7 @@ POST = dict(
 <h2 id="sitemap-example">What Does a Simple Sitemap Look Like?</h2>
 <p>Example for a consultancy with a 10-page site: Home; Services, with four service pages beneath it; About; Case examples; FAQs; Contact; and Privacy policy. Each service page links to the contact page and to one related service. Our <a href="/digital/blog/website-brief-template">website brief template</a> helps you plan yours.</p>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">The Page Plans in Our Packages</h2>
 <p>We plan your page list with you during scoping, based on what your customers ask. A small site of up to 5 pages starts from {P['starter']}, a business site of up to 10 pages from {P['business']}, and an online store from {P['store']}. See our <a href="/digital/business-websites">business websites</a> service, the <a href="/digital/blog/how-long-to-build-a-website">guide to website timelines</a> and the <a href="/digital/blog/wordpress-vs-shopify-vs-custom-website">platform comparison</a>.</p>
 """,
     faqs=[

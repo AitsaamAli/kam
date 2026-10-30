@@ -70,10 +70,10 @@ POST = dict(
 <li><strong>Measure per channel</strong> profit, not only sales.</li>
 </ol>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">How We Set Up Your Own Store Alongside Daraz</h2>
 <p>Our online store package, from {P['store']}, gives you your own branded store on Shopify or WooCommerce with COD, an online payment option, WhatsApp ordering and a privacy policy template that covers customer contact consent. If you also sell on a marketplace, we plan the stock workflow with you during scoping. Optional maintenance is {P['maint']} a month. See our <a href="/digital/ecommerce-development">online store development</a> service.</p>
 
-<h2 id="next-step">Questions to Answer Before You Decide</h2>
+<h2 id="next-step">Questions to Ask Before Leaving or Adding Daraz</h2>
 <ol>
 <li>Do I already have an audience on Instagram, Facebook or WhatsApp?</li>
 <li>What is the current commission and fee for my category on Daraz?</li>

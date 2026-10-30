@@ -63,7 +63,7 @@ POST = dict(
 <h2 id="lahore-team">How Do We Help Lahore Clinics?</h2>
 <p>Because our office is in Awan Town, Lahore, we can visit your clinic, see how reception takes bookings and arrange photos of the entrance and waiting area. We set up or tidy the Google Business Profile with you as owner, link it to the website and show staff how to ask for reviews properly.</p>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">What We Build for Lahore Clinics</h2>
 <p>A single-doctor clinic website starts from {P['starter']}, a multi-doctor or multi-branch clinic website from {P['business']}, and live online booking from {P['app']}. Every package includes Business Profile set-up guidance and consistent contact details across your listings. See our <a href="/digital/business-websites">business websites</a> service and our <a href="/digital/blog/best-web-development-company-lahore">Lahore web development guide</a>.</p>
 """,
     faqs=[

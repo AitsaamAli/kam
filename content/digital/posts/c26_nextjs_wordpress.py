@@ -65,7 +65,7 @@ POST = dict(
 </ul>
 <p>Next.js makes sense for a startup building a web product, a company whose website includes logins, dashboards or calculators, or a large content site with an in-house team that cares about every millisecond.</p>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">When We Build With Next.js and When With WordPress</h2>
 <p>For most business websites, we recommend WordPress. A site of up to five pages costs {P['starter']}, and up to ten pages {P['business']}, built on a lean theme with caching and image optimisation. When a project needs app features, such as logins, dashboards or booking logic, we build it as a web application from {P['app']}, often in Next.js or Laravel, within {P['app_range']} depending on scope. See our <a href="/digital/web-app-development">web app development</a> service.</p>
 
 <h2 id="next-step">Questions to Ask Your Developer</h2>

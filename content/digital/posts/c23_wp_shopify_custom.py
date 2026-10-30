@@ -89,7 +89,7 @@ POST = dict(
 <p>Website builders such as Wix and Squarespace suit a one-person business that wants to build the site itself, but they bill in dollars and limit what you can move later; see <a href="/digital/blog/wix-vs-custom-website-pakistan">Wix vs a custom website</a>. A headless set-up separates the editing system from the front end; it is rarely needed for a small business, as our <a href="/digital/blog/headless-cms-vs-wordpress">headless CMS guide</a> explains. If you are unsure whether you need an app at all, read <a href="/digital/blog/website-or-mobile-app-first">website or mobile app first</a> and <a href="/digital/blog/pwa-vs-native-app-pakistan">PWA vs native app</a>.</p>
 <p>Whatever you choose, two decisions sit underneath it: whether you pay for a <a href="/digital/blog/template-vs-custom-website-design">template or custom design</a>, and <a href="/digital/blog/best-hosting-for-pakistan-websites">which hosting serves Pakistani visitors best</a>.</p>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">Which Platform We Would Recommend, and What It Costs</h2>
 <p>We build on all three, so we recommend the one that fits rather than the one we prefer.</p>
 <ul>
 <li><strong>Service business:</strong> a WordPress site from {P['starter']} for up to 5 pages or {P['business']} for up to 10, with WhatsApp buttons, enquiry forms and basic SEO set up. See our <a href="/digital/business-websites">business websites</a> service.</li>
@@ -98,7 +98,7 @@ POST = dict(
 </ul>
 <p>Every project starts with a written scope and a fixed price. The domain and hosting are registered in your name.</p>
 
-<h2 id="next-step">Questions to Answer Before You Decide</h2>
+<h2 id="next-step">Five Questions That Settle the Platform Choice</h2>
 <ol>
 <li>What must the website do in its first year: inform, sell, book or manage?</li>
 <li>How many products will you list, and how will most customers pay?</li>

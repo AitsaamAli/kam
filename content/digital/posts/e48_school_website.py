@@ -70,7 +70,7 @@ POST = dict(
 <tr><td>Fee status and vouchers</td><td>Accounts office, monthly</td></tr>
 </table>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">Our School and Academy Website Package</h2>
 <p>A tuition academy usually needs up to 5 pages, from {P['starter']}. A school with admissions, fee schedules, notices and a gallery typically needs up to 10 pages, from {P['business']}, including an online admission form and an Urdu version of key pages if required. Parent portals and school management features are web applications, from {P['app']} and within {P['app_range']} depending on modules. See our <a href="/digital/web-app-development">web app development</a> service. Other sectors are covered in our <a href="/digital/blog/clinic-website-design-pakistan">websites by industry hub</a>, and NGOs running schools may find our <a href="/digital/blog/ngo-donation-website-pakistan">NGO website guide</a> useful.</p>
 """,
     faqs=[

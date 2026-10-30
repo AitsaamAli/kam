@@ -72,7 +72,7 @@ POST = dict(
 <h2 id="booking">Which Booking Set-Up Works for a Dental Clinic?</h2>
 <p>For one or two dentists, a WhatsApp button plus a booking request form is usually enough. Dental clinics with several chairs, hygienists and long treatment courses benefit from live booking: patients choose a slot by treatment type, the system blocks the right chair time, and reminders reduce missed follow-ups. That is a web application, built around your chair schedule.</p>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">What We Build for Dental Practices</h2>
 <table>
 <tr><th>Package</th><th>Includes</th><th>Starting price</th></tr>
 <tr><td>Small practice</td><td>Up to 5 pages: home, dentist profile, treatments overview, prices, contact</td><td class="price">{P['starter']}</td></tr>

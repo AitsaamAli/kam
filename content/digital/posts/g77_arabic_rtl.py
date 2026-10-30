@@ -63,7 +63,7 @@ POST = dict(
 <li>Verify hreflang links with Google Search Console after launch.</li>
 </ol>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">How We Build Arabic and Bilingual Websites</h2>
 <p>We build bilingual Arabic and English websites with proper right-to-left layouts, separate URLs per language, hreflang set-up and tested Arabic fonts. A bilingual business website of up to 10 pages starts from {P['business']}, with translation quoted separately or supplied by you; online stores begin at {P['store']}. We work with Gulf clients over video calls, with about a full working day of overlap. See our <a href="/digital/business-websites">business websites</a> service, our <a href="/digital/blog/website-cost-dubai">Dubai website cost guide</a> and the <a href="/digital/blog/hire-pakistani-web-developers">guide to hiring Pakistani developers</a>.</p>
 """,
     faqs=[

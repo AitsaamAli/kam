@@ -29,7 +29,7 @@ POST = dict(
 <h2 id="multan-economy">What Do Multan Businesses Need From Web Development?</h2>
 <p>Multan is the main city of southern Punjab and the centre of a large farming region. It is famous for its mangoes, sits in Pakistan's cotton-growing belt, and has a long tradition of crafts such as blue pottery. Its Sufi shrines draw visitors from across the country. Each of these shapes a different kind of business, and each needs a different website.</p>
 
-<h2 id="by-business">Which Website Fits Which Multan Business?</h2>
+<h2 id="by-business">Mango Exporter, Agri Dealer or Shop: Which Multan Website Fits?</h2>
 <table>
 <tr><th>Business</th><th>Website that fits</th><th>Starting price with us</th></tr>
 <tr><td>Seed, fertiliser or pesticide dealer</td><td>Product catalogue, crop guidance pages, WhatsApp ordering</td><td class="price">{P['starter']}</td></tr>
@@ -62,10 +62,10 @@ POST = dict(
 <h2 id="crafts">Can Multani Crafts Sell Well Online?</h2>
 <p>Yes, with the right care. Blue pottery and other handmade goods photograph beautifully but are fragile. An online store should show real dimensions, note that handmade pieces vary slightly, explain packaging, and set delivery charges that cover safe packing. Offer cash on delivery with order confirmation, and consider a partial advance for large or fragile orders. Our guides to <a href="/digital/blog/start-online-store-pakistan">starting an online store</a> and <a href="/digital/blog/product-page-checklist-pakistan">product pages that sell</a> cover the details.</p>
 
-<h2 id="remote">How Do We Work With Multan Businesses?</h2>
+<h2 id="remote">What Does Working With Us From Multan Look Like?</h2>
 <p>Our team works from Lahore and has no office in Multan. We work with Multan clients over WhatsApp, phone and video calls, sending a written scope and fixed price, then sharing designs on screen for approval. Many owners in south Punjab prefer voice notes and Urdu, and that is how we communicate if it suits you. Clients visiting Lahore are welcome at our office.</p>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">What We Build for Multan Businesses</h2>
 <p>For Multan businesses, we build dealer and retailer websites from {P['starter']}, exporter and hospitality sites from {P['business']} and online stores from {P['store']}, with Urdu pages where your customers need them. Optional maintenance at {P['maint']} a month covers seasonal updates, such as refreshing a mango exporter's site each spring. See our <a href="/digital/business-websites">business websites</a> service, or read our <a href="/digital/blog/best-web-development-company-lahore">guide to choosing a developer</a>.</p>
 """,
     faqs=[

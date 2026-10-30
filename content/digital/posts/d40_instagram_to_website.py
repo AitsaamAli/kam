@@ -78,7 +78,7 @@ POST = dict(
 <li>Poor photos; good product pages matter more on a website. See our <a href="/digital/blog/product-page-checklist-pakistan">product page checklist</a>.</li>
 </ul>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">How We Move Your Instagram Shop to a Website</h2>
 <p>For brands moving off Instagram, our store build starts at {P['store']} and covers product set-up from your spreadsheet, COD and an online payment option, WhatsApp order buttons with pre-filled product messages, catalogue connection for Instagram where your account is eligible, and policy pages. If you only need a simple catalogue site with WhatsApp ordering and no checkout, a business website from {P['business']} may be enough. See our <a href="/digital/ecommerce-development">online store development</a> service and our full guide to <a href="/digital/blog/start-online-store-pakistan">starting an online store in Pakistan</a>.</p>
 """,
     faqs=[

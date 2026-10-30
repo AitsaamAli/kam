@@ -71,7 +71,7 @@ POST = dict(
 <li>Keep a one-page list of who controls what: registrar, host, developer and their contacts.</li>
 </ul>
 
-<h2 id="what-we-offer">How We Can Help</h2>
+<h2 id="what-we-offer">How We Diagnose a Website That Is Down</h2>
 <p>Our maintenance plan at {P['maint']} a month includes uptime monitoring, renewal reminders, backups before updates and fixes when something breaks. If your site is down now, message us on WhatsApp with the address and what you see. See our <a href="/digital/pricing">pricing page</a>, the <a href="/digital/blog/website-security-checklist-small-business">security checklist</a> and the <a href="/digital/blog/get-business-website-on-google">guide to getting your website on Google</a>.</p>
 """,
     faqs=[

@@ -74,7 +74,7 @@ POST = dict(
 </table>
 <p>Both can be fair. The problem would be the second price with the first deliverable.</p>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">What Our Custom Design Process Delivers</h2>
 <p>Our packages state what is included, so you know whether you are buying a customised theme or new design work. A website of up to 5 pages starts at {P['starter']} and up to 10 pages at {P['business']}. We name any theme we use, buy its licence for your site and use lean themes that load quickly on mobile data. For brands that need fully custom design, we quote it separately in the written scope. See our <a href="/digital/business-websites">business websites</a> service.</p>
 
 <h2 id="next-step">Questions to Ask Before You Pay</h2>

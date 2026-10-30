@@ -76,7 +76,7 @@ POST = dict(
 </ol>
 <p>For a full pre-launch list beyond SEO, see our <a href="/digital/blog/website-launch-checklist">website launch checklist</a>.</p>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">The 15 Checks Built Into Every Site We Launch</h2>
 <p>All 15 items are part of our standard build, not an add-on: a 5-page site from {P['starter']}, a 10-page site from {P['business']}, and stores from {P['store']}. We set up Search Console and Analytics in your name and hand over a short report at launch. See our <a href="/digital/business-websites">business websites</a> service and the <a href="/digital/blog/get-business-website-on-google">guide to getting your website on Google</a>.</p>
 """,
     faqs=[

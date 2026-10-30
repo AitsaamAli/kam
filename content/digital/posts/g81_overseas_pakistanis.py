@@ -68,7 +68,7 @@ POST = dict(
 <h2 id="time-zones">How Do You Work With a Pakistani Developer From Abroad?</h2>
 <p>From the Gulf, the time difference is one or two hours. From the UK it is four or five, and from North America nine or more, so weekly calls work best at the edge of both days. Our <a href="/digital/blog/offshore-team-time-zones-lahore">time zone guide</a> has the details.</p>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">How We Set Up Your Online Business From Abroad</h2>
 <p>We set up the whole online side with every account in your name: domain registration guidance, hosting, business email, website, WhatsApp buttons and Google Business Profile set-up with your local manager. A 5-page website starts from {P['starter']}, a 10-page site from {P['business']} and an online store from {P['store']}. Overseas clients are invoiced in rupees and pay by international transfer in milestones. See our <a href="/digital/contact">contact page</a> and the <a href="/digital/blog/hire-pakistani-web-developers">guide to working with Pakistani developers</a>.</p>
 """,
     faqs=[

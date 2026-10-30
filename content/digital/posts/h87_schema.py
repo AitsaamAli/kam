@@ -73,7 +73,7 @@ POST = dict(
 <h2 id="platforms">How Is Markup Added on WordPress or Shopify?</h2>
 <p>On WordPress, SEO plugins add basic Organization and breadcrumb markup, and a developer can add LocalBusiness details correctly. Shopify themes usually include Product markup; check it with the Rich Results Test, as quality varies. On custom sites, the developer adds it in page templates. In every case, someone should check it again after theme or plugin updates, because updates can remove or duplicate markup without warning.</p>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">The Structured Data We Add to Every Site</h2>
 <p>Every website we build includes Organization or the right LocalBusiness subtype, BreadcrumbList, and FAQPage or Product markup where the page content supports it, tested with the Rich Results Test before launch. Sites start from {P['starter']}, and stores from {P['store']}. See our <a href="/digital/business-websites">business websites</a> service, the <a href="/digital/blog/seo-ready-website-checklist">SEO-ready website checklist</a> and the <a href="/digital/blog/get-business-website-on-google">guide to getting your website on Google</a>.</p>
 """,
     faqs=[

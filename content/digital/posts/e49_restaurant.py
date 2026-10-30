@@ -62,7 +62,7 @@ POST = dict(
 <h2 id="google">How Do Customers Find Your Restaurant Online?</h2>
 <p>Your Google Business Profile is often the first thing customers see: photos, hours, menu link and reviews. Link it to the ordering page, keep hours accurate, especially in Ramadan and on public holidays, and reply to reviews. Put your website link and a QR code on takeaway bags and table cards so app customers can order direct next time.</p>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">The Ordering Website We Build for Restaurants</h2>
 <p>For a single outlet, a menu website with WhatsApp ordering can be built as a business website from {P['business']}. A full ordering site with cart, delivery zones, kitchen alerts, cash on delivery and an online payment option is built from {P['store']}. Multi-branch systems with rider assignment are web applications from {P['app']}. Every project starts with a written scope and a fixed price. See our <a href="/digital/ecommerce-development">online ordering and store development</a> service, our <a href="/digital/blog/clinic-website-design-pakistan">websites by industry hub</a> and our <a href="/digital/blog/payment-gateways-pakistan-compared">payment gateway comparison</a>. Hotels with restaurants may also like our <a href="/digital/blog/hotel-guest-house-booking-website">hotel booking website guide</a>.</p>
 """,
     faqs=[

@@ -63,7 +63,7 @@ POST = dict(
 <h2 id="controls">Can You Limit How AI Uses Your Content?</h2>
 <p>Yes, to some extent. Google points site owners to controls such as nosnippet, data-nosnippet, max-snippet and noindex to limit how content appears in its AI features, and to Google-Extended for use in some other Google AI systems. Using them may also reduce how your pages appear in Search, so decide carefully.</p>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">How We Prepare Your Site for AI Search</h2>
 <p>We build websites with clear, factual pages, consistent business details, matching structured data and FAQ sections written to be quoted, plus a Business Profile set-up guide. Prices begin at {P['starter']} for a small site. We make no promise of AI mentions; we make your information easy to find and trust. Our <a href="/digital/business-websites">business website packages</a> include this groundwork, and the <a href="/digital/blog/get-business-website-on-google">plan for getting found on Google</a> covers the search side.</p>
 """,
     faqs=[

@@ -67,7 +67,7 @@ POST = dict(
 <h2 id="trade-offs">Which Trade-Offs Are Worth Making?</h2>
 <p>Every feature costs speed. A full-screen video, a chat widget, several tracking pixels and an animated slider can each be justified, but together they can make a site unusable on mobile data. For each heavy element, ask whether it brings enough enquiries or sales to pay for the delay. Often a single strong photo and a WhatsApp button do more than all four.</p>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">How We Build for Speed on Mobile Data</h2>
 <p>We build to a speed budget from the start: compressed images, lean themes, caching and minimal scripts, tested on mid-range Android phones over 4G before launch. Business websites start at {P['starter']}, and stores at {P['store']}. For existing sites, a speed review and fixes can be scoped separately or handled under maintenance at {P['maint']} a month. Speed work is part of every <a href="/digital/business-websites">business website we build</a>; to make sure Google can find the faster site, follow our <a href="/digital/blog/get-business-website-on-google">step-by-step Google guide</a>.</p>
 """,
     faqs=[

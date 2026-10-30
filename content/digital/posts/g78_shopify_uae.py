@@ -60,7 +60,7 @@ POST = dict(
 <h2 id="working-remotely">Can a Pakistan-Based Team Build Your Gulf Store?</h2>
 <p>Yes. The UAE is one hour behind Pakistan and Saudi Arabia two, so our working days overlap for most of the day. The store, Shopify account, payment provider and domain are registered in your company's name; we work as staff users on your account. You approve designs and test orders on the live store before launch.</p>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">How We Set Up Shopify for Gulf Stores</h2>
 <p>Our Shopify builds for Gulf stores start from {P['store']}: theme set-up with Arabic and English, collections and products, payment set-up suited to your country, COD with confirmation, shipping zones, courier app connection where available, and policy pages. Ongoing maintenance is {P['maint']} a month. Prices are in Pakistani rupees, paid in milestones. See our <a href="/digital/ecommerce-development">online store development</a> service, our <a href="/digital/blog/shopify-vs-woocommerce-pakistan">Shopify vs WooCommerce comparison</a> and the <a href="/digital/blog/hire-pakistani-web-developers">guide to hiring Pakistani developers</a>.</p>
 """,
     faqs=[

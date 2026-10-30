@@ -72,7 +72,7 @@ POST = dict(
 </ul>
 <p>This guide covers the website only. For legal checks on title, documents and transfer, buyers and agents should rely on the relevant authority and a qualified adviser.</p>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">What We Build for Property Agencies</h2>
 <table>
 <tr><th>Set-up</th><th>Includes</th><th>Starting price</th></tr>
 <tr><td>Dealer website</td><td>Up to 5 pages with featured properties and WhatsApp</td><td class="price">{P['starter']}</td></tr>

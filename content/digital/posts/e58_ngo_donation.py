@@ -66,7 +66,7 @@ POST = dict(
 <h2 id="privacy">How Should Donor and Beneficiary Privacy Be Protected?</h2>
 <p>Do not publish donor names or amounts without permission; many donors give privately for religious or personal reasons. Keep donor lists and payment details in a protected system with limited access. Beneficiaries need even more care: use photos and stories only with informed consent, avoid images that shame or identify vulnerable people, and take extra care with children.</p>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">What We Build for NGOs and Trusts</h2>
 <p>An NGO or trust website with programme pages, a donate page covering bank, Raast, wallet and international transfer details, a reports archive and a contact page starts from {P['business']} for up to 10 pages; a smaller trust may need only five pages, from {P['starter']}. Online card donations depend on your gateway. A donor portal with receipts, recurring pledges and programme reporting is built as a web application, priced from {P['app']}. Our <a href="/digital/web-app-development">web app service page</a> explains how we scope these, and our <a href="/digital/blog/clinic-website-design-pakistan">guide to websites by industry</a> lists other sectors. Trusts that run schools should also read our <a href="/digital/blog/school-website-design-pakistan">school website guide</a>.</p>
 """,
     faqs=[

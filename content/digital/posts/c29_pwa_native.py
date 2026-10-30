@@ -72,7 +72,7 @@ POST = dict(
 </table>
 <p>For this shop, the PWA route reaches customers faster and costs less. If it later adds riders who must be tracked all day, a small native app for riders alone could sit alongside the PWA.</p>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">How We Build Installable Web Apps</h2>
 <p>A PWA is quoted as a web application. Prices begin at {P['app']}, and most land in the {P['app_range']} band, with the final figure set by features such as logins, ordering, payments and admin screens. One build serves Android, iPhone and desktop. We test on mid-range Android phones over mobile data, not only on office Wi-Fi. See our <a href="/digital/web-app-development">web app development</a> service. If you are not sure you need an app at all, start with <a href="/digital/blog/website-or-mobile-app-first">website or app first</a>.</p>
 
 <h2 id="next-step">Questions to Ask Before You Build</h2>

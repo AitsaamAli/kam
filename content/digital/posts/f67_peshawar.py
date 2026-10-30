@@ -26,11 +26,11 @@ POST = dict(
         "We work with Peshawar businesses remotely from Lahore and welcome visits to our Lahore office.",
     ],
     body=f"""
-<h2 id="trading-city">What Should Website Design in Peshawar Focus On?</h2>
+<h2 id="trading-city">What Do Peshawar's Wholesale Buyers Need to See?</h2>
 <p>Peshawar has been a trading city for centuries, at the eastern end of the routes through the Khyber Pass. Its wholesale markets, including the old city around Qissa Khwani Bazaar and the Karkhano market, supply retailers across Khyber Pakhtunkhwa and beyond. The wider province is known for marble and stone, and Peshawar's traders also deal in carpets, dry fruits and handicrafts.</p>
 <p>For most Peshawar businesses, customers are retailers and repeat buyers who order by phone and WhatsApp. A website should make that ordering easier and reach new buyers, not force a style of selling that does not fit.</p>
 
-<h2 id="by-business">Which Website Fits Which Peshawar Business?</h2>
+<h2 id="by-business">Wholesaler, Marble Trader or Retailer: Which Site Fits?</h2>
 <table>
 <tr><th>Business</th><th>Website focus</th><th>Starting price with us</th></tr>
 <tr><td>Wholesaler or distributor</td><td>Catalogue, price on request, WhatsApp ordering, new arrivals</td><td class="price">{P['starter']}</td></tr>
@@ -55,10 +55,10 @@ POST = dict(
 <h2 id="languages">Should Your Website Be in Urdu or Pashto?</h2>
 <p>If many of your customers read Urdu or Pashto more comfortably than English, add key pages in those languages: products, ordering and contact. Both are written right to left. The W3C advises setting the direction with the <em>dir</em> attribute in the HTML, and a proper web font is needed so letters join and display correctly on older phones. Keep product codes and prices in a consistent format across languages so orders are not misread.</p>
 
-<h2 id="remote">How Do We Work With Peshawar Businesses?</h2>
+<h2 id="remote">How Do Peshawar Traders Work With Our Lahore Team?</h2>
 <p>We have no office in Peshawar; our team is in Lahore. Peshawar traders work with us through WhatsApp and video calls, with a written scope and fixed price agreed before any payment and milestone payments by bank transfer. For catalogue websites, we usually ask for a product list with photos, which your staff can send on WhatsApp in batches. If you travel to Lahore, you are welcome to meet us at our office.</p>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">What We Build for Peshawar Traders</h2>
 <p>A wholesale catalogue with WhatsApp ordering starts from {P['starter']} for up to 5 pages. A marble or stone website with galleries and quotation forms usually needs up to 10 pages, from {P['business']}. A carpet, handicraft or dry fruit store starts from {P['store']}. Urdu or Pashto pages can be added in the written scope. See our <a href="/digital/business-websites">business websites</a> service and our <a href="/digital/blog/best-web-development-company-lahore">guide to choosing a developer</a>.</p>
 """,
     faqs=[

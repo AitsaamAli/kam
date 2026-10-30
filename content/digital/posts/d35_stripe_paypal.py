@@ -71,7 +71,7 @@ POST = dict(
 <tr><td>Sialkot sportswear exporter</td><td>Distributors in Europe</td><td>Enquiry form, pro-forma invoice, bank transfer in milestones</td></tr>
 </table>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">How We Set Up Payments That Work From Pakistan</h2>
 <p>For stores selling in Pakistan, our online store package from {P['store']} includes COD and an online payment option with your chosen local gateway. For exporters and service businesses, we build websites with enquiry and quote forms that lead to invoices, from {P['business']} for up to 10 pages. If you already have a company registered in a Stripe-supported country, we can connect Stripe to the website in that company's name. See our <a href="/digital/ecommerce-development">online store development</a> service.</p>
 
 <h2 id="next-step">Questions to Answer First</h2>

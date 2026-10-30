@@ -68,10 +68,10 @@ POST = dict(
 <h2 id="middle-step">Is There a Middle Step Between a Website and an App?</h2>
 <p>Yes. A progressive web app, or PWA, is a website that can be installed on the home screen and can work partly offline. It costs far less than two native apps and needs no store fees. Our <a href="/digital/blog/pwa-vs-native-app-pakistan">PWA vs native app guide</a> explains what a PWA can and cannot do on Pakistani phones.</p>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">Our Website-First and App-Ready Packages</h2>
 <p>For most businesses we start with a website: from {P['starter']} for up to 5 pages, {P['business']} for up to 10, or an online store from {P['store']}. When you need logins, bookings or app-like features, we build a web application or PWA from {P['app']}. One web app serves both iPhone and Android users through the browser. See our <a href="/digital/web-app-development">web app development</a> service.</p>
 
-<h2 id="next-step">Questions to Answer Before You Decide</h2>
+<h2 id="next-step">Questions to Ask Before Paying for an App</h2>
 <ol>
 <li>How often will a typical customer use this: weekly, monthly or yearly?</li>
 <li>Does the idea need the camera, background location or full offline use?</li>

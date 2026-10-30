@@ -67,7 +67,7 @@ POST = dict(
 </ol>
 <p>This process takes a little longer at the start and saves weeks later, because problems surface while they are small and cheap to fix.</p>
 
-<h2 id="contracts">What Should the Contract Cover?</h2>
+<h2 id="contracts">Which Clauses Protect an Overseas Client?</h2>
 <p>Every project should start with a written agreement covering scope, timeline, price, milestones, acceptance testing, change requests, confidentiality, ownership of code and content after final payment, support after launch and how either side can end the work. If you are an agency reselling the work, add white-label terms. Our guides to <a href="/digital/blog/outsourcing-website-ip-nda-code-ownership">IP, NDAs and code ownership</a> and <a href="/digital/blog/website-development-contract-checklist">website contracts</a> explain the clauses in plain English.</p>
 
 <h2 id="payments">How Do Overseas Clients Pay?</h2>
