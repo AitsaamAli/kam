@@ -48,7 +48,7 @@ POST = dict(
 <h2 id="ownership">Who Owns the Website?</h2>
 <p>With WordPress, you can move the entire site, code and database to another host at any time. With Webflow, the site runs on Webflow's platform; you can export some code but not dynamic CMS features in a working form, so leaving usually means rebuilding. Our guide to website ownership explains why this matters over five or ten years.</p>
 
-<h2 id="choose">Which Should You Choose?</h2>
+<h2 id="choose">WordPress or Webflow: Which Should You Choose?</h2>
 <ul>
 <li><strong>Choose Webflow</strong> for a design-led marketing site, a team comfortable paying in dollars, and a designer who knows Webflow well.</li>
 <li><strong>Choose WordPress</strong> for full ownership, rupee hosting, plenty of local developers, complex features or an online store with local gateways.</li>

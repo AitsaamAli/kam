@@ -60,7 +60,7 @@ POST = dict(
 <h2 id="privacy">What About Photos and Reviews of Clients?</h2>
 <p>Use project photos and client names only with permission, and avoid showing house numbers, faces or personal details in photos of customers' homes.</p>
 
-<h2 id="build">Our Approach</h2>
+<h2 id="build">How We Structure Service Pages</h2>
 <p>Our business websites, from {P['business']}, include a separate page for each main service using this structure. See <a href="/digital/business-websites">business websites</a>.</p>
 """,
     faqs=[

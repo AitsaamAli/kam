@@ -57,7 +57,7 @@ POST = dict(
 <h2 id="privacy">How Should Customer Details Be Handled?</h2>
 <p>Room photos and addresses customers send for custom orders are private. Store them securely, use them only for the order, and ask before showing finished pieces in customers' homes on your website.</p>
 
-<h2 id="cost">What Does It Cost?</h2>
+<h2 id="cost">What Does a Furniture Store Website Cost?</h2>
 <p>A showroom catalogue site can start from {P['business']}; a full online store with options, advances and zone delivery starts from {P['store']}. See <a href="/digital/ecommerce-development">e-commerce development</a>.</p>
 """,
     faqs=[

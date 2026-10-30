@@ -74,7 +74,7 @@ POST = dict(
          "Usually at least four: front, back or side, a close detail and a scale shot such as the item in a hand or on a model. Add in-use and box-contents images where helpful. Show what customers ask about most often on WhatsApp."),
         ('What image size should I upload to my online store?',
          "Around 1,200 to 2,000 pixels on the longest side is enough for zoom on most stores. Compress images before uploading and use WebP where your platform supports it. Very large original phone photos slow down category and product pages, especially on mobile data."),
-        ('What is alt text and why does it matter?',
+        ('Why does alt text matter for images?',
          "Alt text is a short description of an image, read aloud by screen readers and used by search engines to understand pictures. Describe the product naturally, for example colour, material and view, without stuffing keywords. It helps accessibility and image search."),
         ('Can I use photos from my supplier?',
          "Only with permission and when they accurately show what you deliver. Supplier photos also appear on many other stores, so they do little to set you apart. Taking your own photos, even simply, builds more trust and reduces complaints that items look different."),

@@ -57,7 +57,7 @@ POST = dict(
 <h2 id="privacy">What About User Data and Permissions?</h2>
 <p>Apps that use location, camera or contacts need clear permission requests and privacy disclosures in the app stores. Request only what you need, explain why, and keep a privacy policy that matches what the app actually does.</p>
 
-<h2 id="help">How We Help</h2>
+<h2 id="help">How We Help You Choose an App Framework</h2>
 <p>We recommend the simplest route that meets your needs, often a PWA first. See <a href="/digital/web-app-development">web app development</a>.</p>
 <p>See also <a href="/digital/blog/wordpress-vs-webflow">WordPress vs Webflow for a Business Website</a>.</p>
 """,

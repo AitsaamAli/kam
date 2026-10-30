@@ -68,7 +68,7 @@ POST = dict(
 <h2 id="privacy">What Privacy Rules Apply to Tracking?</h2>
 <p>Track actions, not identities: never send names or phone numbers to analytics tools. Mention analytics in your privacy policy and handle cookie consent for overseas visitors.</p>
 
-<h2 id="help">How We Help</h2>
+<h2 id="help">How We Help You Measure Website ROI</h2>
 <p>Our websites, from {P['starter']}, include tracking for forms, WhatsApp and calls, so you can run this check from the first month. See our <a href="/digital/contact">contact page</a>.</p>
 """,
     faqs=[

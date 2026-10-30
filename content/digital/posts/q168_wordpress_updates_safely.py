@@ -78,7 +78,7 @@ POST = dict(
          "Disable the last updated plugin by renaming its folder through your host's file manager, which usually restores access. If that does not work, restore the backup taken before updating. Report the problem to the plugin developer and wait for a fixed version."),
         ('How often should WordPress be updated?',
          "Weekly or every two weeks suits most small business sites, with critical security updates applied as soon as possible. Waiting a few days after a major WordPress release, unless it is a security fix, lets early problems be found and fixed by others first."),
-        ('What is a WordPress staging site?',
+        ('What does a WordPress staging site do?',
          "A staging site is a private copy of your website where updates and changes are tested before going live. Many hosts offer one-click staging. It should be password-protected and hidden from search engines, and any customer data on it should be protected or anonymised."),
         ('WordPress ko mehfooz tareeqe se update kaise karein?',
          "Pehle poora backup lein, phir staging copy par update test karein. Live site par plugins aik aik karke update karein, phir theme aur aakhir mein WordPress core. Har qadam ke baad forms aur checkout check karein. Agar site kharab ho jaye to aakhri plugin band karein ya backup wapas lagayen."),

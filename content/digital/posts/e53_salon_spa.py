@@ -63,7 +63,7 @@ POST = dict(
 <li>WhatsApp reminders one day and two hours before.</li>
 </ul>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">The Booking Website We Build for Salons and Spas</h2>
 <p>A salon website with service menu, gallery, prices and WhatsApp booking costs {P['starter']} for a five-page site; a fuller site with bridal and spa pages is {P['business']}. Live slot booking by stylist with deposits, reminders and a staff calendar is a web application from {P['app']}. See our <a href="/digital/web-app-development">booking systems and web apps</a>. For other sectors, see our <a href="/digital/blog/clinic-website-design-pakistan">websites by industry hub</a> and our <a href="/digital/blog/gym-website-pakistan">gym website guide</a>, which covers memberships.</p>
 """,
     faqs=[

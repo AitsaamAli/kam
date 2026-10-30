@@ -73,7 +73,7 @@ POST = dict(
 <h2 id="privacy">Do Delays Create Privacy Risks?</h2>
 <p>Long projects often leave logins shared in chats and staging sites open. Use secure password sharing, protect staging with a password, and change access details after launch.</p>
 
-<h2 id="ours">Our Approach</h2>
+<h2 id="ours">How We Keep Projects on Schedule</h2>
 <p>Every project we run, from {P['starter']}, starts with a dated plan and weekly previews. See our <a href="/digital/contact">contact page</a>.</p>
 """,
     faqs=[

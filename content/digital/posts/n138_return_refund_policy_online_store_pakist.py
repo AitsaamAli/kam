@@ -58,7 +58,7 @@ POST = dict(
 <h2 id="process">How Should Your Team Handle Requests?</h2>
 <p>Log every request with order number, reason and photos, decide within a set time, and reply politely. Track reasons monthly: if many customers exchange the same item for size, fix that product's size chart. Requests caused by wrong items or damage point to packing or courier problems. Fake or abusive claims are rare but real; photos and order records help, as our COD fraud guide explains.</p>
 
-<h2 id="privacy">What About Customer Data?</h2>
+<h2 id="privacy">How Should Refunds Handle Customer Data?</h2>
 <p>Refunds involve bank or wallet details. Collect them privately, store them only as long as needed to complete the refund, and limit which staff can see them.</p>
 
 <h2 id="build">Building Policies Into the Store</h2>

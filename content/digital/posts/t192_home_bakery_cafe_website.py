@@ -67,7 +67,7 @@ POST = dict(
 <h2 id="privacy">How Should Customer Details Be Handled?</h2>
 <p>Orders include names, addresses and personal messages. Keep them private, never post customers' cake messages or names without permission, and delete old order details on a schedule.</p>
 
-<h2 id="cost">What Does It Cost?</h2>
+<h2 id="cost">What Does a Bakery Website Cost?</h2>
 <p>A menu and order-form site for a home bakery starts from {P['starter']}; a full online store with delivery zones and payments starts from {P['store']}. See <a href="/digital/ecommerce-development">e-commerce development</a>.</p>
 """,
     faqs=[

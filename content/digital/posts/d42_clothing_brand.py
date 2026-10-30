@@ -84,7 +84,7 @@ POST = dict(
 </table>
 <p>If you already sell on Instagram, our guide to <a href="/digital/blog/instagram-whatsapp-shop-to-website">moving your Instagram shop to a website</a> covers keeping WhatsApp orders during the switch.</p>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">Our Clothing Brand Store Package</h2>
 <p>Our clothing store build starts at {P['store']}: Shopify or WooCommerce, collections by season and type, size and colour variants with stock, size charts per product type, filters, COD with WhatsApp confirmation, an online payment option, delivery charges by city and exchange policy pages. We test product pages on mid-range Android phones and prepare the store for launch traffic. See our <a href="/digital/ecommerce-development">online store development</a> service and read <a href="/digital/blog/start-online-store-pakistan">how to start an online store in Pakistan</a>.</p>
 """,
     faqs=[

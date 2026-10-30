@@ -55,7 +55,7 @@ POST = dict(
 <h2 id="cod-returns">How Do You Keep Cash on Delivery Safe?</h2>
 <p>Confirm every order on WhatsApp before booking the courier, check that the address and phone number are complete, and ask for a delivery-charge advance on large or unusual orders. Our COD fake orders guide sets out the full verification flow.</p>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">How We Take Anarkali and Ichhra Shops Online</h2>
 <p>A catalogue of your best-sellers with WhatsApp ordering is a 5-page site at {P['starter']}. A full store with variants, cash on delivery and courier booking starts at {P['store']}. We can photograph a first batch of products with you and train a family member or staff to add new items from a phone. Meet us in Awan Town, at Rizwan Block Market facing Rizwan Park, or work with us on WhatsApp. See our <a href="/digital/ecommerce-development">online store development</a> service and the <a href="/digital/blog/website-developer-allama-iqbal-town-lahore">Lahore neighbourhoods hub</a>.</p>
 <p>See also <a href="/digital/blog/website-designer-wahdat-road-awan-town">Website Designer on Wahdat Road and Awan Town</a>.</p>
 """,

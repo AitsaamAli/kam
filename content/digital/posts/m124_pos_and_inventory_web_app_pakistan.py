@@ -58,7 +58,7 @@ POST = dict(
 <h2 id="hardware">What Hardware Is Needed?</h2>
 <p>A basic counter needs a computer or tablet, a barcode scanner, a thermal receipt printer and optionally a cash drawer. A UPS keeps the counter running through short power cuts. Choose hardware the software vendor or developer supports, and keep a spare printer roll supply.</p>
 
-<h2 id="privacy">What About Customer Data?</h2>
+<h2 id="privacy">How Should a POS Protect Customer and Sales Data?</h2>
 <p>If you collect phone numbers for loyalty or receipts, store them securely, limit which staff can export them, and ask before sending promotional messages.</p>
 
 <h2 id="quote">Getting a Quote</h2>

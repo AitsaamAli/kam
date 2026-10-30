@@ -5,7 +5,7 @@ from prices import P
 POST = dict(
     order=108,
     slug='website-design-bahria-town-lahore',
-    title='Website Design Bahria Town Lahore: Shops, Schools, Agents',
+    title='Website Design Bahria Town Lahore: Agents and Schools',
     h1='Website Design for Bahria Town Lahore: Schools, Clinics, Shops and Estate Agents',
     crumb='Bahria Town Lahore Websites',
     description='Website design for Bahria Town Lahore businesses: schools, clinics, shops and estate agents serving a planned community, with sector maps, directions and prices.',
@@ -23,7 +23,7 @@ POST = dict(
 <p>Bahria Town Lahore is a large gated community off Canal Road on the south-western edge of the city, divided into lettered sectors and blocks, with its own commercial areas, schools, clinics, mosques and parks. Its landmarks, such as the Grand Jamia Mosque and the replica Eiffel Tower in the main commercial area, are well known across Lahore.</p>
 <p>For a business inside the community, most customers are residents who prefer to shop, study and get treated nearby. The website's main job is to help them find you inside the community and contact you quickly. Some businesses, especially estate agents, also serve people outside Lahore and abroad.</p>
 
-<h2 id="by-business">What Does Each Bahria Town Business Need?</h2>
+<h2 id="by-business">Agency, School or Clinic: What Each Bahria Town Business Needs</h2>
 <table>
 <tr><th>Business</th><th>Must-have on the website</th><th>Starting package</th></tr>
 <tr><td>School or academy</td><td>Admissions, fees, transport routes by sector, notices</td><td class="price">{P['business']}</td></tr>
@@ -42,10 +42,10 @@ POST = dict(
 <h2 id="schools">How Can Schools Serve Families Across Sectors?</h2>
 <p>School websites in the community should show transport routes and pickup points by sector, timings for each section, fees by class and dated notices. Parents check these on phones during the school run, so keep pages fast and the admission form short. If buses change routes between terms, update the website the same week, and share the change in parent WhatsApp groups with a link back to the page.</p>
 
-<h2 id="meet">How Do We Work With Bahria Town Clients?</h2>
+<h2 id="meet">How Bahria Town Clients Meet and Work With Us</h2>
 <p>Our only office is in Awan Town, opposite Rizwan Park beside Allama Iqbal Town, not inside Bahria Town. Many clients from the community start with a video call and send photos and details on WhatsApp; those who like to meet visit us once for the design review. Because many Bahria Town customers search on their phones while driving between sectors, we test every page on a mid-range Android phone over mobile data before launch.</p>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">What We Build for Bahria Town Businesses</h2>
 <p>For a shop, clinic or home service, we usually build a one-page or 5-page site from {P['landing']}, with sector coverage and WhatsApp. Schools and estate agencies typically need up to 10 pages, from {P['business']}, and stores start at {P['store']}. Ongoing care costs {P['maint']} monthly if you want it. Details are on our <a href="/digital/business-websites">business websites</a> page, and the <a href="/digital/blog/website-developer-allama-iqbal-town-lahore">Iqbal Town hub guide</a> lists the other neighbourhoods we cover.</p>
 """,
     faqs=[

@@ -60,14 +60,14 @@ POST = dict(
 <h2 id="search">Does the About Us Page Help Search and AI Visibility?</h2>
 <p>It can. Search engines and AI tools look for consistent information about who a business is: name, founding date, location, people and what it does. A factual About page, matching your Google listing and directory entries, supports that consistency. Our <a href="/digital/blog/ai-search-optimisation-checklist-local-business">AI search checklist</a> lists related steps.</p>
 
-<h2 id="privacy">What Privacy Points Apply?</h2>
+<h2 id="privacy">What Privacy Points Apply to Team Photos and Bios?</h2>
 <p>Get written permission for staff photos and names, avoid publishing home addresses or personal numbers, and remove former employees promptly.</p>
 
-<h2 id="build">How We Help</h2>
+<h2 id="build">How We Help With Your About Page</h2>
 <p>Our business websites, from {P['business']}, include an About page built from a short questionnaire about your business. See <a href="/digital/business-websites">business websites</a>.</p>
 """,
     faqs=[
-        ('What should an About Us page include?',
+        ('What belongs on an About Us page?',
          "What you do, for whom and where; when and why the business started; the founders or team with real photos; how you work; genuine credentials; your full address, map and hours; and a clear contact button. Checkable facts persuade visitors far more than adjectives or slogans."),
         ('How long should an About Us page be?',
          "Usually a few short sections that a visitor can scan on a phone in a minute or two. Lead with the essentials: what you do, since when and where. A long company history can go further down the page or be left out entirely."),

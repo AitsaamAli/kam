@@ -59,7 +59,7 @@ POST = dict(
 <h2 id="privacy">What Else Protects Students' Privacy?</h2>
 <p>Never share applicants' details with third parties without consent, and secure staff email and devices, since phishing targets education agents.</p>
 
-<h2 id="cost">What Does It Cost?</h2>
+<h2 id="cost">What Does a Study Abroad Consultant Website Cost?</h2>
 <p>A credible consultancy site with country pages and appointment booking usually fits our business websites from {P['business']}. Secure document portals are custom work. See <a href="/digital/business-websites">business websites</a>.</p>
 """,
     faqs=[

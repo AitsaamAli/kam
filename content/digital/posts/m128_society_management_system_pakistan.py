@@ -57,7 +57,7 @@ POST = dict(
 <h2 id="adoption">How Do You Get Residents to Use It?</h2>
 <p>Start with something residents value, such as online receipts and complaint tracking, rather than rules. Hold a short session for the committee, print simple instructions, and keep a staff member available at the office for the first month. A mobile-friendly web portal avoids asking every resident to install an app.</p>
 
-<h2 id="cost">What Does It Cost?</h2>
+<h2 id="cost">What Does a Society Management System Cost?</h2>
 <p>A phase one dues and residents system sits near the lower end of our web app range, from {P['app']}. Gate passes, facility booking and multi-project reporting add to it. Hosting and upkeep continue after launch, as explained in our <a href="/digital/blog/web-app-maintenance-cost">maintenance cost guide</a>. Societies wanting a public website as well can read our real estate website guide. See <a href="/digital/web-app-development">web app development</a>.</p>
 """,
     faqs=[

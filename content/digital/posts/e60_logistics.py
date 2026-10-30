@@ -76,7 +76,7 @@ POST = dict(
 </table>
 <p>Each phase delivers value on its own, and the next is planned once the previous one works well.</p>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">What We Build for Logistics Companies</h2>
 <p>The public website with services, coverage and a quote request form is a business website from {P['business']}. Tracking, quote calculators and client portals connect to your operations data, so we scope them as a web application from {P['app']}, generally within {P['app_range']} depending on the systems involved. We start by reviewing how your shipment data is recorded today. See our <a href="/digital/web-app-development">web app development</a> service, our <a href="/digital/blog/clinic-website-design-pakistan">websites by industry hub</a> and our <a href="/digital/blog/exporter-website-b2b-pakistan">exporter website guide</a>, which covers many of your clients' needs.</p>
 """,
     faqs=[

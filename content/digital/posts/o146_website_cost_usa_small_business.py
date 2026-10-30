@@ -68,7 +68,7 @@ POST = dict(
 <h2 id="three-year">How Should You Compare Three-Year Costs?</h2>
 <p>A low build price can be followed by a high monthly retainer, and a builder's small monthly fee adds up over years. Add the upfront price to 36 months of hosting, maintenance and any retainer for each option you are considering. Include the cost of your own time if you will edit the site yourself. The cheapest first invoice is often not the cheapest website.</p>
 
-<h2 id="privacy">What About Customer Data?</h2>
+<h2 id="privacy">What Privacy Rules Apply to US Websites?</h2>
 <p>US privacy rules vary by state. Keep a clear privacy policy, collect only the data your forms need, and ask your attorney whether any state law applies to your business.</p>
 
 <h2 id="quote">Getting a Quote</h2>

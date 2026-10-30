@@ -61,7 +61,7 @@ POST = dict(
 <h2 id="privacy">How Should Customer Data Be Protected?</h2>
 <p>Jewellery orders reveal valuable items and home addresses. Limit staff access to order data, never publish customer details or photos without consent, and use discreet packaging and delivery labels.</p>
 
-<h2 id="cost">What Does It Cost?</h2>
+<h2 id="cost">What Does a Jewellery Website Cost?</h2>
 <p>A catalogue site with enquiries starts from {P['business']}; an online store with secure payments starts from {P['store']}. See <a href="/digital/ecommerce-development">e-commerce development</a>.</p>
 """,
     faqs=[

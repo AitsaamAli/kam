@@ -72,7 +72,7 @@ POST = dict(
 <li><a href="/digital/blog/ai-search-optimisation-checklist-local-business">A 20-point AI search checklist for local businesses</a></li>
 </ul>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">How We Add a Chatbot to Your Website</h2>
 <p>We start by checking whether you need a chatbot at all; often a better WhatsApp set-up comes first and is part of any website build from {P['starter']}. When a bot makes sense, we build it as a web application from {P['app']}: limited to your approved content, tested with your customers' real messages, with a clear handover to staff, privacy notices and monthly review of answers. See our <a href="/digital/web-app-development">web app development</a> service.</p>
 """,
     faqs=[

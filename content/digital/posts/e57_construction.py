@@ -71,7 +71,7 @@ POST = dict(
 <li>Separate forms for project enquiries, vendors and careers.</li>
 </ul>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">What We Build for Construction Companies</h2>
 <p>For contractors, we build a site with a filterable portfolio, capability statement download, credentials page, tenders and vendor pages and routed enquiry forms. Up to 10 pages starts from {P['business']}. A bidder portal with logins, document versioning and submission tracking is a web application from {P['app']}. See our <a href="/digital/business-websites">business websites</a> service and our <a href="/digital/blog/clinic-website-design-pakistan">websites by industry hub</a>. Building material makers may also find our <a href="/digital/blog/b2b-catalogue-website-manufacturers">B2B catalogue guide</a> useful.</p>
 """,
     faqs=[

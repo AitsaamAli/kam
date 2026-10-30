@@ -57,7 +57,7 @@ POST = dict(
 <h2 id="whatsapp-catalogue">Is a WhatsApp Catalogue Enough?</h2>
 <p>For many Hall Road traders, the first step is a simple catalogue website with a WhatsApp button on every product, opening a chat with the model number already typed. It gets you found on Google, gives buyers a link to share, and keeps the conversation on WhatsApp where you already sell. A full checkout with cash on delivery makes sense once retail orders grow beyond what staff can handle in chats.</p>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">What We Build for Hall Road Traders</h2>
 <p>A product catalogue with WhatsApp ordering, warranty and delivery pages costs {P['starter']} for a compact range or {P['business']} for a larger one. A full online store with cash on delivery, courier booking and stock tracking starts at {P['store']}. Dealer portals with private wholesale prices are web applications from {P['app']}. Our office is in Awan Town, by Rizwan Park, not on Hall Road; we train your staff to update prices themselves. See our <a href="/digital/ecommerce-development">online store development</a> service and the <a href="/digital/blog/website-developer-allama-iqbal-town-lahore">Lahore areas hub</a>.</p>
 """,
     faqs=[

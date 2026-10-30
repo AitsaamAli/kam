@@ -65,7 +65,7 @@ POST = dict(
 <h2 id="time-zones">How Do You Work Across the Time Difference?</h2>
 <p>Pakistan uses UTC+5 all year. Toronto is 9 hours behind in summer and 10 in winter; Vancouver is 12 behind in summer and 13 in winter. Normal working days barely overlap, so agree one fixed call, for example early morning in Toronto and early evening in Lahore, and rely on written updates. Work moves forward while you sleep, which can speed up review cycles. Our <a href="/digital/blog/offshore-team-time-zones-lahore">time zone guide</a> has a full overlap table.</p>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">What We Build for Canadian Small Businesses</h2>
 <p>For Canadian small businesses, we build websites with accessible layouts tested against WCAG AA, Canadian address and phone formats, optional French pages and a privacy policy template. A 5-page site starts from {P['starter']} and a 10-page site from {P['business']}, invoiced in Pakistani rupees and paid by international transfer in milestones. See our <a href="/digital/business-websites">business websites</a> service, our <a href="/digital/blog/uk-small-business-website-offshore">UK small business guide</a> for similar advice, and the <a href="/digital/blog/hire-pakistani-web-developers">guide to hiring Pakistani developers</a>.</p>
 """,
     faqs=[

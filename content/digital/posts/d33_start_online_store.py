@@ -99,7 +99,7 @@ POST = dict(
 </ol>
 <p>Thinking about other models? Our guides to <a href="/digital/blog/dropshipping-website-pakistan">dropshipping in Pakistan</a> and <a href="/digital/blog/multi-vendor-marketplace-website-cost">multi-vendor marketplace websites</a> cover them.</p>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">Our Online Store Package, Step by Step</h2>
 <p>Our online store package starts at {P['store']}. It includes the store on Shopify or WooCommerce, product and category set-up, COD checkout, an online payment option where your provider supports it, delivery charges by city, WhatsApp order buttons, policy page templates and order notifications. Every project starts with a written scope and fixed price, with milestone payments. The domain and hosting are in your name. Optional maintenance is {P['maint']} a month. See our <a href="/digital/ecommerce-development">online store development</a> service or check <a href="/digital/pricing">all our prices</a>.</p>
 
 <h2 id="checklist">Launch Checklist</h2>

@@ -54,7 +54,7 @@ POST = dict(
 <li>A simple log tracks enquiries, quotes sent and orders won.</li>
 </ol>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">What We Build for Industrial Estate Manufacturers</h2>
 <p>A factory website with catalogue, capacity, quality, factory photos and routed enquiry forms usually needs up to 10 pages, from {P['business']}; larger catalogues are scoped after we see your product list. For dealer portals with logins, price lists and reorders, budget from {P['app']}. We work from Awan Town, near Rizwan Park, and by arrangement we can visit your factory to plan photos and see the production line. See our <a href="/digital/business-websites">business websites</a> service and the <a href="/digital/blog/website-developer-allama-iqbal-town-lahore">Lahore areas hub</a>.</p>
 <p>See also <a href="/digital/blog/website-designer-wahdat-road-awan-town">Website Designer on Wahdat Road and Awan Town</a>.</p>
 """,

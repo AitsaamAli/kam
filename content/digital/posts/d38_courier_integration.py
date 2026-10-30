@@ -75,7 +75,7 @@ POST = dict(
 <h2 id="two-couriers">Should You Use More Than One Courier?</h2>
 <p>Many Pakistani stores do. One courier may be fast and reliable in Lahore, Karachi and Islamabad, while another reaches smaller towns better. With integration, your store can suggest a courier by city, and staff can override it. Track delivery time and return rate by courier and city for a month, then decide. Without integration, managing two portals by hand is slow.</p>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">How We Connect Your Store to Couriers</h2>
 <p>Courier set-up is part of our store build, which starts at {P['store']}. That covers setting up your chosen courier's plugin where a maintained one exists, plus a dispatch workflow with order statuses and tracking messages. Where no plugin exists, or you use several couriers, we quote a custom API integration in the written scope after reviewing the courier's documentation. See our <a href="/digital/ecommerce-development">online store development</a> service.</p>
 
 <h2 id="next-step">Questions to Ask Every Courier</h2>

@@ -47,10 +47,10 @@ POST = dict(
 </ul>
 <p>Our guide for overseas Pakistanis explains this audience's needs.</p>
 
-<h2 id="meet">How Do We Work With DHA Businesses?</h2>
+<h2 id="meet">Meeting DHA Clients: Your Office, Ours or Online</h2>
 <p>Our only office is in Awan Town, near Allama Iqbal Town, opposite Rizwan Park, so we are not in DHA. Many DHA owners begin with a video call, then visit us once for a design review. Overseas owners with a DHA business can work with us fully online, with staging links and feedback on WhatsApp. A relative or manager in Lahore can join the calls, but the accounts stay in the owner's name, and the owner approves each milestone before paying.</p>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">What We Build for DHA Businesses</h2>
 <p>A boutique, café or clinic in DHA usually needs a 5-page site at {P['starter']} or a 10-page site at {P['business']}. Retail brands selling online need a store, from {P['store']}. Property portals with agent logins and lead routing are web applications from {P['app']}. See our <a href="/digital/business-websites">business websites</a> service and the <a href="/digital/blog/website-developer-allama-iqbal-town-lahore">guide to Lahore areas we serve</a>.</p>
 <p>See also <a href="/digital/blog/website-for-anarkali-ichhra-retailers">Anarkali Shop Website Plan</a>.</p>
 """,

@@ -1322,7 +1322,7 @@ Key points:
 Q: How much does Shopify cost per month in Pakistan?
 A: Shopify's Basic plan costs $29 a month billed yearly or $39 billed monthly for Pakistani stores, according to a pricing check dated 9 October 2026. Grow is $79 or $105 and Advanced $299 or $399. Prices are in US dollars and can change, so confirm at checkout.
 
-Q: Is Shopify Payments available in Pakistan?
+Q: Can a Pakistani store use Shopify Payments?
 A: No. Shopify Payments is not available to businesses based in Pakistan. Online payments go through a third-party gateway, and Shopify adds a transaction fee of 2% on Basic, 1% on Grow or 0.6% on Advanced on those payments. Check Shopify's current terms before launch, because availability can change.
 
 Q: Does Shopify charge a fee on cash on delivery orders?
@@ -1976,7 +1976,7 @@ Key points:
 - Both platforms support cash on delivery; local wallet and courier support depends on third-party apps and plugins.
 - A COD-heavy store with little technical help often suits Shopify; a store with many online payments often suits WooCommerce.
 
-Q: Is Shopify or WooCommerce better for Pakistan?
+Q: Which suits a Pakistani store better, Shopify or WooCommerce?
 A: Shopify is better if you want low upkeep and most orders are cash on delivery, because COD carries no Shopify fee. WooCommerce is better if many customers pay online, because Shopify adds a 2% fee on Basic to third-party gateway payments. Both handle COD, product variants and order management well.
 
 Q: Does Shopify work in Pakistan?
@@ -5458,7 +5458,7 @@ A: Usually at least four: front, back or side, a close detail and a scale shot s
 Q: What image size should I upload to my online store?
 A: Around 1,200 to 2,000 pixels on the longest side is enough for zoom on most stores. Compress images before uploading and use WebP where your platform supports it. Very large original phone photos slow down category and product pages, especially on mobile data.
 
-Q: What is alt text and why does it matter?
+Q: Why does alt text matter for images?
 A: Alt text is a short description of an image, read aloud by screen readers and used by search engines to understand pictures. Describe the product naturally, for example colour, material and view, without stuffing keywords. It helps accessibility and image search.
 
 Q: Can I use photos from my supplier?
@@ -5847,7 +5847,7 @@ Key points:
 - Never invent awards, client numbers or years of experience.
 - End with a clear next step, such as a contact button or links to services.
 
-Q: What should an About Us page include?
+Q: What belongs on an About Us page?
 A: What you do, for whom and where; when and why the business started; the founders or team with real photos; how you work; genuine credentials; your full address, map and hours; and a clear contact button. Checkable facts persuade visitors far more than adjectives or slogans.
 
 Q: How long should an About Us page be?
@@ -5911,7 +5911,7 @@ Key points:
 - Explain what moves the price up or down, so the figure is not misread.
 - Keep prices updated; old prices cause disputes and damage trust.
 
-Q: Should I show prices on my website?
+Q: Is it a good idea to publish prices on a website?
 A: In most cases, yes, in some form: a full price list, package prices, starting prices, ranges or example projects. Prices filter out poor-fit enquiries and build trust. Hide them only when every job is genuinely unique, and even then explain how pricing works.
 
 Q: Is price on request a good idea?
@@ -6374,7 +6374,7 @@ A: Disable the last updated plugin by renaming its folder through your host's fi
 Q: How often should WordPress be updated?
 A: Weekly or every two weeks suits most small business sites, with critical security updates applied as soon as possible. Waiting a few days after a major WordPress release, unless it is a security fix, lets early problems be found and fixed by others first.
 
-Q: What is a WordPress staging site?
+Q: What does a WordPress staging site do?
 A: A staging site is a private copy of your website where updates and changes are tested before going live. Many hosts offer one-click staging. It should be password-protected and hidden from search engines, and any customer data on it should be protected or anonymised.
 
 Q: WordPress ko mehfooz tareeqe se update kaise karein?
@@ -6493,7 +6493,7 @@ A: Wix suits a simple site you build and edit yourself quickly, paid by internat
 Q: How much does Wix cost in Pakistan?
 A: Wix's official plans page lists a free plan and four premium plans, Light, Core, Business and Business Elite, priced for yearly subscriptions. It states that prices and currency vary by location, so check the figures shown to you on the page before deciding.
 
-Q: Can I move my Wix website to WordPress?
+Q: Is it possible to move a Wix site to WordPress?
 A: Not directly. Wix sites run only on Wix's platform, so moving usually means rebuilding the design on WordPress and copying content across. Keep copies of your text and images, and register your domain in your own name, so the move is simpler if you decide later.
 
 Q: Is Wix good for SEO?

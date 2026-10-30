@@ -83,7 +83,7 @@ POST = dict(
 <tr><td>Customers abroad</td><td>See our guide to <a href="/digital/blog/stripe-paypal-pakistan-website">Stripe and PayPal alternatives</a></td></tr>
 </table>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">How We Connect Payment Gateways to Your Store</h2>
 <p>Our online store package, from {P['store']}, includes COD checkout and an online payment connection with the gateway of your choice, where it supports your platform. We test real payments, failed payments and refunds before launch, and connect payment confirmations to your order emails and WhatsApp notifications. Custom integrations for gateways without a ready plugin are quoted in the written scope. See our <a href="/digital/ecommerce-development">online store development</a> service.</p>
 
 <h2 id="next-step">Questions to Ask Every Gateway</h2>

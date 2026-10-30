@@ -61,7 +61,7 @@ POST = dict(
 <h2 id="pakistan-specifics">Are There Pakistan-Specific Risks?</h2>
 <p>Two come up often. First, pirated themes and plugins, sold cheaply or shared freely, frequently contain hidden malicious code; buy from the official seller. Second, websites built by a developer who holds the only logins and the domain; if that relationship ends badly, the site is exposed. Keep ownership and access in your own name.</p>
 
-<h2 id="what-we-offer">How We Can Help</h2>
+<h2 id="what-we-offer">How Our Maintenance Plan Covers Security</h2>
 <p>Our maintenance plan, at {P['maint']} a month, covers most of this checklist for you: updates, off-site backups with restore tests, user access reviews, uptime and security monitoring, and Search Console alerts. Every site we build starts with these settings in place. See our <a href="/digital/pricing">pricing page</a>, and if the worst happens, our <a href="/digital/blog/website-hacked-what-to-do">website hacked guide</a> and the <a href="/digital/blog/get-business-website-on-google">getting found on Google pillar</a>.</p>
 """,
     faqs=[

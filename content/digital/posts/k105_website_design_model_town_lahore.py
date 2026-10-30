@@ -5,7 +5,7 @@ from prices import P
 POST = dict(
     order=105,
     slug='website-design-model-town-lahore',
-    title='Website Design Model Town Lahore: Clinics, Schools, Shops',
+    title='Website Design Model Town Lahore: Bookings and Enquiries',
     h1='Website Design in Model Town and Faisal Town, Lahore: Booking and Enquiry Sites That Work',
     crumb='Model Town Website Design',
     description='Website design in Model Town and Faisal Town, Lahore, for clinics, schools, boutiques and offices: booking and enquiry features, prices and an office visit.',
@@ -19,11 +19,11 @@ POST = dict(
     answer=f"Website design for Model Town and Faisal Town businesses should focus on bookings and enquiries: clinic appointments, school admissions, boutique orders and professional consultations, each with clear timings, fees and a WhatsApp button. Booking-ready business websites start from {P['business']}, and you can meet us in nearby Awan Town.",
     takeaways=["Model Town is one of Lahore's older planned neighbourhoods, with clinics, schools, boutiques and professional offices.", "Faisal Town next door adds busy markets and private institutions with similar needs.", "Most businesses here win customers through appointments and enquiries, so booking flows matter most.", "Clients in these areas expect a polished, trustworthy website with real photos and clear prices.", "Our office is in Awan Town, not Model Town; meetings there or on WhatsApp are both easy."],
     body=f"""
-<h2 id="area">What Should Website Design in Model Town, Lahore, Focus On?</h2>
+<h2 id="area">What Should Website Design in Model Town, Lahore, Deliver for Local Customers?</h2>
 <p>Model Town is one of Lahore's older planned neighbourhoods, laid out in lettered blocks around the large Model Town Park, with a busy commercial stretch along Model Town Link Road. Next door, Faisal Town has its own markets, private schools, academies and clinics. Between them you find specialist doctors, dentists, diagnostic labs, private schools, bridal and fashion boutiques, lawyers and consultants.</p>
 <p>Most of these businesses do not sell from a shelf. They win customers through appointments, admissions and enquiries. So website design here should make booking or enquiring easy, and build enough trust that a family or client picks you over the clinic or school down the road.</p>
 
-<h2 id="by-business">What Does Each Type of Business Need?</h2>
+<h2 id="by-business">Clinic, Boutique or Office: What Each Needs Online</h2>
 <table>
 <tr><th>Business</th><th>Key feature</th><th>What builds trust</th></tr>
 <tr><td>Specialist clinic or dentist</td><td>Appointment request or live booking</td><td>Doctor profiles with PMDC numbers, fees, real photos</td></tr>
@@ -51,7 +51,7 @@ POST = dict(
 <h2 id="meet">Where Can You Meet Us?</h2>
 <p>Our only office is in Awan Town, in Rizwan Block Market across from Rizwan Park, beside Allama Iqbal Town. From Model Town or Faisal Town it is a straightforward drive across the city's southern side. If you would rather not travel, we can run the whole project on WhatsApp and video calls, sending staging links for review and collecting your feedback in one list per round. Most Model Town clients visit once, for the first meeting or the final handover, and handle the rest remotely.</p>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">What We Build for Model Town and Faisal Town</h2>
 <p>For a boutique or single-doctor clinic, a 5-page site with WhatsApp booking costs {P['starter']}. Clinics with several doctors, schools and law firms usually need up to 10 pages with request forms, from {P['business']}. Live booking systems are web applications starting at {P['app']}. See our <a href="/digital/business-websites">business websites</a> service and our <a href="/digital/blog/website-developer-allama-iqbal-town-lahore">guide to areas near our office</a>.</p>
 """,
     faqs=[

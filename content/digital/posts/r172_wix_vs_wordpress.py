@@ -47,7 +47,7 @@ POST = dict(
 <h2 id="ownership">Who Owns the Site?</h2>
 <p>With Wix, you own your content but the site runs only on Wix; leaving means rebuilding elsewhere. With WordPress, the whole site is yours to move. If the website is central to your business for the next five years, ownership matters. Keep the domain in your own name either way.</p>
 
-<h2 id="choose">Which Should You Choose?</h2>
+<h2 id="choose">Wix or WordPress: Which Should You Choose?</h2>
 <ul>
 <li><strong>Wix</strong> if you need a simple site quickly, will edit it yourself, can pay by international card and do not need local payment gateways.</li>
 <li><strong>WordPress</strong> if you want ownership, rupee hosting, local gateways, room to grow and easy access to local developers.</li>
@@ -59,7 +59,7 @@ POST = dict(
 <h2 id="privacy">How Is Visitor Data Handled?</h2>
 <p>Wix processes form entries and analytics on its platform under its terms. WordPress stores them on your hosting, which you must secure. Mention whichever you use in your privacy policy.</p>
 
-<h2 id="help">Our Approach</h2>
+<h2 id="help">How We Help Wix and WordPress Owners</h2>
 <p>We build on WordPress and custom code for ownership and local payment support. See <a href="/digital/business-websites">business websites</a>.</p>
 <p>See also <a href="/digital/blog/wordpress-vs-webflow">WordPress vs Webflow for a Business Website</a> and <a href="/digital/blog/free-website-vs-paid-website">Free Website vs Paid Website</a>.</p>
 """,
@@ -68,7 +68,7 @@ POST = dict(
          "Wix suits a simple site you build and edit yourself quickly, paid by international card. WordPress suits businesses wanting full ownership, rupee hosting, local payment gateways, growth and easy access to local developers. Over three years, WordPress usually gives more flexibility for growing businesses."),
         ('How much does Wix cost in Pakistan?',
          "Wix's official plans page lists a free plan and four premium plans, Light, Core, Business and Business Elite, priced for yearly subscriptions. It states that prices and currency vary by location, so check the figures shown to you on the page before deciding."),
-        ('Can I move my Wix website to WordPress?',
+        ('Is it possible to move a Wix site to WordPress?',
          "Not directly. Wix sites run only on Wix's platform, so moving usually means rebuilding the design on WordPress and copying content across. Keep copies of your text and images, and register your domain in your own name, so the move is simpler if you decide later."),
         ('Is Wix good for SEO?',
          "Wix handles many technical SEO basics automatically and lets you set titles, descriptions and redirects, so it can rank. WordPress offers finer control through plugins and custom code as sites grow. On both, content quality, structure and page speed matter most."),

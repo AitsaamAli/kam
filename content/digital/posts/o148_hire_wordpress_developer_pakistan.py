@@ -53,7 +53,7 @@ POST = dict(
 <h2 id="test-task">What Makes a Good Test Task?</h2>
 <p>A paid task of a few hours, such as building one custom page section in a child theme on staging, or diagnosing why a page is slow. Review whether they asked questions, how they documented what they did, and whether the result works well on a phone.</p>
 
-<h2 id="cost">What Does It Cost?</h2>
+<h2 id="cost">What Does a Pakistani WordPress Developer Cost?</h2>
 <p>For WordPress work our published PKR prices begin at {P['starter']} for a starter site; a full business site starts at {P['business']}, a WooCommerce store at {P['store']}, and monthly care at {P['maint']} a month. Agencies needing regular overflow help can read our <a href="/digital/blog/agency-overflow-development-partner">agency partner guide</a>.</p>
 
 <h2 id="builders">Should a Developer Use a Page Builder?</h2>

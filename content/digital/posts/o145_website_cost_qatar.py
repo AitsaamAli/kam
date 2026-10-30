@@ -67,7 +67,7 @@ POST = dict(
 <h2 id="features">Which Features Push a Qatari Quote Up?</h2>
 <p>The jump from a simple brochure figure to a real quote usually comes from a handful of items: a custom design instead of a template, a second language with a mirrored layout, online booking or payments, links with a CRM or WhatsApp, and content writing or translation by the provider. Each of these is reasonable to pay for, but ask for them as separate lines in the quote, so you can decide which to keep and compare providers fairly. Content is often the hidden delay: if you are writing in two languages, prepare the text early, because translation and review take longer than most owners expect.</p>
 
-<h2 id="privacy">What About Customer Data?</h2>
+<h2 id="privacy">What Privacy Rules Apply to Qatari Websites?</h2>
 <p>Qatar has its own personal data protection law. Ask your adviser what it requires for your website forms, analytics and hosting location, and share that with your developer early.</p>
 
 <h2 id="quote">Requesting a Quote</h2>

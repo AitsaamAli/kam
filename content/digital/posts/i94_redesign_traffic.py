@@ -73,7 +73,7 @@ POST = dict(
 </ul>
 <p>Google warns rankings may fluctuate for weeks or longer. A temporary dip is normal; a steep, lasting drop usually means missing redirects.</p>
 
-<h2 id="what-we-offer">What We Would Build for You</h2>
+<h2 id="what-we-offer">How We Run a Redesign Without Losing Traffic</h2>
 <p>Every redesign we do includes a full redirect map, testing on staging, sitemap and Search Console updates, and post-launch monitoring. A redesigned business website of up to 10 pages starts from {P['business']}, and larger sites or stores are scoped after reviewing your current URLs. See our <a href="/digital/business-websites">business websites</a> service, the <a href="/digital/blog/website-launch-checklist">website launch checklist</a> and the <a href="/digital/blog/get-business-website-on-google">guide to getting your website on Google</a>.</p>
 """,
     faqs=[

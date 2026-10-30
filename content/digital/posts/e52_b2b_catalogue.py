@@ -72,7 +72,7 @@ POST = dict(
 <h2 id="enquiry-routing">How Should Enquiries Be Routed?</h2>
 <p>Ask for product line, city or region and buyer type on the enquiry form, then send each enquiry to the responsible sales person, with a copy to a manager. Add a WhatsApp button per region if your team sells that way. Track how quickly each enquiry receives a reply; a fast quote often decides the order.</p>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">Our B2B Catalogue Website Package</h2>
 <p>A public B2B catalogue with filters, spec sheet downloads and enquiry routing is usually a business website of up to 10 pages from {P['business']}, with product entries loaded from your spreadsheet; very large catalogues are scoped separately. A dealer portal with logins, tiered price lists, stock and reorders is scoped as a web application. Those start at {P['app']}, with integrations such as stock feeds moving the price up the {P['app_range']} band. See our <a href="/digital/business-websites">business websites</a> service and our <a href="/digital/blog/clinic-website-design-pakistan">websites by industry hub</a>. Construction suppliers may also find our <a href="/digital/blog/construction-company-website">construction company website guide</a> useful.</p>
 """,
     faqs=[

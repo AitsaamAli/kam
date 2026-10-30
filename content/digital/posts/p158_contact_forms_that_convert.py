@@ -60,7 +60,7 @@ POST = dict(
 <h2 id="placement">Where Should the Form Appear?</h2>
 <p>On the contact page, obviously, but also at the end of each service page, where a visitor has just read what you offer and is ready to ask. A short form there, pre-set to that service, removes a step. On mobile, keep the form near the bottom of the page and the WhatsApp button floating, so visitors can choose either without hunting.</p>
 
-<h2 id="privacy">What Privacy Points Apply?</h2>
+<h2 id="privacy">What Privacy Rules Apply to Contact Forms?</h2>
 <p>Collect only what you need, link to your privacy policy near the submit button, use HTTPS, and delete old submissions on a schedule. If you plan to send marketing, add a separate, unticked opt-in box.</p>
 
 <h2 id="build">Forms in Our Builds</h2>

@@ -88,7 +88,7 @@ POST = dict(
 <h2 id="privacy">What Privacy Points Apply to Homepage Content?</h2>
 <p>Use customer names, photos and logos only with permission, and keep staff personal numbers off public pages. If the homepage has a form, link to your privacy policy beside it.</p>
 
-<h2 id="build">How We Help</h2>
+<h2 id="build">How We Help Write Your Homepage</h2>
 <p>Every business website we build, from {P['business']}, starts with this structure and a content checklist. See <a href="/digital/business-websites">business websites</a>.</p>
 """,
     faqs=[

@@ -71,7 +71,7 @@ POST = dict(
 <h2 id="when-to-rebuild">When Is a Rebuild Better Than Fixing?</h2>
 <p>If the theme or page builder itself is the main weight, and key pages cannot pass Core Web Vitals after images, hosting and plugins are fixed, rebuilding the main templates on a lighter base is often cheaper than endless tuning. Our <a href="/digital/blog/new-website-without-losing-google-traffic">guide to redesigning without losing traffic</a> covers doing that safely.</p>
 
-<h2 id="what-we-offer">How We Can Help</h2>
+<h2 id="what-we-offer">How We Fix Slow Mobile Websites</h2>
 <p>We run a speed diagnosis on your key pages, fix images, caching, plugins and scripts, and retest on a mid-range Android phone over 4G. Ongoing speed checks are part of maintenance at {P['maint']} a month; rebuilds start from {P['starter']} for small sites. See our <a href="/digital/business-websites">business websites</a> service and the <a href="/digital/blog/get-business-website-on-google">guide to getting found on Google</a>.</p>
 """,
     faqs=[

@@ -71,7 +71,7 @@ POST = dict(
 <p>Our business websites, from {P['business']}, can include a pricing page or price lists per service. Our <a href="/digital/blog/service-page-structure">service page guide</a> shows where prices sit on each page. See <a href="/digital/business-websites">business websites</a>.</p>
 """,
     faqs=[
-        ('Should I show prices on my website?',
+        ('Is it a good idea to publish prices on a website?',
          "In most cases, yes, in some form: a full price list, package prices, starting prices, ranges or example projects. Prices filter out poor-fit enquiries and build trust. Hide them only when every job is genuinely unique, and even then explain how pricing works."),
         ('Is price on request a good idea?',
          "Usually not as the only information. Many visitors leave when they find no price at all. If you cannot publish fixed prices, give starting prices, typical ranges or example projects with costs, and explain clearly which factors change the final figure for each customer."),

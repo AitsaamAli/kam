@@ -34,7 +34,7 @@ POST = dict(
 </table>
 <p>Plan details come from Google's and Zoho's official pricing pages, checked on 30 October 2026. Both pages show prices in local currency; the figures did not load when we checked, so confirm current prices on each page before deciding. Zoho's free plan has limits, including one domain and no IMAP or POP access, and is available only in some data centres.</p>
 
-<h2 id="which">Which Should You Choose?</h2>
+<h2 id="which">Which Email Service Should You Choose?</h2>
 <ul>
 <li><strong>Google Workspace</strong> suits teams already using Gmail and Google Drive, and those who want shared calendars and video meetings in one place.</li>
 <li><strong>Zoho Mail</strong> suits budget-conscious small teams; the free plan can cover a very small business with limited needs.</li>

@@ -23,7 +23,7 @@ POST = dict(
 <p>Gulberg is Lahore's best-known commercial district. Main Boulevard and the roads around it hold corporate offices, banks and brand headquarters. MM Alam Road is lined with restaurants and cafés. Liberty Market draws shoppers for clothing and accessories, and Hafeez Centre is a well-known market for computers and electronics. Many fashion labels keep flagship stores in the area.</p>
 <p>Customers and partners in Gulberg often form an opinion of a business from its website before they visit or call. That raises the bar for design, photography and writing. It does not change the basics: the site must be fast, clear and easy to act on from a phone.</p>
 
-<h2 id="by-business">What Does Each Gulberg Business Need?</h2>
+<h2 id="by-business">Restaurant, Office or Flagship Store: What Each Needs</h2>
 <table>
 <tr><th>Business</th><th>Must-have</th><th>Common mistake</th></tr>
 <tr><td>Corporate office or consultancy</td><td>Clear services, team, credentials you genuinely hold, downloadable profile</td><td>Vague slogans with no specifics</td></tr>
@@ -50,10 +50,10 @@ POST = dict(
 <h2 id="corporate">What Do Corporate Visitors Look For?</h2>
 <p>Partners, recruits and procurement teams check a corporate site for substance: what you do, for whom, how long you have operated, who leads the company, which registrations you genuinely hold, and how to reach the right person. A dated company profile to download and named contacts for sales and careers save everyone time. If you publish case examples, use only real projects with the client's written permission, and describe outcomes you can support. Invented testimonials are easy to spot and damage the trust the rest of the site works to build.</p>
 
-<h2 id="meet">How Do We Work With Gulberg Clients?</h2>
+<h2 id="meet">Meeting in Gulberg or at Our Awan Town Office</h2>
 <p>We do not have a Gulberg office; our only office is in Awan Town, facing Rizwan Park, by Allama Iqbal Town. Gulberg clients often prefer a first video call, then one visit to our office or a meeting arranged around a design review. Everything else, including staging links and feedback rounds, runs on WhatsApp and email, which suits busy managers who cannot leave the office.</p>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">What We Build for Gulberg Businesses</h2>
 <p>Corporate and restaurant websites usually need up to 10 pages, starting at {P['business']}. Fashion and retail flagships usually need an online store, from {P['store']}. Live reservation or booking systems are web applications from {P['app']}. Prices are published and the same across Lahore. See our <a href="/digital/business-websites">business websites</a> service and our <a href="/digital/blog/website-developer-allama-iqbal-town-lahore">guide to Lahore areas we serve</a>.</p>
 <p>See also <a href="/digital/blog/website-for-hall-road-electronics-traders">Hall Road Shop Website</a>.</p>
 """,

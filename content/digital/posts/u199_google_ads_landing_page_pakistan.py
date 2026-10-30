@@ -60,7 +60,7 @@ POST = dict(
 <h2 id="after-click">What Happens After the Click Matters Too</h2>
 <p>An enquiry from an ad is only valuable if someone answers it quickly. Make sure calls are picked up during ad hours, WhatsApp messages get replies within minutes, and form enquiries are followed up the same day. Schedule ads to run when your team is available, rather than overnight when nobody can respond.</p>
 
-<h2 id="privacy">What Privacy Points Apply?</h2>
+<h2 id="privacy">What Privacy Rules Apply to Ad Tracking?</h2>
 <p>Conversion tracking uses cookies and tags. Mention them in your privacy policy, never send personal details such as phone numbers to ad platforms as plain data, and follow consent rules if you target overseas audiences.</p>
 
 <h2 id="build">Getting a Page Ready</h2>

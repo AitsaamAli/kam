@@ -23,7 +23,7 @@ POST = dict(
 <p>Once a website is live, someone must keep it updated, backed up and working. Many Pakistani businesses agree this informally with their developer: "we will look after it". Months later, when the site goes down on a Friday evening or a plugin update breaks the checkout, it turns out nobody agreed what "looking after it" meant, how fast problems are fixed or what is charged extra. A written website maintenance contract settles these questions in advance.</p>
 <p>Picking the provider comes first; our selection guide lists what to check. For prices, see our website maintenance charges guide.</p>
 
-<h2 id="checklist">What Should the Contract Cover?</h2>
+<h2 id="checklist">Which Clauses Should a Maintenance Contract Include?</h2>
 <table>
 <tr><th>Clause</th><th>What to agree</th></tr>
 <tr><td>Included tasks</td><td>Updates, backups, monitoring, security checks, a set number of small changes or hours</td></tr>

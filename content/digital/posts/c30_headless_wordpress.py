@@ -76,7 +76,7 @@ POST = dict(
 <tr><td>A UK retail chain with a website, app and in-store screens</td><td>Same product content in three places; in-house developers</td><td>Headless CMS</td></tr>
 </table>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">Our Advice on Headless Builds</h2>
 <p>Most clients get standard WordPress: {P['starter']} buys a site of up to five pages and {P['business']} one of up to ten, so your team can edit everything without us. When content must feed an app or several sites, we scope a headless build as a web application from {P['app']}, within {P['app_range']} depending on channels and features. See our <a href="/digital/web-app-development">web app development</a> service.</p>
 
 <h2 id="next-step">Questions to Ask Before Going Headless</h2>

@@ -56,7 +56,7 @@ POST = dict(
 <h2 id="privacy">How Should Client Privacy Be Protected?</h2>
 <p>Homes are private. Get written permission before publishing, avoid exact addresses, and remove photos if a client later asks. Keep enquiry details, which may include floor plans, secure.</p>
 
-<h2 id="cost">What Does It Cost?</h2>
+<h2 id="cost">What Does an Interior Designer Website Cost?</h2>
 <p>A portfolio website with project pages and an enquiry form usually fits our business websites from {P['business']}; a simpler showcase can start from {P['starter']}. See <a href="/digital/business-websites">business websites</a>.</p>
 <p>See also <a href="/digital/blog/wedding-event-planner-website">Wedding Planner and Event Management Website</a>.</p>
 """,

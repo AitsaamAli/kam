@@ -59,7 +59,7 @@ POST = dict(
 <h2 id="privacy">How Should Family Privacy Be Handled?</h2>
 <p>Weddings are personal. Ask permission before publishing photos, blur or avoid faces of guests who have not agreed, and never publish family names, addresses or invitation details without consent.</p>
 
-<h2 id="cost">What Does It Cost?</h2>
+<h2 id="cost">What Does a Wedding Planner Website Cost?</h2>
 <p>A planner website with galleries, package pages and a qualifying enquiry form usually fits our business websites from {P['business']}. See <a href="/digital/business-websites">business websites</a>.</p>
 """,
     faqs=[

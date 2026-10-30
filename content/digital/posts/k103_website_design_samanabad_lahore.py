@@ -5,7 +5,7 @@ from prices import P
 POST = dict(
     order=103,
     slug='website-design-samanabad-lahore',
-    title='Website Design Samanabad: Sites for Shops, Schools, Clinics',
+    title='Website Design Samanabad: Taking Local Shops Online',
     h1='Website Design for Samanabad and Gulshan-e-Ravi Businesses: Simple, WhatsApp-First Sites',
     crumb='Samanabad Website Design',
     description='Website design for Samanabad and Gulshan-e-Ravi shops, schools and clinics: WhatsApp-first sites, Google Maps listings, prices, and an office visit close by.',
@@ -23,7 +23,7 @@ POST = dict(
 <p>Samanabad and neighbouring Gulshan-e-Ravi are long-established, densely built family areas of Lahore. Their businesses mostly serve households within a short distance: general and grocery stores, pharmacies, tailors and boutiques, salons, tuition centres, private schools, clinics and diagnostic labs. A customer here usually decides by asking a neighbour, checking Google Maps or messaging on WhatsApp.</p>
 <p>So the right website design for Samanabad is rarely a big, complex site. It is a fast, honest page that helps nearby families decide quickly and contact you in one tap.</p>
 
-<h2 id="by-business">Which Website Fits Which Samanabad Business?</h2>
+<h2 id="by-business">Shop, Clinic or School: Which Samanabad Website Fits?</h2>
 <table>
 <tr><th>Business</th><th>What families look for</th><th>Sensible website</th></tr>
 <tr><td>Private school</td><td>Fees, admissions dates, classes, transport</td><td>Up to 10 pages with an admission form, from {P['business']}</td></tr>
@@ -45,7 +45,7 @@ POST = dict(
 <h2 id="visit">Can You Meet Us Before Paying?</h2>
 <p>Yes. Our only office is in Awan Town, facing Rizwan Park in Rizwan Block Market, a short drive from Samanabad and Gulshan-e-Ravi. Bring your logo or signboard photo, your list of services and prices, and any existing Facebook page or domain logins. You leave with a clear plan, and the written scope and fixed price follow within one business day. Prefer not to travel? Everything can be done on WhatsApp, including design reviews, where we send screenshots and a staging link you open on your phone.</p>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">What We Build for Samanabad Businesses</h2>
 <p>For Samanabad businesses we usually build a one-page site from {P['landing']} or a 5-page site from {P['starter']}, set up the Google Business Profile with you as owner, and add WhatsApp buttons with pre-filled messages. Schools and larger clinics often need up to 10 pages, from {P['business']}. Optional maintenance is {P['maint']} a month. See our <a href="/digital/business-websites">business websites</a> service and the <a href="/digital/blog/website-developer-allama-iqbal-town-lahore">guide to areas near our office</a>.</p>
 """,
     faqs=[

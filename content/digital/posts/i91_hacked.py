@@ -60,7 +60,7 @@ POST = dict(
 <h2 id="prevent">How Do You Stop It Happening Again?</h2>
 <p>The WordPress hardening guide's basics apply to most sites: keep everything updated, use strong unique passwords and two-step login, give each person their own account with the least access they need, use only trusted plugins and themes, disable file editing in the dashboard, and keep regular backups off the server. Never use pirated or "nulled" themes and plugins; they are a common entry point. Our <a href="/digital/blog/website-security-checklist-small-business">security checklist</a> lists every step.</p>
 
-<h2 id="what-we-offer">How We Can Help</h2>
+<h2 id="what-we-offer">How We Recover Hacked Websites</h2>
 <p>If your site has been hacked, message us on WhatsApp with what you are seeing. We restore from clean backups where available, clean the site, update and harden it, and help with Search Console reviews; emergency clean-ups are quoted after a first look. Our maintenance plan at {P['maint']} a month includes updates, off-site backups and monitoring, which prevents most hacks in the first place. See our <a href="/digital/pricing">pricing page</a> and the <a href="/digital/blog/get-business-website-on-google">guide to getting your website on Google</a>.</p>
 """,
     faqs=[

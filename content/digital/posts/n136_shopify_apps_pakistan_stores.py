@@ -59,7 +59,7 @@ POST = dict(
 <li>Currency converters, if you only sell in Pakistan.</li>
 </ul>
 
-<h2 id="privacy">What About Customer Data?</h2>
+<h2 id="privacy">What Do Shopify Apps Do With Customer Data?</h2>
 <p>When you install an app, Shopify shows what data it can access. COD confirmation and courier apps need names, phones and addresses; a countdown timer should not. Decline apps asking for more than they need, and remove apps you no longer use so they stop receiving data.</p>
 
 <h2 id="uninstall">What Happens When You Uninstall an App?</h2>

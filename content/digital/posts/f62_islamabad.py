@@ -30,7 +30,7 @@ POST = dict(
 <p>Islamabad is Pakistan's federal capital. Federal ministries, Parliament and the Supreme Court are here, along with foreign embassies and the country offices of UN agencies and international development organisations. Around them has grown a large community of consultancies, research firms, NGOs and suppliers who work with government and donors. Rawalpindi, the older twin city, adds busy trading markets such as Raja Bazaar and a large retail and services base.</p>
 <p>So a web development company serving the twin cities must handle two very different briefs: formal, credibility-driven websites for institutions and consultancies, and practical, sales-driven websites for traders and shops.</p>
 
-<h2 id="by-client-type">Which Website Fits Which Twin-City Organisation?</h2>
+<h2 id="by-client-type">Consultancy, NGO or Supplier: Which Site Fits a Twin-City Organisation?</h2>
 <table>
 <tr><th>Organisation</th><th>What the website must do</th><th>Starting price with us</th></tr>
 <tr><td>Consultancy or research firm</td><td>Capability, sectors, team, past assignments, downloadable profile</td><td class="price">{P['business']}</td></tr>
@@ -60,7 +60,7 @@ POST = dict(
 <h2 id="remote">Can a Lahore Team Work With Islamabad Clients?</h2>
 <p>Yes. We have no twin-city office; the whole team sits in Lahore. Twin-city clients work with us remotely: an initial video call, a written scope and fixed price within one business day, design reviews on screen share, milestone payments by bank transfer, and handover with everything registered in your organisation's name. Formal organisations can receive a written proposal for internal approval. If you would like to meet, you are welcome at our Lahore office.</p>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">How We Work With Islamabad and Rawalpindi Clients</h2>
 <p>For consultancies, NGOs and suppliers we typically build a 10-page website from {P['business']}, with capability pages, a reports or downloads archive and careful contact forms. Traders and retailers in Rawalpindi usually start with a 5-page catalogue site from {P['starter']} or an online store from {P['store']}. Reporting portals and dashboards are web applications from {P['app']}. Contact us through our <a href="/digital/contact">quote form</a> or WhatsApp. For more on choosing a developer, read our <a href="/digital/blog/best-web-development-company-lahore">guide to web development companies in Lahore</a> and our <a href="/digital/blog/web-development-company-karachi">Karachi guide</a>.</p>
 """,
     faqs=[

@@ -64,7 +64,7 @@ POST = dict(
 <h2 id="no-guarantees">Can Anyone Guarantee You Appear in AI Answers?</h2>
 <p>No. Google decides which sources an AI response uses, and it changes how these features work over time. Be cautious of anyone selling guaranteed placement in AI Overviews, AI Mode or chatbot answers. What can be done is to make your site and listings clear, correct and useful, then measure.</p>
 
-<h2 id="help">How We Help</h2>
+<h2 id="help">How We Prepare Your Website for AI Mode</h2>
 <p>Our business websites, from {P['starter']}, are built with crawlable text, matching structured data, fast mobile pages and tracking for calls and WhatsApp clicks. See <a href="/digital/business-websites">business website design</a>.</p>
 """,
     faqs=[

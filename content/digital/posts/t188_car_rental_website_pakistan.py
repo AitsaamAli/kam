@@ -56,7 +56,7 @@ POST = dict(
 <h2 id="drivers">How Should Driver Services Be Presented?</h2>
 <p>Many customers in Pakistan prefer a car with a driver, especially for weddings, airport runs and trips north. Explain what the driver rate covers: hours per day, overtime, meals and overnight stays on out-of-city trips, and fuel arrangements. Show whether drivers are uniformed, how long they have worked with you and whether they speak English for overseas visitors. Clear driver terms prevent awkward conversations at the end of a trip.</p>
 
-<h2 id="cost">What Does It Cost?</h2>
+<h2 id="cost">What Does a Car Rental Website Cost?</h2>
 <p>A fleet and rules website with WhatsApp booking starts from {P['starter']}. A booking system with availability, deposits and ID upload is a web app from {P['app']}. See <a href="/digital/web-app-development">web app development</a>.</p>
 """,
     faqs=[

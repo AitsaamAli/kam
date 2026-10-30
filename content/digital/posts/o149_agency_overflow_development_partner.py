@@ -51,7 +51,7 @@ POST = dict(
 <h2 id="white-label">What Are the White-Label Rules?</h2>
 <p>In a white-label arrangement the partner does not contact your clients unless you ask, uses your branding in all deliverables, and does not show the work in its own portfolio without permission. Code comments, admin accounts and documentation should carry no partner branding. Agree whether the partner may ever speak to your client directly, for example on a technical call, and under what name.</p>
 
-<h2 id="contract">What Should the Contract Cover?</h2>
+<h2 id="contract">What Should an Agency Partner Contract Cover?</h2>
 <ol>
 <li>Confidentiality of your clients, designs and pricing.</li>
 <li>Non-solicitation: the partner will not approach your clients for a set period.</li>

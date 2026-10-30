@@ -76,7 +76,7 @@ POST = dict(
 <li>A trust page with licence details, office photos and reviews with dates.</li>
 </ul>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">What We Build for Travel Agencies</h2>
 <p>A travel agency website with package pages, enquiry routing, visa guidance, trust and privacy pages starts from {P['business']} for up to 10 pages; packages can be added by your staff afterwards. Online booking with seat or room inventory and staged payments is a web application from {P['app']}. See our <a href="/digital/business-websites">business websites</a> service, our <a href="/digital/blog/clinic-website-design-pakistan">websites by industry hub</a> and our <a href="/digital/blog/hotel-guest-house-booking-website">hotel and guest house website guide</a>.</p>
 """,
     faqs=[

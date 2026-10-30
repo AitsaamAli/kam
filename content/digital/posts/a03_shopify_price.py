@@ -97,7 +97,7 @@ POST = dict(
     faqs=[
         ("How much does Shopify cost per month in Pakistan?",
          "Shopify's Basic plan costs $29 a month billed yearly or $39 billed monthly for Pakistani stores, according to a pricing check dated 9 October 2026. Grow is $79 or $105 and Advanced $299 or $399. Prices are in US dollars and can change, so confirm at checkout."),
-        ("Is Shopify Payments available in Pakistan?",
+        ("Can a Pakistani store use Shopify Payments?",
          "No. Shopify Payments is not available to businesses based in Pakistan. Online payments go through a third-party gateway, and Shopify adds a transaction fee of 2% on Basic, 1% on Grow or 0.6% on Advanced on those payments. Check Shopify's current terms before launch, because availability can change."),
         ("Does Shopify charge a fee on cash on delivery orders?",
          "No. Cash on delivery is a manual payment method, so Shopify does not add its third-party transaction fee to those orders. You still pay the courier's delivery and COD collection charges, and you carry the cost of refused parcels, so confirm COD orders by WhatsApp before dispatch."),

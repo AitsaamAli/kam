@@ -66,7 +66,7 @@ POST = dict(
 <h2 id="handling-chats">How Should Your Team Handle the Chats?</h2>
 <p>A button only helps if someone replies quickly. Use the WhatsApp Business app for quick replies, labels and away messages, or the WhatsApp Business Platform through a provider if you receive many chats and need several agents. Reply within working hours, save customer details with consent, and never share one customer's details in another chat.</p>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">How We Set Up WhatsApp Lead Buttons and Tracking</h2>
 <p>Every website we build includes WhatsApp buttons with page-specific pre-filled messages, a mobile call and WhatsApp bar, and click tracking in GA4. Sites start at {P['starter']}, and online stores at {P['store']} with product-specific messages. For existing sites, we can add and track buttons under maintenance at {P['maint']} a month. See our <a href="/digital/business-websites">business websites</a> service, the <a href="/digital/blog/website-visitors-no-enquiries">12 fixes for websites with no enquiries</a> and the <a href="/digital/blog/get-business-website-on-google">guide to getting your website on Google</a>.</p>
 """,
     faqs=[

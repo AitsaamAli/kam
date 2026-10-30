@@ -71,7 +71,7 @@ POST = dict(
 <h2 id="privacy">What About Member Privacy?</h2>
 <p>Gyms hold phone numbers, photos for ID cards and sometimes health information such as injuries or medical conditions. Keep health notes in the portal, visible only to trainers who need them, never in a shared spreadsheet or group chat. Ask permission before using member photos or transformation pictures in marketing.</p>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">What We Build for Gyms and Fitness Clubs</h2>
 <p>A gym website with plan tables, timetable, trainer profiles, gallery and WhatsApp enquiry starts from {P['starter']} for up to 5 pages, or {P['business']} for multi-branch gyms. Class booking, renewal reminders, check-in and a member portal are built as a web application from {P['app']}. See our <a href="/digital/web-app-development">web app development</a> service and our <a href="/digital/blog/clinic-website-design-pakistan">websites by industry hub</a>. Studios offering beauty services may also like our <a href="/digital/blog/salon-spa-booking-website">salon booking guide</a>.</p>
 """,
     faqs=[

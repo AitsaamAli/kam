@@ -62,7 +62,7 @@ POST = dict(
 </ol>
 <p>Automated tools find only some problems; manual checks matter.</p>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">How We Build Accessibility Into Every Site</h2>
 <p>We build with these ten basics as standard, test key pages with Lighthouse and keyboard checks, and can test against WCAG AA where clients need it, for example in Ontario. Accessible builds cost the same as any of our sites, from {P['starter']}. See our <a href="/digital/business-websites">business websites</a> service, the <a href="/digital/blog/website-launch-checklist">website launch checklist</a> and the <a href="/digital/blog/get-business-website-on-google">guide to getting found on Google</a>.</p>
 """,
     faqs=[

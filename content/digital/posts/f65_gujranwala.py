@@ -26,7 +26,7 @@ POST = dict(
         "We serve Gujranwala manufacturers remotely from Lahore, about an hour away, with an optional office visit.",
     ],
     body=f"""
-<h2 id="manufacturing-city">What Should Website Design in Gujranwala Focus On?</h2>
+<h2 id="manufacturing-city">What Do Gujranwala Dealers and Buyers Check First?</h2>
 <p>Gujranwala is one of Pakistan's busiest manufacturing cities. It is widely known for electric fans, sanitary fittings and bathroom ware, cutlery and kitchen utensils, steel products and agricultural machinery, made in factories and workshops across the city. Most of these goods reach customers through a dealer and distributor network that covers the whole country.</p>
 <p>That shapes the website. A Gujranwala manufacturer needs a site that helps an end customer choose a model and find a dealer, helps dealers get product information and stock updates, and protects the brand from look-alike copies.</p>
 
@@ -52,10 +52,10 @@ POST = dict(
 <h2 id="load-shedding-buyers">Why Mention Power Use and Inverters?</h2>
 <p>Pakistani buyers of fans, motors and appliances think about electricity bills and load-shedding. If your models are designed for low power use or run on inverters, UPS or solar systems, say so clearly on each model page, with the rated wattage. Avoid vague claims such as "saves 50% electricity" unless you have test results you can share. A comparison table of wattage across models helps customers choose and helps dealers explain the difference at the counter.</p>
 
-<h2 id="remote">How Do We Work With Gujranwala Manufacturers?</h2>
+<h2 id="remote">How Does a Gujranwala Factory Work With Us Day to Day?</h2>
 <p>Gujranwala is about an hour's drive from our Lahore office, which is our only office; we have none in Gujranwala. Projects run remotely with WhatsApp updates and video design reviews, and factory owners can visit us in Lahore whenever they prefer to meet. We usually start by collecting your model list and spec sheets in one spreadsheet, which becomes the catalogue.</p>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">What We Build for Gujranwala Manufacturers</h2>
 <p>A manufacturer catalogue website with model pages, spec comparison, dealer locator, warranty registration and dealer enquiry forms starts from {P['business']} for up to 10 pages, with model entries loaded from your spreadsheet. A dealer portal with logins, schemes, stock and online orders is a web application from {P['app']}. If you want to sell directly too, an online store starts from {P['store']}. See our <a href="/digital/business-websites">business websites</a> service and our <a href="/digital/blog/best-web-development-company-lahore">guide to choosing a developer</a>.</p>
 """,
     faqs=[

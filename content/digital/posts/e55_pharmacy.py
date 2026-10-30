@@ -66,7 +66,7 @@ POST = dict(
 <h2 id="delivery">What About Delivery and Payments?</h2>
 <p>Show delivery areas, charges and times clearly, and mark items that need cold storage or cannot be delivered. Cash on delivery is common; online payment through a wallet, card gateway or Raast reduces cash handling. Our <a href="/digital/blog/payment-gateways-pakistan-compared">payment gateway comparison</a> explains the options. Confirm with your provincial authority whether any delivery rules apply to the products you sell.</p>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">What We Build for Pharmacies</h2>
 <p>For a pharmacy, we usually start with a catalogue website from {P['business']}: searchable products, WhatsApp ordering, a prescription-upload chat button, delivery information and a privacy policy. A full online store with cart, prescription upload at checkout and pharmacist approval steps starts from {P['store']}. We build only what your licence and current rules allow, so bring that confirmation to the scoping meeting. See our <a href="/digital/ecommerce-development">online store development</a> service and our <a href="/digital/blog/clinic-website-design-pakistan">websites by industry hub</a>, which covers clinics as well.</p>
 """,
     faqs=[

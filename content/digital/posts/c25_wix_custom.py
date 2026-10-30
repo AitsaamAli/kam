@@ -80,7 +80,7 @@ POST = dict(
 </ul>
 <p>If two or more of these apply, try a builder first. You can move to a developer-built site when the business grows.</p>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">What a Custom Website From Us Includes</h2>
 <p>For a business that has outgrown a builder, or wants to skip it, we build WordPress sites from {P['starter']} for up to 5 pages and {P['business']} for up to 10. A one-page campaign site starts at {P['landing']}. The domain and hosting are registered in your name, and you can edit text and images yourself after handover. See our <a href="/digital/business-websites">business websites</a> service for what is included.</p>
 
 <h2 id="next-step">How to Decide in Ten Minutes</h2>

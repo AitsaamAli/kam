@@ -67,7 +67,7 @@ POST = dict(
 <h2 id="privacy">How Should Customer Files Be Protected?</h2>
 <p>Uploaded artwork may include unreleased product designs, wedding guest names or business details. Store files securely, limit access to production staff and delete them after an agreed period.</p>
 
-<h2 id="cost">What Does It Cost?</h2>
+<h2 id="cost">What Does a Printing Press Website Cost?</h2>
 <p>A product catalogue site with a quote form starts from {P['business']}. An instant quote calculator with uploads, proofs and tracking is a web app from {P['app']}. Our <a href="/digital/blog/booking-system-development-cost">booking and ordering systems guide</a> covers similar builds. See <a href="/digital/web-app-development">web app development</a>.</p>
 """,
     faqs=[

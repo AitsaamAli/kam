@@ -59,7 +59,7 @@ POST = dict(
 <h2 id="local-advantage">What Is Different About Working With a Lahore-Based Team?</h2>
 <p>Our office is in Awan Town, Lahore, so Lahore brands can meet us in person, and we can visit your store to understand how it runs. Product photography and stock checks are easier to coordinate locally. You still get the same written scope, fixed price and milestone payments as any client. If you prefer, everything can also run over WhatsApp and video calls.</p>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">How We Take Lahore Retail Brands Online</h2>
 <p>For Lahore retail brands, we build stores on Shopify or WooCommerce from {P['store']}, with collections, size variants, store pickup, delivery charges by city, cash on delivery with confirmation and an online payment option. Connecting the store to your shop's point-of-sale system is scoped separately after we review it. See our <a href="/digital/ecommerce-development">online store development</a> service, our <a href="/digital/blog/start-online-store-pakistan">online store pillar guide</a> and our <a href="/digital/blog/best-web-development-company-lahore">guide to Lahore web developers</a>.</p>
 """,
     faqs=[

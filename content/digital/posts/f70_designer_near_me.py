@@ -69,7 +69,7 @@ POST = dict(
 </ul>
 <p>For a fuller checklist, see <a href="/digital/blog/how-to-choose-web-development-company">how to choose a web development company</a>.</p>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">What You Get When You Visit Our Lahore Office</h2>
 <p>After a meeting at our office or on a call, we send a written scope and fixed price, usually within one business day. A five-page site costs {P['starter']}, a ten-page one {P['business']}, online stores from {P['store']} and web applications from {P['app']}. Payments follow milestones, starting with a deposit after you approve the scope. See our <a href="/digital/web-development-lahore">Lahore team page</a> and our <a href="/digital/blog/best-web-development-company-lahore">guide to the best web development companies in Lahore</a>.</p>
 """,
     faqs=[

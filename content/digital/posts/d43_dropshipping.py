@@ -71,7 +71,7 @@ POST = dict(
 <h2 id="stand-out">How Can a Dropshipping Store Stand Out?</h2>
 <p>If ten stores sell the same item from the same supplier, customers choose on price and trust. You can compete on trust: your own photos and videos, honest size and material details, fast WhatsApp replies and a clear exchange policy. Our <a href="/digital/blog/product-page-checklist-pakistan">product page checklist</a> lists what to include. Focusing on a niche, such as baby products or kitchen tools, also helps more than listing hundreds of random items.</p>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">How We Build a Realistic Dropshipping Store</h2>
 <p>For a first test, a simple store on Shopify or WooCommerce is enough, and we can build one from {P['store']} with COD, WhatsApp confirmation links and delivery charges by city. If your supplier offers a stock feed, we can connect it in the written scope. We will tell you honestly if your numbers do not work before you spend on a build. See our <a href="/digital/ecommerce-development">online store development</a> service.</p>
 
 <h2 id="next-step">Questions to Answer Before You Start</h2>

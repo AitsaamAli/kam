@@ -59,7 +59,7 @@ POST = dict(
 <h2 id="privacy">How Should Students' Data Be Protected?</h2>
 <p>Most students are children. Collect only the details needed for admission, keep forms secure, never publish marks or photos without parents' consent, and limit staff access to student records.</p>
 
-<h2 id="cost">What Does It Cost?</h2>
+<h2 id="cost">What Does an Academy Website Cost?</h2>
 <p>A standard academy website with course pages, timetables and an admission form starts from {P['starter']}; multi-campus academies usually fit our business websites from {P['business']}. An LMS is a separate web application. See <a href="/digital/business-websites">business websites</a>.</p>
 <p>See also <a href="/digital/blog/architect-interior-designer-website">Interior Designer and Architect Website</a>.</p>
 """,

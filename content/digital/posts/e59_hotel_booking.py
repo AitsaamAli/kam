@@ -68,7 +68,7 @@ POST = dict(
 <h2 id="google">How Do Guests Find a Hotel's Own Website?</h2>
 <p>Many guests check Google Maps and then look for the hotel's own site. Keep your Google Business Profile accurate, link it to the booking page, and reply to reviews. Put a card in each room inviting guests to book direct next time, with a small benefit such as late check-out.</p>
 
-<h2 id="what-we-build">What We Would Build for You</h2>
+<h2 id="what-we-build">The Direct-Booking Website We Build for Hotels</h2>
 <p>A guest house website with room pages, gallery, enquiry form and WhatsApp starts from {P['business']} for up to 10 pages. A booking engine with live availability, deposits and confirmations, or a connection to your channel manager, is a web application; these begin at {P['app']}, and the property management or channel manager links you need set where in the {P['app_range']} band yours falls. See our <a href="/digital/web-app-development">booking system development</a> service, our <a href="/digital/blog/clinic-website-design-pakistan">websites by industry hub</a> and our <a href="/digital/blog/travel-agency-website-pakistan">travel agency website guide</a>.</p>
 """,
     faqs=[

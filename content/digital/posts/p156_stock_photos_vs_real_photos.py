@@ -61,7 +61,7 @@ POST = dict(
 <h2 id="privacy">What Consent Do You Need?</h2>
 <p>Get permission from staff and customers before publishing their photos, and remove a former employee's photos when they leave if they ask. Avoid photographing children without a parent's written consent, and do not show customers' home addresses, vehicle numbers or documents in project photos.</p>
 
-<h2 id="build">How We Help</h2>
+<h2 id="build">How We Plan Photos for Your Website</h2>
 <p>Our business websites, from {P['business']}, include a shot list and image optimisation, and we can recommend a photographer for a half-day shoot. See <a href="/digital/business-websites">business websites</a>.</p>
 """,
     faqs=[

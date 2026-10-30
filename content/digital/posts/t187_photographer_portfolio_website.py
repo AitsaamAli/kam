@@ -59,7 +59,7 @@ POST = dict(
 <h2 id="privacy">How Should Clients' Photos Be Protected?</h2>
 <p>Get written permission before showing clients publicly, especially for weddings, families and children. Keep client galleries private, delete files after the agreed period, and respect requests to remove images.</p>
 
-<h2 id="cost">What Does It Cost?</h2>
+<h2 id="cost">What Does a Photographer Website Cost?</h2>
 <p>Portfolio sites start from {P['starter']}; sites with client galleries and booking usually fit our business websites from {P['business']}. Our <a href="/digital/blog/product-photography-for-online-store">product photography guide</a> covers image sizing in more detail. See <a href="/digital/business-websites">business websites</a>.</p>
 """,
     faqs=[

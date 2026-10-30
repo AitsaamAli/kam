@@ -44,7 +44,7 @@ POST = dict(
 <h2 id="access">How Should You Give Store Access?</h2>
 <p>Never share your store owner's password. Shopify provides collaborator accounts, which let partners request access to a store with only the permissions the owner approves, and staff accounts with role-based permissions. Grant only what the task needs: theme work rarely needs access to customers or payments. Remove access when the work is complete. Make all theme changes on a duplicate of the live theme, preview them, then publish when approved.</p>
 
-<h2 id="cost">What Does It Cost?</h2>
+<h2 id="cost">What Does a Pakistani Shopify Developer Cost?</h2>
 <p>Pakistani developers typically charge less than their UK or US counterparts, but rates vary with experience. Common pricing models are fixed price per project, per task for small changes, or a monthly retainer for ongoing support. Our published prices in PKR: online stores from {P['store']}, landing pages from {P['landing']}, and care plans from {P['maint']} a month. Custom apps fall within our web app range of {P['app_range']}. See our guide to dedicated developers versus fixed projects for choosing a model.</p>
 
 <h2 id="workflow">What Does a Good Workflow Look Like?</h2>
