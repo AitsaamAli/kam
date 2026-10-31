@@ -247,8 +247,10 @@ def main():
     pages = sorted(os.path.relpath(x, ROOT) for x in glob.glob(os.path.join(ROOT, "digital", "**", "*.html"), recursive=True))
     urls = [build(p) for p in pages]
     body = "".join("  <url>\n    <loc>%s</loc>\n    <lastmod>%s</lastmod>\n  </url>\n" % (u, TODAY) for u in urls)
-    open(os.path.join(ROOT, "sitemap-digital.xml"), "w").write(
-        '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + body + "</urlset>\n")
+    xml = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + body + "</urlset>\n"
+    open(os.path.join(ROOT, "sitemap-digital.xml"), "w").write(xml)
+    # same sitemap inside /digital/ too, so it also works for a URL-prefix property on https://kambohassociates.com/digital/
+    open(os.path.join(ROOT, "digital", "sitemap.xml"), "w").write(xml)
     # take /digital URLs out of the main sitemap; nothing else changes
     sm = open(os.path.join(ROOT, "sitemap.xml"), encoding="utf-8").read()
     sm = re.sub(r"\s*<url>\s*<loc>%s/digital(?:/[^<]*)?</loc>[\s\S]*?</url>" % re.escape(SITE), "", sm)

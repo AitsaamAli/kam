@@ -1,6 +1,6 @@
 # Kamboh Associates Digital: Writer Brief for Blog Posts #201–#300
 
-**Version:** 3.0, 30 October 2026
+**Version:** 4.0, 30 October 2026
 **For:** a Claude (Claude Code) session writing the next 100 web development guides for `kambohassociates.com/digital/blog`
 **Prepared by:** the Kamboh Associates Digital SEO and content team. This team wrote, audited and published posts #1–#200, which are live.
 
@@ -27,6 +27,28 @@ For each part:
 4. Deliver one zip file: `kad-part-N.zip`. It contains `posts/*.py` for that part and `PART-N-REPORT.md`.
 
 Do not skip the audit. Do not deliver a post that shows FAIL. If a rule seems impossible for a post, say so in the report rather than breaking the rule.
+
+
+### 0.1 Lessons from earlier batches (read before writing anything)
+
+Earlier batches were published, audited and partly rebuilt. Every problem below happened once. The auditor now fails a post for each of them, so avoid them from the start.
+
+| Problem seen before | Rule now |
+|---|---|
+| Pages were delivered as HTML and pushed to GitHub. They linked to the tax site 300 times and used the wrong logo and design. | Deliver **only `posts/*.py` files and the part report**. Never write HTML, never push to GitHub, and never touch any other file. The team builds the pages with the site template. |
+| Link text was cut mid-word ("...Compared With Hiri", "...Registrar Without"). | Write link text as a short, complete, natural phrase (for example "our guide to transferring a domain"). Never paste a title and truncate it. The auditor fails cut-off or dangling link text. |
+| "What We Would Build for You" appeared word for word in 72 posts, and "What does it cost?" in 13. | Every H2 must be specific to the post's topic (for example "Our Solar Installer Website Package"). Generic headings fail, and so does any H2 already used by a published guide or by another post in your batch. |
+| Seven FAQ questions appeared word for word in two posts. | Every FAQ question must be new. The auditor checks all 1,325 published questions and your batch. |
+| The same closing sentence was pasted into several posts. | No sentence of 12 or more words may appear in two posts. Phrase overlap with any other post must stay under 3%. |
+| Prices were typed as text (for example "Rs 40,500"). | Our prices only ever appear as `{P['...']}` inside an f-string. Typed price text fails. |
+| Titles in one cluster shared the same shape ("Website Design X: Shops, Schools, Clinics"). | Vary title shapes within a cluster. The auditor warns about similar titles. |
+| One source link was dead (404). | Open every source on the day you write. Use only working, official pages. |
+| Cluster lists had only 2 terms. | Write 5–8 real cluster terms per post. |
+
+**Done means:**
+- the auditor shows `0 failing` for the whole part
+- every warn line has been fixed or explained in the report
+- the report includes the fact log
 
 ---
 
@@ -175,6 +197,7 @@ Create this folder:
 kad-blog/
   prices.py          (copy from section 2.2, wrapped as: P = {...})
   audit_posts.py     (copy from Appendix A, unchanged)
+  published_index.json (index of the 200 published guides; the auditor needs it; comes in the kit)
   posts/             (your post files go here)
 ```
 
@@ -194,7 +217,7 @@ P = {
 }
 ```
 
-Test the setup: `python3 audit_posts.py posts` should run and report 0 posts.
+Test the setup: `python3 audit_posts.py posts` should run and report 0 posts. If you received the kit zip, everything above is already in place.
 
 ---
 
@@ -1145,7 +1168,7 @@ Posts that fail come back with a list of fixes. Following this brief exactly mea
 ## Appendix A: `audit_posts.py` (copy exactly, do not modify)
 
 ```python
-"""Kamboh Associates Digital: blog post auditor (v3, posts #201-#300).
+"""Kamboh Associates Digital: blog post auditor (v4, posts #201-#300). Needs published_index.json in the same folder.
 
 Usage (from the kad-blog folder):   python3 audit_posts.py posts
 Checks every posts/*.py file against the house standard and prints PASS/FAIL per post.
@@ -1365,6 +1388,133 @@ def audit(p):
     return f, w
 
 
+# ---------------- v4 checks: lessons from earlier batches ----------------
+import hashlib, html as _html, json as _json
+from itertools import combinations as _comb
+try:
+    from prices import P as _P
+except Exception:
+    _P = {}
+_INDEX_FILE = os.path.join(HERE, "published_index.json")
+_IDX = _json.load(open(_INDEX_FILE)) if os.path.exists(_INDEX_FILE) else {"posts": {}, "h2": [], "faq": [], "sentences": [], "grams12": []}
+_PUB_H2, _PUB_FAQ = set(_IDX["h2"]), set(_IDX["faq"])
+_PUB_SENT, _PUB_G12 = set(_IDX["sentences"]), set(_IDX["grams12"])
+_PUB_KW = {v["keyword"].lower() for v in _IDX["posts"].values()}
+_PUB_H1 = {k: v["h1"] for k, v in _IDX["posts"].items()}
+GENERIC_H2 = {"what we would build for you", "what does it cost", "how we help", "how we can help", "our approach",
+              "which should you choose", "conclusion", "final thoughts", "summary", "introduction", "overview",
+              "what about customer data", "what privacy points apply", "questions to answer before you decide",
+              "what should the contract cover", "why choose us", "next steps", "get started"}
+DANGLING = {"with", "without", "and", "or", "the", "a", "an", "to", "of", "for", "in", "on", "from", "your", "vs", "by", "at", "is"}
+
+
+def _norm(s):
+    return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9 ]", " ", _html.unescape(re.sub(r"<[^>]+>", " ", s)).lower())).strip()
+
+
+def _h(s):
+    return hashlib.sha1(s.encode()).hexdigest()[:16]
+
+
+def _text(p):
+    return " ".join([p["answer"], p["body"], " ".join(a for _, a in p["faqs"])])
+
+
+def v4_checks(posts, folder):
+    """posts: list of (filename, POST). Returns {filename: (fails, warns)}."""
+    out = {n: ([], []) for n, _ in posts}
+    if any(f.endswith((".html", ".htm")) for f in os.listdir(folder)):
+        for n in out:
+            out[n][0].append("HTML files found in the posts folder: deliver .py post files only")
+    h1s = dict(_PUB_H1)
+    h1s.update({p["slug"]: p["h1"] for _, p in posts})
+    h2_seen, faq_seen, sent_seen, grams = {}, {}, {}, {}
+    for n, p in posts:
+        F, W = out[n]
+        raw = open(os.path.join(folder, n), encoding="utf-8").read()
+        if p.get("slug") in _IDX["posts"]:
+            F.append("slug already published")
+        if p.get("keyword", "").lower() in _PUB_KW:
+            F.append("primary keyword already used by a published guide")
+        for c in p.get("cluster", []):
+            if c.lower() in _PUB_KW:
+                F.append(f"cluster term '{c}' is a published guide's primary keyword")
+        for k, v in _P.items():
+            if v in raw:
+                F.append(f"price typed as text ({v}); use {{P['{k}']}} in an f-string")
+        for _, t in re.findall(r'<h2 id="([^"]+)">([\s\S]*?)</h2>', p["body"]):
+            nt = _norm(t)
+            if nt in GENERIC_H2:
+                F.append(f"generic H2 '{t.strip()}': make it specific to this topic")
+            elif nt in _PUB_H2:
+                F.append(f"H2 already used by a published guide: '{t.strip()}'")
+            h2_seen.setdefault(nt, []).append(n)
+        for q, _ in p["faqs"]:
+            nq = _norm(q)
+            if nq in _PUB_FAQ:
+                F.append(f"FAQ question already used by a published guide: '{q}'")
+            faq_seen.setdefault(nq, []).append(n)
+        for m in re.finditer(r'<a href="([^"]+)">([^<]*)</a>', p["body"]):
+            href, anc = m.group(1), _html.unescape(m.group(2))
+            words_ = anc.split()
+            if anc != anc.strip() or not words_:
+                F.append(f"link text has leading/trailing space or is empty: '{anc}'")
+                continue
+            if len(words_) < 2:
+                W.append(f"one-word link text '{anc}': prefer a descriptive phrase")
+            if words_[-1].lower() in DANGLING:
+                F.append(f"link text ends mid-phrase ('{words_[-1]}'): '{anc}'")
+            if href.startswith("/digital/blog/"):
+                tgt = h1s.get(href.rsplit("/", 1)[-1], "")
+                if tgt and tgt.startswith(anc) and len(anc) < len(tgt) and tgt[len(anc)].isalpha():
+                    F.append(f"link text is a cut-off copy of the target title: '{anc}'")
+            if href.startswith("http") and not href.startswith("https://"):
+                F.append(f"external link must be https: {href}")
+        text = _text(p)
+        for s in re.split(r"(?<=[.!?])\s+", _html.unescape(re.sub(r"<[^>]+>", " ", text))):
+            ns = _norm(s)
+            if len(ns.split()) >= 12:
+                hs = _h(ns)
+                if hs in _PUB_SENT:
+                    F.append(f"sentence copied from a published guide: '{s.strip()[:80]}'")
+                sent_seen.setdefault(hs, set()).add(n)
+        w = _norm(text).split()
+        g = {_h(" ".join(w[i:i + 12])) for i in range(len(w) - 11)}
+        grams[n] = g
+        if g:
+            share = len(g & _PUB_G12) / len(g)
+            if share > 0.03:
+                F.append(f"{share:.1%} of 12-word phrases also appear in published guides (max 3%)")
+    for nt, names in h2_seen.items():
+        if len(set(names)) > 1:
+            for n in set(names):
+                out[n][0].append(f"H2 text repeated in another post of this batch: '{nt}'")
+    for nq, names in faq_seen.items():
+        if len(names) > 1:
+            for n in set(names):
+                out[n][0].append(f"FAQ question repeated in this batch: '{nq}'")
+    for hs, names in sent_seen.items():
+        if len(names) > 1:
+            for n in names:
+                out[n][0].append("a 12+ word sentence is repeated in another post of this batch")
+    for (a, ga), (b, gb) in _comb(grams.items(), 2):
+        if ga and gb:
+            r = len(ga & gb) / min(len(ga), len(gb))
+            if r > 0.03:
+                out[a][0].append(f"{r:.1%} phrase overlap with {b} (max 3%)")
+                out[b][0].append(f"{r:.1%} phrase overlap with {a} (max 3%)")
+    def toks(t):
+        return set(re.findall(r"[a-z0-9]+", t.lower())) - {"in", "the", "a", "and", "for", "of", "to", "your", "website", "websites", "pakistan", "lahore"}
+    for (a, pa), (b, pb) in _comb(posts, 2):
+        ta, tb = toks(pa["title"]), toks(pb["title"])
+        shape = lambda t: re.sub(r"[A-Za-z]+", "w", t.split(":")[-1]) if ":" in t else ""
+        if ta and tb and len(ta & tb) / len(ta | tb) > 0.5:
+            out[a][1].append(f"title very similar to {b}")
+        if ":" in pa["title"] and shape(pa["title"]) == shape(pb["title"]) and pa["title"].split(":")[-1].count(",") >= 1:
+            out[a][1].append(f"title has the same 'X: A, B, C' shape as {b}; vary it")
+    return out
+
+
 def main():
     folder = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, "posts")
     posts, fails = [], 0
@@ -1384,8 +1534,10 @@ def main():
     for name, p in posts:
         for c in p.get("cluster", []):
             cluster_owner[c.lower()].append(name)
+    extra = v4_checks(posts, folder)
     for name, p in posts:
         f, w = audit(p)
+        f += extra[name][0]; w += extra[name][1]
         for (k, v), names in seen.items():
             if name in names and len(names) > 1 and v:
                 f.append(f"duplicate {k} with {', '.join(x for x in names if x != name)}")
