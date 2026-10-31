@@ -29,7 +29,7 @@ POST = dict(
 <h2 id="difference">Fixed Price vs Hourly Web Development: The Difference</h2>
 <p><strong>Fixed price</strong> means you agree the total before work starts, for a written scope. The developer carries the risk if the work takes longer than expected. <strong>Hourly</strong> (also called time and materials) means you pay for the hours actually worked at an agreed rate. You carry the risk of the work taking longer, but you gain flexibility to change direction.</p>
 
-<h2 id="comparison">Side-by-Side Comparison</h2>
+<h2 id="comparison">How Do Fixed Price and Hourly Compare Side by Side?</h2>
 <table>
 <tr><th>Factor</th><th>Fixed price</th><th>Hourly</th></tr>
 <tr><td>Budget certainty</td><td>High, for the agreed scope</td><td>Low unless capped</td></tr>
@@ -50,7 +50,7 @@ POST = dict(
 <tr><td>Fixing an unknown bug on an old site</td><td>Hourly with a cap</td><td>Effort cannot be known until investigated</td></tr>
 </table>
 
-<h2 id="fixed-risks">How to Stay Safe on a Fixed-Price Project</h2>
+<h2 id="fixed-risks">How Do You Stay Safe on a Fixed-Price Project?</h2>
 <ul>
 <li><strong>Write the scope in detail:</strong> every page, feature, integration and exclusion.</li>
 <li><strong>Agree what counts as a change</strong> and how changes are priced.</li>
@@ -71,6 +71,7 @@ POST = dict(
 
 <h2 id="our-approach">How We Price</h2>
 <p>We price websites and online stores at a fixed price for a written scope: from {P['starter']} for a small website, {P['business']} for a ten-page business site and {P['store']} for an online store. Web applications start at {P['app']} for a scoped first version. Changes outside the scope are quoted in writing before any work starts. Optional maintenance starts at {P['maint']} a month.</p>
+<p>Our fixed starting prices are published on the <a href="/digital/pricing">website prices page</a>.</p>
 """,
     faqs=[
         ("Is fixed price or hourly better for a website?",

@@ -37,7 +37,7 @@ POST = dict(
 </table>
 <p>One UK source also warns that hidden costs, such as content, photography, integrations and revisions, can add 30 to 50% to the quoted price. That makes a clear written scope as important in the UK as anywhere else.</p>
 
-<h2 id="why-offshore">Why UK Businesses Hire Offshore Teams</h2>
+<h2 id="why-offshore">Why Do UK Businesses Hire Offshore Web Teams?</h2>
 <p>The main reason is cost. Published offshore rate comparisons put South Asian web development at roughly $15 to $45 an hour, against UK agency rates of about £55 to £90 an hour. For a brochure site or online store with a clear scope, that difference is large.</p>
 <p>Cost is not the only factor. A good offshore team also offers:</p>
 <ul>
@@ -46,7 +46,7 @@ POST = dict(
 <li>Morning overlap with UK hours: Pakistan is four to five hours ahead of the UK depending on the season.</li>
 </ul>
 
-<h2 id="tradeoffs">What You Give Up When You Hire Remotely</h2>
+<h2 id="tradeoffs">What Do You Give Up When You Hire Remotely?</h2>
 <p>An honest comparison has to include the downsides:</p>
 <ul>
 <li><strong>No face-to-face meetings</strong> unless you travel. Video calls work well, but some clients prefer an office visit.</li>
@@ -75,7 +75,7 @@ POST = dict(
 <li>Hosting location if you have a data-residency preference.</li>
 </ul>
 
-<h2 id="how-to-hire">How to Hire an Offshore Web Team Safely</h2>
+<h2 id="how-to-hire">How Do You Hire an Offshore Web Team Safely?</h2>
 <ol>
 <li>Check a real portfolio and speak to at least one previous client.</li>
 <li>Agree a written scope with page list, features and acceptance criteria.</li>
@@ -85,6 +85,7 @@ POST = dict(
 <li>Start with a small paid task if you want to test the working relationship.</li>
 </ol>
 <p>For Pakistani market prices in rupees, see our <a href="/digital/blog/website-price-in-pakistan">website price guide</a>. Gulf businesses may prefer our comparison of <a href="/digital/blog/website-cost-dubai">website costs in Dubai</a>.</p>
+<p>UK clients can compare our packages on the <a href="/digital/pricing">published price list</a> before any call.</p>
 """,
     faqs=[
         ("How much does a small business website cost in the UK?",

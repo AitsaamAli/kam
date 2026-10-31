@@ -26,7 +26,7 @@ POST = dict(
         "Ask who actually builds the site; some firms resell work to freelancers.",
     ],
     body=f"""
-<h2 id="best-lists">Why "Best Company in Lahore" Lists Can Mislead</h2>
+<h2 id="best-lists">Why Can "Best Company in Lahore" Lists Mislead?</h2>
 <p>Search for the best web development company in Lahore and you will find ranked lists. Many are published by one of the companies on the list, or are paid directory placements. A list cannot know what you need: a clinic, a school, a clothing brand and an exporter each need different skills. A better approach is to judge every firm against the same checks, then choose the best fit for your project.</p>
 
 <h2 id="seven-checks">Seven Checks for the Best Web Development Company in Lahore</h2>
@@ -41,13 +41,13 @@ POST = dict(
 <tr><td>7. Support</td><td>Defined period and response time in writing</td><td>Problems appear after launch, not before</td></tr>
 </table>
 
-<h2 id="good-vs-cheap">Good Versus Cheap: What the Difference Looks Like</h2>
+<h2 id="good-vs-cheap">What Separates a Good Website From a Cheap One?</h2>
 <p>A cheap website in Lahore is usually a theme with your logo and text dropped in, delivered quickly with no testing or ownership handover. A good one starts with what your customers search for and need to see, is tested on phones, loads quickly, has clear WhatsApp and call buttons, and is handed over with every login. The difference is not always the price: some expensive firms cut the same corners. Ask for the list of what is included.</p>
 
 <h2 id="lahore-prices">What Web Development Costs in Lahore</h2>
-<p>Published 2026 guides from Pakistani agencies put a basic business website at roughly Rs 30,000 to Rs 150,000, online stores higher, and custom applications far higher. Lahore prices sit within the national ranges. Our published starting prices are {P['starter']} for a small website, {P['business']} for a ten-page business site and {P['store']} for an online store. Our <a href="/digital/blog/website-price-in-pakistan">website price guide</a> explains what drives each figure.</p>
+<p>Published 2026 guides from Pakistani agencies put a template business website at roughly Rs 20,000 to Rs 80,000 and a custom-designed one at Rs 80,000 to Rs 250,000, with online stores at Rs 80,000 to Rs 600,000 and custom applications far higher. Lahore prices sit within the national ranges. Our published starting prices are {P['starter']} for a small website, {P['business']} for a ten-page business site and {P['store']} for an online store. Our <a href="/digital/blog/website-price-in-pakistan">website price guide</a> explains what drives each figure.</p>
 
-<h2 id="areas">Where Lahore Web Companies Are Based</h2>
+<h2 id="areas">Where Are Lahore's Web Companies Based?</h2>
 <p>Lahore's web and software firms are spread across Gulberg, Johar Town, DHA, Model Town and the Arfa Software Technology Park, with many smaller teams working from other neighbourhoods. Location matters less than access: a firm across the city that answers in writing within a day is more useful than one nearby that goes quiet. If you want to meet, ask to see the team that will actually build your site, not only the sales person.</p>
 
 <h2 id="meeting">Questions to Ask at a Face-to-Face Meeting</h2>
@@ -66,7 +66,7 @@ POST = dict(
         ("Which is the best web development company in Lahore?",
          "There is no single best company for every project, and most online rankings are paid or self-published. The best choice for you shows live sites it built, gives a written scope and fixed price, works on milestone payments and registers your domain, hosting and code in your name. Compare firms using the same checks."),
         ("How much does a website cost in Lahore?",
-         f"Published 2026 guides put a basic business website in Pakistan at roughly Rs 30,000 to Rs 150,000, with online stores and custom systems costing more. Lahore prices fall within those ranges. With us, a small website starts at {P['starter']} and a ten-page business website at {P['business']}."),
+         f"Published 2026 guides put a template business website in Pakistan at Rs 20,000 to Rs 80,000 and a custom-designed one at Rs 80,000 to Rs 250,000, with online stores and custom systems costing more. Lahore prices fall within those ranges. With us, a small website starts at {P['starter']} and a ten-page business website at {P['business']}."),
         ("Should I choose a web company near my location in Lahore?",
          "Location helps if you want to meet in person, but it matters less than responsiveness, a written agreement and ownership of your accounts. Many Lahore businesses work smoothly with firms across the city through WhatsApp and video calls. Choose the team that answers clearly, then meet once to confirm who will build the site."),
         ("Lahore mein website banwane ke liye achi company kaise dhoondein?",

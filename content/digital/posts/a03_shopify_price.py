@@ -57,7 +57,7 @@ POST = dict(
 </table>
 <p>Our e-commerce package, {P['store']}, can be built on Shopify or WooCommerce. We recommend the platform after looking at your products, payment plans and who will run the store day to day.</p>
 
-<h2 id="apps">The Hidden Cost: Shopify Apps</h2>
+<h2 id="apps">What Do Shopify Apps Really Cost Each Month?</h2>
 <p>Shopify's app store is its strength and its budget risk. Features that Pakistani stores commonly add through apps include:</p>
 <ul>
 <li>Courier booking and tracking for local couriers.</li>
@@ -69,7 +69,7 @@ POST = dict(
 </ul>
 <p>Many apps charge $5 to $30 a month each. Five apps can add more to your monthly bill than the Basic plan itself. A good developer chooses apps carefully and builds simple features into the theme instead of adding an app for each one.</p>
 
-<h2 id="first-year">Total First-Year Cost: A Realistic Example</h2>
+<h2 id="first-year">What Does a Shopify Store Cost in Its First Year?</h2>
 <p>For a small fashion store with 50 products on the Basic plan billed yearly:</p>
 <table>
 <tr><th>Cost</th><th>Amount</th></tr>
@@ -93,6 +93,8 @@ POST = dict(
 <li>Ask for training on adding products and processing orders.</li>
 <li>Get the scope, price and milestones in writing.</li>
 </ul>
+<p>Planning a Shopify store? See what our <a href="/digital/ecommerce-development">online store package</a> includes.</p>
+<p>For the full picture of online store budgets, read our <a href="/digital/blog/ecommerce-website-price-in-pakistan">e-commerce website price guide</a>.</p>
 """,
     faqs=[
         ("How much does Shopify cost per month in Pakistan?",

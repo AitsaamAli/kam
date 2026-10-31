@@ -26,7 +26,7 @@ POST = dict(
         "Speak to at least one past client and open at least three live sites the company has built.",
     ],
     body="""
-<h2 id="why-questions">Why a Question List Beats a Sales Call</h2>
+<h2 id="why-questions">Why Does a Question List Beat a Sales Call?</h2>
 <p>Most business owners choose a developer after one friendly call and a portfolio link. Problems appear later: the site is late, the scope was understood differently, or the developer controls the domain. A fixed list of questions, sent by WhatsApp or email to every company you are considering, turns a feeling into evidence. Good companies answer quickly and specifically. Weak ones answer vaguely, or not at all, and that tells you just as much.</p>
 <p>Google gives similar advice about hiring any web or search professional: ask for examples of past work, understand exactly what will be done, and be wary of anyone who promises guaranteed results.</p>
 
@@ -68,7 +68,7 @@ POST = dict(
 <li>If we stop working together, what will you hand over and how quickly?</li>
 </ol>
 
-<h2 id="good-answers">What Good and Bad Answers Look Like</h2>
+<h2 id="good-answers">What Do Good and Bad Answers Look Like?</h2>
 <table>
 <tr><th>Question</th><th>Good answer</th><th>Warning sign</th></tr>
 <tr><td>Domain and hosting</td><td>"Registered in your name; we set it up with you."</td><td>"We will host it for you, don't worry about it."</td></tr>
@@ -89,7 +89,7 @@ POST = dict(
 <li><strong>A price far below the market</strong> with no explanation of what is left out.</li>
 </ul>
 
-<h2 id="compare">How to Compare Three Shortlisted Companies</h2>
+<h2 id="compare">How Do You Compare Three Shortlisted Companies?</h2>
 <p>Put the replies in a simple table with one row per question and one column per company. Score each answer 0 (missing or vague), 1 (partly clear) or 2 (specific and written). Weight the ownership and payment questions double. The highest score is usually the safest choice, even if it is not the cheapest. For help reading the price lines, see <a href="/digital/blog/why-website-quotes-vary">why website quotes vary</a>; for typical budgets, see our <a href="/digital/blog/website-price-in-pakistan">website price guide</a>.</p>
 
 <h2 id="how-we-answer">How We Answer These Questions</h2>

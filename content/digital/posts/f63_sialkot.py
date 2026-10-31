@@ -26,7 +26,7 @@ POST = dict(
         "We work with Sialkot firms remotely from Lahore, about two hours' drive away, and welcome visits to our office.",
     ],
     body=f"""
-<h2 id="sialkot-exporters">What Do Sialkot's Foreign Buyers Look For on a Website?</h2>
+<h2 id="sialkot-exporters">What Do Foreign Buyers Expect From Website Design in Sialkot?</h2>
 <p>Sialkot is unusual among Pakistani cities: much of its industry sells abroad. Its workshops and factories are known worldwide for sports goods, especially hand-stitched and machine-made footballs, for surgical and dental instruments, and for leather gloves, garments and sportswear. The city's business community is also known for building shared infrastructure, including its dry port and an international airport developed with local business backing.</p>
 <p>For a Sialkot firm, a website is rarely about local walk-in customers. It is a sales tool for buyers in Europe, the US and the Middle East who compare suppliers from several countries before sending an enquiry.</p>
 

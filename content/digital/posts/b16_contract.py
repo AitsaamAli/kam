@@ -26,10 +26,10 @@ POST = dict(
         "Short and specific beats long and vague. This checklist is not legal advice; ask a lawyer for large projects.",
     ],
     body="""
-<h2 id="why">Why a Website Development Contract Matters</h2>
+<h2 id="why">Why Does a Website Development Contract Matter?</h2>
 <p>Most website disputes in Pakistan start with a WhatsApp conversation and no written agreement. Each side remembers the deal differently: how many pages, who writes the content, whether the shop needs online payments. A short website development contract fixes those points before money changes hands. It protects the developer too, because it defines when work is finished and payment is due.</p>
 
-<h2 id="clauses">The 15 Clauses Your Contract Needs</h2>
+<h2 id="clauses">Which 15 Clauses Does Your Contract Need?</h2>
 <table>
 <tr><th>Clause</th><th>What it should say</th></tr>
 <tr><td>1. Parties</td><td>Full legal names, addresses and contact people for both sides</td></tr>
@@ -55,7 +55,7 @@ POST = dict(
 <h2 id="change-clause">The Change-Request Clause in Detail</h2>
 <p>New ideas appear during every project. A good clause says that anything outside the written scope is quoted separately, approved in writing (a WhatsApp message is enough if both sides agree) and added to the timeline. This keeps the project moving without arguments about whether an extra page was "included".</p>
 
-<h2 id="delays">Delays on Either Side</h2>
+<h2 id="delays">What Happens When Either Side Causes a Delay?</h2>
 <p>Projects are delayed by both developers and clients. A fair contract says what happens in each case: if the developer misses a milestone date without reason, the client may pause payment; if the client takes weeks to send content or feedback, the timeline moves by the same amount. Agree a maximum pause, for example 60 days, after which the project can be closed and paid up to the work completed.</p>
 
 <h2 id="payments">Linking Payments to Visible Work</h2>
@@ -63,6 +63,7 @@ POST = dict(
 
 <h2 id="language">Plain Language Is Fine</h2>
 <p>A website agreement does not need legal jargon. Clear sentences in English or Urdu that both sides understand are better than a long template copied from the internet. For large projects, international clients or software with significant value, ask a lawyer to review the agreement. This checklist is general guidance, not legal advice.</p>
+<p>We send a short written agreement with every quote; ask for one through our <a href="/digital/contact">quote page</a>.</p>
 """,
     faqs=[
         ("What should a website development contract include?",

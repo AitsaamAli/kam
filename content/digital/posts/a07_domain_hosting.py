@@ -89,6 +89,8 @@ POST = dict(
 <tr><td>Total</td><td><strong>about Rs 8,000 – 17,000</strong></td></tr>
 </table>
 <p>Add maintenance if you want someone else to handle updates and backups; our plans start at {P['maint']} a month. For build prices, see our <a href="/digital/blog/website-price-in-pakistan">website price guide</a>.</p>
+<p>Every <a href="/digital/business-websites">business website we build</a> starts with the domain and hosting registered in your name.</p>
+<p>Once the domain and hosting are sorted, our <a href="/digital/blog/website-maintenance-charges-in-pakistan">maintenance charges guide</a> covers the monthly side.</p>
 """,
     faqs=[
         ("How much does a .pk domain cost in 2026?",
