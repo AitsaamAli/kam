@@ -29,7 +29,7 @@ POST = dict(
 <h2 id="why">Why You Need to Check a Web Developer Portfolio</h2>
 <p>A portfolio is the main evidence you have before hiring. It can also be misleading: some portfolios include sites the developer only fixed, templates bought from marketplaces, or work done by a previous employer. Checking takes about 15 minutes per developer and can save you from the most expensive mistake in a website project: hiring the wrong team.</p>
 
-<h2 id="red-flags">Eight Portfolio Red Flags</h2>
+<h2 id="red-flags">Which Portfolio Red Flags Should Worry You?</h2>
 <table>
 <tr><th>Red flag</th><th>Why it matters</th></tr>
 <tr><td>Only screenshots or mock-ups, no live links</td><td>Cannot be verified, and may not be their work</td></tr>
@@ -62,7 +62,7 @@ POST = dict(
 </ul>
 <p>Developers who built a site can answer these in detail without hesitation. Vague answers deserve a follow-up question.</p>
 
-<h2 id="tools">Free Tools for Checking Past Work</h2>
+<h2 id="tools">Which Free Tools Help You Check Past Work?</h2>
 <table>
 <tr><th>Tool</th><th>What it shows</th></tr>
 <tr><td>Google PageSpeed Insights</td><td>Speed and user-experience scores on mobile and desktop</td></tr>
@@ -76,6 +76,7 @@ POST = dict(
 
 <h2 id="our-work">Checking Our Work</h2>
 <p>We share live sites we have built, explain what we did on each, and can put you in touch with past clients on request. You are welcome to run every check on this page against our work before paying anything.</p>
+<p>Ask to see live sites we built when you <a href="/digital/contact">request a quote</a>.</p>
 """,
     faqs=[
         ("How do I check if a web developer actually built a website?",

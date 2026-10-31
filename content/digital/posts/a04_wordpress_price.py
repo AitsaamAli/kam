@@ -55,7 +55,7 @@ POST = dict(
 <li><strong>Skilled time</strong> to configure, design, add content, test and secure the site. This is the main part of what you pay a developer for.</li>
 </ul>
 
-<h2 id="nulled">The Nulled Theme Problem</h2>
+<h2 id="nulled">Why Are Nulled Themes and Plugins a Problem?</h2>
 <p>Very cheap WordPress quotes are sometimes cheap because they use "nulled" themes and plugins: paid products with the licence check removed and shared for free online. They look identical on day one, but:</p>
 <ul>
 <li>They can contain hidden code that injects spam links or redirects visitors.</li>
@@ -74,7 +74,7 @@ POST = dict(
 <tr><td>Flexible timeline</td><td>Rush delivery</td></tr>
 </table>
 
-<h2 id="running-costs">Yearly Running Costs of a WordPress Site</h2>
+<h2 id="running-costs">What Does a WordPress Site Cost to Run Each Year?</h2>
 <table>
 <tr><th>Item</th><th>Typical yearly cost</th></tr>
 <tr><td>Shared hosting</td><td>Rs 5,500 – 15,000</td></tr>
@@ -99,6 +99,7 @@ POST = dict(
 <li>How fast does the site load on a mobile phone?</li>
 <li>Are the domain and hosting registered to me?</li>
 </ol>
+<p>For a WordPress site built and handed over properly, see our <a href="/digital/business-websites">business website service</a>.</p>
 """,
     faqs=[
         ("How much does a WordPress website cost in Pakistan?",

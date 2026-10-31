@@ -37,7 +37,7 @@ POST = dict(
 <tr><td>Google accounts</td><td>Analytics, Search Console, Business Profile</td><td>You as owner; developer added as a user</td></tr>
 </table>
 
-<h2 id="check">How to Check Who Owns Each Part</h2>
+<h2 id="check">How Do You Check Who Owns Each Part?</h2>
 <ol>
 <li><strong>Domain:</strong> look up your domain on ICANN's lookup tool for generic domains, or ask your registrar. For .pk domains, check the contact details with your registrar or PKNIC. The registrant name and email should be yours.</li>
 <li><strong>Hosting:</strong> can you log in to the hosting control panel yourself? Who receives the renewal invoice?</li>
@@ -46,7 +46,7 @@ POST = dict(
 <li><strong>Code:</strong> do you have a recent full backup or access to the code repository?</li>
 </ol>
 
-<h2 id="warning-signs">Warning Signs of Website Lock-in</h2>
+<h2 id="warning-signs">What Are the Warning Signs of Website Lock-in?</h2>
 <ul>
 <li>You receive hosting or domain renewal requests from the developer, not from the provider.</li>
 <li>You have never logged in to your own site's admin panel.</li>
@@ -61,7 +61,7 @@ POST = dict(
 <h2 id="right-setup">The Right Set-up From Day One</h2>
 <p>The safest pattern is simple: you create the accounts in your name and add your developer as a user. Google Analytics, Search Console and Business Profile all let owners add other users with limited permissions and remove them later. WordPress has user roles for this, and Shopify lets store owners add staff accounts. When the project ends, you remove the developer's access; nothing needs to be "transferred".</p>
 
-<h2 id="take-back">How to Take Back Control</h2>
+<h2 id="take-back">How Do You Take Back Control of Your Website?</h2>
 <ol>
 <li><strong>Ask politely in writing</strong> for each login and the domain transfer code, referring to your agreement.</li>
 <li><strong>Start with the domain.</strong> If it is registered to you, the registrar can help you regain access to it.</li>
@@ -70,6 +70,7 @@ POST = dict(
 <li><strong>Set up new hosting</strong> in your name and restore the backup there.</li>
 </ol>
 <p>If the domain itself is registered to the developer, recovery is harder; this is why it must be in your name from the start. Our <a href="/digital/blog/website-handover-checklist">handover checklist</a> lists everything you should receive at launch.</p>
+<p>Every site in our <a href="/digital/business-websites">business website packages</a> is handed over with all six parts in your name.</p>
 """,
     faqs=[
         ("How do I know if I own my website?",

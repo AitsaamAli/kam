@@ -26,7 +26,7 @@ POST = dict(
         "We work with Peshawar businesses remotely from Lahore and welcome visits to our Lahore office.",
     ],
     body=f"""
-<h2 id="trading-city">What Do Peshawar's Wholesale Buyers Need to See?</h2>
+<h2 id="trading-city">What Do Wholesale Buyers Need From Website Design in Peshawar?</h2>
 <p>Peshawar has been a trading city for centuries, at the eastern end of the routes through the Khyber Pass. Its wholesale markets, including the old city around Qissa Khwani Bazaar and the Karkhano market, supply retailers across Khyber Pakhtunkhwa and beyond. The wider province is known for marble and stone, and Peshawar's traders also deal in carpets, dry fruits and handicrafts.</p>
 <p>For most Peshawar businesses, customers are retailers and repeat buyers who order by phone and WhatsApp. A website should make that ordering easier and reach new buyers, not force a style of selling that does not fit.</p>
 

@@ -35,7 +35,7 @@ POST = dict(
 <p>Another way to budget, used by several guides, is 15–25% of the original build cost per year. For a Rs 100,000 website, that means roughly Rs 15,000 to Rs 25,000 a year if changes are rare, or more if the site is updated often.</p>
 <p>Our maintenance plans start at {P['maint']} a month. We are happy to tell you if your site does not need a plan at all.</p>
 
-<h2 id="what-included">What a Fair Maintenance Plan Includes</h2>
+<h2 id="what-included">What Should a Fair Maintenance Plan Include?</h2>
 <table>
 <tr><th>Task</th><th>Why it matters</th><th>How often</th></tr>
 <tr><td>Core, theme and plugin updates</td><td>Most hacks exploit known holes in outdated software</td><td>Weekly to monthly, tested first</td></tr>
@@ -47,7 +47,7 @@ POST = dict(
 <tr><td>Monthly report</td><td>Shows what was done, so you are not paying for nothing</td><td>Monthly</td></tr>
 </table>
 
-<h2 id="excluded">What Is Usually Not Included</h2>
+<h2 id="excluded">What Is Usually Left Out of a Maintenance Plan?</h2>
 <ul>
 <li><strong>New features or pages</strong> beyond the agreed hours. These are quoted separately.</li>
 <li><strong>Redesigns.</strong> A new look is a project, not maintenance.</li>
@@ -88,6 +88,7 @@ POST = dict(
 
 <h2 id="choose">How to Choose the Right Level</h2>
 <p><strong>Brochure site that rarely changes:</strong> do-it-yourself routine or a basic plan. <strong>Business site with monthly updates:</strong> business support. <strong>Online store:</strong> store-level plan with daily backups and checkout tests. For the bigger picture of what a website costs over its life, read our <a href="/digital/blog/website-price-in-pakistan">website price guide</a>, or see <a href="/digital/blog/domain-and-hosting-price-in-pakistan">domain and hosting costs</a>.</p>
+<p>Our optional plans and what each covers are listed on the <a href="/digital/pricing">website prices page</a>.</p>
 """,
     faqs=[
         ("How much does website maintenance cost per month in Pakistan?",

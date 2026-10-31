@@ -64,7 +64,7 @@ POST = dict(
 <li>Prices for ongoing changes or maintenance, if needed.</li>
 </ul>
 
-<h2 id="test">How to Test the Handover</h2>
+<h2 id="test">How Do You Test the Handover?</h2>
 <ol>
 <li>Log in to every account above from your own device.</li>
 <li>Open the backup file and check it is not empty.</li>
@@ -74,7 +74,7 @@ POST = dict(
 </ol>
 <p>Make the final payment once every item is received and working. Our guide to <a href="/digital/blog/website-milestone-payments">milestone payments</a> explains how to tie the last payment to handover.</p>
 
-<h2 id="security">Security After Handover</h2>
+<h2 id="security">How Do You Keep the Site Secure After Handover?</h2>
 <ul>
 <li>Change any passwords that were shared during the project.</li>
 <li>Turn on two-step verification on the domain, hosting, email and admin accounts.</li>
@@ -95,6 +95,7 @@ POST = dict(
 
 <h2 id="our-handover">Our Handover</h2>
 <p>Every project we deliver ends with the domain and hosting in your name, full admin access, a backup, a short editing guide and a list of renewal dates. Ongoing maintenance is optional and priced separately.</p>
+<p>Every <a href="/digital/business-websites">business website we deliver</a> ends with this handover checklist completed.</p>
 """,
     faqs=[
         ("What should I receive when my website is finished?",

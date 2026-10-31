@@ -37,13 +37,13 @@ POST = dict(
 <tr><td>Support after launch</td><td>Depends on the person</td><td>Usually a defined plan</td><td>Usually a formal contract</td></tr>
 </table>
 
-<h2 id="freelancer">When a Freelancer Is the Right Choice</h2>
+<h2 id="freelancer">When Is a Freelancer the Right Choice?</h2>
 <p>A capable freelancer can build a five-page site or landing page well and at a lower price. It works best when you can write a clear brief, give fast feedback and test the site yourself. The main risk is continuity: if your freelancer takes a full-time job or disappears, your site can be stranded. Reduce that risk by keeping the domain, hosting and every login in your own name from day one, and by asking for the files at each milestone.</p>
 
-<h2 id="agency">When an Agency Is the Right Choice</h2>
+<h2 id="agency">When Is an Agency the Right Choice?</h2>
 <p>An agency suits most business websites and online stores. You get design, development, content support, basic SEO and testing from one team, with someone to call if a person leaves. Check who will actually build your site; some agencies pass work to outside freelancers. A good agency names the team, works on milestones and hands over everything at launch.</p>
 
-<h2 id="software-house">When a Software House Is the Right Choice</h2>
+<h2 id="software-house">When Is a Software House the Right Choice?</h2>
 <p>A software house is built for custom software: booking platforms, portals, dashboards, marketplaces and systems that connect to other software. It brings engineers, quality testing and project management. For a simple website, its processes add cost you do not need. For an application, those processes are what keep a complex project on track. See our <a href="/digital/blog/web-app-development-cost-in-pakistan">web app cost guide</a> for typical budgets.</p>
 
 <h2 id="decision">Which Should You Choose? A Simple Decision Table</h2>
@@ -68,6 +68,7 @@ POST = dict(
 <li>Full handover of logins, files and documentation at launch.</li>
 </ul>
 <p>Our <a href="/digital/blog/how-to-choose-web-development-company">20-question checklist</a> works for freelancers, agencies and software houses alike.</p>
+<p>If an agency suits your project, our <a href="/digital/business-websites">business website service</a> shows how we work and what is included.</p>
 """,
     faqs=[
         ("Is it better to hire a freelancer or an agency for a website?",

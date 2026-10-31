@@ -39,7 +39,7 @@ POST = dict(
 </table>
 <p>The percentages are examples. What matters is that each payment follows something you can see and test.</p>
 
-<h2 id="visible-work">What You Should See Before Each Payment</h2>
+<h2 id="visible-work">What Should You See Before Each Payment?</h2>
 <table>
 <tr><th>Milestone</th><th>Evidence before paying</th></tr>
 <tr><td>Advance</td><td>A written scope, price, timeline and agreement</td></tr>
@@ -64,6 +64,7 @@ POST = dict(
 
 <h2 id="overseas">Payments for Overseas Clients</h2>
 <p>For clients in the UK, the Gulf and elsewhere, we invoice in Pakistani rupees and receive payment by international bank transfer, using the same milestone schedule. The written quote states the exact amount for each milestone before the advance is paid. Read our <a href="/digital/blog/website-handover-checklist">handover checklist</a> to know what to request before the final payment.</p>
+<p>Our standard milestone terms sit alongside every package on the <a href="/digital/pricing">website prices page</a>.</p>
 """,
     faqs=[
         ("How much advance payment should I give for a website?",

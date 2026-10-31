@@ -24,7 +24,7 @@ POST = dict(
         f"Our e-commerce package: {P['store']} for up to 100 products, COD, a wallet or bank gateway, courier booking and order management.",
     ],
     body=f"""
-<h2 id="cost-bands">How Much Does an Ecommerce Website Cost in Pakistan?</h2>
+<h2 id="cost-bands">Ecommerce Website Price in Pakistan: How Much Does a Store Cost?</h2>
 <p>Published 2026 price guides from Pakistani agencies give overlapping but consistent ranges for e-commerce builds. Grouped by the size of store, they look like this:</p>
 <table>
 <tr><th>Store size</th><th>Typical build price (PKR)</th><th>Typical contents</th></tr>

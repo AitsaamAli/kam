@@ -61,7 +61,7 @@ POST = dict(
 <tr><td>Deadline</td><td>Live within six weeks, before our second branch opens</td></tr>
 </table>
 
-<h2 id="mistakes">Common Brief Mistakes</h2>
+<h2 id="mistakes">Which Brief Mistakes Cost the Most?</h2>
 <ul>
 <li><strong>Describing the look, not the goal.</strong> "Modern and attractive" tells a developer less than "more bookings from mobile visitors".</li>
 <li><strong>Leaving out features.</strong> Online payments, Urdu pages or courier integration change the price significantly; mention them early.</li>
@@ -73,8 +73,9 @@ POST = dict(
 <h2 id="apps">Briefs for Web Applications</h2>
 <p>For a portal, booking system or marketplace, add three more points: the types of users (customer, staff, admin), the main tasks each user must complete, and any software it must connect to. Writing each task as a short user story, such as "as a patient, I want to book an appointment so that I do not have to call", helps developers estimate accurately. Our <a href="/digital/blog/web-app-development-cost-in-pakistan">web app cost guide</a> explains how scope affects budget.</p>
 
-<h2 id="next">What to Do After Writing the Brief</h2>
+<h2 id="next">What Should You Do After Writing the Brief?</h2>
 <p>Send it to three or four developers along with our <a href="/digital/blog/how-to-choose-web-development-company">20 questions</a>, then compare the replies using our guide on <a href="/digital/blog/why-website-quotes-vary">why website quotes vary</a>. If you would like, send the brief to us on WhatsApp and we will reply with a written scope and fixed price within one business day.</p>
+<p>Finished your brief? Send it through our <a href="/digital/contact">quote page</a> for a written scope and fixed price.</p>
 """,
     faqs=[
         ("What should a website brief include?",

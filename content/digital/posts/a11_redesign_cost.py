@@ -48,7 +48,7 @@ POST = dict(
 </table>
 <p>Content migration can add cost when a site has many pages or blog posts to move. Ask for this to be listed separately in the quote.</p>
 
-<h2 id="seo-risk">How to Redesign Without Losing Google Rankings</h2>
+<h2 id="seo-risk">How Do You Redesign Without Losing Google Rankings?</h2>
 <p>A redesign is one of the most common causes of a sudden drop in search traffic. Google's own guidance on site moves explains why: when URLs change, search engines must learn the new locations, and any page without a redirect loses the value it built up. To protect your rankings:</p>
 <ol>
 <li><strong>Crawl the old site</strong> and export every URL, title and meta description.</li>
@@ -60,7 +60,7 @@ POST = dict(
 <li><strong>Submit the new sitemap</strong> in Google Search Console and watch for errors for a few weeks.</li>
 </ol>
 
-<h2 id="measure">Measure Before and After</h2>
+<h2 id="measure">What Should You Measure Before and After a Redesign?</h2>
 <p>Record these numbers for the month before the redesign so you can judge whether it worked:</p>
 <ul>
 <li>Organic clicks and impressions for your main pages in Google Search Console.</li>
@@ -91,6 +91,7 @@ POST = dict(
 <li>Will I own the new site, domain and hosting?</li>
 </ul>
 <p>For overall budgets, see our <a href="/digital/blog/website-price-in-pakistan">website price guide</a>; for keeping the new site healthy, read our <a href="/digital/blog/website-maintenance-charges-in-pakistan">maintenance guide</a>.</p>
+<p>Before deciding, ask for a fix-first audit through our <a href="/digital/contact">quote page</a>.</p>
 """,
     faqs=[
         ("How much does a website redesign cost in Pakistan?",
