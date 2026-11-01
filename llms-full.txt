@@ -2,7 +2,7 @@
 
 > Answers to the questions people most often ask Kamboh Associates, taken word for word from the FAQ sections of the pages linked under each heading. Tax content covers Pakistan (tax year 2026). Web development content covers Kamboh Associates Digital.
 
-Updated: 2026-10-31
+Updated: 2026-11-01
 Short index: https://kambohassociates.com/llms.txt
 
 Contact: WhatsApp or call +92 328 4675162, email info@kambohassociates.com, office at Shop No 34 Rizwan Block Market, opposite Rizwan Park, Awan Town, Lahore 54660, Pakistan. Monday to Saturday 9:00 AM to 6:00 PM, Friday 9:00 AM to 12:30 PM.
@@ -1109,6 +1109,62 @@ Summary: Pakistan mein best tax consultant kaise dhundhein 2026 mein? FBR regist
 ## Kamboh Associates — Pakistan Ka Best Tax Consultant 2026
 URL: https://kambohassociates.com/blogs/why-kamboh-associates-best-tax-consultant-pakistan
 Summary: Kamboh Associates Pakistan ka trusted tax consultant — 18+ saal experience, 5000+ clients, same-day NTN, 24H filer service, FBR notice defense.
+
+## Tax Return Deadline Passed (31 Oct 2026): What to Do Now
+URL: https://kambohassociates.com/blogs/tax-return-deadline-passed-31-october-2026-next-steps
+Summary: The Tax Year 2026 return deadline closed on 31 October 2026. What a late return costs under Section 182, how to rejoin the ATL, and a 7-day filing plan.
+
+Q: Was the Tax Year 2026 return deadline extended beyond 31 October 2026?
+A: As of 1 November 2026, FBR had not announced any extension beyond 31 October 2026. The date had already been moved twice: from 30 September to 15 October, and then to 31 October under Section 214A. Check FBR's official website or X account for any later notification.
+
+Q: Can I still file my income tax return in November 2026?
+A: Yes. IRIS accepts Tax Year 2026 returns after the due date. The return is treated as late, so a Section 182 penalty can be imposed, and you join the Active Taxpayers List only after paying the Section 182A surcharge or using the undertaking route if available.
+
+Q: What is the minimum late filing penalty for a salaried person?
+A: Under Section 182 as published by FBR, the minimum is Rs 5,000 if at least 75% of your income is from salary and that salary income is below Rs 5 million. Otherwise the minimum is Rs 40,000. Above the minimum, the penalty is 0.1% of tax payable per day of delay, capped at 50% of the tax payable.
+
+Q: Does the penalty apply if my employer already deducted all my tax?
+A: It can. The formula uses tax payable, meaning the tax chargeable on your taxable income for the year, not the unpaid balance. The salaried minimum of Rs 5,000 applies to most salaried people below Rs 5 million in salary.
+
+Q: Is the Rs 25,000 ATL surcharge the same as the late filing penalty?
+A: No. The Rs 25,000 surcharge for individuals is paid under Section 182A to be placed on the Active Taxpayers List after a late return. The Section 182 penalty is a separate penalty for the delay itself and is imposed by order.
+
+Q: Can I apply for an extension now that the deadline has passed?
+A: An extension application under Section 119 must be made to the Commissioner before the due date, so it does not help once the return is already late. The practical step now is to file as soon as possible.
+
+Q: Do companies have to file by 31 October 2026?
+A: No. The 31 October 2026 date covered persons whose returns were due on 30 September, mainly individuals and AOPs. Companies with a 30 June year-end normally file by 31 December.
+
+Q: How quickly can Kamboh Associates file a late return?
+A: Once we have complete documents, most salaried and freelancer returns are prepared and shared for approval within one to two working days. Business returns with full records take longer, depending on the volume of transactions.
+
+## ATL Surcharge Rs 25,000 or Form ATL-U? Late Filer's Guide
+URL: https://kambohassociates.com/blogs/late-filer-atl-surcharge-or-form-atl-u-undertaking-2026
+Summary: Filed after 31 October 2026? Compare the Rs 25,000 Section 182A ATL surcharge with the draft Form ATL-U property undertaking and pick the right route.
+
+Q: What is Form ATL-U?
+A: Form ATL-U is an undertaking proposed by FBR in draft rules published on 6 October 2026. An individual who files late promises not to acquire any property for six months and, in return, joins the Active Taxpayers List without paying the Section 182A surcharge.
+
+Q: Is Form ATL-U available in IRIS now?
+A: The reports we found up to 1 November 2026 describe Form ATL-U as a draft. Whether it is usable depends on FBR finalising the rule and enabling the form in IRIS, so check IRIS on the day you file.
+
+Q: How much is the ATL surcharge for late filers in 2026?
+A: From 1 July 2026 under the Finance Act 2026, the Section 182A surcharge is Rs 25,000 for individuals, Rs 50,000 for associations of persons, and Rs 100,000 for companies.
+
+Q: What counts as property under the ATL-U undertaking?
+A: The draft wording, as reported, covers purchasing, acquiring or otherwise obtaining ownership or beneficial interest in any property. That is broad. Until the final rule is published, do not assume it is limited to houses or land.
+
+Q: What happens if I break the six-month undertaking?
+A: Under the draft, FBR can verify compliance using records from registries, authorities and financial institutions. If a breach is established after a hearing, the surcharge-free ATL benefit is withdrawn from the date of the breach.
+
+Q: Can an AOP or company use Form ATL-U?
+A: No. The draft applies to individuals only. AOPs pay Rs 50,000 and companies pay Rs 100,000 to be placed on the Active Taxpayers List after a late return.
+
+Q: Does paying the surcharge remove the late filing penalty?
+A: No. The surcharge only restores ATL status. The Section 182 penalty for filing after the due date is a separate matter and can still be imposed by order.
+
+Q: How do I check whether I am back on the ATL?
+A: Check FBR's online ATL search with your CNIC or NTN, or send an SMS with ATL, a space and your CNIC to 9966. Allow some processing time after paying or submitting the undertaking.
 
 
 # Part 2: Web development (Kamboh Associates Digital)
