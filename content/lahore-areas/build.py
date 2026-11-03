@@ -244,7 +244,7 @@ def build_page(page, pages_by_slug, clusters, shell):
     ]
 
     meta = (
-        '<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large"/>\n'
+        '<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>\n'
         f"<title>{html.escape(page['title'])}</title>\n"
         f'<meta name="description" content="{html.escape(page["desc"])}"/>\n'
         f'<link rel="canonical" href="{url}"/>\n'
@@ -354,7 +354,7 @@ def build_hub(pages, clusters, shell):
             for q, a in H["faq"]]},
     ]
     meta = (
-        '<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large"/>\n'
+        '<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>\n'
         f"<title>{html.escape(H['title'])}</title>\n"
         f'<meta name="description" content="{html.escape(H["desc"])}"/>\n'
         f'<link rel="canonical" href="{url}"/>\n'

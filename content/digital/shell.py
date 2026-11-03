@@ -232,6 +232,9 @@ def build(p):
             s = re.sub(pat, lambda m: m.group(1) + H.escape(t) + m.group(2), s)
         s = re.sub(r'(<meta property="og:site_name" content=")[^"]*(")', r"\1Kamboh Associates Digital\2", s)
     s = fix_schema(s, p)
+    # allow large image previews in Discover and Images, as on the rest of the site
+    s = re.sub(r'<meta name="robots" content="index,\s?follow[^"]*"\s*/?>',
+               '<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>', s)
     # floating call button and phone bottom bar, as on the main site
     s = re.sub(r"<!--dg-cta-->[\s\S]*?<!--/dg-cta-->\n?", "", s)
     s = s.replace("</body>", CTA + "\n</body>", 1)
