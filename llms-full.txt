@@ -2,7 +2,7 @@
 
 > Answers to the questions people most often ask Kamboh Associates, taken word for word from the FAQ sections of the pages linked under each heading. Tax content covers Pakistan (tax year 2026). Web development content covers Kamboh Associates Digital.
 
-Updated: 2026-11-01
+Updated: 2026-11-03
 Short index: https://kambohassociates.com/llms.txt
 
 Contact: WhatsApp or call +92 328 4675162, email info@kambohassociates.com, office at Shop No 34 Rizwan Block Market, opposite Rizwan Park, Awan Town, Lahore 54660, Pakistan. Monday to Saturday 9:00 AM to 6:00 PM, Friday 9:00 AM to 12:30 PM.
@@ -835,7 +835,7 @@ URL: https://kambohassociates.com/annual-company-filing-guide-pakistan
 Summary: Complete guide to annual company filing in Pakistan 2026. SECP annual return, FBR corporate tax return, WHT statements, deadlines & penalties.
 
 Q: What is the income tax return deadline for Pakistan 2026?
-A: The income tax return deadline for tax year 2026 (July 2025 to June 2026) is September 30, 2026 for individuals and salaried persons. Companies and AOPs have until December 31, 2026. Filing after these dates attracts a monthly penalty of Rs.1,000 (individuals) or Rs.10,000 (companies).
+A: The income tax return deadline for tax year 2026 (July 2025 to June 2026) is September 30, 2026 for individuals and salaried persons. Companies and AOPs have until December 31, 2026. Filing after these dates can attract a Section 182 penalty of 0.1% of tax payable per day (minimum Rs. 40,000, or Rs. 5,000 for most salaried individuals).
 
 Q: How can I reduce my income tax in Pakistan legally?
 A: Legal tax reduction options include: pension fund contributions deductible up to 20% of income (Section 63), equity mutual fund investment tax credit up to Rs.150,000 (Section 62), health and life insurance premium deduction (Section 62), donations to approved NPOs deductible up to 30% of income (Section 61), and claiming all legitimate business expenses. Consult Kamboh Associates at 0328-4675162 for personalized tax planning.
@@ -1075,7 +1075,7 @@ URL: https://kambohassociates.com/tax-on-agricultural-income-pakistan
 Summary: Is agricultural income taxable in Pakistan 2026? Federal vs provincial treatment, Punjab agriculture tax slabs, exemptions & filing requirements.
 
 Q: What is the income tax return deadline for Pakistan 2026?
-A: The income tax return deadline for tax year 2026 (July 2025 to June 2026) is September 30, 2026 for individuals and salaried persons. Companies and AOPs have until December 31, 2026. Filing after these dates attracts a monthly penalty of Rs.1,000 (individuals) or Rs.10,000 (companies).
+A: The income tax return deadline for tax year 2026 (July 2025 to June 2026) is September 30, 2026 for individuals and salaried persons. Companies and AOPs have until December 31, 2026. Filing after these dates can attract a Section 182 penalty of 0.1% of tax payable per day (minimum Rs. 40,000, or Rs. 5,000 for most salaried individuals).
 
 Q: How can I reduce my income tax in Pakistan legally?
 A: Legal tax reduction options include: pension fund contributions deductible up to 20% of income (Section 63), equity mutual fund investment tax credit up to Rs.150,000 (Section 62), health and life insurance premium deduction (Section 62), donations to approved NPOs deductible up to 30% of income (Section 61), and claiming all legitimate business expenses. Consult Kamboh Associates at 0328-4675162 for personalized tax planning.
@@ -7459,3 +7459,1612 @@ A: Usually yes. Buyers often check a website before trusting a new seller, espec
 
 Q: Facebook ads ka traffic WhatsApp par bhejein ya website par?
 A: Agar customer sawal pooch kar khareedta hai, jaise kapre ka size ya custom cheez, to WhatsApp behtar hai, bas jawab jaldi dein. Saada, fixed qeemat wali cheez ya mehngi cheez ke liye jahan bharosa chahiye, website behtar hai. Dono ko kuch hafte test karke order ki qeemat milayen.
+
+## Solar Company Website in Pakistan: Quotes, Projects and Net-Metering Enquiries
+URL: https://kambohassociates.com/digital/blog/website-for-solar-installers-pakistan
+Updated: 2026-11-03
+Short answer: A solar company website in Pakistan has one main job: turn a homeowner's electricity bill into a qualified quote request. It needs a quote form asking for bill units and roof type, a gallery of real installations with system sizes, and clear after-sales terms. Our business website package starts at Rs 40,500.
+Key points:
+- Ask for the monthly units on the electricity bill, roof type and city in the quote form; these three answers size most systems.
+- Show completed projects with system size in kW, panel and inverter brands and the city, not stock photos of panels.
+- Explain net metering in plain words and link to NEPRA rather than promising approval times you do not control.
+- Put after-sales service, warranty handling and cleaning plans on their own page; buyers compare installers on this.
+- A starter site with a strong quote form is enough for most installers; add a calculator or portal only when volume justifies it.
+
+Q: What should a solar installer put on the quote form?
+A: Ask for monthly bill units, connection type, roof type and area, whether batteries are needed, and the city. Allow a photo of the electricity bill. These answers let your team size the system before calling, which saves time and makes the first conversation far more useful for the buyer.
+
+Q: Should a solar company publish system prices on its website?
+A: Publishing price ranges by system size works well, because buyers want a rough idea before calling. Label them as ranges that depend on brands, roof and wiring, and date them, since panel and inverter prices change often. Exact prices belong in the written quote after a site survey.
+
+Q: Can a solar website explain net metering approval times?
+A: It can explain the steps and documents, but it should not promise a fixed approval date. Net metering is regulated by NEPRA and processed by the distribution companies, so timelines vary. Link to NEPRA for the official rules and keep your page dated and updated.
+
+Q: What photos work best for a solar company website?
+A: Real photos of your own installations work best, with the system size, brands, city and month listed for each. Ask clients for permission and avoid showing house numbers. Stock photos of large solar farms do not help a residential installer and can reduce trust.
+
+Q: How much does a website for a solar installer cost?
+A: Our starter package at Rs 40,500 covers a solar installer's core pages, a multi-step quote form and WhatsApp routing. Larger installers with separate commercial teams or several branches usually choose the business package at Rs 85,500. Maintenance for new projects and updates starts at Rs 7,200 a month.
+
+Q: Do solar installers need separate pages for homes and businesses?
+A: Yes. Homeowners care about bill savings, backup and price ranges, while factories and schools need site surveys, load analysis and payback figures. Separate pages let each buyer find the right answer quickly and help each page rank for the searches that buyer actually makes.
+
+Q: Should a solar website include a savings calculator?
+A: A simple estimator that turns monthly units into a suggested system size can lift enquiries if it is clearly labelled as an estimate. A detailed payback calculator needs updating whenever tariffs and prices change, so start with a good quote form and add the estimator once traffic grows.
+
+Q: Solar company ki website mein kya hona chahiye?
+A: Ghar aur commercial clients ke liye alag pages, bill units poochne wala quote form, apne asal projects ki tasveerein system size ke saath, net metering ki asaan wazahat aur after-sales service ka page. WhatsApp par lead seedha sales team ko jani chahiye, taa ke jaldi jawab diya ja sake.
+
+## Online Quran Academy Website: Trial Classes, Time Zones and Fees From Abroad
+URL: https://kambohassociates.com/digital/blog/online-quran-academy-website
+Updated: 2026-11-03
+Short answer: An online Quran academy website mainly serves families abroad, so it must show class times in the visitor's own time zone, offer a free trial class in two or three clicks, introduce tutors (including female tutors) and accept fees from the UK, Gulf or North America. A booking-ready site starts from Rs 85,500.
+Key points:
+- Most students of a Pakistani online Quran academy live abroad, so design every page for parents in the UK, Gulf, USA and Canada.
+- Show timetables in the visitor's own time zone; a Pakistan-time schedule causes missed trials and refund requests.
+- A free trial booking that takes under a minute is the single most important feature.
+- Female tutor profiles, with first names and qualifications, answer a question many parents ask first.
+- Plan international payments before launch: card payments, PayPal, Payoneer or bank transfer, each with clear fee terms.
+
+Q: How should an online Quran academy show class times to overseas parents?
+A: Store slots in one reference time zone and display them in the visitor's local time, detected automatically with a manual selector as backup. Confirmation messages should show both the local and Pakistan time. The system must handle daylight saving changes in the UK, Europe and North America automatically.
+
+Q: Is a free trial class necessary for a Quran academy website?
+A: Yes. Parents comparing several academies rarely pay before seeing a tutor teach their child. A trial booking that takes under a minute, with instant confirmation and a reminder, usually converts better than any discount. Follow up after the trial with fee plans and the next available slots.
+
+Q: Should the website list female Quran tutors separately?
+A: Many parents, especially of girls, ask for a female tutor before anything else. Show female tutors clearly on the tutors page with first names, qualifications and languages spoken, and let parents choose a female tutor during trial booking. This answers the question early and reduces back-and-forth on WhatsApp.
+
+Q: How can a Pakistani Quran academy accept fees from the UK or USA?
+A: Common options are an international card payment provider that supports your business, PayPal where it is available to you, Payoneer invoices and bank transfer. Fees and payout times differ, so confirm current terms with each provider. Show prices in the parent's currency and state your missed-class policy clearly.
+
+Q: What does an online Quran academy website cost?
+A: A small academy can start with our starter site at Rs 40,500 plus a scheduling tool. Larger academies with many tutors, time zones and monthly subscriptions usually need booking, reminders and a parent area, which starts from Rs 85,500. A full student portal with attendance tracking is priced as a web app.
+
+Q: What safety information should a Quran teaching website include?
+A: Explain how online classes run, whether sessions are recorded, how recordings are stored, and whether a parent can sit in. Describe how tutors are selected. Parents of young children read this page closely, and a clear, honest policy builds more trust than general claims about safety.
+
+Q: Online Quran academy ki website mein sab se zaroori cheez kya hai?
+A: Sab se zaroori free trial class ki booking hai jo walidain ke apne time zone mein slots dikhaye. Is ke baad tutors ka page, khaas tor par female tutors, mahana fees unki currency mein, aur payment ka asaan tareeqa. WhatsApp par confirmation aur reminder zaroor bhejein.
+
+## Hostel Website for Lahore Girls' and Boys' Hostels: Rooms, Rules and Visit Bookings
+URL: https://kambohassociates.com/digital/blog/hostel-website-lahore
+Updated: 2026-11-03
+Short answer: A hostel website in Lahore is read by two people: the student who wants a room near campus and the parent who decides whether it is safe. It needs room types with real photos, written rules and security details, distance to nearby universities, monthly charges and a visit booking. Our starter package at Rs 40,500 covers this.
+Key points:
+- Write for parents as much as students; safety, rules and wardens are what parents read first.
+- Show each room type with real photos, the number of beds, what is included and the monthly charge.
+- State walking or travel time to the universities and colleges nearby; students search by campus name.
+- Let families book a visit online instead of only calling; many parents travel from other cities.
+- Keep the girls' and boys' hostels on separate pages if you run both, each with its own rules and contacts.
+
+Q: What do parents look for on a hostel website?
+A: Parents read the rules and safety page first: gate timings, visitor policy, the warden's name and an emergency number. They then check charges, what meals include and how far the hostel is from campus. Clear, factual answers to these questions turn a worried phone call into a visit booking.
+
+Q: Should a hostel website show monthly charges?
+A: Yes. Show the monthly rent by room type, the security deposit and what is included, such as meals, electricity and Wi-Fi. Families compare several hostels, and those without charges are often skipped. Date the price list and update it when charges change at the start of the academic year.
+
+Q: Can one website cover a girls' hostel and a boys' hostel?
+A: It can, but give each hostel its own section or page with separate rules, photos, wardens and phone numbers. Parents of girls in particular want to see that the girls' hostel is managed separately. One shared contact form that mixes both creates confusion and slows replies.
+
+Q: Should a hostel create pages for every university in Lahore?
+A: No. Separate pages for campuses you are not actually near look like doorway pages and can hurt your ranking. List the campuses that are genuinely close on one location page, with honest travel times, and keep your Google Business Profile accurate so you appear in local map results.
+
+Q: How much does a hostel website in Lahore cost?
+A: A single hostel fits our starter package at Rs 40,500, covering rooms, charges, rules, location, food and visit booking. Owners with girls' and boys' hostels or several branches usually need the business package at Rs 85,500. Maintenance for photo and charge updates starts at Rs 7,200 a month.
+
+Q: Is it safe to show residents in hostel photos?
+A: Only with their written consent, and even then avoid photos that link a named student to a specific room. Show rooms before they are occupied, common areas, the kitchen and the building. Parents notice whether a hostel protects residents' privacy, so careful photography builds trust as well as avoiding problems.
+
+Q: Hostel ki website par visit kaise book karwayein?
+A: Ek chhota form rakhein jis mein student ka naam, university, room ki qisam aur visit ki tareekh poochi jaye. Door shehron ke walidain ke liye WhatsApp video tour ka option dein. Booking milte hi WhatsApp par confirmation bhejein aur visit se ek din pehle yaad dihani karwayein.
+
+## Marquee and Wedding Hall Website: Available Dates, Menu Packages and Virtual Tours
+URL: https://kambohassociates.com/digital/blog/marquee-wedding-hall-website
+Updated: 2026-11-03
+Short answer: Families choosing a venue ask three things first: is our date free, how many guests fit, and what does the menu cost per head. A wedding hall website should answer all three, show the halls through photos and a video tour, and let families hold a date with a deposit. Booking-ready builds start from Rs 85,500.
+Key points:
+- An availability calendar, even one showing only 'booked' or 'enquire', saves your staff dozens of calls in wedding season.
+- Publish menu packages per head with what each includes; families compare halls on this before visiting.
+- Give capacity for each hall separately, for seated dinners and for standing receptions.
+- A two-minute video walk-through answers more questions than twenty photos.
+- Taking a small online deposit to hold a date works only if your cancellation terms are written clearly on the site.
+
+Q: Should a wedding hall show booked dates on its website?
+A: Yes, as long as it shows only availability and not who booked. Three states work well: booked, held and available, with separate lunch and dinner slots if you host two events a day. One staff member should own the calendar so it always matches the booking register.
+
+Q: How should a marquee website show menu prices?
+A: List each package with its per-head price, the dishes included, live counters and the minimum guest count, then show add-ons separately with their own prices. Date the menu page and update it when food costs change, so families do not arrive expecting last season's rates.
+
+Q: Is a video tour worth it for a banquet hall website?
+A: Yes. A two-minute phone video from the gate to the stage, through the bridal room and dining area, answers questions about size and layout better than many photos. Compress it for mobile data and avoid showing identifiable guests without their permission.
+
+Q: Can a wedding hall take a booking deposit online?
+A: It can, using familiar options such as JazzCash, Easypaisa or bank transfer. The booking page must state the deposit amount, when the balance is due and the cancellation terms for both sides. Clear written terms prevent most disputes and make families comfortable paying before a visit.
+
+Q: What does a wedding hall website cost?
+A: A single marquee with menus, capacity, gallery and a booking request form fits our starter package at Rs 40,500. Venues with several halls, a live availability calendar and online deposits need the business package at Rs 85,500 or a custom booking tool, quoted after we see how bookings are managed today.
+
+Q: What capacity details should an event venue website give?
+A: Give seated dinner and standing reception capacity for each hall separately, plus parking spaces and whether there is a separate family or ladies' area. Families planning 300 guests and families planning 900 need different halls, and accurate figures stop mismatched enquiries before they reach your phone.
+
+Q: Shadi hall ki website par kya kya hona chahiye?
+A: Khali dates ka calendar, har hall ki guest capacity, per head menu packages ki qeemat, halls ki tasveerein aur video tour, decor ke options, aur booking request ka form. Agar advance online lena hai to cancellation ki shartein saaf likhein, taa ke baad mein jhagra na ho.
+
+## Catering Company Website in Pakistan: Menus, Per-Head Pricing and Event Enquiries
+URL: https://kambohassociates.com/digital/blog/catering-company-website
+Updated: 2026-11-03
+Short answer: A catering website in Pakistan should let a family or office build a menu, see an estimated per-head cost and send the event date and guest count in one go. Add event types, real food photos, a tasting booking and food-safety details. Our starter package at Rs 40,500 covers a caterer's core pages and enquiry form.
+Key points:
+- A menu builder that shows an estimated per-head cost turns browsing into specific enquiries.
+- Separate wedding, corporate, dawat and boxed-meal catering; each buyer looks for different things.
+- Real photos of your own dishes and set-ups matter more than any design choice.
+- Offer a tasting booking for large events; it is often the step that wins the order.
+- Show your Punjab Food Authority licence and hygiene practice if you operate in Punjab.
+
+Q: Should a caterer publish per-head prices on the website?
+A: Publishing per-head prices for set packages, or an estimate from a menu builder, usually brings better enquiries than hiding prices. Label figures as estimates that depend on date, venue and guest count, and update them when ingredient costs change. The written quotation still confirms the final price.
+
+Q: What is a menu builder on a catering website?
+A: It lets visitors choose dishes for their event, enter the guest count and see an estimated per-head cost and total. When they submit, the caterer receives the full menu, date, guests and location, which makes quoting quick. It needs regular price updates to stay accurate.
+
+Q: Do catering websites need separate pages for corporate clients?
+A: Yes. Office managers want lunch boxes, hi-tea and seminar packages, invoices and monthly contracts, while families want wedding menus and tastings. A separate corporate page answers those needs, ranks for office catering searches and can offer a sample quotation that managers forward for approval.
+
+Q: Should a catering company website mention food licences?
+A: If you hold a licence, such as one from the Punjab Food Authority, mention it and show it with real photos of your kitchen and storage. Describe how food is transported and kept hot. Never claim certifications you do not hold, because buyers and authorities can check.
+
+Q: How much does a catering company website cost?
+A: Most caterers fit our starter package at Rs 40,500, which covers event pages, menus, a gallery, tasting booking and WhatsApp enquiry routing. A live menu builder with per-head estimates, or several branches, fits the business package at Rs 85,500. Maintenance for menu and price updates starts at Rs 7,200 a month.
+
+Q: How can a caterer handle tasting requests online?
+A: Add a tasting form with available days, the number of people attending and the dishes they want to try. State whether tastings are free, charged or adjusted against the final bill. Confirm the booking on WhatsApp and send a reminder the day before, so families arrive prepared.
+
+Q: Catering ki website se zyada orders kaise milenge?
+A: Har event ke liye alag page banayein, jaise shadi, office lunch aur ghar ki dawat. Per head rates ya menu builder rakhein, asal khane ki tasveerein lagayein aur tasting booking ka form dein. Food Authority ka license ho to zaroor dikhayein, aur har enquiry WhatsApp par foran pohanchni chahiye.
+
+## Home Services Website in Pakistan for AC Repair, Electricians and Plumbers
+URL: https://kambohassociates.com/digital/blog/home-services-website-ac-electrician
+Updated: 2026-11-03
+Short answer: People looking for an AC technician, electrician or plumber usually have a problem right now. A home services website in Pakistan should show a call and WhatsApp button on every screen, list the areas you cover, offer booking slots for non-urgent jobs and give price ranges. Our starter package at Rs 40,500 fits most firms.
+Key points:
+- Urgent visitors call; put tap-to-call and WhatsApp buttons on every screen of the mobile site.
+- List the areas you actually cover and your response times honestly, area by area.
+- Price ranges for common jobs, such as AC general service or a fan installation, reduce haggling.
+- Separate pages for each service rank better than one 'all services' page.
+- Reviews that mention the job and the area are the strongest trust signal for home services.
+
+Q: What is the most important feature of an AC repair website?
+A: A tap-to-call button and a WhatsApp button visible on every screen of the mobile site. Most AC repair searches are urgent and happen on phones, so the visitor needs to reach you in one tap. Service areas and price ranges should be the next things they see.
+
+Q: Should an electrician's website publish prices?
+A: Publishing ranges for routine jobs, such as fan installation or DB repair, builds trust and filters out unrealistic expectations. State the visit charge, what is included and that parts are extra after diagnosis. Date the table and review it each season, because demand changes prices.
+
+Q: Do home services firms need a page for every area of the city?
+A: No. Many near-identical area pages look like doorway pages and can hurt your ranking. One service-areas page with a map, a grouped list and honest arrival times works better, together with a Google Business Profile that lists the same service areas.
+
+Q: How can a plumber's website get more bookings?
+A: Give plumbing its own page with common jobs and price ranges, add booking slots for planned work such as bathroom fittings, and collect reviews that mention the job and area after each visit. A WhatsApp confirmation with the plumber's name and arrival window makes customers comfortable.
+
+Q: How much does a home services website in Pakistan cost?
+A: A small team of technicians fits our starter package at Rs 40,500, covering service pages, areas, price ranges, booking slots and WhatsApp routing. Firms with several branches or a technician dispatch dashboard need the business package at Rs 85,500 or a custom tool, quoted after a short discussion.
+
+Q: What warranty information should a technician website show?
+A: State a written warranty on workmanship, for example a period during which a repeat fault from the same repair is fixed free, and explain that parts carry the manufacturer's warranty. Clear terms reduce disputes and give customers a reason to choose you over an unknown technician.
+
+Q: AC repair ki website par customer kaise jaldi rabta karega?
+A: Har screen par call aur WhatsApp ka button hona chahiye, khaas tor par mobile par. Saath hi un areas ki list dein jahan aap jaate hain aur andazan kitni dair mein pohanchte hain. Aam kaam ki qeematon ki range bhi likhein, taa ke customer ko pehle se andaza ho.
+
+## Diagnostic Lab Website: Test Prices, Home Sampling Bookings and Secure Online Reports
+URL: https://kambohassociates.com/digital/blog/diagnostic-lab-website
+Updated: 2026-11-03
+Short answer: A diagnostic lab website has three jobs: show which tests you offer and what they cost, book home sample collection, and let patients collect reports online without exposing anyone's results. Report access is the part that needs most care. A catalogue and booking site starts from Rs 85,500; a reports portal is quoted as a web app.
+Key points:
+- A searchable test catalogue with prices, preparation instructions and turnaround times answers most phone calls.
+- Home sampling bookings need the address, preferred time window, tests and any fasting instructions confirmed back to the patient.
+- Online reports must sit behind a login or a one-time code, never at a guessable link.
+- Name your Punjab Healthcare Commission registration if you operate in Punjab, and avoid any claims about diagnosis or cure.
+- Doctors who refer patients are a second audience; a referral page and report access for them can bring steady work.
+
+Q: How can patients get lab reports online safely?
+A: Patients should log in, or enter a one-time code sent to their registered phone, before seeing a report. Report links must not be guessable, files must be served over HTTPS, old links should expire and every download should be logged. This protects health information and the lab's reputation.
+
+Q: Should a diagnostic lab publish test prices on its website?
+A: Yes. Price is the most common question, and a searchable catalogue with walk-in and home-sampling prices saves many calls. Date the price list, note if prices differ between branches, and include preparation instructions and turnaround times on each test page.
+
+Q: What should a home sample collection form ask for?
+A: Ask for the tests or a photo of the doctor's slip, the address, a preferred time window and a phone number. Confirm by WhatsApp with the collector's name, arrival window and fasting instructions, and send a reminder the evening before for fasting tests.
+
+Q: Can a lab website explain what test results mean?
+A: It can explain what a test measures and how to prepare, but it should not interpret individual results or suggest a test diagnoses a condition by itself. Patients should discuss results with their doctor, and saying so clearly on each test page is accurate and reassuring.
+
+Q: What does a diagnostic lab website cost?
+A: A lab website with a test catalogue, prices, home-sampling bookings and branch pages fits our business package at Rs 85,500. Online reports with patient and doctor logins are built as a web app, priced from Rs 360,000 depending on integration with your laboratory software.
+
+Q: Which regulator should a Punjab lab mention on its website?
+A: In Punjab, healthcare establishments are regulated by the Punjab Healthcare Commission. If your lab is registered, state the registration and link to the Commission's website. Labs in other provinces should name their own provincial healthcare regulator in the same way.
+
+Q: Lab ki website par report online dena mehfooz hai?
+A: Haan, agar sahi tareeqe se banaya jaye. Report sirf login ya mobile par aane wale one-time code ke baad khule, link andaze se na khul sake, aur har download ka record rahe. Report ka matlab website par na samjhayein, mareez ko apne doctor se mashwara karna chahiye.
+
+## Veterinary Clinic Website: Appointments, Pet Services and Emergency Hours
+URL: https://kambohassociates.com/digital/blog/veterinary-clinic-website
+Updated: 2026-11-03
+Short answer: A veterinary clinic website should tell a worried pet owner, in seconds, whether you are open now and how to reach you in an emergency. After that come appointment booking, services such as vaccination, surgery and grooming, and vet profiles. Our starter package at Rs 40,500 covers this; a pet shop adds an online store.
+Key points:
+- Emergency hours and an emergency phone number belong at the top of every page.
+- Separate routine appointments, vaccinations, surgery and grooming, because owners search for each one.
+- Name your vets and their registration with the Pakistan Veterinary Medical Council.
+- Vaccination reminders by WhatsApp bring owners back on schedule and fill quiet days.
+- Add a pet shop only if you can keep stock and prices current; an outdated shop hurts trust.
+
+Q: What should be at the top of a vet clinic's website?
+A: Today's opening hours or an 'open now' notice, the emergency phone number and a map link should be visible without scrolling. Owners in an emergency need to know immediately whether you can help. Routine booking, services and vet profiles can follow further down the page.
+
+Q: Should a veterinary website list vaccination schedules?
+A: Yes. A clear page with typical schedules for puppies, kittens and adult pets answers a common question and leads naturally to booking. State that the vet will confirm the right schedule for each animal, and offer opt-in WhatsApp reminders for booster dates.
+
+Q: Can a vet clinic sell medicines through its website?
+A: Food and accessories can be sold online easily. Prescription medicines should only be supplied after a vet's prescription and in line with applicable rules, so treat them differently from general products. Start with a small catalogue you always stock and keep prices current.
+
+Q: How do vaccination reminders work on a pet clinic website?
+A: When booking or after a visit, the owner opts in to reminders. The clinic stores the pet's name, the next due date and the owner's phone, then sends a WhatsApp reminder before the booster is due. Owners must be able to stop reminders at any time.
+
+Q: What does a veterinary clinic website cost?
+A: A clinic website with services, vet profiles, emergency hours and booking fits our starter package at Rs 40,500. Several branches or grooming centres usually need the business package at Rs 85,500. Adding a pet shop with online payments moves to the store package at Rs 157,500.
+
+Q: Should vets show their registration on the clinic website?
+A: Yes. Listing each veterinarian's qualifications and their registration with the Pakistan Veterinary Medical Council helps owners trust the clinic, especially before surgery. Add the animals each vet mainly treats and the days they are available, so owners can book the right person.
+
+Q: Vet clinic ki website par emergency ka number kahan likhein?
+A: Har page ke bilkul upar, aaj ke timings ke saath. Pareshan maalik ko foran pata chalna chahiye ke clinic khula hai ya nahi aur kis number par call karni hai. Map ka link bhi saath dein, taa ke rasta dhoondne mein waqt zaya na ho.
+
+## Optician and Eyewear Store Website: Frame Catalogue, Prescription Upload and Eye-Test Booking
+URL: https://kambohassociates.com/digital/blog/optician-eyewear-store-website
+Updated: 2026-11-03
+Short answer: An eyewear store website must sell frames like a fashion store and handle prescriptions like a clinic. Buyers filter frames by shape, size and price, choose lenses, upload a prescription or book an eye test, then pay or collect in store. Our online store package starts at Rs 157,500.
+Key points:
+- Frame photos from the front and side, with measurements in millimetres, prevent most size complaints.
+- Lens choices (single vision, progressive, blue-light, tint) should be explained in plain words with prices.
+- Prescription upload is health data: store it securely and only for as long as needed.
+- An eye-test booking page brings people who do not yet have a prescription.
+- Virtual try-on is optional; good photos, sizes and an easy exchange policy matter more.
+
+Q: What frame details should an eyewear website show?
+A: Show front and side photos, ideally on a model, plus lens width, bridge width and temple length in millimetres, material, weight, colours and stock. Measurements let buyers compare with glasses they already own, which prevents most size complaints and exchange requests.
+
+Q: How do customers add a prescription when buying glasses online?
+A: They type the prescription values into a form or upload a photo of the prescription after choosing a frame and lenses. An optometrist checks the values before lenses are cut and contacts the buyer if something is unclear or the prescription looks out of date.
+
+Q: Is it safe to collect prescriptions on an optician website?
+A: It can be, with care. Prescriptions are health information, so store them securely, limit who can view them, and delete them when they are no longer needed. Explain this in your privacy policy in plain language, so customers know how their data is handled.
+
+Q: Do eyewear stores need virtual try-on?
+A: Not necessarily. Virtual try-on adds cost and only works well with accurate frame models. Many stores sell well with model photos, clear measurements and an easy exchange policy for frames that do not suit. Add try-on later if returns show buyers struggle to choose.
+
+Q: What does an eyewear store website cost?
+A: An optician wanting eye-test bookings and a frame showcase can start with our starter package at Rs 40,500. Selling frames and lenses online with payments, prescription handling and delivery needs the store package at Rs 157,500. Multi-branch chains with shared stock may need custom development.
+
+Q: How should lens prices be shown on a glasses store?
+A: Offer lens choices as a step after the frame, with a one-line explanation and the added price for each option: single vision, bifocal, progressive, blue-light, photochromic and tints. Mark the common choice as default so the total price never surprises the buyer at checkout.
+
+Q: Chashmon ki dukaan ki website par prescription kaise li jaye?
+A: Frame aur lens chunne ke baad customer prescription ki values form mein likhe ya uski tasveer upload kare. Optometrist values check kare aur shak ho to customer se rabta kare. Prescription sehat ki maloomat hai, is liye mehfooz rakhein aur zaroorat khatam hone par delete karein.
+
+## Physiotherapy Clinic Website: Condition Pages, Session Booking and Home Visits
+URL: https://kambohassociates.com/digital/blog/physiotherapy-clinic-website
+Updated: 2026-11-03
+Short answer: A physiotherapy clinic website should help patients recognise their problem, trust the therapist and book a first assessment. That means careful condition pages without cure claims, therapist profiles with qualifications, session and package fees, and home-visit booking for elderly or post-surgery patients. Our starter package at Rs 40,500 covers this.
+Key points:
+- Condition pages should describe the problem and how physiotherapy approaches it, never promise a cure or a fixed number of sessions.
+- Therapist profiles with qualifications and special interests build the trust a first-time patient needs.
+- Home visits are a big draw for elderly and post-surgery patients; give them their own booking path.
+- Session fees and package options should be clear, including what the first assessment costs.
+- Mention registration with the Punjab Healthcare Commission if you operate in Punjab.
+
+Q: What should a physiotherapy condition page say?
+A: Describe what patients usually notice, what happens at the first assessment, the treatment approaches the clinic uses, and when to see a doctor first. Avoid promising cures, guaranteed relief or a fixed number of sessions, and name the therapist who reviewed the page.
+
+Q: Should a physio clinic website show session fees?
+A: Yes. Show the first assessment fee, the regular session fee and any multi-session packages, plus the home-visit charge. Families comparing clinics often choose the one with clear fees, and stating them avoids awkward conversations about price at the first appointment.
+
+Q: How should physiotherapy home visits be booked online?
+A: Use a separate form asking for the address, the patient's mobility, any recent surgery date, a preferred time window and whether a female therapist is preferred. Confirm on WhatsApp with the therapist's name and arrival window, and state the home-visit charge clearly before the visit.
+
+Q: Can a physiotherapy website show patient results?
+A: Reviews from patients who agreed to share their experience are fine. Avoid before-and-after claims or guaranteed outcomes, because results vary and health claims attract complaints. Describing your assessment process and therapists' training is more credible and safer for the clinic.
+
+Q: What does a physiotherapy clinic website cost?
+A: A single clinic with condition pages, therapist profiles, fees and online booking fits our starter package at Rs 40,500. Clinics with several branches, a home-visit team or online package payments usually need the business package at Rs 85,500. Maintenance starts at Rs 7,200 a month.
+
+Q: Which regulator should a Punjab physiotherapy clinic mention?
+A: Healthcare establishments in Punjab are regulated by the Punjab Healthcare Commission. If your physiotherapy clinic is registered, state it on the website and link to the Commission's site. Clinics elsewhere should name their own provincial healthcare regulator in the same way.
+
+Q: Physiotherapy clinic ki website par ghar visit ki booking kaise ho?
+A: Ghar visit ke liye alag form rakhein jis mein pata, mareez ki chalne phirne ki halat, surgery ki tareekh aur pasandeeda waqt poocha jaye. Female therapist ka option bhi dein. Booking ke baad WhatsApp par therapist ka naam, pohanchne ka waqt aur charges bata dein.
+
+## Psychologist and Therapist Website: Confidential Enquiries and Privacy-First Booking
+URL: https://kambohassociates.com/digital/blog/psychologist-therapist-website
+Updated: 2026-11-03
+Short answer: People visiting a psychologist website are often anxious and worried about privacy. The site should explain who you help and how sessions work, offer a short confidential enquiry form, allow online or in-person booking, and state how data is protected. Our starter package at Rs 40,500 includes a privacy-focused enquiry set-up.
+Key points:
+- Ask for as little as possible in the first enquiry: a name, a way to reply and an optional short message.
+- Describe the issues you work with and your approach without promising outcomes.
+- Explain online sessions, the platform used, session length and fees before the first contact.
+- Write a plain-language privacy section: who reads enquiries, how records are kept and the limits of confidentiality.
+- Add a visible note on what to do in a crisis, with emergency contacts, because a website is not an emergency service.
+
+Q: What should a therapist's first enquiry form ask for?
+A: Only what is needed to reply: a first name or initials, an email or phone number, the preferred contact method and an optional message. Ask whether voicemail or WhatsApp is safe. Detailed personal or health information should wait until the first conversation with the practitioner.
+
+Q: How can a psychologist website protect client privacy?
+A: Send enquiries to an inbox only the practitioner or trained assistant can read, keep forms short, use HTTPS, and write a plain-language privacy section explaining how records are kept and the limits of confidentiality. Use neutral wording in reminders that does not reveal the type of appointment.
+
+Q: Can therapists offer online sessions through their website?
+A: Yes. A booking calendar can let clients choose an online slot, with a confirmation explaining the video platform, how to join and what to prepare. For clients abroad, show times in their time zone and offer international payment options that your practice can accept.
+
+Q: Should a counselling website include client testimonials?
+A: Be very careful. Testimonials can reveal private details and some professional guidelines discourage them. If you use any, get written consent, remove identifying information and avoid claims about outcomes. A clear description of your approach and training usually builds more trust.
+
+Q: What does a psychologist website cost?
+A: An individual practitioner fits our starter package at Rs 40,500, which includes a confidential enquiry form, an online booking link and a plain privacy section. Group practices with several therapists, online payments and separate calendars usually choose the business package at Rs 85,500.
+
+Q: Why does a therapy website need an emergency notice?
+A: Because enquiry forms and inboxes are not monitored around the clock. A short visible note should tell anyone at immediate risk to contact local emergency services or go to the nearest hospital emergency department. Place it near the contact form and in the footer.
+
+Q: Psychologist ki website par privacy kaise yaqeeni banayein?
+A: Pehle form mein kam se kam maloomat maangein, sirf naam ya initials aur rabte ka tareeqa. Enquiries sirf therapist ya training yafta assistant tak pohanchein. Privacy ka page saaf zubaan mein likhein, aur reminder messages mein appointment ki noiyat zahir na karein.
+
+## Nutritionist and Dietitian Website: Diet Plans, Online Consultations and Payments
+URL: https://kambohassociates.com/digital/blog/nutritionist-dietitian-website
+Updated: 2026-11-03
+Short answer: A dietitian website sells a relationship, not a PDF. It should explain who you help, how consultations and follow-ups work online or in clinic, what each programme costs, and how to pay from Pakistan or abroad. Avoid weight-loss promises. Our starter package at Rs 40,500 covers booking and payment links.
+Key points:
+- Describe programmes by who they are for and what the client receives, not by promised kilograms lost.
+- Online consultations need a clear process: intake form, video call, written plan and follow-up schedule.
+- Overseas Pakistanis are a real audience; show times in their time zone and accept international payments.
+- Intake forms collect health information, so keep them secure and ask only what you need.
+- Show qualifications and where you trained; clients compare credentials before paying.
+
+Q: What should a dietitian's programme page include?
+A: State who the programme is for, what the client receives, such as consultations, written plans and check-ins, how long it lasts and the fee. Explain what happens if a check-in is missed. Avoid promising a fixed weight loss in a fixed time, because outcomes vary between clients.
+
+Q: How do online diet consultations work through a website?
+A: The client books a slot and pays, fills in an intake form about goals, habits and health, then joins a video call through a link in the confirmation. A written plan follows within a stated time, and check-ins happen on the schedule described on the programme page.
+
+Q: Can a nutritionist website accept payments from abroad?
+A: Yes, using options your practice can access, such as international card payments, PayPal where available, Payoneer invoices or bank transfer. Check current fees and payout times with each provider, show prices in the client's currency where possible and display consultation times in their time zone.
+
+Q: Should a dietitian show client weight-loss results?
+A: It is safer not to publish before-and-after photos with weight figures or promises of results in a set time. Outcomes vary, and such claims can mislead. Reviews about the experience, shared with written consent and without private health details, are a better way to show trust.
+
+Q: What does a dietitian website cost?
+A: An individual dietitian fits our starter package at Rs 40,500, including programme pages, booking, payment links, an intake form and a blog. Practices with several nutritionists, subscription programmes or a client area for plans need the business package at Rs 85,500 or a small custom web app.
+
+Q: How should a diet consultation intake form handle health data?
+A: Ask only what the consultation needs, send the form over HTTPS, store responses where only the dietitian or an assistant can read them, and state in a plain privacy note how long they are kept. Never route intake forms to a shared office inbox.
+
+Q: Dietitian ki website par kaun se programs dikhane chahiye?
+A: Ek dafa ki consultation, mahana program weekly check-in ke saath, doctor ki hidayat ke mutabiq medical diet, aur family ya bachon ka program. Har program mein saaf likhein ke client ko kya milega, kitne din ka hai aur fees kitni hai, magar wazan kam hone ka wada na karein.
+
+## Montessori and Daycare Website: Admissions, Child Safety and Parent Communication
+URL: https://kambohassociates.com/digital/blog/montessori-daycare-website
+Updated: 2026-11-03
+Short answer: Parents choosing a Montessori or daycare ask about safety before anything else. A Montessori website should show who looks after the children, how pick-up and visitors are controlled, the daily routine, fees and how to apply, plus how parents receive updates. Our starter package at Rs 40,500 covers admissions and these pages.
+Key points:
+- Safety comes first: staff qualifications, adult-to-child ratio, pick-up rules, CCTV in common areas and first aid.
+- A clear daily routine and a sample week show parents how the day really runs.
+- Never publish children's photos without written parental consent, and avoid full names next to faces.
+- An online admission form with document upload saves parents a trip and your staff hours of paperwork.
+- Parent updates work best on a channel parents already use, such as WhatsApp groups or a simple parent area.
+
+Q: What safety details should a daycare website include?
+A: Include who may collect a child, how unknown adults are checked, where cameras are installed, how many staff are trained in first aid, how accidents are reported to parents and how allergies and medicines are recorded. Specific details reassure parents far more than general promises about safety.
+
+Q: Is it legal to put children's photos on a Montessori website?
+A: Use photos only with written parental consent collected at admission, with a clear option to refuse. Avoid full names next to faces and remove photos promptly if consent is withdrawn. Showing classrooms, materials and children from behind is a safe alternative for the public website.
+
+Q: What should a preschool admission form ask for?
+A: Ask for the child's name and date of birth, programme and start date, parents' and emergency contacts, allergies and medical notes, and allow upload of a birth certificate or B-form copy. Store documents securely and limit access to the admin staff who process admissions.
+
+Q: How can a daycare keep parents updated online?
+A: Many daycares use a class WhatsApp group or broadcast for photos and notices, shared only with that class's parents. Larger setups add a parent area on the website for notices, fee reminders and progress reports. Choose the channel parents already use and keep photo sharing within the class.
+
+Q: What does a Montessori website cost?
+A: A single Montessori fits our starter package at Rs 40,500, covering programmes, the approach, safety, daily routine, fees, an admission form and visit booking. Campuses with several branches or a parent area need the business package at Rs 85,500. Maintenance for notices and photos starts at Rs 7,200 a month.
+
+Q: Should a Montessori website publish its fee schedule?
+A: Yes. Parents compare several options, and those without fees are often skipped. Publish admission, monthly and annual charges by programme, note what is included such as meals or materials, and date the schedule. Explain sibling discounts and payment methods if you offer them.
+
+Q: Montessori ki website par walidain sab se pehle kya dekhte hain?
+A: Bachon ki hifazat. Kaun bachay ko le ja sakta hai, CCTV kahan lage hain, first aid ki training kis ke paas hai, aur hadsa hone par walidain ko kaise bataya jata hai. Is ke baad teachers, rozana ka schedule, fees aur admission ka tareeqa.
+
+## Driving School Website: Course Packages, Lesson Slots and Female Instructors
+URL: https://kambohassociates.com/digital/blog/driving-school-website
+Updated: 2026-11-03
+Short answer: A driving school website should show course packages with the number and length of lessons, let learners book time slots, offer female instructors and explain pick-up areas. Licence steps should link to the official licensing authority rather than being copied. Our starter package at Rs 40,500 covers this; live slot booking may need the business package.
+Key points:
+- Packages should state the number of lessons, minutes per lesson, car type (manual or automatic) and the fee.
+- Female learners often ask for a female instructor first; make that choice visible on booking.
+- Slot booking with morning, evening and weekend options matches how working learners and students plan.
+- Licence procedures change, so link to the official licensing website instead of copying the steps.
+- Reviews from learners who passed their test are the most persuasive content you can publish.
+
+Q: What should a driving school show in its course packages?
+A: Show the number of lessons, minutes per lesson, manual or automatic car, pick-up options, instructor gender, what is included such as fuel or a mock test, and the fee. Date the fee table, because fuel prices change lesson rates, and add a refresher option for licence holders.
+
+Q: How can learners book driving lessons online?
+A: A booking page shows available slots by instructor or car in morning, afternoon, evening and weekend blocks. The learner picks a slot and pick-up area, then receives a WhatsApp confirmation with the instructor's name and car number, and a reminder the evening before the lesson.
+
+Q: Should a driving school website mention female instructors?
+A: Yes, clearly. Many women learners choose a school because it has female instructors. Give them a section with first names, experience and available days, allow filtering for them during booking, and explain the safety practices that apply to every lesson.
+
+Q: Can a driving school website explain how to get a licence?
+A: It can explain how training prepares learners for the test, but licensing procedures and fees are set by the authorities and change. Link to the official licensing website, such as the Punjab driving licence portal, for current steps instead of copying them onto your site.
+
+Q: What does a driving school website cost?
+A: A school with course packages, instructor profiles and a booking request form fits our starter package at Rs 40,500. Live slot booking across several cars and instructors, with reminders and rescheduling, fits the business package at Rs 85,500 or a custom scheduling tool.
+
+Q: How should a driving school handle missed lessons?
+A: State the rescheduling deadline, for example a set number of hours before the lesson, and what happens to a lesson missed without notice. Put the policy on the booking page and in the confirmation message, so learners know it before they pay for a package.
+
+Q: Driving school ki website par booking kaise asaan banayein?
+A: Subah, shaam aur weekend ke slots dikhayein, female instructor chunne ka option dein, aur pick-up ka area poochein. Booking ke baad WhatsApp par instructor ka naam aur gaari ka number bhejein, aur ek din pehle yaad dihani karwayein. Packages ki fees saaf likhein.
+
+## Car Dealer Website in Pakistan: Showroom Stock, Inspection Reports and WhatsApp Leads
+URL: https://kambohassociates.com/digital/blog/car-showroom-used-car-dealer-website
+Updated: 2026-11-03
+Short answer: Buyers on a car dealer website in Pakistan want three things: real stock with real photos and prices, proof of condition, and a quick way to ask about a car. Build searchable listings with filters, attach an inspection report to each car and send enquiries to WhatsApp with the car's details. Stock-listing builds start from Rs 85,500.
+Key points:
+- Every listing needs the model year, mileage, registration city, engine size, transmission, colour, price and at least ten real photos.
+- An inspection report per car is the strongest trust signal a used car dealer can offer.
+- Filters by make, model, year, price and transmission let buyers find a car in seconds.
+- WhatsApp enquiry buttons should send the car's stock number, so your sales team knows which car is meant.
+- Mark sold cars quickly; buyers who call about sold cars rarely come back.
+
+Q: What details should a used car listing show on a dealer website?
+A: Show make, model, variant and year, mileage, registration city, engine size, transmission, fuel, colour, price, a stock number and at least ten real photos of the interior and exterior. Attach an inspection report and service history where available, so buyers can judge condition before visiting.
+
+Q: Should a car showroom website publish prices?
+A: Yes, for most cars. Listings without prices attract fewer serious enquiries and more time-wasting calls. If a price is on request, give a reason, such as a fresh arrival still being inspected. Update prices when you adjust them, so the website matches what staff tell callers.
+
+Q: Why do car dealer websites need inspection reports?
+A: Used car buyers worry about accident damage, repainting and tampered mileage. An inspection report for each car, covering body, paint, engine, suspension and electrics, answers that worry before the visit. State who carried out the inspection and list minor faults honestly to keep buyers' trust.
+
+Q: How can a car dealer get more leads from the website?
+A: Add a WhatsApp button on every listing that pre-fills the stock number, a test-drive booking form, a trade-in form with photos, and a 'notify me' option for models not in stock. Track which listings bring enquiries, and mark sold cars quickly to avoid frustrating callers.
+
+Q: What does a car dealership website cost in Pakistan?
+A: A small showroom with a few cars a month can start with our starter package at Rs 40,500. Dealers with steady stock need searchable listings, filters, inspection uploads and lead tracking, which starts from Rs 85,500. Very large inventories may need a custom web app quoted separately.
+
+Q: Can a car dealer website offer finance enquiries?
+A: Yes, if you work with banks or leasing partners. A finance enquiry form can collect basic details and pass them on, but the page must state clearly that approval and terms are decided by the lender. Never present estimated instalments as an approved offer.
+
+Q: Car showroom ki website par sold gaariyan kab hatayein?
+A: Usi din jab gaari bik jaye. Ek staff member ki zimmedari ho ke sold gaari par foran sold ka label lagaye aur kuch din baad hata de. Biki hui gaari ke liye call karne wale customer aksar dobara rabta nahi karte, is liye stock hamesha durust rakhein.
+
+## Car Workshop Website: Service Menu, Online Booking and Pick-and-Drop
+URL: https://kambohassociates.com/digital/blog/auto-workshop-website
+Updated: 2026-11-03
+Short answer: Drivers choose a workshop they trust not to overcharge. A car workshop website should show a service menu with starting prices for common jobs, let owners book a slot or request pick-and-drop, and show real before-and-after work. Our starter package at Rs 40,500 covers booking and these pages.
+Key points:
+- A service menu with starting prices for oil changes, tuning, brakes and AC service builds trust before the first visit.
+- Online booking should ask for the car model, year and the problem, so the workshop can prepare parts.
+- Pick-and-drop is a strong selling point for busy owners; state the areas and the charge.
+- Before-and-after photos of dent, paint and detailing work sell those services better than any description.
+- Send a written estimate before starting work, and say on the website that you always do.
+
+Q: Should a car workshop publish service prices online?
+A: Yes, as starting prices for common jobs such as oil changes by engine size, AC service and brake pads, with a note that the final price depends on the car and parts. Confirm every job with a written estimate and review the listed prices every few months.
+
+Q: What should a car service booking form ask?
+A: Ask for the car make, model, year and registration number, the service needed or a short description of the problem, and a preferred date and drop-off time. Knowing the car in advance lets the workshop arrange parts and avoid asking the owner to come back.
+
+Q: Is pick-and-drop worth offering for a car workshop?
+A: For many busy owners it is the main reason to book. Show the areas covered, the charge and how handover works, and photograph the car's condition at pick-up. Those photos protect both the owner and the workshop if a scratch or dent is disputed later.
+
+Q: How can a workshop website prove it does not overcharge?
+A: State that no work starts without approval of a written estimate listing parts and labour, send updated estimates if more faults are found, and offer to return replaced parts. Publish starting prices and reviews from real customers who agreed to share them.
+
+Q: What does a car workshop website cost?
+A: A single workshop with a service menu, booking form, pick-and-drop section, gallery and WhatsApp updates fits our starter package at Rs 40,500. Workshops with several branches or a customer area showing service history fit the business package at Rs 85,500. Maintenance starts at Rs 7,200 a month.
+
+Q: What photos should a denting and painting workshop show?
+A: Show before-and-after photos of the same panel from the same angle and in similar light, with number plates blurred unless the owner agrees. Add detailing results and short videos of inspections. Consistent, real photos are far more persuasive than stock images of luxury cars.
+
+Q: Workshop ki website par customer ka bharosa kaise jeetein?
+A: Aam kaam ki shuruati qeematein likhein, likhit estimate ke baghair kaam shuru na karne ka wada karein, purane parts wapas dene ki peshkash karein, aur asal kaam ki pehle aur baad ki tasveerein lagayein. Booking ke baad WhatsApp par kaam ki update dete rahein.
+
+## CCTV Company Website for Security Installers: Packages, Site Surveys and Support Plans
+URL: https://kambohassociates.com/digital/blog/cctv-security-installer-website
+Updated: 2026-11-03
+Short answer: People buying CCTV want to know how many cameras they need, what it will cost and whether the installer will still help after a fault. A CCTV company website should compare packages by number of cameras, book site surveys, list brands and explain support plans. Our starter package at Rs 40,500 covers this for most installers.
+Key points:
+- Package cards by number of cameras (4, 8, 16) with resolution, recording days and price ranges make comparison easy.
+- A free or paid site survey is the step that turns interest into an order; make booking it simple.
+- Separate homes, shops, offices and factories, because each has different coverage and storage needs.
+- Explain support plans and response times honestly; after-sales is where installers win or lose customers.
+- Mention mobile viewing and recording storage clearly, and never show footage of real people from client sites.
+
+Q: How should a CCTV installer show camera package prices?
+A: Show packages by number of cameras, such as 4, 8 and 16, with resolution, night vision range, recording days and price ranges. Explain what installation and cable length are included and what costs extra, because cabling distance and mounting height change the final price after a site survey.
+
+Q: Is a site survey booking form necessary for a CCTV website?
+A: Yes. The survey is where most CCTV orders are won. Ask for property type, area, number of entrances and floors, and a preferred time. Let visitors send photos on WhatsApp for a quick estimate, and state where surveys are free and where a charge applies.
+
+Q: Should a security company show client CCTV footage online?
+A: Avoid it. Real footage can identify people and reveal a client's property layout. Use photos of installed cameras and recorders instead, shared with the client's permission. If footage is ever used, the client must agree and no individual should be identifiable in it.
+
+Q: What should a CCTV support plan page explain?
+A: Explain what the plan covers, such as health checks, cleaning and re-configuration after internet changes, how faults are reported, your working hours and usual visit times. List equipment warranties separately from your workmanship warranty, and avoid promising instant response you cannot deliver.
+
+Q: How much does a CCTV company website cost?
+A: Most CCTV installers fit our starter package at Rs 40,500, covering package comparison, segment pages, survey booking, brands and support plans with WhatsApp routing. Companies with several branches, alarm monitoring or a customer support portal need the business package at Rs 85,500.
+
+Q: Do CCTV installers need separate pages for homes and factories?
+A: Yes. Homes need gate and entrance coverage and family phone viewing, while factories need perimeter coverage, long cable runs and longer storage. Separate pages answer each buyer's needs and rank for searches such as CCTV for shops or factory camera installation.
+
+Q: CCTV company ki website par site survey kaise book ho?
+A: Ek chhota form rakhein jis mein ghar, dukaan ya factory ki qisam, area, darwazon aur manzilon ki tadaad aur pasandeeda waqt poocha jaye. Customer chahe to WhatsApp par tasveerein bhej kar foran andaza le sake. Survey free hai ya charge hai, yeh pehle se saaf likhein.
+
+## Pest Control Website for Fumigation Companies: Services, Safety Information and Fast Bookings
+URL: https://kambohassociates.com/digital/blog/pest-control-company-website
+Updated: 2026-11-03
+Short answer: Someone who has just seen cockroaches in the kitchen or termites in a door frame wants help this week and wants to know the treatment is safe for children. A pest control website should explain each service, state safety steps, show prices or ranges and book an inspection quickly. Our starter package at Rs 40,500 covers this.
+Key points:
+- Give each pest its own service page (termites, cockroaches, bed bugs, rodents, mosquitoes); people search by pest.
+- A safety page that explains preparation, waiting times and precautions for children and pets answers the main fear.
+- Booking should ask for property type and size, the pest, and a preferred date, with a fast WhatsApp confirmation.
+- Commercial clients such as restaurants, warehouses and offices need a separate contracts page with service schedules.
+- Be careful with claims; describe treatments and follow-up visits instead of promising permanent results.
+
+Q: Should a pest control company have a page for each pest?
+A: Yes. People search by the pest they see, such as termites, cockroaches, bed bugs or rodents. A page for each explains the treatment, typical price range by property size, preparation and follow-up visits, and ranks for that search far better than one general services page.
+
+Q: What safety information should a fumigation website include?
+A: Explain how to prepare the home, how long people should stay out of treated rooms, that technicians follow product label instructions and wear protective equipment, and what to do if anyone feels unwell. Avoid calling treatments completely harmless; specific precautions build more trust.
+
+Q: How should a pest control booking form work?
+A: Ask for property type, approximate size, the pest seen, the area and a preferred date, and allow a photo upload. Confirm on WhatsApp with the technician's name, arrival window and a preparation checklist, then send a reminder the day before to avoid failed visits.
+
+Q: How can a pest control website attract restaurants and warehouses?
+A: Add a commercial contracts page explaining visit frequency, what each service report contains and how call-outs between visits work. Offer a downloadable sample report that managers can share with their head office or auditors, and show client logos only with written permission.
+
+Q: What does a pest control company website cost?
+A: Most pest control firms fit our starter package at Rs 40,500, covering service pages, a safety page, booking with photo upload, a commercial page and WhatsApp routing. Firms with several cities, contract clients or a service report portal need the business package at Rs 85,500 or a small web app.
+
+Q: Should a termite control website promise permanent results?
+A: No. Pests can return when conditions allow, and permanent claims invite complaints. Describe your warranty instead, such as free follow-up treatment within a stated period if the same pest returns, and list the conditions for it, so customers know exactly what they are getting.
+
+Q: Pest control ki website par sab se zaroori page kaun sa hai?
+A: Hifazat ka page. Ghar walay sab se pehle yeh jaanna chahte hain ke dawai bachon aur paltu janwaron ke liye kitni mehfooz hai, ghar kaise tayyar karna hai aur kitni dair kamron se bahar rehna hai. Saaf aur imaandar hidayat se booking jaldi milti hai.
+
+## Tiles Showroom Website for Tile and Sanitary Stores: Large Catalogues, Brands and Dealer Prices
+URL: https://kambohassociates.com/digital/blog/tile-sanitary-showroom-website
+Updated: 2026-11-03
+Short answer: A tiles showroom website has to handle hundreds of designs that look different in every light. It needs a catalogue with filters for size, finish and room, clear stock and price rules, showroom visit booking, and trade accounts for contractors and builders. Catalogue builds start from Rs 85,500; full online ordering uses the store package at Rs 157,500.
+Key points:
+- Filters for size, finish, colour, room and brand let buyers narrow hundreds of tiles in seconds.
+- Show price per square foot or per box where you can; use 'price on request' only for project pricing.
+- Room photos and close-up photos together help buyers judge a design better than one image.
+- Contractor and builder accounts with trade prices and order history bring repeat bulk orders.
+- Most buyers still want to see tiles in person, so the site should drive showroom visits.
+
+Q: What filters should a tile catalogue website have?
+A: The most useful filters are size, finish, colour, room (floor, wall, bathroom, kitchen, outdoor), brand and price range. Add stock status so buyers do not shortlist discontinued designs. With hundreds of products, these filters let buyers narrow choices in seconds instead of scrolling endlessly.
+
+Q: Should a sanitary store show prices online?
+A: Showing a price per piece, per square foot or per box helps buyers budget and reduces mismatched enquiries. Use price on request for project quantities or changing imported ranges, with a WhatsApp button that sends the product code. Keep trade prices behind a contractor login.
+
+Q: How should tiles be photographed for a website?
+A: Show a close-up of one tile, a laid sample of several tiles to reveal pattern variation, and a room photo if possible. Shoot in consistent daylight and note that colours vary slightly between batches and screens. Fittings need several angles and dimensions for plumbers.
+
+Q: Do contractor accounts work for tile showrooms?
+A: Yes. Builders and contractors who can log in to see trade prices, check stock, reorder and download invoices tend to order more often and in larger quantities. Start with approved logins and a separate price list, and add credit limits or order history later if needed.
+
+Q: What does a tiles showroom website cost?
+A: A showroom website with a catalogue, shortlists and visit booking fits our business package at Rs 85,500. Selling online with payments, delivery and trade accounts needs the store package at Rs 157,500. Very large catalogues that sync with your stock system may need custom work quoted separately.
+
+Q: How can a tile website bring more showroom visits?
+A: Let visitors save designs to a shortlist and book a showroom visit with the shortlist attached, so staff prepare samples in advance. Show the address, parking and opening hours clearly, and keep your Google Business Profile updated with recent showroom photos.
+
+Q: Tiles ki dukaan ki website par itne zyada designs kaise sambhalein?
+A: Size, finish, rang, kamre aur brand ke filters lagayein, aur products spreadsheet se ek saath upload karein. Har design ki qareeb se tasveer, kai tiles laga kar sample aur kamre ki tasveer dein. Stock khatam ho to foran update karein, taa ke customer bekaar chakkar na lagaye.
+
+## Mobile Repair Shop Website: Repair Price Tables, Bookings and Warranty Terms
+URL: https://kambohassociates.com/digital/blog/mobile-repair-shop-website
+Updated: 2026-11-03
+Short answer: People with a broken phone ask two questions: how much and how long. A mobile repair website should show repair prices by brand and model, let customers book a slot or a pickup, explain the warranty on parts and labour, and say how customer data is protected during repair. Our starter package at Rs 40,500 covers this.
+Key points:
+- A price table by brand, model and repair type (screen, battery, charging port, back glass) answers most enquiries.
+- State the repair time for common jobs, such as same day for screens on popular models.
+- Explain the difference between original, OEM-grade and copy parts, and price each honestly.
+- Customers worry about their photos and chats; explain your data privacy practice in plain words.
+- A written warranty on parts and labour, with clear exclusions, sets you apart from roadside repairers.
+
+Q: Should a mobile repair shop publish repair prices online?
+A: Yes. Customers message several shops asking for prices, and the one that answers clearly first usually gets the repair. Publish prices by brand, model and repair type, separate original and compatible parts, date the table and update it when part prices change.
+
+Q: How should part grades be explained on a phone repair website?
+A: Explain in one sentence each what original, OEM-grade and compatible parts are and how they differ in brightness, touch response and battery use. Show the price for each and recommend one. Never fit a cheaper part while charging for an original one.
+
+Q: What should a phone repair warranty cover?
+A: It should cover the replaced part and the workmanship for a stated period, and exclude new physical damage, water damage and phones opened by another shop. Explain how to claim, and print the same terms on the receipt so there is no argument later.
+
+Q: How can a repair shop reassure customers about their data?
+A: Explain that customers can remove passwords or log out of sensitive apps where possible, that technicians test only what the repair requires, and that phones are stored securely. Recommend a backup before any repair. A plain privacy statement builds trust quickly.
+
+Q: What does a mobile repair shop website cost?
+A: A single repair shop fits our starter package at Rs 40,500, with price tables by model, booking, pickup requests, warranty and privacy pages and WhatsApp updates. Shops that also sell accessories or used phones online need the store package at Rs 157,500.
+
+Q: Is pickup and drop worth offering for phone repairs?
+A: It can be, for customers who cannot leave work or home. Offer it within a defined area, state the charge and explain the handover, including noting the phone's condition at pickup. Send WhatsApp updates during the repair so the customer always knows where the phone is.
+
+Q: Mobile repair ki website par qeematein kaise likhein?
+A: Brand aur model ke hisaab se table banayein jis mein screen, battery, charging port aur back glass ki qeemat ho. Original aur copy parts ki qeemat alag likhein aur waqt bhi batayein. Parts ki qeemat badle to table foran update karein aur tareekh likh dein.
+
+## Tailor and Made-to-Measure Website: Measurement Forms, Fabric Choice and Online Orders
+URL: https://kambohassociates.com/digital/blog/tailor-made-to-measure-website
+Updated: 2026-11-03
+Short answer: A tailor website lets customers order clothes made to their size without visiting for every step. It needs a guided measurement form or the option to send a well-fitting garment, fabric and design choices, stitching charges, clear delivery dates and WhatsApp follow-up for fittings. Online orders with payments use the store package at Rs 157,500.
+Key points:
+- A guided measurement form with pictures reduces wrong measurements, which are the biggest cause of remakes.
+- Offer 'send us a garment that fits well' as an alternative; many customers trust it more than measuring.
+- Show stitching charges by garment type and the usual delivery time, with an express option if you offer one.
+- Save each customer's measurements so repeat orders take a minute.
+- Use WhatsApp for confirmation, fitting questions and delivery updates; it is where customers already talk to tailors.
+
+Q: How can customers give measurements on a tailor website?
+A: Offer a guided form with pictures or short videos for each measurement, the option to send a well-fitting garment to copy, or a one-time measurement visit. Save the measurements to the customer's profile so future orders take a minute and stay consistent.
+
+Q: Should a tailoring website show stitching charges?
+A: Yes. Show the stitching charge by garment type, such as shalwar kameez, kurta, suit or sherwani, plus extras for special designs and the express option. Clear charges reduce WhatsApp back-and-forth and help customers decide before they send fabric or place an order.
+
+Q: How do online tailors handle Eid orders?
+A: Publish an Eid cut-off date well in advance, show the standard and express delivery times, and confirm every order with its promised date on WhatsApp. Stop taking orders you cannot finish in time, because a late Eid suit loses a customer for years.
+
+Q: What alteration policy should a tailor website state?
+A: State that adjustments are free within a set period if the garment does not match the measurements given, and charged if the measurements were wrong or the customer's size changed. Explain how customers abroad can get alterations, so expectations are clear before ordering.
+
+Q: What does a tailor website cost?
+A: A tailor wanting a showcase, stitching charges and a WhatsApp order form can start with our starter package at Rs 40,500. Taking orders online with saved measurements, payments and order tracking needs the store package at Rs 157,500. Maintenance for seasonal updates starts at Rs 7,200 a month.
+
+Q: Can boutiques sell fabric with a stitching option online?
+A: Yes. The product page can offer unstitched or stitched to measurements, adding the stitching charge and extra delivery time at checkout. Saved measurements make repeat orders easy, and WhatsApp follow-up handles design questions such as neckline or sleeve style without slowing down the checkout.
+
+Q: Darzi ki website par naap kaise liya jaye?
+A: Har naap ke saath tasveer ya chhoti video dein ke kahan se naapna hai, ya customer ko option dein ke achi fitting wala kapra bhej de. Naap customer ke profile mein save karein, taa ke agli dafa order ek minute mein ho jaye. WhatsApp par order ki update dete rahein.
+
+## Bridal Makeup Artist Website: Portfolio With Consent, Packages and Date Booking With Deposit
+URL: https://kambohassociates.com/digital/blog/bridal-makeup-artist-website
+Updated: 2026-11-03
+Short answer: Brides book makeup artists months ahead, and the first question is always whether their date is free. A makeup artist website should show a portfolio of real brides who agreed to be shown, packages for barat, walima and mehndi, available dates and a deposit to hold the date. Our starter package at Rs 40,500 covers this.
+Key points:
+- Publish only photos of brides who gave written consent, and respect requests to remove them later.
+- Separate packages for barat, walima, mehndi, nikkah and party makeup, with what each includes.
+- A date availability check saves hours of 'is my date free?' messages in wedding season.
+- A deposit to confirm the date reduces cancellations, if the refund and rescheduling terms are written clearly.
+- Trial sessions and home or venue service should have their own prices and booking path.
+
+Q: Can a makeup artist post bridal photos on her website?
+A: Only with the bride's written consent, after explaining where the photos will appear. Remove them promptly if she later asks, and respect families who do not want photos online at all. Credit the photographer when their images are used and avoid heavy filters that misrepresent the makeup.
+
+Q: What packages should a bridal makeup website list?
+A: List separate packages for barat, walima, mehndi, nikkah or engagement, family and party makeup, and trial sessions. For each, state what is included, the duration, whether the senior artist or a team member does the work, and any combined discount for booking several functions.
+
+Q: Should a makeup artist take a deposit to book a wedding date?
+A: A deposit reduces last-minute cancellations, as long as the terms are clear. State the amount, when the balance is due, what happens if the wedding date changes and whether the deposit is refundable. Familiar methods such as JazzCash, Easypaisa and bank transfer work well.
+
+Q: How can brides check a makeup artist's available dates online?
+A: A simple calendar showing booked and open dates, or a date-check form with a quick WhatsApp reply, answers the most common question in wedding season. One person should keep the calendar updated, so it always matches the artist's real bookings.
+
+Q: What does a makeup artist website cost?
+A: An individual artist fits our starter package at Rs 40,500, covering a portfolio, packages, an availability check, booking with deposit terms and WhatsApp confirmation. Bridal salons with several artists, branches and online deposits need the business package at Rs 85,500.
+
+Q: Should a bridal makeup website offer home service details?
+A: Yes. Many brides want the artist at home or at the venue. Show the areas covered, travel charges, how long the team needs on site, early-morning charges and what the family should arrange, such as good lighting and a mirror, so there are no surprises on the day.
+
+Q: Bridal makeup artist ki website par kya kya hona chahiye?
+A: Dulhanon ki ijazat se li gayi asal tasveerein, barat, walima aur mehndi ke alag packages, khali dates ka calendar, advance ki shartein, aur ghar ya venue par service ki tafseel. WhatsApp par jaldi jawab aur saaf qeematein dulhan ke ghar walon ka bharosa jeet leti hain.
+
+## IT Training Institute Website: Course Pages, Batch Schedules, Admissions and Fee Payment
+URL: https://kambohassociates.com/digital/blog/it-training-institute-website
+Updated: 2026-11-03
+Short answer: Students comparing IT courses want to know what they will learn, who teaches, when the next batch starts, how much it costs and what graduates have gone on to do. A training institute website should answer those questions on each course page and take registration and fees online. Admission-ready builds start from Rs 85,500.
+Key points:
+- Each course page needs the outline, duration, class times, prerequisites, instructor and fee.
+- Show upcoming batches with start dates and seats left; it creates honest urgency.
+- Online registration and fee payment remove the trip to the office that loses many students.
+- Avoid 'job guaranteed' claims; show real student projects and outcomes with permission instead.
+- A free demo class or orientation session is often the step that converts undecided students.
+
+Q: What should an IT course page include?
+A: Include who the course is for, a week-by-week outline of topics and tools, duration and timings, the instructor's experience, projects students build, the total fee and instalments, and the next batch date with seats left. Keep the outline current so it reflects tools the industry actually uses.
+
+Q: Should a training institute take fees online?
+A: Yes. Online payment by card, JazzCash, Easypaisa or bank transfer removes the trip to the office where many students drop off. Offer instalments if you allow them, state the refund policy before payment, and send an automatic receipt with the batch details.
+
+Q: Is it a good idea to promise jobs on an IT institute website?
+A: No. Job-guarantee claims attract complaints and refund disputes because outcomes depend on the student and the market. Show real projects, portfolio reviews, interview practice and genuine employer connections instead, and share graduates' outcomes only with their permission and in factual terms.
+
+Q: How should batch schedules be shown on a course website?
+A: List upcoming batches across courses with start dates, timings, campus or online mode and seats left, filterable by course and timing. Each batch should link to registration. Keep seat counts accurate, because inflated scarcity is easy to spot and damages trust.
+
+Q: What does a training institute website cost?
+A: A small institute with a few courses and a registration form can start with our starter package at Rs 40,500. Many courses, batch schedules, online fee payment and several campuses need the business package at Rs 85,500. A student portal with attendance and certificates is priced as a web app.
+
+Q: Do demo classes help a computer institute get admissions?
+A: Often, yes. Undecided students convert after meeting the instructor and seeing a real class. Offer a booking form for upcoming demos online or on campus, follow up with the course page and next batch, and record a short demo video for those who cannot attend.
+
+Q: IT institute ki website par admissions kaise barhayein?
+A: Har course ka mukammal outline, timings, teacher ka tajurba aur fees saaf likhein. Agle batch ki tareekh aur bachi hui seats dikhayein, online registration aur fees ki adaigi ka option dein, aur free demo class rakhein. Naukri ki guarantee ka daawa na karein.
+
+## Packers and Movers Website: Quotes by Volume and Route, Honest Insurance and Real Reviews
+URL: https://kambohassociates.com/digital/blog/packers-movers-website
+Updated: 2026-11-03
+Short answer: Families moving house worry about breakage, hidden charges and movers who disappear with half the goods. A packers and movers website should collect a quote request by volume and route, explain packing materials and handling, state insurance only if it really exists, and show reviews from real moves. Our starter package at Rs 40,500 covers this.
+Key points:
+- A quote form that asks for rooms, large items, floors, lift access and the route produces accurate quotes.
+- Offer a video survey on WhatsApp for customers who cannot arrange a home visit.
+- List what is included in the quote: packing material, labour, loading, transport, unloading and unpacking.
+- Mention insurance or a damage policy only if you genuinely provide it, with the terms written down.
+- Separate pages for local, intercity and office moves answer the searches each customer makes.
+
+Q: What should a moving company quote form ask?
+A: Ask for property type and rooms, large items, floors and lift access at both ends, parking for the truck, the route, extra services such as packing or AC fitting, and the preferred date. Allow photos or a video on WhatsApp, and offer a survey for larger moves.
+
+Q: Should a packers and movers website mention insurance?
+A: Only if you genuinely arrange insurance through an insurer, with what it covers, the cost and how to claim. If not, describe your damage policy honestly instead. Implying cover that does not exist leads to disputes and damages trust when something breaks.
+
+Q: Do movers need separate pages for local and intercity shifting?
+A: Yes. Local moves are about truck size, team and timing, while intercity moves are about routes, transit times and securing goods on long journeys. Separate pages answer each customer's questions and rank for searches such as house shifting Lahore to Islamabad.
+
+Q: How can a moving company website reduce price disputes?
+A: List exactly what each quote includes, such as packing material, labour, loading, transport, unloading and unpacking, and what costs extra. Base quotes on a detailed form or survey, and confirm the final price in writing before moving day so it cannot change at the door.
+
+Q: What does a packers and movers website cost?
+A: Most movers fit our starter package at Rs 40,500, covering service pages, a detailed quote form, video survey requests, a packing gallery and reviews with WhatsApp routing. Companies with several city branches, storage or online deposits need the business package at Rs 85,500.
+
+Q: Can movers offer video surveys through their website?
+A: Yes. A video survey on WhatsApp lets customers walk the mover through each room, showing large items and access. It saves a home visit for smaller moves and gives a far more accurate quote than a form alone. Confirm the quote in writing afterwards.
+
+Q: Ghar shift karne wali company ki website par bharosa kaise banayein?
+A: Quote form mein kamre, bara saman, manzil aur route poochein, aur quote mein kya shamil hai saaf likhein. Packing ki asal tasveerein aur videos dikhayein, insurance sirf tab likhein jab waqai ho, aur asal customers ke reviews lagayein. Final qeemat likh kar dein.
+
+## Signage Company Website for Panaflex and Sign Board Makers: Quotes by Size and Project Gallery
+URL: https://kambohassociates.com/digital/blog/printing-and-signage-shop-website
+Updated: 2026-11-03
+Short answer: Shop owners ordering a sign board want a price quickly and want to see similar boards you have made. A signage company website should quote by size and material, show a gallery of installed boards by type, book site measurement and explain installation and permissions. Our starter package at Rs 40,500 covers this.
+Key points:
+- A quote form that asks for width, height, material and lighting gives customers a price range quickly.
+- Group the gallery by type: panaflex, 3D letters, acrylic, LED, neon, shop fronts and indoor signs.
+- Site measurement booking matters for large or high boards; offer it with clear areas and charges.
+- Explain installation, warranty on lighting and who handles permissions with landlords or markets.
+- This is different from a printing press website, which sells cards, brochures and packaging.
+
+Q: What should a sign board quote form ask?
+A: Ask for width and height, material, lighting type, location and height of installation, whether artwork exists or design is needed, and the deadline. Allow a photo of the shop front with rough measurements, which often makes a quick price estimate possible.
+
+Q: Should a panaflex printing website show prices?
+A: For simple panaflex boards, a price-per-square-foot range helps customers estimate the cost of their board quickly. For 3D letters, acrylic and LED signs, show a starting price and confirm after design and measurement. Date the price ranges and update them when material costs change.
+
+Q: What photos should a signage company show?
+A: Show installed boards grouped by type and business, in daylight and at night for lit signs, with size and material listed. Before-and-after shop front photos are especially persuasive. Ask clients for permission before showing their brand prominently on your website.
+
+Q: Who is responsible for sign board permissions?
+A: Usually the customer must get permission from the landlord, market committee or relevant authority, unless the sign company offers to handle it. State clearly on the website which applies, so customers are not surprised when installation is delayed or a board must be removed.
+
+Q: What does a signage company website cost?
+A: Most sign makers fit our starter package at Rs 40,500, with type pages, a quote form with photo upload, a gallery, measurement booking and WhatsApp routing. Companies handling multi-branch rollouts for brands with order tracking need the business package at Rs 85,500.
+
+Q: How should design approval work for sign boards?
+A: Send the final mock-up with measurements, colours and spelling on WhatsApp and ask for written approval before cutting or printing. Offer two or three concepts and a set number of revisions. Written approval prevents most disputes about mistakes after the board is made.
+
+Q: Sign board banane wali company ki website par kya hona chahiye?
+A: Size, material aur lighting ke hisaab se quote form, panaflex, 3D aur LED boards ki alag gallery, site naapne ki booking, installation ki tafseel aur design ki manzoori ka tareeqa. Dukaan ke samne ki tasveer upload karne ka option bhi dein, is se jaldi andaza mil jata hai.
+
+## You Only Sell on WhatsApp: When and How to Move From WhatsApp Business to a Website
+URL: https://kambohassociates.com/digital/blog/website-when-you-only-sell-on-whatsapp
+Updated: 2026-11-03
+Short answer: Moving from WhatsApp Business to a website does not mean leaving WhatsApp. A website lets new customers find you on Google, answers repeated questions, shows your catalogue and prices, and sends buyers back to WhatsApp to order. A one-page site starts at Rs 22,500; a full store with checkout starts at Rs 157,500.
+Key points:
+- Keep WhatsApp at the centre: the website's job is to bring new customers and answer questions, then send them to chat.
+- You probably need a website when the same questions eat your day, new customers cannot find you, or orders get lost in chats.
+- Start with the smallest step that solves your biggest problem: a one-page site, a catalogue site or a full store.
+- Move your WhatsApp catalogue, prices, delivery terms and reviews onto the site first; that is most of the content.
+- Measure one thing after launch, such as WhatsApp chats started from the website, and decide the next step from it.
+
+Q: Do I need a website if I already sell on WhatsApp?
+A: Not always. If referrals keep you busy and chats are manageable, WhatsApp may be enough for now. You likely need a website when you answer the same questions all day, new customers cannot find you on Google, orders get lost in chats, or buyers doubt you are genuine.
+
+Q: Will a website replace my WhatsApp orders?
+A: It does not have to. For most small sellers in Pakistan the best set-up is a website that sends buyers to WhatsApp with the product already named. The website answers questions and builds trust, while the final order and payment confirmation still happen in chat.
+
+Q: How do I move my WhatsApp catalogue to a website?
+A: Export product names, photos, prices and descriptions from your catalogue, along with your delivery, payment and return terms. These become product and policy pages. Add a WhatsApp button on each product page, pre-filled with the product name and code, so you know which page each chat came from.
+
+Q: What is the cheapest way to add a website to a WhatsApp business?
+A: A one-page site with your products or services, prices, delivery areas, reviews and a WhatsApp button is the cheapest useful step, starting at Rs 22,500 with us. It gives you a link for your WhatsApp profile and something Google can show when people search for you.
+
+Q: When should a WhatsApp seller build a full online store?
+A: When orders are frequent enough that manual handling causes mistakes, when customers ask to pay online, or when your catalogue is too large to manage in chats. A full store with checkout, payments, COD and courier integration starts at Rs 157,500. Many sellers do well with a catalogue site first.
+
+Q: Can a website send orders straight to WhatsApp?
+A: Yes. Product buttons can open WhatsApp with the product name and code already typed, and order forms can deliver their details to your WhatsApp number. For high volumes, the WhatsApp Business Platform can send confirmations and delivery updates automatically, at an additional cost.
+
+Q: Should I keep prices on the website if I sell on WhatsApp?
+A: Usually yes. Hiding prices to force a chat tends to bring more time-wasting conversations and fewer serious buyers. Show prices and delivery charges clearly, date them, and keep them in step with your WhatsApp catalogue so customers see the same figures everywhere.
+
+Q: How long does it take to move from WhatsApp to a website?
+A: If your catalogue, photos and policies are ready, a one-page site can be live in about a week and a catalogue site in a few weeks. A full store takes longer because payments, courier set-up and testing are involved. Collecting content is usually the slowest part.
+
+Q: Sirf WhatsApp par business hai, website kab banwayein?
+A: Jab roz ek hi sawalon ke jawab dene mein ghante lag jayein, naye customer Google par aap ko na dhoond saken, ya orders chats mein gum hone lagein. Website WhatsApp ki jagah nahi leti, balke naye customer la kar unhein seedha aap ki chat tak pohanchati hai.
+
+## No Logo or Brand Yet? How to Start Your Website Without a Logo
+URL: https://kambohassociates.com/digital/blog/website-without-logo-or-brand
+Updated: 2026-11-03
+Short answer: You can launch a website without a logo. What you need is a clear business name, two or three colours, one readable font and good photos. A text wordmark in a well-chosen font works as a temporary logo, and the website can be updated when proper branding is ready. A one-page site starts at Rs 22,500.
+Key points:
+- A logo is not what makes customers buy; clear information, prices, photos and trust signals are.
+- Start with a wordmark: your business name set in one good font, in one main colour.
+- Choose two or three colours and one or two fonts, and use them everywhere, including WhatsApp and social media.
+- Make sure the business name is not already used by a competitor before printing anything.
+- Invest in full branding once you know your customers and the business has some steady income.
+
+Q: Can I launch a website without a logo?
+A: Yes. Customers choose small businesses because the website explains what they offer, shows prices and photos and makes contact easy, not because of the logo. Use your business name in one good font as a wordmark, pick two or three colours, and replace it with a designed logo later.
+
+Q: What is a wordmark logo?
+A: A wordmark is your business name written in a chosen font, sometimes with adjusted spacing or one letter in a different colour. It is easy to read on phones, costs nothing to create and works as a temporary or permanent logo. Many well-known brands use wordmarks.
+
+Q: How do I choose colours for my website without a brand guide?
+A: Choose one main colour that suits your business, one accent colour for buttons and highlights, and one neutral for backgrounds. Check that text is easy to read on them, then use the same three colours on your website, WhatsApp profile, social media and printed materials.
+
+Q: Should I check my business name before building a website?
+A: Yes. Search Google, Google Maps and social media for similar businesses with the same name in your area, and check whether the domain is available. Renaming after launch means a new domain, redirects, new printing and confusion for customers, which costs far more than checking first.
+
+Q: When is the right time to pay for professional branding?
+A: Once you understand your customers and have steady sales, before opening a physical shop, printing large packaging runs or seeking investment. At that point a designer can base the logo on what customers actually value, rather than guesses made before the business started.
+
+Q: How much does a website cost if I have no logo yet?
+A: The same as any small website. A one-page site starts at Rs 22,500 and our starter site at Rs 40,500. We set up a wordmark, colours and fonts as part of the build and structure the site so a designed logo can be swapped in later without rework.
+
+Q: Logo ke baghair website banwa sakte hain?
+A: Bilkul. Customer logo dekh kar nahi, balke saaf maloomat, qeematein, tasveerein aur rabte ki asani dekh kar khareedte hain. Apne business ka naam ek achay font mein likh kar shuru karein, do teen rang chun lein, aur baad mein designer se logo banwa kar badal dein.
+
+## Urgent Website in One Week: What Can Be Done, What Cannot, and an Honest Timeline
+URL: https://kambohassociates.com/digital/blog/urgent-website-in-one-week
+Updated: 2026-11-03
+Short answer: An urgent website can go live in seven days if it is a focused landing page or a small site of three to five pages, and if your content, photos and decisions arrive on time. Online stores, custom features and large sites cannot be done well in a week. A one-page site starts at Rs 22,500.
+Key points:
+- In one week, plan for a landing page or a three to five page site, not a full store or web app.
+- The real bottleneck is your content and approvals, not the developer's typing speed.
+- Have the domain, text, photos, logo or wordmark and contact details ready on day one.
+- Agree on one decision-maker who can approve the design and text within hours, not days.
+- Launch the essential version first, then add pages and features in a planned second phase.
+
+Q: Can a website really be built in one week?
+A: Yes, if it is a focused landing page or a small site of three to five pages and your content, photos and approvals arrive on time. Online stores, custom features and large sites cannot be done well in seven days and should be planned as a second phase.
+
+Q: What should I prepare for an urgent website project?
+A: Prepare the domain in your own name, final text or answers to a content questionnaire, ten to twenty real photos, your logo or wordmark decision, and exact contact details and hours. Having these ready on day one is what makes a one-week timeline realistic.
+
+Q: Why do fast website projects get delayed?
+A: Delays usually come from missing text and photos, domain access problems, and slow or conflicting feedback from several family members or partners. Agree on one decision-maker who can approve design and text within hours, and gather all content before the developer starts.
+
+Q: Is a rushed website bad for SEO?
+A: Not if the basics are done: clear page titles and descriptions, real text instead of placeholders, a sitemap, mobile-friendly layout and Search Console set-up. A small, well-made site can rank and grow. Problems come from thin pages filled with placeholder text.
+
+Q: How much does an urgent website cost?
+A: A one-page site starts at Rs 22,500 and our starter site of a few pages at Rs 40,500. Very tight deadlines may require rescheduling other work, which we discuss before agreeing to a date. Content readiness affects the timeline more than the price.
+
+Q: What should I add to my website after an urgent launch?
+A: Plan a second phase once the deadline passes: extra service pages, a blog, Urdu content, a booking tool or an online store. Base it on what visitors and customers actually ask for in the first few weeks, which spreads cost and avoids building features nobody uses.
+
+Q: Ek hafte mein website ban sakti hai?
+A: Haan, agar ek page ki ya teen se paanch pages ki chhoti website ho aur text, tasveerein aur manzoori waqt par mil jayein. Online store ya khaas features ek hafte mein theek se nahi bante. Domain, text aur tasveerein pehle din tayyar rakhein aur feedback sirf ek shakhs de.
+
+## Website Under 25000 Rupees in Pakistan: Honest Options and Their Limits
+URL: https://kambohassociates.com/digital/blog/website-under-25000-rupees
+Updated: 2026-11-03
+Short answer: For a website under 25000 rupees, the realistic options are a professionally built one-page site, a do-it-yourself website builder plan, or a small freelancer project. Each can work if you accept its limits. Our one-page site costs Rs 22,500, with domain set-up, mobile design and a WhatsApp button included.
+Key points:
+- Under Rs 25,000, aim for one strong page that explains your business and gets enquiries, not a large site.
+- Website builders cost little to start but need your time, and monthly plan fees add up over the years.
+- Very cheap freelance offers often skip ownership, security and backups; ask before paying.
+- Make sure the domain is registered in your name, whatever option you choose.
+- Plan the next step: a budget site should be easy to extend when the business grows.
+
+Q: Can I get a good website for under Rs 25,000 in Pakistan?
+A: Yes, if you keep the scope to one strong page. A professionally built one-page site with services, photos, contact form, WhatsApp button and mobile design can work well for a small business. Our one-page site costs Rs 22,500, with the domain registered in your name.
+
+Q: Does a builder plan cost less than a developer over time?
+A: The first month is often cheaper, but builder plans charge monthly or yearly for as long as the site exists, often in foreign currency, and you spend your own time building it. Moving to another platform later usually means a rebuild. Compare the total cost over two or three years.
+
+Q: What is missing from very cheap website offers?
+A: Often the domain is registered in the developer's name, there is no backup or admin login at handover, themes are unlicensed, security updates are ignored and support after launch is unclear. Ask about each of these before paying, and look at recent sites the person has built.
+
+Q: What does a one-page business website include?
+A: Usually a header with your name and contact, sections for services or products, an about section, a gallery, prices if shown, a contact form and WhatsApp button, plus mobile and speed checks and basic search set-up. It can be expanded into a multi-page site later.
+
+Q: What yearly costs does a cheap website have?
+A: A domain renewal each year, hosting, and occasional updates. Watch hosting deals with a cheap first year and a much higher renewal. Many one-page sites need little ongoing work, but if you prefer us to handle updates, maintenance starts at Rs 7,200 a month.
+
+Q: When should I upgrade from a one-page website?
+A: When enquiries grow and visitors ask questions that need their own pages, such as separate services, a blog or a booking form. Our starter site at Rs 40,500 is the usual next step, and a one-page site we built can be expanded into it without starting from scratch.
+
+Q: Kam budget mein website kaise banwayein?
+A: Kam budget mein ek achi tarah bana hua ek page wala website behtareen rasta hai, jis mein services, tasveerein, qeematein, contact form aur WhatsApp button ho. Hamari one-page website Rs 22,500 ki hai. Bas yaad rakhein ke domain aap ke apne naam par register ho.
+
+## Your Developer Disappeared Mid-Project: How to Recover Accounts and Restart
+URL: https://kambohassociates.com/digital/blog/developer-disappeared-mid-project
+Updated: 2026-11-03
+Short answer: If your developer disappeared mid-project, act in this order: secure the domain and hosting, collect every file and login you can, record what was paid and delivered, then have a new developer assess the work before deciding to finish or rebuild. Most recoveries take 1 to 3 weeks.
+Key points:
+- Secure the domain first; whoever controls it controls your website and email.
+- Gather every login, file, message and payment record before contacting the developer again.
+- Send one clear written message asking for access and a handover by a specific date.
+- Get an independent assessment of the unfinished work before paying anyone to continue it.
+- Restart with milestone payments, accounts in your name and a written agreement.
+
+Q: What should I do first if my web developer stops responding?
+A: Secure what you control before anything else. Check who the domain is registered to, whether you can log in to the hosting and the website admin, and download any files or staging content still accessible. Then gather your agreement, payments and messages as a record.
+
+Q: How do I get my domain back from a developer?
+A: If the domain is registered in your name, contact the registrar, verify your identity and reset access. If it is in the developer's name, ask in writing for a transfer, citing your payment, and contact the registrar with your proof. This is why domains must always be registered to the owner.
+
+Q: Should a new developer finish the old developer's work?
+A: Only after an assessment. A new developer should check whether files and database are complete, whether themes and plugins are licensed, whether the code is safe and understandable and how much scope is finished. Sometimes finishing is cheaper, sometimes rebuilding on a clean base is.
+
+Q: Can I get my money back from a freelancer who disappeared?
+A: It depends on the agreement, what was delivered and how you paid. Start with a written request. Use the platform's dispute process if you hired through a freelancing site, and ask a lawyer about larger amounts. Recovering your domain and files is usually the more urgent priority.
+
+Q: How do I avoid a developer disappearing again?
+A: Keep the domain, hosting and Google accounts in your name, sign a written scope and timeline, pay in milestones tied to visible progress, ask for weekly updates and staging access, and require a full handover at the end. These steps limit the damage if anything goes wrong.
+
+Q: How much does it cost to restart an unfinished website?
+A: It depends on what can be reused. After an assessment, small business sites usually restart on our starter package at Rs 40,500 or business package at Rs 85,500. We give a written plan and fixed price once we have seen the existing files and agreed the remaining scope.
+
+Q: Developer bhaag gaya, ab website ka kya karoon?
+A: Sab se pehle domain aur hosting apne control mein karein aur jo files aur logins mil sakein le lein. Payment, agreement aur messages ka record rakhein. Developer ko ek saaf likhit message bhejein aur tareekh dein. Phir naye developer se kaam ka jaiza lein ke mukammal karna sasta hai ya dobara banana.
+
+## New Website Not Showing on Google After Launch: Causes, Checks and Fixes
+URL: https://kambohassociates.com/digital/blog/website-not-showing-on-google
+Updated: 2026-11-03
+Short answer: A new website not on Google is usually blocked by a setting or simply not discovered yet. Run 4 checks: Search Console's URL Inspection, look for a leftover noindex tag or a robots.txt block, submit a sitemap and request indexing. New sites often take a few days to a few weeks to appear, and ranking takes longer.
+Key points:
+- Search your exact domain on Google first; being indexed and ranking for keywords are different things.
+- The most common blocker is a 'discourage search engines' or noindex setting left on after development.
+- Set up Google Search Console, submit your sitemap and use URL Inspection on the homepage.
+- Thin pages with little text, or near-copies of other pages, may be crawled but not indexed.
+- A Google Business Profile and a few genuine links from other sites help Google discover a new business.
+
+Q: Why is my new website not showing on Google?
+A: Usually because Google has not discovered it yet, or a setting is blocking it. Check for a noindex tag, a WordPress 'discourage search engines' setting, a robots.txt block or password protection. Then add the site to Search Console, submit a sitemap and request indexing for the homepage.
+
+Q: How do I check if Google has indexed my website?
+A: Search site:yourdomain on Google to see indexed pages, then use URL Inspection in Google Search Console for a definite answer on any page. URL Inspection also explains why a page is not indexed and lets you test the live page after fixing problems.
+
+Q: How long does Google take to index a new website?
+A: There is no fixed time. Many new sites appear within a few days of submitting a sitemap and requesting indexing, while others take a few weeks. Requesting indexing repeatedly does not speed it up. If weeks pass with no indexing and no blockers, review content quality and discoverability.
+
+Q: What does crawled but not indexed mean in Search Console?
+A: Google visited the page but chose not to include it for now. On small new sites this often means the page has little unique content or closely duplicates other pages. Add useful, specific information, merge near-identical pages and request indexing again after improving them.
+
+Q: Does submitting a sitemap guarantee my site appears on Google?
+A: No. A sitemap helps Google discover your pages, but Google still decides what to crawl and index. Make sure pages are not blocked, have useful content and are linked from your homepage and menu. A Google Business Profile and genuine links also help discovery.
+
+Q: Can a developer's setting stop my site appearing on Google?
+A: Yes. Developers often switch on noindex or 'discourage search engines' during development so unfinished pages stay out of search. If it is not switched off at launch, Google will not index the site. Ask your developer to confirm, or check the page source and WordPress reading settings.
+
+Q: Nayi website Google par kyun nahi aa rahi?
+A: Aksar developer ki lagai hui noindex setting launch ke baad bhi lagi reh jati hai, ya Google ne website ab tak dhoondi hi nahi. Search Console mein site add karein, URL Inspection chalayein, sitemap submit karein aur indexing request karein. Aam tor par kuch din se kuch hafte lagte hain.
+
+## 'This Site May Be Hacked' Warning on Google: How to Find the Cause and Remove It
+URL: https://kambohassociates.com/digital/blog/google-site-may-be-hacked-warning
+Updated: 2026-11-03
+Short answer: The 'this site may be hacked' label appears when Google finds content on your site that an attacker added, often spam pages or hidden links. To remove it, follow 4 steps: open the Security Issues report in Search Console, clean every affected page, fix how the attacker got in, then request a review. Reviews usually take days to weeks.
+Key points:
+- The label is shown in search results because Google detected hacked content, often spam pages in another language.
+- Search Console's Security Issues report lists the problem type and sample URLs; start there.
+- Cleaning the visible spam is not enough; you must also close the way in, or it will return.
+- Request a review only after the site is fully clean, and describe what you fixed.
+- Prevention is cheaper: updates, strong passwords, fewer plugins, backups and monitoring.
+
+Q: Why does Google show 'this site may be hacked' for my website?
+A: Google detected content that a third party added without permission, most often spam pages about medicines, gambling or brands, hidden links in real pages, or redirects that send search visitors elsewhere. The label warns searchers, so fewer people click until the site is cleaned and reviewed.
+
+Q: How do I remove the hacked warning from Google search results?
+A: Find the problem in Search Console's Security Issues report, clean every affected page and file, close the security hole by updating software and changing passwords, then click Request review with a short description of what you fixed. The label is removed after Google confirms the site is clean.
+
+Q: How long does Google take to review a hacked site?
+A: Reviews usually take a few days but can take longer. If Google finds remaining hacked content, the request is rejected and you must clean again before resubmitting. Submitting before the site is fully clean only adds delay, so check thoroughly first.
+
+Q: Why do Japanese spam pages appear on my website?
+A: This is a common attack, sometimes called the Japanese keyword hack, where attackers create many pages in Japanese selling counterfeit goods through a vulnerable plugin, theme or stolen password. Remove the pages, find and close the entry point, and request a Google review.
+
+Q: Is deleting the spam pages enough to fix a hacked site?
+A: No. If the way the attacker got in stays open, the spam usually returns within days. Change all passwords, remove unknown admin users, update the platform, theme and plugins, replace core files and scan for added code before requesting a review.
+
+Q: How much does it cost to clean a hacked website?
+A: It depends on how deep the infection goes and the platform. We quote after a short assessment. Ongoing updates, backups and monitoring that help prevent repeat hacks are covered by our maintenance plan from Rs 7,200 a month, which is usually far cheaper than repeated clean-ups.
+
+Q: Google par 'this site may be hacked' kyun likha aa raha hai?
+A: Google ko aap ki website par aisa content mila hai jo kisi hacker ne dala hai, aksar dawaiyon ya jooye ke spam pages. Search Console ki Security Issues report dekhein, sab spam hatayein, passwords badlein, plugins update karein aur phir review request bhejein.
+
+## Changed Your Business Name? How to Rebrand Your Website Without Losing Customers
+URL: https://kambohassociates.com/digital/blog/rebrand-website-after-business-name-change
+Updated: 2026-11-03
+Short answer: To rebrand a website after a name change, keep the old domain, move to the new one with permanent 301 redirects page by page, tell Google through Search Console's Change of Address tool, and update every profile and listing. Done carefully, most traffic transfers within a few weeks to a few months.
+Key points:
+- Never let the old domain expire; keep renewing it for years so redirects keep working.
+- Redirect every old page to its matching new page with a 301, not everything to the homepage.
+- Use Search Console's Change of Address tool after the redirects are live.
+- Update your Google Business Profile, social profiles, directories, email signatures and printed material.
+- Tell customers directly and keep the old name visible for a while, such as 'formerly known as'.
+
+Q: Will changing my business name hurt my Google rankings?
+A: It can for a few weeks if you move to a new domain, but careful 301 redirects from every old page to its matching new page, plus Search Console's Change of Address tool, usually let rankings settle on the new domain. Keep the old domain renewed so redirects keep working.
+
+Q: Do I need a new domain when I rename my business?
+A: Only if the old domain contains the old name or you have a legal reason to stop using it. If the domain still fits, keep it and update the branding on the site. If you move, register the new domain in your own name and redirect every old page.
+
+Q: How long should I keep redirects after a rebrand?
+A: At least a year, and ideally for as long as you can keep the old domain renewed. Old links in directories, social posts and other websites continue sending visitors for years, and removing redirects early turns those visits into errors and lost customers.
+
+Q: What is Google's Change of Address tool?
+A: It is a feature in Google Search Console that tells Google your site has moved to a new domain. You use it from the old domain's property after setting up 301 redirects and verifying both domains. It helps Google transfer signals to the new address faster.
+
+Q: How do I tell customers about our new business name?
+A: Announce it by WhatsApp broadcast, email and social media, explaining what changed and what stays the same. Add a 'formerly known as' line on the new website's footer and About page for several months, and update your Google Business Profile so searches for either name find you.
+
+Q: What does it cost to rebrand a business website?
+A: Changing branding on the same site is usually a small job. Moving to a new domain with redirect mapping, Search Console set-up and profile updates takes more work. A full redesign at the same time is priced like a new site, from our business package at Rs 85,500.
+
+Q: Business ka naam badal gaya, website ka kya karein?
+A: Purana domain kabhi expire na hone dein. Naye domain par har purane page ka 301 redirect lagayein, Search Console mein Change of Address tool istemal karein, aur Google Business Profile, social media aur directories mein naam update karein. Customers ko WhatsApp par naye naam ke baare mein batayein.
+
+## Change Domain Extension From .com to .pk, or Back: SEO Risks, Email and Redirects
+URL: https://kambohassociates.com/digital/blog/switch-com-to-pk-domain
+Updated: 2026-11-03
+Short answer: A change of domain extension from .com to .pk, or the reverse, is a full site move. It can make sense if your market changed, but it carries short-term ranking risk and email set-up work. If you switch, keep both domains, redirect every page with a 301 and use Search Console's Change of Address tool. Most moves settle within weeks.
+Key points:
+- Switch only for a real reason, such as a mainly Pakistani or mainly international audience, not for a small gain.
+- A .pk domain signals Pakistan to visitors and Google; a .com is neutral and familiar worldwide.
+- Treat the switch as a site move: page-by-page 301 redirects and the Change of Address tool.
+- Plan email carefully; business mailboxes, forwarding and DNS records all change with the domain.
+- Keep renewing the old domain, and buy the other extension anyway to protect your name.
+
+Q: Is .pk better than .com for a Pakistani business?
+A: A .pk domain clearly signals a Pakistani business to visitors and Google, which suits companies serving mainly Pakistan. A .com is neutral and familiar worldwide, which suits exporters and mixed audiences. Either can rank well in Pakistan with local content, a Pakistani address and a Business Profile.
+
+Q: Will changing from .com to .pk hurt my SEO?
+A: There is usually a temporary fluctuation while Google processes the move. With page-by-page 301 redirects, the Change of Address tool in Search Console, an updated sitemap and redirects kept in place long-term, most sites recover. Missing or homepage-only redirects cause lasting losses.
+
+Q: What happens to my email if I change domain extension?
+A: Your addresses change with the domain. Set up mailboxes on the new domain, configure SPF, DKIM and DMARC records, forward old addresses to new ones for a long period, and update signatures, invoices and printed material so customers and suppliers can still reach you.
+
+Q: Should I buy both .com and .pk domains?
+A: Often yes, to protect your name. Use one as the main site and redirect the other to it. This stops competitors or squatters from taking the other extension and gives you the option to switch later without losing the name you have built.
+
+Q: How do I register a .pk domain?
+A: A .pk or .com.pk domain is registered through PKNIC, Pakistan's registry, directly or through an authorised registrar. Register it in your own name with your own email as the contact, and check PKNIC's pages for current payment and renewal details.
+
+Q: How much does it cost to move a website to a new domain extension?
+A: Apart from registering the new domain, the cost depends on the number of pages and email accounts to move. Small sites need modest work on redirects, Search Console and email; large stores take longer. We quote after reviewing the site, and post-move monitoring is part of maintenance from Rs 7,200 a month.
+
+Q: Kya .com se .pk par shift hona chahiye?
+A: Sirf tab jab koi asal wajah ho, jaise aap ke customer ab sirf Pakistan mein hain. Yeh poori website ki muntaqili hai, is liye har page ka 301 redirect, Search Console ka Change of Address tool aur email ki tayyari zaroori hai. Purana domain renew karte rahein.
+
+## Add a Payment Gateway to Your Existing Website: Options by Platform, Onboarding and Testing
+URL: https://kambohassociates.com/digital/blog/add-online-payments-to-existing-website
+Updated: 2026-11-03
+Short answer: To add a payment gateway to a website you already have, first choose a provider that accepts your business, complete its merchant onboarding, then connect it through a plugin on WordPress, an app or provider on Shopify, or an API on a custom site. Test real transactions before going live. Onboarding often takes 1 to 3 weeks.
+Key points:
+- Onboarding with the payment provider, not the technical work, usually takes the longest.
+- Prepare business documents, a bank account in the business name and clear website policies before applying.
+- WordPress sites use a plugin, Shopify uses its supported providers, and custom sites use the provider's API.
+- Test successful, failed and refunded payments in sandbox and then live before announcing.
+- Keep cash on delivery or bank transfer as options while customers get used to paying online.
+
+Q: How do I add a payment gateway to my existing website?
+A: Choose a provider that accepts your business type, complete its merchant onboarding with your documents and website policies, then connect it with the official plugin on WordPress, the payment settings on Shopify or the provider's API on a custom site. Test payments thoroughly before going live.
+
+Q: What documents do payment providers in Pakistan ask for?
+A: Usually identity documents such as CNIC or company registration papers, a bank account in the business name, and a live website with prices, contact details, delivery terms, refund policy, terms and privacy policy. Exact requirements vary by provider, so check their current list.
+
+Q: Can I add JazzCash or Easypaisa to a WordPress website?
+A: Usually yes, through a plugin for WooCommerce or a payment form plugin, after you complete merchant onboarding with the provider and receive your credentials. Use official or well-maintained plugins, keep them updated, and test successful, failed and refunded payments before accepting real orders.
+
+Q: How long does it take to start accepting online payments?
+A: The technical set-up can take days, but merchant onboarding with the provider often takes one to three weeks, depending on documents and website checks. Having policy pages and business documents ready before applying is the best way to avoid delays.
+
+Q: Should I remove cash on delivery after adding online payments?
+A: Usually not at first. Many Pakistani customers still prefer COD or bank transfer. Offer online payment alongside them, consider a small incentive for paying online, and watch how the share of online payments grows before deciding whether to limit COD.
+
+Q: How much does it cost to add payments to a website?
+A: Providers charge transaction fees under their agreements. Integration cost depends on the platform: setting up a plugin on an existing WooCommerce store is a small job, while a custom API integration takes longer. A complete store build with payments starts with our store package at Rs 157,500.
+
+Q: Purani website par online payment kaise lagayein?
+A: Pehle aisa payment provider chunein jo aap ke business ko qubool kare, aur merchant onboarding ke liye CNIC, business bank account aur website ki policies tayyar rakhein. Phir WordPress par plugin, Shopify par payment settings ya custom site par API se jorein, aur live karne se pehle test zaroor karein.
+
+## Add Urdu to Your Website: Plugins or Separate Pages, Right-to-Left Layout and Hreflang
+URL: https://kambohassociates.com/digital/blog/add-urdu-to-english-website
+Updated: 2026-11-03
+Short answer: To add Urdu to a website already in English, decide which pages need Urdu, choose a multilingual plugin or separate Urdu pages, set the layout to right-to-left with a readable Nastaliq or Naskh font, add hreflang tags, and have a person, not a machine alone, check every translation. Most small sites need 5 to 10 Urdu pages.
+Key points:
+- Translate the pages that bring enquiries first: home, main services, prices and contact.
+- Plugins such as WPML or Polylang manage language versions on WordPress; custom sites use separate URLs.
+- Urdu needs right-to-left layout and a font that renders well on phones; test on real Android devices.
+- Add hreflang tags so Google shows the right language version in search results.
+- Machine translation is a starting point; a fluent person must review tone, terms and numbers.
+
+Q: How do I add Urdu to an English website?
+A: Choose the pages to translate first, then use a multilingual plugin such as WPML or Polylang on WordPress, or build separate Urdu pages with their own URLs on a custom site. Set right-to-left direction, use an Urdu font, add hreflang tags and have a fluent person review every translation.
+
+Q: Which pages should be translated into Urdu first?
+A: Start with the pages that bring enquiries: the homepage, main service or product pages, prices, about page and contact. Stores should add delivery and refund policies. Translate blog posts later, based on what Urdu-speaking visitors actually read on the site.
+
+Q: Is Google Translate good enough for an Urdu website?
+A: Not on its own. Machine translation is useful for a first draft but often gets business terms, tone and numbers wrong, and browser translation widgets may not be visible to Google. Have a fluent person review and correct every page before publishing it.
+
+Q: What is hreflang and do I need it for Urdu pages?
+A: Hreflang tags tell Google that an English page and an Urdu page are versions of each other, so each searcher sees the right one. Each version lists itself and the other. Multilingual plugins usually add them automatically; custom sites need a developer to add them.
+
+Q: Which font should I use for Urdu on a website?
+A: Use a font designed for Urdu, such as Noto Nastaliq Urdu or a clear Naskh font, loaded properly on the site. Test on mid-range Android phones, increase line height for comfortable reading, and check that headings and buttons do not get cut off in right-to-left layout.
+
+Q: How much does it cost to add Urdu to an existing website?
+A: It depends on the number of pages, the platform and whether translation is included. Adding a plugin and right-to-left styling to a WordPress site is a moderate job, while a custom site takes a little longer. Keeping both languages updated can be part of maintenance from Rs 7,200 a month.
+
+Q: Angrezi website mein Urdu kaise shamil karein?
+A: Pehle woh pages chunein jin se enquiries aati hain, jaise home, services, qeematein aur contact. WordPress par WPML ya Polylang jaisa plugin, ya custom site par alag Urdu pages banayein. Right-to-left layout, Urdu font aur hreflang tags lagayein, aur har tarjuma kisi Urdu jaanne wale se check karwayein.
+
+## Add a Blog to Your Website: When It Helps a Small Business and When It Wastes Time
+URL: https://kambohassociates.com/digital/blog/add-blog-to-business-website
+Updated: 2026-11-03
+Short answer: It is worth adding a blog to your website when you can regularly answer real questions your customers ask before buying, in your own words and from your own experience. 2 good articles a month beat 20 thin ones. If you cannot spend about 4 hours a month on it, improve your service pages instead.
+Key points:
+- A blog helps when it answers the questions buyers ask before choosing, such as costs, comparisons and how-to steps.
+- Write from first-hand experience; generic articles rewritten from other sites rarely rank or convert.
+- Consistency matters more than volume: two useful posts a month is a sustainable start.
+- AI answers in search reduce clicks for simple questions, so focus on detailed, specific topics only you can write.
+- Every post should link to the service or product it relates to, so readers have a next step.
+
+Q: Is a blog worth it for a small business website?
+A: It is worth it when customers research before buying and someone in the business can regularly write useful answers from real experience. If customers mostly find you through referrals or Maps and nobody can write, improving service pages, FAQs and reviews is usually a better use of time.
+
+Q: What should a business blog write about?
+A: Write about questions close to a buying decision: costs and what affects them, comparisons between options, what to do when a problem occurs, how your process works, and local or seasonal topics in your field. Start with the questions your staff answer most often.
+
+Q: How often should a small business post on its blog?
+A: Consistency matters more than volume. Two useful posts a month is a sustainable start for most small businesses. A steady small schedule looks far better to readers and search engines than a burst of posts followed by a year of silence.
+
+Q: Does AI search make business blogs less useful?
+A: It makes thin, generic posts less useful, because AI answers cover simple facts directly. Detailed articles with first-hand experience, real examples, local prices and clear steps still earn clicks and can be cited in AI answers, so focus on topics only your business can write well.
+
+Q: Should my business blog be on a separate website?
+A: No. Keep it on your own domain, such as yourbusiness.pk/blog, so every article strengthens your main site and links naturally to your services. Free blogging platforms on another domain do little for your business website and are harder to move later.
+
+Q: How much does it cost to add a blog to a website?
+A: The technical set-up of a blog section on most WordPress and modern sites is a small job. The ongoing cost is writing time. If you write the posts and want us to publish and maintain them, that fits within maintenance from Rs 7,200 a month.
+
+Q: Kya business website par blog hona zaroori hai?
+A: Zaroori nahi. Agar aap ke customer khareedne se pehle sawal search karte hain aur aap mahine mein do achay articles apne tajurbe se likh sakte hain, to blog faida deta hai. Warna services ke pages, FAQs, qeematein aur reviews behtar banana zyada asar karta hai.
+
+## Multi Location Website for a Business With Several Branches or Cities
+URL: https://kambohassociates.com/digital/blog/multi-location-business-website
+Updated: 2026-11-03
+Short answer: A multi location website needs one real page per branch, each with its own address, hours, phone, photos, team and services available there, plus a store locator and one Google Business Profile per branch. Avoid copying the same page with only the city name changed. Branch-ready builds start from Rs 85,500.
+Key points:
+- Create a page only for branches that physically exist, each with genuinely local details.
+- Copied pages that change only the city name are doorway pages and can hurt the whole site.
+- Give every branch its own Google Business Profile with matching name, address and phone.
+- Add LocalBusiness structured data per branch page, nested under the main organisation.
+- A store locator helps visitors find the nearest branch; keep hours and holiday timings current.
+
+Q: Should every branch have its own page on the website?
+A: Yes, every physical branch that serves customers should have its own page with its address, map, phone, hours, photos, services available there and local details such as parking. Do not create pages for areas where you have no branch; describe service areas on one page instead.
+
+Q: Are city landing pages bad for SEO?
+A: Copied pages that change only the city name, especially for places where you have no branch, are treated by Google as doorway pages and can lower trust in the whole site. Pages for real branches with genuinely local content are fine and helpful.
+
+Q: Does each branch need a separate Google Business Profile?
+A: Each physical branch that serves customers in person should have its own profile with its own address, phone and hours, linked to its branch page on the website. Keep the business name pattern consistent and the details identical between the profile and the website.
+
+Q: What schema should a multi-branch business use?
+A: Add LocalBusiness structured data, or a more specific type such as a store or clinic, to each branch page with its address, phone, hours and coordinates, and connect each branch to the parent organisation. Test the markup with Google's Rich Results Test.
+
+Q: How do I handle a branch that closes?
+A: Mark it as permanently closed on its Google Business Profile, remove it from the branch finder, and redirect its page to the nearest open branch or the branch finder with a 301. Tell regular customers where to go instead, by WhatsApp or a notice.
+
+Q: What does a multi location business website cost?
+A: A business with a few branches fits our business package at Rs 85,500, including branch pages, a branch finder and structured data. Large chains with many branches, stock by branch or bookings per location may need custom development, quoted after we understand how the branches operate.
+
+Q: Kai branches wale business ki website kaise banayein?
+A: Har asal branch ka alag page banayein jis mein pata, map, phone, timings, us branch ki tasveerein aur wahan ki services hon. Har branch ki apni Google Business Profile ho. Sirf shehar ka naam badal kar ek jaise pages na banayein, Google inhein doorway pages samajhta hai.
+
+## Franchise Website Structure: Central Brand Content, Local Outlet Pages and Lead Routing
+URL: https://kambohassociates.com/digital/blog/franchise-website-structure
+Updated: 2026-11-03
+Short answer: A franchise website keeps the brand, menu or services and prices consistent from head office, while each outlet gets its own page with local details that the franchisee can update within limits. Enquiries and orders should route automatically to the right outlet. Simple set-ups start from Rs 85,500; larger networks need a custom build.
+Key points:
+- Head office controls the brand, core content and prices; franchisees edit only their outlet's local details.
+- Each outlet needs its own page and Google Business Profile with genuinely local information.
+- Route leads and orders by location so the nearest outlet receives them within minutes.
+- A 'become a franchisee' section with clear requirements attracts serious applicants and filters out the rest.
+- Decide early who owns the domain, accounts and customer data, and write it into the franchise agreement.
+
+Q: What should head office control on a franchise website?
+A: Head office should control the logo, colours, layout, brand story, product or service range and standard prices, because these keep the brand consistent. Franchisees should edit only their outlet's address, phone, hours, photos and approved local offers, enforced through user roles.
+
+Q: Can franchisees edit their own pages on the brand website?
+A: Yes, with limits. On WordPress or a custom system, user roles can let each franchisee log in and edit only their own outlet page and offers, while core pages stay locked. Head office should review changes to offers before they go live.
+
+Q: How should a franchise website route customer enquiries?
+A: Route each enquiry, booking or order to the outlet the customer chose or the one nearest their address, within minutes, with a copy to head office for reporting. Track response time per outlet, because slow replies from one outlet damage the whole brand.
+
+Q: Should a franchise website have a page for becoming a franchisee?
+A: Yes. It often brings the brand's most valuable enquiries from serious investors. Explain requirements, support and application steps, and use a form asking for city, investment available, business experience and preferred location. Avoid profit promises; let applicants assess the opportunity themselves.
+
+Q: Who owns the customer data on a franchise website?
+A: Decide it in the franchise agreement before launch. Usually the franchisor owns the domain, website, social accounts and customer database, and franchisees get access to their outlet's leads. When a franchisee leaves, their access is removed and their page closed or reassigned.
+
+Q: How much does a franchise website cost?
+A: A franchise with a few outlets, locked core content and franchisee-edited outlet pages fits our business package at Rs 85,500. Larger networks with online ordering per outlet, lead routing and reporting dashboards need a custom build, often from Rs 360,000.
+
+Q: Franchise ki website mein kis cheez ka control kis ke paas ho?
+A: Brand, logo, rang, menu ya services aur qeematein head office ke paas hon. Har franchisee sirf apni outlet ka pata, phone, timings, tasveerein aur manzoor shuda local offers badal sake. Customer ki enquiry khud ba khud qareebi outlet ko pohanchni chahiye.
+
+## Website for a Home Based Business: Keeping Your Address Private While Building Trust
+URL: https://kambohassociates.com/digital/blog/home-based-business-website
+Updated: 2026-11-03
+Short answer: A home based business website can look as professional as any shop's without showing your street address. Use a service area instead of an address on Google Maps, a business phone or WhatsApp number, clear policies, real reviews and photos of your work. A one-page site for home sellers starts at Rs 22,500.
+Key points:
+- You do not have to publish your home address; list the city or area you serve instead.
+- On Google Business Profile, a service-area business can hide its address while still appearing in local results.
+- Use a separate number for the business, so family calls and orders do not mix.
+- Trust comes from clear prices, delivery and refund terms, real photos and genuine reviews, not from an address.
+- Plan delivery and COD carefully; courier pickup from home and advance payment for custom orders reduce risk.
+
+Q: Do I need to show my home address on my business website?
+A: No. You can list the city and areas you serve, a business phone and WhatsApp number and an email address instead. Buyers trust clear prices, policies, real photos and reviews more than a street address, and keeping your address private protects you and your family.
+
+Q: Can a home business appear on Google Maps without showing the address?
+A: Yes. Google Business Profile lets service-area businesses, which deliver to or visit customers, hide their address and show only the areas they serve. You can still appear in local results and receive calls and reviews without listing your home as a storefront.
+
+Q: How can a home-based seller build trust online?
+A: Show real photos of your work, clear prices and delivery charges, written refund and custom-order policies, genuine reviews, a short story of who you are and a business email on your own domain. These signals tell buyers the business is real and organised.
+
+Q: Should a home business use a separate phone number?
+A: Yes. A second number with WhatsApp Business keeps orders separate from family life, lets you set business hours and an away message, and can be handed to a helper later without sharing your personal number. It also looks more professional to customers.
+
+Q: How can home sellers reduce refused COD orders?
+A: Confirm every order on WhatsApp before dispatch, ask for advance payment for custom or made-to-order items, state these rules clearly on the website, and use courier pickup from home for regular orders. Clear terms make the rules feel like policy, not suspicion.
+
+Q: What does a website for a home based business cost?
+A: Most home sellers start with a one-page site at Rs 22,500 or our starter site at Rs 40,500, with WhatsApp ordering and no public address. When orders grow, an online store at Rs 157,500 adds a cart, payments and courier integration.
+
+Q: Ghar se business ke liye website mein apna pata dena zaroori hai?
+A: Nahi. Website par sirf shehar aur woh areas likhein jahan aap service dete hain, saath business ka alag phone aur WhatsApp number. Google Business Profile par bhi pata chhupa kar sirf service area dikha sakte hain. Bharosa saaf qeematon, policies aur asal reviews se banta hai.
+
+## Startup Website for Student Founders: What to Build First on a Small Budget
+URL: https://kambohassociates.com/digital/blog/student-startup-first-website
+Updated: 2026-11-03
+Short answer: A student founder's first startup website should be a single landing page that explains the problem, the solution and who it is for, and asks visitors to join a waitlist, book a call or pre-order. Use it to test demand before building the product. A landing page starts at Rs 22,500; a full product comes later.
+Key points:
+- Build a landing page first; it tests whether anyone wants the idea before you spend on the product.
+- One clear call to action, such as a waitlist signup, is better than several competing buttons.
+- Measure signups and conversations, and talk to the people who sign up.
+- Postpone logins, dashboards, apps and custom features until demand is proven.
+- Register the domain and accounts in the founders' or company's name, not a friend's or freelancer's.
+
+Q: What should a student startup build first?
+A: A single landing page that explains the problem, your solution and who it is for, with one action such as joining a waitlist, booking a demo or pre-ordering. It tests whether people want the idea before you spend months and savings building the full product.
+
+Q: How do I validate a startup idea with a landing page?
+A: Send visitors from your networks, university groups, LinkedIn and a small ad budget, then measure signups, pre-orders and call bookings per 100 visitors. Test two versions of the headline, and most importantly, talk to the people who sign up about their problem.
+
+Q: What features should a startup postpone on its first website?
+A: Postpone user accounts, dashboards, admin panels, mobile apps, complex payment systems, multiple languages and custom design systems, however exciting they seem. Build them once you have evidence that people want the core idea, and let real users tell you which features matter most.
+
+Q: Who should own a student startup's domain and accounts?
+A: The company, or a founder with shared access for the team, never a friend or freelancer alone. Keep a document listing every account, including the domain, hosting, email, analytics and social profiles. Investors and incubators often check this during due diligence.
+
+Q: Can a landing page help with incubator applications?
+A: Yes. A landing page with real signups, pre-orders or feedback shows that the team tests ideas with users rather than only describing them. That evidence strengthens applications to university incubators and other programmes, and gives you concrete numbers to discuss.
+
+Q: How much does a startup website cost in Pakistan?
+A: A focused landing page with a waitlist form, analytics and a simple pre-order link starts at Rs 22,500 with us. Once demand is validated, a first product version as an MVP web app is priced from Rs 360,000, depending on the features and integrations needed.
+
+Q: Student startup ki pehli website kaisi honi chahiye?
+A: Ek landing page jo masla, aap ka hal aur kis ke liye hai saaf bataye, aur ek hi kaam karwaye, jaise waitlist mein naam likhwana ya pre-order. Pehle dekhein log dilchaspi lete hain ya nahi, phir app ya poora product banayein. Domain company ke naam par rakhein.
+
+## Online Booking for Small Business: Moving From Phone-Only Bookings Step by Step
+URL: https://kambohassociates.com/digital/blog/phone-only-bookings-to-online
+Updated: 2026-11-03
+Short answer: Moving to online booking for a small business works best as a gradual change. Keep the phone line, add an online calendar that shows real availability, send automatic reminders, and train staff to enter phone bookings in the same calendar. Most businesses run both side by side for 2 to 3 months before online bookings become the majority.
+Key points:
+- Do not switch off phone bookings; run phone and online in one shared calendar.
+- Start with one service or one staff member's calendar, then expand once it works.
+- Automatic WhatsApp or SMS reminders cut no-shows, often the biggest win of all.
+- Staff must enter every phone booking into the same system, or double bookings follow.
+- Choose a ready-made booking tool first; build custom only when your rules do not fit any tool.
+
+Q: Should I stop taking phone bookings when I add online booking?
+A: No. Keep the phone line and put phone, walk-in and online bookings into one shared calendar. Many customers will keep calling at first. Over two to three months, more people switch to booking online themselves, especially when they can book late at night without waiting.
+
+Q: What is the best online booking tool for a small business?
+A: It depends on your rules. Single-person businesses often do well with calendar booking pages, salons and clinics with several staff need dedicated booking software, and WordPress sites can use a booking plugin. Choose custom development only when no ready-made tool fits your rules.
+
+Q: How do I avoid double bookings with phone and online booking?
+A: Use one calendar for everything. Online customers book directly, and staff enter every phone and walk-in booking into the same system immediately. Make the calendar visible at reception, and have the manager check it daily during the first month until the habit sticks.
+
+Q: Do booking reminders really reduce no-shows?
+A: For most appointment businesses, yes. A short WhatsApp or SMS reminder a day before and a few hours before, with an easy way to cancel or reschedule, reduces missed appointments. For high-value bookings, a small advance payment with clear cancellation terms helps further.
+
+Q: How long does it take to move a business to online booking?
+A: Setting up a ready-made tool can take a few days. Most businesses then run phone and online bookings side by side for two to three months before online bookings become the majority. Starting with one service or staff member first makes the change smoother.
+
+Q: How much does online booking cost for a small business?
+A: Ready-made tools often have free or low-cost plans. Adding a booking page and reminders to an existing site fits our starter package at Rs 40,500 or business package at Rs 85,500, depending on services and staff. Custom booking systems are quoted separately.
+
+Q: Phone booking se online booking par kaise shift karein?
+A: Phone band na karein. Ek hi calendar rakhein jis mein online, phone aur walk-in sab bookings jayen. Pehle ek service ya ek staff member ka calendar online karein, WhatsApp par reminders on karein, aur staff ko har phone booking calendar mein darj karne ki aadat dalwayein.
+
+## Separate Websites for Two Businesses or One Site? When to Split, With a Worked Example
+URL: https://kambohassociates.com/digital/blog/split-website-into-two-brands
+Updated: 2026-11-03
+Short answer: If you run 2 businesses, choose separate websites for two businesses when they serve different customers, need different reputations or may be sold separately. Keep one website with clear sections when customers overlap and one strong domain helps both. Either way, keep the two offers clearly apart so neither confuses the other's customers.
+Key points:
+- Different customers, different trust needs or a possible future sale point towards separate websites.
+- Overlapping customers and a shared team point towards one website with clearly separated sections.
+- A section on the main domain shares its strength; a new domain starts from zero.
+- Whichever you choose, avoid mixing the two offers in titles, menus and pages.
+- Our own site keeps web development in a separate section from our tax services, with separate menus and no cross-linking.
+
+Q: Should two different businesses share one website?
+A: Share one website when the same customers often buy from both, one brand and team cover both, and the existing site is strong in a related topic. Choose separate websites when customers, reputation needs or teams differ, or when one business may be sold or spun off later.
+
+Q: Is a subfolder or a new domain better for a second business?
+A: A subfolder on an established domain benefits from its existing reputation, which helps if the businesses are related. A new domain starts from zero but focuses on one topic, which suits unrelated businesses. A subdomain is often treated much like a separate site by Google.
+
+Q: Does mixing two unrelated businesses on one website hurt SEO?
+A: It can blur what the site is about for visitors and search engines, especially if titles, menus and pages mix the two offers. If you keep one site, give each business its own clearly separated section, menu, contact routes and focused page titles.
+
+Q: How do I split one website into two?
+A: Register the new domain in the business's name, move the second business's pages to it, redirect each old URL to its new page with a 301, create separate Google Business Profiles where needed, and link between the sites only where it genuinely helps visitors.
+
+Q: How does Kamboh Associates keep its services separate online?
+A: Our web development service sits in its own /digital section of the same domain, with its own menu, footer, contact routes and blog. Its titles and headings do not mention our other services, and the two sections do not link to each other, so each audience sees only what it came for.
+
+Q: Is a second website more expensive than a new section?
+A: Usually yes, because a separate site needs its own domain, hosting, design and upkeep, while a section shares them. A separate website is priced like any new site, from our starter package at Rs 40,500 or business package at Rs 85,500.
+
+Q: Do businesses ke liye ek website ho ya do?
+A: Agar dono ke customer aksar ek hi hain aur ek brand dono ko cover karta hai to ek website mein alag alag sections kaafi hain. Agar customer, team ya shohrat alag hai, ya mustaqbil mein ek business bechna ho sakta hai, to alag website behtar hai. Har haal mein dono ko aapas mein mix na karein.
+
+## Export Website Separate From Your Local Site: When a Second Website Makes Sense
+URL: https://kambohassociates.com/digital/blog/second-website-for-export-market
+Updated: 2026-11-03
+Short answer: An export website separate from your local site makes sense when foreign buyers need different products, prices, language and proof than local customers. If you sell the same range to both, one site with an export section is usually enough. Exporters typically need product specifications, certifications, minimum order quantities and an RFQ form. Builds start from Rs 85,500.
+Key points:
+- Split when local and export buyers see different products, prices and terms; otherwise use an export section.
+- Export buyers look for specifications, certifications, capacity, minimum orders and responsiveness.
+- Use English first, add buyers' languages only where you can reply in them.
+- A neutral .com often suits export sites; keep a .pk for local customers if you split.
+- Do not show local retail prices to wholesale buyers abroad; use request-for-quotation forms instead.
+
+Q: Should an exporter have a separate website for foreign buyers?
+A: Split when local and export buyers see different products, prices and terms, such as a local retail store alongside export wholesale, or a separate export brand. If you sell the same range to both, one site with a clear export section and RFQ form is usually enough.
+
+Q: What should an export website show international buyers?
+A: Show product specifications, packaging and labelling options, the certifications you genuinely hold, production capacity, lead times, your sample policy, minimum order quantities and private-label options. Add real factory photos and videos, company registration, export history and an RFQ form with honest reply times.
+
+Q: Which language should an export website use?
+A: Use clear, plain English first, because most international B2B buyers use it. Add other languages only if you can reply to enquiries in them, and use hreflang tags for multiple language versions. A translated site with English-only replies disappoints buyers.
+
+Q: Should export websites show prices?
+A: Wholesale export pages usually use request-for-quotation forms instead of fixed prices, because prices depend on quantity, packaging and the shipping terms agreed. If you show indicative prices, use the buyer's currency and state the shipping terms. Never show local retail rupee prices on export pages.
+
+Q: Is .com or .pk better for an export website?
+A: A .com is neutral and familiar to buyers worldwide, which suits most export sites. A .pk clearly signals Pakistan, which helps local customers. If you run two sites, a common approach is .com for export and .pk for local, both registered in the company's name.
+
+Q: How much does a separate export website cost?
+A: An export site with product catalogues, specification pages, certifications and RFQ forms usually fits our business package at Rs 85,500. Multi-language versions, buyer portals with order tracking or ERP integration need custom work, quoted after reviewing your products and buyer process.
+
+Q: Export ke liye alag website kab banani chahiye?
+A: Jab bahar ke buyers ko local customers se mukhtalif products, qeematein, shartein aur saboot chahiye hon, jaise local retail aur export wholesale saath chal rahe hon. Agar products ek hi hain to maujooda website mein export section aur RFQ form kaafi hai. Export site angrezi mein aur .com par behtar rehti hai.
+
+## Taking Over the Family Business: How to Modernise Its Family Business Website
+URL: https://kambohassociates.com/digital/blog/inherited-family-business-website
+Updated: 2026-11-03
+Short answer: Modernising a family business website starts with recovering control of the old domain, email and listings, then keeping what customers recognise, such as the name and history, while updating the design, content and ordering in planned stages. Most family businesses complete the change over 3 to 6 months.
+Key points:
+- First, find out who controls the domain, hosting, email, Google Business Profile and social pages.
+- Keep the family name, founding year and story; they are trust signals new competitors do not have.
+- Modernise in stages: first the website, then online ordering or booking, then internal systems.
+- Involve the older generation in decisions about the name and history, even if you lead the technology.
+- Keep old phone numbers and addresses working, and redirect old web pages, so loyal customers are not lost.
+
+Q: How do I recover the old website of my family business?
+A: Find out who controls the domain using ICANN Lookup or the .pk registrar, then contact the registrar and hosting company with business documents to update ownership and reset access. Do the same for email, Google Business Profile and social pages before starting any redesign.
+
+Q: Should a family business keep its old name online?
+A: Usually yes. The name, founding year and founder's story are trust signals new competitors cannot copy, and many customers search by the old name. Keep them on the About page and footer, with old photos if available, while modernising the design and content.
+
+Q: How should a family business modernise its website?
+A: In planned stages. First build a clean, mobile-friendly site with accurate products, prices, contact details and the business history. Then add customer tools such as online ordering, booking or a catalogue. Finally move internal systems like stock and invoicing, once staff are comfortable.
+
+Q: How do I convince older family members to modernise the website?
+A: Show them what customers see when searching for the business today and what competitors offer. Involve them in decisions about the name, history and photos, and explain each change through results such as more orders or fewer calls. Protecting the business's identity earns their support.
+
+Q: How can I modernise without losing loyal customers?
+A: Keep old phone numbers working, show the old address with directions if the shop moves, redirect old web pages to their new equivalents, and tell regular customers personally about the new website and ordering options. Familiar details should stay visible throughout the change.
+
+Q: What does modernising a family business website cost?
+A: The first stage, a new website, usually fits our starter package at Rs 40,500 or business package at Rs 85,500. Online stores start at Rs 157,500, and internal systems are quoted separately. Account recovery can be included in the project.
+
+Q: Khandani business ki purani website ko naya kaise banayein?
+A: Pehle domain, hosting, email aur Google Business Profile ka control wapis lein. Phir business ka naam, shuru hone ka saal aur bani ki kahani rakh kar nayi website banayein. Online orders aur andaruni systems ko marhala war shamil karein, aur purane customers ke phone number aur pate chalte rakhein.
+
+## Logo and Website Package in Pakistan: What It Should Include and What Drives the Price
+URL: https://kambohassociates.com/digital/blog/logo-and-website-package-price
+Updated: 2026-11-03
+Short answer: A logo and website package should include the logo in all the file formats you will need, a simple colour and font guide, and a website that uses them consistently. Logo prices vary with the designer's experience and the number of concepts and revisions. Our website packages start at Rs 22,500; logo work is quoted separately.
+Key points:
+- A complete package gives you logo source files, a colour and font guide and a website built with them.
+- Bundling helps when the same team designs both, so the brand looks consistent from day one.
+- Logo prices depend mainly on the designer's experience, the research involved, concepts and revisions.
+- Insist on full ownership of the logo and the original source files.
+- If budget is tight, launch with a wordmark and invest in a designed logo later.
+
+Q: What should a logo and website package include?
+A: Original logo concepts with a stated number of revisions, logo files in vector and transparent PNG formats with light and dark versions, a one-page colour and font guide, a website built with them, and a written transfer of ownership after final payment. Some packages add a social media kit.
+
+Q: Is it cheaper to get a logo and website together?
+A: Sometimes, but the bigger benefit is consistency: one team designs both, so the brand looks the same online and in print from day one. Buying separately makes sense if you already have a trusted branding designer or need specialist logo work, as long as the web team gets the source files.
+
+Q: What affects the price of a logo design in Pakistan?
+A: The designer's experience, research into your market, the number of original concepts and revisions, whether it is custom-drawn or template-based, extras like guidelines, stationery and packaging, and whether you receive full ownership with source files. Compare quotes on these points, not price alone.
+
+Q: Which logo files should I get from the designer?
+A: Ask for vector source files such as AI, SVG or EPS, PNG files with transparent backgrounds, versions for light and dark backgrounds, and a square version for social profiles. Vector files let printers and sign makers scale the logo without losing quality.
+
+Q: What do Kamboh Associates website packages cost?
+A: Our one-page site costs Rs 22,500, the starter site Rs 40,500, the business site Rs 85,500 and the online store Rs 157,500. Each sets up your logo, colours and fonts consistently. Logo design itself is quoted separately, depending on the work involved.
+
+Q: Should I launch my website before the logo is ready?
+A: If budget or time is tight, yes. Launch with a clean wordmark and a simple colour scheme, put the budget into a website that brings enquiries, and invest in a designed logo once the business has steady income. Swapping the logo in later is quick.
+
+Q: Logo aur website ka package lete waqt kya check karein?
+A: Dekhein ke logo ke asal concepts aur revisions kitne hain, vector source files aur transparent PNG milenge ya nahi, rangon aur fonts ka guide hai, aur payment ke baad logo ki malkiyat likh kar aap ko di jayegi. Website usi logo aur rangon se bani honi chahiye.
+
+## Shopify Store Setup Charges in Pakistan: What the Setup Includes and What You Pay Separately
+URL: https://kambohassociates.com/digital/blog/shopify-store-setup-charges
+Updated: 2026-11-03
+Short answer: Shopify store setup charges cover the work of building your store: theme set-up and design, pages, product upload, payments, shipping rates, apps and testing. Separate from that, Shopify charges its own monthly plan, and paid themes and apps have their own fees. Our online store package costs Rs 157,500.
+Key points:
+- Setup charges pay for the work; Shopify's plan, paid themes and apps are separate costs.
+- Ask every quote for a scope list: theme, pages, number of products, payments, shipping, apps and training.
+- Product upload is often the largest hidden cost; agree how many products are included.
+- Payment options for Pakistani stores depend on which providers are available to you on Shopify.
+- Check Shopify's official pricing page for current plan fees before budgeting.
+
+Q: What do Shopify store setup charges usually include?
+A: Setup charges cover the build: theme set-up and design, policy and content pages, product upload for an agreed number of products, collections and menus, payments, shipping rates, app installation, test orders, domain connection and training. Ask for a written scope list before comparing quotes.
+
+Q: Are Shopify plan fees included in the setup price?
+A: Usually not. Setup charges pay the developer for the work, while Shopify bills its monthly plan to your account, along with any paid theme and app subscriptions. Check Shopify's official pricing page for current plan fees, and ask the developer which paid items their quote assumes.
+
+Q: Why do Shopify setup quotes in Pakistan vary so much?
+A: Quotes differ in theme customisation, the number of products uploaded, whether descriptions and photos are prepared, payment and courier set-up, apps, testing and training. A low quote may include only a few products and no training. Compare the scope line by line, not just the total.
+
+Q: Can a Pakistani Shopify store accept online payments?
+A: Shopify publishes which countries Shopify Payments supports and which third-party providers are available elsewhere, and this list changes over time. Pakistani stores usually combine cash on delivery, bank transfer and a third-party provider where available. The setup should include testing every payment option before launch.
+
+Q: Who should own the Shopify store account?
+A: You should. The store must be created on your own Shopify account, with your email as the owner and your card for billing, and the developer added as a staff or collaborator account. A store on the developer's account can be hard to take back later.
+
+Q: How much does Kamboh Associates charge to set up a Shopify store?
+A: Our online store package costs Rs 157,500. It covers set-up on your own account, theme customisation, policy pages, an agreed starting catalogue, payments including COD, shipping rates, essential apps, test orders, analytics and training. Maintenance starts at Rs 7,200 a month.
+
+Q: Shopify store banwane mein kya kya kharcha aata hai?
+A: Do alag kharche hain. Ek developer ka setup charge, jis mein theme, pages, products ka upload, payment, shipping aur training shamil hon. Doosra Shopify ka mahana plan aur paid theme ya apps ki fees, jo aap ke card se dollar mein katti hain. Quote mein dono ki tafseel maangein.
+
+## WordPress Fix Charges: What Drives the Cost of Fixing Errors, Updates and Broken Pages
+URL: https://kambohassociates.com/digital/blog/wordpress-website-fix-charges
+Updated: 2026-11-03
+Short answer: WordPress fix charges depend on what is broken, whether there is a recent backup, how outdated the site is and whether you have full access. A single plugin conflict is quick to fix; a hacked or years-old site takes much longer. Regular problems usually cost less under maintenance, which starts at Rs 7,200 a month.
+Key points:
+- The type of problem matters most: a plugin conflict is quick, a hack or a very old site is not.
+- A recent backup and full admin, hosting and FTP access make any fix faster and cheaper.
+- Fixed prices suit known problems; hourly pricing suits unknown faults that need diagnosis first.
+- Ask for a diagnosis and written estimate before work starts, as with any repair.
+- If something breaks every few months, a maintenance plan usually costs less than repeated fixes.
+
+Q: How much does it cost to fix a WordPress website?
+A: It depends on what is broken, whether a recent backup exists, how outdated the site is and whether full access is available. A single plugin conflict is quick and inexpensive; a hacked or very old site takes far longer. Regular issues usually cost less under maintenance, which starts at Rs 7,200 a month.
+
+Q: Why does WordPress show 'there has been a critical error on this website'?
+A: Usually a PHP error from a plugin or theme that is incompatible with the current WordPress or PHP version, often after an update. WordPress may email the administrator a recovery link. A developer can enable debugging, find the cause, update or deactivate the faulty component and test the site.
+
+Q: Should I pay hourly or a fixed price for a WordPress repair?
+A: A fixed price suits known, common problems. For unknown faults, pay for a short diagnosis first, then approve a written estimate for the fix. Be cautious of fixed quotes given before anyone has looked at the site, because surprises often lead to extra charges.
+
+Q: What should I send a developer to fix my WordPress site faster?
+A: Send the exact error message, a screenshot, what changed just before it broke, the date and location of the last backup, and secure access to the admin, hosting control panel and FTP. Clear information shortens diagnosis, which is often the most expensive part of a repair.
+
+Q: Is a maintenance plan cheaper than paying for WordPress fixes?
+A: Often yes, if your site breaks every few months. A plan that tests updates on a staging copy, keeps backups and monitors the site prevents most problems and includes small fixes. Our maintenance starts at Rs 7,200 a month, which many small businesses find cheaper than repeated emergency repairs.
+
+Q: When should I rebuild my WordPress site instead of fixing it?
+A: When it has not been updated for years, depends on abandoned plugins, has been hacked repeatedly or no longer suits the business. At that point a clean rebuild can cost less than continued repairs. Small business rebuilds usually use our starter package at Rs 40,500 or business package at Rs 85,500.
+
+Q: WordPress website kharab ho jaye to theek karwane ka kharcha kitna hai?
+A: Yeh is par munhasir hai ke kya kharab hai, backup maujood hai ya nahi, website kitni purani hai aur logins aap ke paas hain ya nahi. Ek plugin ka masla jaldi theek ho jata hai, hacked ya bohat purani website mein zyada waqt lagta hai. Pehle tashkhees aur likhit estimate lein.
+
+## Website Speed Optimization Price: Scope Tiers, Real Measurements and Score-Only Traps
+URL: https://kambohassociates.com/digital/blog/website-speed-optimisation-charges
+Updated: 2026-11-03
+Short answer: A website speed optimization price should pay for measured improvements in how fast real visitors see and use your pages, not just a higher PageSpeed score. Cost depends on the platform, hosting, number of heavy plugins and images, and whether the theme itself is slow. Ongoing speed monitoring is part of maintenance from Rs 7,200 a month.
+Key points:
+- Pay for improvements in real loading and interaction, measured before and after, not a score screenshot.
+- Core Web Vitals (loading, responsiveness and visual stability) are the measures Google itself describes.
+- Quick wins such as image compression and caching cost little; heavy themes and page builders cost more to fix.
+- Hosting matters; no optimisation can fully hide a slow or overloaded server.
+- Sometimes a lighter rebuild is cheaper than repeated speed work on a bloated site.
+
+Q: What should a website speed optimization service include?
+A: It should include measuring key pages on mobile before work, fixing the main causes such as heavy images, missing caching, unused plugins and slow scripts, testing forms and payments afterwards, and a before-and-after report showing Core Web Vitals and real-user data where available.
+
+Q: Is a PageSpeed score of 90 or more worth paying for?
+A: A score is a useful signal but not the goal. Some services raise the lab score with tricks that do not help visitors or break features. Pay for faster loading and interaction for real users, measured in Core Web Vitals field data, with all site features still working.
+
+Q: What are Core Web Vitals?
+A: They are three measures Google describes for page experience: Largest Contentful Paint for loading speed, Interaction to Next Paint for responsiveness and Cumulative Layout Shift for visual stability. PageSpeed Insights shows them for your pages, including data from real visitors when enough exist.
+
+Q: Can better hosting make my website faster?
+A: Often, yes. A slow or overloaded shared server makes every page slow, however well the site is optimised. Checking server response time is one of the first steps, and moving to better hosting or adding a content delivery network is sometimes the cheapest single improvement.
+
+Q: Why is speed work on page-builder sites more expensive?
+A: Heavy themes and page builders add a lot of code, scripts and styles to every page. Quick fixes help a little, but bigger gains often need replacing key templates or the theme itself, which takes more time. Sometimes a lighter rebuild costs less than repeated optimisation.
+
+Q: How much does website speed optimization cost with Kamboh Associates?
+A: We quote after measuring your key pages, because the platform, theme, plugins, images and hosting decide the work. Ongoing speed monitoring and small fixes are part of maintenance from Rs 7,200 a month. A lighter rebuild uses our starter package at Rs 40,500 or business package at Rs 85,500.
+
+Q: Website ki speed barhane ke liye kis cheez ke paise dene chahiye?
+A: Sirf PageSpeed score ke liye nahi, balke asal users ke liye page ke jaldi khulne aur chalne ke liye. Kaam se pehle aur baad mobile par Core Web Vitals ki report maangein, aur check karein ke forms, payment aur WhatsApp button kaam kar rahe hain. Hosting bhi check karwayein.
+
+## Website Migration Cost: Moving to a New Host or a New Platform Without Breaking Things
+URL: https://kambohassociates.com/digital/blog/website-migration-charges
+Updated: 2026-11-03
+Short answer: Website migration cost depends mainly on what moves. Moving a small site to a new host is usually a short, low-risk job. Moving platforms, such as WooCommerce to Shopify, involves products, customers, orders, URLs and redirects, and takes much longer. Risk items such as email, payments and SEO need testing. Store rebuilds start at Rs 157,500.
+Key points:
+- Host moves keep the same site; platform moves rebuild it elsewhere, which costs far more.
+- The risk items are email, DNS, payments, forms, SEO redirects and customer accounts.
+- Agree the scope in writing: what data moves, what is rebuilt and what is tested.
+- A full backup before the move and a testing checklist after it protect you from losses.
+- Plan the switch-over for a quiet time and keep the old setup running until the new one is confirmed.
+
+Q: What is the difference between a host migration and a platform migration?
+A: A host migration moves the same website to a new hosting company, so it looks and works the same afterwards. A platform migration moves the business to different software, such as WooCommerce to Shopify, which is effectively a rebuild with data transfer and costs much more.
+
+Q: What can go wrong when migrating a website?
+A: Email can stop if MX records are not copied, HTTPS may fail, payment gateways may need new credentials, forms and order emails often break, changed URLs without redirects lose rankings, and customer passwords usually cannot move between platforms. Each needs planning and testing.
+
+Q: How do I avoid losing SEO during a platform migration?
+A: Map every old URL to its new equivalent and set up 301 redirects, keep page titles and content where possible, submit the new sitemap, and watch Search Console for errors in the weeks after launch. Google's site move documentation explains the full process.
+
+Q: Can customer accounts be moved to a new store platform?
+A: Customer names, emails, addresses and order history can usually be imported, but passwords normally cannot be moved, because platforms store them in encrypted form. Plan to send customers a friendly invitation to reset their password on the new store after the switch.
+
+Q: What should a website migration quote include?
+A: It should list what data moves, what is rebuilt, which integrations are reconnected, who handles DNS and email, the backup before work starts, the testing checklist, the switch-over date and how long the old site stays live. Without this, costs and risks are unclear.
+
+Q: How much does a website migration cost?
+A: A small host move is usually a short job, often included for clients on maintenance from Rs 7,200 a month. Platform migrations are priced like a new build plus data transfer, starting from our store package at Rs 157,500 for online stores and our business package at Rs 85,500 for business sites.
+
+Q: Website ko nayi hosting ya platform par shift karne ka kharcha kitna hai?
+A: Agar sirf hosting badalni hai to aam tor par chhota kaam hai. Agar platform badalna hai, jaise WooCommerce se Shopify, to products, customers, orders, URLs aur redirects sab muntaqil hote hain aur kharcha zyada hai. Pehle poora backup lein aur shift ke baad email, payment aur forms test karein.
