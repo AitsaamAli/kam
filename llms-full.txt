@@ -436,6 +436,25 @@ A: Yes. Even if your employer deducts tax at source under Section 149, you must 
 Q: How do I get tax refund in Pakistan if too much tax was deducted?
 A: If excess tax was deducted from your salary or business income, you can claim a refund by filing your income tax return and showing the overpayment. FBR processes refunds within 45-60 days of return filing. You need your CPR numbers (tax payment receipts) and employer certificate (Form 16) to support the refund claim. Kamboh Associates handles refund claims at 0328-4675162.
 
+## Late Filing Penalty and ATL Surcharge Calculator Pakistan 2026
+URL: https://kambohassociates.com/tools/late-filing-penalty-calculator
+Summary: Work out the Section 182 late filing penalty and the Section 182A ATL surcharge for a late income tax return in Pakistan, by filing date and tax payable.
+
+Q: How is the late filing penalty calculated in Pakistan?
+A: Under Section 182 as published by FBR, the penalty is 0.1% of the tax payable for each day of default, capped at 50% of the tax payable. If that works out below Rs 40,000, or no tax is payable, the penalty is Rs 40,000. Where at least 75% of income is salary below Rs 5 million, the minimum is Rs 5,000.
+
+Q: What is the ATL surcharge for late filers in 2026?
+A: Under Section 182A, as amended by the Finance Act 2026, a person who files after the due date is placed on the Active Taxpayers List only after paying a surcharge: Rs 25,000 for individuals, Rs 50,000 for associations of persons and Rs 100,000 for companies.
+
+Q: Is the ATL surcharge the same as the late filing penalty?
+A: No. The surcharge is paid to be placed on the Active Taxpayers List after a late return. The Section 182 penalty is a separate penalty for the delay and is imposed by an order of the tax officer, normally after a notice.
+
+Q: What does tax payable mean in the penalty formula?
+A: It means the tax chargeable on your taxable income for the year, under the assessment made or treated as made, not only the unpaid balance. Tax already deducted by an employer or bank still counts as tax payable for this formula.
+
+Q: Does the calculator give the final penalty FBR will charge?
+A: No. It applies the published formula to the figures you enter. The penalty is imposed by an order after a notice, where a genuine reason for the delay can be explained, and the order can be appealed. Confirm the current law at fbr.gov.pk.
+
 ## Filer vs Non-Filer Pakistan 2026 — Tax Rates Compared
 URL: https://kambohassociates.com/filer-vs-nonfiler-pakistan
 Summary: Filer vs non-filer tax difference in Pakistan 2026. Property, banking, car WHT rates. How to become filer & save lakhs. Expert guide.

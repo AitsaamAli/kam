@@ -19,7 +19,7 @@ TODAY = date.today()
 TAX_SERVICES = ["income-tax-filing", "income-tax-return-pakistan", "ntn-registration", "corporate-tax-return", "sales-tax-registration",
                 "sales-tax-return", "fbr-notice-defense", "wealth-statement", "withholding-tax", "eobi-registration", "aop-tax-return",
                 "freelancer-tax-pakistan", "secp-vs-sole-proprietorship-pakistan", "startup-registration-pakistan", "pricing"]
-TAX_TOOLS = ["tax-calculator", "salary-calculator", "gst-calculator", "income-estimator"]
+TAX_TOOLS = ["tax-calculator", "salary-calculator", "gst-calculator", "income-estimator", "tools/late-filing-penalty-calculator"]
 TAX_GUIDES = ["filer-vs-nonfiler-pakistan", "atl-pakistan-guide", "how-to-check-atl-status-pakistan",
               "blogs/filer-vs-non-filer-pakistan-2026", "blogs/ntn-registration-online-pakistan", "blogs/income-tax-slab-pakistan-2026",
               "blogs/budget-2026-27-salary-tax-slabs-pakistan", "blogs/salary-tax-calculator-pakistan-2026", "blogs/withholding-tax-pakistan-2026",
