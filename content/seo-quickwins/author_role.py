@@ -75,7 +75,7 @@ def author_page(t):
     t = re.sub(r"<title>[^<]*</title>", "<title>Aitsaam Ali — Author | Kamboh Associates</title>", t, count=1)
     t = t.replace("Aitsaam Ali — Tax Consultant | NTN • SECP • Sales Tax Specialist", "Aitsaam Ali — Author, Kamboh Associates")
     t = t.replace("Tax Consultant | NTN &bull; SECP &bull; Sales Tax Specialist", "Author, Kamboh Associates")
-    t = re.sub(r"Aitsaam Ali is a Lahore-based tax consultant[^<]*", DESC + " Each guide shows when it was last checked.", t)
+    t = re.sub(r"(<p[^>]*>)Aitsaam Ali is a Lahore-based tax consultant[^<]*", lambda m: m.group(1) + DESC + " Each guide shows when it was last checked.", t)
     t = re.sub(r'<meta name="description" content="[^"]*"', '<meta name="description" content="' + DESC.replace('"', "&quot;") + '"', t, count=1)
     t = re.sub(r'(<meta property="og:description" content=")[^"]*', lambda m: m.group(1) + DESC, t, count=1)
     t = t.replace("CONSULT AITSAAM ALI", "CONTACT KAMBOH ASSOCIATES")
