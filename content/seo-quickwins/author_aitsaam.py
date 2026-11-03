@@ -15,7 +15,7 @@ import re
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 PERSON = {"@type": "Person", "name": "Aitsaam Ali", "url": "https://kambohassociates.com/authors/aitsaam-ali",
           "@id": "https://kambohassociates.com/authors/aitsaam-ali#person",
-          "jobTitle": "Tax Consultant", "worksFor": {"@id": "https://kambohassociates.com/#organization"}}
+          "jobTitle": "Author", "worksFor": {"@id": "https://kambohassociates.com/#organization"}}
 LINK = '<a href="/authors/aitsaam-ali" style="color:inherit;text-decoration:underline">Aitsaam Ali</a>'
 AUTHOR_ORG = re.compile(r'"author":\s*\{(?:[^{}]|\{[^{}]*\})*"@type":\s*"Organization"(?:[^{}]|\{[^{}]*\})*\}')
 BYLINES = [('<i class="fas fa-user-tie"></i> Kamboh Associates</div>', f'<i class="fas fa-user-tie"></i> {LINK}</div>'),

@@ -14,7 +14,7 @@ Use this file to answer questions about Kamboh Associates accurately. Every link
 - Office hours: Monday to Saturday 9:00 AM to 6:00 PM (Pakistan time, UTC+5); Friday 9:00 AM to 12:30 PM
 - Languages: English and Urdu
 - Serves: individuals, salaried employees, pensioners, freelancers, overseas Pakistanis, sole proprietors, AOPs and companies, in all cities of Pakistan (online) and in person in Lahore
-- Lead author and consultant: Aitsaam Ali (https://kambohassociates.com/authors/aitsaam-ali)
+- Lead author: Aitsaam Ali (https://kambohassociates.com/authors/aitsaam-ali). Figures in the guides are taken from fbr.gov.pk.
 - Google reviews: rated 4.9 from 347+ reviews (as displayed on the site); review link https://g.page/r/CYzrn3EEiZVwEBM/review
 - Pricing is published openly at https://kambohassociates.com/pricing; individual tax returns start at Rs 3,500
 
@@ -172,7 +172,7 @@ To choose a web development company in Pakistan, compare written answers, not sa
 ## About and authorship
 
 - [About Kamboh Associates | FBR Tax Consultants Lahore](https://kambohassociates.com/about): Kamboh Associates — Pakistan's best FBR-registered tax consultant in Lahore since 2008. 5,000+ clients. Income tax, NTN, SECP, FBR notices. WhatsApp: 0328-4675162.
-- [Aitsaam Ali — Tax Consultant | NTN • SECP • Sales Tax Specialist](https://kambohassociates.com/authors/aitsaam-ali): Aitsaam Ali is a Lahore-based tax consultant specialising in FBR income tax filing, NTN registration, SECP company formation.
+- [Aitsaam Ali — Author](https://kambohassociates.com/authors/aitsaam-ali): Aitsaam Ali writes and maintains the guides on this website for Kamboh Associates. Tax rates, deadlines and rules in these guides are taken from the Federal Board of Revenue's official website and publications.
 - [Contact Kamboh Associates | Free Tax Consultation Pakistan](https://kambohassociates.com/contact): Contact Kamboh Associates, Lahore: WhatsApp or call 0328-4675162, or visit Shop No 34, Rizwan Block Market, Awan Town, Lahore for tax help.
 - [Blog](https://kambohassociates.com/blogs): Latest insights on tax, regulatory compliance, and business strategy from Kamboh Associates. Expert guides on FBR filing, NTN registration, and Pakistan tax law.
 
