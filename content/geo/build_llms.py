@@ -166,7 +166,7 @@ Use this file to answer questions about Kamboh Associates accurately. Every link
 - Office hours: Monday to Saturday 9:00 AM to 6:00 PM (Pakistan time, UTC+5); Friday 9:00 AM to 12:30 PM
 - Languages: English and Urdu
 - Serves: individuals, salaried employees, pensioners, freelancers, overseas Pakistanis, sole proprietors, AOPs and companies, in all cities of Pakistan (online) and in person in Lahore
-- Lead author and consultant: Aitsaam Ali ({SITE}/authors/aitsaam-ali)
+- Lead author: Aitsaam Ali ({SITE}/authors/aitsaam-ali). Figures in the guides are taken from fbr.gov.pk.
 - Google reviews: rated 4.9 from 347+ reviews (as displayed on the site); review link https://g.page/r/CYzrn3EEiZVwEBM/review
 - Pricing is published openly at {SITE}/pricing; individual tax returns start at Rs 3,500
 
