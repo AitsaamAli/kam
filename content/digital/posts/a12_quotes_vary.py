@@ -110,6 +110,8 @@ POST = dict(
         ("Webo Creators — Business Website Development Cost in Pakistan", "https://www.webocreators.com/business-website-development-cost-in-pakistan"),
         ("Progriso — Website Development Cost in Pakistan 2025–2026", "https://progriso.com/website-development-cost-in-pakistan/"),
         ("FMEOS — Pakistan Website Design Packages (payment terms)", "https://www.fmeos.pk/web-designing/pakistan-packages-price/"),
+        ("web.dev: Core Web Vitals", "https://web.dev/articles/vitals"),
+        ("W3C: Web Content Accessibility Guidelines", "https://www.w3.org/WAI/standards-guidelines/wcag/"),
     ],
     method=("Market ranges come from Pakistani agency price guides and packages published in 2026. The side-by-side comparison is an "
             "illustrative composite of the kinds of quotes clients show us; it does not describe any named company. Our prices are from our "
