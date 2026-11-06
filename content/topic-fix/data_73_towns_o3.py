@@ -153,3 +153,6 @@ add("blogs/ntn-registration-skardu.html", "Filing comes next.")
 add("blogs/income-tax-filing-skardu.html", "Generators are depreciated as well.")
 add("blogs/ntn-registration-talagang.html", "There is no charge for registration.")
 add("blogs/income-tax-filing-talagang.html", "The deed should be kept.")
+
+# P2 depth (6 Nov 2026)
+add("blogs/income-tax-filing-talagang.html", "## Commuted Pension Invested in Land or Shops\n\nMany retired soldiers in Talagang invest their commuted pension in land, a shop or a vehicle. The pension and commutation are declared in the return under the rules that apply to them for the year, and the new asset goes in the wealth statement at cost, so the reconciliation shows where the money came from.\n\n## Rain-Fed Farming\n\nTalagang lies in the rain-fed Potohar belt, where groundnut, wheat and gram are grown. Income from crops grown on your own land is agricultural income taxed by the province, and is shown as exempt income in the federal return. A groundnut trader or oil expeller who buys and resells, however, earns business income declared with purchases and sales.\n\n## Children Working Abroad\n\nFamilies receiving money from sons and daughters working in the Gulf show it as receipts in the wealth statement. Keeping the bank records of each transfer avoids questions when the money is later used to buy property or a car.")
