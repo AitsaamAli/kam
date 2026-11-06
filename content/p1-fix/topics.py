@@ -430,20 +430,34 @@ T["tax-benefits-filer-pakistan"] = dict(
     sources=[("Federal Board of Revenue", "https://www.fbr.gov.pk/"), ("FBR IRIS portal", "https://iris.fbr.gov.pk/")])
 
 # ---------------- professions ----------------
+PROF_FAQ = {
+    "Architects": [("Can an architect claim design software as an expense?", "Yes. Licences and subscriptions used for client work are business expenses when supported by invoices and payment records."),
+                   ("Are fees from a client abroad taxed differently?", "Foreign fees received through a bank can have their own treatment; record each receipt and check the current rules for export of services."),
+                   ("Do salaried architects with private projects file once?", "Yes. Salary and private-practice income are declared in the same return, each under its own head.")],
+    "Engineers": [("Can an engineering contractor claim site costs?", "Yes. Labour, materials, equipment hire and site travel for a contract are deductible when supported by bills and payment records."),
+                  ("Does PEC registration replace tax registration?", "No. PEC registration lets you practise or bid; tax registration with FBR, and with the province for services, is separate."),
+                  ("Is withholding on contract payments the final tax?", "Whether it is final or adjustable depends on the payment type and current law; claim it in the return either way.")],
+    "Exporters": [("Where are export sales tax refunds claimed?", "Through FBR's sales tax refund system, supported by monthly returns and matching export documents."),
+                  ("Do exporters still file an annual return?", "Yes. Exporters file an income tax return each year, declaring export proceeds and the tax collected on them."),
+                  ("What records support export proceeds?", "Bank realisation certificates, export invoices and goods declarations for each shipment.")],
+    "Importers": [("Is advance tax paid at import claimed in the return?", "It is shown in the return; whether it can be adjusted depends on the importer's category under the current law."),
+                  ("Where can I see my import data?", "Goods declarations and payments are recorded in Pakistan Customs' WeBOC system, which FBR also uses."),
+                  ("Do commercial importers pay extra sales tax at import?", "Commercial importers may pay value-addition sales tax at import in addition to normal sales tax; check the current rules.")],
+    "Traders": [("Is tax on my shop's electricity bill adjustable?", "Tax collected on commercial electricity bills is generally claimed in the return when the bills are kept."),
+                ("How do traders show stock in the return?", "Record opening and closing stock at cost; profit is sales less purchases and expenses, adjusted for the change in stock."),
+                ("Do wholesalers need sales tax registration?", "Wholesalers and certain retailers must register under the Sales Tax Act; check FBR's current criteria.")],
+}
+
+
 def prof(name, body, reg, extra_h2, extra, faq_extra):
     return dict(
         sections=[
             (f"How {name} are taxed", body),
             ("Registration and professional bodies", reg),
             (extra_h2, extra),
-            ("Filing and deadlines", f"<p>Returns are filed on IRIS with Form 114 and the wealth statement. {DEADLINE}</p>"),
+            (f"Filing for {name.lower()}", f"<p>{name} file Form 114 and the wealth statement on IRIS by the due date. Late filing penalties and the ATL surcharge are explained in our <a href=\"/tax-penalties-in-pakistan\">guide to tax penalties</a>.</p>"),
         ],
-        faqs=[
-            (f"Do {name.lower()} need to file a return?", f"Yes, {name.lower()} with taxable income, or with assets or transactions linked to filing, file an annual return on IRIS."),
-            ("Is tax deducted on my receipts credited?", "Yes. Tax deducted by clients or at import or export is claimed in the return, so keep every deduction certificate."),
-            ("What is the minimum late-filing penalty?", "Rs 40,000 under Section 182, or Rs 5,000 for low-salary cases, plus the Section 182A surcharge to join the ATL late."),
-            faq_extra,
-        ],
+        faqs=PROF_FAQ[name] + [faq_extra],
         sources=[("Federal Board of Revenue", "https://www.fbr.gov.pk/"), ("FBR IRIS portal", "https://iris.fbr.gov.pk/")])
 
 T["tax-filing-architects-pakistan"] = prof("Architects",

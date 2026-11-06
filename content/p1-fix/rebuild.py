@@ -88,8 +88,7 @@ def hub_content(cluster, info, blocks, toggle):
             f'<table><tr><th>Area</th><th>What the guide covers</th></tr>{rows}</table>'
             + (f'<h2 id="needs">What {html.escape(short)} residents ask about most</h2><p>Across these guides, the most frequent needs are '
                + ", ".join(top[:-1]) + (" and " + top[-1] if len(top) > 1 else (top[0] if top else "")) + ".</p>" if top else "")
-            + f'<h2 id="deadline">Filing status for Tax Year 2026</h2><p>{DEADLINE}</p>'
-            + f'<h2 id="visit">Working with us from {html.escape(short)}</h2><p>Our office is at Shop No 34, Rizwan Block Market, Awan Town, Lahore, open Monday to Saturday from 9:00 AM to 6:00 PM and on Friday until 12:30 PM. Most clients in {html.escape(short)} share documents on WhatsApp and never need to visit. For all areas, see our <a href="/tax-consultant-lahore">Lahore area guide</a>.</p>')
+            + f'<h2 id="visit">Filing from {html.escape(short)}</h2><p>Returns for {html.escape(short)} residents are filed online on IRIS; late-filing penalties and the ATL surcharge are explained in our <a href="/tax-penalties-in-pakistan">tax penalties guide</a>. For other parts of the city, see our <a href="/tax-consultant-lahore">Lahore area guide</a>.</p>')
     srcs = [("Federal Board of Revenue", "https://www.fbr.gov.pk/"), ("FBR IRIS portal", "https://iris.fbr.gov.pk/")]
     return body + faq_html(faqs, toggle) + sources_html(srcs), faqs
 
