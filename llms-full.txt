@@ -2,7 +2,7 @@
 
 > Answers to the questions people most often ask Kamboh Associates, taken word for word from the FAQ sections of the pages linked under each heading. Tax content covers Pakistan (tax year 2026). Web development content covers Kamboh Associates Digital.
 
-Updated: 2026-11-04
+Updated: 2026-11-06
 Short index: https://kambohassociates.com/llms.txt
 
 Contact: WhatsApp or call +92 328 4675162, email info@kambohassociates.com, office at Shop No 34 Rizwan Block Market, opposite Rizwan Park, Awan Town, Lahore 54660, Pakistan. Monday to Saturday 9:00 AM to 6:00 PM, Friday 9:00 AM to 12:30 PM.
@@ -336,105 +336,69 @@ A: Yes. We file returns for all previous years including 2022, 2023, 2024, and 2
 Q: What if I receive an FBR notice after filing?
 A: For returns filed by us, we handle any FBR notices at no extra charge within the first year. We stand fully behind our work. For notices on returns filed elsewhere, our fee starts at Rs. 5,000.
 
-## Income Tax Calculator Pakistan 2025-26 — FBR Slabs
+## Income Tax Calculator Pakistan 2026–27 — FBR Slabs
 URL: https://kambohassociates.com/tax-calculator
-Summary: Free Pakistan income tax calculator 2025-26. Calculate your exact FBR income tax based on official slabs. Salaried, freelancer, business. By Kamboh Associates.
+Summary: Free Pakistan income tax calculator 2026-27 (Tax Year 2027). Calculate your exact FBR income tax based on official slabs. Salaried, freelancer, business. By Kamboh Associates.
 
-Q: Is this calculator accurate for FBR?
-A: This calculator uses the official FBR tax slabs from the Finance Act 2026. It provides a close estimate of your tax liability, but actual tax may differ based on specific deductions, credits, and FBR assessment. For exact figures, consult Kamboh Associates.
+Q: Which slabs does this calculator use?
+A: Tax Year 2027 slabs from the Finance Act 2026: salaried slabs for salaried taxpayers and unchanged non-salaried slabs for business income, with a 10% surcharge above Rs 10 million for non-salaried taxpayers.
 
-Q: What if my income comes from multiple sources?
-A: If you have income from salary, business, property, and investments, each source may be taxed at different rates. FBR's IRIS system handles multi-source income declarations. Kamboh Associates can prepare your complete return covering all income sources at 0328-4675162.
+Q: Is income up to Rs 600,000 tax-free?
+A: Yes. Taxable income up to Rs 600,000 a year is taxed at 0% under both salaried and non-salaried slabs.
 
-Q: What is the income tax exemption limit in Pakistan 2026?
-A: For tax year 2027, the income tax exemption threshold is Rs.600,000 per year for salaried individuals. Income up to this amount is taxed at 0%. Above Rs.600,000, progressive tax rates apply starting from 2.5% up to 35% for income above Rs.6 million.
+Q: Why is my business tax higher than salary tax on the same income?
+A: Non-salaried slabs are higher than salaried slabs, and the Finance Act 2026 cut salaried rates while leaving non-salaried rates unchanged.
 
-Q: How is salary tax calculated in Pakistan?
-A: Salary tax in Pakistan is calculated by multiplying your monthly salary by 12 to get annual income, then applying the applicable slab rate from the FBR tax table. The employer deducts this tax monthly under Section 149 and deposits it with FBR. You can use Kamboh Associates salary tax calculator above for an instant estimate.
+Q: Is the result my final tax?
+A: It is an estimate. Final tax depends on exempt income, tax credits, withholding already paid and your return. Check with FBR's IRIS calculation before filing.
 
-Q: Can I reduce my salary tax in Pakistan?
-A: Yes. Salaried employees can reduce income tax through: pension fund contributions (Section 63 — up to 20% of salary deductible), equity mutual fund investments (Section 62 — tax credit up to Rs.150,000), health and life insurance premiums, and charitable donations to approved NGOs. Inform your HR department about these investments to reduce monthly deductions.
-
-Q: Do I still need to file a return if tax is already deducted from my salary?
-A: Yes. Even if your employer deducts tax at source under Section 149, you must still file an annual income tax return by September 30. Filing your return is what puts you on the Active Taxpayer List (ATL) and gives you filer status. Without filing, you remain a non-filer and pay higher withholding taxes on property, banking, and vehicle transactions regardless of how much salary tax was already deducted.
-
-Q: How do I get tax refund in Pakistan if too much tax was deducted?
-A: If excess tax was deducted from your salary or business income, you can claim a refund by filing your income tax return and showing the overpayment. FBR processes refunds within 45-60 days of return filing. You need your CPR numbers (tax payment receipts) and employer certificate (Form 16) to support the refund claim. Kamboh Associates handles refund claims at 0328-4675162.
-
-## Salary Calculator Pakistan 2025 — Gross to Net Take-Home
+## Salary Calculator Pakistan 2026–27 — Gross to Net Take-Home
 URL: https://kambohassociates.com/salary-calculator
-Summary: Free Pakistan salary calculator 2025. Calculate your exact take-home salary after income tax, EOBI, SESSI deductions. Based on FBR 2025-26 slabs.
+Summary: Free Pakistan salary calculator 2026-27. Calculate your exact take-home salary after income tax, EOBI and provident fund deductions. Based on FBR 2025-26 slabs.
 
-Q: Is this calculator accurate for FBR?
-A: This calculator uses the official FBR tax slabs from the Finance Act 2026. It provides a close estimate of your tax liability, but actual tax may differ based on specific deductions, credits, and FBR assessment. For exact figures, consult Kamboh Associates.
+Q: How much tax is deducted from a Rs 100,000 monthly salary?
+A: Annual salary is Rs 1,200,000, so tax is 1% of Rs 600,000, which is Rs 6,000 a year, or Rs 500 a month, under the Tax Year 2027 salaried slabs.
 
-Q: What if my income comes from multiple sources?
-A: If you have income from salary, business, property, and investments, each source may be taxed at different rates. FBR's IRIS system handles multi-source income declarations. Kamboh Associates can prepare your complete return covering all income sources at 0328-4675162.
+Q: Does my employer deduct tax every month?
+A: Yes. Employers deduct tax from salary each month under Section 149 based on estimated annual salary and deposit it with FBR.
 
-Q: What is the income tax exemption limit in Pakistan 2026?
-A: For tax year 2027, the income tax exemption threshold is Rs.600,000 per year for salaried individuals. Income up to this amount is taxed at 0%. Above Rs.600,000, progressive tax rates apply starting from 2.5% up to 35% for income above Rs.6 million.
+Q: Is EOBI deducted from salary?
+A: Where the employer is covered, the employee contributes 1% of the notified minimum wage each month and the employer 5%.
 
-Q: How is salary tax calculated in Pakistan?
-A: Salary tax in Pakistan is calculated by multiplying your monthly salary by 12 to get annual income, then applying the applicable slab rate from the FBR tax table. The employer deducts this tax monthly under Section 149 and deposits it with FBR. You can use Kamboh Associates salary tax calculator above for an instant estimate.
-
-Q: Can I reduce my salary tax in Pakistan?
-A: Yes. Salaried employees can reduce income tax through: pension fund contributions (Section 63 — up to 20% of salary deductible), equity mutual fund investments (Section 62 — tax credit up to Rs.150,000), health and life insurance premiums, and charitable donations to approved NGOs. Inform your HR department about these investments to reduce monthly deductions.
-
-Q: Do I still need to file a return if tax is already deducted from my salary?
-A: Yes. Even if your employer deducts tax at source under Section 149, you must still file an annual income tax return by September 30. Filing your return is what puts you on the Active Taxpayer List (ATL) and gives you filer status. Without filing, you remain a non-filer and pay higher withholding taxes on property, banking, and vehicle transactions regardless of how much salary tax was already deducted.
-
-Q: How do I get tax refund in Pakistan if too much tax was deducted?
-A: If excess tax was deducted from your salary or business income, you can claim a refund by filing your income tax return and showing the overpayment. FBR processes refunds within 45-60 days of return filing. You need your CPR numbers (tax payment receipts) and employer certificate (Form 16) to support the refund claim. Kamboh Associates handles refund claims at 0328-4675162.
+Q: Do I still need to file a return if tax is deducted?
+A: Salaried people with taxable income should still file, so they stay on the Active Taxpayers List and pay lower withholding on other transactions.
 
 ## GST & Sales Tax Calculator Pakistan 2026 — Add/Remove Tax Instantly
 URL: https://kambohassociates.com/gst-calculator
 Summary: Free Pakistan GST & sales tax calculator 2026. Add tax to any price or remove GST from total. Supports 18% federal and 16%, 15%, 13% provincial rates.
 
-Q: What is the process to hire Kamboh Associates for tax filing?
-A: Simply WhatsApp 0328-4675162 with your name, CNIC, and what service you need. We confirm the fee upfront, you send your documents digitally, and we file the same day. For company registrations and complex matters, we send you a detailed checklist of required documents.
+Q: What is the standard sales tax rate in Pakistan?
+A: The standard federal sales tax rate on goods is 18%. Services are taxed by the provinces at their own rates.
 
-Q: Does Kamboh Associates serve clients outside Lahore?
-A: Yes. All our services are available nationwide and for overseas Pakistanis. We serve clients in Karachi, Islamabad, Rawalpindi, Faisalabad, Multan, Peshawar, Sialkot, Quetta, and internationally in UAE, UK, USA, Canada, and Saudi Arabia. Everything is done online via WhatsApp — no office visit required.
+Q: How do I remove sales tax from a total?
+A: Divide the tax-inclusive total by one plus the rate. At 18%, Rs 11,800 divided by 1.18 is Rs 10,000 before tax.
 
-Q: What is the standard GST rate in Pakistan 2026?
-A: The standard GST (General Sales Tax) rate in Pakistan for 2026 is 18% on locally manufactured goods and 25% on imported luxury goods. Certain items like basic food products, medicines, agricultural inputs, and exports are zero-rated or exempt from GST. The rate was increased from 17% to 18% in the Finance Act 2023 and has remained 18% since then.
+Q: Who charges sales tax on services?
+A: Provincial authorities: PRA in Punjab, SRB in Sindh, KPRA in Khyber Pakhtunkhwa and BRA in Balochistan.
 
-Q: Who needs to register for sales tax (STRN) in Pakistan?
-A: Any business with annual taxable supplies above Rs.10 million must register for sales tax with FBR and obtain a Sales Tax Registration Number (STRN). Retailers above a certain turnover threshold, manufacturers regardless of turnover, and importers must also register. Voluntary registration is also permitted and often recommended as it allows claiming input tax credits.
+Q: Are exports charged sales tax?
+A: Exports of goods are generally zero-rated, which allows input tax to be reclaimed through the refund system.
 
-Q: How is input GST different from output GST?
-A: Output GST is the sales tax you charge your customers on your sales. Input GST is the sales tax you paid to your suppliers on your purchases. The net GST payable to FBR = Output GST minus Input GST. If your input GST exceeds output GST, you have a refundable balance (excess input tax) which FBR can either refund or carry forward to next month.
-
-Q: When is the GST return due date in Pakistan?
-A: The monthly sales tax return must be filed and payment deposited by the 18th of each month for the previous month's transactions. For example, June transactions must be reported by July 18. Late filing attracts a penalty of Rs.10,000 per return. Kamboh Associates handles monthly GST filing for businesses starting from Rs.5,000 per month.
-
-Q: What items are exempt from GST in Pakistan?
-A: GST exempt items in Pakistan include: basic foodstuffs (wheat, rice, flour, pulses, vegetables, fruits), medicines and pharmaceutical products, agricultural seeds and fertilizers, educational books and materials, and financial services. Exported goods are zero-rated (0% GST) rather than exempt, which is better because exporters can still claim input tax refunds on zero-rated exports.
-
-## Income Tax Estimator Pakistan 2025 — Freelancer & Business
+## Income Tax Estimator Pakistan 2026–27 — Freelancer & Business
 URL: https://kambohassociates.com/income-estimator
-Summary: Free income tax estimator for Pakistani freelancers, business owners, and salaried individuals. Estimate your FBR tax liability for 2025-26. By Kamboh Associates.
+Summary: Free income tax estimator for Pakistani freelancers, business owners, and salaried individuals. Estimate your FBR tax liability for 2026-27. By Kamboh Associates.
 
-Q: Is this calculator accurate for FBR?
-A: This calculator uses the official FBR tax slabs from the Finance Act 2026. It provides a close estimate of your tax liability, but actual tax may differ based on specific deductions, credits, and FBR assessment. For exact figures, consult Kamboh Associates.
+Q: When do salaried slabs apply to all my income?
+A: When salary is more than 75% of taxable income, the salaried slabs are applied to the total taxable income.
 
-Q: What if my income comes from multiple sources?
-A: If you have income from salary, business, property, and investments, each source may be taxed at different rates. FBR's IRIS system handles multi-source income declarations. Kamboh Associates can prepare your complete return covering all income sources at 0328-4675162.
+Q: Is there a surcharge on high business income?
+A: Yes. For non-salaried individuals and AOPs, a 10% surcharge on tax applies where taxable income exceeds Rs 10 million.
 
-Q: What is the income tax exemption limit in Pakistan 2026?
-A: For tax year 2027, the income tax exemption threshold is Rs.600,000 per year for salaried individuals. Income up to this amount is taxed at 0%. Above Rs.600,000, progressive tax rates apply starting from 2.5% up to 35% for income above Rs.6 million.
+Q: Does the estimate include tax already deducted?
+A: Yes. Enter tax deducted by employers, banks and others to see the balance payable or refundable.
 
-Q: How is salary tax calculated in Pakistan?
-A: Salary tax in Pakistan is calculated by multiplying your monthly salary by 12 to get annual income, then applying the applicable slab rate from the FBR tax table. The employer deducts this tax monthly under Section 149 and deposits it with FBR. You can use Kamboh Associates salary tax calculator above for an instant estimate.
-
-Q: Can I reduce my salary tax in Pakistan?
-A: Yes. Salaried employees can reduce income tax through: pension fund contributions (Section 63 — up to 20% of salary deductible), equity mutual fund investments (Section 62 — tax credit up to Rs.150,000), health and life insurance premiums, and charitable donations to approved NGOs. Inform your HR department about these investments to reduce monthly deductions.
-
-Q: Do I still need to file a return if tax is already deducted from my salary?
-A: Yes. Even if your employer deducts tax at source under Section 149, you must still file an annual income tax return by September 30. Filing your return is what puts you on the Active Taxpayer List (ATL) and gives you filer status. Without filing, you remain a non-filer and pay higher withholding taxes on property, banking, and vehicle transactions regardless of how much salary tax was already deducted.
-
-Q: How do I get tax refund in Pakistan if too much tax was deducted?
-A: If excess tax was deducted from your salary or business income, you can claim a refund by filing your income tax return and showing the overpayment. FBR processes refunds within 45-60 days of return filing. You need your CPR numbers (tax payment receipts) and employer certificate (Form 16) to support the refund claim. Kamboh Associates handles refund claims at 0328-4675162.
+Q: Is the estimate final?
+A: No. Exempt income, separate-rule income and tax credits can change the result. Confirm figures in the return on IRIS.
 
 ## Late Filing Penalty and ATL Surcharge Calculator Pakistan 2026
 URL: https://kambohassociates.com/tools/late-filing-penalty-calculator
@@ -689,21 +653,45 @@ Summary: FBR notice mila hai? Section 111, 114, 176, 177 — har notice ka jawab
 URL: https://kambohassociates.com/fbr-notice-after-tax-return-pakistan
 Summary: Received FBR notice after filing tax return in Pakistan? Common notice types, reasons, response deadlines & how to reply. Expert help: 0328-4675162.
 
-Q: How do I respond to a Section 111 FBR notice?
-A: Respond within 30 days by submitting a written reply via IRIS (FBR portal) under the Correspondence section. Your reply must explain the source of each unexplained amount with documentary evidence (bank statements, inheritance documents, remittance records). Kamboh Associates drafts Section 111 replies within 24 hours. Call 0328-4675162 immediately.
+Q: Is a notice after filing serious?
+A: It is a formal request that needs a reply by the due date. Many are resolved by providing the documents asked for.
 
-Q: Can I appeal an FBR notice if I disagree with the assessment?
-A: Yes. If FBR issues an assessment order you believe is wrong, you can appeal to the Commissioner (Appeals) within 30 days, then to the Appellate Tribunal Inland Revenue (ATIR) within 60 days of the appellate order, and finally to the High Court on questions of law. Kamboh Associates represents clients at all appeal levels.
+Q: Where do I see FBR notices?
+A: Notices are issued to your IRIS account and email. Check IRIS regularly, not only during filing season.
+
+Q: What happens if I do not reply?
+A: FBR can proceed on the information it has, which may lead to an amended assessment, tax demand or penalty.
+
+Q: Can I get more time?
+A: You can request an adjournment in writing before the due date, giving a reason.
+
+Q: Can I see the data FBR has about me?
+A: IRIS shows withholding tax collected against your CNIC, which helps match your return to FBR's records.
+
+Q: Do notices come only after filing?
+A: No. Notices can also be issued to non-filers whose transactions show taxable income or assets.
 
 ## How to Respond to FBR Tax Notice Pakistan 2026
 URL: https://kambohassociates.com/how-to-respond-to-tax-notices-pakistan
 Summary: Step-by-step guide to respond to FBR tax notice in Pakistan 2026. Notice types, deadlines, documents needed & expert response tips. Call 0328-4675162.
 
-Q: How do I respond to a Section 111 FBR notice?
-A: Respond within 30 days by submitting a written reply via IRIS (FBR portal) under the Correspondence section. Your reply must explain the source of each unexplained amount with documentary evidence (bank statements, inheritance documents, remittance records). Kamboh Associates drafts Section 111 replies within 24 hours. Call 0328-4675162 immediately.
+Q: How long do I have to reply to an FBR notice?
+A: The due date is written on the notice. Reply before it, or request an adjournment in writing before it passes.
 
-Q: Can I appeal an FBR notice if I disagree with the assessment?
-A: Yes. If FBR issues an assessment order you believe is wrong, you can appeal to the Commissioner (Appeals) within 30 days, then to the Appellate Tribunal Inland Revenue (ATIR) within 60 days of the appellate order, and finally to the High Court on questions of law. Kamboh Associates represents clients at all appeal levels.
+Q: Can I reply online?
+A: Yes, replies and documents are submitted through IRIS, which gives an acknowledgement.
+
+Q: What if I disagree with the final order?
+A: You can appeal to the Commissioner (Appeals) and then the Appellate Tribunal Inland Revenue within the legal time limits.
+
+Q: Should I file a revised return after a notice?
+A: Only after understanding what is questioned. A revision without reason can create new questions.
+
+Q: What should the first line of a reply include?
+A: The notice reference number, the section of the law and the tax year it concerns.
+
+Q: Should a reply include extra explanations?
+A: Only explanations supported by documents. New, unsupported claims can lead to further questions.
 
 ## How to Avoid FBR Notice in Pakistan 2026 - Prevention Guide
 URL: https://kambohassociates.com/blogs/how-to-avoid-fbr-notice-pakistan
@@ -853,11 +841,23 @@ A: 7 to 10 days from name reservation to Certificate of Incorporation in most ca
 URL: https://kambohassociates.com/annual-company-filing-guide-pakistan
 Summary: Complete guide to annual company filing in Pakistan 2026. SECP annual return, FBR corporate tax return, WHT statements, deadlines & penalties.
 
-Q: What is the income tax return deadline for Pakistan 2026?
-A: The income tax return deadline for tax year 2026 (July 2025 to June 2026) is September 30, 2026 for individuals and salaried persons. Companies and AOPs have until December 31, 2026. Filing after these dates can attract a Section 182 penalty of 0.1% of tax payable per day (minimum Rs. 40,000, or Rs. 5,000 for most salaried individuals).
+Q: When must a company hold its AGM?
+A: Within 120 days of the end of its financial year under the Companies Act 2017.
 
-Q: How can I reduce my income tax in Pakistan legally?
-A: Legal tax reduction options include: pension fund contributions deductible up to 20% of income (Section 63), equity mutual fund investment tax credit up to Rs.150,000 (Section 62), health and life insurance premium deduction (Section 62), donations to approved NPOs deductible up to 30% of income (Section 61), and claiming all legitimate business expenses. Consult Kamboh Associates at 0328-4675162 for personalized tax planning.
+Q: When is the annual return filed?
+A: Form A is filed with SECP within 30 days of the AGM for companies with share capital.
+
+Q: When is a company's tax return due?
+A: For a 30 June year end, by 31 December of that year.
+
+Q: Where are SECP filings made?
+A: Online on SECP's eZfile/LEAP portal.
+
+Q: Does a dormant company still file?
+A: Yes. A company that exists must file its SECP and FBR returns, even with no activity, unless it is formally closed.
+
+Q: What is the ATL surcharge for a company filing late?
+A: Rs 100,000 under Section 182A, in addition to the Section 182 late-filing penalty.
 
 ## Fiverr Income Tax Pakistan 2026 — Freelancer Tax Guide
 URL: https://kambohassociates.com/fiverr-income-tax-pakistan
@@ -1055,49 +1055,49 @@ A: Yes. Running your practice as a Private Limited Company can offer tax advanta
 URL: https://kambohassociates.com/tax-filing-traders-pakistan
 Summary: Income tax guide for traders and merchants in Pakistan 2026. Business income, turnover tax, advance tax, WHT on purchases & FBR return steps.
 
-Q: Do engineers need to file income tax in Pakistan?
-A: Yes. All engineers earning above Rs 600,000 annually must file with FBR. Salaried engineers use salary certificate; freelance engineers file under business income.
+Q: Is tax on my shop's electricity bill adjustable?
+A: Tax collected on commercial electricity bills is generally claimed in the return when the bills are kept.
 
-Q: What is the 0.25% tax for software engineers?
-A: IT engineers receiving foreign currency via Pakistani banks can pay just 0.25% as final income tax on those remittances under SRO 1487(I)/2022 — instead of normal slab rates up to 35%.
+Q: How do traders show stock in the return?
+A: Record opening and closing stock at cost; profit is sales less purchases and expenses, adjusted for the change in stock.
 
-Q: Can engineers deduct PEC membership fees?
-A: Yes. PEC annual membership and renewal fees are deductible as professional expenses for engineers running a private practice or consultancy.
+Q: Do wholesalers need sales tax registration?
+A: Wholesalers and certain retailers must register under the Sales Tax Act; check FBR's current criteria.
 
-Q: Do I need to register for sales tax if my business is online?
-A: Yes, if your annual turnover from goods exceeds Rs.10 million. For online businesses selling services within Pakistan, provincial service tax may apply (PRA for Punjab, SRB for Sindh, KPRA for KPK). However, if your business earns exclusively from foreign clients (exports), you are generally exempt from Pakistani sales tax on those transactions.
-
-Q: What is the minimum tax for a business in Pakistan?
-A: Under Section 113 of the Income Tax Ordinance, businesses must pay a minimum tax of 1.25% of gross turnover even if they show a loss. For distributors and dealers, the minimum tax rate is 0.5%. This means even if your company makes no profit, you still owe FBR a minimum amount based on total sales. Proper tax planning can help manage this obligation.
+Q: Do shopkeepers need sales tax registration?
+A: Wholesalers and certain retailers must register under the Sales Tax Act. Check FBR's current criteria for your business.
 
 ## Tax Filing for Exporters Pakistan 2026 — FBR Export Tax
 URL: https://kambohassociates.com/tax-filing-exporters-pakistan
 Summary: Tax guide for exporters in Pakistan 2026. Section 154 WHT on exports, final tax regime, customs duty exemptions & FBR return for export businesses.
 
-Q: Do engineers need to file income tax in Pakistan?
-A: Yes. All engineers earning above Rs 600,000 annually must file with FBR. Salaried engineers use salary certificate; freelance engineers file under business income.
+Q: Where are export sales tax refunds claimed?
+A: Through FBR's sales tax refund system, supported by monthly returns and matching export documents.
 
-Q: What is the 0.25% tax for software engineers?
-A: IT engineers receiving foreign currency via Pakistani banks can pay just 0.25% as final income tax on those remittances under SRO 1487(I)/2022 — instead of normal slab rates up to 35%.
+Q: Do exporters still file an annual return?
+A: Yes. Exporters file an income tax return each year, declaring export proceeds and the tax collected on them.
 
-Q: Can engineers deduct PEC membership fees?
-A: Yes. PEC annual membership and renewal fees are deductible as professional expenses for engineers running a private practice or consultancy.
+Q: What records support export proceeds?
+A: Bank realisation certificates, export invoices and goods declarations for each shipment.
 
-Q: Do I need to register for sales tax if my business is online?
-A: Yes, if your annual turnover from goods exceeds Rs.10 million. For online businesses selling services within Pakistan, provincial service tax may apply (PRA for Punjab, SRB for Sindh, KPRA for KPK). However, if your business earns exclusively from foreign clients (exports), you are generally exempt from Pakistani sales tax on those transactions.
-
-Q: What is the minimum tax for a business in Pakistan?
-A: Under Section 113 of the Income Tax Ordinance, businesses must pay a minimum tax of 1.25% of gross turnover even if they show a loss. For distributors and dealers, the minimum tax rate is 0.5%. This means even if your company makes no profit, you still owe FBR a minimum amount based on total sales. Proper tax planning can help manage this obligation.
+Q: Are exports subject to sales tax?
+A: Export of goods is generally zero-rated, which allows input tax to be claimed back through the refund system.
 
 ## Tax on Agricultural Income Pakistan 2026 — Provincial Guide
 URL: https://kambohassociates.com/tax-on-agricultural-income-pakistan
 Summary: Is agricultural income taxable in Pakistan 2026? Federal vs provincial treatment, Punjab agriculture tax slabs, exemptions & filing requirements.
 
-Q: What is the income tax return deadline for Pakistan 2026?
-A: The income tax return deadline for tax year 2026 (July 2025 to June 2026) is September 30, 2026 for individuals and salaried persons. Companies and AOPs have until December 31, 2026. Filing after these dates can attract a Section 182 penalty of 0.1% of tax payable per day (minimum Rs. 40,000, or Rs. 5,000 for most salaried individuals).
+Q: Is crop income taxable in Pakistan?
+A: It is exempt from federal income tax but taxed by the province under its agricultural income tax law.
 
-Q: How can I reduce my income tax in Pakistan legally?
-A: Legal tax reduction options include: pension fund contributions deductible up to 20% of income (Section 63), equity mutual fund investment tax credit up to Rs.150,000 (Section 62), health and life insurance premium deduction (Section 62), donations to approved NPOs deductible up to 30% of income (Section 61), and claiming all legitimate business expenses. Consult Kamboh Associates at 0328-4675162 for personalized tax planning.
+Q: Should agricultural income be shown in the FBR return?
+A: Yes, as exempt income, with land and farm assets in the wealth statement. This explains the source of your wealth.
+
+Q: Is income from a dairy or mill agricultural income?
+A: No. Processing, trading and similar business income is taxed federally, even when it is connected to farming.
+
+Q: Where can I find current agricultural income tax rates?
+A: On your provincial government's official website and the notifications under its agricultural income tax law, since rates differ by province.
 
 ## Real Estate Developer Tax Guide Pakistan 2026 — Builders & Investors
 URL: https://kambohassociates.com/blogs/real-estate-developer-tax-pakistan
