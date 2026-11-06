@@ -108,6 +108,8 @@ POST = dict(
         ("Webo Creators — cost by technology (Laravel, React, Next.js)", "https://www.webocreators.com/business-website-development-cost-in-pakistan"),
         ("Progriso — Website Development Cost in Pakistan 2025–2026 (custom app band)", "https://progriso.com/website-development-cost-in-pakistan/"),
         ("Project Cost Estimator — Hiring a Pakistani developer (2026)", "https://projectcostestimator.com/cost/hire/pakistan"),
+        ("OWASP Top Ten: web application security risks", "https://owasp.org/www-project-top-ten/"),
+        ("W3C: Web Content Accessibility Guidelines", "https://www.w3.org/WAI/standards-guidelines/wcag/"),
     ],
     method=("Price bands combine the custom-application ranges in three Pakistani agency guides published in 2026, regrouped by project type. "
             "Hourly rates are quoted from one guide and labelled as indicative. Our price range is taken from our published price list and "

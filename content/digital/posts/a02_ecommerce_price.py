@@ -126,6 +126,7 @@ POST = dict(
         ("Rapid Gateway — PayFast Pakistan review: fees (2026)", "https://rapidgateway.pk/resources/payfast-pakistan-review"),
         ("Digiteazy — Payment gateways in Pakistan compared", "https://digiteazy.com/payment-gateway-pakistan/"),
         ("WHTop — Shared hosting plans in Pakistan", "https://www.whtop.com/plans/skyhost.pk/45724"),
+        ("Google Search Central: Ecommerce site guidance", "https://developers.google.com/search/docs/specialty/ecommerce"),
     ],
     method=("We compared the e-commerce price bands published by four Pakistani agencies in October 2026 and grouped them by store size. "
             "Shopify plan prices and fees come from a Pakistan pricing check dated 9 October 2026, and payment fees from published gateway "
