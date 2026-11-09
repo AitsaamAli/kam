@@ -2,7 +2,7 @@
 
 > Answers to the questions people most often ask Kamboh Associates, taken word for word from the FAQ sections of the pages linked under each heading. Tax content covers Pakistan (tax year 2026). Web development content covers Kamboh Associates Digital.
 
-Updated: 2026-11-06
+Updated: 2026-11-09
 Short index: https://kambohassociates.com/llms.txt
 
 Contact: WhatsApp or call +92 328 4675162, email info@kambohassociates.com, office at Shop No 34 Rizwan Block Market, opposite Rizwan Park, Awan Town, Lahore 54660, Pakistan. Monday to Saturday 9:00 AM to 6:00 PM, Friday 9:00 AM to 12:30 PM.
@@ -338,7 +338,7 @@ A: For returns filed by us, we handle any FBR notices at no extra charge within 
 
 ## Income Tax Calculator Pakistan 2026–27 — FBR Slabs
 URL: https://kambohassociates.com/tax-calculator
-Summary: Free Pakistan income tax calculator 2026-27 (Tax Year 2027). Calculate your exact FBR income tax based on official slabs. Salaried, freelancer, business. By Kamboh Associates.
+Summary: Free Pakistan income tax calculator 2026-27. Calculate your exact FBR income tax based on official slabs. Salaried, freelancer, business. By Kamboh Associates.
 
 Q: Which slabs does this calculator use?
 A: Tax Year 2027 slabs from the Finance Act 2026: salaried slabs for salaried taxpayers and unchanged non-salaried slabs for business income, with a 10% surcharge above Rs 10 million for non-salaried taxpayers.
@@ -354,7 +354,7 @@ A: It is an estimate. Final tax depends on exempt income, tax credits, withholdi
 
 ## Salary Calculator Pakistan 2026–27 — Gross to Net Take-Home
 URL: https://kambohassociates.com/salary-calculator
-Summary: Free Pakistan salary calculator 2026-27. Calculate your exact take-home salary after income tax, EOBI and provident fund deductions. Based on FBR 2025-26 slabs.
+Summary: Free Pakistan salary calculator 2026-27. Calculate your exact take-home salary after income tax, EOBI and provident fund deductions. Based on FBR Tax Year 2027 slabs.
 
 Q: How much tax is deducted from a Rs 100,000 monthly salary?
 A: Annual salary is Rs 1,200,000, so tax is 1% of Rs 600,000, which is Rs 6,000 a year, or Rs 500 a month, under the Tax Year 2027 salaried slabs.
@@ -1184,6 +1184,90 @@ A: No. The surcharge only restores ATL status. The Section 182 penalty for filin
 
 Q: How do I check whether I am back on the ATL?
 A: Check FBR's online ATL search with your CNIC or NTN, or send an SMS with ATL, a space and your CNIC to 9966. Allow some processing time after paying or submitting the undertaking.
+
+## DNFBP Registration in Pakistan 2026: Complete FBR Guide
+URL: https://kambohassociates.com/blogs/dnfbp-registration-pakistan
+Summary: Who counts as a DNFBP, how FBR registration works, and the AML duties that follow: CDD, screening, STR/CTR on goAML, records and penalties up to Rs 100m.
+
+Q: What does DNFBP stand for?
+A: Designated Non-Financial Businesses and Professions. In Pakistan, FBR supervises three of them for anti-money laundering: real estate agents (including builders and developers when dealing in property), dealers in precious metals and stones, and accountants not regulated by ICAP or ICMAP.
+
+Q: Is DNFBP registration the same as NTN or sales tax registration?
+A: No. NTN and sales tax registration are for tax. DNFBP registration is under the Anti-Money Laundering Act, 2010 and FBR's AML/CFT Regulations, and brings duties such as customer due diligence and reporting to FMU. You normally need an NTN and IRIS login first.
+
+Q: Does a jeweller have to register if most sales are below Rs 2 million?
+A: A jeweller is a DNFBP when it engages in a cash transaction of Rs 2 million or more with a customer. If that ever happens, or could happen, register. Breaking one sale into smaller cash payments is itself a red flag for FMU.
+
+Q: Are builders and developers DNFBPs?
+A: Yes, when they deal in property. FBR's short guidance for real estate agents states that the category includes builders, real estate developers, brokers and property dealers when they execute the purchase or sale of real property.
+
+Q: Do tax consultants have to register as DNFBPs?
+A: Not for tax work alone. Non-ICAP/ICMAP accountants are DNFBPs only when they carry out listed activities such as managing client money, forming or managing companies or trusts, or buying and selling property for clients. Ordinary tax returns and tax advice are not on the list.
+
+Q: Who can be the AML/CFT compliance officer?
+A: A person in senior management, such as the sole proprietor, CEO, managing partner, or a partner or employee with enough knowledge and authority. A sole proprietor with no employees is deemed to be the compliance officer.
+
+Q: Where are STRs and CTRs filed?
+A: With the Financial Monitoring Unit on its goAML portal (goamlweb.fmu.gov.pk), not with FBR. Each DNFBP must register on goAML first.
+
+Q: How long must DNFBP records be kept?
+A: Customer due diligence and relationship records for at least five years, and records of STRs and CTRs for at least ten years from the date of filing, according to FBR's 2023 FAQs.
+
+## Real Estate Agent DNFBP Registration & AML Rules Pakistan
+URL: https://kambohassociates.com/blogs/real-estate-agent-dnfbp-registration-aml-pakistan
+Summary: DNFBP rules for estate agents, property dealers, builders and developers: FBR registration, buyer and seller CDD, red flags, cash CTRs and records.
+
+Q: Do property dealers have to register with FBR as DNFBPs?
+A: Yes. FBR treats real estate agents, including property dealers, brokers, builders and developers, as DNFBPs when they execute or take part in the purchase or sale of real property. They must register with FBR and follow the AML/CFT Regulations.
+
+Q: Whose CNIC must an estate agent keep, the buyer's or the seller's?
+A: Both. FBR's short guidance for real estate agents lists the CNIC of the seller and purchaser, the sale deed, the bank draft and the CDD form as records to keep.
+
+Q: When must an estate agent file a CTR?
+A: When the agent engages in a cash transaction with a customer worth Rs 2 million or more. The CTR goes to the Financial Monitoring Unit on goAML.
+
+Q: Must I report a deal that did not go through?
+A: If it raised suspicion, yes. FBR's FAQs say an STR can be filed for an attempted transaction, and the agent should decline the business.
+
+Q: Is a builder selling its own flats a DNFBP?
+A: Yes. FBR's short guidance for real estate agents says the category includes builders and real estate developers when they execute property sales.
+
+Q: How long should property deal records be kept?
+A: CDD and transaction records for at least five years after the relationship ends, and STR and CTR records for at least ten years from filing.
+
+Q: Can I tell my client that I reported the deal?
+A: No. Telling a client, directly or indirectly, that an STR or CTR has been filed is tipping off, which is an offence under the AML law.
+
+Q: Is a buyer purchasing in a relative's name a red flag?
+A: It can be. FMU lists purchases in the name of an associate or relative other than a spouse or child, or for a minor or someone without the means, as a red flag. Ask questions and record the answers; file an STR if suspicion remains.
+
+## Jeweller DNFBP Registration & AML Compliance Pakistan
+URL: https://kambohassociates.com/blogs/jeweller-dnfbp-registration-aml-pakistan
+Summary: When a jeweller, bullion or gemstone dealer becomes a DNFBP: the Rs 2 million cash rule, CDD at the counter, FMU red flags, goAML reports and records.
+
+Q: Is every jeweller a DNFBP?
+A: No. A dealer in precious metals and stones is a DNFBP when it engages in a cash transaction with a customer of Rs 2 million or more. Most established jewellers handle such cash at least occasionally, so most should register.
+
+Q: Does the Rs 2 million limit apply to card or bank payments?
+A: The DNFBP test for jewellers is about cash transactions. Payments by bank transfer or card do not trigger it, but once registered you must still report suspicion in any transaction.
+
+Q: What if a customer pays Rs 2 million in two cash instalments?
+A: Be careful. FMU lists several smaller transactions that add up to a substantial total as a red flag. Identify the customer, consider whether the payments are linked, and file an STR if you suspect they were split to avoid reporting.
+
+Q: Does buying old gold for cash count?
+A: Yes. The rule refers to cash transactions with customers, so paying Rs 2 million or more in cash for gold brings you into the regime in the same way as selling.
+
+Q: Where does a jeweller file a CTR?
+A: With the Financial Monitoring Unit on its goAML portal. The jeweller must register on goAML before filing.
+
+Q: Which records must a jeweller keep?
+A: The customer's CNIC and CDD form for every qualifying transaction, kept at least five years, and records of STRs and CTRs kept at least ten years from filing.
+
+Q: Is a sole-owner jewellery shop required to have a compliance officer?
+A: Yes. If there are no employees, FBR's Condition No. 3 (2022) treats the sole proprietor as the AML/CFT compliance officer.
+
+Q: Can a jeweller refuse a sale?
+A: Yes. FBR's guidance says that where there is suspicion, the business relationship or transaction should be turned down and an STR filed. If the customer matches a sanctions list, freeze the funds, refuse the transaction and inform FBR immediately.
 
 
 # Part 2: Web development (Kamboh Associates Digital)
