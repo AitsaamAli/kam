@@ -149,6 +149,8 @@ PILLAR = dict(
 <li><strong>Week 4:</strong> train your staff, set up a file or folder system that keeps records for the required period, and diary the next review.</li>
 </ol>
 
+<p><strong>Step-by-step guides:</strong> {a('/blogs/goaml-registration-dnfbp-pakistan', 'goAML registration with FMU')}, {a('/blogs/aml-cft-compliance-programme-dnfbp-pakistan', 'building your AML/CFT compliance programme')}, and {a('/blogs/accountant-dnfbp-registration-aml-pakistan', 'DNFBP rules for accountants and company service providers')}.</p>
+
 <h2 id="tax-link">How DNFBP Rules Sit Alongside Your Tax Duties</h2>
 <p>DNFBP registration does not replace your income tax return, and a tax return does not register you as a DNFBP. The two systems do meet, though: the CDD you collect, the source of funds you record and the cash you receive should match what appears in your own return and wealth statement. Property dealers should also understand the advance tax on property under {a(L['236'], 'Sections 236C and 236K')}, and jewellers the rules in our guide to {a(L['gold'], 'tax on gold and jewellery')}.</p>
 

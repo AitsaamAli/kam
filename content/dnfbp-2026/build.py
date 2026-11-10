@@ -1,11 +1,14 @@
 import html, json, os, re, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from posts import POSTS, WA
+import importlib
+_M = importlib.import_module(os.environ.get('POSTS_MODULE', 'posts'))
+POSTS, WA = _M.POSTS, _M.WA
 
 ROOT = "/home/user/kam"
 BASE = "https://kambohassociates.com"
 TPL = open(f"{ROOT}/blogs/fbr-extends-tax-return-deadline-october-15-2026.html", encoding="utf-8").read()
-DATE = "2026-11-09"
+DATE = getattr(_M, "DATE", "2026-11-09")
+DLONG = getattr(_M, "DLONG", "9 November 2026")
 E = html.escape
 
 
@@ -54,9 +57,9 @@ def page(p):
     words = len(plain(p["body"] + " ".join(q + " " + a_ for q, a_ in p["faqs"])).split())
     hero = f'''<section class="blog-hero"><div class="container"><nav class="breadcrumb"><a href="/"><i class="fas fa-home"></i> Home</a><i class="fas fa-chevron-right"></i><a href="/blogs">Blog</a><i class="fas fa-chevron-right"></i><span>{E(p["crumb"])}</span></nav><div class="blog-cat"><i class="fas fa-tags"></i> {E(p["category"])}</div>
 <h1>{E(p["h1"])}</h1>
-<div class="blog-meta"><span><i class="fas fa-calendar"></i> <time datetime="{DATE}">9 November 2026</time></span><span><i class="fas fa-user"></i> Kamboh Associates</span><span><i class="fas fa-clock"></i> {p["read"]}</span></div></div></section>
+<div class="blog-meta"><span><i class="fas fa-calendar"></i> <time datetime="{DATE}">{DLONG}</time></span><span><i class="fas fa-user"></i> Kamboh Associates</span><span><i class="fas fa-clock"></i> {p["read"]}</span></div></div></section>
 <div class="blog-layout container"><article class="article-body" style="min-width:0">
-<div class="author-byline" style="display:flex;align-items:center;gap:10px;margin:0 0 18px;padding:12px 16px;background:rgba(20,184,166,.07);border-left:3px solid #14B8A6;border-radius:0 8px 8px 0;font-size:.85rem;color:#334155"><i class="fas fa-user-tie" style="color:#14B8A6"></i><span>By <a href="/authors/aitsaam-ali" style="color:#0D9488;font-weight:600">Aitsaam Ali</a>, Author &middot; Figures from FBR&rsquo;s official website &middot; Facts checked 9 November 2026</span></div>
+<div class="author-byline" style="display:flex;align-items:center;gap:10px;margin:0 0 18px;padding:12px 16px;background:rgba(20,184,166,.07);border-left:3px solid #14B8A6;border-radius:0 8px 8px 0;font-size:.85rem;color:#334155"><i class="fas fa-user-tie" style="color:#14B8A6"></i><span>By <a href="/authors/aitsaam-ali" style="color:#0D9488;font-weight:600">Aitsaam Ali</a>, Author &middot; Figures from FBR&rsquo;s official website &middot; Facts checked {DLONG}</span></div>
 <div class="urgency-banner"><i class="fas fa-triangle-exclamation"></i><span>{E(p["banner"])}</span></div>
 <p class="article-lead">{E(p["lead"])}</p>
 <div class="tldr-box" style="background:linear-gradient(135deg,rgba(20,184,166,.08),rgba(20,184,166,.04));border:1.5px solid rgba(20,184,166,.35);border-radius:12px;padding:16px 20px;margin:0 0 24px;display:flex;gap:12px;align-items:flex-start"><div style="background:#14B8A6;color:#fff;border-radius:6px;padding:3px 9px;font-size:.68rem;font-weight:700;letter-spacing:.08em;flex-shrink:0;margin-top:2px">TL;DR</div><p style="margin:0;font-size:.93rem;color:#1E293B;line-height:1.7">{E(p["tldr"])}</p></div>
@@ -69,7 +72,7 @@ def page(p):
 </div>
 <h2 id="sources">Sources</h2>
 <ol>{srcs}</ol>
-<p style="font-size:.85rem;color:#475569">This guide explains the law and FBR announcements as reported up to 9 November 2026. It is general information, not advice for your specific case. Rules and IRIS options can change, so confirm before you act.</p>
+<p style="font-size:.85rem;color:#475569">This guide explains the law and FBR announcements as reported up to {DLONG}. It is general information, not advice for your specific case. Rules and IRIS options can change, so confirm before you act.</p>
 <div class="related-guide" style="background:#f0fdf4;border:1px solid #bbf7d0;border-radius:8px;padding:14px 18px;margin:20px 0"><strong>Related Guides:</strong> {rel}</div>
 <div class="article-cta" style="background:linear-gradient(135deg,#0F172A,#1E3A5F);border-radius:16px;padding:28px 32px;margin-top:32px;text-align:center"><h3 style="font-family:'Cormorant Garamond',serif;color:#fff;font-size:1.4rem;margin-bottom:8px">{E(p["cta_h"])}</h3><p style="color:#94A3B8;font-size:.9rem;margin-bottom:18px">{E(p["cta_p"])}</p><a href="{WA}?text={E(__import__("urllib.parse").parse.quote(p["wa_text"]))}" style="display:inline-flex;align-items:center;gap:8px;background:#25D366;color:#fff;padding:12px 28px;border-radius:100px;font-weight:600;font-size:.92rem"><i class="fab fa-whatsapp"></i> WhatsApp 0328-4675162</a></div>
 </article>

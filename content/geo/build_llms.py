@@ -37,7 +37,8 @@ TAX_GUIDES = ["filer-vs-nonfiler-pakistan", "atl-pakistan-guide", "how-to-check-
               "blogs/real-estate-developer-tax-pakistan", "blogs/best-tax-consultant-pakistan-fbr-filing-2026",
               "blogs/why-kamboh-associates-best-tax-consultant-pakistan",
               "blogs/tax-return-deadline-passed-31-october-2026-next-steps", "blogs/late-filer-atl-surcharge-or-form-atl-u-undertaking-2026",
-              "blogs/dnfbp-registration-pakistan", "blogs/real-estate-agent-dnfbp-registration-aml-pakistan", "blogs/jeweller-dnfbp-registration-aml-pakistan"]
+              "blogs/dnfbp-registration-pakistan", "blogs/real-estate-agent-dnfbp-registration-aml-pakistan", "blogs/jeweller-dnfbp-registration-aml-pakistan",
+              "blogs/goaml-registration-dnfbp-pakistan", "blogs/accountant-dnfbp-registration-aml-pakistan", "blogs/aml-cft-compliance-programme-dnfbp-pakistan"]
 CITIES = ["lahore", "karachi", "islamabad", "rawalpindi", "faisalabad", "multan", "peshawar", "quetta", "sialkot", "gujranwala"]
 DIGITAL_PAGES = ["digital", "digital/business-websites", "digital/ecommerce-development", "digital/web-app-development",
                  "digital/pricing", "digital/web-development-lahore", "digital/contact", "digital/blog"]
