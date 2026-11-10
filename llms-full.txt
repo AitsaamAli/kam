@@ -2,7 +2,7 @@
 
 > Answers to the questions people most often ask Kamboh Associates, taken word for word from the FAQ sections of the pages linked under each heading. Tax content covers Pakistan (tax year 2026). Web development content covers Kamboh Associates Digital.
 
-Updated: 2026-11-09
+Updated: 2026-11-10
 Short index: https://kambohassociates.com/llms.txt
 
 Contact: WhatsApp or call +92 328 4675162, email info@kambohassociates.com, office at Shop No 34 Rizwan Block Market, opposite Rizwan Park, Awan Town, Lahore 54660, Pakistan. Monday to Saturday 9:00 AM to 6:00 PM, Friday 9:00 AM to 12:30 PM.
@@ -1268,6 +1268,90 @@ A: Yes. If there are no employees, FBR's Condition No. 3 (2022) treats the sole 
 
 Q: Can a jeweller refuse a sale?
 A: Yes. FBR's guidance says that where there is suspicion, the business relationship or transaction should be turned down and an STR filed. If the customer matches a sanctions list, freeze the funds, refuse the transaction and inform FBR immediately.
+
+## goAML Registration for DNFBPs in Pakistan: Step-by-Step Guide
+URL: https://kambohassociates.com/blogs/goaml-registration-dnfbp-pakistan
+Summary: Register your property, jewellery or accounting business on FMU's goAML portal: every form field, the authority letter, admin rules and STR/CTR basics.
+
+Q: Is goAML registration the same as DNFBP registration with FBR?
+A: No. DNFBP registration is with FBR on IRIS. goAML registration is with the Financial Monitoring Unit and is needed to file STRs and CTRs. A DNFBP needs both.
+
+Q: Who should be the goAML admin for a small business?
+A: FMU's guideline says the admin should be a senior official, preferably the head of compliance. In a sole proprietorship that is usually the owner, who is also the AML/CFT compliance officer.
+
+Q: Can I use a Gmail address as the goAML username?
+A: Yes. FMU recommends an official business email, but its DNFBP registration guideline shows a Gmail address as an accepted example.
+
+Q: What is the goAML authority letter?
+A: A letter on the business's letterhead, signed by the head of compliance, authorising the admin user. It is uploaded as a PDF with the form, and the hard copy is posted to the Additional Director, FMU. FMU publishes a specimen.
+
+Q: What are the password rules for goAML?
+A: At least eight characters, including at least one small letter, one capital letter, one number and one special character.
+
+Q: Do I file STRs with FBR or FMU?
+A: With FMU through goAML only. FBR's FAQs say reporting entities are only required to file STRs with FMU.
+
+Q: When must a CTR be filed?
+A: When the business engages in a cash transaction with a customer worth Rs 2 million or more. It is a threshold report and no suspicion is needed.
+
+Q: Can I file an STR for a deal that did not happen?
+A: Yes. FBR's FAQs say an STR can be filed for an attempted transaction that raises suspicion.
+
+## Accountants & Company Service Providers: DNFBP Rules Pakistan
+URL: https://kambohassociates.com/blogs/accountant-dnfbp-registration-aml-pakistan
+Summary: Which accountant and company-formation services make you a DNFBP: FBR's 14 activities, what is not covered (tax, audit, bookkeeping) and the duties.
+
+Q: Are all accountants in Pakistan DNFBPs?
+A: No. FBR supervises accountants not regulated by ICAP or ICMAP, and only when they provide one of the 14 listed services, such as managing client money, forming companies or providing a registered address.
+
+Q: Does tax return filing or tax advice make me a DNFBP?
+A: No. FBR's 2023 FAQs say tax advisory services do not fall within the Trust and Company Service Provider definition. You may still be covered if you also provide a listed service.
+
+Q: Is registering a company with SECP for a client covered?
+A: Yes. FBR's FAQs treat registering a company or forming a firm on a client's behalf as acting as a formation agent, which is a specified service.
+
+Q: Are annual SECP returns covered?
+A: No. Filing annual returns and statutory forms after incorporation is a routine requirement under the Companies Act, 2017 and is not a reporting activity, according to FBR's FAQs.
+
+Q: Is there a turnover threshold for accountants?
+A: No. FBR's FAQs say coverage is based on the services provided and there is no financial limit, threshold or benchmark.
+
+Q: If I do the service for free, am I still covered?
+A: Yes. FBR's FAQs say an entity providing these services without any fee is still classified as a DNFBP.
+
+Q: Is statutory audit or bookkeeping covered?
+A: No. Statutory audit, internal audit and pure bookkeeping are not specified services under FBR's FAQs.
+
+Q: What is the APDS?
+A: The Accountant Population Determination Survey. FBR's FAQs say all practising accountants are required to submit it.
+
+## AML/CFT Compliance Programme for DNFBPs: Policy & Checklist
+URL: https://kambohassociates.com/blogs/aml-cft-compliance-programme-dnfbp-pakistan
+Summary: Build the AML/CFT programme FBR expects from a DNFBP: risk assessment, written policy, CDD, screening, training, audit and an inspection checklist.
+
+Q: What must a DNFBP AML/CFT programme include?
+A: Under FBR's AML/CFT Regulations: a risk assessment, policies, controls and procedures matched to that risk, a senior compliance officer, staff screening and ongoing training, and an independent audit function, plus CDD, sanctions screening, reporting to FMU and record keeping.
+
+Q: Does a small property agency or jewellery shop need a written policy?
+A: Yes. The regulations require policies, controls and procedures for every DNFBP. They can be short and practical, but they should be written down and followed.
+
+Q: How often should the risk assessment be updated?
+A: Review it at least once a year and whenever the business changes significantly, keeping each dated version as evidence.
+
+Q: How often should customers be reviewed?
+A: FBR's FAQs give a guide: at least once a year for high-risk customers, every two years for medium risk and every three years for low risk, or sooner when something changes.
+
+Q: Can a sole proprietor be the compliance officer?
+A: Yes. A sole proprietor counts as senior management, and where there are no employees FBR deems the sole proprietor to be the compliance officer. The role can be combined with other duties.
+
+Q: What is an independent audit for a small DNFBP?
+A: A periodic check of the AML system by someone outside the day-to-day process, such as an external adviser, who tests customer files, screening and reporting and records findings.
+
+Q: Can FBR waive a penalty if we tried to comply?
+A: The Sanctions Rules say FBR may not impose a sanction if it is satisfied that the business took all reasonable steps and exercised all due diligence to comply. A documented programme is how you show that.
+
+Q: What is the maximum penalty for AML breaches by a DNFBP?
+A: Up to Rs 100 million per violation under the AML/CFT Sanctions Rules, 2020, on a risk-based scale, along with other possible sanctions such as restrictions or de-registration.
 
 
 # Part 2: Web development (Kamboh Associates Digital)
