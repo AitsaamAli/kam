@@ -25,7 +25,7 @@ X = {"ntn": "/ntn-registration", "ret": "/blogs/sole-proprietor-tax-return-pakis
      "whtrates": "/blogs/withholding-tax-pakistan-2026", "notice": "/fbr-notice-defense", "pricing": "/pricing",
      "compare": "/blogs/sole-proprietorship-vs-partnership-vs-pvt-ltd-lahore", "filing": "/income-tax-filing"}
 SERIES = (f'<p class="tf-primary"><strong>Sole proprietor series:</strong> {a(S["reg"], "registration")} &middot; {a(S["iris"], "adding a business on IRIS")} &middot; '
-          f'{a(S["adv"], "advance tax")} &middot; {a(S["wht"], "withholding duties")} &middot; {a(S["rec"], "records")} &middot; {a(S["close"], "closing a business")}</p>')
+          f'{a(S["adv"], "advance tax")} &middot; {a(S["wht"], "withholding duties")} &middot; {a(S["rec"], "records")} &middot; {a(S["close"], "closing a business")} &middot; {a("/blogs/sole-proprietor-wealth-statement-pakistan", "wealth statement")} &middot; {a("/blogs/sole-proprietor-cash-payment-rules-section-21-pakistan", "cash payment rules")} &middot; {a("/blogs/sole-proprietor-tax-services-fees-pakistan", "our services and fees")}</p>')
 
 
 REG = dict(
