@@ -1378,6 +1378,9 @@ A: Business profit is the owner's income, taxed at the rates for individuals wit
 Q: When should a sole proprietor become a company?
 A: Usually when liability protection, outside investment or larger contracts matter more than simplicity. Our SECP versus sole proprietorship guide compares the two.
 
+Q: How much tax does a sole proprietor pay?
+A: For tax year 2027, non-salaried individuals pay nil up to Rs 600,000 of taxable income, then 15%, 20%, 30%, 40% and 45% in bands, reaching Rs 1,610,000 plus 45% above Rs 5,600,000.
+
 ## How to Add a Business to Your NTN on IRIS (Sole Proprietor)
 URL: https://kambohassociates.com/blogs/add-business-to-ntn-iris-sole-proprietor
 Summary: Add your business name, address, branches and bank account to your NTN on IRIS through Form 181, and what needs an RTO visit instead. Updated for 2026.
@@ -1402,6 +1405,9 @@ A: Keep evidence of the error, contact or visit your RTO with documents, and dec
 
 Q: Should I add the business before opening a bank account?
 A: It helps. Banks usually check tax registration, and once the account is open you can add it to IRIS through Form 181.
+
+Q: Will adding a business change my employer's tax deduction?
+A: No. Your employer continues to deduct tax on salary. The business profit is declared separately in your return.
 
 ## Advance Tax for Sole Proprietors in Pakistan: Section 147 Guide
 URL: https://kambohassociates.com/blogs/sole-proprietor-advance-tax-pakistan
@@ -1456,6 +1462,9 @@ A: The test is turnover of Rs 100 million or more in any of the preceding tax ye
 Q: Where do I find the withholding rates?
 A: In the First Schedule to the Income Tax Ordinance. Our withholding tax guide summarises the current rates.
 
+Q: What is the penalty for a late withholding statement?
+A: Rs 50,000 if the tax was already paid and the statement is filed within 90 days of the due date; otherwise Rs 2,500 per day of default, with a minimum of Rs 10,000, under Section 182.
+
 ## Sole Proprietor Records: What FBR Expects You to Keep
 URL: https://kambohassociates.com/blogs/sole-proprietor-records-books-fbr-pakistan
 Summary: Records a sole proprietor must keep for FBR: six-year retention, receipts that protect deductions, invoices, bank trail and a simple monthly filing system.
@@ -1475,6 +1484,15 @@ A: Usually not. Bank statements show money moving; invoices, receipts and contra
 Q: Does the six-year limit always apply?
 A: No. It does not apply to records of income, assets, expenses or transactions covered by Section 111(2)(ii), and records must be kept while proceedings are pending.
 
+Q: What is the penalty for not keeping records?
+A: Under Section 182, Rs 10,000 or 5% of the tax on income, whichever is higher, for failing to maintain records required under the Ordinance or rules.
+
+Q: What happens if I do not produce records in an audit?
+A: Under Section 182, penalties of Rs 100,000, Rs 200,000 and Rs 300,000 apply for failing to produce records on the first, second and third notices under Section 177.
+
+Q: Until when must I keep tax year 2026 records?
+A: At least until 30 June 2032, six years after the tax year ended on 30 June 2026, and longer if a proceeding is pending.
+
 ## Close a Sole Proprietorship: Remove Business From NTN
 URL: https://kambohassociates.com/blogs/close-sole-proprietorship-remove-business-ntn-pakistan
 Summary: Closing a sole proprietorship: discontinuance at your RTO, the last income tax return and wealth statement, withholding wrap-up, and records to keep.
@@ -1490,6 +1508,18 @@ A: Yes. Income up to the closure date is declared in your annual return, and the
 
 Q: How long should I keep the closed business's records?
 A: Six years after the relevant tax year, under Section 174 of the Income Tax Ordinance, and longer if proceedings are pending.
+
+Q: Can I sell my sole proprietorship?
+A: You can sell its assets, such as stock, fixtures and goodwill. The buyer registers the business under their own NTN, and you discontinue it on yours and declare any gain.
+
+Q: What happens to the business when the owner dies?
+A: The legal representative is liable for the deceased's tax up to what the estate can pay (Section 87), is recorded on the profile, and the business is continued by an heir under their own registration or closed.
+
+Q: Can I close my business while a notice is pending?
+A: You can stop trading, but the notice or case continues. Respond on time and keep the records until it is finally decided.
+
+Q: Is a dormant business the same as a closed one?
+A: No. Until it is discontinued with FBR, it remains on your registration and returns are still expected.
 
 ## DNFBP Registration Lahore & Punjab: Which FBR Office Is Yours
 URL: https://kambohassociates.com/blogs/dnfbp-registration-lahore-punjab
@@ -1516,6 +1546,9 @@ A: The notification assigns DNFBPs mainly by tax office or place of business; pl
 Q: When did these jurisdictions take effect?
 A: S.R.O. 1497(I)/2026 was issued on 2 September 2026 and replaced the earlier jurisdiction table.
 
+Q: Who is the DNFBP supervisor for Sialkot exporters' accountants?
+A: Additional Director-II (DNFBPs), Lahore, who covers businesses within RTO Sialkot, Gujranwala, Faisalabad and Sargodha.
+
 ## DNFBP Registration Karachi & Sindh: Which FBR Office Is Yours
 URL: https://kambohassociates.com/blogs/dnfbp-registration-karachi-sindh
 Summary: Which FBR DNFBP officer supervises estate agents, builders, jewellers and accountants in Karachi, Hyderabad and Sukkur under the September 2026 order.
@@ -1534,6 +1567,15 @@ A: Additional Director-I (DNFBPs), Karachi, who covers cases assigned to the Lar
 
 Q: When did the current Karachi jurisdiction take effect?
 A: S.R.O. 1497(I)/2026, issued on 2 September 2026, sets the current jurisdiction table.
+
+Q: Does transferring a booking to a new buyer need new CDD?
+A: Treat it as a new customer relationship: identify and screen the new buyer and record how they pay.
+
+Q: Are Karachi corporate service providers DNFBPs?
+A: Practices outside ICAP and ICMAP that form companies, provide registered addresses, or act as or arrange directors, secretaries or nominee shareholders in the ordinary course of business are DNFBPs under FBR's FAQs.
+
+Q: Who supervises property dealers in Hyderabad?
+A: Additional Director-II (DNFBPs), Karachi, who covers RTO Hyderabad and RTO Sukkur.
 
 ## DNFBP Registration Islamabad & Rawalpindi: FBR Office Guide
 URL: https://kambohassociates.com/blogs/dnfbp-registration-islamabad-rawalpindi
@@ -1557,6 +1599,12 @@ A: Supervision follows your tax office and place of business. Check which RTO ho
 Q: Is registration done at the Islamabad office?
 A: No. DNFBP registration is online on IRIS, and goAML registration is online with FMU.
 
+Q: Is every government employee a politically exposed person?
+A: No. FBR's definition covers individuals with prominent public functions, such as senior officials and politicians, and their family members and close associates.
+
+Q: Can a Gilgit-Baltistan business register without visiting Islamabad?
+A: Yes. DNFBP registration is on IRIS and goAML registration is online with FMU.
+
 ## DNFBP Registration Peshawar & KP: Which FBR Office Is Yours
 URL: https://kambohassociates.com/blogs/dnfbp-registration-peshawar-kp
 Summary: Which FBR DNFBP office supervises property dealers, jewellers and accountants in Peshawar, Abbottabad and Khyber Pakhtunkhwa (SRO 1497/2026).
@@ -1576,6 +1624,15 @@ A: Freeze the funds without delay, refuse the transaction, file an STR with FMU 
 Q: Does KPRA registration cover DNFBP requirements?
 A: No. KPRA collects provincial tax on services; it does not supervise anti-money laundering compliance, which for DNFBPs in KP is FBR's job.
 
+Q: Do I need to identify every co-owner selling inherited land?
+A: Yes. Each seller is your customer, so identify every co-owner who is selling and check the authority of anyone signing for others.
+
+Q: When should a CTR decision be made?
+A: On the day the cash is received, with the customer's details recorded, rather than at month end.
+
+Q: Are hill-area property sales to outside buyers suspicious?
+A: Not in themselves, but the file should record who the buyer is, how they paid and why they are buying; buying several properties quickly with little interest in price is a red flag.
+
 ## DNFBP Registration in Quetta & Balochistan: FBR Office Guide
 URL: https://kambohassociates.com/blogs/dnfbp-registration-quetta-balochistan
 Summary: Which FBR DNFBP office supervises property dealers, jewellers and accountants in Quetta and Balochistan under SRO 1497(I)/2026, and what they must do.
@@ -1594,6 +1651,15 @@ A: No. FMU lists several smaller transactions adding up to a large total as a re
 
 Q: Is the Balochistan Revenue Authority involved in DNFBP supervision?
 A: No. BRA deals with provincial tax on services. Anti-money laundering supervision of DNFBPs in Balochistan sits with FBR's Quetta directorate.
+
+Q: Does buying old gold for cash count for the Rs 2 million test?
+A: Yes. The test applies to cash transactions with a customer whether the trader is buying or selling.
+
+Q: What should I do if a customer's money came through an informal channel?
+A: Ask how the funds reached the customer and record the answer. Third-party payments without a legitimate reason and unclear sources of funds are FMU red flags that may call for an STR.
+
+Q: Is a hard copy needed for goAML registration?
+A: Yes. FMU's guideline requires the signed authority letter to be uploaded as a PDF and the hard copy to be sent to the Additional Director, FMU.
 
 
 # Part 2: Web development (Kamboh Associates Digital)

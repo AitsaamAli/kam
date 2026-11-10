@@ -67,7 +67,25 @@ def body_with_service(p):
 '''
 
 
+def apply_extra(p):
+    try:
+        from extras import EXTRA
+    except ImportError:
+        return p
+    x = EXTRA.get(p["slug"])
+    if not x or p.get("_x"):
+        return p
+    p = dict(p)
+    b = p["body"]
+    i = b.find('<h2 id="how-we-help">')
+    p["body"] = (b[:i] + x[0] + "\n" + b[i:]) if i >= 0 else (b.rstrip() + "\n" + x[0])
+    p["faqs"] = list(p["faqs"]) + list(x[1])
+    p["_x"] = 1
+    return p
+
+
 def page(p):
+    p = apply_extra(p)
     url = f"{BASE}/blogs/{p['slug']}"
     t = TPL
     t = re.sub(r"<title>.*?</title>", f"<title>{E(p['title'])}</title>", t, 1)
@@ -101,7 +119,7 @@ def page(p):
     faqs = "".join(f'<div class="faq-item"><div class="faq-q">{E(q)} <i class="fas fa-chevron-down"></i></div><div class="faq-a">{E(a_)}</div></div>' for q, a_ in p["faqs"])
     srcs = "".join(f'<li><a href="{u}" target="_blank" rel="noopener" style="color:#0D9488">{E(n)}</a></li>' for n, u in p["sources"])
     rel = " &nbsp;|&nbsp; ".join(f'<a href="{h}">{E(n)} &rarr;</a>' for h, n in p["related"])
-    words = len(plain(p["body"] + " ".join(q + " " + a_ for q, a_ in p["faqs"])).split())
+    words = len(plain(p["tldr"] + " " + p["lead"] + " " + body_with_service(p) + " " + " ".join(q + " " + a_ for q, a_ in p["faqs"])).split())
     hero = f'''<section class="blog-hero"><div class="container"><nav class="breadcrumb"><a href="/"><i class="fas fa-home"></i> Home</a><i class="fas fa-chevron-right"></i><a href="/blogs">Blog</a><i class="fas fa-chevron-right"></i><span>{E(p["crumb"])}</span></nav><div class="blog-cat"><i class="fas fa-tags"></i> {E(p["category"])}</div>
 <h1>{E(p["h1"])}</h1>
 <div class="blog-meta"><span><i class="fas fa-calendar"></i> <time datetime="{DATE}">{DLONG}</time></span><span><i class="fas fa-user"></i> Kamboh Associates</span><span><i class="fas fa-clock"></i> {p["read"]}</span></div></div></section>
