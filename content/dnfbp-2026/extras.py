@@ -2,7 +2,7 @@
 import importlib
 
 EXTRA = {}
-for _m in ("extras_sole", "extras_sole2", "extras_sole3", "extras_sole4", "extras_dnfbp", "extras_dnfbp2", "extras_city", "extras_city2"):
+for _m in ("extras_sole", "extras_sole2", "extras_sole3", "extras_sole4", "extras_sole5", "extras_dnfbp", "extras_dnfbp2", "extras_city", "extras_city2"):
     try:
         mod = importlib.import_module(_m)
     except ModuleNotFoundError:
