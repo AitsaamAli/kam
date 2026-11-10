@@ -22,7 +22,7 @@ R_SLUG = "real-estate-agent-dnfbp-registration-aml-pakistan"
 J_SLUG = "jeweller-dnfbp-registration-aml-pakistan"
 L = {
     "pillar": "/blogs/" + P_SLUG, "rea": "/blogs/" + R_SLUG, "jew": "/blogs/" + J_SLUG,
-    "ntn": "/ntn-registration", "stx": "/sales-tax-registration", "notice": "/fbr-notice-defense",
+    "ntn": "/ntn-registration", "notice": "/fbr-notice-defense",
     "rea_tax": "/blogs/real-estate-agent-tax-pakistan", "dealers_lhr": "/blogs/tax-return-filing-property-dealers-lahore",
     "rea_lhr": "/blogs/tax-consultant-real-estate-agents-lahore", "dev": "/blogs/real-estate-developer-tax-pakistan",
     "236": "/blogs/property-transfer-tax-2026-27-pakistan-236c-236k", "gold": "/blogs/tax-on-gold-jewelry-pakistan",
@@ -47,6 +47,7 @@ def table(head, rows):
 # ─────────────────────────────── PILLAR ───────────────────────────────
 PILLAR = dict(
     slug=P_SLUG,
+    svc={'h2': 'Get DNFBP-Compliant With Kamboh Associates', 'intro': 'Registering is the easy part. Inspections test whether the policy, CDD files and goAML access actually exist. We set all of it up, sized to your business.', 'hook': 'Need DNFBP registration done properly?', 'fee': 'Fixed fee, confirmed on WhatsApp before any work starts.', 'btn': 'Start my DNFBP registration', 'items': ['Confirmation of whether, and in which category, your business is a DNFBP', 'DNFBP registration on IRIS with owners, beneficial owners and compliance officer declared', 'goAML registration with FMU, including the authority letter', 'A written risk assessment and AML/CFT policy for your business', 'CDD forms your staff can use, plus a short training note', 'Replies to DNFBP letters and inspection requests'], 'risks': ['Penalties of up to Rs 100 million per violation under the Sanctions Rules', 'Significant sanctions are published with the business name', 'A business without goAML access cannot file a required report on time']},
     title="DNFBP Registration in Pakistan 2026: Complete FBR Guide",
     h1="DNFBP Registration in Pakistan 2026: Who Must Register With FBR and What Comes After",
     crumb="DNFBP Registration Guide",
@@ -150,6 +151,7 @@ PILLAR = dict(
 </ol>
 
 <p><strong>Step-by-step guides:</strong> {a('/blogs/goaml-registration-dnfbp-pakistan', 'goAML registration with FMU')}, {a('/blogs/aml-cft-compliance-programme-dnfbp-pakistan', 'building your AML/CFT compliance programme')}, and {a('/blogs/accountant-dnfbp-registration-aml-pakistan', 'DNFBP rules for accountants and company service providers')}.</p>
+<p><strong>Find your FBR DNFBP office:</strong> {a('/blogs/dnfbp-registration-lahore-punjab', 'Lahore and Punjab')}, {a('/blogs/dnfbp-registration-karachi-sindh', 'Karachi and Sindh')}, {a('/blogs/dnfbp-registration-islamabad-rawalpindi', 'Islamabad, Rawalpindi and Gilgit-Baltistan')}, {a('/blogs/dnfbp-registration-peshawar-kp', 'Peshawar and KP')}, {a('/blogs/dnfbp-registration-quetta-balochistan', 'Quetta and Balochistan')}.</p>
 
 <h2 id="tax-link">How DNFBP Rules Sit Alongside Your Tax Duties</h2>
 <p>DNFBP registration does not replace your income tax return, and a tax return does not register you as a DNFBP. The two systems do meet, though: the CDD you collect, the source of funds you record and the cash you receive should match what appears in your own return and wealth statement. Property dealers should also understand the advance tax on property under {a(L['236'], 'Sections 236C and 236K')}, and jewellers the rules in our guide to {a(L['gold'], 'tax on gold and jewellery')}.</p>
@@ -166,8 +168,8 @@ PILLAR = dict(
     faqs=[
         ("What does DNFBP stand for?",
          "Designated Non-Financial Businesses and Professions. In Pakistan, FBR supervises three of them for anti-money laundering: real estate agents (including builders and developers when dealing in property), dealers in precious metals and stones, and accountants not regulated by ICAP or ICMAP."),
-        ("Is DNFBP registration the same as NTN or sales tax registration?",
-         "No. NTN and sales tax registration are for tax. DNFBP registration is under the Anti-Money Laundering Act, 2010 and FBR's AML/CFT Regulations, and brings duties such as customer due diligence and reporting to FMU. You normally need an NTN and IRIS login first."),
+        ("Is DNFBP registration the same as NTN registration?",
+         "No. NTN registration is for income tax. DNFBP registration is under the Anti-Money Laundering Act, 2010 and FBR's AML/CFT Regulations, and brings duties such as customer due diligence and reporting to FMU. You normally need an NTN and IRIS login first."),
         ("Does a jeweller have to register if most sales are below Rs 2 million?",
          "A jeweller is a DNFBP when it engages in a cash transaction of Rs 2 million or more with a customer. If that ever happens, or could happen, register. Breaking one sale into smaller cash payments is itself a red flag for FMU."),
         ("Are builders and developers DNFBPs?",
@@ -194,6 +196,7 @@ PILLAR = dict(
 # ─────────────────────────────── REAL ESTATE ───────────────────────────────
 REA = dict(
     slug=R_SLUG,
+    svc={'h2': 'DNFBP Compliance for Property Businesses, Done for You', 'intro': 'Estate agents and developers are busy closing deals, not writing AML policies. We set up the registration and the paperwork so every deal is covered.', 'hook': 'Property dealer or builder?', 'fee': 'Fixed fee, confirmed on WhatsApp before any work starts.', 'btn': 'Make my agency compliant', 'items': ['IRIS DNFBP registration and goAML account', 'A buyer-and-seller CDD form and file checklist for every deal', 'Sanctions screening steps your staff can follow', 'A cash and CTR procedure for token money and instalments', 'A short AML/CFT policy and risk assessment', "Your agency's income tax return, so both systems match"], 'risks': ['Missing seller CDD and unreported cash are common inspection findings', 'Telling a client about a report is an offence']},
     title="Real Estate Agent DNFBP Registration & AML Rules Pakistan",
     h1="Real Estate Agents and Property Dealers: DNFBP Registration and AML Rules in Pakistan",
     crumb="DNFBP for Real Estate Agents",
@@ -319,6 +322,7 @@ REA = dict(
 # ─────────────────────────────── JEWELLERS ───────────────────────────────
 JEW = dict(
     slug=J_SLUG,
+    svc={'h2': 'DNFBP Compliance for Jewellers, Done for You', 'intro': 'A busy counter has no time for forms that do not fit the day. We build a routine that works at the counter and registrations that stand up to inspection.', 'hook': 'Jeweller or sarafa dealer?', 'fee': 'Fixed fee, confirmed on WhatsApp before any work starts.', 'btn': 'Make my shop compliant', 'items': ['IRIS DNFBP registration and goAML account', 'A counter-ready CDD form and CNIC checklist for large cash sales', 'A cash register format that links each large sale to its CTR', 'A written cash policy and AML/CFT policy', 'Staff briefing notes on red flags and tipping off'], 'risks': ['Splitting invoices to avoid the Rs 2 million threshold is a red flag, not a solution', 'Unfiled CTRs and missing CNICs are easy for an inspector to find']},
     title="Jeweller DNFBP Registration & AML Compliance Pakistan",
     h1="Jewellers and Gold Dealers: DNFBP Registration and AML Compliance in Pakistan",
     crumb="DNFBP for Jewellers",
@@ -408,7 +412,7 @@ JEW = dict(
 <p>Under the AML/CFT Sanctions Rules, 2020, penalties can reach Rs 100 million per violation, and significant sanctions are published with the business name.</p>
 
 <h2 id="tax">Tax Is Separate</h2>
-<p>AML rules do not change your income tax or sales tax position. For income tax, sales tax and the tax treatment of gold held by individuals, see our guide to {a(L['gold'], 'tax on gold and jewellery in Pakistan')}, and our {a(L['stx'], 'sales tax registration')} service if your buyers ask for an STRN.</p>
+<p>AML rules do not change your income tax position. For the tax treatment of gold, jewellery businesses and gold held by individuals, see our guide to {a(L['gold'], 'tax on gold and jewellery in Pakistan')}.</p>
 
 <h2 id="how-we-help">How We Help Jewellers</h2>
 <p>Kamboh Associates registers jewellers, sarafa and bullion dealers on IRIS as DNFBPs, sets up goAML access, and prepares a counter-ready CDD form, a cash policy and an AML/CFT policy that fit a shop's real working day. We also file the business's income tax return so that both records agree. We reply on WhatsApp within office hours.</p>

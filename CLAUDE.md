@@ -11,6 +11,12 @@ Static HTML site on Vercel. Tax site at the root; a separate web-development sec
 - Every fact must come from an official source (FBR, IRIS, SECP, FMU, provincial authorities). Link the source and give the date it was checked. If a fact cannot be verified, leave it out.
 - Report to the owner in Roman Urdu, briefly.
 
+## Blog standards (owner's decisions, Nov 2026)
+- Length: topic blogs at least 1,600–1,700 words of real content (no padding); city/regional pages at least 1,250. Longer is fine when the facts support it.
+- Every blog is informational *and* commercial: a "done for you" box near the top and a service section (what we do, risks of DIY, how it works, fee) with a WhatsApp CTA. Use only fees published on /pricing; otherwise "fixed fee confirmed before work starts".
+- Do not promote sales tax (STRN, sales tax returns) in new blogs; the firm is focusing on DNFBP and sole proprietorship clients.
+- No doorway pages: city pages only where there are genuinely local facts (e.g. one per FBR DNFBP directorate), overlap with other pages under 15%.
+
 ## Tax facts in use (check before reuse)
 - TY2026 return deadline: 31 Oct 2026.
 - s.182 late filing: 0.1%/day, max 50%, min Rs 40,000 (Rs 5,000 for low-salary cases).

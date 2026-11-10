@@ -21,6 +21,7 @@ L2 = {"goaml": "/blogs/" + G_SLUG, "acc": "/blogs/" + A_SLUG, "prog": "/blogs/" 
 # ─────────────────────────────── goAML ───────────────────────────────
 GOAML = dict(
     slug=G_SLUG,
+    svc={'h2': 'Let Us Register You on goAML', 'intro': 'goAML registration fails on small details: letterhead, phone formats, mismatched names. We prepare it so it goes through first time.', 'hook': 'Want goAML registration handled?', 'fee': 'Fixed fee, confirmed on WhatsApp before any work starts.', 'btn': 'Register me on goAML', 'items': ['Authority letter drafted on your letterhead', 'goAML form completed to match your FBR and NADRA records', 'Hard copy dispatch guidance and follow-up with FMU', 'Admin account set up with the right person', 'A one-page STR/CTR procedure for your staff'], 'risks': ['Without goAML access, a required STR or CTR cannot be filed on time', 'Shared or junior admin logins increase tipping-off risk']},
     title="goAML Registration for DNFBPs in Pakistan: Step-by-Step Guide",
     h1="goAML Registration for DNFBPs in Pakistan: Step-by-Step Guide to FMU's Reporting Portal",
     crumb="goAML Registration Guide",
@@ -168,6 +169,7 @@ GOAML = dict(
 # ─────────────────────────────── ACCOUNTANTS / TCSP ───────────────────────────────
 ACC = dict(
     slug=A_SLUG,
+    svc={'h2': 'Let Us Check Your Practice', 'intro': 'Most practices only need an hour to know whether they are in scope. If you are, we set up the registration and procedures without disrupting client work.', 'hook': 'Not sure if your practice is covered?', 'fee': 'Fixed fee, confirmed on WhatsApp before any work starts.', 'btn': 'Check my practice', 'items': ["A service-by-service check against FBR's 14 activities", 'A written note of the assessment for your file', 'DNFBP registration on IRIS and goAML, if in scope', 'A client CDD procedure for specified services', 'Engagement terms that require CDD documents at onboarding'], 'risks': ['There is no turnover threshold, and free services count', 'Company formation for clients is a specified service']},
     title="Accountants & Company Service Providers: DNFBP Rules Pakistan",
     h1="Accountants and Company Service Providers (Non-ICAP/ICMAP): DNFBP Registration and AML Rules in Pakistan",
     crumb="DNFBP for Accountants",
@@ -313,6 +315,7 @@ ACC = dict(
 # ─────────────────────────────── COMPLIANCE PROGRAMME ───────────────────────────────
 PROG = dict(
     slug=C_SLUG,
+    svc={'h2': 'Get an Inspection-Ready Programme', 'intro': 'A programme that exists only as a downloaded template will not survive an inspection. We write one that matches how your business actually works, and test it.', 'hook': 'Want your AML programme written for you?', 'fee': 'Fixed fee, confirmed on WhatsApp before any work starts.', 'btn': 'Build my AML programme', 'items': ['Risk assessment for your customers, areas, services and payment methods', 'An AML/CFT policy your staff can follow', 'CDD and EDD forms, screening log and internal reporting form', 'Training notes and a training record', 'A pre-inspection review against the checklist above'], 'risks': ['FBR weighs whether you took reasonable steps before deciding a sanction', 'A missing programme is itself a breach']},
     title="AML/CFT Compliance Programme for DNFBPs: Policy & Checklist",
     h1="AML/CFT Compliance Programme for DNFBPs in Pakistan: Risk Assessment, Policy and Inspection Checklist",
     crumb="AML/CFT Compliance Programme",
