@@ -18,6 +18,7 @@ def duties(city):
 
 LHR = dict(
     slug="dnfbp-registration-lahore-punjab",
+    svc={'h2': 'DNFBP Help for Lahore and Punjab Businesses', 'intro': 'Our office is in Awan Town, Lahore. We handle the registration and paperwork for businesses anywhere in Punjab, in person or on WhatsApp.', 'hook': 'In Lahore or elsewhere in Punjab?', 'fee': 'Fixed fee, confirmed on WhatsApp before any work starts.', 'btn': 'Get help in Punjab', 'compact': True, 'items': ['Registration on IRIS for your Punjab business, assigned to the right Additional Director', 'Replies to letters from the Lahore directorate', 'CDD forms and an AML/CFT policy for your trade', 'A visit at our Lahore office if you prefer to meet']},
     title="DNFBP Registration Lahore & Punjab: Which FBR Office Is Yours",
     h1="DNFBP Registration in Lahore and Punjab: The FBR Directorate, Its Offices, and Which One Supervises Your Business",
     crumb="DNFBP Lahore & Punjab",
@@ -100,6 +101,7 @@ LHR = dict(
 
 KHI = dict(
     slug="dnfbp-registration-karachi-sindh",
+    svc={'h2': 'DNFBP Help for Karachi and Sindh Businesses', 'intro': 'We work with Karachi, Hyderabad and Sukkur businesses remotely, from registration to replies to the Karachi directorate.', 'hook': 'In Karachi or interior Sindh?', 'fee': 'Fixed fee, confirmed on WhatsApp before any work starts.', 'btn': 'Get help in Sindh', 'compact': True, 'items': ['FBR and FMU registrations for Sindh businesses, including companies at CTO or LTO Karachi', "Long-relationship CDD processes for builders' booking files", 'Cash and CTR procedures for jewellers and booking offices', 'Replies to letters from the Karachi directorate']},
     title="DNFBP Registration Karachi & Sindh: Which FBR Office Is Yours",
     h1="DNFBP Registration in Karachi and Sindh: FBR's Karachi Directorate, Hyderabad and Sukkur",
     crumb="DNFBP Karachi & Sindh",
@@ -140,9 +142,6 @@ KHI = dict(
 <h2 id="hyderabad-sukkur">Hyderabad and Sukkur</h2>
 <p>Businesses in the territory of RTO Hyderabad and RTO Sukkur are supervised by Additional Director-II (DNFBPs), Karachi. They follow the same registration and reporting process; there is no separate interior-Sindh form.</p>
 
-<h2 id="services-tax">A Note on Sindh Sales Tax</h2>
-<p>DNFBP status is a federal anti-money laundering matter and has nothing to do with Sindh sales tax on services. An estate agency providing taxable services in Sindh deals with the Sindh Revenue Board for that tax separately.</p>
-
 <p>What differs in Sindh is only who supervises you. The substance of the duties is in our {a(L["pillar"], "DNFBP registration guide")}; Karachi builders and agencies should read the {a(L["rea"], "real estate agents")} guide, and gold traders the {a(L["jew"], "jewellers")} guide.</p>
 
 <h2 id="scenarios">Two Sindh Scenarios</h2>
@@ -160,8 +159,6 @@ KHI = dict(
          "Additional Director-II (DNFBPs), Karachi, under S.R.O. 1497(I)/2026."),
         ("Is there a separate DNFBP registration for Sindh?",
          "No. Registration is online on FBR's IRIS portal for the whole country, with goAML registration through FMU."),
-        ("Does DNFBP registration replace Sindh Revenue Board registration?",
-         "No. DNFBP registration is under the federal AML law. Sindh sales tax on services is a separate provincial matter with the SRB."),
         ("My company's tax case is at LTO Karachi. Who is my DNFBP supervisor?",
          "Additional Director-I (DNFBPs), Karachi, who covers cases assigned to the Large Taxpayers' Office Karachi."),
         ("When did the current Karachi jurisdiction take effect?",
@@ -177,6 +174,7 @@ KHI = dict(
 
 ISB = dict(
     slug="dnfbp-registration-islamabad-rawalpindi",
+    svc={'h2': 'DNFBP Help in Islamabad and Rawalpindi', 'intro': 'We serve twin-cities and Gilgit-Baltistan businesses remotely, including PEP-ready customer checks.', 'hook': 'In Islamabad, Rawalpindi or GB?', 'fee': 'Fixed fee, confirmed on WhatsApp before any work starts.', 'btn': 'Get help in the twin cities', 'compact': True, 'items': ['Registrations for twin-cities and GB businesses, matched to RTO Islamabad or RTO Rawalpindi', 'CDD forms with PEP questions and approval steps', 'Overseas-buyer verification steps for developers', 'Replies to letters from the Islamabad directorate']},
     title="DNFBP Registration Islamabad & Rawalpindi: FBR Office Guide",
     h1="DNFBP Registration in Islamabad, Rawalpindi and Gilgit-Baltistan: FBR's Islamabad Directorate",
     crumb="DNFBP Islamabad & Rawalpindi",
@@ -249,6 +247,7 @@ ISB = dict(
 
 PSH = dict(
     slug="dnfbp-registration-peshawar-kp",
+    svc={'h2': 'DNFBP Help for KP Businesses', 'intro': 'Peshawar and Abbottabad businesses can complete the whole process with us over WhatsApp.', 'hook': 'In Peshawar or elsewhere in KP?', 'fee': 'Fixed fee, confirmed on WhatsApp before any work starts.', 'btn': 'Get help in KP', 'compact': True, 'items': ['Online registration for businesses in RTO Peshawar or RTO Abbottabad territory', 'A sanctions screening procedure and screening log', 'CDD forms and an AML/CFT policy', 'Replies to letters from the KP directorate']},
     title="DNFBP Registration Peshawar & KP: Which FBR Office Is Yours",
     h1="DNFBP Registration in Peshawar and Khyber Pakhtunkhwa: FBR's KP Directorate",
     crumb="DNFBP Peshawar & KP",
@@ -318,6 +317,7 @@ PSH = dict(
 
 QTA = dict(
     slug="dnfbp-registration-quetta-balochistan",
+    svc={'h2': 'DNFBP Help for Balochistan Businesses', 'intro': 'Quetta businesses can complete the whole process with us remotely.', 'hook': 'In Quetta or elsewhere in Balochistan?', 'fee': 'Fixed fee, confirmed on WhatsApp before any work starts.', 'btn': 'Get help in Balochistan', 'compact': True, 'items': ['Remote registration for businesses within RTO Quetta', 'A counter-ready CDD form and cash register format', 'A short risk assessment and AML/CFT policy', 'Replies to letters from the Quetta directorate']},
     title="DNFBP Registration in Quetta & Balochistan: FBR Office Guide",
     h1="DNFBP Registration in Quetta and Balochistan: FBR's Quetta Directorate",
     crumb="DNFBP Quetta & Balochistan",

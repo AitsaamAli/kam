@@ -1192,8 +1192,8 @@ Summary: Who counts as a DNFBP, how FBR registration works, and the AML duties t
 Q: What does DNFBP stand for?
 A: Designated Non-Financial Businesses and Professions. In Pakistan, FBR supervises three of them for anti-money laundering: real estate agents (including builders and developers when dealing in property), dealers in precious metals and stones, and accountants not regulated by ICAP or ICMAP.
 
-Q: Is DNFBP registration the same as NTN or sales tax registration?
-A: No. NTN and sales tax registration are for tax. DNFBP registration is under the Anti-Money Laundering Act, 2010 and FBR's AML/CFT Regulations, and brings duties such as customer due diligence and reporting to FMU. You normally need an NTN and IRIS login first.
+Q: Is DNFBP registration the same as NTN registration?
+A: No. NTN registration is for income tax. DNFBP registration is under the Anti-Money Laundering Act, 2010 and FBR's AML/CFT Regulations, and brings duties such as customer due diligence and reporting to FMU. You normally need an NTN and IRIS login first.
 
 Q: Does a jeweller have to register if most sales are below Rs 2 million?
 A: A jeweller is a DNFBP when it engages in a cash transaction of Rs 2 million or more with a customer. If that ever happens, or could happen, register. Breaking one sale into smaller cash payments is itself a red flag for FMU.
@@ -1355,7 +1355,7 @@ A: Up to Rs 100 million per violation under the AML/CFT Sanctions Rules, 2020, o
 
 ## Sole Proprietorship Registration Pakistan 2026: Full Guide
 URL: https://kambohassociates.com/blogs/sole-proprietorship-registration-pakistan
-Summary: Start a sole proprietorship in Pakistan the right way: NTN under Section 181, adding the business on IRIS, when STRN and provincial registration apply.
+Summary: Start a sole proprietorship in Pakistan the right way: NTN under Section 181, adding the business on IRIS, bank account, online-seller rules and costs.
 
 Q: Do I need to register a sole proprietorship with SECP?
 A: No. SECP incorporates companies. A sole proprietorship is not a separate legal person; it is recognised through the owner's income tax registration and any registrations its activity requires.
@@ -1365,9 +1365,6 @@ A: Yes. Under Section 181(4) of the Income Tax Ordinance, from tax year 2015 an 
 
 Q: How do I add my business name to my NTN?
 A: Through Registration Form 181 (modification) on IRIS. FBR's page on changing details lists business address, business branches and bank account among the items it updates.
-
-Q: Does a sole proprietor need a sales tax number?
-A: Only if the business falls in a Section 14 category, such as a manufacturer that is not a cottage industry, a Tier-1 retailer, an importer, a wholesaler, dealer or distributor, or an online seller of goods. Services are usually registered with the provincial revenue authority instead.
 
 Q: Can I sell on Daraz or other marketplaces without an NTN?
 A: No. Since the Finance Act, 2025, marketplaces and couriers must not let unregistered vendors use their services for e-commerce transactions.
@@ -1406,33 +1403,33 @@ A: Keep evidence of the error, contact or visit your RTO with documents, and dec
 Q: Should I add the business before opening a bank account?
 A: It helps. Banks usually check tax registration, and once the account is open you can add it to IRIS through Form 181.
 
-## Sole Proprietor STRN: Who Must Register for Sales Tax
-URL: https://kambohassociates.com/blogs/sole-proprietor-sales-tax-registration-strn-pakistan
-Summary: Does your sole proprietorship need an STRN? Section 14 categories, the cottage industry and Tier-1 retailer tests (2026), online sellers, and FBR's powers.
+## Advance Tax for Sole Proprietors in Pakistan: Section 147 Guide
+URL: https://kambohassociates.com/blogs/sole-proprietor-advance-tax-pakistan
+Summary: Quarterly advance tax for business owners: the Rs 1 million test, the (A/4) - B formula, 15 September/December/March/June due dates and lower estimates.
 
-Q: Is sales tax registration compulsory for every sole proprietor?
-A: No. It is compulsory only for the categories in Section 14 of the Sales Tax Act, such as manufacturers that are not cottage industries, liable retailers, importers, wholesalers, dealers, distributors and online sellers of goods.
+Q: Does a sole proprietor have to pay advance tax?
+A: Yes, if the latest assessed taxable income, excluding salary taxed under Section 149 and income taxed at source without credit, is Rs 1 million or more, under Section 147.
 
-Q: What is the turnover limit for a cottage industry?
-A: Annual turnover from all supplies must not exceed Rs 8 million, and the unit must also have no industrial gas or electricity connection, be in a residential area and have no more than ten workers.
+Q: How is quarterly advance tax calculated for an individual?
+A: Under Section 147(4B), each quarter's instalment is (A/4) - B: one quarter of the tax assessed for the latest tax year, minus adjustable tax paid in that quarter other than salary tax.
 
-Q: What changed in the Tier-1 retailer definition in 2026?
-A: The Finance Act, 2026 added retailers with turnover above Rs 200 million in the previous twelve months, set a Rs 200 million turnover condition for wholesaler-cum-retailers, and removed some earlier categories.
+Q: When is advance tax due?
+A: For individuals, on or before 15 September, 15 December, 15 March and 15 June, under Section 147(5).
 
-Q: Is a shop in an air-conditioned plaza a Tier-1 retailer?
-A: Yes, a retailer operating in an air-conditioned shopping mall, plaza or centre is Tier-1, except kiosks.
+Q: Can I pay less advance tax if my business is down?
+A: Yes. Section 147(6) allows you to file an estimate before the last instalment is due, supported by turnover figures, reasons for any decline, evidence of expenses and a computation, and pay the lower amount.
 
-Q: Do online sellers need an STRN?
-A: Sellers of digitally ordered goods through a marketplace, website or app must register under Section 14(1A), except cottage industry and retailers paying through electricity bills.
+Q: Does salary count towards the Rs 1 million test?
+A: No. Income on which tax is deducted under Section 149 is excluded when applying the threshold.
 
-Q: Do service providers register with FBR for sales tax?
-A: Most services are taxed by provincial authorities such as PRA, SRB, KPRA and BRA, so service businesses usually register with the province.
+Q: Is advance tax an extra tax?
+A: No. It is a payment towards your final tax for the year and is credited in your return.
 
-Q: What can FBR do if I should be registered but am not?
-A: Sections 14AC to 14AE allow restrictions on bank accounts and on transferring immovable property, and ultimately sealing premises, seizing movable property or appointing a receiver.
+Q: What is the default surcharge on unpaid advance tax?
+A: Under Section 205(1A), 12 per cent a year on the unpaid amount, from the due date until payment or the return due date, whichever is earlier.
 
-Q: Can I cancel my STRN later?
-A: De-registration under Section 21 is possible for persons not required to be registered, after filing a final return under Section 28.
+Q: Do builders follow the same rule?
+A: No. Under Section 147(5C), builders and developers pay advance tax project by project at the rates in Part IIB of the First Schedule, in four equal instalments.
 
 ## Withholding Tax Duties of a Sole Proprietor in Pakistan
 URL: https://kambohassociates.com/blogs/sole-proprietor-withholding-tax-duties-pakistan
@@ -1461,16 +1458,13 @@ A: In the First Schedule to the Income Tax Ordinance. Our withholding tax guide 
 
 ## Sole Proprietor Records: What FBR Expects You to Keep
 URL: https://kambohassociates.com/blogs/sole-proprietor-records-books-fbr-pakistan
-Summary: Records a sole proprietor must keep for income tax and sales tax: six-year retention, receipts that protect deductions, invoices and a simple filing system.
+Summary: Records a sole proprietor must keep for FBR: six-year retention, receipts that protect deductions, invoices, bank trail and a simple monthly filing system.
 
 Q: How long must a sole proprietor keep records?
 A: Six years after the end of the tax year under Section 174(3), and until any pending proceeding is finally decided.
 
 Q: What happens if I cannot produce a receipt for an expense?
 A: Under Section 174(2), the Commissioner may disallow or reduce the deduction if you cannot provide a receipt or other evidence without reasonable cause.
-
-Q: Do I need to keep sales tax records separately?
-A: Registered persons keep sales tax records for six years after the tax period under Section 24 of the Sales Tax Act. The same documents often serve both taxes.
 
 Q: Can I keep records digitally?
 A: Digital copies are practical, but the law requires records to be maintained in Pakistan and producible when asked. FBR can also require specific electronic systems under Section 174(5).
@@ -1483,7 +1477,7 @@ A: No. It does not apply to records of income, assets, expenses or transactions 
 
 ## Close a Sole Proprietorship: Remove Business From NTN
 URL: https://kambohassociates.com/blogs/close-sole-proprietorship-remove-business-ntn-pakistan
-Summary: Closing a sole proprietorship: discontinuance at your RTO, sales tax de-registration and final return, the last income tax return, and records to keep.
+Summary: Closing a sole proprietorship: discontinuance at your RTO, the last income tax return and wealth statement, withholding wrap-up, and records to keep.
 
 Q: Can I remove my business from my NTN online?
 A: No. FBR's guidance says discontinuance of business and deregistration require a visit to your Regional Tax Office with relevant documents.
@@ -1491,17 +1485,11 @@ A: No. FBR's guidance says discontinuance of business and deregistration require
 Q: Does closing my business cancel my NTN?
 A: No. Your CNIC remains your NTN as an individual. Only the business is discontinued.
 
-Q: How do I cancel my STRN?
-A: De-registration is under Section 21 of the Sales Tax Act for persons not required to be registered, and Section 28 requires a final return before de-registration.
-
-Q: Do I still file sales tax returns after closing the shop?
-A: Yes, until de-registration is complete. Unfiled returns can lead to penalties.
-
 Q: Do I need to file an income tax return for the year I closed?
 A: Yes. Income up to the closure date is declared in your annual return, and the wealth statement must reflect the closing position.
 
 Q: How long should I keep the closed business's records?
-A: Six years after the relevant tax year or tax period, under Section 174 of the Income Tax Ordinance and Section 24 of the Sales Tax Act, and longer if proceedings are pending.
+A: Six years after the relevant tax year, under Section 174 of the Income Tax Ordinance, and longer if proceedings are pending.
 
 ## DNFBP Registration Lahore & Punjab: Which FBR Office Is Yours
 URL: https://kambohassociates.com/blogs/dnfbp-registration-lahore-punjab
@@ -1540,9 +1528,6 @@ A: Additional Director-II (DNFBPs), Karachi, under S.R.O. 1497(I)/2026.
 
 Q: Is there a separate DNFBP registration for Sindh?
 A: No. Registration is online on FBR's IRIS portal for the whole country, with goAML registration through FMU.
-
-Q: Does DNFBP registration replace Sindh Revenue Board registration?
-A: No. DNFBP registration is under the federal AML law. Sindh sales tax on services is a separate provincial matter with the SRB.
 
 Q: My company's tax case is at LTO Karachi. Who is my DNFBP supervisor?
 A: Additional Director-I (DNFBPs), Karachi, who covers cases assigned to the Large Taxpayers' Office Karachi.
