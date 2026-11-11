@@ -16,6 +16,11 @@ Static HTML site on Vercel. Tax site at the root; a separate web-development sec
 - Every blog is informational *and* commercial: a "done for you" box near the top and a service section (what we do, risks of DIY, how it works, fee) with a WhatsApp CTA. Use only fees published on /pricing; otherwise "fixed fee confirmed before work starts".
 - Do not promote sales tax (STRN, sales tax returns) in new blogs; the firm is focusing on DNFBP and sole proprietorship clients.
 - No doorway pages: city pages only where there are genuinely local facts (e.g. one per FBR DNFBP directorate), overlap with other pages under 15%.
+- No duplicate or thin content: check every new blog against all site pages (not only the gate set) before publishing, and avoid topics an existing page already targets.
+- Facts only from FBR's own texts (Income Tax Ordinance PDF amended to the latest date, SROs, FBR/FMU guidance), quoted to the section.
+
+## Keyword research
+- Do not use Semrush (no paid API units). Use the Search Console exports the owner provides, the site's sitemap, and free Google suggestions (`https://suggestqueries.google.com/complete/search?client=firefox&gl=pk&hl=en&q=...`).
 
 ## Tax facts in use (check before reuse)
 - TY2026 return deadline: 31 Oct 2026.
