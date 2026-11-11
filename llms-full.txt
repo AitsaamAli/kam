@@ -2,7 +2,7 @@
 
 > Answers to the questions people most often ask Kamboh Associates, taken word for word from the FAQ sections of the pages linked under each heading. Tax content covers Pakistan (tax year 2026). Web development content covers Kamboh Associates Digital.
 
-Updated: 2026-11-10
+Updated: 2026-11-11
 Short index: https://kambohassociates.com/llms.txt
 
 Contact: WhatsApp or call +92 328 4675162, email info@kambohassociates.com, office at Shop No 34 Rizwan Block Market, opposite Rizwan Park, Awan Town, Lahore 54660, Pakistan. Monday to Saturday 9:00 AM to 6:00 PM, Friday 9:00 AM to 12:30 PM.
@@ -1772,6 +1772,174 @@ A: Run business payments through a business bank account, keep suppliers' NTNs, 
 
 Q: Do I need to change suppliers because of these rules?
 A: Not necessarily. Compare the tax cost of the disallowance with the price and convenience of a supplier who accepts bank payment and holds an NTN.
+
+## Revised Return Tax Year 2026: The 60-Day Window Explained
+URL: https://kambohassociates.com/blogs/revised-return-tax-year-2026-60-days-pakistan
+Summary: Found a mistake in your 2026 return? How Section 114(6) lets you revise within 60 days without approval, the conditions, deadlines and what comes next.
+
+Q: Can I revise my 2026 income tax return?
+A: Yes. Section 114(6) allows a revised return when you discover an omission or wrong statement, with written reasons and, for businesses, revised accounts.
+
+Q: Do I need the Commissioner's approval to revise?
+A: Not if the revised return is filed within 60 days of filing the original return. After that, approval is needed, but it is deemed granted if the Commissioner does not decide within 60 days of your request.
+
+Q: I filed on 31 October 2026. Until when can I revise without approval?
+A: Within 60 days of filing, which is about 30 December 2026. Count from the date on your IRIS acknowledgement.
+
+Q: What happens if my revised return misses a condition?
+A: Section 114(6) says it is treated as an invalid return, as if it had not been filed.
+
+Q: Will a revised return trigger a penalty?
+A: Not if you file it voluntarily with any tax short paid and default surcharge before a notice under Section 177 or 122(9), under Section 114(6A).
+
+Q: Does the revised return replace the original?
+A: Yes. Under Section 122(3) the revised return is treated as an amended assessment order issued on the day it is filed.
+
+Q: Should I revise my wealth statement too?
+A: Usually yes. Section 116(3) allows a revised wealth statement with a revised reconciliation and reasons before a notice under Section 122(9).
+
+Q: Can a revision reduce my tax?
+A: Yes, if the original overstated income or missed credits. A refund can then be claimed within the time limit in Section 170.
+
+## Revise Wealth Statements of the Last 5 Years (TY2021–TY2026)
+URL: https://kambohassociates.com/blogs/revise-wealth-statement-last-5-years-pakistan
+Summary: How far back you can correct wealth statements and returns: the five-year limit in Section 122, Section 116(3) revisions, and fixing years in order.
+
+Q: How many years back can FBR amend my assessment?
+A: Under Section 122(2), not after five years from the end of the financial year in which the assessment was issued or treated as issued, usually when the return was filed.
+
+Q: Until when can I revise an old wealth statement?
+A: Under Section 116(3), any time before you receive a notice under Section 122(9) for that tax year.
+
+Q: Is there a 60-day limit for revising a wealth statement?
+A: No. The 60-day rule applies to return revision without approval. Wealth statement revision is available until a 122(9) notice for that year.
+
+Q: Do I have to revise every year after the error?
+A: Usually yes, because each year's closing wealth is the next year's opening wealth. Fix the earliest year first and carry the figures forward.
+
+Q: Does revising a wealth statement mean paying more tax?
+A: Not always. If the change only corrects how already declared money was used, no tax may arise. If it reveals undeclared income, the return must be revised and the tax paid.
+
+Q: Can FBR reject my revised wealth statement?
+A: The Commissioner can declare it void by written order if it is not to correct a bona fide omission or wrong statement.
+
+Q: What if I already received a notice?
+A: The voluntary route under Section 116(3) is closed for that year; reply to the notice and consider the options in Section 114(6A).
+
+Q: Which years matter most in 2026?
+A: Roughly Tax Years 2021 to 2026, depending on when each return was filed.
+
+## Revise Before a Notice: Penalty Relief Under Section 114(6A)
+URL: https://kambohassociates.com/blogs/revised-return-before-notice-penalty-relief-section-114-6a
+Summary: Section 114(6A): revise before an audit or 122(9) notice and pay no penalty; 25% after audit findings, 50% after a show cause notice. Worked examples.
+
+Q: Is there a penalty if I revise my return voluntarily?
+A: No, if you file the revised return with the tax short paid and default surcharge before receiving a notice under Section 177 or 122(9), under Section 114(6A).
+
+Q: What if the error is found during an audit?
+A: If you deposit the tax pointed out during audit, or before a 122(9) notice, you pay the tax, default surcharge and 25% of the leviable penalties.
+
+Q: What if I already received a 122(9) show cause notice?
+A: You can still revise, paying the tax, default surcharge and 50% of the leviable penalties; the show cause notice then abates.
+
+Q: Do I need the Commissioner's approval to revise and pay more tax?
+A: Approval is deemed granted when the revised taxable income is more than the amount assessed under Section 120, and is not needed within 60 days of the original filing.
+
+Q: What is the algorithmic settlement mechanism?
+A: Under Section 114(6B), if you accept a settlement offered by FBR's algorithmic mechanism, you can revise without approval and pay the tax determined, with no separate penalty or default surcharge.
+
+Q: Does default surcharge still apply on a voluntary revision?
+A: Yes. Section 114(6A) relief requires the tax and the default surcharge to be deposited with the revised return.
+
+Q: Should I revise my wealth statement as well?
+A: Usually yes. Section 116(3) allows a revised wealth statement before a 122(9) notice for that year.
+
+Q: Does a notice asking me to file a return stop the no-penalty relief?
+A: Section 114(6A) names notices under Section 177 and Section 122(9). Other letters are not those notices, but act quickly once FBR is asking about the same issue.
+
+## Revised Return to Claim a Refund or Missed Tax Credits (2026)
+URL: https://kambohassociates.com/blogs/revised-return-claim-refund-missed-tax-credits-pakistan
+Summary: Missed adjustable tax in your return? How to revise to claim it, how Section 170 refunds work, the three-year limit, and the documents you need.
+
+Q: Can I revise my return to claim tax credits I missed?
+A: Yes. Section 114(6) allows a revised return to correct an omission. Within 60 days of filing no approval is needed.
+
+Q: What is the time limit for a refund application?
+A: Under Section 170, three years from the later of the date the assessment order was issued or treated as issued, or the date the tax was paid.
+
+Q: Can every tax deducted from me be claimed?
+A: No. Only adjustable tax is a credit. Final or minimum tax discharges the liability on that income and cannot be claimed back.
+
+Q: How do I find what was deducted from me?
+A: Check the deduction statements on IRIS against your CNIC and collect certificates from the bank, employer or other withholding agents.
+
+Q: Will FBR pay the refund in cash?
+A: The Commissioner first applies the excess against any other tax due from you and then refunds the balance.
+
+Q: What do you charge to claim a refund?
+A: Our published fee for a refund claim is 10% of the refund; any revision fee is confirmed before we start.
+
+Q: Where can I see the tax deducted from me?
+A: On IRIS, where withholding agents' statements reported against your CNIC can be viewed for each tax year.
+
+Q: Will FBR adjust my refund against other tax?
+A: Yes. Under Section 170(3) the excess is first applied against other tax due from you; the balance is refunded.
+
+## Assets Missing From Your Wealth Statement: How to Add Them
+URL: https://kambohassociates.com/blogs/assets-missing-from-wealth-statement-pakistan
+Summary: The assets most often left out of wealth statements, from plots and cars to gold, cash, loans given and foreign accounts, and how to add them correctly.
+
+Q: Do I need to show my wife's assets in my wealth statement?
+A: Only if she is dependent on you. Assets of a dependent spouse, minor children and other dependents are included.
+
+Q: Do foreign bank accounts go in the wealth statement?
+A: Yes. Section 116 expressly includes foreign assets and foreign liabilities.
+
+Q: How do I show a plot I am still paying instalments on?
+A: Show it at the amount paid to date, and keep the allotment and payment records.
+
+Q: Should gold received at marriage be shown?
+A: Yes, with its weight, value and source, such as a gift or inheritance.
+
+Q: Do loans I gave to relatives count?
+A: Yes. Money lent is an asset (a receivable) and should be shown with the borrower's name.
+
+Q: What happens if I add an asset I cannot explain?
+A: Under Section 111, an asset whose source is not satisfactorily explained can be included in income as income from other sources.
+
+Q: Can I add a missing asset without revising the return?
+A: Yes, if it was bought from already declared money. If its source was undeclared income, the return must also be revised.
+
+Q: How should I value assets in the wealth statement?
+A: Use a consistent basis each year, usually the cost actually paid plus improvements, and do not adjust values to force a reconciliation.
+
+## Salaried Revised Return Tax Year 2026: Common Fixes
+URL: https://kambohassociates.com/blogs/salaried-revised-return-tax-year-2026-pakistan
+Summary: Salaried and need to fix your 2026 return? Common errors, from employer certificates to side income and wealth statements, and how to revise in 60 days.
+
+Q: My employer deducted all my tax. Do I still need to revise a wrong return?
+A: Yes. The return also covers other income, credits and your wealth statement. An error in any of them can be corrected by a revised return under Section 114(6).
+
+Q: My employer's certificate is wrong. What should I do?
+A: Ask the employer to correct it first, so your revised return matches the figures FBR receives.
+
+Q: Do I need to declare bank profit if tax was deducted?
+A: Yes. Declare the profit and the tax deducted; whether that tax is final or adjustable depends on the rules for your level of income.
+
+Q: I forgot to show the car I bought. Do I need to revise?
+A: Yes, revise the wealth statement to show it and explain how it was paid for. If the money came from undeclared income, revise the return too.
+
+Q: How long do I have to revise without approval?
+A: Sixty days from the date you filed the original return.
+
+Q: What does a salaried return cost with you?
+A: Our published fee for a salaried return is Rs 3,500; any revision fee is confirmed before we start.
+
+Q: I had two employers this year. What should I check?
+A: Combine both salaries and both tax deductions. The tax on the total may differ from the two deductions added together; pay any shortfall or claim any excess.
+
+Q: Does my working wife's income go in my return?
+A: No. A spouse with their own income files their own return and wealth statement; their assets go in yours only if they are dependent.
 
 
 # Part 2: Web development (Kamboh Associates Digital)
