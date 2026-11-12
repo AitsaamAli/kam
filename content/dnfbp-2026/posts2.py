@@ -6,7 +6,7 @@ DLONG = "10 November 2026"
 
 S_GOAML_REG = ("FMU: Guidelines for Registration on goAML (DNFBPs)", "https://www.fmu.gov.pk/docs/2022/goAML-Registration-Guideline-DNFBPs.pdf")
 S_FMU_FAC = ("FMU: goAML DNFBPs facilitation page", "https://www.fmu.gov.pk/dnfbps-facilitation/")
-S_FMU_UG = ("FMU: goAML Web Users Guide (updated 2020)", "http://www.fmu.gov.pk/docs/Financial-Monitoring-Unit-FMU-goAML-Web-Users-Guide-Updated-2020.pdf")
+S_FMU_UG = ("FMU: goAML Web Users Guide (updated 2020)", "https://www.fmu.gov.pk/docs/Financial-Monitoring-Unit-FMU-goAML-Web-Users-Guide-Updated-2020.pdf")
 S_ACC_GL = ("FBR: AML/CFT Guidelines for Accountants", "https://download1.fbr.gov.pk/Docs/202182168263117AMLCFTGuidelines_AccountantsupdatedJuly,2020.pdf")
 S_ACC_RF = ("FMU: Red Flag Indicators for Accountants", "https://download1.fbr.gov.pk/Docs/202117141954216Red-Flag-Indicators-for-Accountants-final.pdf")
 S_REA_SG = ("FBR: Short Guidance on AML/CFT Obligations for Real Estate Agents", "https://download1.fbr.gov.pk/Docs/2021915091332570ShortGuidanceForREAs.pdf")

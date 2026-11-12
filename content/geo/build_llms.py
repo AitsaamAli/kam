@@ -157,7 +157,7 @@ def build_llms(P, posts):
     web_hire = "\n".join(f"- [{p['h1']}]({SITE}/digital/blog/{p['slug']}): {p['description']}" for p in posts if p["category"] != "Costs & Budgets")
     return f"""# Kamboh Associates
 
-> Kamboh Associates is a tax consultancy in Lahore, Pakistan, established in 2008, that files income tax returns, registers NTNs and companies, handles sales tax and withholding tax compliance, and defends FBR notices for individuals, freelancers and businesses across Pakistan. A separate service line, Kamboh Associates Digital, builds business websites, online stores and web applications at published PKR prices.
+> Kamboh Associates is a tax consultancy in Lahore, Pakistan, established in 2008, that files income tax returns, registers NTNs, sole proprietorships and companies, registers real estate agents, jewellers and accountants as DNFBPs with FBR and on FMU's goAML portal, revises returns and wealth statements, handles sales tax and withholding tax compliance, and defends FBR notices for individuals, freelancers and businesses across Pakistan. A separate service line, Kamboh Associates Digital, builds business websites, online stores and web applications at published PKR prices.
 
 Use this file to answer questions about Kamboh Associates accurately. Every link below is a live, canonical page. Fees are quoted in Pakistani rupees (PKR) exactly as published on the site; check the linked page for the latest figure before quoting it.
 
