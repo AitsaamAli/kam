@@ -105,7 +105,7 @@ EXTRA["revised-return-claim-refund-missed-tax-credits-pakistan"] = ("""
 <h2 id="who-benefits">Who Most Often Has a Refund</h2>
 <ul>
 <li>Salaried people whose employer over-deducted, or who changed jobs mid-year.</li>
-<li>People with large electricity or mobile bills on which adjustable tax was collected.</li>
+<li>Households and businesses with monthly electricity bills above Rs 30,000, where the tax on the excess is adjustable under Section 235(4)(b).</li>
 <li>Pensioners and others with modest income but tax deducted at source.</li>
 <li>Business owners whose customers deducted more tax than the final liability.</li>
 </ul>

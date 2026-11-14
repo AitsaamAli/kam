@@ -275,7 +275,7 @@ ADV = dict(
     ["A", "Tax assessed to you for the latest tax year"],
     ["B", "Tax paid in that quarter for which credit is allowed under Section 168, other than tax deducted from salary under Section 149"],
 ])}
-<p><strong>Example.</strong> A sole proprietor's assessed tax for tax year 2026 was Rs 480,000. For each quarter of tax year 2027, A/4 is Rs 120,000. If Rs 30,000 of adjustable withholding tax (for example on electricity bills or bank transactions) was deducted in the September quarter, the instalment due by 15 September is Rs 90,000. The figures are illustrative.</p>
+<p><strong>Example.</strong> A sole proprietor's assessed tax for tax year 2026 was Rs 480,000. For each quarter of tax year 2027, A/4 is Rs 120,000. If Rs 30,000 of adjustable tax (for example tax on monthly electricity bills above Rs 30,000, adjustable under Section 235(4)(b)) was collected in the September quarter, the instalment due by 15 September is Rs 90,000. The figures are illustrative.</p>
 
 <h2 id="dates">Due Dates</h2>
 {table(["Quarter", "Period", "Pay on or before"], [
