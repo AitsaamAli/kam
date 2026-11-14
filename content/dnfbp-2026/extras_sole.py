@@ -26,7 +26,7 @@ EXTRA["sole-proprietorship-registration-pakistan"] = (f"""
 <h2 id="taxed">How a Sole Proprietor's Profit Is Taxed</h2>
 <p>A sole proprietor's business profit is added to any other income and taxed at the rates for individuals whose income is not mainly salary. For tax year 2027 (1 July 2026 to 30 June 2027) the rates in the First Schedule are:</p>
 {SLABS}
-<p><strong>Worked example.</strong> A Lahore shop owner earns a business profit of Rs 2,400,000 in tax year 2027 and has no other income. Tax is Rs 170,000 plus 30% of Rs 800,000 (the amount above Rs 1,600,000), which is Rs 410,000. Tax already deducted from the business during the year, for example on electricity bills or by customers, is credited against it, and any balance is paid with the return. The figures are illustrative; the actual liability depends on the full return.</p>
+<p><strong>Worked example.</strong> A Lahore shop owner earns a business profit of Rs 2,400,000 in tax year 2027 and has no other income. Tax is Rs 170,000 plus 30% of Rs 800,000 (the amount above Rs 1,600,000), which is Rs 410,000. Adjustable tax deducted or collected during the year, for example tax on monthly electricity bills above Rs 30,000 (Section 235(4)(b)), is credited against it, and any balance is paid with the return. The figures are illustrative; the actual liability depends on the full return.</p>
 <p>Because tax is charged on <em>profit</em>, not turnover, the records behind your expenses matter as much as the sales figures. Our {a(REC, 'records guide')} explains what FBR expects.</p>
 
 <h2 id="structure">Is a Sole Proprietorship the Right Structure?</h2>

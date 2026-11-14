@@ -87,7 +87,7 @@ R60 = dict(
 <li>A bank account, savings certificate or profit on debt left out.</li>
 <li>A plot, house, vehicle or gold not shown in the wealth statement.</li>
 <li>Rental, freelance or business income omitted.</li>
-<li>Tax deducted at source not claimed, for example on electricity bills, mobile bills, vehicle tokens or bank cash withdrawals where adjustable.</li>
+<li>Adjustable tax collected at source not claimed, for example tax on monthly electricity bills above Rs 30,000, which Section 235(4) makes adjustable for taxpayers other than companies.</li>
 <li>A wealth reconciliation that does not balance, or household expenses understated.</li>
 <li>Wrong figures carried from the employer's certificate or from last year's statement.</li>
 </ul>
@@ -364,8 +364,8 @@ REF = dict(
 <h2 id="common-missed">Credits People Commonly Miss</h2>
 {table(["Source", "Where to find the evidence"], [
     ["Tax on salary deducted by the employer", "Employer's certificate; IRIS statement"],
-    ["Tax deducted on bank profit, where adjustable for your income level", "Bank's annual tax certificate"],
-    ["Tax collected on electricity and mobile bills, where adjustable", "Bills and IRIS statements"],
+    ["Tax on profit on debt where the profit exceeds Rs 5 million (below that, Section 7B taxes it separately and the deduction settles it)", "Bank's annual tax certificate"],
+    ["Tax collected on monthly electricity bills above Rs 30,000 (adjustable under Section 235(4)(b) for non-companies)", "Bills and IRIS statements"],
     ["Tax collected on vehicle registration or token tax, where adjustable", "Registration and token receipts"],
     ["Tax deducted by customers or clients on your receipts", "Their withholding certificates; IRIS statement"],
     ["Advance tax paid in instalments", "Paid challans (CPRs)"],
@@ -384,7 +384,7 @@ REF = dict(
 ])}
 
 <h2 id="example">Example</h2>
-<p>A salaried individual's Tax Year 2026 return showed tax chargeable of Rs 250,000 and claimed the employer's deduction of Rs 250,000. Missing from the return: adjustable tax of Rs 40,000 collected on the year's electricity bills and Rs 15,000 deducted on bank profit that was adjustable at that income level. A revised return within 60 days claims Rs 55,000 of additional credits, showing an excess of Rs 55,000, and a refund application follows. The figures are illustrative.</p>
+<p>A salaried individual's Tax Year 2026 return showed tax chargeable of Rs 250,000 and claimed the employer's deduction of Rs 250,000. The family's electricity bills were above Rs 30,000 a month for part of the year, and Rs 55,000 of tax collected on those monthly bills above the Rs 30,000 level, which Section 235(4)(b) makes adjustable, was missing from the return. A revised return within 60 days claims the Rs 55,000 credit, showing an excess of Rs 55,000, and a refund application follows. Tax collected on bills up to Rs 360,000 a year is minimum tax under Section 235(4)(a) and cannot be refunded. The figures are illustrative.</p>
 
 <h2 id="older">Older Years</h2>
 <p>Section 170's three-year limit runs from the later of the assessment date or the payment date. A return filed in late 2023 for Tax Year 2023 is treated as an assessment on the filing date, so a refund application for that year would need to be made by late 2026. Older years may already be time-barred. Revising a return for an old year solely to claim credits needs the Commissioner's approval because the 60 days have long passed.</p>
@@ -547,7 +547,7 @@ SAL = dict(
 <h2 id="errors">The Errors We See Most</h2>
 {table(["Error", "Why it matters", "Fix"], [
     ["Salary or tax differs from the employer's certificate", "FBR receives the employer's statement; mismatches attract questions", "Use the certificate figures; ask HR to correct the certificate if it is wrong"],
-    ["Bank profit left out", "Banks report profit and tax deducted", "Declare it and claim the tax deducted where adjustable"],
+    ["Bank profit left out", "Banks report profit and tax deducted", "Declare it; up to Rs 5 million it is taxed separately under Section 7B, so the deduction generally settles it"],
     ["Rent from a property left out", "Property and rent data can be matched", "Declare the rent and the tax deducted by the tenant, if any"],
     ["Freelance or side income omitted", "Foreign remittances and platform payments leave a bank trail", "Declare it under the correct head"],
     ["Adjustable credits not claimed", "Tax paid twice", "Claim with certificates; see the refund guide"],
@@ -560,7 +560,7 @@ SAL = dict(
 
 <h2 id="other-income">Other Income Salaried People Forget</h2>
 <ul>
-<li><strong>Profit on bank deposits and savings certificates.</strong> Declare it; the tax deducted may be final or adjustable depending on the rules for your level of income.</li>
+<li><strong>Profit on bank deposits and savings certificates.</strong> Declare it. For individuals, profit on debt up to Rs 5 million is taxed separately under Section 7B, so it is not added to salary; above Rs 5 million it is taxed under the normal rules.</li>
 <li><strong>Rent</strong> from a house, portion or shop.</li>
 <li><strong>Freelance, consultancy or tutoring income</strong> received alongside the job.</li>
 <li><strong>Capital gains</strong> on property, shares or mutual funds sold during the year.</li>
@@ -592,7 +592,7 @@ SAL = dict(
         ("My employer's certificate is wrong. What should I do?",
          "Ask the employer to correct it first, so your revised return matches the figures FBR receives."),
         ("Do I need to declare bank profit if tax was deducted?",
-         "Yes. Declare the profit and the tax deducted; whether that tax is final or adjustable depends on the rules for your level of income."),
+         "Yes. Declare the profit and the tax deducted. For individuals, profit on debt up to Rs 5 million is taxed separately under Section 7B; above that it is taxed under the normal rules."),
         ("I forgot to show the car I bought. Do I need to revise?",
          "Yes, revise the wealth statement to show it and explain how it was paid for. If the money came from undeclared income, revise the return too."),
         ("How long do I have to revise without approval?",
