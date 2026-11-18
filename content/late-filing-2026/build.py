@@ -27,6 +27,8 @@ def page(p):
     t = re.sub(r'<meta property="og:title" content="[^"]*"/>', f'<meta property="og:title" content="{E(p["title"])}"/>', t, 1)
     t = re.sub(r'<meta property="og:description" content="[^"]*"/>', f'<meta property="og:description" content="{E(p["description"])}"/>', t, 1)
     t = re.sub(r'<meta property="og:url" content="[^"]*"/>', f'<meta property="og:url" content="{url}"/>', t, 1)
+    t = re.sub(r'<meta name="twitter:title" content="[^"]*"/>', f'<meta name="twitter:title" content="{E(p["title"])}"/>', t, count=1)
+    t = re.sub(r'<meta name="twitter:description" content="[^"]*"/>', f'<meta name="twitter:description" content="{E(p["description"])}"/>', t, count=1)
     bp = {"@context": "https://schema.org", "@type": "BlogPosting", "headline": p["h1"], "description": p["description"],
           "datePublished": DATE, "dateModified": DATE, "inLanguage": "en-PK",
           "author": {"@type": "Person", "name": "Aitsaam Ali", "url": f"{BASE}/authors/aitsaam-ali", "@id": f"{BASE}/authors/aitsaam-ali#person"},
