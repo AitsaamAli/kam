@@ -56,7 +56,7 @@ def short(x):
 def page(c):
     url = f"{BASE}/tools/{c['slug']}"
     t = TPL
-    title = c["title"] + " | Kamboh Associates"
+    title = c["title"]
     t = re.sub(r"<title>.*?</title>", f"<title>{E(title)}</title>", t, 1)
     t = re.sub(r'<meta name="description" content="[^"]*"/>', f'<meta name="description" content="{E(c["desc"])}"/>', t, 1)
     t = re.sub(r'<link rel="canonical" href="[^"]*"/>', f'<link rel="canonical" href="{url}"/>', t, 1)
