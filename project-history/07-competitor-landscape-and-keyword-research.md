@@ -93,3 +93,19 @@ This project has not run a dedicated keyword-volume tool (no DataForSEO/Ahrefs d
 - `content-gap-100-new-blog-topics.md` (project root) — the full informational-topic competitor research writeup.
 - `commercial-local-100-blog-topics.md` (project root) — the commercial/local-intent plan.
 - The "Visa Country Priority Report" reasoning is reproduced in full in `06-content-strategy-projects.md` since the original was a Claude Artifact that may not remain accessible to a future session.
+
+## Competitor re-check, 19 Nov 2026 (live SERP + teardown; no Semrush)
+Most visible across tax queries now (ranked by how advanced their SEO/AEO/GEO is):
+| # | Site | Scale / cadence | What they do well | Weakness found |
+|---|---|---|---|---|
+| 1 | ict.edu.pk (courses) | ~230 blogs, weekly | 3.5-4k-word posts: "Quick Answer", "Key Takeaways", a "Direct answer" under each H2, 11 FAQs, 5 tables; ranks on almost every query | No JSON-LD in HTML, no llms.txt, no FBR links, errors (says the 1k→25k surcharge rise is "5x") |
+| 2 | bacoconsultants.com (services) | ~270 URLs, 2-3 posts/week | 8-9k-word mega guides with worked examples + PAA blocks, 17 calculators, city "best tax consultant" listicles, ~28 Google review testimonials | No JSON-LD in HTML, no llms.txt, wrong s.182 penalty, no prices |
+| 3 | ettc.pk (courses) | ~175 URLs, 97 blogs | 17-18 calculators, llms.txt + /llms "AI guide" page, BlogPosting schema, YouTube/TikTok/WhatsApp channel | "Invalid Date" bug, conflicting stats, city course doorway URLs |
+| 4 | paktaxcalculator.pk | ~90 URLs, ~55 calculators | Budget-cycle calculator refresh, Android app, "5.0 from 492 Google reviews" | Thin articles, no llms.txt |
+| 5 | befiler.com | app (1M+ downloads, 4.5) | Productised tiers Rs 3,900/5,500/14,500, Offer + AggregateRating schema, Urdu toggle, bank partners | Stale sitemap (2023), no meta description/canonical |
+| 6 | pakfiler.com | 20 URLs, no blog | Best GEO: explicit AI-bot allow, llms.txt with prices + Q&A + "alternative to Befiler/Filernow/Filer.pk/ActiveFiler", Offer/Service/FAQ schema; return from Rs 1,999, NTN Rs 1,000 | Unverifiable stats, no content |
+| 7 | waystax.com | ~125 URLs | City listicles, ~25 "how to start X business", 98KB llms.txt, YouTube review videos | Stalled since July 2026, no prices |
+| 8-14 | righttaxadvisor.pk (188 URLs, Offer schema), toolsfluent.com (107 tools, Roman Urdu, blocks AI bots), taxationpk.com, qureshiandcompany.com, irshadandco.com, activefiler.com (VideoObject), filernow.com / filer.pk | | | |
+| 15+ | News (propakistani, tribune calculators, pkrevenue, mettisglobal), marketplaces (Fiverr, Upwork, OLX), AI-built sites on lovable.app / pages.dev | | | |
+Our position: 1,732 tax URLs, llms.txt + llms-full, AI bots allowed, BlogPosting/FAQ/Breadcrumb/Person/AggregateRating schema, section-level FBR citations, published prices, 84 GBP reviews, Form ATL-U cluster live 9 days after SRO.
+Our gaps: direct-answer line under each H2; calculator hub (5 vs 17-55); Offer schema on /pricing; prices + Q&A in llms.txt; video/YouTube; review volume; speed tier; honest comparison pages; steady 2-3 posts/week; off-page (PR, listings); outdated s.182 penalty in our own calculator.
