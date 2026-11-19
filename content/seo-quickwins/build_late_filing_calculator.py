@@ -1,3 +1,4 @@
+# WARNING (19 Nov 2026): Section 182 penalty text here is the pre-Finance Act 2026 rule. The live HTML was corrected directly; update this source to the CLAUDE.md "s.182" fact before rebuilding.
 """Build tools/late-filing-penalty-calculator.html from the filer vs non-filer calculator page (same shell)."""
 import json, re
 

@@ -58,7 +58,7 @@ EXTRA["sole-proprietorship-registration-pakistan"] = (f"""
     ["Quarterly (if applicable)", "Withholding statements by the 20th after each quarter", "Section 165, if you deducted tax"],
     ["By 30 September after the tax year", "Income tax return with wealth statement", "Section 118 due date for individuals, unless FBR extends it"],
 ])}
-<p>Filing after the due date has a cost: under Section 182 the late-filing penalty is 0.1% of the tax payable for each day of default, up to 50%, with a minimum of Rs 40,000; and to be placed on the Active Taxpayers List after a late return, an individual pays a Rs 25,000 surcharge under Section 182A. A sole proprietor who files on time avoids both.</p>
+<p>Filing after the due date has a cost: under Section 182 the late-filing penalty is the higher of 0.1% of tax payable or Rs 1,000 for each day of default, up to 200% of tax payable, minimum Rs 10,000 for salaried individuals and Rs 50,000 for others; and to be placed on the Active Taxpayers List after a late return, an individual pays a Rs 25,000 surcharge under Section 182A. A sole proprietor who files on time avoids both.</p>
 
 <h2 id="checklist">Registration Checklist</h2>
 <ul>
@@ -79,7 +79,7 @@ EXTRA["sole-proprietorship-registration-pakistan"] = (f"""
     ("Can I register my business name as a trademark?",
      "Yes. Registering the name on IRIS does not protect it; a trademark application with IPO-Pakistan does."),
     ("What does it cost to file late?",
-     "Under Section 182, 0.1% of the tax payable per day of default, up to 50%, with a minimum of Rs 40,000; and an individual pays a Rs 25,000 surcharge under Section 182A to rejoin the Active Taxpayers List."),
+     "Under Section 182, the higher of 0.1% of tax payable or Rs 1,000 per day of default, up to 200% of tax payable, minimum Rs 10,000 for salaried individuals and Rs 50,000 for others; and an individual pays a Rs 25,000 surcharge under Section 182A to rejoin the Active Taxpayers List."),
 ])
 
 # ───────────────────────── Add business on IRIS ─────────────────────────
@@ -326,7 +326,7 @@ EXTRA["close-sole-proprietorship-remove-business-ntn-pakistan"] = (f"""
 </ul>
 
 <h2 id="after-closure">After Closure</h2>
-<p>Your personal registration continues. If you have other income, keep filing as an individual; a return filed late costs 0.1% of tax payable per day under Section 182, with a minimum of Rs 40,000. If you start a new business later, add it to your registration through Form 181 as described in our guide to {a(I, 'adding a business on IRIS')}.</p>
+<p>Your personal registration continues. If you have other income, keep filing as an individual; a return filed late costs the higher of 0.1% of tax payable or Rs 1,000 per day under Section 182, minimum Rs 10,000 for salaried individuals and Rs 50,000 for others. If you start a new business later, add it to your registration through Form 181 as described in our guide to {a(I, 'adding a business on IRIS')}.</p>
 """, [
     ("Can I sell my sole proprietorship?",
      "You can sell its assets, such as stock, fixtures and goodwill. The buyer registers the business under their own NTN, and you discontinue it on yours and declare any gain."),
