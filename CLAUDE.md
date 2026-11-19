@@ -7,7 +7,7 @@ Static HTML site on Vercel. Tax site at the root; a separate web-development sec
 - Do not change existing titles, meta descriptions, canonicals, robots tags, H1s or URLs unless the task asks for it.
 - Aitsaam Ali is credited only as "Author". Never claim a tax-consultant licence, credential or role for him. Figures are "from FBR".
 - Say "FBR Registered", never "FBR Certified". Replies are promised "within office hours" (Mon–Sat 9:00–18:00, Fri 9:00–12:30, Sun closed). Never claim 24/7.
-- Keep existing review and rating text as it is. Google Business Profile has 84 reviews. No fake reviews, no grey-hat or black-hat SEO.
+- Never show a review count or star rating number anywhere (pages, schema, llms). Link to the Google Business Profile instead: https://g.page/r/CYzrn3EEiZVwEBM. Keep existing testimonial text. No fake reviews, no grey-hat or black-hat SEO.
 - Every fact must come from an official source (FBR, IRIS, SECP, FMU, provincial authorities). Link the source and give the date it was checked. If a fact cannot be verified, leave it out.
 - Report to the owner in Roman Urdu, briefly.
 
