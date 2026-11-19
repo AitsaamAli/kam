@@ -27,7 +27,7 @@ X = {"cmp": "/blogs/late-filer-atl-surcharge-or-form-atl-u-undertaking-2026", "s
 SERIES = (f'<p class="tf-primary"><strong>Form ATL-U guides:</strong> {a(B["guide"], "complete guide")} &middot; {a(B["iris"], "IRIS steps")} &middot; '
           f'{a(B["alf"], "active late filer")} &middot; {a(B["fee"], "filer fee 2026")} &middot; {a(B["sale"], "selling property")} &middot; '
           f'{a(B["bank"], "bank profit")} &middot; {a(B["buy"], "what you cannot buy")} &middot; {a(B["sal"], "salaried")} &middot; '
-          f'{a(B["free"], "freelancers and traders")} &middot; {a(B["ru"], "Roman Urdu")}</p>')
+          f'{a(B["free"], "freelancers and traders")} &middot; {a(B["ru"], "Roman Urdu")}<br><strong>Calculators:</strong> {a("/tools/atl-surcharge-vs-form-atl-u-calculator", "surcharge vs Form ATL-U")} &middot; {a("/tools/form-atl-u-end-date-calculator", "six-month end date")} &middot; {a("/tools/late-filing-penalty-calculator", "late filing penalty")}</p>')
 
 F_SAL = "Salaried or pensioner return Rs 3,500 + Form ATL-U Rs 2,000 = Rs 5,500 (published fees). FBR's late-filing penalty, if any, is paid to FBR separately."
 F_FREE = "Freelancer return Rs 5,000 + Form ATL-U Rs 2,000 = Rs 7,000 (published fees). FBR's late-filing penalty, if any, is paid to FBR separately."
