@@ -39,7 +39,7 @@ FEESP = dict(
     svc=dict(h2="Start With a Free Assessment", intro="Send us one message describing your business. We reply with exactly which of the services above you need, the total fee, and what documents to send.",
              hook="Not sure which services your business needs?", fee="Fees as published: registration Rs 5,000; annual return Rs 5,000; wealth statement Rs 2,000; withholding Rs 3,000 a month.",
              btn="Get my free assessment", items=["A one-message assessment of your registration, return, advance tax and withholding position", "A written quote with the published fees before any work starts", "One point of contact for the whole year", "Reminders before each deadline that applies to you"],
-             risks=["Late return: 0.1% of tax per day under Section 182, minimum Rs 40,000", "Rs 25,000 surcharge to rejoin the Active Taxpayers List after a late return", "Missed advance tax: 12% a year default surcharge"]),
+             risks=["Late return: the higher of 0.1% of tax payable or Rs 1,000 per day under Section 182, minimum Rs 10,000 for salaried individuals and Rs 50,000 for others", "Rs 25,000 surcharge to rejoin the Active Taxpayers List after a late return", "Missed advance tax: 12% a year default surcharge"]),
     title="Sole Proprietor Tax Services in Pakistan: What We Do & Fees",
     h1="Tax Services for Sole Proprietors in Pakistan: What Your Business Needs Each Year, and What It Costs",
     crumb="Sole Proprietor Services & Fees",
@@ -99,7 +99,7 @@ FEESP = dict(
 
 <h2 id="costs-of-missing">What Missing a Step Costs</h2>
 <ul>
-<li><strong>Late return:</strong> 0.1% of tax payable for each day of default, up to 50%, minimum Rs 40,000 (Section 182).</li>
+<li><strong>Late return:</strong> the higher of 0.1% of tax payable or Rs 1,000 for each day of default, up to 200% of tax payable, minimum Rs 10,000 for salaried individuals and Rs 50,000 for others (Section 182).</li>
 <li><strong>Rejoining the Active Taxpayers List after a late return:</strong> Rs 25,000 for an individual (Section 182A).</li>
 <li><strong>Missing wealth statement or reconciliation:</strong> 0.1% of taxable income per week or Rs 100,000, whichever is higher (Section 182).</li>
 <li><strong>Unpaid advance tax:</strong> default surcharge at 12% a year (Section 205(1A)).</li>

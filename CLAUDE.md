@@ -24,7 +24,7 @@ Static HTML site on Vercel. Tax site at the root; a separate web-development sec
 
 ## Tax facts in use (check before reuse)
 - TY2026 return deadline: 31 Oct 2026.
-- s.182 late filing: 0.1%/day, max 50%, min Rs 40,000 (Rs 5,000 for low-salary cases).
+- s.182 late filing (ITO amended to 30.06.2026, Finance Act 2026): higher of 0.1% of tax payable or Rs 1,000 per day; min Rs 10,000 (75%+ salary income) or Rs 50,000 (others); max 200% of tax payable; reduced 75%/50%/25% if filed within 1/2/3 months of the due date. "Tax payable" = higher of assessed tax or tax of the last year filed on time.
 - s.182A ATL surcharge: Rs 25k individual / 50k AOP / 100k company.
 - Salaried slabs TY2027: 0 / 1% / 6,000+11% / 116,000+20% / 316,000+25% / 541,000+29% / 976,000+32% / 1,424,000+35% above 7m.
 

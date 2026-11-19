@@ -1,3 +1,4 @@
+# WARNING (19 Nov 2026): Section 182 penalty text here is the pre-Finance Act 2026 rule. The live HTML was corrected directly; update this source to the CLAUDE.md "s.182" fact before rebuilding.
 #!/usr/bin/env python3
 """P2 fix (6 Nov 2026): repair the four root calculators and business-advisory.
 

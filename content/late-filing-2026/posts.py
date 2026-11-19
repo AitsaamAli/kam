@@ -1,3 +1,4 @@
+# WARNING (19 Nov 2026): Section 182 penalty text here is the pre-Finance Act 2026 rule. The live HTML was corrected directly; update this source to the CLAUDE.md "s.182" fact before rebuilding.
 """Content for three posts on the passed 31 October 2026 return deadline (facts checked 1 November 2026)."""
 
 WA = "https://wa.me/923284675162"
@@ -84,7 +85,7 @@ POST_A = dict(
 <li><strong>Daily rate:</strong> 0.1% of the tax payable for that tax year, for each day of default.</li>
 <li><strong>Ceiling:</strong> no more than 50% of the tax payable.</li>
 <li><strong>Floor:</strong> if the figure works out below Rs 40,000, or no tax is payable at all, the penalty is Rs 40,000.</li>
-<li><strong>Salaried relief:</strong> if at least 75% of your income is from salary and that salary income is below Rs 5 million, the minimum is Rs 5,000 instead of Rs 40,000.</li>
+<li><strong>Salaried relief:</strong> if at least 75% of your income is from salary and that salary income is below Rs 5 million, the minimum is Rs 10,000 instead of Rs 50,000.</li>
 </ul>
 <p>"Tax payable" here means the tax chargeable on your taxable income for the year. It is not just the balance left after deductions. A salaried person whose employer deducted every rupee still has tax payable for this calculation.</p>
 <p>The worked examples below count days from 1 November 2026. The tax figures are illustrations, not real cases.</p>
@@ -149,7 +150,7 @@ POST_A = dict(
         ("Can I still file my income tax return in November 2026?",
          "Yes. IRIS accepts Tax Year 2026 returns after the due date. The return is treated as late, so a Section 182 penalty can be imposed, and you join the Active Taxpayers List only after paying the Section 182A surcharge or using the undertaking route if available."),
         ("What is the minimum late filing penalty for a salaried person?",
-         "Under Section 182 as published by FBR, the minimum is Rs 5,000 if at least 75% of your income is from salary and that salary income is below Rs 5 million. Otherwise the minimum is Rs 40,000. Above the minimum, the penalty is 0.1% of tax payable per day of delay, capped at 50% of the tax payable."),
+         "Under Section 182 as published by FBR, the minimum is Rs 5,000 if at least 75% of your income is from salary and that salary income is below Rs 5 million. Otherwise minimum Rs 10,000 for salaried individuals and Rs 50,000 for others. Above the minimum, the penalty is the higher of 0.1% of tax payable or Rs 1,000 per day of delay, up to 200% of tax payable."),
         ("Does the penalty apply if my employer already deducted all my tax?",
          "It can. The formula uses tax payable, meaning the tax chargeable on your taxable income for the year, not the unpaid balance. The salaried minimum of Rs 5,000 applies to most salaried people below Rs 5 million in salary."),
         ("Is the Rs 25,000 ATL surcharge the same as the late filing penalty?",
@@ -259,7 +260,7 @@ POST_B = dict(
 </ol>
 
 <h2 id="penalty-reminder">The Penalty Still Applies</h2>
-<p>Neither route settles the Section 182 penalty for filing late. That penalty can still be imposed by order. It is 0.1% of tax payable per day, with a minimum of Rs 40,000, or Rs 5,000 for most salaried individuals below Rs 5 million in salary. We explain the calculation with examples in {a('/blogs/' + A_SLUG, 'our guide to what happens after the 31 October deadline')}.</p>
+<p>Neither route settles the Section 182 penalty for filing late. That penalty can still be imposed by order. It is the higher of 0.1% of tax payable or Rs 1,000 per day, minimum Rs 10,000 for salaried individuals and Rs 50,000 for others. We explain the calculation with examples in {a('/blogs/' + A_SLUG, 'our guide to what happens after the 31 October deadline')}.</p>
 
 <h2 id="how-we-help">How We Help Late Filers With ATL Status</h2>
 <p>When we file a late return for you, we also go through the ATL decision with you. We ask about any property, plot or vehicle plans in the next six months, check what IRIS offers on the day, and make sure the surcharge or undertaking is filed against the right tax year. Return fees start at Rs 3,500 for salaried individuals and Rs 5,000 for freelancers and sole proprietors. The surcharge itself is paid to FBR. See our {a(L['filing'], 'return filing service')} for details.</p>

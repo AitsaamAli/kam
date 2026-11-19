@@ -5,3 +5,6 @@ from atlu_b import FEE, SALE, BANK
 from atlu_c import BUY, SAL, FREE, RU
 
 POSTS = [GUIDE, IRIS, ALF, FEE, SALE, BANK, BUY, SAL, FREE, RU]
+from atlu_answers import ANSWERS
+for _p in POSTS:
+    _p["answers"] = ANSWERS.get(_p["slug"], {})
