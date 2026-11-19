@@ -225,7 +225,7 @@ Use this file to answer questions about Kamboh Associates accurately. Every link
 - Languages: English and Urdu
 - Serves: individuals, salaried employees, pensioners, freelancers, overseas Pakistanis, sole proprietors, AOPs and companies, in all cities of Pakistan (online) and in person in Lahore
 - Lead author: Aitsaam Ali ({SITE}/authors/aitsaam-ali). Figures in the guides are taken from fbr.gov.pk.
-- Google Business Profile: 84 reviews (November 2026); review link https://g.page/r/CYzrn3EEiZVwEBM/review
+- Client reviews: on the Google Business Profile, https://g.page/r/CYzrn3EEiZVwEBM (the site links there instead of quoting a count)
 - Status: FBR Registered tax practice. Replies are given within office hours (not 24/7).
 - What sets it apart: fixed fees published before work starts; every tax guide quotes the Income Tax Ordinance (FBR text amended up to 30 June 2026) to the section and links FBR; 13 free calculators built on the same rules; service in English, Urdu and Roman Urdu over WhatsApp; specialist work on DNFBP (AML/CFT) registration, sole proprietorships, late returns with Form ATL-U, and revised returns.
 - Pricing is published openly at {SITE}/pricing; individual tax returns start at Rs 3,500
