@@ -48,13 +48,13 @@ def body_with_service(p):
     body = p["body"].strip()
     s = p.get("svc")
     if not s:
-        return body
+        return add_answers(p, body)
     i = body.find('<h2 id="how-we-help">')
     if i >= 0:
         body = body[:i].rstrip()
     items = "".join(f"<li>{E(x)}</li>" for x in s["items"])
     risks = "".join(f"<li>{E(x)}</li>" for x in s.get("risks", []))
-    return body + f'''
+    return add_answers(p, body + f'''
 
 <h2 id="how-we-help">{E(s["h2"])}</h2>
 <p>{E(s["intro"])}</p>
@@ -64,7 +64,16 @@ def body_with_service(p):
 {"" if s.get("compact") else HOW}
 <p><strong>Fee:</strong> {E(s["fee"])}{"" if s.get("compact") else TRUST}</p>
 <p><a href="{E(wa_link(p))}" style="{WA_BTN}"><i class="fab fa-whatsapp"></i> {E(s.get("btn", "Get it done for you"))}</a></p>
-'''
+''')
+
+
+def add_answers(p, html_):
+    """Insert a one-line 'Short answer' after each H2 that has one in p['answers'] (AEO direct-answer pattern)."""
+    ans = p.get("answers") or {}
+    def rep(m):
+        x = ans.get(m.group(1))
+        return m.group(0) + (f'\n<p class="direct-answer" style="margin:0 0 12px;padding:10px 14px;background:#F0FDFA;border-left:3px solid #0D9488;border-radius:0 8px 8px 0;color:#0F172A"><strong>Short answer:</strong> {E(x)}</p>' if x else "")
+    return re.sub(r'<h2 id="([^"]+)">.*?</h2>', rep, html_)
 
 
 def apply_extra(p):
@@ -104,7 +113,7 @@ def page(p):
                         "logo": {"@type": "ImageObject", "url": f"{BASE}/android-chrome-512x512.png", "width": 512, "height": 512}},
           "mainEntityOfPage": {"@type": "WebPage", "@id": url},
           "image": {"@type": "ImageObject", "url": f"{BASE}/images/og-default.jpg", "width": 1200, "height": 630},
-          "keywords": p["keywords"], "citation": [u for _, u in p["sources"]]}
+          "keywords": p["keywords"], "citation": [u for _, u in p["sources"]], "speakable": {"@type": "SpeakableSpecification", "cssSelector": [".tldr-box", ".direct-answer"]}}
     faq = {"@context": "https://schema.org", "@type": "FAQPage",
            "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a_}} for q, a_ in p["faqs"]]}
     bc = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
