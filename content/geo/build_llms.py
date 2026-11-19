@@ -20,7 +20,8 @@ TAX_SERVICES = ["income-tax-filing", "income-tax-return-pakistan", "ntn-registra
                 "sales-tax-return", "fbr-notice-defense", "wealth-statement", "withholding-tax", "eobi-registration", "aop-tax-return",
                 "freelancer-tax-pakistan", "secp-vs-sole-proprietorship-pakistan", "startup-registration-pakistan", "pricing"]
 TAX_TOOLS = ["tax-calculator", "salary-calculator", "gst-calculator", "income-estimator", "tools/late-filing-penalty-calculator"]
-TAX_GUIDES = ["filer-vs-nonfiler-pakistan", "atl-pakistan-guide", "how-to-check-atl-status-pakistan",
+TAX_GUIDES = ["blogs/form-atl-u-fbr-guide-2026", "blogs/form-atl-u-iris-submit-step-by-step", "blogs/active-late-filer-meaning-form-atl-u-2026", "blogs/filer-fee-2026-pakistan-late-filer-cost", "blogs/late-filer-tax-on-property-sale-form-atl-u", "blogs/late-filer-tax-on-bank-profit-form-atl-u", "blogs/form-atl-u-property-purchase-6-months-breach", "blogs/form-atl-u-salaried-pensioners-late-return", "blogs/form-atl-u-freelancers-traders-overseas", "blogs/filer-kaise-bane-2026-form-atl-u",
+              "filer-vs-nonfiler-pakistan", "atl-pakistan-guide", "how-to-check-atl-status-pakistan",
               "blogs/filer-vs-non-filer-pakistan-2026", "blogs/ntn-registration-online-pakistan", "blogs/income-tax-slab-pakistan-2026",
               "blogs/budget-2026-27-salary-tax-slabs-pakistan", "blogs/salary-tax-calculator-pakistan-2026", "blogs/withholding-tax-pakistan-2026",
               "blogs/advance-tax-pakistan-2026", "blogs/wealth-statement-guide-pakistan-2026", "blogs/late-filing-penalty-income-tax-pakistan",

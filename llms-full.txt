@@ -2,7 +2,7 @@
 
 > Answers to the questions people most often ask Kamboh Associates, taken word for word from the FAQ sections of the pages linked under each heading. Tax content covers Pakistan (tax year 2026). Web development content covers Kamboh Associates Digital.
 
-Updated: 2026-11-12
+Updated: 2026-11-19
 Short index: https://kambohassociates.com/llms.txt
 
 Contact: WhatsApp or call +92 328 4675162, email info@kambohassociates.com, office at Shop No 34 Rizwan Block Market, opposite Rizwan Park, Awan Town, Lahore 54660, Pakistan. Monday to Saturday 9:00 AM to 6:00 PM, Friday 9:00 AM to 12:30 PM.
@@ -354,7 +354,7 @@ A: It is an estimate. Final tax depends on exempt income, tax credits, withholdi
 
 ## Salary Calculator Pakistan 2026–27 — Gross to Net Take-Home
 URL: https://kambohassociates.com/salary-calculator
-Summary: Free Pakistan salary calculator 2026-27. Calculate your exact take-home salary after income tax, EOBI and provident fund deductions. Based on FBR Tax Year 2027 slabs.
+Summary: Free Pakistan salary calculator 2026-27: take-home pay after income tax, EOBI and provident fund deductions, using FBR Tax Year 2027 salary slabs.
 
 Q: How much tax is deducted from a Rs 100,000 monthly salary?
 A: Annual salary is Rs 1,200,000, so tax is 1% of Rs 600,000, which is Rs 6,000 a year, or Rs 500 a month, under the Tax Year 2027 salaried slabs.
@@ -418,6 +418,286 @@ A: It means the tax chargeable on your taxable income for the year, under the as
 
 Q: Does the calculator give the final penalty FBR will charge?
 A: No. It applies the published formula to the figures you enter. The penalty is imposed by an order after a notice, where a genuine reason for the delay can be explained, and the order can be appealed. Confirm the current law at fbr.gov.pk.
+
+## Form ATL-U 2026: ATL Without the Rs 25,000 Surcharge
+URL: https://kambohassociates.com/blogs/form-atl-u-fbr-guide-2026
+Summary: Form ATL-U explained: who can use it, the six-month property undertaking, what it saves, what it does not cover, and how a late filer reaches the ATL.
+
+Q: What is Form ATL-U?
+A: It is the form for the undertaking under Section 182A(3) of the Income Tax Ordinance, prescribed by SRO 2097(I)/2026. An individual who filed late declares that he will not obtain any property for six months and, in return, the ATL surcharge condition does not apply.
+
+Q: Is there any fee to FBR for Form ATL-U?
+A: No payment to FBR is required for the undertaking. Our professional fee for preparing and furnishing it is Rs 2,000, added to the return fee.
+
+Q: Can a company or AOP use Form ATL-U?
+A: No. Section 182A(3) applies only to an individual. A company pays Rs 100,000 and an AOP Rs 50,000 to be included in the ATL after a late return.
+
+Q: Does Form ATL-U remove the late-filing penalty?
+A: No. The Section 182 penalty for filing after the due date is separate. Filing within one month of the due date reduces it by 75% under the current text.
+
+Q: When do the six months start?
+A: From the date you furnish the undertaking. Keep the IRIS acknowledgement, which shows that date.
+
+Q: Can I sell property after signing Form ATL-U?
+A: The undertaking is about purchasing, acquiring or obtaining ownership or beneficial interest. Selling is not mentioned, and being on the ATL means the lower 2.75% rate under Section 236C.
+
+Q: What happens if I buy property within six months?
+A: As notified, the benefit is withdrawn from the date of breach after you are heard, and the ordinary rule applies: the surcharge must be paid to stay on the ATL.
+
+Q: Do I still need to file the return?
+A: Yes. The undertaking is for a person who files the return after the due date. It is not a substitute for the return.
+
+## How to Submit Form ATL-U on IRIS: Step by Step (2026)
+URL: https://kambohassociates.com/blogs/form-atl-u-iris-submit-step-by-step
+Summary: Step-by-step: submitting Form ATL-U on FBR IRIS after a late 2026 return. What to prepare, each field, the acknowledgement and checking your ATL status.
+
+Q: Where is Form ATL-U on IRIS?
+A: It is an electronic form on IRIS. FBR can move menu items, so if you cannot find it, use the IRIS search or forms area, or ask us to check your account.
+
+Q: Can I submit Form ATL-U before filing my return?
+A: It relates to a return filed after the due date, and it asks for the return's filing date and acknowledgement number. File the return first.
+
+Q: Which tax year do I select?
+A: Tax Year 2026 for the return that was due on 31 October 2026.
+
+Q: Is there a challan or fee on IRIS for Form ATL-U?
+A: No payment is made to FBR for the undertaking. The Rs 25,000 surcharge is what the undertaking replaces.
+
+Q: How long until my name appears on the ATL?
+A: After FBR's next ATL update. Check online or by SMS after the update.
+
+Q: I lost the acknowledgement. Can I download it again?
+A: Yes, completed submissions remain in your IRIS account; download the acknowledgement again and keep a copy.
+
+Q: Can someone else submit Form ATL-U for me?
+A: A tax practitioner can prepare and submit it through your IRIS account with your authorisation. The undertaking remains yours, so read the declaration yourself.
+
+Q: What if I selected the wrong tax year?
+A: Contact us or your tax office promptly. An undertaking against the wrong year does not help with the late Tax Year 2026 return.
+
+## Active Late Filer Meaning 2026: Status, Rates, Form ATL-U
+URL: https://kambohassociates.com/blogs/active-late-filer-meaning-form-atl-u-2026
+Summary: What 'active late filer' and 'inactive filer' mean on the FBR ATL in 2026, why the old late-filer rates ended, and how Form ATL-U gets you active again.
+
+Q: What does active late filer mean?
+A: It describes a person on the ATL who filed the return after the due date. Rule 1A of the Tenth Schedule used to charge such people higher rates; the Finance Act 2026 omitted it, so from 1 July 2026 they pay ordinary filer rates.
+
+Q: What does inactive filer mean?
+A: Your name is not on the current ATL, usually because the return for the relevant year is missing or was filed late without the surcharge or Form ATL-U.
+
+Q: How do I become active from inactive?
+A: File the missing return and wealth statement, then either pay the surcharge or, as an individual not obtaining property for six months, furnish Form ATL-U.
+
+Q: Do active late filers still pay higher tax on property?
+A: Not from 1 July 2026. The separate rates in rule 1A were omitted by the Finance Act 2026; a person on the ATL pays 2.75% under Section 236C when selling.
+
+Q: Is the late-filing penalty removed once I am active?
+A: No. The Section 182 penalty is separate from ATL status.
+
+Q: Can a bank still deduct the higher rate after I become active?
+A: Banks apply the rate according to the ATL on the date of the transaction. After your name appears, ask the bank to apply the filer rate going forward.
+
+Q: How long does Form ATL-U keep me active?
+A: Your ATL inclusion relates to the tax year. The six-month promise is the condition; breaking it brings back the surcharge rule.
+
+Q: Which return decides my status in 2027?
+A: The ATL issued in 2027 relates to Tax Year 2026, the return that was due on 31 October 2026.
+
+## Filer Fee 2026: What a Late Filer Really Pays in Pakistan
+URL: https://kambohassociates.com/blogs/filer-fee-2026-pakistan-late-filer-cost
+Summary: There is no single 'filer fee'. The real 2026 cost for a late filer, line by line: return, penalty, Rs 25,000 surcharge or Form ATL-U, and our fees.
+
+Q: What is the filer fee in Pakistan in 2026?
+A: FBR charges no fee to become a filer. Late filers may owe the Section 182 penalty and, to join the ATL, a surcharge of Rs 25,000 (individual) unless they use Form ATL-U.
+
+Q: What is the non-filer to filer fee?
+A: There is no FBR fee for it. You file the return; if it is late, the penalty and the ATL route (surcharge or Form ATL-U) apply.
+
+Q: Is the ATL surcharge the same as the late-filing penalty?
+A: No. The penalty is under Section 182 for missing the due date; the surcharge is under Section 182A for inclusion in the ATL after a late return.
+
+Q: How much is the ATL fee for an individual in 2026?
+A: The surcharge is Rs 25,000 from 1 July 2026, up from Rs 1,000. An individual who furnishes Form ATL-U does not pay it.
+
+Q: How much do you charge for Form ATL-U?
+A: Rs 2,000 for preparing and furnishing it, added to the published return fee: Rs 5,500 total for a salaried return.
+
+Q: Can I reduce the late-filing penalty?
+A: Yes, by filing quickly. Under the current text it falls by 75% if the return is filed within one month after the due date, 50% within two months and 25% within three.
+
+Q: Is NTN registration free?
+A: Yes, at FBR. We charge Rs 2,000 if you want us to register you.
+
+Q: Do I pay the surcharge and Form ATL-U both?
+A: No. They are alternative routes; the undertaking replaces the surcharge for an individual.
+
+## Late Filer Tax on Property Sale 2026: 2.75% or 11.5%?
+URL: https://kambohassociates.com/blogs/late-filer-tax-on-property-sale-form-atl-u
+Summary: Selling property after filing late? The Section 236C rate is 2.75% on the ATL and 11.5% off it. How Form ATL-U puts sellers on the ATL without Rs 25,000.
+
+Q: What is the tax on property sale for a late filer in 2026?
+A: It depends on the ATL. On the ATL, Section 236C collects 2.75%; off it, 11.5%. Rule 1A, which set separate rates for late filers on the ATL, was omitted by the Finance Act 2026.
+
+Q: Can I sell property after furnishing Form ATL-U?
+A: The undertaking forbids purchasing, acquiring or obtaining ownership or beneficial interest in property for six months. Selling is not among those, so a sale does not breach it.
+
+Q: Do I need to pay Rs 25,000 to sell at the filer rate?
+A: Not if you are an individual who can keep the six-month undertaking. Form ATL-U replaces the surcharge.
+
+Q: When is the rate decided?
+A: At the time of transfer, according to whether you appear on the ATL. Make sure your name is on the list before the transfer date.
+
+Q: Is the 236C advance tax final?
+A: No. It is adjustable against tax on the capital gain in the return for the year of sale.
+
+Q: Can I reinvest the sale proceeds in a new plot?
+A: Not within the six months if you used Form ATL-U. That would be acquiring property. Wait, or pay the surcharge instead.
+
+Q: What did 'active late filer' sellers pay before?
+A: From 1 July 2024 to 30 June 2026, rule 1A of the Tenth Schedule charged them separate higher rates. That rule no longer applies.
+
+Q: Does the buyer's status affect my tax?
+A: No. The seller pays 236C based on the seller's status; the buyer pays 236K based on the buyer's.
+
+## Late Filer Tax on Bank Profit: 20% or 40%? Form ATL-U Fix
+URL: https://kambohassociates.com/blogs/late-filer-tax-on-bank-profit-form-atl-u
+Summary: Off the ATL after a late return? Bank profit tax under s.151 rises from 20% to 40%. How Form ATL-U restores the filer rate for savers and pensioners.
+
+Q: What is the tax on bank profit for a late filer?
+A: A late filer who has not used the surcharge or Form ATL-U is off the ATL, so the 20% rate under Section 151 is increased by 100% to 40% under rule 1 of the Tenth Schedule.
+
+Q: How do I get back to 20%?
+A: Get on the ATL: file the late return and either pay the Rs 25,000 surcharge or, as an individual not obtaining property for six months, furnish Form ATL-U.
+
+Q: Will the bank refund the extra deduction?
+A: The bank does not refund it. You claim the excess through your return, and Section 182A(1)(c) blocks refunds while you are off the ATL.
+
+Q: Is Form ATL-U suitable for pensioners?
+A: Usually yes. Pensioners rarely buy property within six months, and the undertaking replaces the surcharge.
+
+Q: How quickly does the rate change?
+A: The bank applies the rate according to the ATL on the payment date. After your name appears, inform the bank so later payments use 20%.
+
+Q: Does this apply to National Savings certificates?
+A: Profit on debt under Section 151 includes profit on National Savings schemes, and the ATL test applies the same way.
+
+Q: Is the late-filing penalty removed by Form ATL-U?
+A: No. The Section 182 penalty remains; filing within one month of the due date reduces it by 75%.
+
+Q: Are dividends also affected?
+A: Yes. Rule 1 of the Tenth Schedule increases withholding rates generally, including on dividends, for people off the ATL.
+
+## Form ATL-U Undertaking: What You Cannot Buy for 6 Months
+URL: https://kambohassociates.com/blogs/form-atl-u-property-purchase-6-months-breach
+Summary: The Form ATL-U promise in detail: plots, files, bookings, gifts, inheritance, benami property, vehicles, the six-month count and the cost of a breach.
+
+Q: What does Form ATL-U stop me from buying?
+A: Section 182A(3) covers purchasing, acquiring or otherwise obtaining ownership or beneficial interest in any property for six months. Plots, houses, flats, shops, files and bookings are clearly covered.
+
+Q: Can I buy a car after signing Form ATL-U?
+A: The law says 'any property' and does not mention vehicles. Until FBR clarifies, the careful course is to wait or to pay the surcharge instead.
+
+Q: Does inheritance breach the undertaking?
+A: The law does not address it. Succession is not your act, but transferring the property into your name is a way of obtaining ownership. Seek advice before mutation within the six months.
+
+Q: Can my wife buy a plot while I use Form ATL-U?
+A: If she buys with her own money for herself, it is her purchase. If you fund it or she holds it for you, that is a beneficial interest and a breach.
+
+Q: When do the six months end?
+A: Six months from the date you furnished the undertaking, shown on the IRIS acknowledgement.
+
+Q: What happens if I breach the undertaking?
+A: As notified, after an electronic hearing the benefit is withdrawn from the date of breach, and the surcharge rule in Section 182A(1) applies.
+
+Q: Can I sell property during the six months?
+A: Yes. Selling is not one of the restricted acts.
+
+Q: Can I pay the surcharge later instead?
+A: Yes. If your plans change, paying the surcharge puts you on the ATL without depending on the undertaking. Do it before the purchase.
+
+## Form ATL-U for Salaried and Pensioners: Late Return Guide
+URL: https://kambohassociates.com/blogs/form-atl-u-salaried-pensioners-late-return
+Summary: Salaried or pensioner and filed late? The penalty, the Rs 25,000 ATL surcharge, and how Form ATL-U puts you back on the ATL for Rs 5,500 all-in with us.
+
+Q: Is the return required if my employer deducted tax?
+A: Yes. Section 149 deduction does not replace the Section 114 return, and only a filed return puts you on the ATL.
+
+Q: What is the late-filing penalty for a salaried person?
+A: The higher of 0.1% of tax payable or Rs 1,000 per day, with a minimum of Rs 10,000 where at least 75% of income is salary, reduced if filed within three months of the due date.
+
+Q: How much does a late salaried return with Form ATL-U cost with you?
+A: Rs 3,500 for the return plus Rs 2,000 for Form ATL-U, Rs 5,500 in total. FBR's penalty, if any, is paid separately.
+
+Q: Can pensioners use Form ATL-U?
+A: Yes. A pensioner is an individual, and the undertaking suits anyone not obtaining property for six months.
+
+Q: Will my employer be told about Form ATL-U?
+A: No. It is furnished on IRIS between you and FBR.
+
+Q: Can I claim a refund of excess salary tax after a late return?
+A: Yes, through the return, but Section 182A(1)(c) blocks refunds while you are off the ATL.
+
+Q: Do I need a wealth statement as a salaried person?
+A: In most cases yes. Section 116 requires it with the return for individuals in the cases it specifies, and it is checked against your records.
+
+Q: When is next year's salaried return due?
+A: 30 September 2027 for Tax Year 2027, under Section 118, unless extended.
+
+## Form ATL-U for Freelancers, Traders and Overseas Filers
+URL: https://kambohassociates.com/blogs/form-atl-u-freelancers-traders-overseas
+Summary: Freelancer, sole proprietor or overseas Pakistani who filed late? Who can use Form ATL-U, who cannot (AOPs, companies), and what each group should check.
+
+Q: Can a freelancer use Form ATL-U?
+A: Yes. A freelancer is an individual, and the undertaking is open to individuals who filed late and will not obtain property for six months.
+
+Q: Can a sole proprietor use Form ATL-U?
+A: Yes. A sole proprietor is an individual. Buying a shop or other property for the business within six months would breach the undertaking.
+
+Q: Can a partnership firm use Form ATL-U?
+A: No. An AOP must pay Rs 50,000 to be included in the ATL after a late return.
+
+Q: Can overseas Pakistanis use Form ATL-U?
+A: Yes, if they file in Pakistan as individuals. It is furnished on IRIS, so it can be done from abroad.
+
+Q: What is the late-filing penalty for a freelancer?
+A: The higher of 0.1% of tax payable or Rs 1,000 per day, minimum Rs 50,000 for non-salaried individuals, reduced by 75% if filed within one month of the due date.
+
+Q: Does Form ATL-U help an overseas seller of property?
+A: Yes. If you are not buying in the next six months, it puts you on the ATL so that 2.75% applies under Section 236C instead of 11.5%.
+
+Q: Can I buy business equipment during the six months?
+A: The law says 'any property'. Routine stock is part of the business; for major fixed assets, take advice before signing.
+
+Q: How much do you charge?
+A: Freelancer or sole proprietor Rs 7,000 and overseas Rs 8,000, each including Rs 2,000 for Form ATL-U.
+
+## Filer Kaise Banein 2026: Form ATL-U, Bina Rs 25,000
+URL: https://kambohassociates.com/blogs/filer-kaise-bane-2026-form-atl-u
+Summary: Filer kaise banein 2026 mein? Late return ke baad Rs 25,000 surcharge ya Form ATL-U: kaun use kar sakta hai, 6 maah ki shart, penalty aur fees.
+
+Q: Filer banne ki fees kitni hai?
+A: FBR filer banne ki koi fees nahi leta. Late return par penalty aur ATL ke liye Rs 25,000 surcharge ya Form ATL-U ka raasta hai.
+
+Q: Form ATL-U kya hai?
+A: Section 182A(3) ke tehat undertaking ka form, jo SRO 2097(I)/2026 se jari hua. Individual 6 maah property na lene ka wada karta hai aur surcharge ke baghair ATL mein aata hai.
+
+Q: Kya company ya AOP Form ATL-U de sakti hai?
+A: Nahi. Yeh sirf individual ke liye hai. AOP Rs 50,000 aur company Rs 100,000 surcharge deti hai.
+
+Q: 6 maah kab se shuru hote hain?
+A: Undertaking jama karne ki tareekh se, jo IRIS acknowledgement par likhi hoti hai.
+
+Q: Kya Form ATL-U ke baad property bech sakte hain?
+A: Haan. Pabandi khareedne ya hasil karne par hai, bechne par nahi.
+
+Q: Agar 6 maah mein plot le liya to kya hoga?
+A: Notify kiye gaye rules ke mutabiq sunwai ke baad breach ki tareekh se riayat wapas ho jati hai aur surcharge wala qanoon lagu hota hai.
+
+Q: Penalty kab kam hoti hai?
+A: Deadline ke 1 maah ke andar file karne par 75%, 2 maah mein 50%, 3 maah mein 25% kami. Tax Year 2026 ke liye 30 November 2026 tak 75%.
+
+Q: Aap kitni fees lete hain?
+A: Salaried return Rs 3,500 + Form ATL-U Rs 2,000 = Rs 5,500. Freelancer ya dukandar Rs 7,000, overseas Rs 8,000.
 
 ## Filer vs Non-Filer Pakistan 2026 — Tax Rates Compared
 URL: https://kambohassociates.com/filer-vs-nonfiler-pakistan
@@ -1924,7 +2204,7 @@ Q: My employer's certificate is wrong. What should I do?
 A: Ask the employer to correct it first, so your revised return matches the figures FBR receives.
 
 Q: Do I need to declare bank profit if tax was deducted?
-A: Yes. Declare the profit and the tax deducted; whether that tax is final or adjustable depends on the rules for your level of income.
+A: Yes. Declare the profit and the tax deducted. For individuals, profit on debt up to Rs 5 million is taxed separately under Section 7B; above that it is taxed under the normal rules.
 
 Q: I forgot to show the car I bought. Do I need to revise?
 A: Yes, revise the wealth statement to show it and explain how it was paid for. If the money came from undeclared income, revise the return too.
