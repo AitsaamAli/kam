@@ -1,0 +1,60 @@
+/* Kamboh Associates shared UI layer (Nov 2026). Applied to tax pages by content/ui-2026/apply.py.
+   Colours are the site's own: navy #0F172A, teal #14B8A6 / #0D9488, gold #D4AF37, WhatsApp #25D366. */
+
+/* 1. Still trust strip in the top bar (replaces the scrolling ticker) */
+.ka-strip{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:4px 18px;font-size:.74rem;letter-spacing:.02em;color:#CBD5E1;line-height:1.5;width:100%;text-align:center}
+.ka-strip span{white-space:nowrap}
+.ka-strip b{color:#D4AF37;font-weight:600}
+.ka-strip a{color:#CBD5E1;text-decoration:none}
+.ka-strip a:hover{color:#fff}
+@media(max-width:767px){.ka-strip .ka-s-addr,.ka-strip .ka-s-hours{display:none}}
+
+/* 2. Compact menu for pages whose header had no menu */
+.ka-mini-nav{background:#fff;border-bottom:1px solid #E2E8F0}
+.ka-mini-nav ul{list-style:none;margin:0 auto;padding:0 16px;max-width:1200px;display:flex;gap:4px;overflow-x:auto;scrollbar-width:none}
+.ka-mini-nav ul::-webkit-scrollbar{display:none}
+.ka-mini-nav a{display:block;padding:10px 12px;font-size:.84rem;font-weight:500;color:#1E293B;text-decoration:none;white-space:nowrap;border-radius:8px}
+.ka-mini-nav a:hover,.ka-mini-nav a:focus-visible{color:#0D9488;background:#F0FDFA}
+
+/* 3. Readable body text: lead paragraphs and short-answer boxes in the text face, headings stay serif */
+p.lead,p.article-lead,.tldr-box p,.page-hero p{font-family:'DM Sans',system-ui,-apple-system,'Segoe UI',sans-serif!important}
+p.lead{font-size:1.08rem!important;line-height:1.75!important}
+p.article-lead{line-height:1.75!important}
+
+/* 4. Calm notes instead of red boxes */
+.urgency-banner{background:#FFFBEB!important;border:1px solid #FDE68A!important;color:#78350F!important;box-shadow:none!important}
+.urgency-banner i,.urgency-banner svg{color:#B45309!important}
+.urgency-banner a{color:#92400E!important}
+.warn-box{background:#FFFBEB!important;border-color:#FDE68A!important}
+.warn-box>i,.warn-box .fa-info-circle,.warn-box .fa-exclamation-triangle{color:#B45309!important}
+
+/* 5. "On this page" table of contents */
+.ka-toc{border:1px solid #E2E8F0;border-left:3px solid #14B8A6;border-radius:0 12px 12px 0;background:#F8FAFC;margin:20px 0 28px;padding:0}
+.ka-toc summary{cursor:pointer;list-style:none;padding:12px 16px;font-size:.78rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#0F172A;display:flex;align-items:center;justify-content:space-between;gap:8px}
+.ka-toc summary::-webkit-details-marker{display:none}
+.ka-toc summary::after{content:"+";font-size:1.1rem;color:#0D9488;line-height:1}
+.ka-toc[open] summary::after{content:"\2212"}
+.ka-toc summary:focus-visible{outline:2px solid #14B8A6;outline-offset:2px}
+.ka-toc ol{margin:0;padding:0 16px 14px 36px;display:grid;gap:6px;font-size:.9rem;line-height:1.45}
+.ka-toc li::marker{color:#94A3B8;font-size:.8rem}
+.ka-toc a{color:#334155;text-decoration:none;border-bottom:1px solid transparent}
+.ka-toc a:hover,.ka-toc a.on{color:#0D9488;border-bottom-color:#99F6E4}
+@media(min-width:900px){.ka-toc ol{grid-template-columns:1fr 1fr;column-gap:24px}}
+h2[id]{scroll-margin-top:88px}
+
+/* 6. Reading progress bar on guides */
+.ka-progress{position:fixed;top:0;left:0;height:3px;width:0;background:#14B8A6;z-index:3000;pointer-events:none;transition:width .1s linear}
+@media(prefers-reduced-motion:reduce){.ka-progress{transition:none}}
+
+/* 7. One action bar on phones; floating circles hidden there */
+.ka-mbar{display:none}
+@media(max-width:767px){
+  .ka-mbar{display:grid;grid-template-columns:1fr 1fr;gap:8px;position:fixed;left:0;right:0;bottom:0;z-index:2500;background:#fff;border-top:1px solid #E2E8F0;box-shadow:0 -6px 20px rgba(15,23,42,.08);padding:8px max(10px,env(safe-area-inset-right,0px)) calc(8px + env(safe-area-inset-bottom,0px)) max(10px,env(safe-area-inset-left,0px))}
+  .ka-mbar a{display:flex;align-items:center;justify-content:center;gap:8px;min-height:46px;border-radius:10px;font-size:.92rem;font-weight:600;text-decoration:none;font-family:'DM Sans',system-ui,sans-serif}
+  .ka-mbar .ka-call{background:#0F172A;color:#fff}
+  .ka-mbar .ka-wa{background:#25D366;color:#fff}
+  .ka-mbar a:focus-visible{outline:2px solid #14B8A6;outline-offset:2px}
+  body.ka-has-mbar{padding-bottom:calc(66px + env(safe-area-inset-bottom,0px))}
+  .ka-float{display:none!important}
+}
+.ka-float-extra{display:none!important}
