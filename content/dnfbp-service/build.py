@@ -70,8 +70,12 @@ def main():
         {"@type": "ListItem", "position": 2, "name": "Services", "item": f"{BASE}/#services"},
         {"@type": "ListItem", "position": 3, "name": "DNFBP Compliance Services", "item": URL}]}
     lds = "".join(f'<script type="application/ld+json">{json.dumps(x, ensure_ascii=False)}</script>\n' for x in (svc, faq, bc))
+    og = (f'<meta property="og:type" content="website"/>\n<meta property="og:title" content="{E(TITLE)}"/>\n'
+          f'<meta property="og:description" content="{E(DESC)}"/>\n<meta property="og:url" content="{URL}"/>\n'
+          f'<meta name="twitter:card" content="summary_large_image"/>\n<meta name="twitter:title" content="{E(TITLE)}"/>\n'
+          f'<meta name="twitter:description" content="{E(DESC)}"/>\n')
     s = t.index('<script type="application/ld+json">'); e = t.index('<meta property="og:image"', s)
-    t = t[:s] + lds + t[e:]
+    t = t[:s] + lds + og + t[e:]
 
     guides = "".join(f'<li><a href="{h}" {L}>{E(x)}</a></li>' for h, x in GUIDES)
     cities = " &middot; ".join(f'<a href="{h}" {L}>{E(x)}</a>' for h, x in CITIES)
