@@ -20,6 +20,7 @@ Static HTML site on Vercel. Tax site at the root; a separate web-development sec
 - Facts only from FBR's own texts (Income Tax Ordinance PDF amended to the latest date, SROs, FBR/FMU guidance), quoted to the section.
 
 ## Site-wide parts (Nov 2026)
+- Fees in body text must match /pricing: `content/seo-quickwins/fees_fix.py` (rules for known wrong fees; unpublished fees become "fixed fee confirmed before work starts").
 - Footer NAP line (`ka-nap`) on tax pages: `content/seo-quickwins/footer_nap.py` (idempotent).
 - Service pages use WebPage + Service schema, not BlogPosting: `content/seo-quickwins/service_schema.py`.
 - DNFBP service page: `content/dnfbp-service/build.py` -> `/dnfbp-compliance-services`.
