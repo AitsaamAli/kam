@@ -77,3 +77,11 @@ h2[id]{scroll-margin-top:88px}
 .ka-visa-ur{display:block;margin-top:6px;font-size:.86rem;color:#78350F}
 .ka-visa-line{font-size:.86rem;color:#475569;background:#F8FAFC;border:1px solid #E2E8F0;border-radius:10px;padding:10px 14px;margin:24px 0 12px}
 .ka-visa-line i{color:#B45309;margin-right:4px}
+
+/* 10. Audit follow-up: CTA boxes left unstyled on some guides get the standard dark box (zero specificity, page styles win);
+   light "related guides" boxes inside a CTA keep dark text */
+:where(.article-cta){background:radial-gradient(120% 140% at 15% -10%,#1E3A5F 0%,#0F172A 46%,#06110E 100%);border-radius:16px;padding:28px 24px;margin:36px 0;text-align:center;color:#F1F5F9}
+.article-cta .related-articles h2,.article-cta .related-articles h3{color:#475569!important}
+.article-cta .related-articles p,.article-cta .related-articles li{color:#334155}
+.consult-card .sidebar-card h3,.consult-card .sidebar-card h4,.consult-card .sidebar-card p{color:#0F172A!important}
+.consult-card .sidebar-card p{color:#334155!important}
