@@ -10,6 +10,7 @@ Static HTML site on Vercel. Tax site at the root; a separate web-development sec
 - Never show a review count or star rating number anywhere (pages, schema, llms). Link to the Google Business Profile instead: https://g.page/r/CYzrn3EEiZVwEBM. Keep existing testimonial text. No fake reviews, no grey-hat or black-hat SEO.
 - Every fact must come from an official source (FBR, IRIS, SECP, FMU, provincial authorities). Link the source and give the date it was checked. If a fact cannot be verified, leave it out.
 - Report to the owner in Roman Urdu, briefly.
+- Owner confirmed (Nov 2026): same-day work, 24-hour turnaround and "best tax consultant" wording on existing pages are accurate and stay; do not remove them. Still never claim 24/7.
 
 ## Blog standards (owner's decisions, Nov 2026)
 - Length: topic blogs at least 1,600–1,700 words of real content (no padding); city/regional pages at least 1,250. Longer is fine when the facts support it.
@@ -20,12 +21,15 @@ Static HTML site on Vercel. Tax site at the root; a separate web-development sec
 - Facts only from FBR's own texts (Income Tax Ordinance PDF amended to the latest date, SROs, FBR/FMU guidance), quoted to the section.
 
 ## Site-wide parts (Nov 2026)
+- Meta descriptions: at most 160 characters (`content/seo-quickwins/meta_trim.py` trims longer ones at a clause boundary).
+- Internal links: every tax page needs at least one contextual inbound link besides /blogs; `content/seo-quickwins/interlink.py` adds 'Related guides' links (max 4 per host).
+- Bank profit: 20% on the ATL / 40% off it; other profit on debt (TFCs, most sukuk) 15% / 30%; sukuk from an SPV under s.5AA 10% / 12.5% / 25% (Division IIIA/IIIB, Tenth Schedule). 236C off-ATL 11.5%; 236K off-ATL 10.5% (to Rs 50m) / 14.5%.
 - Fees in body text must match /pricing: `content/seo-quickwins/fees_fix.py` (rules for known wrong fees; unpublished fees become "fixed fee confirmed before work starts").
 - One footer on every tax page (`ka-footer`, with NAP, hours and GBP link), set by `content/ui-2026/apply.py`. `content/seo-quickwins/footer_nap.py` is superseded.
 - Service pages use WebPage + Service schema, not BlogPosting: `content/seo-quickwins/service_schema.py`.
 - DNFBP service page: `content/dnfbp-service/build.py` -> `/dnfbp-compliance-services`.
 - Homepage stats are static text (no JS counters, no unverifiable % or turnaround claims).
-- Design layer (owner approved Nov 2026): `content/ui-2026/apply.py` (idempotent) gives every tax page one menu, a slow top strip of client messages (pausable, no turnaround claims), the shared `/assets/ka-ui.css` + `/assets/ka-ui.js`, one Call/WhatsApp bar on phones, equal-size WhatsApp/Call button pairs, an "On this page" box on guides and the "Short answer" label. Run it after building new pages; bump `V` in it when the assets change. Do not add turnaround claims ("24-hour", "same-day", "30 minutes").
+- Design layer (owner approved Nov 2026): `content/ui-2026/apply.py` (idempotent) gives every tax page one menu, a slow top strip of client messages (pausable, no turnaround claims), the shared `/assets/ka-ui.css` + `/assets/ka-ui.js`, one Call/WhatsApp bar on phones, equal-size WhatsApp/Call button pairs, an "On this page" box on guides and the "Short answer" label. Run it after building new pages; bump `V` in it when the assets change. Turnaround claims already on pages stay (owner confirmed); never 24/7.
 
 ## Keyword research
 - Do not use Semrush (no paid API units). Use the Search Console exports the owner provides, the site's sitemap, and free Google suggestions (`https://suggestqueries.google.com/complete/search?client=firefox&gl=pk&hl=en&q=...`).

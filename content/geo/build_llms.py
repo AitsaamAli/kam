@@ -30,7 +30,7 @@ TAX_GUIDES = ["blogs/adjustable-vs-final-tax-pakistan", "blogs/zakat-deduction-i
               "blogs/budget-2026-27-salary-tax-slabs-pakistan", "blogs/salary-tax-calculator-pakistan-2026", "blogs/withholding-tax-pakistan-2026",
               "blogs/advance-tax-pakistan-2026", "blogs/wealth-statement-guide-pakistan-2026", "blogs/late-filing-penalty-income-tax-pakistan",
               "blogs/tax-refund-pakistan-2026", "blogs/fbr-notice-response-guide-pakistan", "fbr-notice-after-tax-return-pakistan",
-              "how-to-respond-to-tax-notices-pakistan", "blogs/how-to-avoid-fbr-notice-pakistan", "blogs/bank-profit-tax-pakistan-2026",
+              "how-to-respond-to-tax-notices-pakistan", "blogs/how-to-avoid-fbr-notice-pakistan", "blogs/tax-on-bank-profit-pakistan-2026",
               "blogs/rental-income-tax-guide-pakistan-2026", "blogs/tax-on-property-sale-pakistan-2026",
               "blogs/property-transfer-tax-2026-27-pakistan-236c-236k", "blogs/dha-bahria-town-property-tax-lahore-2026",
               "blogs/sales-tax-return-filing-pakistan-2026", "blogs/sole-proprietor-tax-return-pakistan-2026",

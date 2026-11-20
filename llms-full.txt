@@ -382,7 +382,7 @@ A: AOPs are taxed at the same progressive rates as individuals (0% to 35%) under
 
 ## Freelancer Tax Pakistan 2026
 URL: https://kambohassociates.com/freelancer-tax-pakistan
-Summary: Freelancer tax filing service Pakistan — NTN registration, FBR return, Upwork/Fiverr income declaration, and filer status. Kamboh Associates. WhatsApp 0328-4675162.
+Summary: Freelancer tax filing service Pakistan — NTN registration, FBR return, Upwork/Fiverr income declaration, and filer status. Kamboh Associates.
 
 Q: I earn from Fiverr. Do I need to file a tax return?
 A: Yes. If you earn from any foreign platform and receive payment in Pakistan (bank or Payoneer/Wise), you must file a tax return. Even if your total income is below the taxable threshold, filing a nil or low-tax return maintains your active filer status which saves money on many daily transactions.
@@ -699,7 +699,7 @@ A: Salaried people with taxable income should still file, so they stay on the Ac
 
 ## Income Tax Estimator Pakistan 2026–27 — Freelancer & Business
 URL: https://kambohassociates.com/income-estimator
-Summary: Free income tax estimator for Pakistani freelancers, business owners, and salaried individuals. Estimate your FBR tax liability for 2026-27. By Kamboh Associates.
+Summary: Free income tax estimator for Pakistani freelancers, business owners, and salaried individuals. Estimate your FBR tax liability for 2026-27.
 
 Q: When do salaried slabs apply to all my income?
 A: When salary is more than 75% of taxable income, the salaried slabs are applied to the total taxable income.
@@ -1284,6 +1284,21 @@ A: "Not in ATL" result ka matlab hai aap non-filer hain. Wapas active hone ke li
 URL: https://kambohassociates.com/blogs/filer-vs-non-filer-pakistan-2026
 Summary: Pakistan mein filer vs non-filer farq kya hai 2026 mein? WHT rates, property tax, bank profit, vehicle — filer ko kitna faida milta hai.
 
+Q: Kya main property khareedne se pehle filer ban sakta hoon aur usi deal mein faida utha sakta hoon?
+A: Haan — agar ATL mein naam aa gaya (24–72 ghante) tou agli property deal mein filer WHT rate lagega. Rush service mein Kamboh Associates same day ATL verification karta hai — property registration date se pehle filer ban sakte hain.
+
+Q: Agar main ghar pe bethay return file karoon — woh valid hogi?
+A: Haan — FBR IRIS par khud file ki hui return bilkul valid hai. Lekin agar income calculate karna mushkil lag raha hai ya wealth statement pehli baar file kar rahe hain — professional se karwana better hai. Galat return baad mein FBR notice ki wajah ban sakti hai.
+
+Q: Non-filer ne property sale ki — kya karna chahiye?
+A: Pehle filer bano — phir dekhte hain. ATL se bahar hone par 236C advance tax 11.5% registration ke waqt kat jaayega — baad mein return file karke refund claim kar sakte hain agar actual gain kam hai. Is process mein consultant zaruri hai.
+
+Q: Kya housewife ya student bhi filer ban sakta hai?
+A: Haan. Koi income na ho tou NIL return file hoti hai — Rs 0 income declare karo, wealth statement file karo. ATL mein naam aa jaata hai. Family member ke property dealings mein zyada WHT se bachte hain. Kamboh Associates NIL return bhi process karta hai.
+
+Q: Pichle salon ki returns nahi hain — kya abhi file kar sakte hain?
+A: Haan — late returns file ho sakti hain; har saal ki late return par Section 182 penalty: tax payable ka 0.1% ya Rs 1,000 rozana (jo zyada ho), kam az kam Rs 50,000; salaried ke liye Rs 10,000. Lekin file karne ke baad ATL mein naam aata hai aur future transactions mein filer rate milti hai. Backlog clear karna best decision hai — Kamboh Associates 5–8 din mein karta hai.
+
 ## NTN Registration Online Pakistan 2026
 URL: https://kambohassociates.com/blogs/ntn-registration-online-pakistan
 Summary: How to get NTN registration online in Pakistan 2026. IRIS portal, documents required, same-day NTN for individuals, freelancers, and businesses.
@@ -1350,7 +1365,7 @@ A: Rs 1 lakh per month (Rs 12 lakh annual) salary par FBR 2026-27 slab ke mutabi
 
 ## Withholding Tax Pakistan 2026 - Complete Rates & Guide
 URL: https://kambohassociates.com/blogs/withholding-tax-pakistan-2026
-Summary: Complete withholding tax guide Pakistan 2026. WHT rates for salary, bank, property, vehicles, contracts, imports for filers and non-filers. How to claim WHT refund.
+Summary: Complete withholding tax guide Pakistan 2026. WHT rates for salary, bank, property, vehicles, contracts, imports for filers and non-filers.
 
 Q: Can I get a refund if too much WHT was deducted?
 A: Yes, if your total adjustable WHT paid exceeds your final income tax liability calculated in your annual return, the excess is refundable. File your return, and if a refund is due, apply to the Commissioner via IRIS. Refunds are typically processed within 3–6 months.
@@ -1447,6 +1462,21 @@ A: Yes. Instead of a cash refund, you can elect to carry the excess forward as a
 URL: https://kambohassociates.com/blogs/fbr-notice-response-guide-pakistan
 Summary: FBR notice mila hai? Section 111, 114, 176, 177 — har notice ka jawab kaise dein, deadline kya hai, kya documents chahiye.
 
+Q: FBR ne 5 saal purane transactions par notice bheja — kya valid hai?
+A: Haan — Section 111 mein FBR 5 saal purane transactions par notice de sakta hai (limitation period 5 saal). Fraud ya concealment case mein 10 saal. Isliye 5 saal ki bank statements aur records hamesha rakho.
+
+Q: Meri income kam hai — FBR notice kyun aaya?
+A: FBR sirf aapki income declaration nahi dekhta — aapke bank transactions, NADRA data, property records, vehicle data sab check karta hai. Agar lifestyle ya assets income se zyada lag rahe hain — notice aata hai. Solution: source properly declare karo — aur return file karo.
+
+Q: Notice mein demand Rs 50 lakh hai — kya sach mein dena hoga?
+A: Ex-parte assessments aksar inflated hoti hain. Agar proper jawab diya — actual liability bahut kam ho sakti hai. Section 111 mein explanation accept ho jaaye tou zero tax. Appeal mein bhi demand kam hoti hai. Consultant se evaluate karwao pehle — pura amount mat bharain bina assessment ke.
+
+Q: Kamboh Associates FBR notice mein kitni fees lete hain?
+A: FBR notice defense fees case ke complexity par depend karti hai. FBR notice reply Rs 5,000 se shuru hota hai (published fee); complex cases ki fee kaam shuru hone se pehle confirm hoti hai. Return filing Rs 3,500 se. Audit defense: package basis. Free initial consultation ke liye WhatsApp karo — aap ka case assess karte hain.
+
+Q: FBR ne bank account attach kar liya — ab kya?
+A: Bank attachment Recovery Order (Section 140) ke baad hoti hai — ye serious hai. Foran Commissioner Appeals mein stay application deni hogi. Attachment notice usually prior demand ka result hai — agar demand settled ho tou attachment release hoti hai. Emergency mein 0328-4675162 par abhi call karo.
+
 ## FBR Notice After Tax Return Pakistan 2026 — What to Do
 URL: https://kambohassociates.com/fbr-notice-after-tax-return-pakistan
 Summary: Received FBR notice after filing tax return in Pakistan? Common notice types, reasons, response deadlines & how to reply. Expert help: 0328-4675162.
@@ -1513,12 +1543,27 @@ A: Yes, meaningfully. Most notices stem from data mismatches between your return
 Q: Does having multiple bank accounts increase my notice risk?
 A: Not by itself — but every account must be declared in your wealth statement, and profit from each account must be declared as income. The risk comes from forgetting an account exists, not from having several. Keep a simple list of all accounts (even dormant ones) and cross-check it against your wealth statement every year.
 
-## Bank Profit Tax Pakistan 2026 — Section 151
-URL: https://kambohassociates.com/blogs/bank-profit-tax-pakistan-2026
-Summary: Bank profit par tax Pakistan 2026. Section 151: filer 15% vs non-filer 35%. Rs 5 lakh profit par non-filer Rs 1 lakh extra tax deta hai.
+## Tax on Bank Profit 2026: Filer vs Non-Filer Rates
+URL: https://kambohassociates.com/blogs/tax-on-bank-profit-pakistan-2026
+Summary: Bank profit (savings account interest) is taxed at 20% for filers on the ATL vs 40% for non-filers in Pakistan 2026.
 
-Q: Bank savings account par kitna tax lagta hai Pakistan 2026?
-A: Bank savings account ki profit par Section 151 WHT lagta hai: filer ke liye 15% aur non-filer ke liye 35%. Bank khud tax kaat ke FBR ko jama karta hai. Rs 1 lakh profit par: filer Rs 15,000 tax, non-filer Rs 35,000 tax — Rs 20,000 ka farq sirf filer status se.
+Q: My bank already deducted tax on my profit. Do I still need to file a return?
+A: Yes. The bank deduction does not replace the return. Declare the gross profit and the tax deducted under Section 7B, and the bank balance in the wealth statement. If you do not file, you drop off the ATL and the deduction rises from 20% to 40%.
+
+Q: Is profit from Islamic savings accounts (Mudaraba) also taxable?
+A: Yes. Profit from Islamic deposits is profit on debt for tax purposes. Banks deduct 20% for account holders on the ATL and 40% for others, and the profit is reported in the return.
+
+Q: I have accounts in three different banks. Do I need a certificate from each?
+A: Yes. Each bank issues its own Annual WHT Certificate or Profit Certificate. Collect a certificate from every bank where you earned profit during the tax year. Add up all the gross profits and all the WHT deductions from each certificate to get your totals for the return. You can also check IRIS Pre-filled Tax Information — major banks submit data directly to FBR, and some amounts may be pre-filled already.
+
+Q: Is there a tax-free limit on bank profit?
+A: We could not find a general tax-free limit for bank profit in the Income Tax Ordinance as amended up to 30 June 2026. Section 7B taxes profit on debt separately at 20% up to Rs 5 million; above that it is taxed with your other income.
+
+Q: Can I get a refund on bank profit WHT that was already deducted?
+A: Only where more was deducted than the Section 7B tax, typically 40% deducted while you were off the ATL, or where profit above Rs 5 million is taxed at a lower overall figure. Refunds are not issued while you are off the ATL (Section 182A(1)(c)).
+
+Q: I am a senior citizen (over 60). What rate do I pay on bank profit?
+A: We could not find a separate senior-citizen rate for bank profit in the Income Tax Ordinance as amended up to 30 June 2026. Banks deduct 20% for people on the ATL and 40% for others. Filing on time keeps you at 20%.
 
 ## Rental Income Tax Pakistan 2026
 URL: https://kambohassociates.com/blogs/rental-income-tax-guide-pakistan-2026
@@ -1923,9 +1968,48 @@ A: If the landowner receives constructed units instead of cash, FBR can treat th
 URL: https://kambohassociates.com/blogs/best-tax-consultant-pakistan-fbr-filing-2026
 Summary: Pakistan mein best tax consultant kaise dhundhein 2026 mein? FBR registered, same-day service, transparent fees — Kamboh Associates.
 
+Q: Tax consultant hire karna zaruri hai ya khud file kar sakte hain?
+A: Simple salary return — khud file ho sakti hai IRIS par. Lekin agar income multiple sources se hai, wealth statement complex hai, FBR notice aaya hai, ya business return hai — consultant zaruri hai. Galat return = future notice = zyada kharcha. Consultant ki Rs 3,500 fee ek notice se bachne ke barabr hai.
+
+Q: Kya tax consultant meri tax chori mein help karta hai?
+A: Nahi — Kamboh Associates legal tax planning karta hai, tax evasion nahi. Legal exemptions use karna, correct income declare karna, wealth statement accurate banana — ye sab legitimate tax optimization hai. Tax chori mein madad karna illegal hai aur hum nahi karte.
+
+Q: Kamboh Associates se pehli baar contact kaise karein?
+A: WhatsApp: 0328-4675162 — seedha message karo. Apni situation batao (salary kitni hai, returns miss hain, notice aaya, property deal kal hai) — immediate response milti hai. Free initial consultation — koi obligation nahi.
+
+Q: Kya multiple saal ki pending returns file ho sakti hain?
+A: Haan — FBR par past years ki returns file ho sakti hain. Har saal ki late return par Section 182 penalty: tax payable ka 0.1% ya Rs 1,000 rozana (jo zyada ho), kam az kam Rs 50,000; salaried ke liye Rs 10,000, lekin file karne ke baad ATL mein naam aata hai aur future transactions mein filer rate milti hai. Kamboh Associates 5 saal ki backlog 5–8 din mein clear karta hai.
+
+Q: Property deal urgent hai — kya same day filer ban sakta hoon?
+A: Haan — same day NTN + return + ATL verification possible hai. Agar documents ready hain (CNIC, salary cert/income source), Kamboh Associates urgent service deta hai. WhatsApp par message karo foran — schedule hoga. Aksar property deal wale usi din ATL confirm karte hain.
+
+Q: Consultant FBR-authorized hai — ye kaise pata chalega?
+A: Google Business Profile aur verifiable physical address check karo — genuine firm ke paas dono hote hain. Kabhi bhi apna IRIS password kisi ko na dein — legitimate consultant "authorized representative" access istemal karta hai ya aapko guide kar ke khud karwata hai. Fees aur timeline likhit (WhatsApp) mein maango.
+
+Q: DIY filing se paisa bachta hai ya nahi?
+A: Sirf tab jab sab kuch sahi ho — pehli baar filers ke liye ye guarantee nahi hoti. Ek galti (galat wealth statement, missed deadline) ka cost professional fee se kaafi zyada ho sakta hai — Section 111 notice, non-filer WHT, ya default surcharge ki soorat mein.
+
 ## Kamboh Associates — Pakistan Ka Best Tax Consultant 2026
 URL: https://kambohassociates.com/blogs/why-kamboh-associates-best-tax-consultant-pakistan
 Summary: Kamboh Associates Pakistan ka trusted tax consultant — 18+ saal experience, 5000+ clients, same-day NTN, 24H filer service, FBR notice defense.
+
+Q: Kamboh Associates ka office kahan hai?
+A: Kamboh Associates primarily online service deta hai — 90% kaam WhatsApp aur email se hota hai. Pakistan bhar mein clients hain. Physical meeting zaruri ho tou hamare Awan Town, Lahore office mein ho sakti hai — lekin aksar zarurat nahi padti.
+
+Q: Kya aap meri FBR IRIS credentials se kaam karte hain?
+A: Haan — IRIS par authorized representative ke tor par login karte hain. Aapke credentials secure hain — kaam ke baad change karna chahein tou bata dein. Alternatively, power of attorney le ke separate access se bhi kaam ho sakta hai.
+
+Q: Multiple family members ke liye discount hai?
+A: Haan — family package available hai. 3+ members ke liye per-person rate discount hoti hai. Business + personal combined bhi package rate milta hai. WhatsApp par detail main batao — quote dete hain.
+
+Q: Agar return mein galti ho jaaye — kya hoga?
+A: Humari galti ki wajah se koi issue aaye tou hum free mein correct karte hain — koi extra charge nahi. FBR mein revised return file karte hain. Is liye documentation carefully verify karte hain pehle. 18 saal mein yeh naubat bahut kam aai hai.
+
+Q: Kya aap sirf Lahore mein hain ya Pakistan bhar mein service dete hain?
+A: Kamboh Associates ka physical office Lahore mein hai lekin 90%+ kaam online hota hai — Karachi, Islamabad, Faisalabad, Multan, Peshawar, Quetta, aur chhotay cities se bhi clients hain. Overseas Pakistanis (Italy, UK, Canada, UAE, Australia) ke liye bhi full remote service available hai.
+
+Q: Kaam start karne se pehle koi advance payment deni hoti hai?
+A: Zyada tar simple cases (NTN, salary return) mein kaam complete hone ke baad hi payment li jati hai — trust pehle qaim karte hain. Complex cases (business return, FBR notice defense, overseas package) mein kaam shuru karne se pehle ek partial advance li jati hai, jo WhatsApp par clearly quote ki jati hai.
 
 ## Tax Return Deadline Passed (31 Oct 2026): What to Do Now
 URL: https://kambohassociates.com/blogs/tax-return-deadline-passed-31-october-2026-next-steps
