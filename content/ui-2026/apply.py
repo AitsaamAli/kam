@@ -7,7 +7,7 @@
 No titles, meta descriptions, canonicals, robots tags, H1s or URLs are changed."""
 import glob, html, re, sys
 
-V = "2"
+V = "3"
 CSS = f'<link rel="stylesheet" href="/assets/ka-ui.css?v={V}"/>'
 JS = f'<script src="/assets/ka-ui.js?v={V}" defer></script>'
 SKIP = ('content/', 'content-batches/', 'reports/', 'seo_output/', 'searchops-team/', 'outreach/', 'project-history/',
