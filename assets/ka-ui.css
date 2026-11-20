@@ -131,3 +131,18 @@ h2[id]{scroll-margin-top:88px}
   .kf-bottom{flex-direction:column;align-items:flex-start;margin-top:32px}
 }
 @media(max-width:767px){body.ka-has-mbar .ka-footer .kf-bottom{padding-bottom:calc(22px + 66px + env(safe-area-inset-bottom,0px))}body.ka-has-mbar{padding-bottom:0!important}}
+
+/* 13. Related guides block added by content/seo-quickwins/interlink.py */
+.ka-related-wrap{max-width:1200px;margin:8px auto 40px;padding:0 24px}
+.ka-related{border:1px solid #E2E8F0;border-radius:14px;background:#F8FAFC;padding:18px 20px}
+.ka-related-h{font-family:'Cinzel',Georgia,serif;font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:#0D9488;font-weight:700;margin:0 0 10px}
+.ka-related-list{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:8px 20px}
+.ka-related-list a{color:#0F172A;text-decoration:none;font-size:.9rem;line-height:1.45;border-bottom:1px solid transparent}
+.ka-related-list a::before{content:"\2192";color:#14B8A6;margin-right:6px}
+.ka-related-list a:hover{color:#0D9488;border-bottom-color:#99F6E4}
+@media(max-width:600px){.ka-related-wrap{padding:0 16px}}
+
+/* 14. Sidebar/step titles moved from h4 to h3 for heading order (Nov 2026); same look as before */
+.consult-card>h3{font-family:var(--font-serif,'Cormorant Garamond',Georgia,serif)!important;font-size:1.1rem!important;margin:0 0 8px!important;line-height:1.25!important;font-weight:700}
+.step-content>h3{font-size:.95rem!important;font-weight:600!important;color:var(--text,#0F172A);margin:0 0 5px!important;line-height:1.35!important;font-family:inherit!important}
+.cl>h3{font-size:.93rem!important;font-weight:700!important;color:#0F172A;margin:0 0 14px!important;line-height:1.35!important;font-family:inherit!important}

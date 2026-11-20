@@ -3233,6 +3233,16 @@
       "source": "/blogs/tax-consultant-ziarat",
       "destination": "/income-tax-filing",
       "permanent": true
+    },
+    {
+      "source": "/blogs/tax-on-bank-profit-pakistan",
+      "destination": "/blogs/tax-on-bank-profit-pakistan-2026",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/bank-profit-tax-pakistan-2026",
+      "destination": "/blogs/tax-on-bank-profit-pakistan-2026",
+      "permanent": true
     }
   ]
 }
