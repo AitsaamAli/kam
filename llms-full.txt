@@ -650,6 +650,230 @@ A: Yes. Enter tax deducted by employers, banks and others to see the balance pay
 Q: Is the estimate final?
 A: No. Exempt income, separate-rule income and tax credits can change the result. Confirm figures in the return on IRIS.
 
+## Adjustable vs Final Tax in Pakistan: The Difference Explained
+URL: https://kambohassociates.com/blogs/adjustable-vs-final-tax-pakistan
+Summary: Adjustable tax is a credit against your yearly tax; final tax settles that income for good. Sections 168 and 169 explained with examples and how to claim.
+
+Q: What is the difference between adjustable tax and final tax?
+A: Adjustable tax (Section 168) is credited against your tax for the year and can be refunded if it exceeds that tax. Final tax (Section 169) settles the income on its own: it is not added to other income, not reduced by deductions or credits, and not refunded.
+
+Q: Is tax on salary adjustable or final?
+A: Adjustable. The tax your employer deducts under Section 149 is credited against your total tax in the return.
+
+Q: Is prize bond tax final?
+A: Yes. Tax deducted under Section 156(3) is a final tax under Section 169.
+
+Q: Is bank profit tax final?
+A: For individuals, Section 7B taxes profit on debt up to Rs 5 million separately at the Division IIIA rate, so the 20% deduction is usually the whole tax; it is reported and credited in the return.
+
+Q: Can I get adjustable tax back?
+A: Yes, if it exceeds your tax for the year, through the return and a refund claim. Refunds are not issued while you are off the ATL.
+
+Q: Does zakat reduce final-tax income?
+A: No. Section 169(2)(c) says final-tax income is not reduced by any deductible allowance, including zakat.
+
+Q: Is advance tax on property adjustable?
+A: Yes. Tax collected under Sections 236C and 236K is credited against your tax for the year.
+
+Q: What is minimum tax?
+A: A floor: the tax on that income or turnover cannot be less than the set amount, and it is not refunded below it.
+
+## Zakat Deduction in Income Tax: Section 60 Explained (2026)
+URL: https://kambohassociates.com/blogs/zakat-deduction-income-tax-pakistan-section-60
+Summary: Section 60: zakat paid under the Zakat and Ushr Ordinance reduces taxable income. Who can claim, the limits, final-tax income and the documents you need.
+
+Q: Is zakat deductible from income tax in Pakistan?
+A: Yes. Section 60 gives a deductible allowance for zakat paid in the tax year under the Zakat and Ushr Ordinance, 1980.
+
+Q: Does zakat reduce tax or taxable income?
+A: Taxable income. It is a deductible allowance, so the saving equals the zakat times your marginal rate.
+
+Q: Can unused zakat be carried forward?
+A: No. Section 60(3) says any part that cannot be deducted is not refunded, carried forward or carried back.
+
+Q: Can zakat reduce final-tax income?
+A: No. Section 169(2)(c) bars deductible allowances against final-tax income.
+
+Q: What document do I need?
+A: The bank's zakat deduction certificate, or receipts showing zakat paid under the Zakat law.
+
+Q: Is zakat the same as a charitable donation for tax?
+A: No. Zakat is an allowance under Section 60; donations may give a tax credit under Section 61.
+
+Q: Can a salaried person get a refund from zakat?
+A: Yes, if salary tax was deducted on the full salary, the lower taxable income can produce a refund after filing, once you are on the ATL.
+
+Q: Which tax year does bank zakat belong to?
+A: The tax year in which it was deducted; Ramadan deductions fall in the July-June year in which they occur.
+
+## Cash Withdrawal Tax for Non-Filers in Pakistan 2026: 0.8%
+URL: https://kambohassociates.com/blogs/cash-withdrawal-tax-non-filer-pakistan-2026
+Summary: Section 231AB: banks deduct 0.8% when a person off the ATL withdraws over Rs 50,000 cash in a day. Filers pay nothing. Rules, examples and recovery.
+
+Q: Is there a tax on cash withdrawal in Pakistan in 2026?
+A: Only for people not on the Active Taxpayers List. Section 231AB requires banks to deduct 0.8% where their cash withdrawals in a day exceed Rs 50,000.
+
+Q: Do filers pay cash withdrawal tax?
+A: No. Section 231AB applies only to persons whose names are not on the ATL.
+
+Q: What is the cash withdrawal tax rate for non-filers?
+A: 0.8% of the cash withdrawn, since the Finance Act 2025 (previously 0.6%).
+
+Q: Is the Rs 50,000 limit per transaction or per day?
+A: Per day: the Explanation says it is the aggregate of cash withdrawals in a single day.
+
+Q: Does the Tenth Schedule double the cash withdrawal tax?
+A: No. Rule 10(ga) of the Tenth Schedule excludes tax deducted under Section 231AB.
+
+Q: Can I get cash withdrawal tax back?
+A: It is adjustable: claim it in your return. Refunds are issued only once you are on the ATL.
+
+Q: Is there tax on ATM withdrawals?
+A: The same Section 231AB rule applies to cash withdrawals, whatever the channel, for persons off the ATL above Rs 50,000 a day.
+
+Q: Is there tax on online transfers?
+A: The older banking transaction taxes (Sections 231AA and 236P) were omitted in 2021; we found no current equivalent in the Ordinance.
+
+## Tax Avoidance vs Tax Evasion in Pakistan: Where the Line Is
+URL: https://kambohassociates.com/blogs/tax-avoidance-vs-tax-evasion-pakistan
+Summary: Tax planning, avoidance schemes and evasion under Pakistani law: Section 109, the concealment penalty, Sections 192 and 192A, and safe ways to pay less.
+
+Q: What is the difference between tax avoidance and tax evasion?
+A: Avoidance uses arrangements to reduce tax; where its main purpose is reducing tax without substance, Section 109 lets the Commissioner disregard or recharacterise it. Evasion is concealing income or giving false particulars, which carries penalties and can be prosecuted.
+
+Q: Is tax avoidance legal in Pakistan?
+A: Ordinary planning using reliefs the law offers is legal. A transaction that is a 'tax avoidance scheme' under Section 109(2) can be disregarded or recharacterised, though it is not by itself a crime.
+
+Q: What is the punishment for tax evasion in Pakistan?
+A: A penalty of Rs 100,000 or the tax sought to be evaded, whichever is higher (Section 182 entry 12); prosecution with up to two years' imprisonment where the revenue impact is Rs 500,000 or more (Section 192A).
+
+Q: What is the penalty for a false statement in a return?
+A: Section 192: a fine up to Rs 100,000 or imprisonment up to three years, or both, if the person knows the statement is false.
+
+Q: Is a disallowed expense the same as concealment?
+A: No. Entry 12 says the mere disallowance of a claim does not attract the concealment penalty unless the claim was made knowing it to be wrong.
+
+Q: How can I legally pay less tax in Pakistan?
+A: Claim zakat, donations and pension credits, stay on the ATL, claim every adjustable credit, and structure your business for genuine commercial reasons.
+
+Q: Can I fix a past understatement without a penalty?
+A: Yes, by revising voluntarily before an audit or Section 122(9) notice and paying the tax and default surcharge (Section 114(6A)).
+
+Q: What is a tax avoidance scheme?
+A: Section 109(2): any transaction where one of the main purposes of entering into it is avoiding or reducing any person's tax liability.
+
+## W-8BEN Form for Pakistani Freelancers: How to Fill It (2026)
+URL: https://kambohassociates.com/blogs/w-8ben-form-pakistan-freelancers
+Summary: Form W-8BEN for freelancers in Pakistan: why US payers ask for it, each line explained, your NTN as foreign TIN, the treaty part, and your FBR tax.
+
+Q: What is a W-8BEN form?
+A: An IRS form a non-US individual gives to a US payer to certify foreign status and beneficial ownership, and optionally to claim treaty benefits. It is not filed with the IRS.
+
+Q: Who needs a W-8BEN in Pakistan?
+A: A Pakistani individual paid by a US client, platform or broker who asks for proof of non-US status.
+
+Q: What is my foreign tax identifying number on the W-8BEN?
+A: For an individual in Pakistan, the NTN, which is the same as the CNIC number.
+
+Q: Do I need to fill Part II (treaty claim) as a freelancer?
+A: Usually not. Services performed in Pakistan are generally not US-source income, so there is no US tax to reduce.
+
+Q: What happens if I do not submit a W-8BEN?
+A: The payer may have to presume you are a US person or withhold tax; the standard rate on US-source fixed or determinable income of a foreign person is 30%.
+
+Q: How long is a W-8BEN valid?
+A: Generally until the last day of the third calendar year after it is signed, unless a change in circumstances makes it incorrect.
+
+Q: Is the W-8BEN the same as a W-9?
+A: No. A W-9 is for US persons; a W-8BEN is for non-US individuals.
+
+Q: Does submitting a W-8BEN affect my Pakistani tax?
+A: No. Your Pakistani tax on freelance income is settled in your FBR return.
+
+## FBR SIM Block for Non-Filers: Section 114B Explained (2026)
+URL: https://kambohassociates.com/blogs/fbr-sim-block-non-filers-section-114b
+Summary: Section 114B lets FBR block SIMs, cut power and gas, and limit travel for people liable to file but not on the ATL. Conditions and how to restore.
+
+Q: Can FBR block my SIM for not filing a return?
+A: Yes, under Section 114B, if you are liable to file, received a Section 114(4) notice, missed its deadline and still have not filed.
+
+Q: What else can a Section 114B order do?
+A: Cut electricity and gas connections and, from the Finance Act 2024, restrict foreign travel for citizens (with exclusions such as NICOP holders, minors, students and Hajj or Umrah travellers).
+
+Q: How do I get my blocked SIM activated?
+A: File the return, then ask the Commissioner to order restoration under Section 114B(3); restoration also applies if you show you were not liable to file.
+
+Q: Is there an official FBR SIM block check online?
+A: We have not found one. Check your ATL status and your IRIS inbox for a Section 114(4) notice instead.
+
+Q: Can I be listed without a notice?
+A: No. Section 114B(4) requires a Section 114(4) notice, its compliance date to have passed, and no return filed.
+
+Q: Does Section 114B apply to people on the ATL?
+A: No. It covers persons not appearing on the Active Taxpayers List.
+
+Q: Does restoration cancel the late filing penalty?
+A: No. Section 114B(5) says the action does not preclude any other action under the Ordinance.
+
+Q: Are overseas Pakistanis covered by the travel ban?
+A: Persons holding a NICOP are excluded from the travel restriction in Section 114B(2)(d).
+
+## Ineligible Person Section 114C: Thresholds and Rules 2026
+URL: https://kambohassociates.com/blogs/ineligible-person-section-114c-pakistan
+Summary: Section 114C: ineligible persons barred from cars above Rs 7m, property above Rs 100m and investments above Rs 50m once notified. Rules explained.
+
+Q: What is Section 114C of the Income Tax Ordinance?
+A: A Finance Act 2025 provision restricting ineligible persons from vehicle purchases above Rs 7 million, property transfers above Rs 100 million and investments above Rs 50 million, plus an annual cash withdrawal cap of Rs 100 million for an individual.
+
+Q: Is Section 114C in force?
+A: Its restrictions apply from a date the Federal Government notifies in the official Gazette (Section 114C(5)). Check whether a notification has been issued.
+
+Q: Who is an eligible person under Section 114C?
+A: A person who filed a return for the preceding tax year with sufficient resources for the transaction, or filed a sources of investment and expenditure statement declaring sufficient resources.
+
+Q: What does sufficient resources mean?
+A: 130% of cash and equivalent assets declared in the latest wealth statement or the sources of investment and expenditure statement.
+
+Q: Can my family's resources count?
+A: For an individual, the eligible person includes immediate family members: parents, spouse and dependent children.
+
+Q: Does Section 114C apply to overseas Pakistanis?
+A: Non-residents are excluded from the vehicle, property and investment restrictions, but not from the cash withdrawal cap.
+
+Q: Is there a cash withdrawal limit under Section 114C?
+A: Yes: Rs 100 million a year across all bank accounts of an individual, once notified. It applies to any person.
+
+Q: Does the sources of investment statement prove where the money came from?
+A: No. Section 114C(3) says it is not the nature and source of income for Section 111.
+
+## Default Surcharge FBR Section 205: Rate and Calculation 2026
+URL: https://kambohassociates.com/blogs/default-surcharge-fbr-section-205
+Summary: Section 205 default surcharge: the higher of 12% or KIBOR plus 3% a year on unpaid tax, 12% on advance tax and withholding, with formula and examples.
+
+Q: What is the default surcharge rate in Pakistan in 2026?
+A: Under Section 205(1), the higher of 12% or KIBOR plus 3% a year on unpaid tax, penalties and Section 140/141 amounts. Advance tax and withholding defaults carry 12% a year.
+
+Q: How is default surcharge calculated?
+A: Unpaid amount × annual rate × days late ÷ 365, counted from the due date to the date of payment.
+
+Q: Is default surcharge a penalty?
+A: No. It is a separate charge for late payment. A late payer can owe both a Section 182 penalty and default surcharge.
+
+Q: Does default surcharge apply to advance tax?
+A: Yes, at 12% a year under Section 205(1A), until paid or the return due date, whichever is earlier.
+
+Q: What is the default surcharge for withholding agents?
+A: 12% a year under Section 205(3), from the date the tax should have been collected or deducted to the date paid to the Commissioner.
+
+Q: Can default surcharge be refunded?
+A: Yes, to the extent the underlying tax, penalty or amount is held not payable (Section 205(2)).
+
+Q: What was default surcharge called earlier?
+A: Additional tax. The Finance Act 2010 renamed it default surcharge.
+
+Q: Can I appeal against default surcharge?
+A: Yes. Section 205(6) applies the appeal provisions to a default surcharge assessment as if it were tax.
+
 ## Form ATL-U 2026: ATL Without the Rs 25,000 Surcharge
 URL: https://kambohassociates.com/blogs/form-atl-u-fbr-guide-2026
 Summary: Form ATL-U explained: who can use it, the six-month property undertaking, what it saves, what it does not cover, and how a late filer reaches the ATL.
