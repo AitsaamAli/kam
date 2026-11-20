@@ -173,7 +173,7 @@ Q: What happens if I don't register for NTN?
 A: Without NTN, you are classified as a non-filer and face higher withholding tax rates on banking transactions, property purchases, and vehicle registration. FBR can also issue notices under Section 114 requiring you to file returns if your income or assets indicate taxable activity.
 
 Q: Is NTN registration free? What is the actual cost?
-A: FBR itself charges no government fee for NTN registration. Kamboh Associates charges Rs. 2,000 for individual NTN and Rs. 2,500 for business/AOP NTN as a professional service fee for handling the IRIS portal registration, document preparation, and certificate follow-up.
+A: FBR itself charges no government fee for NTN registration. Kamboh Associates charges Rs. 2,000 for individual NTN and Rs 2,000 for business/AOP NTN as a professional service fee for handling the IRIS portal registration, document preparation, and certificate follow-up.
 
 ## Corporate Tax Return Filing Pakistan 2026
 URL: https://kambohassociates.com/corporate-tax-return
