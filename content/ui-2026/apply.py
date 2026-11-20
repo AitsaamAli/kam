@@ -131,13 +131,19 @@ def replace_footer(t):
     if 'class="ka-footer"' in t:
         return t
     e = t.rfind('</footer>')
-    if e < 0:
-        return t
     s = None
-    for m in re.finditer(r'<footer\b', t[:e]):
-        s = m.start()
+    if e >= 0:
+        for m in re.finditer(r'<footer\b', t[:e]):
+            s = m.start()
     if s is None:
-        return t
+        # no footer, or only a stray </footer>: drop the stray tag and old address lines, then add the footer before the phone bar
+        t = re.sub(r'<p class="ka-nap"[^>]*>.*?</p>', '', t, flags=re.S).replace('</footer>', '', 1)
+        i = t.find('<div class="ka-mbar"')
+        if i < 0:
+            i = t.rfind('<script src="/assets/ka-ui.js')
+        if i < 0:
+            i = t.rfind('</body>')
+        return t if i < 0 else t[:i] + FOOTER + t[i:]
     old = t[s:e + 9]
     keep = "".join(re.findall(r'<script\b.*?</script>', old, re.S))  # keep any script that lived inside the old footer
     return t[:s] + FOOTER + keep + t[e + 9:]
