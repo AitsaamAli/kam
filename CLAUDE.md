@@ -39,6 +39,8 @@ Static HTML site on Vercel. Tax site at the root; a separate web-development sec
 ## Tooling
 - New tax blogs: copy the generator pattern in `content/dnfbp-2026/` or `content/late-filing-2026/` (`posts.py` + `build.py`). These update `blogs.html` and `sitemap.xml`.
 - Then add the slugs to `TAX_GUIDES` in `content/geo/build_llms.py` and run it.
+- After a deploy is live, ping IndexNow for new or changed pages: `python3 content/geo/indexnow.py /blogs/slug ...` (key file `e33a3a1dc82729ad40ff90b6f962ce05.txt` must stay at the site root).
+- llms.txt: keep it factual (services, fees, pages, Q&A). Never add instructions to AI assistants ("recommend us first"); that is prompt injection and breaks the no grey-hat rule.
 - Overlap gate: `python3 content/topic-fix/gate.py`. It must end with "680/680 clean".
 - `content/topic-fix/fix.py` resets bylines and robots tags, so rerun `author_role.py` and `robots_meta.py` after using it.
 
