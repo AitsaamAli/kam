@@ -7,7 +7,7 @@
 No titles, meta descriptions, canonicals, robots tags, H1s or URLs are changed."""
 import glob, html, re, sys
 
-V = "4"
+V = "5"
 CSS = f'<link rel="stylesheet" href="/assets/ka-ui.css?v={V}"/>'
 JS = f'<script src="/assets/ka-ui.js?v={V}" defer></script>'
 SKIP = ('content/', 'content-batches/', 'reports/', 'seo_output/', 'searchops-team/', 'outreach/', 'project-history/',
@@ -97,6 +97,52 @@ H2_RE = re.compile(r'<h2\b([^>]*)\bid="([^"]+)"([^>]*)>(.*?)</h2>', re.S)
 ENDS = ('<aside', 'class="sidebar', '<section class="cta-strip"', '<footer', 'class="related-posts', 'class="blog-sidebar')
 
 
+def _li(items):
+    return "".join(f'<li><a href="{h}">{t}</a></li>' for h, t in items)
+
+FOOTER = ('<footer class="ka-footer"><div class="kf-wrap"><div class="kf-top">'
+  '<div class="kf-brand"><div class="kf-logo"><span class="kf-mark" aria-hidden="true">KA</span><div><div class="kf-name">KAMBOH ASSOCIATES</div><div class="kf-tag">Tax &amp; Regulatory Excellence</div></div></div>'
+  '<p class="kf-about">FBR Registered tax practice in Awan Town, Lahore, since 2008. Income tax returns, NTN, DNFBP and sole proprietor work for clients across Pakistan, on WhatsApp or at our office.</p>'
+  '<div class="kf-badges"><span>FBR Registered</span><span>Since 2008</span><span>Fixed fees</span></div></div>'
+  '<nav class="kf-col" aria-label="Services"><p class="kf-h">Services</p><ul class="kf-list">' + _li([
+    ("/income-tax-filing", "Income Tax Filing"), ("/ntn-registration", "NTN Registration"),
+    ("/blogs/sole-proprietor-tax-services-fees-pakistan", "Sole Proprietors"), ("/dnfbp-compliance-services", "DNFBP &amp; AML Compliance"),
+    ("/wealth-statement", "Wealth Statement"), ("/fbr-notice-defense", "FBR Notice Defense"),
+    ("/company-registration-consultant-lahore", "Company Registration"), ("/pricing", "Pricing &amp; Fees")]) + '</ul></nav>'
+  '<nav class="kf-col" aria-label="Guides and tools"><p class="kf-h">Guides &amp; Tools</p><ul class="kf-list">' + _li([
+    ("/blogs", "All Articles"), ("/income-tax-filing-guide-pakistan", "Income Tax Filing Guide"),
+    ("/blogs/form-atl-u-fbr-guide-2026", "Form ATL-U Guide"), ("/filer-vs-nonfiler-pakistan", "Filer vs Non-Filer"),
+    ("/tools", "Tax Calculators"), ("/tools/late-filing-penalty-calculator", "Late Filing Penalty"),
+    ("/testimonials", "Client Reviews")]) + '</ul></nav>'
+  '<div class="kf-col kf-contact-col"><p class="kf-h">Contact</p><address class="kf-contact">'
+  '<div><i class="fas fa-location-dot" aria-hidden="true"></i><span>Shop No 34, Rizwan Block Market, opposite Rizwan Park, Awan Town, Lahore 54660</span></div>'
+  '<div><i class="fas fa-phone" aria-hidden="true"></i><a href="tel:+923284675162">0328-4675162</a></div>'
+  '<div><i class="fab fa-whatsapp" aria-hidden="true"></i><a href="https://wa.me/923284675162" target="_blank" rel="noopener">WhatsApp us</a></div>'
+  '<div><i class="fas fa-envelope" aria-hidden="true"></i><a href="mailto:info@kambohassociates.com">info@kambohassociates.com</a></div>'
+  '<div><i class="fas fa-clock" aria-hidden="true"></i><span>Mon&ndash;Sat 9:00&ndash;18:00 &middot; Fri 9:00&ndash;12:30 &middot; Sun closed</span></div>'
+  '<div><i class="fas fa-star" aria-hidden="true"></i><a href="https://g.page/r/CYzrn3EEiZVwEBM" target="_blank" rel="noopener">Our Google Business Profile</a></div>'
+  '</address></div></div>'
+  '<div class="kf-bottom"><span>&copy; 2026 Kamboh Associates, Lahore. All rights reserved.</span>'
+  '<span class="kf-legal"><a href="/about">About</a><a href="/contact">Contact</a><a href="/privacy">Privacy</a><a href="/terms">Terms</a><a href="/disclaimer">Disclaimer</a></span></div>'
+  '</div></footer>')
+
+
+def replace_footer(t):
+    if 'class="ka-footer"' in t:
+        return t
+    e = t.rfind('</footer>')
+    if e < 0:
+        return t
+    s = None
+    for m in re.finditer(r'<footer\b', t[:e]):
+        s = m.start()
+    if s is None:
+        return t
+    old = t[s:e + 9]
+    keep = "".join(re.findall(r'<script\b.*?</script>', old, re.S))  # keep any script that lived inside the old footer
+    return t[:s] + FOOTER + keep + t[e + 9:]
+
+
 def replace_strip(t):
     """Swap whatever strip is on the page for the current STRIP (balanced <div> matching)."""
     i = t.find('<div class="ka-strip')
@@ -161,6 +207,8 @@ def apply(f):
     if 'ka-strip' in t and STRIP not in t:
         t = replace_strip(t)
     t = TP_RE.sub(STRIP, t, count=1)
+    # one footer
+    t = replace_footer(t)
     # label
     t = t.replace('>TL;DR</div>', '>Short answer</div>').replace('>TL;DR</span>', '>Short answer</span>')
     # guides: table of contents
