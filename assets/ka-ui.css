@@ -91,3 +91,43 @@ h2[id]{scroll-margin-top:88px}
 .article-cta .related-articles p,.article-cta .related-articles li{color:#334155}
 .consult-card .sidebar-card h3,.consult-card .sidebar-card h4,.consult-card .sidebar-card p{color:#0F172A!important}
 .consult-card .sidebar-card p{color:#334155!important}
+
+/* 11. WhatsApp + Call button pairs in pages (any container whose children are only links, one WhatsApp and one phone).
+   Desktop: one row, equal height. Phone: full-width buttons of equal size, stacked. */
+:is(div,p):has(> a[href*="wa.me"]):has(> a[href^="tel:"]):not(:has(> :not(a))):not(.ka-mbar):not(.mobile-cta-bar):not(.kh-btns){display:flex!important;flex-wrap:wrap;gap:12px!important;align-items:stretch}
+:is(div,p):has(> a[href*="wa.me"]):has(> a[href^="tel:"]):not(:has(> :not(a))):not(.ka-mbar):not(.mobile-cta-bar):not(.kh-btns)>a{display:inline-flex!important;align-items:center;justify-content:center;gap:8px;min-height:50px;min-width:210px;padding:12px 22px!important;border-radius:12px!important;font-weight:600;line-height:1.25;text-align:center;box-sizing:border-box;margin:0!important;text-decoration:none}
+@media(max-width:767px){
+  :is(div,p):has(> a[href*="wa.me"]):has(> a[href^="tel:"]):not(:has(> :not(a))):not(.ka-mbar):not(.mobile-cta-bar):not(.kh-btns){flex-direction:column;flex-wrap:nowrap;width:100%;max-width:440px;margin-left:auto!important;margin-right:auto!important}
+  :is(div,p):has(> a[href*="wa.me"]):has(> a[href^="tel:"]):not(:has(> :not(a))):not(.ka-mbar):not(.mobile-cta-bar):not(.kh-btns)>a{width:100%!important;min-width:0;font-size:.95rem!important}
+}
+
+/* 12. One footer for every tax page */
+.ka-footer{background:#0B1222;color:#CBD5E1;font-family:'DM Sans',system-ui,-apple-system,sans-serif;font-size:.9rem;line-height:1.65;padding:56px 0 0;text-align:left;border-top:3px solid #D4AF37}
+.ka-footer a{color:#CBD5E1;text-decoration:none;transition:color .2s}
+.ka-footer a:hover,.ka-footer a:focus-visible{color:#5EEAD4}
+.kf-wrap{max-width:1200px;margin:0 auto;padding:0 24px}
+.kf-top{display:grid;grid-template-columns:1.5fr 1fr 1fr 1.3fr;gap:40px}
+.kf-logo{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+.kf-mark{width:44px;height:44px;border-radius:50%;background:#0F172A;border:1.5px solid #D4AF37;color:#D4AF37;display:grid;place-items:center;font-family:'Cinzel',Georgia,serif;font-weight:700;font-size:.85rem;flex-shrink:0}
+.kf-name{font-family:'Cinzel',Georgia,serif;font-weight:700;letter-spacing:.08em;color:#fff;font-size:.95rem;line-height:1.2}
+.kf-tag{font-size:.62rem;letter-spacing:.2em;text-transform:uppercase;color:#D4AF37}
+.kf-about{color:#94A3B8;font-size:.88rem;margin:0 0 18px;max-width:340px}
+.kf-badges{display:flex;flex-wrap:wrap;gap:8px}
+.kf-badges span{font-size:.72rem;border:1px solid rgba(255,255,255,.14);border-radius:999px;padding:4px 10px;color:#E2E8F0}
+.kf-h{font-family:'Cinzel',Georgia,serif;font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:#D4AF37;margin:4px 0 14px;font-weight:700}
+.kf-list{list-style:none;margin:0;padding:0;display:grid;gap:9px}
+.kf-contact{font-style:normal;display:grid;gap:10px}
+.kf-contact div{display:flex;gap:10px;align-items:flex-start}
+.kf-contact i{color:#14B8A6;width:16px;margin-top:4px;flex-shrink:0}
+.kf-bottom{margin-top:44px;border-top:1px solid rgba(255,255,255,.08);padding:18px 0 22px;display:flex;flex-wrap:wrap;gap:10px 24px;justify-content:space-between;align-items:center;font-size:.8rem;color:#94A3B8}
+.kf-legal{display:flex;flex-wrap:wrap;gap:6px 18px}
+@media(max-width:960px){.kf-top{grid-template-columns:1fr 1fr;gap:32px}}
+@media(max-width:600px){
+  .ka-footer{padding-top:40px}
+  .kf-wrap{padding:0 20px}
+  .kf-top{grid-template-columns:1fr 1fr;gap:28px 20px}
+  .kf-brand,.kf-contact-col{grid-column:1/-1}
+  .kf-list{gap:8px;font-size:.88rem}
+  .kf-bottom{flex-direction:column;align-items:flex-start;margin-top:32px}
+}
+@media(max-width:767px){body.ka-has-mbar .ka-footer .kf-bottom{padding-bottom:calc(22px + 66px + env(safe-area-inset-bottom,0px))}body.ka-has-mbar{padding-bottom:0!important}}

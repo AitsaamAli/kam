@@ -21,11 +21,11 @@ Static HTML site on Vercel. Tax site at the root; a separate web-development sec
 
 ## Site-wide parts (Nov 2026)
 - Fees in body text must match /pricing: `content/seo-quickwins/fees_fix.py` (rules for known wrong fees; unpublished fees become "fixed fee confirmed before work starts").
-- Footer NAP line (`ka-nap`) on tax pages: `content/seo-quickwins/footer_nap.py` (idempotent).
+- One footer on every tax page (`ka-footer`, with NAP, hours and GBP link), set by `content/ui-2026/apply.py`. `content/seo-quickwins/footer_nap.py` is superseded.
 - Service pages use WebPage + Service schema, not BlogPosting: `content/seo-quickwins/service_schema.py`.
 - DNFBP service page: `content/dnfbp-service/build.py` -> `/dnfbp-compliance-services`.
 - Homepage stats are static text (no JS counters, no unverifiable % or turnaround claims).
-- Design layer (owner approved Nov 2026): `content/ui-2026/apply.py` (idempotent) gives every tax page one menu, a slow top strip of client messages (pausable, no turnaround claims), the shared `/assets/ka-ui.css` + `/assets/ka-ui.js`, one Call/WhatsApp bar on phones, an "On this page" box on guides and the "Short answer" label. Run it after building new pages; bump `V` in it when the assets change. Do not add turnaround claims ("24-hour", "same-day", "30 minutes").
+- Design layer (owner approved Nov 2026): `content/ui-2026/apply.py` (idempotent) gives every tax page one menu, a slow top strip of client messages (pausable, no turnaround claims), the shared `/assets/ka-ui.css` + `/assets/ka-ui.js`, one Call/WhatsApp bar on phones, equal-size WhatsApp/Call button pairs, an "On this page" box on guides and the "Short answer" label. Run it after building new pages; bump `V` in it when the assets change. Do not add turnaround claims ("24-hour", "same-day", "30 minutes").
 
 ## Keyword research
 - Do not use Semrush (no paid API units). Use the Search Console exports the owner provides, the site's sitemap, and free Google suggestions (`https://suggestqueries.google.com/complete/search?client=firefox&gl=pk&hl=en&q=...`).
