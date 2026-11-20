@@ -58,3 +58,22 @@ h2[id]{scroll-margin-top:88px}
   .ka-float{display:none!important}
 }
 .ka-float-extra{display:none!important}
+
+/* 8. Contrast fixes (Nov 2026 audit): dark headings on dark CTA boxes, gold buttons with teal text, undefined colour tokens */
+:where(html){--gold-bright:#D4AF37;--gold-dim:#B8860B;--amber:#F59E0B;--text-muted:#64748B}
+.ct h2,.ct h3,.article-cta h2,.article-cta h3,.cta-box h2,.cta-box h3,.consult-card h2,.consult-card h3,.consult-card h4{color:#fff!important}
+.ct p,.article-cta p,.cta-box p,.consult-card>p{color:rgba(241,245,249,.92)}
+.ct a:not([class]):not([style*="background"]),.article-cta p a:not([class]),.cta-box p a:not([class]),.consult-card p a:not([class]){color:#5EEAD4!important}
+.ct .bw,.cta-btns .btn-w{color:#0F172A!important}
+.article-cta .cta-btn-ghost{color:#fff!important;border-color:rgba(255,255,255,.55)!important}
+.consult-card .sidebar-card,.consult-card .sidebar-card p{color:#0F172A}
+.footer-col-head{color:#D4AF37}
+.accred-icon{display:grid;place-items:center;flex-shrink:0;min-width:46px;height:46px;border-radius:12px;background:#0F172A;color:#D4AF37!important;font-weight:700;font-size:.72rem;letter-spacing:.06em}
+
+/* 9. Tax-services-only notice on country and visa guides */
+.ka-visa-note{display:flex;gap:12px;align-items:flex-start;background:#FFFBEB;border:1px solid #FDE68A;border-left:4px solid #D4AF37;border-radius:0 12px 12px 0;padding:14px 16px;margin:18px 0 24px;color:#422006;font-size:.92rem;line-height:1.65}
+.ka-visa-note>i{color:#B45309;margin-top:4px;flex-shrink:0}
+.ka-visa-note strong{color:#0F172A}
+.ka-visa-ur{display:block;margin-top:6px;font-size:.86rem;color:#78350F}
+.ka-visa-line{font-size:.86rem;color:#475569;background:#F8FAFC;border:1px solid #E2E8F0;border-radius:10px;padding:10px 14px;margin:24px 0 12px}
+.ka-visa-line i{color:#B45309;margin-right:4px}
