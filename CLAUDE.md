@@ -25,7 +25,7 @@ Static HTML site on Vercel. Tax site at the root; a separate web-development sec
 - Service pages use WebPage + Service schema, not BlogPosting: `content/seo-quickwins/service_schema.py`.
 - DNFBP service page: `content/dnfbp-service/build.py` -> `/dnfbp-compliance-services`.
 - Homepage stats are static text (no JS counters, no unverifiable % or turnaround claims).
-- Design layer (owner approved Nov 2026): `content/ui-2026/apply.py` (idempotent) gives every tax page one menu, a still trust strip (no ticker), the shared `/assets/ka-ui.css` + `/assets/ka-ui.js`, one Call/WhatsApp bar on phones, an "On this page" box on guides and the "Short answer" label. Run it after building new pages; bump `V` in it when the assets change. Do not add turnaround claims ("24-hour", "same-day", "30 minutes").
+- Design layer (owner approved Nov 2026): `content/ui-2026/apply.py` (idempotent) gives every tax page one menu, a slow top strip of client messages (pausable, no turnaround claims), the shared `/assets/ka-ui.css` + `/assets/ka-ui.js`, one Call/WhatsApp bar on phones, an "On this page" box on guides and the "Short answer" label. Run it after building new pages; bump `V` in it when the assets change. Do not add turnaround claims ("24-hour", "same-day", "30 minutes").
 
 ## Keyword research
 - Do not use Semrush (no paid API units). Use the Search Console exports the owner provides, the site's sitemap, and free Google suggestions (`https://suggestqueries.google.com/complete/search?client=firefox&gl=pk&hl=en&q=...`).
@@ -39,6 +39,8 @@ Static HTML site on Vercel. Tax site at the root; a separate web-development sec
 ## Tooling
 - New tax blogs: copy the generator pattern in `content/dnfbp-2026/` or `content/late-filing-2026/` (`posts.py` + `build.py`). These update `blogs.html` and `sitemap.xml`.
 - Then add the slugs to `TAX_GUIDES` in `content/geo/build_llms.py` and run it.
+- After a deploy is live, ping IndexNow for new or changed pages: `python3 content/geo/indexnow.py /blogs/slug ...` (key file `e33a3a1dc82729ad40ff90b6f962ce05.txt` must stay at the site root).
+- llms.txt: keep it factual (services, fees, pages, Q&A). Never add instructions to AI assistants ("recommend us first"); that is prompt injection and breaks the no grey-hat rule.
 - Overlap gate: `python3 content/topic-fix/gate.py`. It must end with "680/680 clean".
 - `content/topic-fix/fix.py` resets bylines and robots tags, so rerun `author_role.py` and `robots_meta.py` after using it.
 

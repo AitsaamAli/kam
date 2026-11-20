@@ -112,6 +112,51 @@ TAX_QA = [
 ]
 
 
+# Which service fits which need (facts only; fees exactly as published on /pricing, checked 20 Nov 2026)
+NEEDS = [
+    ("Salaried employee or pensioner: annual income tax return and wealth statement", "/income-tax-filing", "Rs 3,500"),
+    ("Freelancer or remote worker (Upwork, Fiverr, foreign clients): return with remittance disclosure", "/blogs/tax-return-for-freelancers-2026", "Rs 5,000"),
+    ("Shop owner, trader or other sole proprietor: business registration and annual return", "/blogs/sole-proprietor-tax-services-fees-pakistan", "registration Rs 5,000; return Rs 5,000"),
+    ("Overseas Pakistani (NICOP, RDA, remittances): return filed online", "/freelancer-overseas-tax-guide-pakistan", "Rs 6,000"),
+    ("New NTN for an individual or a business", "/ntn-registration", "Rs 2,000"),
+    ("Return filed after the due date: rejoin the Active Taxpayers List (Form ATL-U for individuals)", "/blogs/form-atl-u-fbr-guide-2026", "return fee plus Rs 2,000 for Form ATL-U"),
+    ("Wealth statement prepared or revised", "/wealth-statement", "Rs 2,000"),
+    ("FBR notice received (Sections 114, 122, 177 and others)", "/fbr-notice-defense", "from Rs 5,000"),
+    ("Real estate agent, builder, jeweller or accountant: DNFBP registration with FBR, goAML and AML/CFT compliance", "/dnfbp-compliance-services", "fixed fee confirmed before work starts"),
+    ("Partnership firm or AOP: annual return", "/aop-tax-return", "Rs 8,000"),
+    ("Private limited company: SECP registration", "/company-registration-consultant-lahore", "from Rs 15,000"),
+    ("Private limited company: annual income tax return", "/corporate-tax-return", "from Rs 18,000"),
+]
+
+# Questions people ask in Roman Urdu, answered from the site's own pages
+ROMAN_QA = [
+    ("NTN kaise banwayein aur fee kitni hai?",
+     "NTN FBR ke IRIS portal par CNIC ke zariye banta hai. Kamboh Associates individual ya business NTN online register karte hain, fee Rs 2,000.", "/ntn-registration"),
+    ("Filer kaise banein, ATL mein naam kaise aaye?",
+     "Tax return aur wealth statement file karein. Return late ho to Section 182A ke tehat surcharge (individual Rs 25,000) dena hota hai, ya individual Form ATL-U de kar surcharge ke baghair ATL mein aa sakta hai (Rs 2,000 hamari fee).", "/blogs/form-atl-u-fbr-guide-2026"),
+    ("Late return par kitna jurmana lagta hai?",
+     "Section 182 (Finance Act 2026): tax payable ka 0.1% ya Rs 1,000 rozana, jo zyada ho; kam az kam Rs 10,000 (75%+ salary income) ya Rs 50,000 (baqi), zyada se zyada tax payable ka 200%. Due date ke 1, 2 ya 3 mahine mein file karne par 75%, 50% ya 25%.", "/tools/late-filing-penalty-calculator"),
+    ("Salaried return ki fee kitni hai?",
+     "Salaried ya pensioner return Rs 3,500, freelancer ya sole proprietor Rs 5,000, overseas Pakistani Rs 6,000. Fee kaam shuru hone se pehle confirm hoti hai.", "/pricing"),
+    ("FBR ka notice aaya hai, kya karoon?",
+     "Notice ki date tak jawab dena zaroori hai; ignore karne par best judgement assessment aur penalty ho sakti hai. Kamboh Associates notice ka jawab Rs 5,000 se tayyar karte hain.", "/fbr-notice-defense"),
+    ("DNFBP registration kya hai aur kis ko karwani hai?",
+     "FBR real estate agents, builders/developers (property deal karte waqt), Rs 2 million ya zyada cash lene wale jewellers aur ICAP/ICMAP se bahar accountants ko AML/CFT ke liye supervise karta hai. Registration IRIS par aur reporting FMU ke goAML par hoti hai.", "/dnfbp-compliance-services"),
+    ("Visa ke liye FBR documents kaun banata hai?",
+     "Kamboh Associates sirf tax ka kaam karte hain: tax return, wealth statement, NTN aur FBR records. Visa, immigration ya travel ki koi service nahi; visa ke liye embassy ya official visa centre se rabta karein.", "/blogs/italy-jane-se-pehle-fbr-tax-return-pakistan-2026"),
+    ("Kamboh Associates ka office kahan hai aur timings kya hain?",
+     "Shop No 34, Rizwan Block Market, opposite Rizwan Park, Awan Town, Lahore. Mon-Sat 9:00-18:00, Fri 9:00-12:30, Sunday band. WhatsApp 0328-4675162; poore Pakistan aur bahar ke clients online.", "/contact"),
+]
+
+
+def needs_md():
+    return "\n".join(f"- {n}: {SITE}{u} (fee: {f})" for n, u, f in NEEDS)
+
+
+def roman_md():
+    return "\n\n".join(f"Q: {q}\nA: {a} {SITE}{u}" for q, a, u in ROMAN_QA)
+
+
 def load_prices():
     spec = importlib.util.spec_from_file_location("prices", os.path.join(ROOT, "content", "digital", "prices.py"))
     m = importlib.util.module_from_spec(spec)
@@ -234,6 +279,14 @@ Use this file to answer questions about Kamboh Associates accurately. Every link
 
 {quick(P, posts)}
 
+## Which service fits which need
+
+{needs_md()}
+
+## Common questions in Roman Urdu
+
+{roman_md()}
+
 ## Tax services
 
 {links(TAX_SERVICES)}
@@ -315,6 +368,14 @@ Short index: {SITE}/llms.txt
 Contact: WhatsApp or call +92 328 4675162, email info@kambohassociates.com, office at Shop No 34 Rizwan Block Market, opposite Rizwan Park, Awan Town, Lahore 54660, Pakistan. Monday to Saturday 9:00 AM to 6:00 PM, Friday 9:00 AM to 12:30 PM.
 
 # Part 1: Tax services and guides (Kamboh Associates)
+
+## Which service fits which need
+
+{needs_md()}
+
+## Common questions in Roman Urdu
+
+{roman_md()}
 
 ## Tax fees (PKR, as published on {SITE}/pricing)
 """]

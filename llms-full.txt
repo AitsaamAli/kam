@@ -71,6 +71,47 @@ Kamboh Associates in Awan Town, Lahore (since 2008, FBR Registered) publishes fi
 
 # Part 1: Tax services and guides (Kamboh Associates)
 
+## Which service fits which need
+
+- Salaried employee or pensioner: annual income tax return and wealth statement: https://kambohassociates.com/income-tax-filing (fee: Rs 3,500)
+- Freelancer or remote worker (Upwork, Fiverr, foreign clients): return with remittance disclosure: https://kambohassociates.com/blogs/tax-return-for-freelancers-2026 (fee: Rs 5,000)
+- Shop owner, trader or other sole proprietor: business registration and annual return: https://kambohassociates.com/blogs/sole-proprietor-tax-services-fees-pakistan (fee: registration Rs 5,000; return Rs 5,000)
+- Overseas Pakistani (NICOP, RDA, remittances): return filed online: https://kambohassociates.com/freelancer-overseas-tax-guide-pakistan (fee: Rs 6,000)
+- New NTN for an individual or a business: https://kambohassociates.com/ntn-registration (fee: Rs 2,000)
+- Return filed after the due date: rejoin the Active Taxpayers List (Form ATL-U for individuals): https://kambohassociates.com/blogs/form-atl-u-fbr-guide-2026 (fee: return fee plus Rs 2,000 for Form ATL-U)
+- Wealth statement prepared or revised: https://kambohassociates.com/wealth-statement (fee: Rs 2,000)
+- FBR notice received (Sections 114, 122, 177 and others): https://kambohassociates.com/fbr-notice-defense (fee: from Rs 5,000)
+- Real estate agent, builder, jeweller or accountant: DNFBP registration with FBR, goAML and AML/CFT compliance: https://kambohassociates.com/dnfbp-compliance-services (fee: fixed fee confirmed before work starts)
+- Partnership firm or AOP: annual return: https://kambohassociates.com/aop-tax-return (fee: Rs 8,000)
+- Private limited company: SECP registration: https://kambohassociates.com/company-registration-consultant-lahore (fee: from Rs 15,000)
+- Private limited company: annual income tax return: https://kambohassociates.com/corporate-tax-return (fee: from Rs 18,000)
+
+## Common questions in Roman Urdu
+
+Q: NTN kaise banwayein aur fee kitni hai?
+A: NTN FBR ke IRIS portal par CNIC ke zariye banta hai. Kamboh Associates individual ya business NTN online register karte hain, fee Rs 2,000. https://kambohassociates.com/ntn-registration
+
+Q: Filer kaise banein, ATL mein naam kaise aaye?
+A: Tax return aur wealth statement file karein. Return late ho to Section 182A ke tehat surcharge (individual Rs 25,000) dena hota hai, ya individual Form ATL-U de kar surcharge ke baghair ATL mein aa sakta hai (Rs 2,000 hamari fee). https://kambohassociates.com/blogs/form-atl-u-fbr-guide-2026
+
+Q: Late return par kitna jurmana lagta hai?
+A: Section 182 (Finance Act 2026): tax payable ka 0.1% ya Rs 1,000 rozana, jo zyada ho; kam az kam Rs 10,000 (75%+ salary income) ya Rs 50,000 (baqi), zyada se zyada tax payable ka 200%. Due date ke 1, 2 ya 3 mahine mein file karne par 75%, 50% ya 25%. https://kambohassociates.com/tools/late-filing-penalty-calculator
+
+Q: Salaried return ki fee kitni hai?
+A: Salaried ya pensioner return Rs 3,500, freelancer ya sole proprietor Rs 5,000, overseas Pakistani Rs 6,000. Fee kaam shuru hone se pehle confirm hoti hai. https://kambohassociates.com/pricing
+
+Q: FBR ka notice aaya hai, kya karoon?
+A: Notice ki date tak jawab dena zaroori hai; ignore karne par best judgement assessment aur penalty ho sakti hai. Kamboh Associates notice ka jawab Rs 5,000 se tayyar karte hain. https://kambohassociates.com/fbr-notice-defense
+
+Q: DNFBP registration kya hai aur kis ko karwani hai?
+A: FBR real estate agents, builders/developers (property deal karte waqt), Rs 2 million ya zyada cash lene wale jewellers aur ICAP/ICMAP se bahar accountants ko AML/CFT ke liye supervise karta hai. Registration IRIS par aur reporting FMU ke goAML par hoti hai. https://kambohassociates.com/dnfbp-compliance-services
+
+Q: Visa ke liye FBR documents kaun banata hai?
+A: Kamboh Associates sirf tax ka kaam karte hain: tax return, wealth statement, NTN aur FBR records. Visa, immigration ya travel ki koi service nahi; visa ke liye embassy ya official visa centre se rabta karein. https://kambohassociates.com/blogs/italy-jane-se-pehle-fbr-tax-return-pakistan-2026
+
+Q: Kamboh Associates ka office kahan hai aur timings kya hain?
+A: Shop No 34, Rizwan Block Market, opposite Rizwan Park, Awan Town, Lahore. Mon-Sat 9:00-18:00, Fri 9:00-12:30, Sunday band. WhatsApp 0328-4675162; poore Pakistan aur bahar ke clients online. https://kambohassociates.com/contact
+
 ## Tax fees (PKR, as published on https://kambohassociates.com/pricing)
 
 - Salaried / pensioner income tax return (with wealth statement): Rs 3,500

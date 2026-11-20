@@ -1,13 +1,19 @@
 /* Kamboh Associates shared UI layer (Nov 2026). Applied to tax pages by content/ui-2026/apply.py.
    Colours are the site's own: navy #0F172A, teal #14B8A6 / #0D9488, gold #D4AF37, WhatsApp #25D366. */
 
-/* 1. Still trust strip in the top bar (replaces the scrolling ticker) */
-.ka-strip{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:4px 18px;font-size:.74rem;letter-spacing:.02em;color:#CBD5E1;line-height:1.5;width:100%;text-align:center}
-.ka-strip span{white-space:nowrap}
+/* 1. Top strip: a slow, pausable marquee of what clients get (owner request, Nov 2026); static under reduced motion */
+.ka-strip{width:100%;overflow:hidden;font-size:.74rem;letter-spacing:.02em;color:#CBD5E1;line-height:1.5}
+.ka-track{display:flex;width:max-content;animation:ka-marquee 60s linear infinite}
+.ka-marquee:hover .ka-track,.ka-marquee:focus-within .ka-track{animation-play-state:paused}
+.ka-group{display:flex;flex-shrink:0}
+.ka-s-item{white-space:nowrap;padding:0 22px;position:relative}
+.ka-s-item::after{content:"";position:absolute;right:-3px;top:50%;width:5px;height:5px;margin-top:-2.5px;border-radius:50%;background:#14B8A6;opacity:.8}
 .ka-strip b{color:#D4AF37;font-weight:600}
 .ka-strip a{color:#CBD5E1;text-decoration:none}
 .ka-strip a:hover{color:#fff}
-@media(max-width:767px){.ka-strip .ka-s-addr,.ka-strip .ka-s-hours{display:none}}
+@keyframes ka-marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@media(max-width:767px){.ka-track{animation-duration:45s}.ka-strip{font-size:.72rem}}
+@media(prefers-reduced-motion:reduce){.ka-track{animation:none;width:auto;flex-wrap:wrap;justify-content:center}.ka-group[aria-hidden]{display:none}.ka-group{flex-wrap:wrap;justify-content:center}}
 
 /* 2. Compact menu for pages whose header had no menu */
 .ka-mini-nav{background:#fff;border-bottom:1px solid #E2E8F0}

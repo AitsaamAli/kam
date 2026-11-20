@@ -7,7 +7,7 @@
 No titles, meta descriptions, canonicals, robots tags, H1s or URLs are changed."""
 import glob, html, re, sys
 
-V = "3"
+V = "4"
 CSS = f'<link rel="stylesheet" href="/assets/ka-ui.css?v={V}"/>'
 JS = f'<script src="/assets/ka-ui.js?v={V}" defer></script>'
 SKIP = ('content/', 'content-batches/', 'reports/', 'seo_output/', 'searchops-team/', 'outreach/', 'project-history/',
@@ -71,10 +71,20 @@ def nav(home=False):
 MINI = ('<nav class="ka-mini-nav" aria-label="Main menu"><ul><li><a href="/">Home</a></li><li><a href="/#services">Services</a></li>'
         '<li><a href="/tools">Tools</a></li><li><a href="/pricing">Pricing</a></li><li><a href="/blogs">Blog</a></li>'
         '<li><a href="/contact">Contact</a></li></ul></nav>')
-STRIP = ('<div class="ka-strip"><span><b>FBR Registered</b></span>'
-         '<span class="ka-s-addr">Shop 34, Rizwan Block Market, Awan Town, Lahore</span>'
-         '<span class="ka-s-hours">Mon&ndash;Sat 9:00&ndash;18:00 &middot; Fri 9:00&ndash;12:30</span>'
-         '<span><a href="tel:+923284675162">0328-4675162</a></span></div>')
+MSGS = [
+    '<b>Fixed fee</b> confirmed before work starts',
+    'Income tax return from <b>Rs 3,500</b> &middot; NTN <b>Rs 2,000</b>',
+    '<b>DNFBP &amp; AML</b> registration for real estate agents, jewellers and accountants',
+    '<b>Sole proprietors:</b> registration, returns and records',
+    'Late return? Rejoin the ATL with <b>Form ATL-U</b>',
+    '<b>100% online</b> on WhatsApp, anywhere in Pakistan',
+    'Every guide checked against <b>FBR&rsquo;s own texts</b>',
+    'Office: Awan Town, Lahore &middot; <a href="tel:+923284675162">0328-4675162</a>',
+]
+_ITEMS = "".join(f'<span class="ka-s-item">{m}</span>' for m in MSGS)
+STRIP = ('<div class="ka-strip ka-marquee"><div class="ka-track">'
+         f'<div class="ka-group">{_ITEMS}</div><div class="ka-group" aria-hidden="true">{_ITEMS}</div>'
+         '</div></div>')
 MBAR = ('<div class="ka-mbar" role="region" aria-label="Contact Kamboh Associates">'
         '<a class="ka-call" href="tel:+923284675162"><i class="fas fa-phone" aria-hidden="true"></i> Call</a>'
         '<a class="ka-wa" href="https://wa.me/923284675162" target="_blank" rel="noopener"><i class="fab fa-whatsapp" aria-hidden="true"></i> WhatsApp</a></div>')
@@ -85,6 +95,20 @@ TP_RE = re.compile(r'<div class="(?:tbi|topbar-inner)">(?:\s*<span class="tp"[^>
 TICK_RE = re.compile(r'<div class="topbar-promo-wrap">(?:\s*<span[^>]*>.*?</span>)+\s*</div>', re.S)
 H2_RE = re.compile(r'<h2\b([^>]*)\bid="([^"]+)"([^>]*)>(.*?)</h2>', re.S)
 ENDS = ('<aside', 'class="sidebar', '<section class="cta-strip"', '<footer', 'class="related-posts', 'class="blog-sidebar')
+
+
+def replace_strip(t):
+    """Swap whatever strip is on the page for the current STRIP (balanced <div> matching)."""
+    i = t.find('<div class="ka-strip')
+    if i < 0:
+        return t
+    depth, k = 0, i
+    for m in re.finditer(r'<div\b|</div>', t[i:]):
+        depth += 1 if m.group(0) == '<div' else -1
+        if depth == 0:
+            k = i + m.end()
+            break
+    return t[:i] + STRIP + t[k:]
 
 
 def toc(t):
@@ -134,6 +158,8 @@ def apply(f):
                 t = t[:k + 6] + MINI + t[k + 6:]
     # ticker -> still strip
     t = TICK_RE.sub(STRIP, t, count=1)
+    if 'ka-strip' in t and STRIP not in t:
+        t = replace_strip(t)
     t = TP_RE.sub(STRIP, t, count=1)
     # label
     t = t.replace('>TL;DR</div>', '>Short answer</div>').replace('>TL;DR</span>', '>Short answer</span>')
