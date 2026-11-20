@@ -16,7 +16,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)
 SITE = "https://kambohassociates.com"
 TODAY = date.today()
 
-TAX_SERVICES = ["income-tax-filing", "income-tax-return-pakistan", "ntn-registration", "corporate-tax-return", "sales-tax-registration",
+TAX_SERVICES = ["income-tax-filing", "dnfbp-compliance-services", "income-tax-return-pakistan", "ntn-registration", "corporate-tax-return", "sales-tax-registration",
                 "sales-tax-return", "fbr-notice-defense", "wealth-statement", "withholding-tax", "eobi-registration", "aop-tax-return",
                 "freelancer-tax-pakistan", "secp-vs-sole-proprietorship-pakistan", "startup-registration-pakistan", "pricing"]
 TAX_TOOLS = ["tools", "tools/late-filing-penalty-calculator", "tools/atl-surcharge-vs-form-atl-u-calculator", "tools/form-atl-u-end-date-calculator",

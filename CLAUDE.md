@@ -3,7 +3,7 @@
 Static HTML site on Vercel. Tax site at the root; a separate web-development section under `/digital`. `/*.md`, `/*.py` and `content/` are excluded from the deploy (`.vercelignore`).
 
 ## Standing rules (owner's decisions)
-- Tax site and `/digital` stay separate: no cross-links, and no tax terms in `/digital` titles or H1s.
+- Tax site and `/digital` stay separate: no cross-links, and no tax terms in `/digital` titles or H1s. Exception (owner's decision, Nov 2026): the "Web Development" link in the homepage top bar and nav stays.
 - Do not change existing titles, meta descriptions, canonicals, robots tags, H1s or URLs unless the task asks for it.
 - Aitsaam Ali is credited only as "Author". Never claim a tax-consultant licence, credential or role for him. Figures are "from FBR".
 - Say "FBR Registered", never "FBR Certified". Replies are promised "within office hours" (Mon–Sat 9:00–18:00, Fri 9:00–12:30, Sun closed). Never claim 24/7.
@@ -18,6 +18,12 @@ Static HTML site on Vercel. Tax site at the root; a separate web-development sec
 - No doorway pages: city pages only where there are genuinely local facts (e.g. one per FBR DNFBP directorate), overlap with other pages under 15%.
 - No duplicate or thin content: check every new blog against all site pages (not only the gate set) before publishing, and avoid topics an existing page already targets.
 - Facts only from FBR's own texts (Income Tax Ordinance PDF amended to the latest date, SROs, FBR/FMU guidance), quoted to the section.
+
+## Site-wide parts (Nov 2026)
+- Footer NAP line (`ka-nap`) on tax pages: `content/seo-quickwins/footer_nap.py` (idempotent).
+- Service pages use WebPage + Service schema, not BlogPosting: `content/seo-quickwins/service_schema.py`.
+- DNFBP service page: `content/dnfbp-service/build.py` -> `/dnfbp-compliance-services`.
+- Homepage stats are static text (no JS counters, no unverifiable % or turnaround claims).
 
 ## Keyword research
 - Do not use Semrush (no paid API units). Use the Search Console exports the owner provides, the site's sitemap, and free Google suggestions (`https://suggestqueries.google.com/complete/search?client=firefox&gl=pk&hl=en&q=...`).
