@@ -2,7 +2,7 @@
 
 > Answers to the questions people most often ask Kamboh Associates, taken word for word from the FAQ sections of the pages linked under each heading. Tax content covers Pakistan (tax year 2026). Web development content covers Kamboh Associates Digital.
 
-Updated: 2026-11-19
+Updated: 2026-11-20
 Short index: https://kambohassociates.com/llms.txt
 
 Contact: WhatsApp or call +92 328 4675162, email info@kambohassociates.com, office at Shop No 34 Rizwan Block Market, opposite Rizwan Park, Awan Town, Lahore 54660, Pakistan. Monday to Saturday 9:00 AM to 6:00 PM, Friday 9:00 AM to 12:30 PM.
@@ -1242,7 +1242,7 @@ A: Section 15 ke under rental income slabs: Rs 3 lakh annual tak zero. Rs 3–6 
 
 ## Tax on Property Sale Pakistan 2026 — CGT Rates & FBR Rules
 URL: https://kambohassociates.com/blogs/tax-on-property-sale-pakistan-2026
-Summary: Tax on property sale in Pakistan 2026: 236C advance tax at 2.75% or 5.5%, capital gains rules by acquisition date, worked example and declaring the sale.
+Summary: Tax on property sale in Pakistan 2026: 236C advance tax at 2.75% or 11.5%, capital gains rules by acquisition date, worked example and declaring the sale.
 
 Q: Does a longer holding period always reduce CGT?
 A: Only for property acquired before 1 July 2024. Property acquired after that date is generally taxed at a flat rate regardless of holding period.
