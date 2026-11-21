@@ -24,6 +24,7 @@ Static HTML site on Vercel. Tax site at the root; a separate web-development sec
 - Meta descriptions: at most 160 characters (`content/seo-quickwins/meta_trim.py` trims longer ones at a clause boundary).
 - Internal links: every tax page needs at least one contextual inbound link besides /blogs; `content/seo-quickwins/interlink.py` adds 'Related guides' links (max 4 per host), then `content/seo-quickwins/interlink2.py` places the rest by page text (city pages: towns named on the page, else same province; NEAR map for towns with no neighbour named). Sales-tax return pages are not linked.
 - Bank profit: 20% on the ATL / 40% off it; other profit on debt (TFCs, most sukuk) 15% / 30%; sukuk from an SPV under s.5AA 10% / 12.5% / 25% (Division IIIA/IIIB, Tenth Schedule). 236C off-ATL 11.5%; 236K off-ATL 10.5% (to Rs 50m) / 14.5%.
+- PRA registration fee Rs 8,000 (owner locked, Nov 2026; on /pricing).
 - Fees in body text must match /pricing: `content/seo-quickwins/fees_fix.py` (rules for known wrong fees; unpublished fees become "fixed fee confirmed before work starts").
 - One footer on every tax page (`ka-footer`, with NAP, hours and GBP link), set by `content/ui-2026/apply.py`. `content/seo-quickwins/footer_nap.py` is superseded.
 - Service pages use WebPage + Service schema, not BlogPosting: `content/seo-quickwins/service_schema.py`.
