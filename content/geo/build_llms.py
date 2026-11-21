@@ -16,7 +16,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)
 SITE = "https://kambohassociates.com"
 TODAY = date.today()
 
-TAX_SERVICES = ["income-tax-filing", "dnfbp-compliance-services", "income-tax-return-pakistan", "ntn-registration", "corporate-tax-return", "sales-tax-registration",
+TAX_SERVICES = ["income-tax-filing", "dnfbp-compliance-services", "pra-registration", "income-tax-return-pakistan", "ntn-registration", "corporate-tax-return", "sales-tax-registration",
                 "sales-tax-return", "fbr-notice-defense", "wealth-statement", "withholding-tax", "eobi-registration", "aop-tax-return",
                 "freelancer-tax-pakistan", "secp-vs-sole-proprietorship-pakistan", "startup-registration-pakistan", "pricing"]
 TAX_TOOLS = ["tools", "tools/late-filing-penalty-calculator", "tools/atl-surcharge-vs-form-atl-u-calculator", "tools/form-atl-u-end-date-calculator",
@@ -24,7 +24,7 @@ TAX_TOOLS = ["tools", "tools/late-filing-penalty-calculator", "tools/atl-surchar
              "tools/advance-tax-instalment-calculator", "tools/revised-return-deadline-calculator", "tools/wealth-reconciliation-calculator",
              "tools/income-tax-calculator-pakistan", "tools/salary-tax-calculator", "tools/property-capital-gains-calculator",
              "tools/filer-vs-non-filer-calculator", "tax-calculator", "salary-calculator", "income-estimator"]
-TAX_GUIDES = ["blogs/adjustable-vs-final-tax-pakistan", "blogs/zakat-deduction-income-tax-pakistan-section-60", "blogs/cash-withdrawal-tax-non-filer-pakistan-2026", "blogs/tax-avoidance-vs-tax-evasion-pakistan", "blogs/w-8ben-form-pakistan-freelancers", "blogs/fbr-sim-block-non-filers-section-114b", "blogs/ineligible-person-section-114c-pakistan", "blogs/default-surcharge-fbr-section-205", "blogs/form-atl-u-fbr-guide-2026", "blogs/form-atl-u-iris-submit-step-by-step", "blogs/active-late-filer-meaning-form-atl-u-2026", "blogs/filer-fee-2026-pakistan-late-filer-cost", "blogs/late-filer-tax-on-property-sale-form-atl-u", "blogs/late-filer-tax-on-bank-profit-form-atl-u", "blogs/form-atl-u-property-purchase-6-months-breach", "blogs/form-atl-u-salaried-pensioners-late-return", "blogs/form-atl-u-freelancers-traders-overseas", "blogs/filer-kaise-bane-2026-form-atl-u",
+TAX_GUIDES = ["blogs/pra-registration-process-online-punjab", "blogs/pra-registration-documents-required", "blogs/pra-registration-fee-punjab", "blogs/pra-registration-certificate-pst-03", "blogs/pra-ntn-verification-taxpayer-profile-inquiry", "blogs/who-must-register-with-pra-punjab", "blogs/pra-compulsory-registration-notice-e-enrolment", "blogs/pra-registration-sole-proprietor-punjab", "blogs/pra-registration-fbr-registered-business-p-ntn", "blogs/pra-registration-change-suspension-deregistration", "blogs/adjustable-vs-final-tax-pakistan", "blogs/zakat-deduction-income-tax-pakistan-section-60", "blogs/cash-withdrawal-tax-non-filer-pakistan-2026", "blogs/tax-avoidance-vs-tax-evasion-pakistan", "blogs/w-8ben-form-pakistan-freelancers", "blogs/fbr-sim-block-non-filers-section-114b", "blogs/ineligible-person-section-114c-pakistan", "blogs/default-surcharge-fbr-section-205", "blogs/form-atl-u-fbr-guide-2026", "blogs/form-atl-u-iris-submit-step-by-step", "blogs/active-late-filer-meaning-form-atl-u-2026", "blogs/filer-fee-2026-pakistan-late-filer-cost", "blogs/late-filer-tax-on-property-sale-form-atl-u", "blogs/late-filer-tax-on-bank-profit-form-atl-u", "blogs/form-atl-u-property-purchase-6-months-breach", "blogs/form-atl-u-salaried-pensioners-late-return", "blogs/form-atl-u-freelancers-traders-overseas", "blogs/filer-kaise-bane-2026-form-atl-u",
               "filer-vs-nonfiler-pakistan", "atl-pakistan-guide", "how-to-check-atl-status-pakistan",
               "blogs/filer-vs-non-filer-pakistan-2026", "blogs/ntn-registration-online-pakistan", "blogs/income-tax-slab-pakistan-2026",
               "blogs/budget-2026-27-salary-tax-slabs-pakistan", "blogs/salary-tax-calculator-pakistan-2026", "blogs/withholding-tax-pakistan-2026",
@@ -60,7 +60,7 @@ TAX_FEES = [("Salaried / pensioner income tax return (with wealth statement)", "
             ("Form ATL-U undertaking for a late filer (instead of the Rs 25,000 ATL surcharge), added to the return fee", "Rs 2,000"),
             ("Late salaried return + Form ATL-U", "Rs 5,500"), ("Late freelancer or sole proprietor return + Form ATL-U", "Rs 7,000"),
             ("Late overseas Pakistani return + Form ATL-U", "Rs 8,000"), ("Wealth statement only", "Rs 2,000"),
-            ("Sales tax registration (STRN)", "Rs 3,000"), ("Monthly sales tax return", "Rs 3,000 a month"),
+            ("Sales tax registration (STRN)", "Rs 3,000"), ("PRA registration (Punjab sales tax on services; PRA itself charges no fee, rule 15)", "Rs 5,000"), ("Monthly sales tax return", "Rs 3,000 a month"),
             ("Withholding tax statement", "Rs 3,000 a month"), ("Sole proprietorship registration (trade name, NTN, bank letter)", "Rs 5,000"),
             ("Pvt Ltd company registration", "from Rs 15,000"), ("EOBI registration", "Rs 8,000"),
             ("EOBI monthly contribution filing", "Rs 2,000 a month"), ("Import / export registration (WeBOC)", "from Rs 10,000"),
