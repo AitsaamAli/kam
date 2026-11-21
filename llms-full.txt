@@ -2,7 +2,7 @@
 
 > Answers to the questions people most often ask Kamboh Associates, taken word for word from the FAQ sections of the pages linked under each heading. Tax content covers Pakistan (tax year 2026). Web development content covers Kamboh Associates Digital.
 
-Updated: 2026-11-20
+Updated: 2026-11-21
 Short index: https://kambohassociates.com/llms.txt
 
 Contact: WhatsApp or call +92 328 4675162, email info@kambohassociates.com, office at Shop No 34 Rizwan Block Market, opposite Rizwan Park, Awan Town, Lahore 54660, Pakistan. Monday to Saturday 9:00 AM to 6:00 PM, Friday 9:00 AM to 12:30 PM.
@@ -127,6 +127,7 @@ A: Shop No 34, Rizwan Block Market, opposite Rizwan Park, Awan Town, Lahore. Mon
 - Late overseas Pakistani return + Form ATL-U: Rs 8,000
 - Wealth statement only: Rs 2,000
 - Sales tax registration (STRN): Rs 3,000
+- PRA registration (Punjab sales tax on services; PRA itself charges no fee, rule 15): Rs 5,000
 - Monthly sales tax return: Rs 3,000 a month
 - Withholding tax statement: Rs 3,000 a month
 - Sole proprietorship registration (trade name, NTN, bank letter): Rs 5,000
@@ -174,6 +175,31 @@ A: A fixed fee, confirmed on WhatsApp before any work starts, based on your cate
 
 Q: Which FBR office handles DNFBPs in my city?
 A: S.R.O. 1497(I)/2026 (2 September 2026) sets the jurisdiction of DNFBP authorities. Our city guides explain which directorate covers Lahore, Karachi, Islamabad, Peshawar and Quetta.
+
+## PRA Registration in Punjab, Done for You | Rs 5,000
+URL: https://kambohassociates.com/pra-registration
+Summary: PRA registration done for you on PRA IRIS: documents checked, Form PST-01 filed, certificate followed up. PRA charges nothing; our fee is Rs 5,000.
+
+Q: Who must register with PRA?
+A: Section 25(1) of the Punjab Sales Tax on Services Act 2012: anyone who provides a taxable service from an office or place of business in Punjab, or is otherwise required by the Act, rules or a PRA notification. Others may register voluntarily under section 26.
+
+Q: Does PRA charge a registration fee?
+A: No. Rule 15 of the Punjab Sales Tax on Services (Registration and De-registration) Rules 2012 makes registration and de-registration free of any fee or service charge.
+
+Q: How much do you charge for PRA registration?
+A: Rs 5,000 fixed, as published on our pricing page. If you need an FBR NTN first, that is Rs 2,000 more.
+
+Q: What documents are needed?
+A: CNIC, FBR NTN, the address of each business place with how it is held (and the landlord's CNIC or NTN if rented), its electricity reference number, each business bank account, and the services you provide (Form PST-01).
+
+Q: How long does PRA registration take?
+A: Rule 3 gives a provisional certificate immediately on applying and the final Form PST-03 certificate after verification, preferably within thirty days.
+
+Q: I am already registered with FBR. Do I need this?
+A: Rule 10 registered existing FBR taxpayers with PRA automatically, with P+NTN. We check the Taxpayer Profile Inquiry first and apply only if you are not found.
+
+Q: I received a PRA notice. Can you help?
+A: Yes. Section 27 requires advance notice and a hearing before compulsory registration. We read the notice, advise whether registration applies, and file on the notice route or prepare your reply.
 
 ## Income Tax Return Pakistan 2026 — Complete FBR Guide
 URL: https://kambohassociates.com/income-tax-return-pakistan
@@ -712,6 +738,286 @@ A: Yes. Enter tax deducted by employers, banks and others to see the balance pay
 
 Q: Is the estimate final?
 A: No. Exempt income, separate-rule income and tax credits can change the result. Confirm figures in the return on IRIS.
+
+## PRA Registration Process Online: Step by Step on PRA IRIS
+URL: https://kambohassociates.com/blogs/pra-registration-process-online-punjab
+Summary: How to register with the Punjab Revenue Authority online: the New Registration screens on PRA IRIS, what each asks, OTPs, approval and the certificate.
+
+Q: Can I register with PRA without an NTN?
+A: PRA IRIS fills your Basic Information from FBR's records and that screen cannot be edited, so in practice you need an active FBR NTN before you start.
+
+Q: How long does PRA registration take?
+A: Rule 3 gives a provisional certificate immediately on applying and the final PST-03 certificate after verification, preferably within thirty days. The e-PRA page says status is notified within 48 working hours of review.
+
+Q: Is there a government fee for PRA registration?
+A: No. Rule 15 of the Registration and De-registration Rules 2012 says registration and de-registration are free of any fee or service charge.
+
+Q: Can one registration cover all my branches?
+A: Yes, if billing or accounting is centralised in Punjab (rule 2(2)). All branches are still listed in the application.
+
+Q: What if I also work in Sindh or KP?
+A: Rule 2(4) requires a separate registration for Punjab for services rendered in Punjab, alongside the other province's registration.
+
+Q: Who receives the password?
+A: The PRAL manual says the password is sent to the registered email address and mobile number once you confirm the undertaking.
+
+Q: Do I have to visit a PRA office to register?
+A: No. Rule 3(1) allows the application electronically or manually, and the PRAL manual describes the full process online on PRA IRIS.
+
+Q: What does 'Registration Basis' mean on PRA IRIS?
+A: It is the drop-down where you choose voluntary registration or the notice/compulsory route; the notice route asks for the Notice Bar Code.
+
+## PRA Registration Documents Required: Full Checklist (2026)
+URL: https://kambohassociates.com/blogs/pra-registration-documents-required
+Summary: Every document and detail PRA registration needs, taken from Form PST-01: CNIC, NTN, business address, premises, utility, bank account and services.
+
+Q: Which form is used for PRA registration?
+A: Form PST-01, prescribed by rule 3 of the Punjab Sales Tax on Services (Registration and De-registration) Rules 2012. The same form is used to report changes under rule 11.
+
+Q: Do I need a rent agreement for PRA registration?
+A: Form PST-01 asks whether each business place is owned, rented or other, and for the owner's CNIC, NTN or FTN where it is not yours, so a rent agreement with the landlord's CNIC is the usual proof.
+
+Q: Is an electricity bill required?
+A: The form asks for the electricity reference number of each business place and whether gas is installed. The reference number is printed on the bill.
+
+Q: Do I need to list every bank account?
+A: Form PST-01 asks for the total bank accounts and details of each one used in the business: number, title, bank, city and start date.
+
+Q: Can someone else file for me?
+A: Yes. Field 13 of Form PST-01 records an agent under section 71 with their CNIC or NTN, name and address.
+
+Q: Do I need photographs of the premises for PRA?
+A: Form PST-01 does not ask for photographs. It asks for the address, how the place is held, the electricity reference number, gas connection, phone and start date of each place.
+
+Q: Does PRA need a business bank account in the trade name?
+A: Form PST-01 asks for each bank account used in the business with its title; it does not say the title must be the trade name.
+
+Q: What if my FBR address is old?
+A: Update it with FBR first. PRA IRIS takes basic details from FBR and the Basic Information screen cannot be edited there.
+
+## PRA Registration Fee: What PRA Charges and What You Pay
+URL: https://kambohassociates.com/blogs/pra-registration-fee-punjab
+Summary: PRA charges no fee to register or de-register: rule 15 of the 2012 Rules. What you pay a consultant, what it covers, and our fixed Rs 5,000 fee.
+
+Q: Does PRA charge a fee for registration?
+A: No. Rule 15 of the Punjab Sales Tax on Services (Registration and De-registration) Rules 2012 makes registration and de-registration free of any fee or service charge.
+
+Q: How much does Kamboh Associates charge for PRA registration?
+A: Rs 5,000 fixed, as published on our pricing page. If you need an FBR NTN first, that is Rs 2,000 more.
+
+Q: Is there a fee to cancel PRA registration?
+A: No. Rule 15 covers de-registration too. The application is made in Form PST-02 under rule 5.
+
+Q: Do I pay PRA for the registration certificate?
+A: No. The provisional certificate is issued on applying and the PST-03 certificate after verification, both free under rule 15.
+
+Q: Why do quotes for PRA registration differ so much?
+A: Because the only cost is the professional's time and what they include. Ask whether the NTN and follow-up to the certificate are included.
+
+Q: Is the Rs 5,000 refundable if PRA rejects my application?
+A: Rule 3(3) requires PRA to give reasons for any rejection. We go through the reasons with you, and any further work and its fee are confirmed before it starts.
+
+Q: Do I pay anything when my registration certificate is issued?
+A: No. Neither the provisional certificate nor Form PST-03 carries a fee (rule 15).
+
+Q: Is NTN registration included in Rs 5,000?
+A: No. NTN registration is Rs 2,000 extra, and only if you do not already have an NTN.
+
+## PRA Registration Certificate (PST-03): How to Get and Check It
+URL: https://kambohassociates.com/blogs/pra-registration-certificate-pst-03
+Summary: The PRA registration certificate explained: provisional certificate on applying, final Form PST-03 within thirty days, what it shows and how to verify it.
+
+Q: When do I get the PRA registration certificate?
+A: A provisional certificate is issued immediately on applying (rule 3(1)); the final Form PST-03 certificate follows verification, preferably within thirty days (rule 3(2)).
+
+Q: Does one certificate cover several services?
+A: Yes. Rule 2(3) allows one application for all your taxable services and the certificate shows all of them.
+
+Q: How can a client check my PRA registration?
+A: Through the Taxpayer Profile Inquiry (by PNTN, CNIC, passport or registration number) or the Active Taxpayer List on the e-PRA portal.
+
+Q: Do I have to print the number on invoices?
+A: Yes. Rule 2(5) requires the registration number on invoices, bills, vouchers and correspondence with PRA.
+
+Q: Can I let another business use my PRA number?
+A: No. Rule 4 says only the person registered can use the registration or its number, and it cannot be disposed of.
+
+Q: Is the provisional certificate valid proof?
+A: It is issued under rule 3(1) on applying. The final proof of registration is the Form PST-03 certificate issued after verification.
+
+Q: Where do I find my PRA registration number?
+A: On the certificate issued under rule 3. For businesses registered automatically from FBR, rule 10 makes it P followed by the NTN.
+
+Q: Does my certificate show my branches?
+A: Form PST-01 lists every business place and rule 2(2) allows one registration for centrally billed branches. Any new branch is added through a rule 11 change.
+
+## PRA NTN Verification: Taxpayer Profile Inquiry and Active List
+URL: https://kambohassociates.com/blogs/pra-ntn-verification-taxpayer-profile-inquiry
+Summary: Check any PRA registration: Taxpayer Profile Inquiry by PNTN, CNIC or passport, the Active Taxpayer List, and what an inactive or missing result means.
+
+Q: What is PNTN in PRA?
+A: It is the PRA number of a business already registered with FBR: rule 10 of the 2012 Rules assigns "P" as a prefix to the NTN.
+
+Q: How do I check if a business is registered with PRA?
+A: Use the Taxpayer Profile Inquiry on the e-PRA portal (search by PNTN, CNIC, passport or registration number) or download the Active Taxpayer List (Sales Tax).
+
+Q: Can I rely on PRA's list when paying a supplier?
+A: Section 25(5) of the Act says it is reasonable to believe a person is registered if they are on the list on PRA's website.
+
+Q: Why would a registered business disappear from the list?
+A: Suspension under section 28 is effected by removing the name from the published list (s.28(4)).
+
+Q: What is the PRA helpline?
+A: The e-PRA page gives UAN 042-111-000-772, 9 am to 5 pm, Monday to Friday, and eSupport@pra.punjab.gov.pk.
+
+Q: Can I verify a PRA payment receipt?
+A: Yes. The e-PRA page lists PSID/CPR verification for payment slip IDs and computerised payment receipts.
+
+Q: What if a supplier's number shows a different name?
+A: Rule 4 says only the registered person may use a registration or its number. Ask the supplier to explain before you rely on the invoice.
+
+Q: Is the Active Taxpayer List the same as FBR's ATL?
+A: No. The PRA list is the Active Taxpayer List (Sales Tax) published by the Punjab Revenue Authority, separate from FBR's lists.
+
+## Who Must Register With PRA? Section 25 Explained (2026)
+URL: https://kambohassociates.com/blogs/who-must-register-with-pra-punjab
+Summary: Section 25 of the Punjab Sales Tax on Services Act: who must register with PRA, when voluntary registration is allowed, and the buyer rule.
+
+Q: Is PRA registration mandatory?
+A: Yes for anyone who provides a taxable service from an office or place of business in Punjab, or is otherwise required by the Act, rules or a PRA notification (section 25(1)).
+
+Q: Can I register with PRA voluntarily?
+A: Yes. Section 26 allows a person carrying on an economic activity who is not required to register to apply at any time, subject to four conditions.
+
+Q: I am registered with SRB in Sindh. Do I need PRA too?
+A: For services rendered in Punjab, rule 2(4) requires a separate Punjab registration.
+
+Q: Can buying a service make me liable to PRA?
+A: Section 25(3) treats an unregistered recipient of a service taxable under section 3(2) as registered for that tax period.
+
+Q: What happens if I do not register?
+A: Section 27 lets PRA register you compulsorily after advance notice and an opportunity to be heard.
+
+Q: Does PRA registration depend on turnover?
+A: Section 25(1)(a) turns on providing a taxable service from a place of business in Punjab. Any other criteria are those PRA prescribes under section 25(2).
+
+Q: Is a home-based service provider covered?
+A: Section 25(1)(a) speaks of an office or place of business in Punjab. Form PST-01 records the place, so a home used for the business is listed as the business place.
+
+Q: Can PRA set extra criteria for registration?
+A: Yes. Section 25(1)(c) and 25(2) let PRA prescribe other criteria, conditions and restrictions by notification in the official Gazette.
+
+## PRA Compulsory Registration Notice and e-Enrolment: What to Do
+URL: https://kambohassociates.com/blogs/pra-compulsory-registration-notice-e-enrolment
+Summary: Got a PRA compulsory registration notice? Section 27 rights, the notice bar code, e-Enrolment on IRIS, and relief if you were registered by mistake.
+
+Q: Can PRA register me without my consent?
+A: Yes, under section 27, but only after advance notice and an opportunity of being heard, and with at least fifteen days' notice of the date it takes effect.
+
+Q: What is the PRA notice bar code?
+A: On PRA IRIS, a person registering on a notice chooses the Notice/Compulsory basis and enters and verifies the Notice Bar Code from the notice.
+
+Q: What is PRA e-Enrolment?
+A: After a 27(1) order is sent, the taxpayer clicks e-Enrolment on IRIS, verifies codes sent by SMS and email, and logs in to see the registration.
+
+Q: What if I am not liable to register?
+A: Explain at the hearing. If you were registered and it is later proved you were not liable, rule 13 cancels the registration ab initio with no tax liability for that period.
+
+Q: Is compulsory registration a fine?
+A: No. Section 27 is a registration step. Any penalty would come from other provisions of the Act.
+
+Q: How long before the registration takes effect?
+A: Section 27(1) requires PRA to notify you not later than fifteen days before the day the compulsory registration takes effect.
+
+Q: Can an officer register me, or only PRA?
+A: Section 27(3) lets PRA authorise officers by Gazette notification to carry out compulsory registration functions.
+
+Q: Who receives the e-Enrolment codes?
+A: The PRAL manual says a verification SMS and code are sent to the mobile number and email entered on the e-Enrolment pop-up.
+
+## PRA Registration for Sole Proprietors in Punjab (2026)
+URL: https://kambohassociates.com/blogs/pra-registration-sole-proprietor-punjab
+Summary: How a sole proprietor registers with PRA as an individual: NTN first, Form PST-01 details, premises and bank account, one registration for all services, fee.
+
+Q: Which category does a sole proprietor choose on PRA?
+A: Individual. Form PST-01 offers company, individual and AOP; a sole proprietorship registers under the owner's CNIC and NTN, with the trade name against the business place.
+
+Q: Can my shop name appear on the PRA registration?
+A: Yes. Form PST-01 records a business or branch name and a trade name for each place.
+
+Q: I have two shops. Do I need two PRA registrations?
+A: Not if billing or accounting is centralised in Punjab; rule 2(2) allows one registration, with both places listed.
+
+Q: How much does PRA registration cost a sole proprietor?
+A: PRA charges nothing (rule 15). Our fee is Rs 5,000, plus Rs 2,000 if you need an FBR NTN first.
+
+Q: Can I sell my PRA-registered business?
+A: Only with prior permission from the Commissioner (rule 14), and the buyer needs a new registration or approved changes.
+
+Q: Do I need a separate bank account for PRA?
+A: Form PST-01 asks for the bank accounts used in the business. It does not require a new account, but each business account must be listed.
+
+Q: Can a freelancer register with PRA as a sole proprietor?
+A: Yes, as an individual, if they provide a taxable service from a place of business in Punjab or register voluntarily under section 26.
+
+Q: Will my PRA registration show my own name or the shop name?
+A: The registered person is you, under your CNIC; Form PST-01 records the trade name against each business place.
+
+## Already on FBR Sales Tax? PRA Registration and P+NTN Explained
+URL: https://kambohassociates.com/blogs/pra-registration-fbr-registered-business-p-ntn
+Summary: Businesses already registered with FBR: rule 10 automatic PRA registration with P+NTN, how to check it, update details and register new Punjab services.
+
+Q: What is P+NTN?
+A: Under rule 10 of the 2012 Rules, taxpayers already registered with FBR were registered with PRA automatically, with "P" as a prefix to their NTN.
+
+Q: Do I need to apply to PRA if I am registered with FBR?
+A: Rule 10 registered existing FBR taxpayers automatically. Check the Taxpayer Profile Inquiry first; apply only if you are not found.
+
+Q: How do I update an automatic PRA registration?
+A: Rule 11 says changes, including in rule 10 cases, are intimated on Form PST-01; PRA decides preferably within thirty days.
+
+Q: Does FBR sales tax registration cover my services in Punjab?
+A: No. PRA registration is separate; rule 2(4) requires a separate Punjab registration for services rendered in Punjab.
+
+Q: Why are my PRA details pre-filled from FBR?
+A: Form PST-01 authorises PRA to obtain your registration particulars from FBR, and the IRIS Basic Information screen fills from FBR's record.
+
+Q: Will PRA use my FBR address?
+A: Form PST-01 authorises PRA to obtain your particulars from FBR, and PRA IRIS pre-fills basic details from FBR. Correct FBR first if it is out of date.
+
+Q: Can I have two PRA registrations, one automatic and one new?
+A: Rule 4 says a registration belongs only to the person registered. Check for a rule 10 registration before applying, so you do not create a second record.
+
+Q: How was I told about my automatic PRA registration?
+A: Rule 10 says by email, SMS, courier or post, with "P" as a prefix to your NTN.
+
+## PRA Registration Changes, Suspension and De-registration
+URL: https://kambohassociates.com/blogs/pra-registration-change-suspension-deregistration
+Summary: Change PRA registration details, transfer it, deal with suspension, or de-register on Form PST-02: the Act's timelines and what happens to your invoices.
+
+Q: How do I change my address on PRA registration?
+A: Intimate the change on Form PST-01 under rule 11; PRA approves or rejects it, preferably within thirty days.
+
+Q: How long does PRA de-registration take?
+A: Section 29(4): PRA disposes of the application within three months, extendable by up to sixty days for recorded reasons.
+
+Q: Which form is used to cancel PRA registration?
+A: Form PST-02, under rule 5 of the Registration and De-registration Rules 2012. It is free under rule 15.
+
+Q: What happens if my PRA registration is suspended?
+A: Your name is removed from PRA's published list (s.28(4)); PRA may withdraw the suspension within sixty days if satisfied with your remedial action (s.28(5)).
+
+Q: Can I sell my PRA-registered business?
+A: Only with the Commissioner's prior permission (rule 14). The former owner must also inform the Commissioner within one month of the sale (section 20(1)).
+
+Q: Does de-registration clear my old tax liability?
+A: No. Rule 5 de-registers from the later of the date PRA specifies and the date outstanding tax is deposited, and rule 9 keeps undischarged liability alive.
+
+Q: Can PRA de-register me on its own?
+A: Yes. Section 29(1) lets PRA de-register a registered person, or a class of persons, not required to be registered under the Act.
+
+Q: Can a cancelled PRA registration be restored?
+A: Rule 7 lets PRA revive a registration cancelled on an incorrect understanding of facts, on conditions and from a date it specifies.
 
 ## Adjustable vs Final Tax in Pakistan: The Difference Explained
 URL: https://kambohassociates.com/blogs/adjustable-vs-final-tax-pakistan

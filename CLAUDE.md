@@ -15,19 +15,21 @@ Static HTML site on Vercel. Tax site at the root; a separate web-development sec
 ## Blog standards (owner's decisions, Nov 2026)
 - Length: topic blogs at least 1,600–1,700 words of real content (no padding); city/regional pages at least 1,250. Longer is fine when the facts support it.
 - Every blog is informational *and* commercial: a "done for you" box near the top and a service section (what we do, risks of DIY, how it works, fee) with a WhatsApp CTA. Use only fees published on /pricing; otherwise "fixed fee confirmed before work starts".
-- Do not promote sales tax (STRN, sales tax returns) in new blogs; the firm is focusing on DNFBP and sole proprietorship clients.
+- Sales tax (owner's decision, Nov 2026): new blogs may promote sales tax **registration** (FBR STRN, PRA and other provincial registration) but not sales tax return filing for now. Main focus stays DNFBP and sole proprietorship clients.
 - No doorway pages: city pages only where there are genuinely local facts (e.g. one per FBR DNFBP directorate), overlap with other pages under 15%.
 - No duplicate or thin content: check every new blog against all site pages (not only the gate set) before publishing, and avoid topics an existing page already targets.
 - Facts only from FBR's own texts (Income Tax Ordinance PDF amended to the latest date, SROs, FBR/FMU guidance), quoted to the section.
 
 ## Site-wide parts (Nov 2026)
 - Meta descriptions: at most 160 characters (`content/seo-quickwins/meta_trim.py` trims longer ones at a clause boundary).
-- Internal links: every tax page needs at least one contextual inbound link besides /blogs; `content/seo-quickwins/interlink.py` adds 'Related guides' links (max 4 per host), then `content/seo-quickwins/interlink2.py` places the rest by page text (city pages: towns named on the page, else same province; NEAR map for towns with no neighbour named). Sales-tax pages are not linked.
+- Internal links: every tax page needs at least one contextual inbound link besides /blogs; `content/seo-quickwins/interlink.py` adds 'Related guides' links (max 4 per host), then `content/seo-quickwins/interlink2.py` places the rest by page text (city pages: towns named on the page, else same province; NEAR map for towns with no neighbour named). Sales-tax return pages are not linked.
 - Bank profit: 20% on the ATL / 40% off it; other profit on debt (TFCs, most sukuk) 15% / 30%; sukuk from an SPV under s.5AA 10% / 12.5% / 25% (Division IIIA/IIIB, Tenth Schedule). 236C off-ATL 11.5%; 236K off-ATL 10.5% (to Rs 50m) / 14.5%.
+- PRA registration fee Rs 5,000 (owner locked, Nov 2026; on /pricing). PRA itself charges no fee (Registration Rules 2012, rule 15).
 - Fees in body text must match /pricing: `content/seo-quickwins/fees_fix.py` (rules for known wrong fees; unpublished fees become "fixed fee confirmed before work starts").
 - One footer on every tax page (`ka-footer`, with NAP, hours and GBP link), set by `content/ui-2026/apply.py`. `content/seo-quickwins/footer_nap.py` is superseded.
 - Service pages use WebPage + Service schema, not BlogPosting: `content/seo-quickwins/service_schema.py`.
 - DNFBP service page: `content/dnfbp-service/build.py` -> `/dnfbp-compliance-services`.
+- PRA registration: service page `content/pra-service/build.py` -> `/pra-registration`; 10 guides in `content/pra-2026/` (build: `PYTHONPATH=content/pra-2026 POSTS_MODULE=posts_pra python3 content/dnfbp-2026/build.py`). Facts only from PRA's Act Ch. III-IV, Registration Rules 2012 and the PRAL manual (owner uploaded; PRA sites block non-Pakistan IPs). No PRA tax rate, threshold or penalty amount is stated: not verified.
 - Homepage stats are static text (no JS counters, no unverifiable % or turnaround claims).
 - Design layer (owner approved Nov 2026): `content/ui-2026/apply.py` (idempotent) gives every tax page one menu, a slow top strip of client messages (pausable, no turnaround claims), the shared `/assets/ka-ui.css` + `/assets/ka-ui.js`, one Call/WhatsApp bar on phones, equal-size WhatsApp/Call button pairs, an "On this page" box on guides and the "Short answer" label. Run it after building new pages; bump `V` in it when the assets change. Turnaround claims already on pages stay (owner confirmed); never 24/7.
 
