@@ -73,7 +73,7 @@ Long shared sentences across 47 similar pages pushed the gate to 635/680 (32-38%
 |---|---|---|---|
 | 1 | done: 19 pairs 301-merged (`part1_merge.py`); hub links on 626 pages (`hubs.py`) | see git log | 22 Nov 2026 |
 | 2 | done: 47 Punjab towns (`part2.py`, census data in `census_punjab_2023.json`); 2 more duplicates merged | see git log | 22 Nov 2026 |
-| 3 | not started | | |
+| 3 | done: 45 Punjab towns (`part3.py`) | see git log | 22 Nov 2026 |
 | 4 | not started | | |
 | 5 | not started | | |
 | 6 | not started | | |
