@@ -3338,6 +3338,16 @@
       "source": "/blogs/tax-consultant-vehari-city",
       "destination": "/blogs/tax-consultant-vehari",
       "permanent": true
+    },
+    {
+      "source": "/blogs/tax-consultant-kamonke",
+      "destination": "/blogs/tax-consultant-kamoke",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/tax-consultant-khanpur-ryk",
+      "destination": "/blogs/tax-consultant-khanpur",
+      "permanent": true
     }
   ]
 }

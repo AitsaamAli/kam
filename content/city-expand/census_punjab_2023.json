@@ -1,0 +1,1732 @@
+{
+"ATTOCK DISTRICT": {
+"kind": "DISTRICT",
+"area": "6,857",
+"pop": "2,170,423",
+"urban": "28.75",
+"hh": "6.1",
+"pop2017": "1,886,378",
+"growth": "2.37",
+"district": "ATTOCK"
+},
+"ATTOCK TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,002",
+"pop": "516,277",
+"urban": "56.19",
+"hh": "6.3",
+"pop2017": "435,203",
+"growth": "2.90",
+"district": "ATTOCK"
+},
+"FATEH JANG TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,249",
+"pop": "374,726",
+"urban": "21.70",
+"hh": "6.2",
+"pop2017": "326,433",
+"growth": "2.33",
+"district": "ATTOCK"
+},
+"HASAN ABDAL TEHSIL": {
+"kind": "TEHSIL",
+"area": "350",
+"pop": "253,670",
+"urban": "27.41",
+"hh": "6.3",
+"pop2017": "217,109",
+"growth": "2.64",
+"district": "ATTOCK"
+},
+"HAZRO TEHSIL": {
+"kind": "TEHSIL",
+"area": "348",
+"pop": "386,544",
+"urban": "16.29",
+"hh": "6.2",
+"pop2017": "340,189",
+"growth": "2.16",
+"district": "ATTOCK"
+},
+"JAND TEHSIL": {
+"kind": "TEHSIL",
+"area": "2,043",
+"pop": "330,328",
+"urban": "17.03",
+"hh": "5.7",
+"pop2017": "295,513",
+"growth": "1.88",
+"district": "ATTOCK"
+},
+"PINDI GHEB TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,865",
+"pop": "308,878",
+"urban": "20.66",
+"hh": "5.7",
+"pop2017": "271,931",
+"growth": "2.15",
+"district": "ATTOCK"
+},
+"BAHAWALNAGAR DISTRICT": {
+"kind": "DISTRICT",
+"area": "8,878",
+"pop": "3,550,342",
+"urban": "27.44",
+"hh": "6.3",
+"pop2017": "2,975,656",
+"growth": "3.00",
+"district": "BAHAWALNAGAR"
+},
+"BAHAWALNAGAR TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,729",
+"pop": "976,049",
+"urban": "28.79",
+"hh": "6.3",
+"pop2017": "813,390",
+"growth": "3.09",
+"district": "BAHAWALNAGAR"
+},
+"CHISHTIAN TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,500",
+"pop": "845,439",
+"urban": "27.15",
+"hh": "6.3",
+"pop2017": "697,125",
+"growth": "3.28",
+"district": "BAHAWALNAGAR"
+},
+"FORT ABBAS TEHSIL": {
+"kind": "TEHSIL",
+"area": "2,536",
+"pop": "510,253",
+"urban": "26.27",
+"hh": "6.7",
+"pop2017": "422,768",
+"growth": "3.19",
+"district": "BAHAWALNAGAR"
+},
+"HAROONABAD TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,295",
+"pop": "615,476",
+"urban": "34.33",
+"hh": "6.3",
+"pop2017": "517,356",
+"growth": "2.94",
+"district": "BAHAWALNAGAR"
+},
+"MINCHINABAD TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,818",
+"pop": "603,125",
+"urban": "19.60",
+"hh": "6.1",
+"pop2017": "525,017",
+"growth": "2.34",
+"district": "BAHAWALNAGAR"
+},
+"BAHAWALPUR DISTRICT": {
+"kind": "DISTRICT",
+"area": "24,830",
+"pop": "4,284,964",
+"urban": "37.79",
+"hh": "6.3",
+"pop2017": "3,669,176",
+"growth": "2.63",
+"district": "BAHAWALPUR"
+},
+"AHMADPUR EAST TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,738",
+"pop": "1,307,578",
+"urban": "26.67",
+"hh": "6.7",
+"pop2017": "1,078,586",
+"growth": "3.27",
+"district": "BAHAWALPUR"
+},
+"BAHAWALPUR CITY TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,490",
+"pop": "815,202",
+"urban": "100.00",
+"hh": "6.1",
+"pop2017": "682,116",
+"growth": "3.02",
+"district": "BAHAWALPUR"
+},
+"HASILPUR TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,490",
+"pop": "508,415",
+"urban": "38.64",
+"hh": "6.0",
+"pop2017": "456,360",
+"growth": "1.82",
+"district": "BAHAWALPUR"
+},
+"KHAIRPUR TAMEWALI TEHSIL": {
+"kind": "TEHSIL",
+"area": "993",
+"pop": "290,582",
+"urban": "16.27",
+"hh": "6.0",
+"pop2017": "262,923",
+"growth": "1.69",
+"district": "BAHAWALPUR"
+},
+"YAZMAN TEHSIL": {
+"kind": "TEHSIL",
+"area": "18,374",
+"pop": "687,237",
+"urban": "8.84",
+"hh": "6.3",
+"pop2017": "613,305",
+"growth": "1.92",
+"district": "BAHAWALPUR"
+},
+"BHAKKAR DISTRICT": {
+"kind": "DISTRICT",
+"area": "8,153",
+"pop": "1,957,470",
+"urban": "18.00",
+"hh": "6.2",
+"pop2017": "1,647,852",
+"growth": "2.92",
+"district": "BHAKKAR"
+},
+"BHAKKAR TEHSIL": {
+"kind": "TEHSIL",
+"area": "2,427",
+"pop": "809,789",
+"urban": "19.68",
+"hh": "6.5",
+"pop2017": "683,939",
+"growth": "2.86",
+"district": "BHAKKAR"
+},
+"DARYA KHAN TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,719",
+"pop": "421,309",
+"urban": "22.29",
+"hh": "5.9",
+"pop2017": "360,427",
+"growth": "2.64",
+"district": "BHAKKAR"
+},
+"KALUR KOT TEHSIL": {
+"kind": "TEHSIL",
+"area": "2,239",
+"pop": "415,708",
+"urban": "13.37",
+"hh": "6.3",
+"pop2017": "346,591",
+"growth": "3.09",
+"district": "BHAKKAR"
+},
+"MANKERA TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,768",
+"pop": "310,664",
+"urban": "14.02",
+"hh": "5.8",
+"pop2017": "256,895",
+"growth": "3.23",
+"district": "BHAKKAR"
+},
+"CHAKWAL DISTRICT": {
+"kind": "DISTRICT",
+"area": "6,525",
+"pop": "1,734,854",
+"urban": "25.06",
+"hh": "6.0",
+"pop2017": "1,495,463",
+"growth": "2.51",
+"district": "CHAKWAL"
+},
+"CHAKWAL TEHSIL": {
+"kind": "TEHSIL",
+"area": "2,167",
+"pop": "768,622",
+"urban": "31.75",
+"hh": "6.0",
+"pop2017": "656,527",
+"growth": "2.67",
+"district": "CHAKWAL"
+},
+"CHOA SAIDAN SHAH TEHSIL": {
+"kind": "TEHSIL",
+"area": "473",
+"pop": "167,537",
+"urban": "24.52",
+"hh": "6.2",
+"pop2017": "141,942",
+"growth": "2.81",
+"district": "CHAKWAL"
+},
+"KAR KAHAR TEHSIL": {
+"kind": "TEHSIL",
+"area": "953",
+"pop": "196,449",
+"urban": "25.27",
+"hh": "5.8",
+"pop2017": "169,238",
+"growth": "2.52",
+"district": "CHAKWAL"
+},
+"TALA GANG TEHSIL": {
+"kind": "TEHSIL",
+"area": "2,022",
+"pop": "457,635",
+"urban": "17.36",
+"hh": "5.7",
+"pop2017": "409,827",
+"growth": "1.86",
+"district": "CHAKWAL"
+},
+"CHINIOT DISTRICT": {
+"kind": "DISTRICT",
+"area": "2,643",
+"pop": "1,563,024",
+"urban": "31.46",
+"hh": "6.0",
+"pop2017": "1,368,659",
+"growth": "2.24",
+"district": "CHINIOT"
+},
+"BHAWANA TEHSIL": {
+"kind": "TEHSIL",
+"area": "879",
+"pop": "428,617",
+"urban": "9.16",
+"hh": "6.1",
+"pop2017": "373,841",
+"growth": "2.31",
+"district": "CHINIOT"
+},
+"CHINIOT TEHSIL": {
+"kind": "TEHSIL",
+"area": "709",
+"pop": "633,621",
+"urban": "50.21",
+"hh": "6.1",
+"pop2017": "555,796",
+"growth": "2.21",
+"district": "CHINIOT"
+},
+"LALIAN TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,055",
+"pop": "500,786",
+"urban": "26.81",
+"hh": "6.0",
+"pop2017": "439,022",
+"growth": "2.22",
+"district": "CHINIOT"
+},
+"DERA GHAZI KHAN DISTRICT": {
+"kind": "DISTRICT",
+"area": "11,922",
+"pop": "3,393,705",
+"urban": "23.79",
+"hh": "7.4",
+"pop2017": "2,872,631",
+"growth": "2.83",
+"district": "DERA GHAZI KHAN"
+},
+"DERA GHAZI KHAN TEHSIL": {
+"kind": "TEHSIL",
+"area": "2,012",
+"pop": "1,443,409",
+"urban": "36.44",
+"hh": "8.1",
+"pop2017": "1,224,964",
+"growth": "2.78",
+"district": "DERA GHAZI KHAN"
+},
+"KOT CHHUTTA TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,802",
+"pop": "904,836",
+"urban": "13.63",
+"hh": "7.8",
+"pop2017": "757,230",
+"growth": "3.02",
+"district": "DERA GHAZI KHAN"
+},
+"TAUNSA TEHSIL": {
+"kind": "TEHSIL",
+"area": "2,769",
+"pop": "796,777",
+"urban": "19.85",
+"hh": "6.6",
+"pop2017": "677,785",
+"growth": "2.74",
+"district": "DERA GHAZI KHAN"
+},
+"FAISALABAD DISTRICT": {
+"kind": "DISTRICT",
+"area": "5,857",
+"pop": "9,075,819",
+"urban": "48.40",
+"hh": "6.5",
+"pop2017": "7,882,444",
+"growth": "2.38",
+"district": "FAISALABAD"
+},
+"CHAK JHUMRA TEHSIL": {
+"kind": "TEHSIL",
+"area": "654",
+"pop": "385,169",
+"urban": "15.61",
+"hh": "6.8",
+"pop2017": "332,966",
+"growth": "2.46",
+"district": "FAISALABAD"
+},
+"FAISALABAD CITY TEHSIL": {
+"kind": "TEHSIL",
+"area": "168",
+"pop": "3,691,999",
+"urban": "100.00",
+"hh": "6.6",
+"pop2017": "3,244,259",
+"growth": "2.18",
+"district": "FAISALABAD"
+},
+"FAISALABAD SADAR TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,186",
+"pop": "1,742,958",
+"urban": "5.56",
+"hh": "6.4",
+"pop2017": "1,465,027",
+"growth": "2.95",
+"district": "FAISALABAD"
+},
+"JARANWALA TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,811",
+"pop": "1,731,148",
+"urban": "15.46",
+"hh": "6.5",
+"pop2017": "1,493,923",
+"growth": "2.49",
+"district": "FAISALABAD"
+},
+"SAMMUNDRI TEHSIL": {
+"kind": "TEHSIL",
+"area": "754",
+"pop": "729,672",
+"urban": "25.54",
+"hh": "6.5",
+"pop2017": "643,114",
+"growth": "2.13",
+"district": "FAISALABAD"
+},
+"TANDLIAN WALA TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,284",
+"pop": "794,873",
+"urban": "11.31",
+"hh": "6.3",
+"pop2017": "703,155",
+"growth": "2.07",
+"district": "FAISALABAD"
+},
+"GUJRANWALA DISTRICT": {
+"kind": "DISTRICT",
+"area": "3,622",
+"pop": "5,959,750",
+"urban": "60.30",
+"hh": "7.0",
+"pop2017": "5,011,066",
+"growth": "2.94",
+"district": "GUJRANWALA"
+},
+"GUJRANWALA CITY TEHSIL": {
+"kind": "TEHSIL",
+"area": "131",
+"pop": "2,511,118",
+"urban": "100.00",
+"hh": "7.0",
+"pop2017": "2,102,311",
+"growth": "3.01",
+"district": "GUJRANWALA"
+},
+"KAMOKE TEHSIL": {
+"kind": "TEHSIL",
+"area": "834",
+"pop": "681,339",
+"urban": "42.86",
+"hh": "7.2",
+"pop2017": "579,690",
+"growth": "2.74",
+"district": "GUJRANWALA"
+},
+"NOWSHERA VIRKAN TEHSIL": {
+"kind": "TEHSIL",
+"area": "678",
+"pop": "640,780",
+"urban": "9.31",
+"hh": "7.3",
+"pop2017": "534,811",
+"growth": "3.07",
+"district": "GUJRANWALA"
+},
+"WAZIRABAD TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,196",
+"pop": "993,412",
+"urban": "37.15",
+"hh": "6.9",
+"pop2017": "830,272",
+"growth": "3.04",
+"district": "GUJRANWALA"
+},
+"GUJRAT DISTRICT": {
+"kind": "DISTRICT",
+"area": "3,192",
+"pop": "3,219,375",
+"urban": "41.13",
+"hh": "6.5",
+"pop2017": "2,756,289",
+"growth": "2.63",
+"district": "GUJRAT"
+},
+"GUJRAT TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,463",
+"pop": "1,746,173",
+"urban": "53.37",
+"hh": "6.5",
+"pop2017": "1,497,706",
+"growth": "2.60",
+"district": "GUJRAT"
+},
+"KHARIAN TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,154",
+"pop": "1,174,935",
+"urban": "27.09",
+"hh": "6.5",
+"pop2017": "1,011,262",
+"growth": "2.54",
+"district": "GUJRAT"
+},
+"SARAI ALAMGIR TEHSIL": {
+"kind": "TEHSIL",
+"area": "575",
+"pop": "298,267",
+"urban": "24.80",
+"hh": "6.7",
+"pop2017": "247,321",
+"growth": "3.18",
+"district": "GUJRAT"
+},
+"HAFIZABAD DISTRICT": {
+"kind": "DISTRICT",
+"area": "2,367",
+"pop": "1,319,909",
+"urban": "38.21",
+"hh": "6.6",
+"pop2017": "1,156,954",
+"growth": "2.23",
+"district": "HAFIZABAD"
+},
+"HAFIZABAD TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,189",
+"pop": "761,156",
+"urban": "45.06",
+"hh": "6.7",
+"pop2017": "663,916",
+"growth": "2.31",
+"district": "HAFIZABAD"
+},
+"PINDI BHATTIAN TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,178",
+"pop": "558,753",
+"urban": "28.88",
+"hh": "6.5",
+"pop2017": "493,038",
+"growth": "2.11",
+"district": "HAFIZABAD"
+},
+"JHANG DISTRICT": {
+"kind": "DISTRICT",
+"area": "6,166",
+"pop": "3,065,639",
+"urban": "26.13",
+"hh": "6.2",
+"pop2017": "2,743,526",
+"growth": "1.87",
+"district": "JHANG"
+},
+"AHMADPUR SIAL TEHSIL": {
+"kind": "TEHSIL",
+"area": "851",
+"pop": "487,905",
+"urban": "16.44",
+"hh": "6.3",
+"pop2017": "433,534",
+"growth": "1.99",
+"district": "JHANG"
+},
+"JHANG TEHSIL": {
+"kind": "TEHSIL",
+"area": "2,591",
+"pop": "1,640,676",
+"urban": "37.98",
+"hh": "6.2",
+"pop2017": "1,464,818",
+"growth": "1.91",
+"district": "JHANG"
+},
+"SHORKOT TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,158",
+"pop": "604,763",
+"urban": "11.16",
+"hh": "6.4",
+"pop2017": "549,460",
+"growth": "1.62",
+"district": "JHANG"
+},
+"JHELUM DISTRICT": {
+"kind": "DISTRICT",
+"area": "3,587",
+"pop": "1,382,308",
+"urban": "39.16",
+"hh": "6.0",
+"pop2017": "1,222,403",
+"growth": "2.08",
+"district": "JHELUM"
+},
+"DINA TEHSIL": {
+"kind": "TEHSIL",
+"area": "678",
+"pop": "277,182",
+"urban": "37.43",
+"hh": "6.2",
+"pop2017": "238,465",
+"growth": "2.55",
+"district": "JHELUM"
+},
+"JHELUM TEHSIL": {
+"kind": "TEHSIL",
+"area": "586",
+"pop": "507,788",
+"urban": "61.53",
+"hh": "6.1",
+"pop2017": "445,232",
+"growth": "2.22",
+"district": "JHELUM"
+},
+"PIND DADAN KHAN TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,176",
+"pop": "371,971",
+"urban": "17.41",
+"hh": "5.8",
+"pop2017": "336,841",
+"growth": "1.67",
+"district": "JHELUM"
+},
+"SOHAWA TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,147",
+"pop": "225,367",
+"urban": "26.79",
+"hh": "5.9",
+"pop2017": "201,865",
+"growth": "1.86",
+"district": "JHELUM"
+},
+"KASUR DISTRICT": {
+"kind": "DISTRICT",
+"area": "3,995",
+"pop": "4,084,286",
+"urban": "30.46",
+"hh": "6.3",
+"pop2017": "3,454,881",
+"growth": "2.84",
+"district": "KASUR"
+},
+"CHUNIAN TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,212",
+"pop": "979,746",
+"urban": "21.05",
+"hh": "6.1",
+"pop2017": "826,323",
+"growth": "2.89",
+"district": "KASUR"
+},
+"KASUR TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,493",
+"pop": "1,603,658",
+"urban": "44.11",
+"hh": "6.3",
+"pop2017": "1,333,583",
+"growth": "3.13",
+"district": "KASUR"
+},
+"KOT RADHA KISHAN TEHSIL": {
+"kind": "TEHSIL",
+"area": "398",
+"pop": "424,875",
+"urban": "24.02",
+"hh": "6.9",
+"pop2017": "360,523",
+"growth": "2.78",
+"district": "KASUR"
+},
+"PATTOKI TEHSIL": {
+"kind": "TEHSIL",
+"area": "892",
+"pop": "1,076,007",
+"urban": "21.21",
+"hh": "6.2",
+"pop2017": "934,452",
+"growth": "2.39",
+"district": "KASUR"
+},
+"KHANEWAL DISTRICT": {
+"kind": "DISTRICT",
+"area": "4,349",
+"pop": "3,364,077",
+"urban": "21.31",
+"hh": "6.3",
+"pop2017": "2,920,233",
+"growth": "2.39",
+"district": "KHANEWAL"
+},
+"JAHANIAN TEHSIL": {
+"kind": "TEHSIL",
+"area": "549",
+"pop": "384,822",
+"urban": "13.08",
+"hh": "6.2",
+"pop2017": "343,425",
+"growth": "1.92",
+"district": "KHANEWAL"
+},
+"KABIRWALA TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,804",
+"pop": "1,119,229",
+"urban": "16.11",
+"hh": "6.6",
+"pop2017": "958,596",
+"growth": "2.62",
+"district": "KHANEWAL"
+},
+"KHANEWAL TEHSIL": {
+"kind": "TEHSIL",
+"area": "784",
+"pop": "987,445",
+"urban": "31.49",
+"hh": "6.4",
+"pop2017": "856,257",
+"growth": "2.41",
+"district": "KHANEWAL"
+},
+"MIAN CHANNU TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,212",
+"pop": "872,581",
+"urban": "20.08",
+"hh": "6.0",
+"pop2017": "761,955",
+"growth": "2.29",
+"district": "KHANEWAL"
+},
+"KHUSHAB DISTRICT": {
+"kind": "DISTRICT",
+"area": "6,511",
+"pop": "1,501,089",
+"urban": "27.90",
+"hh": "6.0",
+"pop2017": "1,280,372",
+"growth": "2.69",
+"district": "KHUSHAB"
+},
+"KHUSHAB TEHSIL": {
+"kind": "TEHSIL",
+"area": "2,115",
+"pop": "816,682",
+"urban": "43.54",
+"hh": "6.1",
+"pop2017": "690,157",
+"growth": "2.85",
+"district": "KHUSHAB"
+},
+"NOOR PUR TEHSIL": {
+"kind": "TEHSIL",
+"area": "2,500",
+"pop": "264,597",
+"urban": "7.60",
+"hh": "5.1",
+"pop2017": "242,831",
+"growth": "1.44",
+"district": "KHUSHAB"
+},
+"NOWSHERA TEHSIL": {
+"kind": "TEHSIL",
+"area": "816",
+"pop": "144,851",
+"urban": "12.82",
+"hh": "6.5",
+"pop2017": "117,356",
+"growth": "3.58",
+"district": "KHUSHAB"
+},
+"QUAIDABAD TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,080",
+"pop": "274,959",
+"urban": "8.92",
+"hh": "6.4",
+"pop2017": "230,028",
+"growth": "3.03",
+"district": "KHUSHAB"
+},
+"LAHORE DISTRICT": {
+"kind": "DISTRICT",
+"area": "1,772",
+"pop": "13,004,135",
+"urban": "100.00",
+"hh": "6.4",
+"pop2017": "11,119,985",
+"growth": "2.65",
+"district": "LAHORE"
+},
+"LAHORE CANTT TEHSIL": {
+"kind": "TEHSIL",
+"area": "466",
+"pop": "1,885,098",
+"urban": "100.00",
+"hh": "6.3",
+"pop2017": "1,632,702",
+"growth": "2.43",
+"district": "LAHORE"
+},
+"LAHORE CITY TEHSIL": {
+"kind": "TEHSIL",
+"area": "214",
+"pop": "4,123,354",
+"urban": "100.00",
+"hh": "6.5",
+"pop2017": "3,644,787",
+"growth": "2.08",
+"district": "LAHORE"
+},
+"MODEL TOWN TEHSIL": {
+"kind": "TEHSIL",
+"area": "353",
+"pop": "3,244,906",
+"urban": "100.00",
+"hh": "6.5",
+"pop2017": "2,712,398",
+"growth": "3.04",
+"district": "LAHORE"
+},
+"RAIWIND TEHSIL": {
+"kind": "TEHSIL",
+"area": "467",
+"pop": "1,080,637",
+"urban": "100.00",
+"hh": "6.3",
+"pop2017": "848,541",
+"growth": "4.12",
+"district": "LAHORE"
+},
+"SHALIMAR TEHSIL": {
+"kind": "TEHSIL",
+"area": "272",
+"pop": "2,670,140",
+"urban": "100.00",
+"hh": "6.3",
+"pop2017": "2,281,557",
+"growth": "2.66",
+"district": "LAHORE"
+},
+"LAYYAH DISTRICT": {
+"kind": "DISTRICT",
+"area": "6,289",
+"pop": "2,102,386",
+"urban": "18.37",
+"hh": "6.1",
+"pop2017": "1,823,995",
+"growth": "2.40",
+"district": "LAYYAH"
+},
+"CHOUBARA TEHSIL": {
+"kind": "TEHSIL",
+"area": "2,754",
+"pop": "299,082",
+"urban": "19.06",
+"hh": "6.7",
+"pop2017": "252,540",
+"growth": "2.87",
+"district": "LAYYAH"
+},
+"KAROR LAL ESAN TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,823",
+"pop": "684,729",
+"urban": "13.24",
+"hh": "6.2",
+"pop2017": "594,367",
+"growth": "2.39",
+"district": "LAYYAH"
+},
+"LAYYAH TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,712",
+"pop": "1,118,575",
+"urban": "21.34",
+"hh": "5.9",
+"pop2017": "977,088",
+"growth": "2.29",
+"district": "LAYYAH"
+},
+"LODHRAN DISTRICT": {
+"kind": "DISTRICT",
+"area": "2,778",
+"pop": "1,928,299",
+"urban": "16.86",
+"hh": "5.9",
+"pop2017": "1,699,693",
+"growth": "2.13",
+"district": "LODHRAN"
+},
+"DUNYAPUR TEHSIL": {
+"kind": "TEHSIL",
+"area": "889",
+"pop": "571,333",
+"urban": "9.08",
+"hh": "6.2",
+"pop2017": "495,217",
+"growth": "2.42",
+"district": "LODHRAN"
+},
+"KAHROR PACCA TEHSIL": {
+"kind": "TEHSIL",
+"area": "778",
+"pop": "547,761",
+"urban": "23.49",
+"hh": "5.2",
+"pop2017": "500,963",
+"growth": "1.50",
+"district": "LODHRAN"
+},
+"LODHRAN TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,111",
+"pop": "809,205",
+"urban": "17.86",
+"hh": "6.3",
+"pop2017": "703,513",
+"growth": "2.37",
+"district": "LODHRAN"
+},
+"MANDI BAHAUDDIN DISTRICT": {
+"kind": "DISTRICT",
+"area": "2,673",
+"pop": "1,829,486",
+"urban": "18.92",
+"hh": "6.3",
+"pop2017": "1,594,039",
+"growth": "2.33",
+"district": "MANDI BAHAUDDIN"
+},
+"MALAKWAL TEHSIL": {
+"kind": "TEHSIL",
+"area": "759",
+"pop": "429,303",
+"urban": "11.96",
+"hh": "6.2",
+"pop2017": "372,171",
+"growth": "2.42",
+"district": "MANDI BAHAUDDIN"
+},
+"MANDI BAHAUDDIN TEHSIL": {
+"kind": "TEHSIL",
+"area": "759",
+"pop": "764,532",
+"urban": "30.39",
+"hh": "6.4",
+"pop2017": "668,538",
+"growth": "2.27",
+"district": "MANDI BAHAUDDIN"
+},
+"PHALIA TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,155",
+"pop": "635,651",
+"urban": "9.83",
+"hh": "6.4",
+"pop2017": "553,330",
+"growth": "2.34",
+"district": "MANDI BAHAUDDIN"
+},
+"MIANWALI DISTRICT": {
+"kind": "DISTRICT",
+"area": "5,840",
+"pop": "1,798,268",
+"urban": "20.21",
+"hh": "6.0",
+"pop2017": "1,542,601",
+"growth": "2.60",
+"district": "MIANWALI"
+},
+"ISAKHEL TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,863",
+"pop": "414,100",
+"urban": "22.83",
+"hh": "6.2",
+"pop2017": "374,194",
+"growth": "1.71",
+"district": "MIANWALI"
+},
+"MIANWALI TEHSIL": {
+"kind": "TEHSIL",
+"area": "2,689",
+"pop": "908,405",
+"urban": "17.90",
+"hh": "5.8",
+"pop2017": "766,357",
+"growth": "2.88",
+"district": "MIANWALI"
+},
+"PIPLAN TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,288",
+"pop": "475,763",
+"urban": "22.34",
+"hh": "6.2",
+"pop2017": "402,050",
+"growth": "2.85",
+"district": "MIANWALI"
+},
+"MULTAN DISTRICT": {
+"kind": "DISTRICT",
+"area": "3,720",
+"pop": "5,362,305",
+"urban": "46.62",
+"hh": "6.0",
+"pop2017": "4,746,166",
+"growth": "2.06",
+"district": "MULTAN"
+},
+"JALALPUR PIRWALA TEHSIL": {
+"kind": "TEHSIL",
+"area": "978",
+"pop": "608,488",
+"urban": "14.74",
+"hh": "5.8",
+"pop2017": "554,971",
+"growth": "1.55",
+"district": "MULTAN"
+},
+"MULTAN CITY TEHSIL": {
+"kind": "TEHSIL",
+"area": "304",
+"pop": "2,555,486",
+"urban": "84.91",
+"hh": "6.1",
+"pop2017": "2,259,115",
+"growth": "2.08",
+"district": "MULTAN"
+},
+"MULTAN SADDAR TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,632",
+"pop": "1,516,004",
+"urban": "5.88",
+"hh": "6.0",
+"pop2017": "1,323,076",
+"growth": "2.30",
+"district": "MULTAN"
+},
+"SHUJABAD TEHSIL": {
+"kind": "TEHSIL",
+"area": "806",
+"pop": "682,327",
+"urban": "22.15",
+"hh": "5.9",
+"pop2017": "609,004",
+"growth": "1.92",
+"district": "MULTAN"
+},
+"MUZAFFARGARH DISTRICT": {
+"kind": "DISTRICT",
+"area": "8,249",
+"pop": "5,015,325",
+"urban": "18.88",
+"hh": "6.2",
+"pop2017": "4,328,549",
+"growth": "2.49",
+"district": "MUZAFFARGARH"
+},
+"ALIPUR TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,391",
+"pop": "760,526",
+"urban": "23.39",
+"hh": "6.9",
+"pop2017": "640,384",
+"growth": "2.92",
+"district": "MUZAFFARGARH"
+},
+"JATOI TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,010",
+"pop": "862,046",
+"urban": "25.22",
+"hh": "6.2",
+"pop2017": "715,177",
+"growth": "3.17",
+"district": "MUZAFFARGARH"
+},
+"KOT ADDU TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,686",
+"pop": "1,072,180",
+"urban": "20.56",
+"hh": "5.7",
+"pop2017": "981,787",
+"growth": "1.48",
+"district": "MUZAFFARGARH"
+},
+"MUZAFFARGARH TEHSIL": {
+"kind": "TEHSIL",
+"area": "2,377",
+"pop": "1,905,995",
+"urban": "14.05",
+"hh": "6.2",
+"pop2017": "1,625,487",
+"growth": "2.70",
+"district": "MUZAFFARGARH"
+},
+"NANKANA SAHIB DISTRICT": {
+"kind": "DISTRICT",
+"area": "2,216",
+"pop": "1,634,871",
+"urban": "19.78",
+"hh": "6.6",
+"pop2017": "1,354,986",
+"growth": "3.19",
+"district": "NANKANA SAHIB"
+},
+"NANKANA SAHIB TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,662",
+"pop": "1,065,063",
+"urban": "12.21",
+"hh": "6.6",
+"pop2017": "884,006",
+"growth": "3.16",
+"district": "NANKANA SAHIB"
+},
+"SANGLA HILL TEHSIL": {
+"kind": "TEHSIL",
+"area": "223",
+"pop": "269,993",
+"urban": "38.41",
+"hh": "6.5",
+"pop2017": "227,604",
+"growth": "2.90",
+"district": "NANKANA SAHIB"
+},
+"SHAH KOT TEHSIL": {
+"kind": "TEHSIL",
+"area": "331",
+"pop": "299,815",
+"urban": "29.90",
+"hh": "6.6",
+"pop2017": "243,376",
+"growth": "3.55",
+"district": "NANKANA SAHIB"
+},
+"NAROWAL DISTRICT": {
+"kind": "DISTRICT",
+"area": "2,337",
+"pop": "1,950,954",
+"urban": "17.89",
+"hh": "6.9",
+"pop2017": "1,707,575",
+"growth": "2.25",
+"district": "NAROWAL"
+},
+"NAROWAL TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,065",
+"pop": "680,402",
+"urban": "24.94",
+"hh": "6.7",
+"pop2017": "596,539",
+"growth": "2.22",
+"district": "NAROWAL"
+},
+"SHAKARGARH TEHSIL": {
+"kind": "TEHSIL",
+"area": "835",
+"pop": "769,339",
+"urban": "16.47",
+"hh": "7.0",
+"pop2017": "672,030",
+"growth": "2.29",
+"district": "NAROWAL"
+},
+"ZAFARWAL TEHSIL": {
+"kind": "TEHSIL",
+"area": "437",
+"pop": "501,213",
+"urban": "10.50",
+"hh": "6.9",
+"pop2017": "439,006",
+"growth": "2.24",
+"district": "NAROWAL"
+},
+"OKARA DISTRICT": {
+"kind": "DISTRICT",
+"area": "4,377",
+"pop": "3,515,490",
+"urban": "33.78",
+"hh": "6.3",
+"pop2017": "3,040,826",
+"growth": "2.45",
+"district": "OKARA"
+},
+"DEPALPUR TEHSIL": {
+"kind": "TEHSIL",
+"area": "2,502",
+"pop": "1,592,201",
+"urban": "28.98",
+"hh": "6.2",
+"pop2017": "1,375,785",
+"growth": "2.47",
+"district": "OKARA"
+},
+"OKARA TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,241",
+"pop": "1,393,746",
+"urban": "44.91",
+"hh": "6.4",
+"pop2017": "1,206,319",
+"growth": "2.44",
+"district": "OKARA"
+},
+"RENALA KHURD TEHSIL": {
+"kind": "TEHSIL",
+"area": "634",
+"pop": "529,543",
+"urban": "18.89",
+"hh": "6.6",
+"pop2017": "458,722",
+"growth": "2.43",
+"district": "OKARA"
+},
+"PAKPATTAN DISTRICT": {
+"kind": "DISTRICT",
+"area": "2,724",
+"pop": "2,136,170",
+"urban": "22.12",
+"hh": "6.1",
+"pop2017": "1,824,228",
+"growth": "2.67",
+"district": "PAKPATTAN"
+},
+"ARIF WALA TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,241",
+"pop": "999,278",
+"urban": "20.97",
+"hh": "6.2",
+"pop2017": "855,029",
+"growth": "2.64",
+"district": "PAKPATTAN"
+},
+"PAKPATTAN TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,483",
+"pop": "1,136,892",
+"urban": "23.13",
+"hh": "6.1",
+"pop2017": "969,199",
+"growth": "2.70",
+"district": "PAKPATTAN"
+},
+"RAHIM YAR KHAN DISTRICT": {
+"kind": "DISTRICT",
+"area": "11,880",
+"pop": "5,564,703",
+"urban": "24.12",
+"hh": "6.7",
+"pop2017": "4,807,762",
+"growth": "2.47",
+"district": "RAHIM YAR KHAN"
+},
+"KHANPUR TEHSIL": {
+"kind": "TEHSIL",
+"area": "3,190",
+"pop": "1,169,138",
+"urban": "27.73",
+"hh": "6.8",
+"pop2017": "982,085",
+"growth": "2.96",
+"district": "RAHIM YAR KHAN"
+},
+"LIAQUAT PUR TEHSIL": {
+"kind": "TEHSIL",
+"area": "3,262",
+"pop": "1,235,264",
+"urban": "8.31",
+"hh": "6.9",
+"pop2017": "1,033,906",
+"growth": "3.02",
+"district": "RAHIM YAR KHAN"
+},
+"RAHIM YAR KHAN TEHSIL": {
+"kind": "TEHSIL",
+"area": "2,464",
+"pop": "1,778,542",
+"urban": "33.25",
+"hh": "6.6",
+"pop2017": "1,530,183",
+"growth": "2.55",
+"district": "RAHIM YAR KHAN"
+},
+"SADIQABAD TEHSIL": {
+"kind": "TEHSIL",
+"area": "2,964",
+"pop": "1,381,759",
+"urban": "23.45",
+"hh": "6.5",
+"pop2017": "1,261,588",
+"growth": "1.53",
+"district": "RAHIM YAR KHAN"
+},
+"RAJANPUR DISTRICT": {
+"kind": "DISTRICT",
+"area": "12,318",
+"pop": "2,381,049",
+"urban": "26.51",
+"hh": "6.7",
+"pop2017": "1,996,039",
+"growth": "2.99",
+"district": "RAJANPUR"
+},
+"JAMPUR TEHSIL": {
+"kind": "TEHSIL",
+"area": "2,322",
+"pop": "1,012,039",
+"urban": "30.11",
+"hh": "6.7",
+"pop2017": "849,389",
+"growth": "2.97",
+"district": "RAJANPUR"
+},
+"RAJANPUR TEHSIL": {
+"kind": "TEHSIL",
+"area": "2,078",
+"pop": "853,192",
+"urban": "36.41",
+"hh": "6.5",
+"pop2017": "706,770",
+"growth": "3.20",
+"district": "RAJANPUR"
+},
+"ROJHAN TEHSIL": {
+"kind": "TEHSIL",
+"area": "2,905",
+"pop": "474,077",
+"urban": "3.35",
+"hh": "7.0",
+"pop2017": "405,689",
+"growth": "2.64",
+"district": "RAJANPUR"
+},
+"RAWALPINDI DISTRICT": {
+"kind": "DISTRICT",
+"area": "5,285",
+"pop": "6,118,911",
+"urban": "68.82",
+"hh": "6.1",
+"pop2017": "5,402,380",
+"growth": "2.10",
+"district": "RAWALPINDI"
+},
+"GUJAR KHAN TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,457",
+"pop": "781,578",
+"urban": "16.70",
+"hh": "5.9",
+"pop2017": "678,062",
+"growth": "2.40",
+"district": "RAWALPINDI"
+},
+"KAHUTA TEHSIL": {
+"kind": "TEHSIL",
+"area": "637",
+"pop": "237,843",
+"urban": "31.68",
+"hh": "5.4",
+"pop2017": "220,848",
+"growth": "1.25",
+"district": "RAWALPINDI"
+},
+"KAR SAYADDAN TEHSIL": {
+"kind": "TEHSIL",
+"area": "459",
+"pop": "242,709",
+"urban": "25.11",
+"hh": "5.8",
+"pop2017": "217,061",
+"growth": "1.88",
+"district": "RAWALPINDI"
+},
+"MURREE TEHSIL": {
+"kind": "TEHSIL",
+"area": "434",
+"pop": "252,526",
+"urban": "9.97",
+"hh": "5.5",
+"pop2017": "233,017",
+"growth": "1.35",
+"district": "RAWALPINDI"
+},
+"RAWALPINDI TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,682",
+"pop": "3,744,590",
+"urban": "89.67",
+"hh": "6.3",
+"pop2017": "3,256,641",
+"growth": "2.36",
+"district": "RAWALPINDI"
+},
+"TAXILA TEHSIL": {
+"kind": "TEHSIL",
+"area": "312",
+"pop": "739,244",
+"urban": "72.73",
+"hh": "5.8",
+"pop2017": "677,558",
+"growth": "1.47",
+"district": "RAWALPINDI"
+},
+"SAHIWAL DISTRICT": {
+"kind": "DISTRICT",
+"area": "3,201",
+"pop": "2,881,811",
+"urban": "26.29",
+"hh": "6.4",
+"pop2017": "2,513,011",
+"growth": "2.31",
+"district": "SAHIWAL"
+},
+"CHICHAWATNI TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,591",
+"pop": "1,155,978",
+"urban": "9.71",
+"hh": "6.5",
+"pop2017": "1,024,180",
+"growth": "2.04",
+"district": "SAHIWAL"
+},
+"SAHIWAL TEHSIL": {
+"kind": "TEHSIL",
+"area": "829",
+"pop": "407,487",
+"urban": "23.09",
+"hh": "6.4",
+"pop2017": "340,695",
+"growth": "3.04",
+"district": "SARGODHA"
+},
+"SARGODHA DISTRICT": {
+"kind": "DISTRICT",
+"area": "5,856",
+"pop": "4,334,448",
+"urban": "37.13",
+"hh": "6.3",
+"pop2017": "3,696,212",
+"growth": "2.70",
+"district": "SARGODHA"
+},
+"BHALWAL TEHSIL": {
+"kind": "TEHSIL",
+"area": "663",
+"pop": "387,262",
+"urban": "37.11",
+"hh": "5.7",
+"pop2017": "356,206",
+"growth": "1.41",
+"district": "SARGODHA"
+},
+"BHERA TEHSIL": {
+"kind": "TEHSIL",
+"area": "504",
+"pop": "384,403",
+"urban": "29.06",
+"hh": "5.9",
+"pop2017": "314,369",
+"growth": "3.42",
+"district": "SARGODHA"
+},
+"KOT MOMIN TEHSIL": {
+"kind": "TEHSIL",
+"area": "948",
+"pop": "544,208",
+"urban": "11.65",
+"hh": "6.8",
+"pop2017": "451,978",
+"growth": "3.15",
+"district": "SARGODHA"
+},
+"SARGODHA TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,536",
+"pop": "1,800,455",
+"urban": "58.63",
+"hh": "6.4",
+"pop2017": "1,535,152",
+"growth": "2.70",
+"district": "SARGODHA"
+},
+"SHAHPUR TEHSIL": {
+"kind": "TEHSIL",
+"area": "769",
+"pop": "424,746",
+"urban": "21.62",
+"hh": "6.0",
+"pop2017": "353,325",
+"growth": "3.12",
+"district": "SARGODHA"
+},
+"SILLANWALI TEHSIL": {
+"kind": "TEHSIL",
+"area": "607",
+"pop": "385,887",
+"urban": "12.78",
+"hh": "6.5",
+"pop2017": "344,487",
+"growth": "1.91",
+"district": "SARGODHA"
+},
+"SHEIKHUPURA DISTRICT": {
+"kind": "DISTRICT",
+"area": "3,744",
+"pop": "4,049,418",
+"urban": "38.30",
+"hh": "6.8",
+"pop2017": "3,460,004",
+"growth": "2.66",
+"district": "SHEIKHUPURA"
+},
+"FEROZEWALA TEHSIL": {
+"kind": "TEHSIL",
+"area": "511",
+"pop": "997,246",
+"urban": "34.02",
+"hh": "6.9",
+"pop2017": "818,642",
+"growth": "3.35",
+"district": "SHEIKHUPURA"
+},
+"MURIDKE TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,028",
+"pop": "721,192",
+"urban": "44.57",
+"hh": "7.0",
+"pop2017": "615,436",
+"growth": "2.69",
+"district": "SHEIKHUPURA"
+},
+"SAFDARABAD TEHSIL": {
+"kind": "TEHSIL",
+"area": "461",
+"pop": "320,851",
+"urban": "27.80",
+"hh": "7.0",
+"pop2017": "272,807",
+"growth": "2.75",
+"district": "SHEIKHUPURA"
+},
+"SHARAK PUR TEHSIL": {
+"kind": "TEHSIL",
+"area": "375",
+"pop": "229,292",
+"urban": "20.94",
+"hh": "6.4",
+"pop2017": "197,459",
+"growth": "2.53",
+"district": "SHEIKHUPURA"
+},
+"SHEIKHUPURA TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,369",
+"pop": "1,780,837",
+"urban": "42.28",
+"hh": "6.7",
+"pop2017": "1,555,660",
+"growth": "2.28",
+"district": "SHEIKHUPURA"
+},
+"SIALKOT DISTRICT": {
+"kind": "DISTRICT",
+"area": "3,016",
+"pop": "4,499,394",
+"urban": "32.94",
+"hh": "6.7",
+"pop2017": "3,894,938",
+"growth": "2.44",
+"district": "SIALKOT"
+},
+"DASKA TEHSIL": {
+"kind": "TEHSIL",
+"area": "690",
+"pop": "980,547",
+"urban": "26.45",
+"hh": "6.8",
+"pop2017": "847,117",
+"growth": "2.47",
+"district": "SIALKOT"
+},
+"PASRUR TEHSIL": {
+"kind": "TEHSIL",
+"area": "975",
+"pop": "970,366",
+"urban": "13.59",
+"hh": "6.9",
+"pop2017": "840,847",
+"growth": "2.42",
+"district": "SIALKOT"
+},
+"SAMBRIAL TEHSIL": {
+"kind": "TEHSIL",
+"area": "450",
+"pop": "460,280",
+"urban": "30.83",
+"hh": "6.4",
+"pop2017": "410,823",
+"growth": "1.92",
+"district": "SIALKOT"
+},
+"SIALKOT TEHSIL": {
+"kind": "TEHSIL",
+"area": "901",
+"pop": "2,088,201",
+"urban": "45.44",
+"hh": "6.5",
+"pop2017": "1,796,151",
+"growth": "2.55",
+"district": "SIALKOT"
+},
+"TOBA TEK SINGH DISTRICT": {
+"kind": "DISTRICT",
+"area": "3,252",
+"pop": "2,524,044",
+"urban": "22.33",
+"hh": "6.4",
+"pop2017": "2,190,602",
+"growth": "2.40",
+"district": "TOBA TEK SINGH"
+},
+"GOJRA TEHSIL": {
+"kind": "TEHSIL",
+"area": "851",
+"pop": "755,579",
+"urban": "28.37",
+"hh": "6.5",
+"pop2017": "657,222",
+"growth": "2.36",
+"district": "TOBA TEK SINGH"
+},
+"KAMALIA TEHSIL": {
+"kind": "TEHSIL",
+"area": "486",
+"pop": "422,477",
+"urban": "39.44",
+"hh": "6.2",
+"pop2017": "372,010",
+"growth": "2.15",
+"district": "TOBA TEK SINGH"
+},
+"PIRMAHAL TEHSIL": {
+"kind": "TEHSIL",
+"area": "774",
+"pop": "496,636",
+"urban": "11.97",
+"hh": "6.3",
+"pop2017": "421,353",
+"growth": "2.79",
+"district": "TOBA TEK SINGH"
+},
+"TOBA TEK SINGH TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,141",
+"pop": "849,352",
+"urban": "14.49",
+"hh": "6.3",
+"pop2017": "740,017",
+"growth": "2.33",
+"district": "TOBA TEK SINGH"
+},
+"VEHARI DISTRICT": {
+"kind": "DISTRICT",
+"area": "4,364",
+"pop": "3,430,421",
+"urban": "22.82",
+"hh": "6.3",
+"pop2017": "2,902,081",
+"growth": "2.83",
+"district": "VEHARI"
+},
+"BUREWALA TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,295",
+"pop": "1,204,255",
+"urban": "30.03",
+"hh": "6.3",
+"pop2017": "1,019,659",
+"growth": "2.82",
+"district": "VEHARI"
+},
+"MAILSI TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,639",
+"pop": "1,120,407",
+"urban": "18.83",
+"hh": "6.2",
+"pop2017": "953,610",
+"growth": "2.73",
+"district": "VEHARI"
+},
+"VEHARI TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,430",
+"pop": "1,105,759",
+"urban": "19.02",
+"hh": "6.3",
+"pop2017": "928,812",
+"growth": "2.96",
+"district": "VEHARI"
+}
+}

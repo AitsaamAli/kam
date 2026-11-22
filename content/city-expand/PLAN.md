@@ -48,6 +48,9 @@ Then: Short answer box at the top (local, one paragraph), a "How we help from La
 
 **expand-intent (parts 11–13).** These cities also have a `tax-consultant-` page, so each family must keep its own job and not compete: `income-tax-filing-` pages answer *how and where a return is filed for that place* (FBR RTO/zone, due date, local withholding situations), `ntn-registration-` pages answer *how to get an NTN there* (IRIS steps, documents, local cases). Add 4-5 official facts for that intent, a Short answer, and sideways links between the city's three pages (consultant ↔ filing ↔ NTN). Never repeat the consultant page's text.
 
+## Lesson from part 2
+Long shared sentences across 47 similar pages pushed the gate to 635/680 (32-38% overlap). What passes: a compact facts table where every cell carries the town's own name or numbers, short prose built around unique numbers, and FAQs that name the town. Reuse `part2.py` as the template for parts 3-5.
+
 ## Penalty-safety rules (every part)
 
 1. Do not change URL, title, H1, canonical or robots tags (CLAUDE.md standing rule). Only the body, the Short answer box and FAQs change.
@@ -69,7 +72,7 @@ Then: Short answer box at the top (local, one paragraph), a "How we help from La
 | Part | Status | PR | Date |
 |---|---|---|---|
 | 1 | done: 19 pairs 301-merged (`part1_merge.py`); hub links on 626 pages (`hubs.py`) | see git log | 22 Nov 2026 |
-| 2 | not started | | |
+| 2 | done: 47 Punjab towns (`part2.py`, census data in `census_punjab_2023.json`); 2 more duplicates merged | see git log | 22 Nov 2026 |
 | 3 | not started | | |
 | 4 | not started | | |
 | 5 | not started | | |
