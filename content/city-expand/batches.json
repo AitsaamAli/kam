@@ -196,7 +196,8 @@
     "tax-consultant-tando-adam",
     "tax-consultant-loralai",
     "tax-consultant-zhob"
-   ]
+   ],
+   "status": "done 22 Nov 2026: Sindh + Balochistan towns and Sadiqabad (Punjab) via part45.py"
   },
   {
    "n": 5,
@@ -241,7 +242,8 @@
     "tax-consultant-mansehra",
     "tax-consultant-timergara",
     "tax-consultant-upper-dir"
-   ]
+   ],
+   "status": "done 22 Nov 2026: KP towns via part45.py; AJK (7) and GB (4) pages left: no census/FBR office data, fewer than 4 official facts"
   },
   {
    "n": 6,
