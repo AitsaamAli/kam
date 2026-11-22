@@ -50,7 +50,7 @@ T = {
  "faisalabad": ("FAISALABAD CITY TEHSIL", "Faisalabad", "Faisalabad"), "fateh-jang": ("FATEH JANG TEHSIL", "Attock", "Fateh Jang"),
  "gujrat": ("GUJRAT TEHSIL", "Gujrat", "Gujrat"), "jhelum": ("JHELUM TEHSIL", "Jhelum", "Jhelum"),
 }
-MERGE = {"kamonke": "kamoke", "khanpur-ryk": "khanpur"}
+MERGE = {"khanpur-ryk": "khanpur"}  # kamonke -> kamoke undone: kamoke already redirected elsewhere (fix_redirect_targets.py)
 LAHORE_DIR = {"Lahore", "Sialkot", "Gujranwala", "Faisalabad", "Sargodha", "Multan", "Sahiwal", "Bahawalpur"}
 E = html.escape
 

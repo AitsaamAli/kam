@@ -3340,88 +3340,83 @@
       "permanent": true
     },
     {
-      "source": "/blogs/tax-consultant-kamonke",
-      "destination": "/blogs/tax-consultant-kamoke",
-      "permanent": true
-    },
-    {
       "source": "/blogs/tax-consultant-khanpur-ryk",
       "destination": "/blogs/tax-consultant-khanpur",
       "permanent": true
     },
     {
       "source": "/blogs/tax-consultant-johar-town-block-b-lahore",
-      "destination": "/blogs/tax-consultant-johar-town-lahore",
+      "destination": "/tax-consultant-johar-town-lahore",
       "permanent": true
     },
     {
       "source": "/blogs/tax-consultant-johar-town-block-c-lahore",
-      "destination": "/blogs/tax-consultant-johar-town-lahore",
+      "destination": "/tax-consultant-johar-town-lahore",
       "permanent": true
     },
     {
       "source": "/blogs/tax-consultant-johar-town-block-e1-lahore",
-      "destination": "/blogs/tax-consultant-johar-town-lahore",
+      "destination": "/tax-consultant-johar-town-lahore",
       "permanent": true
     },
     {
       "source": "/blogs/tax-consultant-johar-town-block-e2-lahore",
-      "destination": "/blogs/tax-consultant-johar-town-lahore",
+      "destination": "/tax-consultant-johar-town-lahore",
       "permanent": true
     },
     {
       "source": "/blogs/tax-consultant-johar-town-block-k-lahore",
-      "destination": "/blogs/tax-consultant-johar-town-lahore",
+      "destination": "/tax-consultant-johar-town-lahore",
       "permanent": true
     },
     {
       "source": "/blogs/tax-consultant-johar-town-block-l-lahore",
-      "destination": "/blogs/tax-consultant-johar-town-lahore",
+      "destination": "/tax-consultant-johar-town-lahore",
       "permanent": true
     },
     {
       "source": "/blogs/tax-consultant-johar-town-f-block-lahore",
-      "destination": "/blogs/tax-consultant-johar-town-lahore",
+      "destination": "/tax-consultant-johar-town-lahore",
       "permanent": true
     },
     {
       "source": "/blogs/tax-consultant-johar-town-h1-lahore",
-      "destination": "/blogs/tax-consultant-johar-town-lahore",
+      "destination": "/tax-consultant-johar-town-lahore",
       "permanent": true
     },
     {
       "source": "/blogs/tax-consultant-johar-town-h2-lahore",
-      "destination": "/blogs/tax-consultant-johar-town-lahore",
+      "destination": "/tax-consultant-johar-town-lahore",
       "permanent": true
     },
     {
       "source": "/blogs/tax-consultant-johar-town-h4-lahore",
-      "destination": "/blogs/tax-consultant-johar-town-lahore",
+      "destination": "/tax-consultant-johar-town-lahore",
       "permanent": true
     },
     {
       "source": "/blogs/tax-consultant-johar-town-j1-lahore",
-      "destination": "/blogs/tax-consultant-johar-town-lahore",
+      "destination": "/tax-consultant-johar-town-lahore",
       "permanent": true
     },
     {
       "source": "/blogs/tax-consultant-johar-town-j4-lahore",
-      "destination": "/blogs/tax-consultant-johar-town-lahore",
+      "destination": "/tax-consultant-johar-town-lahore",
       "permanent": true
     },
     {
       "source": "/blogs/tax-consultant-johar-town-phase-1-lahore",
-      "destination": "/blogs/tax-consultant-johar-town-lahore",
+      "destination": "/tax-consultant-johar-town-lahore",
       "permanent": true
     },
     {
       "source": "/blogs/tax-consultant-johar-town-phase-2-lahore",
-      "destination": "/blogs/tax-consultant-johar-town-lahore",
+      "destination": "/tax-consultant-johar-town-lahore",
       "permanent": true
     },
     {
       "source": "/blogs/tax-consultant-johar-town-phase-3-lahore",
-      "destination": "/blogs/tax-consultant-johar-town-lahore",
+      "destination": "/tax-consultant-johar-town-lahore",
       "permanent": true
     },
     {
@@ -3466,27 +3461,27 @@
     },
     {
       "source": "/blogs/tax-consultant-gulshan-ravi-block-a-lahore",
-      "destination": "/blogs/tax-consultant-gulshan-ravi-lahore",
+      "destination": "/tax-consultant-gulshan-ravi-lahore",
       "permanent": true
     },
     {
       "source": "/blogs/tax-consultant-gulshan-ravi-block-b-lahore",
-      "destination": "/blogs/tax-consultant-gulshan-ravi-lahore",
+      "destination": "/tax-consultant-gulshan-ravi-lahore",
       "permanent": true
     },
     {
       "source": "/blogs/tax-consultant-gulshan-ravi-block-c-lahore",
-      "destination": "/blogs/tax-consultant-gulshan-ravi-lahore",
+      "destination": "/tax-consultant-gulshan-ravi-lahore",
       "permanent": true
     },
     {
       "source": "/blogs/tax-consultant-gulshan-ravi-block-d-lahore",
-      "destination": "/blogs/tax-consultant-gulshan-ravi-lahore",
+      "destination": "/tax-consultant-gulshan-ravi-lahore",
       "permanent": true
     },
     {
       "source": "/blogs/tax-consultant-gulshan-e-ravi-lahore",
-      "destination": "/blogs/tax-consultant-gulshan-ravi-lahore",
+      "destination": "/tax-consultant-gulshan-ravi-lahore",
       "permanent": true
     },
     {
@@ -3531,22 +3526,22 @@
     },
     {
       "source": "/blogs/tax-consultant-model-town-a-lahore",
-      "destination": "/blogs/tax-consultant-model-town-lahore",
+      "destination": "/tax-consultant-model-town-lahore",
       "permanent": true
     },
     {
       "source": "/blogs/tax-consultant-model-town-b-lahore",
-      "destination": "/blogs/tax-consultant-model-town-lahore",
+      "destination": "/tax-consultant-model-town-lahore",
       "permanent": true
     },
     {
       "source": "/blogs/tax-consultant-model-town-c-lahore",
-      "destination": "/blogs/tax-consultant-model-town-lahore",
+      "destination": "/tax-consultant-model-town-lahore",
       "permanent": true
     },
     {
       "source": "/blogs/tax-consultant-model-town-block-i-lahore",
-      "destination": "/blogs/tax-consultant-model-town-lahore",
+      "destination": "/tax-consultant-model-town-lahore",
       "permanent": true
     },
     {
@@ -3571,27 +3566,27 @@
     },
     {
       "source": "/blogs/tax-consultant-nishtar-colony-block-a-lahore",
-      "destination": "/blogs/tax-consultant-nishtar-colony-lahore",
+      "destination": "/blogs/income-tax-filing-lahore",
       "permanent": true
     },
     {
       "source": "/blogs/tax-consultant-nishtar-colony-block-b-lahore",
-      "destination": "/blogs/tax-consultant-nishtar-colony-lahore",
+      "destination": "/blogs/income-tax-filing-lahore",
       "permanent": true
     },
     {
       "source": "/blogs/tax-consultant-township-sector-a-lahore",
-      "destination": "/blogs/tax-consultant-township-lahore",
+      "destination": "/tax-consultant-township-lahore",
       "permanent": true
     },
     {
       "source": "/blogs/tax-consultant-township-sector-b1-lahore",
-      "destination": "/blogs/tax-consultant-township-lahore",
+      "destination": "/tax-consultant-township-lahore",
       "permanent": true
     },
     {
       "source": "/blogs/tax-consultant-township-sector-c-lahore",
-      "destination": "/blogs/tax-consultant-township-lahore",
+      "destination": "/tax-consultant-township-lahore",
       "permanent": true
     },
     {
@@ -3606,12 +3601,12 @@
     },
     {
       "source": "/blogs/tax-consultant-wapda-town-phase-1-lahore",
-      "destination": "/blogs/tax-consultant-wapda-town-lahore",
+      "destination": "/tax-consultant-wapda-town-lahore",
       "permanent": true
     },
     {
       "source": "/blogs/tax-consultant-wapda-town-phase-2-lahore",
-      "destination": "/blogs/tax-consultant-wapda-town-lahore",
+      "destination": "/tax-consultant-wapda-town-lahore",
       "permanent": true
     },
     {
