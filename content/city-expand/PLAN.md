@@ -78,7 +78,7 @@ Long shared sentences across 47 similar pages pushed the gate to 635/680 (32-38%
 | 5 | done: KP towns (`part45.py`); 7 AJK + 4 GB pages wait for official data | see git log | 22 Nov 2026 |
 | 6 | not started | | |
 | 7 | not started | | |
-| 8 | not started | | |
+| 8–10 | first pass: 47 Lahore areas with verified group facts (`lahore.py`: DHA, Walled City gates, PIEDMC estates, census tehsils, housing societies); 237 left (LDA schemes, cantonment-only, roads/markets, 87 block/sector and 11 'near' pages) for owner sources/decision | see git log | 22 Nov 2026 |
 | 9 | not started | | |
 | 10 | not started | | |
 | 11 | not started | | |
