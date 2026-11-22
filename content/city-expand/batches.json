@@ -95,7 +95,6 @@
    "method": "expand",
    "pages": [
     "tax-consultant-lodhran",
-    "tax-consultant-loralai",
     "tax-consultant-mailsi",
     "tax-consultant-malikwal",
     "tax-consultant-mankera",
@@ -130,21 +129,19 @@
     "tax-consultant-tandlianwala",
     "tax-consultant-taunsa-sharif",
     "tax-consultant-taxila",
-    "tax-consultant-timergara",
     "tax-consultant-toba-tek-singh",
     "tax-consultant-tulamba",
     "tax-consultant-uch-sharif",
-    "tax-consultant-upper-dir",
     "tax-consultant-wah-cantt",
     "tax-consultant-wazirabad",
     "tax-consultant-yazman",
     "tax-consultant-zafarwal",
-    "tax-consultant-zhob",
     "tax-consultant-layyah",
     "tax-consultant-mandi-bahauddin",
     "tax-consultant-muzaffargarh",
     "tax-consultant-vehari"
-   ]
+   ],
+   "status": "done 22 Nov 2026: 45 Punjab towns (part3.py); loralai/zhob moved to part 4, timergara/upper-dir to part 5; new-jersey-pakistanis is an overseas topic page, left as is"
   },
   {
    "n": 4,
@@ -196,8 +193,11 @@
     "tax-consultant-thatta",
     "tax-consultant-turbat",
     "tax-consultant-umerkot",
-    "tax-consultant-tando-adam"
-   ]
+    "tax-consultant-tando-adam",
+    "tax-consultant-loralai",
+    "tax-consultant-zhob"
+   ],
+   "status": "done 22 Nov 2026: Sindh + Balochistan towns and Sadiqabad (Punjab) via part45.py"
   },
   {
    "n": 5,
@@ -239,8 +239,11 @@
     "tax-consultant-hangu",
     "tax-consultant-hunza",
     "tax-consultant-lower-dir",
-    "tax-consultant-mansehra"
-   ]
+    "tax-consultant-mansehra",
+    "tax-consultant-timergara",
+    "tax-consultant-upper-dir"
+   ],
+   "status": "done 22 Nov 2026: KP towns via part45.py; AJK (7) and GB (4) pages left: no census/FBR office data, fewer than 4 official facts"
   },
   {
    "n": 6,

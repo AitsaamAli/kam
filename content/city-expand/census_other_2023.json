@@ -1,0 +1,3128 @@
+{
+"sindh": {
+"BADIN DISTRICT": {
+"kind": "DISTRICT",
+"area": "6,858",
+"pop": "1,947,081",
+"urban": "22.08",
+"hh": "4.8",
+"pop2017": "1,804,958",
+"growth": "1.27",
+"district": "BADIN"
+},
+"BADIN TALUKA": {
+"kind": "TALUKA",
+"area": "1,816",
+"pop": "490,386",
+"urban": "29.07",
+"hh": "4.8",
+"pop2017": "454,576",
+"growth": "1.28",
+"district": "BADIN"
+},
+"GOLARCHI (S.F.RAHU) TALUKA": {
+"kind": "TALUKA",
+"area": "1,642",
+"pop": "374,854",
+"urban": "15.23",
+"hh": "5.1",
+"pop2017": "334,440",
+"growth": "1.92",
+"district": "BADIN"
+},
+"MATLI TALUKA": {
+"kind": "TALUKA",
+"area": "1,143",
+"pop": "471,100",
+"urban": "23.64",
+"hh": "4.9",
+"pop2017": "444,700",
+"growth": "0.97",
+"district": "BADIN"
+},
+"TALHAR TALUKA": {
+"kind": "TALUKA",
+"area": "569",
+"pop": "184,206",
+"urban": "26.46",
+"hh": "4.6",
+"pop2017": "172,014",
+"growth": "1.15",
+"district": "BADIN"
+},
+"TANDO BAGO TALUKA": {
+"kind": "TALUKA",
+"area": "1,688",
+"pop": "426,535",
+"urban": "16.43",
+"hh": "4.7",
+"pop2017": "399,228",
+"growth": "1.11",
+"district": "BADIN"
+},
+"DADU DISTRICT": {
+"kind": "DISTRICT",
+"area": "7,866",
+"pop": "1,742,320",
+"urban": "25.20",
+"hh": "5.1",
+"pop2017": "1,550,390",
+"growth": "1.97",
+"district": "DADU"
+},
+"DADU TALUKA": {
+"kind": "TALUKA",
+"area": "846",
+"pop": "508,607",
+"urban": "39.52",
+"hh": "5.2",
+"pop2017": "461,665",
+"growth": "1.63",
+"district": "DADU"
+},
+"JOHI TALUKA": {
+"kind": "TALUKA",
+"area": "3,509",
+"pop": "333,179",
+"urban": "12.03",
+"hh": "5.0",
+"pop2017": "294,389",
+"growth": "2.09",
+"district": "DADU"
+},
+"MEHAR TALUKA": {
+"kind": "TALUKA",
+"area": "928",
+"pop": "520,559",
+"urban": "21.97",
+"hh": "5.1",
+"pop2017": "459,859",
+"growth": "2.09",
+"district": "DADU"
+},
+"GHOTKI DISTRICT": {
+"kind": "DISTRICT",
+"area": "6,083",
+"pop": "1,772,609",
+"urban": "21.40",
+"hh": "5.3",
+"pop2017": "1,648,708",
+"growth": "1.22",
+"district": "GHOTKI"
+},
+"DAHARKI TALUKA": {
+"kind": "TALUKA",
+"area": "2,088",
+"pop": "335,145",
+"urban": "26.91",
+"hh": "5.4",
+"pop2017": "310,709",
+"growth": "1.27",
+"district": "GHOTKI"
+},
+"GHOTKI TALUKA": {
+"kind": "TALUKA",
+"area": "763",
+"pop": "540,939",
+"urban": "24.20",
+"hh": "5.3",
+"pop2017": "507,087",
+"growth": "1.09",
+"district": "GHOTKI"
+},
+"KHANGARH TALUKA": {
+"kind": "TALUKA",
+"area": "1,986",
+"pop": "162,318",
+"urban": "20.11",
+"hh": "5.0",
+"pop2017": "149,667",
+"growth": "1.37",
+"district": "GHOTKI"
+},
+"MIRPUR MATHELO TALUKA": {
+"kind": "TALUKA",
+"area": "593",
+"pop": "350,647",
+"urban": "21.29",
+"hh": "5.1",
+"pop2017": "327,821",
+"growth": "1.13",
+"district": "GHOTKI"
+},
+"UBAURO TALUKA": {
+"kind": "TALUKA",
+"area": "653",
+"pop": "383,560",
+"urban": "13.29",
+"hh": "5.6",
+"pop2017": "353,424",
+"growth": "1.38",
+"district": "GHOTKI"
+},
+"HYDERABAD DISTRICT": {
+"kind": "DISTRICT",
+"area": "993",
+"pop": "2,432,540",
+"urban": "83.14",
+"hh": "5.4",
+"pop2017": "2,199,928",
+"growth": "1.69",
+"district": "HYDERABAD"
+},
+"HYDERABAD CITY TALUKA": {
+"kind": "TALUKA",
+"area": "43",
+"pop": "778,132",
+"urban": "100.00",
+"hh": "5.6",
+"pop2017": "725,153",
+"growth": "1.19",
+"district": "HYDERABAD"
+},
+"HYDERABAD TALUKA": {
+"kind": "TALUKA",
+"area": "711",
+"pop": "511,265",
+"urban": "19.78",
+"hh": "5.4",
+"pop2017": "466,306",
+"growth": "1.55",
+"district": "HYDERABAD"
+},
+"LATIFABAD TALUKA": {
+"kind": "TALUKA",
+"area": "204",
+"pop": "800,983",
+"urban": "100.00",
+"hh": "5.2",
+"pop2017": "703,690",
+"growth": "2.19",
+"district": "HYDERABAD"
+},
+"QASIMABAD TALUKA": {
+"kind": "TALUKA",
+"area": "35",
+"pop": "342,160",
+"urban": "100.00",
+"hh": "5.4",
+"pop2017": "304,779",
+"growth": "1.95",
+"district": "HYDERABAD"
+},
+"JACOBABAD DISTRICT": {
+"kind": "DISTRICT",
+"area": "2,698",
+"pop": "1,174,097",
+"urban": "30.83",
+"hh": "6.0",
+"pop2017": "1,007,009",
+"growth": "2.60",
+"district": "JACOBABAD"
+},
+"GARHI KHAIRO TALUKA": {
+"kind": "TALUKA",
+"area": "733",
+"pop": "193,297",
+"urban": "10.35",
+"hh": "6.3",
+"pop2017": "159,019",
+"growth": "3.32",
+"district": "JACOBABAD"
+},
+"JACOBABAD TALUKA": {
+"kind": "TALUKA",
+"area": "664",
+"pop": "447,647",
+"urban": "48.99",
+"hh": "6.5",
+"pop2017": "382,578",
+"growth": "2.66",
+"district": "JACOBABAD"
+},
+"THUL TALUKA": {
+"kind": "TALUKA",
+"area": "1,301",
+"pop": "533,153",
+"urban": "22.99",
+"hh": "5.5",
+"pop2017": "465,412",
+"growth": "2.30",
+"district": "JACOBABAD"
+},
+"JAMSHORO DISTRICT": {
+"kind": "DISTRICT",
+"area": "11,204",
+"pop": "1,117,308",
+"urban": "46.70",
+"hh": "5.2",
+"pop2017": "993,908",
+"growth": "1.98",
+"district": "JAMSHORO"
+},
+"KOTRI TALUKA": {
+"kind": "TALUKA",
+"area": "1,051",
+"pop": "472,003",
+"urban": "77.21",
+"hh": "5.4",
+"pop2017": "438,063",
+"growth": "1.25",
+"district": "JAMSHORO"
+},
+"MANJHAND TALUKA": {
+"kind": "TALUKA",
+"area": "2,303",
+"pop": "161,794",
+"urban": "13.34",
+"hh": "5.1",
+"pop2017": "140,766",
+"growth": "2.35",
+"district": "JAMSHORO"
+},
+"SEHWAN TALUKA": {
+"kind": "TALUKA",
+"area": "2,160",
+"pop": "322,011",
+"urban": "36.73",
+"hh": "5.1",
+"pop2017": "269,817",
+"growth": "3.00",
+"district": "JAMSHORO"
+},
+"THANO BULA KHAN TALUKA": {
+"kind": "TALUKA",
+"area": "5,690",
+"pop": "161,500",
+"urban": "10.81",
+"hh": "4.8",
+"pop2017": "145,262",
+"growth": "1.79",
+"district": "JAMSHORO"
+},
+"KAMBAR ALI KHAN TALUKA": {
+"kind": "TALUKA",
+"area": "2,260",
+"pop": "448,990",
+"urban": "25.01",
+"hh": "5.7",
+"pop2017": "393,374",
+"growth": "2.23",
+"district": "JAMSHORO"
+},
+"MIRO KHAN TALUKA": {
+"kind": "TALUKA",
+"area": "374",
+"pop": "182,461",
+"urban": "25.82",
+"hh": "6.2",
+"pop2017": "157,934",
+"growth": "2.44",
+"district": "JAMSHORO"
+},
+"NASIRABAD TALUKA": {
+"kind": "TALUKA",
+"area": "309",
+"pop": "174,708",
+"urban": "21.81",
+"hh": "5.8",
+"pop2017": "151,410",
+"growth": "2.42",
+"district": "JAMSHORO"
+},
+"QUBO SAEED KHAN TALUKA": {
+"kind": "TALUKA",
+"area": "1,033",
+"pop": "99,308",
+"urban": "30.86",
+"hh": "5.3",
+"pop2017": "85,767",
+"growth": "2.48",
+"district": "JAMSHORO"
+},
+"SHAHDAD KOT TALUKA": {
+"kind": "TALUKA",
+"area": "419",
+"pop": "225,086",
+"urban": "53.62",
+"hh": "5.5",
+"pop2017": "202,564",
+"growth": "1.78",
+"district": "JAMSHORO"
+},
+"WARAH TALUKA": {
+"kind": "TALUKA",
+"area": "695",
+"pop": "253,681",
+"urban": "28.78",
+"hh": "5.2",
+"pop2017": "229,519",
+"growth": "1.69",
+"district": "JAMSHORO"
+},
+"KARACHI CENTRAL DISTRICT": {
+"kind": "DISTRICT",
+"area": "69",
+"pop": "3,822,325",
+"urban": "100.00",
+"hh": "5.8",
+"pop2017": "2,971,382",
+"growth": "4.30",
+"district": "KARACHI CENTRAL"
+},
+"GULBERG SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "14",
+"pop": "613,724",
+"urban": "100.00",
+"hh": "5.7",
+"pop2017": "496,094",
+"growth": "3.62",
+"district": "KARACHI CENTRAL"
+},
+"LIAQUATABAD SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "6",
+"pop": "547,706",
+"urban": "100.00",
+"hh": "5.6",
+"pop2017": "449,098",
+"growth": "3.37",
+"district": "KARACHI CENTRAL"
+},
+"NAZIMABAD SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "8",
+"pop": "572,740",
+"urban": "100.00",
+"hh": "5.9",
+"pop2017": "446,347",
+"growth": "4.26",
+"district": "KARACHI CENTRAL"
+},
+"NEW KARACHI SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "18",
+"pop": "1,165,742",
+"urban": "100.00",
+"hh": "5.9",
+"pop2017": "871,245",
+"growth": "4.99",
+"district": "KARACHI CENTRAL"
+},
+"KARACHI EAST DISTRICT": {
+"kind": "DISTRICT",
+"area": "139",
+"pop": "3,921,742",
+"urban": "100.00",
+"hh": "5.9",
+"pop2017": "2,875,315",
+"growth": "5.32",
+"district": "KARACHI EAST"
+},
+"FEROZABAD SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "20",
+"pop": "1,167,692",
+"urban": "100.00",
+"hh": "6.4",
+"pop2017": "761,631",
+"growth": "7.40",
+"district": "KARACHI EAST"
+},
+"KARACHI SOUTH DISTRICT": {
+"kind": "DISTRICT",
+"area": "122",
+"pop": "2,329,764",
+"urban": "100.00",
+"hh": "5.4",
+"pop2017": "1,769,230",
+"growth": "4.71",
+"district": "KARACHI SOUTH"
+},
+"ARAM BAGH SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "4",
+"pop": "237,224",
+"urban": "100.00",
+"hh": "5.3",
+"pop2017": "128,313",
+"growth": "10.82",
+"district": "KARACHI SOUTH"
+},
+"CIVIL LINES SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "73",
+"pop": "480,480",
+"urban": "100.00",
+"hh": "5.0",
+"pop2017": "473,119",
+"growth": "0.26",
+"district": "KARACHI SOUTH"
+},
+"GARDEN SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "4",
+"pop": "502,819",
+"urban": "100.00",
+"hh": "5.6",
+"pop2017": "363,967",
+"growth": "5.55",
+"district": "KARACHI SOUTH"
+},
+"LYARI SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "6",
+"pop": "949,878",
+"urban": "100.00",
+"hh": "5.6",
+"pop2017": "661,926",
+"growth": "6.22",
+"district": "KARACHI SOUTH"
+},
+"SADDAR SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "35",
+"pop": "159,363",
+"urban": "100.00",
+"hh": "5.5",
+"pop2017": "141,905",
+"growth": "1.96",
+"district": "KARACHI SOUTH"
+},
+"KARACHI WEST DISTRICT": {
+"kind": "DISTRICT",
+"area": "370",
+"pop": "2,679,380",
+"urban": "90.71",
+"hh": "5.7",
+"pop2017": "2,077,228",
+"growth": "4.35",
+"district": "KARACHI WEST"
+},
+"MANGHOPIR SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "342",
+"pop": "1,081,753",
+"urban": "76.99",
+"hh": "5.5",
+"pop2017": "711,236",
+"growth": "7.26",
+"district": "KARACHI WEST"
+},
+"MOMINABAD SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "19",
+"pop": "1,000,708",
+"urban": "100.00",
+"hh": "5.7",
+"pop2017": "845,797",
+"growth": "2.85",
+"district": "KARACHI WEST"
+},
+"ORANGI SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "9",
+"pop": "596,919",
+"urban": "100.00",
+"hh": "6.2",
+"pop2017": "520,195",
+"growth": "2.33",
+"district": "KARACHI WEST"
+},
+"KASHMORE DISTRICT": {
+"kind": "DISTRICT",
+"area": "2,580",
+"pop": "1,233,957",
+"urban": "22.03",
+"hh": "5.9",
+"pop2017": "1,090,336",
+"growth": "2.09",
+"district": "KASHMORE"
+},
+"KANDHKOT TALUKA": {
+"kind": "TALUKA",
+"area": "654",
+"pop": "407,592",
+"urban": "34.99",
+"hh": "5.8",
+"pop2017": "366,111",
+"growth": "1.81",
+"district": "KASHMORE"
+},
+"KASHMORE TALUKA": {
+"kind": "TALUKA",
+"area": "1,262",
+"pop": "487,601",
+"urban": "19.91",
+"hh": "5.9",
+"pop2017": "434,966",
+"growth": "1.93",
+"district": "KASHMORE"
+},
+"TANGWANI TALUKA": {
+"kind": "TALUKA",
+"area": "664",
+"pop": "338,764",
+"urban": "9.47",
+"hh": "5.8",
+"pop2017": "289,259",
+"growth": "2.68",
+"district": "KASHMORE"
+},
+"KEAMARI DISTRICT": {
+"kind": "DISTRICT",
+"area": "559",
+"pop": "2,068,451",
+"urban": "100.00",
+"hh": "6.4",
+"pop2017": "1,829,837",
+"growth": "2.07",
+"district": "KEAMARI"
+},
+"BALDIA SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "34",
+"pop": "948,597",
+"urban": "100.00",
+"hh": "6.4",
+"pop2017": "832,583",
+"growth": "2.20",
+"district": "KEAMARI"
+},
+"KEAMARI SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "50",
+"pop": "451,801",
+"urban": "100.00",
+"hh": "6.5",
+"pop2017": "401,115",
+"growth": "2.01",
+"district": "KEAMARI"
+},
+"MAURIPUR SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "450",
+"pop": "218,933",
+"urban": "100.00",
+"hh": "5.8",
+"pop2017": "192,565",
+"growth": "2.17",
+"district": "KEAMARI"
+},
+"SITE SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "25",
+"pop": "449,120",
+"urban": "100.00",
+"hh": "6.9",
+"pop2017": "403,574",
+"growth": "1.80",
+"district": "KEAMARI"
+},
+"KHAIRPUR DISTRICT": {
+"kind": "DISTRICT",
+"area": "15,910",
+"pop": "2,597,535",
+"urban": "32.50",
+"hh": "5.7",
+"pop2017": "2,405,190",
+"growth": "1.29",
+"district": "KHAIRPUR"
+},
+"FAIZ GANJ TALUKA": {
+"kind": "TALUKA",
+"area": "946",
+"pop": "243,254",
+"urban": "20.03",
+"hh": "5.1",
+"pop2017": "224,088",
+"growth": "1.38",
+"district": "KHAIRPUR"
+},
+"GAMBAT TALUKA": {
+"kind": "TALUKA",
+"area": "582",
+"pop": "286,129",
+"urban": "36.47",
+"hh": "6.0",
+"pop2017": "263,218",
+"growth": "1.40",
+"district": "KHAIRPUR"
+},
+"KHAIRPUR TALUKA": {
+"kind": "TALUKA",
+"area": "585",
+"pop": "465,233",
+"urban": "53.14",
+"hh": "5.3",
+"pop2017": "440,412",
+"growth": "0.92",
+"district": "KHAIRPUR"
+},
+"KINGRI TALUKA": {
+"kind": "TALUKA",
+"area": "531",
+"pop": "370,304",
+"urban": "28.73",
+"hh": "6.2",
+"pop2017": "340,297",
+"growth": "1.42",
+"district": "KHAIRPUR"
+},
+"KOT DIJI TALUKA": {
+"kind": "TALUKA",
+"area": "520",
+"pop": "385,872",
+"urban": "24.46",
+"hh": "6.1",
+"pop2017": "348,582",
+"growth": "1.71",
+"district": "KHAIRPUR"
+},
+"MIRWAH TALUKA": {
+"kind": "TALUKA",
+"area": "631",
+"pop": "379,615",
+"urban": "26.76",
+"hh": "5.6",
+"pop2017": "352,764",
+"growth": "1.23",
+"district": "KHAIRPUR"
+},
+"NARA TALUKA": {
+"kind": "TALUKA",
+"area": "11,611",
+"pop": "173,968",
+"urban": "23.17",
+"hh": "5.2",
+"pop2017": "160,643",
+"growth": "1.34",
+"district": "KHAIRPUR"
+},
+"SOBHO DERO TALUKA": {
+"kind": "TALUKA",
+"area": "504",
+"pop": "293,160",
+"urban": "34.56",
+"hh": "6.1",
+"pop2017": "275,186",
+"growth": "1.06",
+"district": "KHAIRPUR"
+},
+"KORANGI DISTRICT": {
+"kind": "DISTRICT",
+"area": "108",
+"pop": "3,128,971",
+"urban": "100.00",
+"hh": "6.3",
+"pop2017": "2,577,556",
+"growth": "3.29",
+"district": "KORANGI"
+},
+"KORANGI SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "59",
+"pop": "1,363,992",
+"urban": "100.00",
+"hh": "6.5",
+"pop2017": "1,126,141",
+"growth": "3.25",
+"district": "KORANGI"
+},
+"LANDHI SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "19",
+"pop": "681,294",
+"urban": "100.00",
+"hh": "5.8",
+"pop2017": "546,196",
+"growth": "3.76",
+"district": "KORANGI"
+},
+"SHAH FAISAL SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "21",
+"pop": "641,894",
+"urban": "100.00",
+"hh": "6.8",
+"pop2017": "520,830",
+"growth": "3.55",
+"district": "KORANGI"
+},
+"LARKANA DISTRICT": {
+"kind": "DISTRICT",
+"area": "1,948",
+"pop": "1,784,453",
+"urban": "44.73",
+"hh": "5.5",
+"pop2017": "1,521,786",
+"growth": "2.70",
+"district": "LARKANA"
+},
+"BAKRANI TALUKA": {
+"kind": "TALUKA",
+"area": "425",
+"pop": "275,268",
+"urban": "14.81",
+"hh": "5.6",
+"pop2017": "229,200",
+"growth": "3.11",
+"district": "LARKANA"
+},
+"DOKRI TALUKA": {
+"kind": "TALUKA",
+"area": "412",
+"pop": "257,394",
+"urban": "27.54",
+"hh": "5.7",
+"pop2017": "224,959",
+"growth": "2.28",
+"district": "LARKANA"
+},
+"LARKANA TALUKA": {
+"kind": "TALUKA",
+"area": "549",
+"pop": "873,868",
+"urban": "63.13",
+"hh": "5.5",
+"pop2017": "735,210",
+"growth": "2.93",
+"district": "LARKANA"
+},
+"RATODERO TALUKA": {
+"kind": "TALUKA",
+"area": "562",
+"pop": "377,923",
+"urban": "35.66",
+"hh": "5.3",
+"pop2017": "332,417",
+"growth": "2.17",
+"district": "LARKANA"
+},
+"MALIR DISTRICT": {
+"kind": "DISTRICT",
+"area": "2,160",
+"pop": "2,432,248",
+"urban": "47.95",
+"hh": "5.7",
+"pop2017": "1,924,346",
+"growth": "3.99",
+"district": "MALIR"
+},
+"AIRPORT SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "41",
+"pop": "254,370",
+"urban": "100.00",
+"hh": "5.9",
+"pop2017": "195,143",
+"growth": "4.53",
+"district": "MALIR"
+},
+"IBRAHIM HYDRI SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "97",
+"pop": "1,341,638",
+"urban": "51.11",
+"hh": "6.2",
+"pop2017": "1,055,780",
+"growth": "4.09",
+"district": "MALIR"
+},
+"MURAD MEMON SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "195",
+"pop": "376,987",
+"urban": "60.02",
+"hh": "5.0",
+"pop2017": "331,326",
+"growth": "2.18",
+"district": "MALIR"
+},
+"MATIARI DISTRICT": {
+"kind": "DISTRICT",
+"area": "1,417",
+"pop": "849,383",
+"urban": "23.86",
+"hh": "5.3",
+"pop2017": "770,040",
+"growth": "1.65",
+"district": "MATIARI"
+},
+"HALA TALUKA": {
+"kind": "TALUKA",
+"area": "488",
+"pop": "286,155",
+"urban": "45.58",
+"hh": "5.4",
+"pop2017": "262,639",
+"growth": "1.44",
+"district": "MATIARI"
+},
+"MATIARI TALUKA": {
+"kind": "TALUKA",
+"area": "568",
+"pop": "377,945",
+"urban": "12.74",
+"hh": "5.3",
+"pop2017": "341,110",
+"growth": "1.73",
+"district": "MATIARI"
+},
+"SAEEDABAD TALUKA": {
+"kind": "TALUKA",
+"area": "361",
+"pop": "185,283",
+"urban": "13.00",
+"hh": "5.2",
+"pop2017": "166,291",
+"growth": "1.82",
+"district": "MATIARI"
+},
+"MIRPUR KHAS DISTRICT": {
+"kind": "DISTRICT",
+"area": "2,925",
+"pop": "1,681,386",
+"urban": "29.27",
+"hh": "5.3",
+"pop2017": "1,504,440",
+"growth": "1.88",
+"district": "MIRPUR KHAS"
+},
+"DIGRI TALUKA": {
+"kind": "TALUKA",
+"area": "572",
+"pop": "234,578",
+"urban": "35.37",
+"hh": "5.3",
+"pop2017": "214,017",
+"growth": "1.54",
+"district": "MIRPUR KHAS"
+},
+"JHUDO TALUKA": {
+"kind": "TALUKA",
+"area": "363",
+"pop": "230,285",
+"urban": "29.39",
+"hh": "5.5",
+"pop2017": "201,850",
+"growth": "2.23",
+"district": "MIRPUR KHAS"
+},
+"MIRPUR KHAS TALUKA": {
+"kind": "TALUKA",
+"area": "24",
+"pop": "287,802",
+"urban": "93.06",
+"hh": "5.8",
+"pop2017": "260,288",
+"growth": "1.69",
+"district": "MIRPUR KHAS"
+},
+"SHUJAABAD TALUKA": {
+"kind": "TALUKA",
+"area": "396",
+"pop": "185,654",
+"urban": "12.41",
+"hh": "5.2",
+"pop2017": "168,733",
+"growth": "1.61",
+"district": "MIRPUR KHAS"
+},
+"SINDHRI TALUKA": {
+"kind": "TALUKA",
+"area": "599",
+"pop": "260,782",
+"urban": "7.89",
+"hh": "5.1",
+"pop2017": "236,194",
+"growth": "1.67",
+"district": "MIRPUR KHAS"
+},
+"BHIRIA TALUKA": {
+"kind": "TALUKA",
+"area": "488",
+"pop": "330,308",
+"urban": "21.96",
+"hh": "5.5",
+"pop2017": "301,544",
+"growth": "1.53",
+"district": "MIRPUR KHAS"
+},
+"KANDIARO TALUKA": {
+"kind": "TALUKA",
+"area": "771",
+"pop": "356,506",
+"urban": "12.45",
+"hh": "5.7",
+"pop2017": "322,376",
+"growth": "1.70",
+"district": "MIRPUR KHAS"
+},
+"MEHRABPUR TALUKA": {
+"kind": "TALUKA",
+"area": "361",
+"pop": "273,764",
+"urban": "30.43",
+"hh": "5.6",
+"pop2017": "246,649",
+"growth": "1.76",
+"district": "MIRPUR KHAS"
+},
+"MORO TALUKA": {
+"kind": "TALUKA",
+"area": "609",
+"pop": "408,148",
+"urban": "34.96",
+"hh": "5.3",
+"pop2017": "368,579",
+"growth": "1.72",
+"district": "MIRPUR KHAS"
+},
+"NAUSHAHRO FEROZE TALUKA": {
+"kind": "TALUKA",
+"area": "717",
+"pop": "408,356",
+"urban": "40.24",
+"hh": "5.5",
+"pop2017": "372,899",
+"growth": "1.53",
+"district": "MIRPUR KHAS"
+},
+"SANGHAR DISTRICT": {
+"kind": "DISTRICT",
+"area": "10,728",
+"pop": "2,308,465",
+"urban": "27.32",
+"hh": "5.6",
+"pop2017": "2,049,873",
+"growth": "2.01",
+"district": "SANGHAR"
+},
+"JAM NAWAZ ALI TALUKA": {
+"kind": "TALUKA",
+"area": "440",
+"pop": "171,598",
+"urban": "15.88",
+"hh": "5.4",
+"pop2017": "153,193",
+"growth": "1.91",
+"district": "SANGHAR"
+},
+"KHIPRO TALUKA": {
+"kind": "TALUKA",
+"area": "5,933",
+"pop": "366,748",
+"urban": "15.90",
+"hh": "5.3",
+"pop2017": "332,833",
+"growth": "1.63",
+"district": "SANGHAR"
+},
+"SANGHAR TALUKA": {
+"kind": "TALUKA",
+"area": "2,118",
+"pop": "482,560",
+"urban": "19.70",
+"hh": "5.6",
+"pop2017": "432,792",
+"growth": "1.84",
+"district": "SANGHAR"
+},
+"SHAHDADPUR TALUKA": {
+"kind": "TALUKA",
+"area": "890",
+"pop": "525,164",
+"urban": "41.14",
+"hh": "5.8",
+"pop2017": "457,028",
+"growth": "2.35",
+"district": "SANGHAR"
+},
+"SINJHORO TALUKA": {
+"kind": "TALUKA",
+"area": "907",
+"pop": "354,709",
+"urban": "16.87",
+"hh": "5.7",
+"pop2017": "317,004",
+"growth": "1.90",
+"district": "SANGHAR"
+},
+"TANDO ADAM TALUKA": {
+"kind": "TALUKA",
+"area": "440",
+"pop": "407,686",
+"urban": "42.75",
+"hh": "5.7",
+"pop2017": "357,023",
+"growth": "2.24",
+"district": "SANGHAR"
+},
+"DAUR TALUKA": {
+"kind": "TALUKA",
+"area": "2,210",
+"pop": "532,621",
+"urban": "20.69",
+"hh": "5.4",
+"pop2017": "477,993",
+"growth": "1.82",
+"district": "SANGHAR"
+},
+"KAZI AHMED TALUKA": {
+"kind": "TALUKA",
+"area": "972",
+"pop": "402,834",
+"urban": "13.10",
+"hh": "5.5",
+"pop2017": "348,944",
+"growth": "2.43",
+"district": "SANGHAR"
+},
+"NAWABSHAH TALUKA": {
+"kind": "TALUKA",
+"area": "435",
+"pop": "481,978",
+"urban": "75.34",
+"hh": "5.8",
+"pop2017": "413,402",
+"growth": "2.60",
+"district": "SANGHAR"
+},
+"SAKRAND TALUKA": {
+"kind": "TALUKA",
+"area": "885",
+"pop": "427,669",
+"urban": "16.84",
+"hh": "5.2",
+"pop2017": "373,167",
+"growth": "2.30",
+"district": "SANGHAR"
+},
+"SHIKARPUR DISTRICT": {
+"kind": "DISTRICT",
+"area": "2,512",
+"pop": "1,386,330",
+"urban": "22.99",
+"hh": "6.4",
+"pop2017": "1,233,760",
+"growth": "1.97",
+"district": "SHIKARPUR"
+},
+"GARHI YASIN TALUKA": {
+"kind": "TALUKA",
+"area": "971",
+"pop": "333,289",
+"urban": "11.01",
+"hh": "5.6",
+"pop2017": "316,573",
+"growth": "0.86",
+"district": "SHIKARPUR"
+},
+"KHANPUR TALUKA": {
+"kind": "TALUKA",
+"area": "629",
+"pop": "331,219",
+"urban": "5.45",
+"hh": "7.6",
+"pop2017": "276,140",
+"growth": "3.09",
+"district": "SHIKARPUR"
+},
+"LAKHI TALUKA": {
+"kind": "TALUKA",
+"area": "351",
+"pop": "300,490",
+"urban": "19.66",
+"hh": "6.9",
+"pop2017": "248,756",
+"growth": "3.21",
+"district": "SHIKARPUR"
+},
+"SHIKARPUR TALUKA": {
+"kind": "TALUKA",
+"area": "561",
+"pop": "421,332",
+"urban": "48.64",
+"hh": "6.1",
+"pop2017": "392,291",
+"growth": "1.20",
+"district": "SHIKARPUR"
+},
+"SUJAWAL DISTRICT": {
+"kind": "DISTRICT",
+"area": "8,785",
+"pop": "839,292",
+"urban": "10.59",
+"hh": "5.2",
+"pop2017": "779,062",
+"growth": "1.25",
+"district": "SUJAWAL"
+},
+"JATI TALUKA": {
+"kind": "TALUKA",
+"area": "3,489",
+"pop": "214,710",
+"urban": "4.87",
+"hh": "4.9",
+"pop2017": "201,868",
+"growth": "1.04",
+"district": "SUJAWAL"
+},
+"MIRPUR BATHORO TALUKA": {
+"kind": "TALUKA",
+"area": "698",
+"pop": "231,735",
+"urban": "9.20",
+"hh": "5.6",
+"pop2017": "210,820",
+"growth": "1.59",
+"district": "SUJAWAL"
+},
+"SHAH BUNDER TALUKA": {
+"kind": "TALUKA",
+"area": "3,074",
+"pop": "168,911",
+"urban": "10.87",
+"hh": "5.1",
+"pop2017": "159,748",
+"growth": "0.94",
+"district": "SUJAWAL"
+},
+"SUJAWAL TALUKA": {
+"kind": "TALUKA",
+"area": "746",
+"pop": "212,533",
+"urban": "18.23",
+"hh": "5.3",
+"pop2017": "196,391",
+"growth": "1.33",
+"district": "SUJAWAL"
+},
+"SUKKUR DISTRICT": {
+"kind": "DISTRICT",
+"area": "5,165",
+"pop": "1,639,897",
+"urban": "49.70",
+"hh": "6.1",
+"pop2017": "1,488,372",
+"growth": "1.63",
+"district": "SUKKUR"
+},
+"NEW SUKKUR TALUKA": {
+"kind": "TALUKA",
+"area": "109",
+"pop": "356,473",
+"urban": "84.87",
+"hh": "6.8",
+"pop2017": "320,223",
+"growth": "1.81",
+"district": "SUKKUR"
+},
+"PANO AQIL TALUKA": {
+"kind": "TALUKA",
+"area": "1,042",
+"pop": "457,078",
+"urban": "22.47",
+"hh": "5.2",
+"pop2017": "436,372",
+"growth": "0.78",
+"district": "SUKKUR"
+},
+"ROHRI TALUKA": {
+"kind": "TALUKA",
+"area": "807",
+"pop": "421,500",
+"urban": "26.95",
+"hh": "6.7",
+"pop2017": "370,582",
+"growth": "2.17",
+"district": "SUKKUR"
+},
+"SALEHPAT TALUKA": {
+"kind": "TALUKA",
+"area": "2,957",
+"pop": "137,738",
+"urban": "21.10",
+"hh": "5.2",
+"pop2017": "129,736",
+"growth": "1.01",
+"district": "SUKKUR"
+},
+"SUKKUR CITY TALUKA": {
+"kind": "TALUKA",
+"area": "250",
+"pop": "267,108",
+"urban": "100.00",
+"hh": "6.7",
+"pop2017": "231,459",
+"growth": "2.42",
+"district": "SUKKUR"
+},
+"TANDO AHYAR DISTRICT": {
+"kind": "DISTRICT",
+"area": "1,554",
+"pop": "922,012",
+"urban": "30.99",
+"hh": "5.1",
+"pop2017": "838,527",
+"growth": "1.60",
+"district": "TANDO AHYAR"
+},
+"CHAMBER TALUKA": {
+"kind": "TALUKA",
+"area": "483",
+"pop": "233,424",
+"urban": "16.15",
+"hh": "4.9",
+"pop2017": "210,202",
+"growth": "1.77",
+"district": "TANDO AHYAR"
+},
+"JHANDO MARI TALUKA": {
+"kind": "TALUKA",
+"area": "626",
+"pop": "266,665",
+"urban": "8.04",
+"hh": "5.2",
+"pop2017": "241,170",
+"growth": "1.69",
+"district": "TANDO AHYAR"
+},
+"TANDO AHYAR TALUKA": {
+"kind": "TALUKA",
+"area": "445",
+"pop": "421,923",
+"urban": "53.70",
+"hh": "5.2",
+"pop2017": "387,155",
+"growth": "1.45",
+"district": "TANDO AHYAR"
+},
+"BULRI SHAH KARIM TALUKA": {
+"kind": "TALUKA",
+"area": "770",
+"pop": "247,027",
+"urban": "2.61",
+"hh": "5.0",
+"pop2017": "237,011",
+"growth": "0.69",
+"district": "TANDO AHYAR"
+},
+"THARPARKAR DISTRICT": {
+"kind": "DISTRICT",
+"area": "19,637",
+"pop": "1,778,407",
+"urban": "8.12",
+"hh": "5.4",
+"pop2017": "1,647,036",
+"growth": "1.29",
+"district": "THARPARKAR"
+},
+"CHACHRO TALUKA": {
+"kind": "TALUKA",
+"area": "3,386",
+"pop": "371,769",
+"urban": "6.81",
+"hh": "5.8",
+"pop2017": "350,807",
+"growth": "0.97",
+"district": "THARPARKAR"
+},
+"DAHLI TALUKA": {
+"kind": "TALUKA",
+"area": "2,126",
+"pop": "326,034",
+"urban": "2.97",
+"hh": "6.1",
+"pop2017": "305,529",
+"growth": "1.09",
+"district": "THARPARKAR"
+},
+"DIPLO TALUKA": {
+"kind": "TALUKA",
+"area": "2,872",
+"pop": "163,119",
+"urban": "8.13",
+"hh": "5.0",
+"pop2017": "148,871",
+"growth": "1.54",
+"district": "THARPARKAR"
+},
+"ISLAMKOT TALUKA": {
+"kind": "TALUKA",
+"area": "3,515",
+"pop": "265,643",
+"urban": "7.18",
+"hh": "5.0",
+"pop2017": "244,439",
+"growth": "1.40",
+"district": "THARPARKAR"
+},
+"MITHI TALUKA": {
+"kind": "TALUKA",
+"area": "2,954",
+"pop": "239,091",
+"urban": "27.13",
+"hh": "5.1",
+"pop2017": "219,901",
+"growth": "1.41",
+"district": "THARPARKAR"
+},
+"NAGAR PARKAR TALUKA": {
+"kind": "TALUKA",
+"area": "3,862",
+"pop": "283,074",
+"urban": "4.32",
+"hh": "5.1",
+"pop2017": "259,880",
+"growth": "1.44",
+"district": "THARPARKAR"
+},
+"THATTA DISTRICT": {
+"kind": "DISTRICT",
+"area": "8,570",
+"pop": "1,083,191",
+"urban": "17.88",
+"hh": "5.2",
+"pop2017": "982,138",
+"growth": "1.65",
+"district": "THATTA"
+},
+"GHORABARI TALUKA": {
+"kind": "TALUKA",
+"area": "1,018",
+"pop": "198,920",
+"urban": "17.67",
+"hh": "5.0",
+"pop2017": "174,046",
+"growth": "2.26",
+"district": "THATTA"
+},
+"MIRPUR SAKRO TALUKA": {
+"kind": "TALUKA",
+"area": "2,958",
+"pop": "376,078",
+"urban": "14.01",
+"hh": "5.4",
+"pop2017": "341,689",
+"growth": "1.62",
+"district": "THATTA"
+},
+"THATTA TALUKA": {
+"kind": "TALUKA",
+"area": "3,823",
+"pop": "444,976",
+"urban": "23.79",
+"hh": "5.2",
+"pop2017": "406,704",
+"growth": "1.51",
+"district": "THATTA"
+},
+"UMER KOT DISTRICT": {
+"kind": "DISTRICT",
+"area": "5,608",
+"pop": "1,159,831",
+"urban": "22.32",
+"hh": "5.2",
+"pop2017": "1,073,469",
+"growth": "1.30",
+"district": "UMER KOT"
+},
+"KUNRI TALUKA": {
+"kind": "TALUKA",
+"area": "585",
+"pop": "237,063",
+"urban": "17.16",
+"hh": "5.4",
+"pop2017": "218,460",
+"growth": "1.38",
+"district": "UMER KOT"
+},
+"PITHORO TALUKA": {
+"kind": "TALUKA",
+"area": "855",
+"pop": "130,383",
+"urban": "10.22",
+"hh": "5.1",
+"pop2017": "120,005",
+"growth": "1.40",
+"district": "UMER KOT"
+},
+"SAMARO TALUKA": {
+"kind": "TALUKA",
+"area": "959",
+"pop": "184,051",
+"urban": "5.22",
+"hh": "5.4",
+"pop2017": "170,216",
+"growth": "1.31",
+"district": "UMER KOT"
+},
+"UMER KOT TALUKA": {
+"kind": "TALUKA",
+"area": "3,209",
+"pop": "608,334",
+"urban": "32.09",
+"hh": "5.0",
+"pop2017": "564,788",
+"growth": "1.25",
+"district": "UMER KOT"
+}
+},
+"kp": {
+"ABBOTTABAD DISTRICT": {
+"kind": "DISTRICT",
+"area": "1,967",
+"pop": "1,419,072",
+"urban": "23.42",
+"hh": "5.9",
+"pop2017": "1,333,089",
+"growth": "1.05",
+"district": "ABBOTTABAD"
+},
+"ABBOTTABAD TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,285",
+"pop": "1,003,339",
+"urban": "27.50",
+"hh": "6.0",
+"pop2017": "939,576",
+"growth": "1.10",
+"district": "ABBOTTABAD"
+},
+"HAVELIAN TEHSIL": {
+"kind": "TEHSIL",
+"area": "342",
+"pop": "256,754",
+"urban": "21.98",
+"hh": "6.0",
+"pop2017": "235,725",
+"growth": "1.44",
+"district": "ABBOTTABAD"
+},
+"BAJAUR DISTRICT": {
+"kind": "DISTRICT",
+"area": "1,290",
+"pop": "1,287,960",
+"urban": "0.00",
+"hh": "7.0",
+"pop2017": "1,090,987",
+"growth": "2.81",
+"district": "BAJAUR"
+},
+"BANNU DISTRICT": {
+"kind": "DISTRICT",
+"area": "1,972",
+"pop": "1,357,890",
+"urban": "3.56",
+"hh": "7.4",
+"pop2017": "1,210,183",
+"growth": "1.94",
+"district": "BANNU"
+},
+"BANNU TEHSIL": {
+"kind": "TEHSIL",
+"area": "228",
+"pop": "644,909",
+"urban": "7.50",
+"hh": "7.2",
+"pop2017": "563,374",
+"growth": "2.28",
+"district": "BANNU"
+},
+"BATAGRAM DISTRICT": {
+"kind": "DISTRICT",
+"area": "1,301",
+"pop": "554,133",
+"urban": "0.00",
+"hh": "6.4",
+"pop2017": "476,749",
+"growth": "2.55",
+"district": "BATAGRAM"
+},
+"BUNER DISTRICT": {
+"kind": "DISTRICT",
+"area": "1,865",
+"pop": "1,016,869",
+"urban": "0.00",
+"hh": "8.5",
+"pop2017": "895,460",
+"growth": "2.15",
+"district": "BUNER"
+},
+"CHARSADDA DISTRICT": {
+"kind": "DISTRICT",
+"area": "996",
+"pop": "1,835,504",
+"urban": "15.93",
+"hh": "6.9",
+"pop2017": "1,610,960",
+"growth": "2.20",
+"district": "CHARSADDA"
+},
+"CHARSADDA TEHSIL": {
+"kind": "TEHSIL",
+"area": "445",
+"pop": "909,438",
+"urban": "16.98",
+"hh": "7.0",
+"pop2017": "809,660",
+"growth": "1.96",
+"district": "CHARSADDA"
+},
+"SHABQADAR TEHSIL": {
+"kind": "TEHSIL",
+"area": "204",
+"pop": "440,524",
+"urban": "23.23",
+"hh": "6.9",
+"pop2017": "379,952",
+"growth": "2.50",
+"district": "CHARSADDA"
+},
+"TANGI TEHSIL": {
+"kind": "TEHSIL",
+"area": "347",
+"pop": "485,542",
+"urban": "7.34",
+"hh": "6.8",
+"pop2017": "421,348",
+"growth": "2.40",
+"district": "CHARSADDA"
+},
+"DERA ISMAIL KHAN DISTRICT": {
+"kind": "DISTRICT",
+"area": "9,334",
+"pop": "1,829,811",
+"urban": "20.48",
+"hh": "6.7",
+"pop2017": "1,693,594",
+"growth": "1.30",
+"district": "DERA ISMAIL KHAN"
+},
+"DERA ISMAIL KHAN TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,167",
+"pop": "767,979",
+"urban": "28.72",
+"hh": "6.5",
+"pop2017": "730,678",
+"growth": "0.84",
+"district": "DERA ISMAIL KHAN"
+},
+"KULACHI TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,229",
+"pop": "102,595",
+"urban": "23.86",
+"hh": "6.3",
+"pop2017": "101,892",
+"growth": "0.11",
+"district": "DERA ISMAIL KHAN"
+},
+"PAHARPUR TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,657",
+"pop": "406,467",
+"urban": "21.58",
+"hh": "6.8",
+"pop2017": "362,606",
+"growth": "1.93",
+"district": "DERA ISMAIL KHAN"
+},
+"PAROA TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,733",
+"pop": "320,937",
+"urban": "13.09",
+"hh": "6.5",
+"pop2017": "305,594",
+"growth": "0.82",
+"district": "DERA ISMAIL KHAN"
+},
+"HANGU DISTRICT": {
+"kind": "DISTRICT",
+"area": "1,097",
+"pop": "528,902",
+"urban": "16.21",
+"hh": "8.6",
+"pop2017": "518,811",
+"growth": "0.32",
+"district": "HANGU"
+},
+"HANGU TEHSIL": {
+"kind": "TEHSIL",
+"area": "669",
+"pop": "280,883",
+"urban": "15.54",
+"hh": "8.4",
+"pop2017": "270,399",
+"growth": "0.64",
+"district": "HANGU"
+},
+"TALL TEHSIL": {
+"kind": "TEHSIL",
+"area": "428",
+"pop": "248,019",
+"urban": "16.97",
+"hh": "8.9",
+"pop2017": "248,412",
+"growth": null,
+"district": "HANGU"
+},
+"HARIPUR DISTRICT": {
+"kind": "DISTRICT",
+"area": "1,725",
+"pop": "1,174,783",
+"urban": "12.58",
+"hh": "6.1",
+"pop2017": "1,001,515",
+"growth": "2.70",
+"district": "HARIPUR"
+},
+"HARIPUR TEHSIL": {
+"kind": "TEHSIL",
+"area": "834",
+"pop": "836,058",
+"urban": "17.67",
+"hh": "6.1",
+"pop2017": "683,411",
+"growth": "3.43",
+"district": "HARIPUR"
+},
+"KARAK DISTRICT": {
+"kind": "DISTRICT",
+"area": "3,371",
+"pop": "815,878",
+"urban": "7.12",
+"hh": "8.4",
+"pop2017": "705,362",
+"growth": "2.46",
+"district": "KARAK"
+},
+"KARAK TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,299",
+"pop": "339,983",
+"urban": "17.08",
+"hh": "8.5",
+"pop2017": "292,829",
+"growth": "2.53",
+"district": "KARAK"
+},
+"KHYBER DISTRICT": {
+"kind": "DISTRICT",
+"area": "2,576",
+"pop": "1,146,267",
+"urban": "8.26",
+"hh": "6.8",
+"pop2017": "984,246",
+"growth": "2.58",
+"district": "KHYBER"
+},
+"JAMRUD TEHSIL": {
+"kind": "TEHSIL",
+"area": "311",
+"pop": "243,290",
+"urban": "23.28",
+"hh": "6.5",
+"pop2017": "227,557",
+"growth": "1.12",
+"district": "KHYBER"
+},
+"LANDI KOTAL TEHSIL": {
+"kind": "TEHSIL",
+"area": "679",
+"pop": "312,313",
+"urban": "12.19",
+"hh": "6.5",
+"pop2017": "273,052",
+"growth": "2.27",
+"district": "KHYBER"
+},
+"KOHAT DISTRICT": {
+"kind": "DISTRICT",
+"area": "2,991",
+"pop": "1,234,661",
+"urban": "22.58",
+"hh": "7.2",
+"pop2017": "1,111,266",
+"growth": "1.78",
+"district": "KOHAT"
+},
+"KOHAT TEHSIL": {
+"kind": "TEHSIL",
+"area": "911",
+"pop": "817,610",
+"urban": "28.85",
+"hh": "7.3",
+"pop2017": "736,657",
+"growth": "1.76",
+"district": "KOHAT"
+},
+"LACHI TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,131",
+"pop": "152,682",
+"urban": "28.07",
+"hh": "7.0",
+"pop2017": "143,430",
+"growth": "1.05",
+"district": "KOHAT"
+},
+"KURRAM DISTRICT": {
+"kind": "DISTRICT",
+"area": "3,380",
+"pop": "785,434",
+"urban": "5.79",
+"hh": "8.3",
+"pop2017": "615,372",
+"growth": "4.16",
+"district": "KURRAM"
+},
+"LOWER KURRAM TEHSIL": {
+"kind": "TEHSIL",
+"area": "940",
+"pop": "150,945",
+"urban": "26.43",
+"hh": "7.8",
+"pop2017": "133,929",
+"growth": "2.02",
+"district": "KURRAM"
+},
+"UPPER KURRAM TEHSIL": {
+"kind": "TEHSIL",
+"area": "970",
+"pop": "275,819",
+"urban": "2.02",
+"hh": "8.0",
+"pop2017": "252,436",
+"growth": "1.49",
+"district": "KURRAM"
+},
+"LAKKI MARWAT DISTRICT": {
+"kind": "DISTRICT",
+"area": "3,296",
+"pop": "1,040,856",
+"urban": "9.90",
+"hh": "7.8",
+"pop2017": "902,138",
+"growth": "2.42",
+"district": "LAKKI MARWAT"
+},
+"LAKKI MARWAT TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,388",
+"pop": "341,693",
+"urban": "20.71",
+"hh": "7.5",
+"pop2017": "282,890",
+"growth": "3.21",
+"district": "LAKKI MARWAT"
+},
+"SARAI NAURANG TEHSIL": {
+"kind": "TEHSIL",
+"area": "623",
+"pop": "333,817",
+"urban": "9.68",
+"hh": "8.7",
+"pop2017": "296,870",
+"growth": "1.98",
+"district": "LAKKI MARWAT"
+},
+"LOWER CHITRAL DISTRICT": {
+"kind": "DISTRICT",
+"area": "6,458",
+"pop": "320,407",
+"urban": "17.84",
+"hh": "6.9",
+"pop2017": "278,328",
+"growth": "2.38",
+"district": "LOWER CHITRAL"
+},
+"CHITRAL SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "6,127",
+"pop": "211,374",
+"urban": "27.04",
+"hh": "6.9",
+"pop2017": "183,178",
+"growth": "2.42",
+"district": "LOWER CHITRAL"
+},
+"LOWER DIR DISTRICT": {
+"kind": "DISTRICT",
+"area": "1,583",
+"pop": "1,650,183",
+"urban": "2.90",
+"hh": "8.1",
+"pop2017": "1,436,082",
+"growth": "2.35",
+"district": "LOWER DIR"
+},
+"TEMERGARA SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "576",
+"pop": "596,173",
+"urban": "8.03",
+"hh": "8.3",
+"pop2017": "520,985",
+"growth": "2.28",
+"district": "LOWER DIR"
+},
+"LOWER KOHISTAN DISTRICT": {
+"kind": "DISTRICT",
+"area": "642",
+"pop": "340,017",
+"urban": "0.00",
+"hh": "6.4",
+"pop2017": "202,502",
+"growth": "9.05",
+"district": "LOWER KOHISTAN"
+},
+"MALAKAND DISTRICT": {
+"kind": "DISTRICT",
+"area": "952",
+"pop": "826,250",
+"urban": "8.90",
+"hh": "7.3",
+"pop2017": "717,806",
+"growth": "2.38",
+"district": "MALAKAND"
+},
+"SWAT RANI ZAI SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "672",
+"pop": "472,959",
+"urban": "15.55",
+"hh": "7.3",
+"pop2017": "414,162",
+"growth": "2.24",
+"district": "MALAKAND"
+},
+"MANSEHRA DISTRICT": {
+"kind": "DISTRICT",
+"area": "4,125",
+"pop": "1,797,177",
+"urban": "8.62",
+"hh": "6.1",
+"pop2017": "1,555,742",
+"growth": "2.44",
+"district": "MANSEHRA"
+},
+"BAFFA PAKHAL TEHSIL": {
+"kind": "TEHSIL",
+"area": "640",
+"pop": "460,090",
+"urban": "3.82",
+"hh": "6.0",
+"pop2017": "406,183",
+"growth": "2.10",
+"district": "MANSEHRA"
+},
+"MANSEHRA TEHSIL": {
+"kind": "TEHSIL",
+"area": "700",
+"pop": "723,325",
+"urban": "18.98",
+"hh": "6.0",
+"pop2017": "611,338",
+"growth": "2.85",
+"district": "MANSEHRA"
+},
+"MARDAN DISTRICT": {
+"kind": "DISTRICT",
+"area": "1,632",
+"pop": "2,744,898",
+"urban": "16.52",
+"hh": "6.8",
+"pop2017": "2,373,399",
+"growth": "2.46",
+"district": "MARDAN"
+},
+"MARDAN TEHSIL": {
+"kind": "TEHSIL",
+"area": "335",
+"pop": "1,040,893",
+"urban": "35.38",
+"hh": "6.8",
+"pop2017": "921,581",
+"growth": "2.06",
+"district": "MARDAN"
+},
+"TAKHT BHAI TEHSIL": {
+"kind": "TEHSIL",
+"area": "353",
+"pop": "727,478",
+"urban": "11.69",
+"hh": "6.7",
+"pop2017": "627,172",
+"growth": "2.51",
+"district": "MARDAN"
+},
+"MOHMAND DISTRICT": {
+"kind": "DISTRICT",
+"area": "2,296",
+"pop": "553,933",
+"urban": "0.00",
+"hh": "8.6",
+"pop2017": "474,345",
+"growth": "2.63",
+"district": "MOHMAND"
+},
+"MIRAN SHAH TEHSIL": {
+"kind": "TEHSIL",
+"area": "402",
+"pop": "123,317",
+"urban": "3.35",
+"hh": "6.4",
+"pop2017": "100,644",
+"growth": "3.45",
+"district": "MOHMAND"
+},
+"NOWSHERA DISTRICT": {
+"kind": "DISTRICT",
+"area": "1,748",
+"pop": "1,740,705",
+"urban": "19.64",
+"hh": "6.7",
+"pop2017": "1,520,995",
+"growth": "2.28",
+"district": "NOWSHERA"
+},
+"JEHANGIRA TEHSIL": {
+"kind": "TEHSIL",
+"area": "718",
+"pop": "434,984",
+"urban": "19.95",
+"hh": "6.5",
+"pop2017": "353,764",
+"growth": "3.51",
+"district": "NOWSHERA"
+},
+"NOWSHERA TEHSIL": {
+"kind": "TEHSIL",
+"area": "679",
+"pop": "796,226",
+"urban": "25.43",
+"hh": "6.8",
+"pop2017": "728,815",
+"growth": "1.49",
+"district": "NOWSHERA"
+},
+"PABBI TEHSIL": {
+"kind": "TEHSIL",
+"area": "351",
+"pop": "509,495",
+"urban": "10.34",
+"hh": "6.5",
+"pop2017": "438,416",
+"growth": "2.54",
+"district": "NOWSHERA"
+},
+"ORAKZAI DISTRICT": {
+"kind": "DISTRICT",
+"area": "1,538",
+"pop": "387,561",
+"urban": "0.00",
+"hh": "7.4",
+"pop2017": "254,303",
+"growth": "7.30",
+"district": "ORAKZAI"
+},
+"PESHAWAR DISTRICT": {
+"kind": "DISTRICT",
+"area": "1,518",
+"pop": "4,758,762",
+"urban": "40.05",
+"hh": "6.8",
+"pop2017": "4,331,959",
+"growth": "1.58",
+"district": "PESHAWAR"
+},
+"PESHAWAR TEHSIL": {
+"kind": "TEHSIL",
+"area": "176",
+"pop": "2,113,596",
+"urban": "90.18",
+"hh": "6.9",
+"pop2017": "2,183,787",
+"growth": null,
+"district": "PESHAWAR"
+},
+"SHANGLA DISTRICT": {
+"kind": "DISTRICT",
+"area": "1,586",
+"pop": "891,252",
+"urban": "0.00",
+"hh": "7.0",
+"pop2017": "759,609",
+"growth": "2.71",
+"district": "SHANGLA"
+},
+"SWABI DISTRICT": {
+"kind": "DISTRICT",
+"area": "1,543",
+"pop": "1,894,600",
+"urban": "17.93",
+"hh": "6.7",
+"pop2017": "1,625,477",
+"growth": "2.59",
+"district": "SWABI"
+},
+"LAHOR TEHSIL": {
+"kind": "TEHSIL",
+"area": "318",
+"pop": "354,383",
+"urban": "13.07",
+"hh": "6.6",
+"pop2017": "305,782",
+"growth": "2.50",
+"district": "SWABI"
+},
+"RAZAR TEHSIL": {
+"kind": "TEHSIL",
+"area": "418",
+"pop": "682,303",
+"urban": "4.07",
+"hh": "6.9",
+"pop2017": "584,876",
+"growth": "2.61",
+"district": "SWABI"
+},
+"SWABI TEHSIL": {
+"kind": "TEHSIL",
+"area": "389",
+"pop": "475,352",
+"urban": "40.12",
+"hh": "7.0",
+"pop2017": "406,321",
+"growth": "2.66",
+"district": "SWABI"
+},
+"TOPI TEHSIL": {
+"kind": "TEHSIL",
+"area": "418",
+"pop": "382,562",
+"urban": "19.57",
+"hh": "6.4",
+"pop2017": "328,498",
+"growth": "2.58",
+"district": "SWABI"
+},
+"SWAT DISTRICT": {
+"kind": "DISTRICT",
+"area": "5,337",
+"pop": "2,687,384",
+"urban": "29.56",
+"hh": "7.0",
+"pop2017": "2,308,624",
+"growth": "2.57",
+"district": "SWAT"
+},
+"BABUZAI TEHSIL": {
+"kind": "TEHSIL",
+"area": "297",
+"pop": "696,697",
+"urban": "51.83",
+"hh": "6.6",
+"pop2017": "599,324",
+"growth": "2.55",
+"district": "SWAT"
+},
+"BARIKOT TEHSIL": {
+"kind": "TEHSIL",
+"area": "419",
+"pop": "220,148",
+"urban": "52.26",
+"hh": "7.0",
+"pop2017": "183,777",
+"growth": "3.06",
+"district": "SWAT"
+},
+"BEHRAIN TEHSIL": {
+"kind": "TEHSIL",
+"area": "2,899",
+"pop": "270,623",
+"urban": "28.35",
+"hh": "7.1",
+"pop2017": "248,422",
+"growth": "1.44",
+"district": "SWAT"
+},
+"KABAL TEHSIL": {
+"kind": "TEHSIL",
+"area": "485",
+"pop": "480,827",
+"urban": "27.57",
+"hh": "6.9",
+"pop2017": "420,001",
+"growth": "2.29",
+"district": "SWAT"
+},
+"KHAWAZAKHELA TEHSIL": {
+"kind": "TEHSIL",
+"area": "392",
+"pop": "307,300",
+"urban": "18.59",
+"hh": "7.2",
+"pop2017": "265,500",
+"growth": "2.47",
+"district": "SWAT"
+},
+"MATTA TEHSIL": {
+"kind": "TEHSIL",
+"area": "684",
+"pop": "552,431",
+"urban": "9.38",
+"hh": "7.5",
+"pop2017": "465,599",
+"growth": "2.90",
+"district": "SWAT"
+},
+"TANK DISTRICT": {
+"kind": "DISTRICT",
+"area": "2,900",
+"pop": "470,293",
+"urban": "10.46",
+"hh": "6.6",
+"pop2017": "427,044",
+"growth": "1.63",
+"district": "TANK"
+},
+"TANK TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,679",
+"pop": "425,499",
+"urban": "11.56",
+"hh": "6.7",
+"pop2017": "390,626",
+"growth": "1.44",
+"district": "TANK"
+},
+"TORGHAR DISTRICT": {
+"kind": "DISTRICT",
+"area": "454",
+"pop": "200,445",
+"urban": "0.00",
+"hh": "6.8",
+"pop2017": "171,349",
+"growth": "2.66",
+"district": "TORGHAR"
+},
+"UPPER CHITRAL DISTRICT": {
+"kind": "DISTRICT",
+"area": "8,392",
+"pop": "195,528",
+"urban": "0.00",
+"hh": "7.4",
+"pop2017": "169,297",
+"growth": "2.44",
+"district": "UPPER CHITRAL"
+},
+"UPPER DIR DISTRICT": {
+"kind": "DISTRICT",
+"area": "3,699",
+"pop": "1,083,566",
+"urban": "4.42",
+"hh": "7.2",
+"pop2017": "947,401",
+"growth": "2.27",
+"district": "UPPER DIR"
+},
+"DIR SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "1,012",
+"pop": "384,667",
+"urban": "12.44",
+"hh": "7.5",
+"pop2017": "335,029",
+"growth": "2.34",
+"district": "UPPER DIR"
+},
+"UPPER KOHISTAN DISTRICT": {
+"kind": "DISTRICT",
+"area": "5,440",
+"pop": "422,947",
+"urban": "0.00",
+"hh": "5.9",
+"pop2017": "307,286",
+"growth": "5.48",
+"district": "UPPER KOHISTAN"
+}
+},
+"balochistan": {
+"AWARAN DISTRICT": {
+"kind": "DISTRICT",
+"area": "29,510",
+"pop": "178,958",
+"urban": "26.17",
+"hh": "6.4",
+"pop2017": "121,821",
+"growth": "6.64",
+"district": "AWARAN"
+},
+"AWARAN SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "13,075",
+"pop": "45,774",
+"urban": "62.87",
+"hh": "7.0",
+"pop2017": "30,345",
+"growth": "7.11",
+"district": "AWARAN"
+},
+"MASHKAI TEHSIL": {
+"kind": "TEHSIL",
+"area": "2,418",
+"pop": "45,938",
+"urban": "39.31",
+"hh": "6.6",
+"pop2017": "33,076",
+"growth": "5.64",
+"district": "AWARAN"
+},
+"BARKHAN DISTRICT": {
+"kind": "DISTRICT",
+"area": "3,514",
+"pop": "210,249",
+"urban": "6.86",
+"hh": "9.1",
+"pop2017": "171,025",
+"growth": "3.51",
+"district": "BARKHAN"
+},
+"BARKHAN TEHSIL": {
+"kind": "TEHSIL",
+"area": "3,514",
+"pop": "210,249",
+"urban": "6.86",
+"hh": "9.1",
+"pop2017": "171,025",
+"growth": "3.51",
+"district": "BARKHAN"
+},
+"CHAGAI DISTRICT": {
+"kind": "DISTRICT",
+"area": "44,748",
+"pop": "269,192",
+"urban": "7.45",
+"hh": "7.0",
+"pop2017": "226,517",
+"growth": "2.93",
+"district": "CHAGAI"
+},
+"DALBANDIN SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "7,791",
+"pop": "122,918",
+"urban": "16.31",
+"hh": "6.9",
+"pop2017": "106,643",
+"growth": "2.40",
+"district": "CHAGAI"
+},
+"CHAMAN DISTRICT": {
+"kind": "DISTRICT",
+"area": "1,341",
+"pop": "466,218",
+"urban": "27.91",
+"hh": "7.5",
+"pop2017": "434,561",
+"growth": "1.18",
+"district": "CHAMAN"
+},
+"CHAMAN CITY SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "22",
+"pop": "130,139",
+"urban": "100.00",
+"hh": "6.8",
+"pop2017": "123,206",
+"growth": "0.92",
+"district": "CHAMAN"
+},
+"DERA BUGTI DISTRICT": {
+"kind": "DISTRICT",
+"area": "10,160",
+"pop": "355,274",
+"urban": "30.52",
+"hh": "5.7",
+"pop2017": "313,110",
+"growth": "2.13",
+"district": "DERA BUGTI"
+},
+"DERA BUGTI SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "927",
+"pop": "50,943",
+"urban": "56.69",
+"hh": "5.3",
+"pop2017": "48,415",
+"growth": "0.85",
+"district": "DERA BUGTI"
+},
+"SUI SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "3,858",
+"pop": "126,725",
+"urban": "62.79",
+"hh": "5.2",
+"pop2017": "120,975",
+"growth": "0.78",
+"district": "DERA BUGTI"
+},
+"DUKI DISTRICT": {
+"kind": "DISTRICT",
+"area": "4,233",
+"pop": "205,044",
+"urban": "4.77",
+"hh": "4.7",
+"pop2017": "152,977",
+"growth": "5.02",
+"district": "DUKI"
+},
+"DUKI SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "938",
+"pop": "137,294",
+"urban": "7.13",
+"hh": "5.1",
+"pop2017": "100,604",
+"growth": "5.33",
+"district": "DUKI"
+},
+"GWADAR DISTRICT": {
+"kind": "DISTRICT",
+"area": "12,637",
+"pop": "305,160",
+"urban": "52.12",
+"hh": "6.0",
+"pop2017": "262,253",
+"growth": "2.56",
+"district": "GWADAR"
+},
+"GWADAR SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "2,590",
+"pop": "147,673",
+"urban": "47.98",
+"hh": "6.0",
+"pop2017": "137,695",
+"growth": "1.18",
+"district": "GWADAR"
+},
+"JIWANI TEHSIL": {
+"kind": "TEHSIL",
+"area": "454",
+"pop": "35,004",
+"urban": "72.37",
+"hh": "7.9",
+"pop2017": "26,691",
+"growth": "4.64",
+"district": "GWADAR"
+},
+"ORMARA TEHSIL": {
+"kind": "TEHSIL",
+"area": "2,796",
+"pop": "27,832",
+"urban": "69.55",
+"hh": "5.1",
+"pop2017": "25,634",
+"growth": "1.38",
+"district": "GWADAR"
+},
+"PASNI SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "4,822",
+"pop": "74,128",
+"urban": "58.67",
+"hh": "5.4",
+"pop2017": "61,347",
+"growth": "3.21",
+"district": "GWADAR"
+},
+"HARNAI DISTRICT": {
+"kind": "DISTRICT",
+"area": "2,492",
+"pop": "127,571",
+"urban": "26.21",
+"hh": "7.7",
+"pop2017": "97,052",
+"growth": "4.68",
+"district": "HARNAI"
+},
+"HARNAI SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "259",
+"pop": "82,001",
+"urban": "17.41",
+"hh": "8.0",
+"pop2017": "64,056",
+"growth": "4.21",
+"district": "HARNAI"
+},
+"SHAHRIG TEHSIL": {
+"kind": "TEHSIL",
+"area": "614",
+"pop": "29,005",
+"urban": "66.04",
+"hh": "7.2",
+"pop2017": "20,717",
+"growth": "5.79",
+"district": "HARNAI"
+},
+"JAFFARABAD DISTRICT": {
+"kind": "DISTRICT",
+"area": "1,643",
+"pop": "594,558",
+"urban": "27.48",
+"hh": "7.2",
+"pop2017": "513,972",
+"growth": "2.46",
+"district": "JAFFARABAD"
+},
+"JHAT PAT SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "690",
+"pop": "302,498",
+"urban": "32.65",
+"hh": "8.0",
+"pop2017": "253,107",
+"growth": "3.02",
+"district": "JAFFARABAD"
+},
+"JHAL MAGSI DISTRICT": {
+"kind": "DISTRICT",
+"area": "3,615",
+"pop": "203,368",
+"urban": "11.87",
+"hh": "6.5",
+"pop2017": "148,900",
+"growth": "5.35",
+"district": "JHAL MAGSI"
+},
+"GANDAWA TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,344",
+"pop": "71,230",
+"urban": "33.88",
+"hh": "6.4",
+"pop2017": "51,180",
+"growth": "5.68",
+"district": "JHAL MAGSI"
+},
+"KACHHI DISTRICT": {
+"kind": "DISTRICT",
+"area": "5,682",
+"pop": "442,674",
+"urban": "18.17",
+"hh": "8.8",
+"pop2017": "308,000",
+"growth": "6.25",
+"district": "KACHHI"
+},
+"BHAG SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "1,308",
+"pop": "83,687",
+"urban": "22.27",
+"hh": "5.1",
+"pop2017": "71,527",
+"growth": "2.66",
+"district": "KACHHI"
+},
+"DHADAR SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "976",
+"pop": "49,836",
+"urban": "34.67",
+"hh": "6.9",
+"pop2017": "42,389",
+"growth": "2.74",
+"district": "KACHHI"
+},
+"MACH SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "708",
+"pop": "75,272",
+"urban": "59.17",
+"hh": "13.2",
+"pop2017": "39,629",
+"growth": "11.32",
+"district": "KACHHI"
+},
+"KALAT DISTRICT": {
+"kind": "DISTRICT",
+"area": "7,654",
+"pop": "271,560",
+"urban": "16.36",
+"hh": "8.2",
+"pop2017": "203,565",
+"growth": "4.93",
+"district": "KALAT"
+},
+"KALAT SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "3,788",
+"pop": "167,405",
+"urban": "26.55",
+"hh": "8.3",
+"pop2017": "121,458",
+"growth": "5.51",
+"district": "KALAT"
+},
+"KECH DISTRICT": {
+"kind": "DISTRICT",
+"area": "22,539",
+"pop": "1,060,931",
+"urban": "36.44",
+"hh": "4.1",
+"pop2017": "907,182",
+"growth": "2.65",
+"district": "KECH"
+},
+"BULAIDA SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "1,997",
+"pop": "107,847",
+"urban": "63.75",
+"hh": "4.4",
+"pop2017": "77,148",
+"growth": "5.76",
+"district": "KECH"
+},
+"TUMP SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "1,945",
+"pop": "147,041",
+"urban": "33.51",
+"hh": "3.7",
+"pop2017": "146,008",
+"growth": "0.12",
+"district": "KECH"
+},
+"TURBAT SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "9,742",
+"pop": "470,605",
+"urban": "57.08",
+"hh": "4.6",
+"pop2017": "416,608",
+"growth": "2.06",
+"district": "KECH"
+},
+"KHARAN DISTRICT": {
+"kind": "DISTRICT",
+"area": "14,958",
+"pop": "260,352",
+"urban": "31.04",
+"hh": "7.2",
+"pop2017": "162,766",
+"growth": "8.17",
+"district": "KHARAN"
+},
+"KHARAN SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "2,941",
+"pop": "104,035",
+"urban": "77.67",
+"hh": "7.4",
+"pop2017": "66,438",
+"growth": "7.78",
+"district": "KHARAN"
+},
+"KHUZDAR DISTRICT": {
+"kind": "DISTRICT",
+"area": "35,380",
+"pop": "997,214",
+"urban": "36.54",
+"hh": "6.1",
+"pop2017": "798,896",
+"growth": "3.78",
+"district": "KHUZDAR"
+},
+"KHUZDAR SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "6,112",
+"pop": "359,358",
+"urban": "60.69",
+"hh": "6.6",
+"pop2017": "299,464",
+"growth": "3.09",
+"district": "KHUZDAR"
+},
+"NAL SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "1,791",
+"pop": "103,631",
+"urban": "46.78",
+"hh": "6.7",
+"pop2017": "85,249",
+"growth": "3.32",
+"district": "KHUZDAR"
+},
+"WADH SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "2,118",
+"pop": "116,229",
+"urban": "23.12",
+"hh": "5.3",
+"pop2017": "100,115",
+"growth": "2.53",
+"district": "KHUZDAR"
+},
+"ZEHRI SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "4,021",
+"pop": "150,928",
+"urban": "46.98",
+"hh": "7.6",
+"pop2017": "101,987",
+"growth": "6.77",
+"district": "KHUZDAR"
+},
+"KILLA ABDULLAH DISTRICT": {
+"kind": "DISTRICT",
+"area": "3,553",
+"pop": "361,971",
+"urban": "9.78",
+"hh": "5.3",
+"pop2017": "323,793",
+"growth": "1.88",
+"district": "KILLA ABDULLAH"
+},
+"KILLA SAIFULLAH DISTRICT": {
+"kind": "DISTRICT",
+"area": "6,831",
+"pop": "380,200",
+"urban": "16.88",
+"hh": "5.4",
+"pop2017": "342,932",
+"growth": "1.74",
+"district": "KILLA SAIFULLAH"
+},
+"MUSLIM BAGH TEHSIL": {
+"kind": "TEHSIL",
+"area": "943",
+"pop": "83,795",
+"urban": "34.77",
+"hh": "5.9",
+"pop2017": "78,711",
+"growth": "1.05",
+"district": "KILLA SAIFULLAH"
+},
+"KOHLU DISTRICT": {
+"kind": "DISTRICT",
+"area": "7,610",
+"pop": "260,220",
+"urban": "7.29",
+"hh": "6.8",
+"pop2017": "213,933",
+"growth": "3.33",
+"district": "KOHLU"
+},
+"KOHLU SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "231",
+"pop": "48,050",
+"urban": "39.50",
+"hh": "5.6",
+"pop2017": "45,152",
+"growth": "1.05",
+"district": "KOHLU"
+},
+"LASBELA DISTRICT": {
+"kind": "DISTRICT",
+"area": "15,153",
+"pop": "680,977",
+"urban": "48.55",
+"hh": "5.8",
+"pop2017": "576,271",
+"growth": "2.83",
+"district": "LASBELA"
+},
+"BELA SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "1,527",
+"pop": "129,264",
+"urban": "22.73",
+"hh": "6.5",
+"pop2017": "104,727",
+"growth": "3.58",
+"district": "LASBELA"
+},
+"DUREJI SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "2,813",
+"pop": "52,236",
+"urban": "30.03",
+"hh": "5.2",
+"pop2017": "45,541",
+"growth": "2.32",
+"district": "LASBELA"
+},
+"GADDANI TEHSIL": {
+"kind": "TEHSIL",
+"area": "419",
+"pop": "29,215",
+"urban": "60.04",
+"hh": "4.4",
+"pop2017": "24,593",
+"growth": "2.92",
+"district": "LASBELA"
+},
+"HUB SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "868",
+"pop": "233,443",
+"urban": "83.82",
+"hh": "6.1",
+"pop2017": "205,487",
+"growth": "2.15",
+"district": "LASBELA"
+},
+"SONMIANI/WINDER TEHSIL": {
+"kind": "TEHSIL",
+"area": "2,616",
+"pop": "67,991",
+"urban": "51.84",
+"hh": "4.7",
+"pop2017": "64,019",
+"growth": "1.01",
+"district": "LASBELA"
+},
+"UTHAL SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "1,756",
+"pop": "88,933",
+"urban": "41.68",
+"hh": "6.2",
+"pop2017": "72,290",
+"growth": "3.52",
+"district": "LASBELA"
+},
+"LORALAI DISTRICT": {
+"kind": "DISTRICT",
+"area": "3,785",
+"pop": "272,432",
+"urban": "21.88",
+"hh": "7.1",
+"pop2017": "244,446",
+"growth": "1.83",
+"district": "LORALAI"
+},
+"BORI SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "2,203",
+"pop": "225,642",
+"urban": "26.41",
+"hh": "7.2",
+"pop2017": "203,579",
+"growth": "1.73",
+"district": "LORALAI"
+},
+"MASTUNG DISTRICT": {
+"kind": "DISTRICT",
+"area": "3,308",
+"pop": "313,271",
+"urban": "12.89",
+"hh": "7.1",
+"pop2017": "265,676",
+"growth": "2.79",
+"district": "MASTUNG"
+},
+"MASTUNG SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "692",
+"pop": "162,319",
+"urban": "24.87",
+"hh": "7.2",
+"pop2017": "133,427",
+"growth": "3.33",
+"district": "MASTUNG"
+},
+"MUSAKHEL DISTRICT": {
+"kind": "DISTRICT",
+"area": "5,728",
+"pop": "182,275",
+"urban": "8.67",
+"hh": "5.8",
+"pop2017": "167,243",
+"growth": "1.45",
+"district": "MUSAKHEL"
+},
+"MUSAKHEL TEHSIL": {
+"kind": "TEHSIL",
+"area": "658",
+"pop": "49,809",
+"urban": "31.73",
+"hh": "6.5",
+"pop2017": "45,509",
+"growth": "1.52",
+"district": "MUSAKHEL"
+},
+"NASIRABAD DISTRICT": {
+"kind": "DISTRICT",
+"area": "3,387",
+"pop": "563,315",
+"urban": "18.99",
+"hh": "6.4",
+"pop2017": "489,779",
+"growth": "2.37",
+"district": "NASIRABAD"
+},
+"NUSHKI DISTRICT": {
+"kind": "DISTRICT",
+"area": "5,797",
+"pop": "207,834",
+"urban": "23.37",
+"hh": "6.6",
+"pop2017": "178,947",
+"growth": "2.53",
+"district": "NUSHKI"
+},
+"NUSHKI SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "3,731",
+"pop": "190,905",
+"urban": "25.44",
+"hh": "6.7",
+"pop2017": "162,820",
+"growth": "2.70",
+"district": "NUSHKI"
+},
+"PANJGUR DISTRICT": {
+"kind": "DISTRICT",
+"area": "16,891",
+"pop": "509,781",
+"urban": "30.93",
+"hh": "4.3",
+"pop2017": "315,353",
+"growth": "8.36",
+"district": "PANJGUR"
+},
+"PANJGUR SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "2,945",
+"pop": "392,277",
+"urban": "40.20",
+"hh": "4.9",
+"pop2017": "246,676",
+"growth": "8.06",
+"district": "PANJGUR"
+},
+"PISHIN DISTRICT": {
+"kind": "DISTRICT",
+"area": "6,218",
+"pop": "835,482",
+"urban": "29.18",
+"hh": "5.6",
+"pop2017": "736,903",
+"growth": "2.12",
+"district": "PISHIN"
+},
+"HURRAM ZAI SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "418",
+"pop": "147,844",
+"urban": "29.05",
+"hh": "5.9",
+"pop2017": "132,102",
+"growth": "1.90",
+"district": "PISHIN"
+},
+"KAREZAT SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "1,240",
+"pop": "59,756",
+"urban": "78.12",
+"hh": "6.5",
+"pop2017": "64,058",
+"growth": null,
+"district": "PISHIN"
+},
+"PISHIN SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "1,199",
+"pop": "325,641",
+"urban": "33.06",
+"hh": "5.0",
+"pop2017": "307,610",
+"growth": "0.96",
+"district": "PISHIN"
+},
+"SARANAN TEHSIL": {
+"kind": "TEHSIL",
+"area": "83",
+"pop": "65,157",
+"urban": "71.38",
+"hh": "5.6",
+"pop2017": "56,302",
+"growth": "2.47",
+"district": "PISHIN"
+},
+"QUETTA DISTRICT": {
+"kind": "DISTRICT",
+"area": "3,447",
+"pop": "2,595,492",
+"urban": "60.32",
+"hh": "8.9",
+"pop2017": "2,269,473",
+"growth": "2.27",
+"district": "QUETTA"
+},
+"SUB-DIVISION SADDAR TEHSIL": {
+"kind": "TEHSIL",
+"area": "1,283",
+"pop": "330,421",
+"urban": "62.48",
+"hh": "9.5",
+"pop2017": "267,713",
+"growth": "3.58",
+"district": "QUETTA"
+},
+"SHERANI DISTRICT": {
+"kind": "DISTRICT",
+"area": "4,310",
+"pop": "191,687",
+"urban": "0.00",
+"hh": "5.3",
+"pop2017": "152,952",
+"growth": "3.84",
+"district": "SHERANI"
+},
+"SIBI DISTRICT": {
+"kind": "DISTRICT",
+"area": "7,121",
+"pop": "224,148",
+"urban": "30.92",
+"hh": "7.1",
+"pop2017": "179,751",
+"growth": "3.76",
+"district": "SIBI"
+},
+"SIBI SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "1,949",
+"pop": "154,970",
+"urban": "44.72",
+"hh": "7.0",
+"pop2017": "125,013",
+"growth": "3.66",
+"district": "SIBI"
+},
+"SOHBATPUR DISTRICT": {
+"kind": "DISTRICT",
+"area": "802",
+"pop": "240,106",
+"urban": "6.13",
+"hh": "7.1",
+"pop2017": "200,426",
+"growth": "3.06",
+"district": "SOHBATPUR"
+},
+"SOHBATPUR SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "334",
+"pop": "64,844",
+"urban": "22.71",
+"hh": "7.7",
+"pop2017": "53,434",
+"growth": "3.29",
+"district": "SOHBATPUR"
+},
+"SURAB DISTRICT": {
+"kind": "DISTRICT",
+"area": "762",
+"pop": "279,038",
+"urban": "13.07",
+"hh": "5.4",
+"pop2017": "208,493",
+"growth": "4.99",
+"district": "SURAB"
+},
+"SURAB SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "233",
+"pop": "95,469",
+"urban": "38.20",
+"hh": "6.2",
+"pop2017": "81,921",
+"growth": "2.59",
+"district": "SURAB"
+},
+"WASHUK DISTRICT": {
+"kind": "DISTRICT",
+"area": "33,093",
+"pop": "302,623",
+"urban": "13.58",
+"hh": "6.1",
+"pop2017": "175,712",
+"growth": "9.51",
+"district": "WASHUK"
+},
+"WASHUK SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "7,494",
+"pop": "55,585",
+"urban": "73.95",
+"hh": "5.7",
+"pop2017": "34,787",
+"growth": "8.15",
+"district": "WASHUK"
+},
+"ZHOB DISTRICT": {
+"kind": "DISTRICT",
+"area": "15,987",
+"pop": "355,692",
+"urban": "13.21",
+"hh": "7.4",
+"pop2017": "310,354",
+"growth": "2.30",
+"district": "ZHOB"
+},
+"ZHOB SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "9,322",
+"pop": "284,620",
+"urban": "16.50",
+"hh": "7.3",
+"pop2017": "253,106",
+"growth": "1.98",
+"district": "ZHOB"
+},
+"ZIARAT DISTRICT": {
+"kind": "DISTRICT",
+"area": "3,301",
+"pop": "189,535",
+"urban": "26.06",
+"hh": "8.2",
+"pop2017": "160,095",
+"growth": "2.86",
+"district": "ZIARAT"
+},
+"SINJAWI SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "1,812",
+"pop": "110,623",
+"urban": "41.17",
+"hh": "9.1",
+"pop2017": "92,497",
+"growth": "3.04",
+"district": "ZIARAT"
+},
+"ZIARAT SUB-DIVISION": {
+"kind": "SUB-DIVISION",
+"area": "1,489",
+"pop": "78,912",
+"urban": "4.90",
+"hh": "7.2",
+"pop2017": "67,598",
+"growth": "2.62",
+"district": "ZIARAT"
+}
+}
+}
