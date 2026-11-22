@@ -2,7 +2,7 @@
 
 653 `blogs/tax-consultant-*` pages have under 800 words of article text (median 458). Goal (owner, 22 Nov 2026; the 1,000-word rule is dropped): give every page **4-5 official local facts**, a **Short answer** box and **unique content**, link it to its district/province hub, and lift it out of thin / duplicate / doorway territory **without any penalty, de-indexing or traffic drop**. Quality must be out-class; word count follows the facts, never padding.
 
-The pages are split into 10 parts in `batches.json`. Do **one part per session**, in order, and wait **7 days** between parts while watching Search Console.
+The pages are split into 13 parts (11–13 added from the A7 audit) in `batches.json`. Do **one part per session**, in order, and wait **7 days** between parts while watching Search Console.
 
 ## The parts
 
@@ -15,7 +15,9 @@ The pages are split into 10 parts in `batches.json`. Do **one part per session**
 | 5 | 29 | KP, Gilgit-Baltistan and AJK towns | expand |
 | 6 | 67 | Islamabad sectors and Rawalpindi areas | area (pilot 10 first) |
 | 7 | 99 | Karachi, Faisalabad, Peshawar, Multan, Quetta, Hyderabad areas | area |
-| 8–10 | 95 / 95 / 93 | Lahore areas | area |
+| 8–10 | 96 / 95 / 93 | Lahore areas | area |
+| 11 | 90 | `income-tax-filing-<city>` (return-filing intent) | expand-intent |
+| 12–13 | 59 / 58 | `ntn-registration-<area>` (registration intent) | expand-intent |
 
 Towns first because each town has its own official facts (district, FBR office, provincial authority). Neighbourhood ("area") pages last, because most share one city's facts and are the main doorway risk.
 
@@ -43,6 +45,8 @@ Then: Short answer box at the top (local, one paragraph), a "How we help from La
 ## Already done for all parts
 - Hub links: every city page links to its city hub (areas) or province guide / division city (towns), and hubs list their pages (`hubs.py`, idempotent; run it after any new city page).
 - Firm experience block on every guide (`content/ui-2026/experience.py`).
+
+**expand-intent (parts 11–13).** These cities also have a `tax-consultant-` page, so each family must keep its own job and not compete: `income-tax-filing-` pages answer *how and where a return is filed for that place* (FBR RTO/zone, due date, local withholding situations), `ntn-registration-` pages answer *how to get an NTN there* (IRIS steps, documents, local cases). Add 4-5 official facts for that intent, a Short answer, and sideways links between the city's three pages (consultant ↔ filing ↔ NTN). Never repeat the consultant page's text.
 
 ## Penalty-safety rules (every part)
 
@@ -74,3 +78,6 @@ Then: Short answer box at the top (local, one paragraph), a "How we help from La
 | 8 | not started | | |
 | 9 | not started | | |
 | 10 | not started | | |
+| 11 | not started | | |
+| 12 | not started | | |
+| 13 | not started | | |
