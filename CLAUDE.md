@@ -13,7 +13,8 @@ Static HTML site on Vercel. Tax site at the root; a separate web-development sec
 - Owner confirmed (Nov 2026): same-day work, 24-hour turnaround and "best tax consultant" wording on existing pages are accurate and stay; do not remove them. Still never claim 24/7.
 
 ## Blog standards (owner's decisions, Nov 2026)
-- Length: topic blogs at least 1,600–1,700 words of real content (no padding); city/regional pages at least 1,250. Longer is fine when the facts support it.
+- Length: topic blogs at least 1,600–1,700 words of real content (no padding); city/regional pages at least 1,000 (owner, 22 Nov 2026; aim 1,250 where facts support it). Longer is fine when the facts support it.
+- City pages programme: 653 thin `tax-consultant-*` pages, 10 parts. Plan and rules: `content/city-expand/PLAN.md`; page lists: `content/city-expand/batches.json`. One part per session, 7 days apart; update the Progress table in PLAN.md after each part.
 - Every blog is informational *and* commercial: a "done for you" box near the top and a service section (what we do, risks of DIY, how it works, fee) with a WhatsApp CTA. Use only fees published on /pricing; otherwise "fixed fee confirmed before work starts".
 - Sales tax (owner's decision, Nov 2026): new blogs may promote sales tax **registration** (FBR STRN, PRA and other provincial registration) but not sales tax return filing for now. Main focus stays DNFBP and sole proprietorship clients.
 - No doorway pages: city pages only where there are genuinely local facts (e.g. one per FBR DNFBP directorate), overlap with other pages under 15%.
