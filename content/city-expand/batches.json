@@ -59,7 +59,6 @@
     "tax-consultant-hafizabad",
     "tax-consultant-hazro",
     "tax-consultant-isa-khel",
-    "tax-consultant-islamabad",
     "tax-consultant-jalalpur-pirwala",
     "tax-consultant-jaranwala",
     "tax-consultant-jhang",
@@ -87,7 +86,8 @@
     "tax-consultant-fateh-jang",
     "tax-consultant-gujrat",
     "tax-consultant-jhelum"
-   ]
+   ],
+   "status": "done 22 Nov 2026: 47 towns got Short answer, Local Tax Facts table (PBS Census 2023, FBR offices, S.R.O. 1497, PRA), 2 local FAQs, district hub link; kamonke->kamoke and khanpur-ryk->khanpur merged (301); islamabad moved to part 6"
   },
   {
    "n": 3,
@@ -313,7 +313,8 @@
     "tax-consultant-tarlai-islamabad",
     "tax-consultant-wah-cantt-rawalpindi",
     "tax-consultant-westridge-rawalpindi",
-    "tax-consultant-zero-point-islamabad"
+    "tax-consultant-zero-point-islamabad",
+    "tax-consultant-islamabad"
    ]
   },
   {
