@@ -7,48 +7,30 @@
    "name": "Safety first: duplicate pairs and odd pages",
    "method": "merge",
    "pages": [
-    "tax-consultant-battagram",
     "tax-consultant-battagram-city",
-    "tax-consultant-bhimber",
     "tax-consultant-bhimber-city",
-    "tax-consultant-chitral",
     "tax-consultant-chitral-city",
-    "tax-consultant-daska",
     "tax-consultant-daska-city-centre",
-    "tax-consultant-dera-ghazi-khan",
     "tax-consultant-dg-khan",
-    "tax-consultant-dha-lahore",
     "tax-consultant-dha-lahore-area",
     "tax-consultant-dir-lower",
-    "tax-consultant-faisalabad",
     "tax-consultant-faisalabad-district",
-    "tax-consultant-fateh-jang",
     "tax-consultant-fatehjang",
-    "tax-consultant-gujrat",
     "tax-consultant-gujrat-city-centre",
-    "tax-consultant-hangu",
     "tax-consultant-hangu-city",
-    "tax-consultant-hunza",
     "tax-consultant-hunza-city",
-    "tax-consultant-jhelum",
     "tax-consultant-jhelum-city",
-    "tax-consultant-layyah",
     "tax-consultant-layyah-city",
-    "tax-consultant-lower-dir",
-    "tax-consultant-mandi-bahauddin",
     "tax-consultant-mandi-bahauddin-city",
-    "tax-consultant-mansehra",
     "tax-consultant-mansehra-city",
-    "tax-consultant-muzaffargarh",
     "tax-consultant-muzaffargarh-city",
-    "tax-consultant-tando-adam",
     "tax-consultant-tando-adam-city",
-    "tax-consultant-vehari",
     "tax-consultant-vehari-city",
     "tax-consultant-builders-developers-pakistan",
     "tax-consultant-fees-pakistan",
     "tax-consultant-los-angeles-pakistanis"
-   ]
+   ],
+   "status": "done 22 Nov 2026: 19 duplicates 301-redirected; the 19 main pages moved to the parts of their region for facts"
   },
   {
    "n": 2,
@@ -98,7 +80,13 @@
     "tax-consultant-kot-radha-kishan",
     "tax-consultant-kunjah",
     "tax-consultant-lalamusa",
-    "tax-consultant-liaquatpur"
+    "tax-consultant-liaquatpur",
+    "tax-consultant-daska",
+    "tax-consultant-dera-ghazi-khan",
+    "tax-consultant-faisalabad",
+    "tax-consultant-fateh-jang",
+    "tax-consultant-gujrat",
+    "tax-consultant-jhelum"
    ]
   },
   {
@@ -151,7 +139,11 @@
     "tax-consultant-wazirabad",
     "tax-consultant-yazman",
     "tax-consultant-zafarwal",
-    "tax-consultant-zhob"
+    "tax-consultant-zhob",
+    "tax-consultant-layyah",
+    "tax-consultant-mandi-bahauddin",
+    "tax-consultant-muzaffargarh",
+    "tax-consultant-vehari"
    ]
   },
   {
@@ -203,7 +195,8 @@
     "tax-consultant-tharparkar",
     "tax-consultant-thatta",
     "tax-consultant-turbat",
-    "tax-consultant-umerkot"
+    "tax-consultant-umerkot",
+    "tax-consultant-tando-adam"
    ]
   },
   {
@@ -239,7 +232,14 @@
     "tax-consultant-swabi",
     "tax-consultant-swat",
     "tax-consultant-tank",
-    "tax-consultant-topi"
+    "tax-consultant-topi",
+    "tax-consultant-battagram",
+    "tax-consultant-bhimber",
+    "tax-consultant-chitral",
+    "tax-consultant-hangu",
+    "tax-consultant-hunza",
+    "tax-consultant-lower-dir",
+    "tax-consultant-mansehra"
    ]
   },
   {
@@ -521,7 +521,8 @@
     "tax-consultant-green-town-lahore",
     "tax-consultant-gt-road-lahore",
     "tax-consultant-gulberg-1-lahore",
-    "tax-consultant-gulberg-2-lahore"
+    "tax-consultant-gulberg-2-lahore",
+    "tax-consultant-dha-lahore"
    ]
   },
   {

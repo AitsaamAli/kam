@@ -3243,6 +3243,101 @@
       "source": "/blogs/bank-profit-tax-pakistan-2026",
       "destination": "/blogs/tax-on-bank-profit-pakistan-2026",
       "permanent": true
+    },
+    {
+      "source": "/blogs/tax-consultant-battagram-city",
+      "destination": "/blogs/tax-consultant-battagram",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/tax-consultant-bhimber-city",
+      "destination": "/blogs/tax-consultant-bhimber",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/tax-consultant-chitral-city",
+      "destination": "/blogs/tax-consultant-chitral",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/tax-consultant-daska-city-centre",
+      "destination": "/blogs/tax-consultant-daska",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/tax-consultant-dg-khan",
+      "destination": "/blogs/tax-consultant-dera-ghazi-khan",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/tax-consultant-dha-lahore-area",
+      "destination": "/blogs/tax-consultant-dha-lahore",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/tax-consultant-faisalabad-district",
+      "destination": "/blogs/tax-consultant-faisalabad",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/tax-consultant-fatehjang",
+      "destination": "/blogs/tax-consultant-fateh-jang",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/tax-consultant-gujrat-city-centre",
+      "destination": "/blogs/tax-consultant-gujrat",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/tax-consultant-hangu-city",
+      "destination": "/blogs/tax-consultant-hangu",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/tax-consultant-hunza-city",
+      "destination": "/blogs/tax-consultant-hunza",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/tax-consultant-jhelum-city",
+      "destination": "/blogs/tax-consultant-jhelum",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/tax-consultant-layyah-city",
+      "destination": "/blogs/tax-consultant-layyah",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/tax-consultant-dir-lower",
+      "destination": "/blogs/tax-consultant-lower-dir",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/tax-consultant-mandi-bahauddin-city",
+      "destination": "/blogs/tax-consultant-mandi-bahauddin",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/tax-consultant-mansehra-city",
+      "destination": "/blogs/tax-consultant-mansehra",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/tax-consultant-muzaffargarh-city",
+      "destination": "/blogs/tax-consultant-muzaffargarh",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/tax-consultant-tando-adam-city",
+      "destination": "/blogs/tax-consultant-tando-adam",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/tax-consultant-vehari-city",
+      "destination": "/blogs/tax-consultant-vehari",
+      "permanent": true
     }
   ]
 }
