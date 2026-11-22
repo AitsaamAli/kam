@@ -51,6 +51,9 @@ Then: Short answer box at the top (local, one paragraph), a "How we help from La
 ## Lesson from part 2
 Long shared sentences across 47 similar pages pushed the gate to 635/680 (32-38% overlap). What passes: a compact facts table where every cell carries the town's own name or numbers, short prose built around unique numbers, and FAQs that name the town. Reuse `part2.py` as the template for parts 3-5.
 
+## Lahore areas, second pass (22 Nov 2026)
+FBR's own Lahore valuation table (S.R.O. 1722(I)/2024, s.68; rows 1330-1363 amended by S.R.O. 876(I)/2026 and not used) gives each area an official per-marla value: `lahore_fmv.py` adds an 'FBR Value of Property' section with worked 236K/236C figures to every area that has its own row (73 pages). Block/sector pages (FBR values them at the parent's rate), 'near <landmark>' pages and Lahore duplicates of standalone town pages are 301-merged into their parent (93 pages, `lahore_merges.json`). Remaining ~98 Lahore pages need a closer row match (Gulberg sectors, Allama Iqbal Town, roads) or the owner's decision.
+
 ## Penalty-safety rules (every part)
 
 1. Do not change URL, title, H1, canonical or robots tags (CLAUDE.md standing rule). Only the body, the Short answer box and FAQs change.
