@@ -1,8 +1,8 @@
 # City pages programme (owner request, 22 Nov 2026)
 
-653 `blogs/tax-consultant-*` pages have under 800 words of article text (median 458). Goal: take each to **1,000+ words of real, local content** (aim 1,250 where the facts support it), add a **Short answer** box, and lift them out of thin / duplicate / doorway territory **without any penalty or de-indexing**.
+653 `blogs/tax-consultant-*` pages have under 800 words of article text (median 458). Goal (owner, 22 Nov 2026; the 1,000-word rule is dropped): give every page **4-5 official local facts**, a **Short answer** box and **unique content**, link it to its district/province hub, and lift it out of thin / duplicate / doorway territory **without any penalty, de-indexing or traffic drop**. Quality must be out-class; word count follows the facts, never padding.
 
-The pages are split into 10 parts in `batches.json`. Do **one part per session**, in order, and wait **7 days** between parts while watching Search Console.
+The pages are split into 13 parts (11–13 added from the A7 audit) in `batches.json`. Do **one part per session**, in order, and wait **7 days** between parts while watching Search Console.
 
 ## The parts
 
@@ -15,7 +15,9 @@ The pages are split into 10 parts in `batches.json`. Do **one part per session**
 | 5 | 29 | KP, Gilgit-Baltistan and AJK towns | expand |
 | 6 | 67 | Islamabad sectors and Rawalpindi areas | area (pilot 10 first) |
 | 7 | 99 | Karachi, Faisalabad, Peshawar, Multan, Quetta, Hyderabad areas | area |
-| 8–10 | 95 / 95 / 93 | Lahore areas | area |
+| 8–10 | 96 / 95 / 93 | Lahore areas | area |
+| 11 | 90 | `income-tax-filing-<city>` (return-filing intent) | expand-intent |
+| 12–13 | 59 / 58 | `ntn-registration-<area>` (registration intent) | expand-intent |
 
 Towns first because each town has its own official facts (district, FBR office, provincial authority). Neighbourhood ("area") pages last, because most share one city's facts and are the main doorway risk.
 
@@ -23,7 +25,7 @@ Towns first because each town has its own official facts (district, FBR office, 
 
 **merge (part 1).** The pairs target the same place twice, which is duplicate content in itself. Keep the main URL (the shorter slug), move any unique facts into it, expand it as for "expand", and 301 the second URL to it in `vercel.json`. A 301 keeps the link value and is not a penalty. **Needs the owner's OK for each pair** (the owner said no de-indexing; a 301 replaces one URL with another rather than removing the place).
 
-**expand (parts 2–5).** Add, per town, only facts from official sources, each linked with the date checked:
+**expand (parts 2–5).** Add, per town, 4-5 facts from official sources, each linked with the date checked:
 - District and province, and the provincial sales tax authority (PRA, SRB, KPRA, BRA; AJK and GB have their own regimes): provincial authority sites.
 - Which FBR Regional Tax Office / IR zone covers the town: FBR jurisdiction notifications.
 - Which FBR DNFBP directorate covers it: S.R.O. 1497(I)/2026.
@@ -32,13 +34,19 @@ Towns first because each town has its own official facts (district, FBR office, 
 - The existing local economy text stays; rewrite it only to correct it.
 Then: Short answer box at the top (local, one paragraph), a "How we help from Lahore" service section (published fees only), 4–6 local FAQs, Related links to the district/province hub.
 
-**area (parts 6–10).** Neighbourhoods inside one city share most facts, so 1,000 words each must come from what is genuinely different about the area:
+**area (parts 6–10).** Neighbourhoods inside one city share most facts, so the 4-5 facts must come from what is genuinely different about the area:
 - The body that runs it (DHA, Bahria, CDA sector, cantonment board, LDA/KDA scheme, housing society), with its official site.
 - Who registers property transfers there (society transfer office or sub-registrar), so who collects 236C/236K (s.236C/236K Explanation).
 - Who collects property tax (cantonment board vs provincial Excise).
 - Commercial zone or market rules that change which registrations apply (PRA/SRB for services, DNFBP for property dealers).
 - City-wide facts appear once in a short linked paragraph, not repeated.
-**Pilot first:** do 10 pages of part 6, run the overlap check, and only continue if every page is under 15% overlap with all other city pages. A page that cannot reach 1,000 words of real content is **not padded**. It goes on a list for the owner: keep as is, or merge into the city hub with a 301.
+**Pilot first:** do 10 pages of part 6, run the overlap check, and only continue if every page is under 15% overlap with all other city pages. A page that cannot get 4 genuinely local facts is **not padded**. It goes on a list for the owner: keep as is, or merge into the city hub with a 301.
+
+## Already done for all parts
+- Hub links: every city page links to its city hub (areas) or province guide / division city (towns), and hubs list their pages (`hubs.py`, idempotent; run it after any new city page).
+- Firm experience block on every guide (`content/ui-2026/experience.py`).
+
+**expand-intent (parts 11–13).** These cities also have a `tax-consultant-` page, so each family must keep its own job and not compete: `income-tax-filing-` pages answer *how and where a return is filed for that place* (FBR RTO/zone, due date, local withholding situations), `ntn-registration-` pages answer *how to get an NTN there* (IRIS steps, documents, local cases). Add 4-5 official facts for that intent, a Short answer, and sideways links between the city's three pages (consultant ↔ filing ↔ NTN). Never repeat the consultant page's text.
 
 ## Penalty-safety rules (every part)
 
@@ -60,7 +68,7 @@ Then: Short answer box at the top (local, one paragraph), a "How we help from La
 
 | Part | Status | PR | Date |
 |---|---|---|---|
-| 1 | not started | | |
+| 1 | done: 19 pairs 301-merged (`part1_merge.py`); hub links on 626 pages (`hubs.py`) | see git log | 22 Nov 2026 |
 | 2 | not started | | |
 | 3 | not started | | |
 | 4 | not started | | |
@@ -70,3 +78,6 @@ Then: Short answer box at the top (local, one paragraph), a "How we help from La
 | 8 | not started | | |
 | 9 | not started | | |
 | 10 | not started | | |
+| 11 | not started | | |
+| 12 | not started | | |
+| 13 | not started | | |

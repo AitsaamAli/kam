@@ -2,7 +2,7 @@
 
 > Answers to the questions people most often ask Kamboh Associates, taken word for word from the FAQ sections of the pages linked under each heading. Tax content covers Pakistan (tax year 2026). Web development content covers Kamboh Associates Digital.
 
-Updated: 2026-11-21
+Updated: 2026-11-22
 Short index: https://kambohassociates.com/llms.txt
 
 Contact: WhatsApp or call +92 328 4675162, email info@kambohassociates.com, office at Shop No 34 Rizwan Block Market, opposite Rizwan Park, Awan Town, Lahore 54660, Pakistan. Monday to Saturday 9:00 AM to 6:00 PM, Friday 9:00 AM to 12:30 PM.
@@ -738,6 +738,28 @@ A: Yes. Enter tax deducted by employers, banks and others to see the balance pay
 
 Q: Is the estimate final?
 A: No. Exempt income, separate-rule income and tax credits can change the result. Confirm figures in the return on IRIS.
+
+## Sole Proprietor in Pakistan: Complete Tax Guide (2026)
+URL: https://kambohassociates.com/blogs/sole-proprietor-complete-guide-pakistan
+Summary: Every tax duty of a sole proprietor in Pakistan in one place: registration, sales tax, records, cash rules, withholding, advance tax, return and closing.
+
+Q: Does a sole proprietorship need SECP registration?
+A: No. There is no SECP-style register for a sole proprietorship; it is recognised through the owner's income tax registration under section 181, with the business added on IRIS.
+
+Q: Is a sole proprietor's business income taxed separately?
+A: No. The business has no separate identity, so its profit is the owner's income and its assets and debts go in the owner's wealth statement.
+
+Q: Do I need a separate bank account for the business?
+A: It is the practical way to meet the section 21 payment rules and to explain the wealth reconciliation; add it to your IRIS profile.
+
+Q: When must a sole proprietor deduct withholding tax?
+A: On salaries (s.149), on gross rent of Rs 1.5 million or more a year (s.155), and on goods, services and contracts once turnover reached Rs 100 million in any preceding tax year (s.153).
+
+Q: Do I need PRA registration as a sole proprietor?
+A: If you provide a taxable service from a place of business in Punjab, section 25 of the Punjab Sales Tax on Services Act requires it. Registration is free under rule 15.
+
+Q: How do I close my sole proprietorship?
+A: Visit your Regional Tax Office with the documents (it cannot be done through online Form 181), file the closing-year return and keep records for six years.
 
 ## PRA Registration Process Online: Step by Step on PRA IRIS
 URL: https://kambohassociates.com/blogs/pra-registration-process-online-punjab
