@@ -155,7 +155,7 @@ def page(p):
 '''
     aside = '''<aside><div class="consult-card"><h4>Free Consultation</h4><p>Expert reply on WhatsApp</p><a href="https://wa.me/923284675162" class="wa-btn"><i class="fab fa-whatsapp"></i> WhatsApp Now</a></div><div class="sidebar-card"><h4>Services</h4><ul class="service-list"><li><i class="fas fa-file-invoice-dollar"></i><a href="/income-tax-filing" style="color:#0D9488"> Income Tax Return</a></li><li><i class="fas fa-id-card"></i><a href="/ntn-registration" style="color:#0D9488"> NTN Registration</a></li><li><i class="fas fa-percent"></i><a href="/withholding-tax" style="color:#0D9488"> Withholding Tax</a></li><li><i class="fas fa-shield-halved"></i><a href="/fbr-notice-defense" style="color:#0D9488"> FBR Notice</a></li></ul></div><div class="sidebar-card"><div class="price-badge"><div class="from">Individual Return From</div><div class="amount">Rs. 3,500</div><div class="from">Salaried, per tax year</div></div><a href="/pricing" style="display:block;text-align:center;color:#14B8A6;font-size:.85rem;font-weight:600;margin-top:8px"><i class="fas fa-tags"></i> View All Pricing</a></div></aside>'''
     s = t.index('<section class="blog-hero">')
-    e = t.index("</aside>") + len("</aside>")
+    e = t.index("</aside>", t.index('<aside><div class="consult-card">')) + len("</aside>")  # the sidebar, not the ka-exp aside inside the article
     t = t[:s] + hero + aside + t[e:]
     return t, words
 
