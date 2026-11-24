@@ -2,7 +2,7 @@
 
 > Answers to the questions people most often ask Kamboh Associates, taken word for word from the FAQ sections of the pages linked under each heading. Tax content covers Pakistan (tax year 2026). Web development content covers Kamboh Associates Digital.
 
-Updated: 2026-11-22
+Updated: 2026-11-24
 Short index: https://kambohassociates.com/llms.txt
 
 Contact: WhatsApp or call +92 328 4675162, email info@kambohassociates.com, office at Shop No 34 Rizwan Block Market, opposite Rizwan Park, Awan Town, Lahore 54660, Pakistan. Monday to Saturday 9:00 AM to 6:00 PM, Friday 9:00 AM to 12:30 PM.
@@ -738,6 +738,226 @@ A: Yes. Enter tax deducted by employers, banks and others to see the balance pay
 
 Q: Is the estimate final?
 A: No. Exempt income, separate-rule income and tax credits can change the result. Confirm figures in the return on IRIS.
+
+## Revise Your Wealth Statement Before a Visa Application
+URL: https://kambohassociates.com/blogs/wealth-statement-revision-before-visa-application-pakistan
+Summary: Applying for a UK, Schengen or Canada visa? Which wealth statement errors to correct under section 116(3) first, the deadline, and why inflating cash backfires.
+
+Q: Can I revise my wealth statement just before a visa interview?
+A: Yes, if you are correcting a genuine omission or wrong statement and no section 122(9) notice has been received for that year. Do it before you apply, and keep the revised acknowledgement and reasons together.
+
+Q: Does the UK embassy require an FBR wealth statement?
+A: The GOV.UK supporting documents guide does not list it. It asks for financial documents such as bank statements that detail the origin of funds. A wealth statement can explain that origin, so it should agree with the bank statements.
+
+Q: Will a revised wealth statement look suspicious?
+A: A correction backed by bank certificates and a clear reasons note is normal. A last-minute revision that adds large cash with no source is what draws questions, from FBR and from an officer.
+
+Q: Do I also need to revise my income tax return?
+A: Only if the error affects income. A wealth statement correction alone is filed under section 116(3); a change in income needs a revised return under section 114(6), which has separate conditions.
+
+Q: How far back can I revise?
+A: The Explanation to section 116(3) bars revision after five years from the due date of the return for that tax year.
+
+Q: What does the revision cost?
+A: Wealth statement preparation is Rs 2,000 on our pricing page. A revision with a fresh reconciliation is a fixed fee we confirm after seeing your filed statement, before any work starts.
+
+## Schengen Visa: Revising Your Wealth Statement First
+URL: https://kambohassociates.com/blogs/schengen-visa-wealth-statement-revision-pakistan
+Summary: Schengen visa from Pakistan? How means of subsistence is judged under the Visa Code and Borders Code, and how to correct your FBR wealth statement to match.
+
+Q: Is an FBR wealth statement required for a Schengen visa?
+A: The Visa Code does not name it. Article 14(1)(c) asks for documents showing sufficient means of subsistence. Pakistani applicants often add the FBR return and wealth statement to show those means are lawful and declared.
+
+Q: How much money do I need to show for Schengen?
+A: Each Member State sets its own reference amount. Under Borders Code Article 6(4) means are judged by the duration and purpose of the stay, against average budget board and lodging prices multiplied by the number of days.
+
+Q: My bank balance today is higher than in my wealth statement. Is that a problem?
+A: Not by itself. The wealth statement shows 30 June; the bank statement shows recent months. It becomes a problem only if the 30 June figure is wrong or the later rise has no source.
+
+Q: Can I add my brother's gift to my wealth statement?
+A: Yes, as a gift from a relative in the reconciliation, if it was genuinely received. A brother is a relative under section 85(5). Receiving it by bank transfer keeps the record clean.
+
+Q: When is it too late to revise?
+A: After you receive a section 122(9) notice for that tax year, or five years after that year's return due date.
+
+Q: Can you check my whole Schengen file?
+A: We check the FBR side: the return, wealth statement and how they match your bank papers. Visa decisions rest with the consulate.
+
+## Canada Visitor Visa: Wealth Statement Revision Guide
+URL: https://kambohassociates.com/blogs/canada-visitor-visa-wealth-statement-revision-pakistan
+Summary: Canada visitor visa from Pakistan: IRCC asks for 6 months of bank details. How to correct your FBR wealth statement under s.116(3) so balances agree.
+
+Q: Does IRCC ask for my FBR tax return or wealth statement?
+A: The visitor visa page we checked lists a bank account statement and an employer letter, not FBR documents. Applicants often add FBR papers to show where funds came from; they should agree with the bank statement.
+
+Q: How many months of bank statements does Canada want?
+A: IRCC's page says at least six months of account details, including balances.
+
+Q: A large deposit appears in my bank statement. What should I do?
+A: Make sure its source is recorded: a property sale, a gift from a relative, or business income. If your wealth statement omits it, revise under section 116(3) before applying.
+
+Q: Can a relative put money in my account for the visa?
+A: Presenting someone else's money as your savings is risky on both sides: IRCC treats false information as misrepresentation, and section 39(3) can tax some unrecorded loans and gifts as income.
+
+Q: Is there a deadline for revising?
+A: Yes. Before you receive a section 122(9) notice for that tax year, and never more than five years after that year's return due date.
+
+Q: What if the property sale also needs to be in my return?
+A: Then the return is revised as well, under section 114(6) and its conditions. We check both and tell you before filing.
+
+## Sponsor Parent's Wealth Statement for a Student Visa
+URL: https://kambohassociates.com/blogs/sponsor-parent-wealth-statement-revision-student-visa-pakistan
+Summary: When a parent sponsors a student visa, the parent's FBR wealth statement is the one tested. Common errors, s.116 rules and how to revise before applying.
+
+Q: Whose wealth statement matters for a sponsored student visa?
+A: The sponsor's. If a parent funds the study, the parent's income, assets and their source are what the officer needs to accept.
+
+Q: Should my child's bank account appear in my wealth statement?
+A: If the child is a minor or a dependent without their own return, yes, under section 116(1)(b). An adult child who files separately shows it in their own statement.
+
+Q: Are tuition fees part of the wealth statement?
+A: They are part of total expenditure under section 116(1)(d), so they belong in the reconciliation for the year they were paid.
+
+Q: Is money I give my child taxable for them?
+A: A gift from a relative is excluded from income under section 39(1)(la), and a child is a relative under section 85(5). Record it on both sides and send it through a bank.
+
+Q: I sold property to pay fees. What needs changing?
+A: Remove the property, record the sale consideration and the bank proceeds, and deal with any gain in the return.
+
+Q: How long do I have to revise?
+A: Until you receive a section 122(9) notice for that year, and never beyond five years from that year's return due date.
+
+## Visa Refused Over Funds? Correcting Your Wealth Statement
+URL: https://kambohassociates.com/blogs/visa-refused-funds-wealth-statement-correction-pakistan
+Summary: Visa refused because of funds or their source? How to read the refusal against your FBR wealth statement, what s.116(3) lets you correct, and how to explain it.
+
+Q: Should I revise my wealth statement after a visa refusal?
+A: Only if the refusal points to money that your FBR record shows wrongly or not at all. If your figures are already true, improve the evidence for the embassy instead.
+
+Q: Will the embassy notice that my wealth statement changed?
+A: It may, if it kept your earlier papers. Explain each change in a short cover note with the document behind it.
+
+Q: Can I show a higher bank balance after a refusal?
+A: Only a balance that is genuinely yours on the date shown. Money you cannot explain is taxed under section 111, and FBR can declare a non-bona fide revision void.
+
+Q: Is there a time limit on revising?
+A: Yes. Before a section 122(9) notice for that year, and within five years of that year's return due date.
+
+Q: Does revising guarantee a visa?
+A: No. A visa decision rests with the embassy. Revising removes contradictions in your FBR record; it cannot change ties, purpose or travel history.
+
+Q: What if my sponsor's papers caused the refusal?
+A: Then the sponsor's return and wealth statement are the ones to review and, if wrong, revise.
+
+## Cash in Hand Wrong in Your Wealth Statement? How to Revise
+URL: https://kambohassociates.com/blogs/cash-in-hand-wealth-statement-revision-pakistan
+Summary: Cash in hand often ends up as a balancing figure in a wealth statement. Why that draws FBR questions under s.111, and how to revise it under s.116(3).
+
+Q: Is it a problem to show a lot of cash in hand?
+A: It is the line FBR can least verify. Under section 111 money whose source is not adequately explained is added to income, so a large cash figure without a source is a risk.
+
+Q: My cash figure is just a balancing entry. Can I reduce it?
+A: Yes, by revising under section 116(3) to the real figure and correcting the real cause of the original gap, usually understated expenses or an omitted account.
+
+Q: Do I need to revise earlier years too?
+A: If the wrong figure was carried forward, the opening positions of later years are also wrong, so the years are usually revised in order, within the five-year limit.
+
+Q: Can cash received from a relative be shown?
+A: A gift from a relative is excluded from income by section 39(1)(la), but section 39(3) treats gifts and loans not received through a bank or digital channel from an NTN holder as income. Bank transfers avoid the question.
+
+Q: Does cash at home help my visa application?
+A: Not much. The official guidance we checked relies on bank statements and their origin, not on cash at home.
+
+Q: When can I no longer revise?
+A: After a section 122(9) notice for that tax year, or five years after its return due date.
+
+## Gifts and Loans From Family: Fixing Your Wealth Statement
+URL: https://kambohassociates.com/blogs/gift-loan-family-wealth-statement-revision-pakistan
+Summary: A parent's gift booked as income, or a loan from a friend left out? What ss.39(1)(la), 39(3) and 85(5) say, and how to revise your wealth statement correctly.
+
+Q: Is a gift from my father taxable?
+A: No. Section 39(1)(la) excludes gifts from a relative as defined in section 85(5), which includes parents. Record it as a gift in the reconciliation, ideally received by bank transfer.
+
+Q: Is my cousin a relative for gift purposes?
+A: Yes. Section 85(5) includes descendants of your grandparents, which covers cousins, and the same relatives on your spouse's side.
+
+Q: Is a gift from a friend taxable?
+A: Yes. A gift from someone who is not a relative is income from other sources under section 39(1)(la).
+
+Q: How should a loan from a relative be shown?
+A: As a liability in your wealth statement, received through a bank. Under section 39(3) a non-bank loan not received by crossed cheque, banking channel or digital means from an NTN holder is treated as income.
+
+Q: I showed a gift as income. Can I fix it?
+A: Yes. Revise the wealth statement under section 116(3) and the return under section 114(6), subject to their conditions.
+
+Q: What proof should I keep?
+A: The bank transfer record, the giver's CNIC and NTN where available, and for a loan, its written terms and repayments.
+
+## Property Sold or Bought? Revising Your Wealth Statement
+URL: https://kambohassociates.com/blogs/property-sale-purchase-wealth-statement-revision-pakistan
+Summary: Plot sold but still in your wealth statement, or bought at a lower declared value? Section 116(3) revision, s.111 risk, FBR value vs price, 236C and 236K.
+
+Q: Should I show property at the FBR value or the price I paid?
+A: At what you actually paid, supported by the deed and payment trail. The FBR value under section 68 is used for advance tax such as 236K. Recording less than you paid leaves the difference unexplained under section 111.
+
+Q: I sold a plot years ago and it is still in my wealth statement. What now?
+A: Revise each affected year under section 116(3), within five years: remove the plot in the year of sale, disclose the consideration, show where the proceeds went, and report any gain in the return.
+
+Q: What advance tax applies when I buy property?
+A: Section 236K on the buyer: 1.25% of fair market value on the ATL; off the ATL 10.5% up to Rs 50m, 14.5% up to Rs 100m and 18.5% above.
+
+Q: What advance tax applies when I sell?
+A: Section 236C on the seller: 2.75% of the sale price on the ATL and 11.5% off it.
+
+Q: Is the gain on a plot held for many years taxable?
+A: For a plot bought up to 30 June 2024, the rate falls to 0% after six years of holding. For property bought from 1 July 2024, the gain is taxed at 15% for ATL filers.
+
+Q: Does a property in my wife's name go in my statement?
+A: Only if she is a dependent spouse; that is the Explanation to section 116(1)(b) added in 2024. Otherwise it belongs in her own wealth statement.
+
+## Foreign Assets Missing From Your Wealth Statement: Fix It
+URL: https://kambohassociates.com/blogs/foreign-assets-wealth-statement-revision-116a-pakistan
+Summary: Foreign bank account or flat missing from your wealth statement? What ss.116(1), 116A and 111(2) say, the 2% penalty, and how to revise before FBR finds it.
+
+Q: Do I need to show my foreign bank account in my wealth statement?
+A: Yes, if you are a resident. Section 116(1), as amended in 2024, expressly includes foreign assets and foreign liabilities.
+
+Q: When is the section 116A statement required?
+A: For a resident individual with foreign income of at least USD 10,000 or foreign assets worth at least USD 100,000.
+
+Q: What is the penalty for not filing the 116A statement?
+A: Section 182 row 1AAA: 2% of the foreign income or value of the foreign assets for each year of default. Not complying with a 116A(2) notice is an offence under section 195A.
+
+Q: In which year is an undisclosed foreign asset taxed?
+A: Under section 111(2)(ii), in the tax year immediately before the year FBR discovers it, unless its source is adequately explained.
+
+Q: I bought the asset while living abroad. Is that a defence?
+A: It is the explanation the law expects. The Explanation to section 111(2) says an explanation from sources of the acquisition year is not rejected only because it relates to an earlier year. Keep the records.
+
+Q: Do non-residents file a wealth statement?
+A: Section 116(2) and section 116A apply to residents. Check your residence under section 82 for each year first.
+
+## Bank Balance Wrong in Your Wealth Statement? How to Revise
+URL: https://kambohassociates.com/blogs/bank-balance-wealth-statement-revision-pakistan
+Summary: Bank balance in your wealth statement differs from the bank certificate, or an account is missing? Why it happens, what s.116 requires and how to revise.
+
+Q: Which date's bank balance goes in the wealth statement?
+A: The balance on 30 June, the last day of the tax year, ideally from a bank certificate of balance for that date.
+
+Q: Do I need to show a dormant account?
+A: Yes. Every account is an asset, whatever its balance.
+
+Q: How do I show a joint account?
+A: Show the part that is genuinely yours and explain the rest. Entering the full balance in two people's statements counts it twice.
+
+Q: Is my foreign-currency account part of the statement?
+A: Yes, converted to rupees at 30 June. An account abroad is also included for a resident; it may trigger section 116A.
+
+Q: I left out an account. Is it too late?
+A: You can revise under section 116(3) until you receive a 122(9) notice for that year, and within five years of its return due date.
+
+Q: What tax applies to profit on my bank account?
+A: Profit on bank deposits is taxed at source at 20% for ATL filers and 40% for others.
 
 ## Sole Proprietor in Pakistan: Complete Tax Guide (2026)
 URL: https://kambohassociates.com/blogs/sole-proprietor-complete-guide-pakistan
