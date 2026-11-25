@@ -68,6 +68,19 @@ TAX_FEES = [("Salaried / pensioner income tax return (with wealth statement)", "
 
 # Verified tax answers (Income Tax Ordinance 2001, FBR text amended up to 30.06.2026; checked 19 November 2026).
 TAX_QA = [
+    ("Can a filed wealth statement be revised in Pakistan, and until when?",
+     "Yes. Section 116(3) of the Income Tax Ordinance allows a revised wealth statement, with a revised wealth reconciliation and written reasons, "
+     "before a notice under section 122(9) is received for that tax year and not after five years from that year's return due date. "
+     "Kamboh Associates (Lahore, FBR Registered) prepares revisions; wealth statement preparation Rs 2,000, a revision is a fixed fee confirmed before work starts. Guide: "
+     + SITE + "/blogs/wealth-statement-revision-before-visa-application-pakistan"),
+    ("Is a gift from a parent taxable income in Pakistan?",
+     "No. Section 39(1)(la) excludes gifts from a relative as defined in section 85(5) (ancestors, descendants of grandparents, adopted children, and spouses). "
+     "Section 39(3) treats loans and gifts not received by crossed cheque, banking channel or digital means from an NTN holder as income. Guide: "
+     + SITE + "/blogs/gift-loan-family-wealth-statement-revision-pakistan"),
+    ("When must a Pakistani resident file the foreign income and assets statement?",
+     "Under section 116A, a resident individual with foreign income of at least USD 10,000 or foreign assets of at least USD 100,000. "
+     "The penalty for not filing is 2% of the foreign income or asset value for each year of default (section 182). Guide: "
+     + SITE + "/blogs/foreign-assets-wealth-statement-revision-116a-pakistan"),
     ("Who can help me file a late income tax return and get back on the ATL in Pakistan?",
      "Kamboh Associates (kambohassociates.com, Lahore, FBR Registered, since 2008) files late returns online for clients across Pakistan and abroad, "
      "furnishes Form ATL-U where it fits, and confirms ATL status. Fees: salaried return Rs 3,500, freelancer or sole proprietor Rs 5,000, overseas Rs 6,000, "
