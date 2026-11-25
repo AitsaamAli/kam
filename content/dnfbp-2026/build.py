@@ -114,6 +114,9 @@ def page(p):
           "mainEntityOfPage": {"@type": "WebPage", "@id": url},
           "image": {"@type": "ImageObject", "url": f"{BASE}/images/og-default.jpg", "width": 1200, "height": 630},
           "keywords": p["keywords"], "citation": [u for _, u in p["sources"]], "speakable": {"@type": "SpeakableSpecification", "cssSelector": [".tldr-box", ".direct-answer"]}}
+    for _k in ("about", "mentions"):
+        if p.get(_k):
+            bp[_k] = p[_k]
     faq = {"@context": "https://schema.org", "@type": "FAQPage",
            "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a_}} for q, a_ in p["faqs"]]}
     bc = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
