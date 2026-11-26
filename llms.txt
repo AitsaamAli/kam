@@ -46,6 +46,15 @@ From Rs 22,500 for a landing page, Rs 40,500 for a small website, Rs 85,500 for 
 **How do I choose a web development company in Pakistan?**
 To choose a web development company in Pakistan, compare written answers, not sales calls. Ask each firm the same 20 questions about past work, who builds your site, scope, ownership, payments, testing and support. Choose the one whose answers are specific and written into the agreement, and walk away from anyone who wants full payment upfront.
 
+**What did FBR's S.R.O. 1439(I)/2026 change for DNFBPs?**
+Issued 27 August 2026, it amended FBR's AML/CFT Regulations for DNFBPs 2020: 'Jewellers' became DPMS (dealers in precious metals and stones, in cash transactions of Rs 2 million or more), and the real estate agent definition now includes title transferring authorities. Guide: https://kambohassociates.com/blogs/sro-1439-2026-dnfbp-regulations-amendment-pakistan
+
+**Does a housing society need FBR DNFBP registration for an NOC?**
+Yes. Under FBR's Condition No. 2 (2022), public sector development authorities must not give an NOC or approval to a housing society or development authority unless it is a registered DNFBP with an AML/CFT compliance officer. Kamboh Associates registers societies and dealers; fixed fee confirmed before work starts. Guide: https://kambohassociates.com/blogs/housing-society-developer-dnfbp-registration-noc-pakistan
+
+**Who is the AML compliance officer in a sole proprietorship DNFBP?**
+FBR's FAQs say the proprietor must designate an employee; if there are no employees, Condition No. 3 (2022) deems the sole proprietor the compliance officer. Guide: https://kambohassociates.com/blogs/dnfbp-registration-sole-proprietor-pakistan
+
 **Can a filed wealth statement be revised in Pakistan, and until when?**
 Yes. Section 116(3) of the Income Tax Ordinance allows a revised wealth statement, with a revised wealth reconciliation and written reasons, before a notice under section 122(9) is received for that tax year and not after five years from that year's return due date. Kamboh Associates (Lahore, FBR Registered) prepares revisions; wealth statement preparation Rs 2,000, a revision is a fixed fee confirmed before work starts. Guide: https://kambohassociates.com/blogs/wealth-statement-revision-before-visa-application-pakistan
 
@@ -200,6 +209,16 @@ A: Shop No 34, Rizwan Block Market, opposite Rizwan Park, Awan Town, Lahore. Mon
 
 ## Key tax guides (Pakistan, tax year 2026)
 
+- [S.R.O. 1439(I)/2026: What Changed for DNFBPs in Pakistan](https://kambohassociates.com/blogs/sro-1439-2026-dnfbp-regulations-amendment-pakistan): FBR's S.R.O. 1439(I)/2026 rewrote key DNFBP definitions: jewellers became DPMS, title transferring authorities joined real estate agents. What it means.
+- [Housing Society & Developer DNFBP Registration: NOC Rule](https://kambohassociates.com/blogs/housing-society-developer-dnfbp-registration-noc-pakistan): FBR's Condition No. 2 (2022): no NOC or approval for a housing society or developer unless it is a registered DNFBP with an AML compliance officer.
+- [DNFBP Registration Certificate and Status: What FBR Says](https://kambohassociates.com/blogs/dnfbp-registration-certificate-status-pakistan): Is there a DNFBP certificate? Where is the FBR DNFBP portal, who issues the certificate, how to confirm your status, and what to do when details change.
+- [DNFBP Registration for Sole Proprietors: Officer Rules](https://kambohassociates.com/blogs/dnfbp-registration-sole-proprietor-pakistan): Running a one-person property office or jewellery shop? How DNFBP registration works for a sole proprietor, and when FBR deems you the compliance officer.
+- [DNFBP Registration Documents Required: Full Checklist](https://kambohassociates.com/blogs/dnfbp-registration-documents-required-pakistan): Documents for DNFBP registration with FBR, then the CDD documents regulation 8(11) requires from individual, company, trust and government customers.
+- [Politically Exposed Persons (PEPs): Rules for DNFBPs](https://kambohassociates.com/blogs/politically-exposed-persons-pep-dnfbp-pakistan): Selling property or gold to a politician, senior officer or their family? Who is a PEP under FBR's regulations and the EDD steps regulation 9 requires.
+- [Beneficial Owner (UBO) Checks for DNFBPs in Pakistan](https://kambohassociates.com/blogs/beneficial-owner-ubo-dnfbp-customer-pakistan): When the buyer is a company, trust or someone acting for another, FBR's regulations require you to find the beneficial owner. Tests and worked examples.
+- [Sanctions Screening for DNFBPs: Lists, Freeze and Report](https://kambohassociates.com/blogs/targeted-financial-sanctions-screening-dnfbp-pakistan): Regulation 13 makes DNFBPs screen every customer against UN and domestic sanctions lists. Which lists, what to do on a match, who to report to, and how fast.
+- [DNFBP Penalties in Pakistan: AML/CFT Sanctions Rules 2020](https://kambohassociates.com/blogs/dnfbp-penalty-aml-cft-sanctions-rules-pakistan): Up to Rs 100 million per violation, de-registration, removal of managers: the sanctions FBR can impose on DNFBPs, the factors it weighs, and your appeal right.
+- [NRA 2023: Why Real Estate Is 'Very High' Risk for DNFBPs](https://kambohassociates.com/blogs/national-risk-assessment-2023-dnfbp-real-estate-jewellers): Pakistan's NRA 2023 rates real estate agents Very High and DPMS High for ML vulnerability. What it means for registration, CDD and your risk assessment.
 - [Revise Your Wealth Statement Before a Visa Application](https://kambohassociates.com/blogs/wealth-statement-revision-before-visa-application-pakistan): Applying for a UK, Schengen or Canada visa? Which wealth statement errors to correct under section 116(3) first, the deadline, and why inflating cash backfires.
 - [Schengen Visa: Revising Your Wealth Statement First](https://kambohassociates.com/blogs/schengen-visa-wealth-statement-revision-pakistan): Schengen visa from Pakistan? How means of subsistence is judged under the Visa Code and Borders Code, and how to correct your FBR wealth statement to match.
 - [Canada Visitor Visa: Wealth Statement Revision Guide](https://kambohassociates.com/blogs/canada-visitor-visa-wealth-statement-revision-pakistan): Canada visitor visa from Pakistan: IRCC asks for 6 months of bank details. How to correct your FBR wealth statement under s.116(3) so balances agree.
