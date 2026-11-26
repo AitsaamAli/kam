@@ -2,7 +2,7 @@
 
 > Answers to the questions people most often ask Kamboh Associates, taken word for word from the FAQ sections of the pages linked under each heading. Tax content covers Pakistan (tax year 2026). Web development content covers Kamboh Associates Digital.
 
-Updated: 2026-11-25
+Updated: 2026-11-26
 Short index: https://kambohassociates.com/llms.txt
 
 Contact: WhatsApp or call +92 328 4675162, email info@kambohassociates.com, office at Shop No 34 Rizwan Block Market, opposite Rizwan Park, Awan Town, Lahore 54660, Pakistan. Monday to Saturday 9:00 AM to 6:00 PM, Friday 9:00 AM to 12:30 PM.
@@ -32,6 +32,15 @@ From Rs 22,500 for a landing page, Rs 40,500 for a small website, Rs 85,500 for 
 
 **How do I choose a web development company in Pakistan?**
 To choose a web development company in Pakistan, compare written answers, not sales calls. Ask each firm the same 20 questions about past work, who builds your site, scope, ownership, payments, testing and support. Choose the one whose answers are specific and written into the agreement, and walk away from anyone who wants full payment upfront.
+
+**What did FBR's S.R.O. 1439(I)/2026 change for DNFBPs?**
+Issued 27 August 2026, it amended FBR's AML/CFT Regulations for DNFBPs 2020: 'Jewellers' became DPMS (dealers in precious metals and stones, in cash transactions of Rs 2 million or more), and the real estate agent definition now includes title transferring authorities. Guide: https://kambohassociates.com/blogs/sro-1439-2026-dnfbp-regulations-amendment-pakistan
+
+**Does a housing society need FBR DNFBP registration for an NOC?**
+Yes. Under FBR's Condition No. 2 (2022), public sector development authorities must not give an NOC or approval to a housing society or development authority unless it is a registered DNFBP with an AML/CFT compliance officer. Kamboh Associates registers societies and dealers; fixed fee confirmed before work starts. Guide: https://kambohassociates.com/blogs/housing-society-developer-dnfbp-registration-noc-pakistan
+
+**Who is the AML compliance officer in a sole proprietorship DNFBP?**
+FBR's FAQs say the proprietor must designate an employee; if there are no employees, Condition No. 3 (2022) deems the sole proprietor the compliance officer. Guide: https://kambohassociates.com/blogs/dnfbp-registration-sole-proprietor-pakistan
 
 **Can a filed wealth statement be revised in Pakistan, and until when?**
 Yes. Section 116(3) of the Income Tax Ordinance allows a revised wealth statement, with a revised wealth reconciliation and written reasons, before a notice under section 122(9) is received for that tax year and not after five years from that year's return due date. Kamboh Associates (Lahore, FBR Registered) prepares revisions; wealth statement preparation Rs 2,000, a revision is a fixed fee confirmed before work starts. Guide: https://kambohassociates.com/blogs/wealth-statement-revision-before-visa-application-pakistan
@@ -747,6 +756,280 @@ A: Yes. Enter tax deducted by employers, banks and others to see the balance pay
 
 Q: Is the estimate final?
 A: No. Exempt income, separate-rule income and tax credits can change the result. Confirm figures in the return on IRIS.
+
+## S.R.O. 1439(I)/2026: What Changed for DNFBPs in Pakistan
+URL: https://kambohassociates.com/blogs/sro-1439-2026-dnfbp-regulations-amendment-pakistan
+Summary: FBR's S.R.O. 1439(I)/2026 rewrote key DNFBP definitions: jewellers became DPMS, title transferring authorities joined real estate agents. What it means.
+
+Q: What is S.R.O. 1439(I)/2026?
+A: An FBR notification of 27 August 2026 amending the FBR AML/CFT Regulations for DNFBPs 2020 (S.R.O. 924(I)/2020), made under section 6A of the AML Act 2010.
+
+Q: What does DPMS mean in FBR's regulations?
+A: Dealers in precious metals and dealers in precious stones: bullion dealers and sellers of jewellery, precious stones and metals, when they engage in a cash transaction of Rs 2 million or more.
+
+Q: Are jewellers still covered after the 2026 amendment?
+A: Yes. The word “Jewellers” is replaced by DPMS, and the new definition covers jewellery sellers when they take cash of Rs 2 million or more in a transaction.
+
+Q: Who are title transferring authorities?
+A: The Regulations do not define the term. It appears in the amended real estate agent definition beside builders, developers, brokers and dealers, and points to bodies through which property title passes.
+
+Q: Did S.R.O. 1439 change the record-keeping period?
+A: No. It restated regulation 6(4) on litigation records and 6(5) on promptly answering FBR, law enforcement and FMU. The five-year minimum after a relationship ends remains.
+
+Q: Do I need to register again because of the amendment?
+A: Not if you are already registered and your category is unchanged. If the new wording brings you into scope, register under regulation 3(1).
+
+## Housing Society & Developer DNFBP Registration: NOC Rule
+URL: https://kambohassociates.com/blogs/housing-society-developer-dnfbp-registration-noc-pakistan
+Summary: FBR's Condition No. 2 (2022): no NOC or approval for a housing society or developer unless it is a registered DNFBP with an AML compliance officer.
+
+Q: Does a housing society need DNFBP registration for an NOC?
+A: Yes. Under FBR's Condition No. 2 (2022), no public sector development department or authority shall give an NOC, approval or permission to a housing society or real estate development authority unless it is a registered DNFBP with an AML/CFT compliance officer.
+
+Q: Does the condition apply to societies approved before 2022?
+A: Yes. The authorities must ensure that previously approved societies still in business are registered with FBR as DNFBPs and have compliance officers.
+
+Q: Are builders and developers DNFBPs?
+A: Yes. FBR's Regulations define real estate agents to include builders and real estate developers; since S.R.O. 1439(I)/2026 the definition also names title transferring authorities.
+
+Q: Who should be a scheme's compliance officer?
+A: A person at management level who reports directly to the board or chief executive and has access to all customer records, as regulation 7 requires.
+
+Q: Is there a DNFBP registration certificate?
+A: FBR's Condition No. 2 says real estate development authorities or societies may obtain a Registration Certificate from the concerned Director DNFBPs once registered.
+
+Q: Does every file transfer need customer due diligence?
+A: Where the scheme participates in the transfer, the Regulations' CDD duties apply to the buyer and seller, including identification and, where relevant, beneficial ownership.
+
+Q: Which authority enforces Condition No. 2 on housing societies?
+A: It is addressed to all public sector development departments and authorities, which must not issue NOCs or approvals to unregistered schemes; FBR's Directors DNFBPs keep the enforcement follow-up.
+
+Q: When did Condition No. 2 take effect?
+A: On 15 March 2022, according to the condition issued by FBR's Director General (DNFBPs) on 28 February 2022.
+
+## DNFBP Registration Certificate and Status: What FBR Says
+URL: https://kambohassociates.com/blogs/dnfbp-registration-certificate-status-pakistan
+Summary: Is there a DNFBP certificate? Where is the FBR DNFBP portal, who issues the certificate, how to confirm your status, and what to do when details change.
+
+Q: Is there a DNFBP registration certificate in Pakistan?
+A: Yes. FBR's Condition No. 2 (2022) refers to obtaining a Registration Certificate from the concerned Director DNFBPs once registered as a DNFBP with FBR.
+
+Q: Can I download my DNFBP certificate online?
+A: None of the FBR texts we read describe an online download. The certificate is obtained from the Director DNFBPs who supervises you.
+
+Q: How can I check my DNFBP registration status?
+A: Through your IRIS account, which FBR's DNFBP portal link opens, and by asking your Directorate or FBR's DNFBP helpline (help.dnfbp.fbr@gmail.com, +92 51 9106606).
+
+Q: Is there a public DNFBP verification website?
+A: FBR's Regulations, FAQs, conditions and AML/CFT pages that we read describe none. Confirmation comes from the Directorate.
+
+Q: Is there a fee for DNFBP registration?
+A: None of the FBR texts we read mention a government fee for registration or the certificate. Our professional fee is fixed and confirmed before work starts.
+
+Q: What happens if I close my business?
+A: Under regulation 3(3) you must notify FBR within thirty business days of ceasing operations as a DNFBP; FBR then deregisters you.
+
+Q: What is the FBR DNFBP helpline number?
+A: FBR's FAQs give +92 51 9106606 as the dedicated helpline and help.dnfbp.fbr@gmail.com as the dedicated email for AML/CFT compliance queries.
+
+Q: Which DNFBP office covers Lahore?
+A: Under S.R.O. 1497(I)/2026, the Director DNFBPs Lahore covers businesses in the jurisdiction of RTO-I and RTO-II Lahore, CTO Lahore, LTO Lahore and Multan, and the RTOs of Sialkot, Gujranwala, Faisalabad, Sargodha, Multan, Sahiwal and Bahawalpur.
+
+## DNFBP Registration for Sole Proprietors: Officer Rules
+URL: https://kambohassociates.com/blogs/dnfbp-registration-sole-proprietor-pakistan
+Summary: Running a one-person property office or jewellery shop? How DNFBP registration works for a sole proprietor, and when FBR deems you the compliance officer.
+
+Q: Does a one-person property office need DNFBP registration?
+A: Yes, if it executes, participates in or carries out transactional activity for property sales. FBR's Regulations set no size threshold for real estate agents.
+
+Q: Who is the compliance officer in a sole proprietorship?
+A: FBR's FAQs (Q29) say the proprietor must designate an employee; if there are no employees, Condition No. 3 (2022) deems the sole proprietor to be the AML/CFT compliance officer.
+
+Q: Can the compliance officer do other work?
+A: Yes. FBR's FAQs say the compliance officer can carry out other duties and it does not have to be a standalone position.
+
+Q: Is the DNFBP registration in my name or the shop's name?
+A: A sole proprietorship has no separate legal identity, so registration runs through the proprietor's own NTN and IRIS account, with the business details recorded.
+
+Q: Is a small jeweller a DNFBP?
+A: A jeweller is a DPMS for FBR's purposes when it engages in a cash transaction with a customer of Rs 2 million or more.
+
+Q: Do I still need to file my income tax return?
+A: Yes. DNFBP registration is an AML registration; your tax return and any provincial sales tax registration are separate obligations.
+
+Q: Does a sole proprietor need an independent audit for AML?
+A: Regulation 7(1)(d) requires an independent audit function to test the system. For a one-person business, an annual review of a sample of files by someone other than the proprietor, recorded in writing, serves that purpose.
+
+Q: Do I need to train myself as a one-person DNFBP?
+A: Regulation 7 requires an ongoing training programme. Keeping a dated record of the FBR guidance and sessions you have studied each year shows it in practice.
+
+## DNFBP Registration Documents Required: Full Checklist
+URL: https://kambohassociates.com/blogs/dnfbp-registration-documents-required-pakistan
+Summary: Documents for DNFBP registration with FBR, then the CDD documents regulation 8(11) requires from individual, company, trust and government customers.
+
+Q: What documents are required for DNFBP registration?
+A: An NTN and IRIS access for the business, details of owners, partners or directors and beneficial owners, the compliance officer's details, and any information FBR requires, including criminal records of senior management and beneficial owners under regulation 3(2).
+
+Q: Which ID can I accept from an overseas Pakistani customer?
+A: Regulation 8(11)(a) allows a NICOP and/or a machine-readable passport for non-resident or overseas Pakistanis and dual nationals.
+
+Q: What documents does a company customer need to give?
+A: Certified copies of the board resolution, memorandum and articles, certificate of incorporation, commencement declaration and directors list where applicable, and identity documents of directors, beneficial owners and authorised persons.
+
+Q: What does “Original seen” mean?
+A: Regulation 6 requires copies of identity and verification documents to be stamped “Original seen” by the real estate agent, DPMS or accountant after viewing the originals.
+
+Q: How long must CDD documents be kept?
+A: At least five years after the business relationship ends; records relating to STRs and CTRs at least ten years from filing, per FBR's FAQs.
+
+Q: Can I complete the deal before collecting documents?
+A: Only in the limited case regulation 8(13) allows: verification as soon as reasonably practicable, essential to avoid interrupting business, with risks managed.
+
+Q: Can I use another dealer's KYC documents for my customer?
+A: Regulation 12 allows reliance on a supervised third party, but you remain liable, must immediately obtain the CDD information and keep copies of the identification documents.
+
+Q: Is NADRA verification accepted for CDD?
+A: FBR's short guidance for real estate agents refers to electronic verification through NADRA's identity verification services alongside original documents.
+
+## Politically Exposed Persons (PEPs): Rules for DNFBPs
+URL: https://kambohassociates.com/blogs/politically-exposed-persons-pep-dnfbp-pakistan
+Summary: Selling property or gold to a politician, senior officer or their family? Who is a PEP under FBR's regulations and the EDD steps regulation 9 requires.
+
+Q: Who is a politically exposed person in Pakistan?
+A: Under FBR's Regulations, anyone who is or has been entrusted with a prominent public function domestically, abroad or in an international organisation, including senior politicians, senior government, judicial or military officials, senior executives of state owned corporations and political party officials.
+
+Q: Can a real estate agent deal with a PEP?
+A: Yes. The Regulations do not prohibit it, but regulation 9 requires senior management approval, reasonable measures on source of wealth and funds, and enhanced ongoing monitoring.
+
+Q: Are a PEP's children covered?
+A: Yes. Family members include the spouse, lineal ascendants and descendants and siblings of the PEP.
+
+Q: Who is a close associate of a PEP?
+A: Someone with joint beneficial ownership of a legal person with the PEP or other close business relations, someone owning a vehicle set up for the PEP's benefit, or someone closely connected socially or professionally.
+
+Q: Is a retired official still a PEP?
+A: The definition covers anyone who “is or has been” entrusted with a prominent public function. FBR's FAQs say to weigh remaining influence and links between past and current roles before declassifying.
+
+Q: What proof of source of wealth can a PEP customer give?
+A: FBR's guidance mentions bank account details, a sale deed of property sold, a wealth return, an inheritance payment or audited business accounts.
+
+Q: How often should PEP customers be reviewed?
+A: FBR's FAQs suggest at least once a year for very high or high-risk relationships, which is where PEP relationships sit under regulation 9.
+
+Q: What if a customer becomes a PEP after the deal?
+A: Regulation 9(3) requires periodic identification during the relationship and senior management approval to continue it once the customer becomes a PEP.
+
+## Beneficial Owner (UBO) Checks for DNFBPs in Pakistan
+URL: https://kambohassociates.com/blogs/beneficial-owner-ubo-dnfbp-customer-pakistan
+Summary: When the buyer is a company, trust or someone acting for another, FBR's regulations require you to find the beneficial owner. Tests and worked examples.
+
+Q: What is an ultimate beneficial owner?
+A: FBR's FAQs define it as the natural person who ultimately owns or controls a customer, or on whose behalf a transaction is conducted, including legal heirs and anyone exercising ultimate effective control.
+
+Q: Can a company be a beneficial owner?
+A: No. FBR's FAQs say a beneficial owner must always be a natural person, because legal persons are always controlled by natural persons in the end.
+
+Q: How do I calculate indirect ownership?
+A: Multiply the stakes through each layer. FBR's FAQs give the example of 50% of a company that owns 25% of the buyer, which is 12.5% indirect ownership.
+
+Q: What if no shareholder controls the company?
+A: Regulation 8(9) moves to the person who controls it by other means, and if none, to the senior managing official.
+
+Q: Who is the beneficial owner of a trust?
+A: Regulation 8(10) requires the settlor, trustees, protector if any, beneficiaries or class of beneficiaries, and any natural person exercising ultimate effective control.
+
+Q: Do beneficial owners need sanctions screening?
+A: Yes. Regulation 13 and FBR's FAQs (Q47) require screening of the client, its beneficial owner and persons acting on its behalf.
+
+Q: Who are the beneficial owners of a partnership firm?
+A: The natural persons who ultimately own or control it, usually the partners shown in the partnership deed, and anyone controlling the firm by other means.
+
+Q: Which document proves a partnership's existence for CDD?
+A: FBR's FAQs list the partnership agreement among proof-of-existence documents, alongside identity documents of the partners and the authority of the person acting.
+
+## Sanctions Screening for DNFBPs: Lists, Freeze and Report
+URL: https://kambohassociates.com/blogs/targeted-financial-sanctions-screening-dnfbp-pakistan
+Summary: Regulation 13 makes DNFBPs screen every customer against UN and domestic sanctions lists. Which lists, what to do on a match, who to report to, and how fast.
+
+Q: Do real estate agents in Pakistan have to screen sanctions lists?
+A: Yes. Regulation 13 of FBR's DNFBP Regulations requires real estate agents, DPMS and accountants to screen customers and potential customers against designated and proscribed persons.
+
+Q: Which sanctions lists should a DNFBP check?
+A: UN Security Council designations and domestic proscriptions notified by the Ministry of Foreign Affairs, NACTA and the Ministry of Interior. FBR's guidance points to the UN consolidated list, NACTA's list and the DNFBP Mobile App.
+
+Q: Who must be screened?
+A: The client, the client's beneficial owner and any person acting on the client's behalf (FBR FAQs Q47).
+
+Q: What does freeze without delay mean?
+A: FBR's proliferation financing guidelines say without delay means acting within hours of a designation by the UN Security Council.
+
+Q: What if a name match is a false positive?
+A: Verify identity against the designated person's details and record it. FBR's PF guidelines say an affected person may apply to the Ministry of Foreign Affairs to unfreeze assets.
+
+Q: Do I report a match to FBR or FMU?
+A: Both. Regulation 13(1)(c) requires reporting to the Board and FMU; FBR's FAQs say to lodge an STR with FMU and notify FBR.
+
+Q: Where is Pakistan's high-risk countries list published?
+A: Under the Counter-measures for High Risk Jurisdictions Rules 2020, the Financial Monitoring Unit publishes the list notified by the National Executive Committee on its official website.
+
+Q: What must a DNFBP do with a customer from a high-risk country?
+A: Apply enhanced due diligence proportionate to the risk, under rule 6 of the 2020 Rules and regulation 9(1)(b) of FBR's Regulations.
+
+## DNFBP Penalties in Pakistan: AML/CFT Sanctions Rules 2020
+URL: https://kambohassociates.com/blogs/dnfbp-penalty-aml-cft-sanctions-rules-pakistan
+Summary: Up to Rs 100 million per violation, de-registration, removal of managers: the sanctions FBR can impose on DNFBPs, the factors it weighs, and your appeal right.
+
+Q: What is the maximum penalty for a DNFBP in Pakistan?
+A: Rule 6(1) of the AML/CFT Sanctions Rules 2020 allows monetary penalties of up to Rs 100 million per violation, on the regulator's risk-based penalty scale.
+
+Q: Can FBR de-register a DNFBP?
+A: Yes. Rule 4(1)(c) lists revocation of licence or de-registration of the reporting entity among the sanctions.
+
+Q: Can managers be penalised personally?
+A: Rule 4(1)(d) allows warnings, temporary suspension or removal of persons in management decision-making roles, and rule 3(4) extends sanctions to directors and senior management.
+
+Q: Is there any defence to a DNFBP sanction?
+A: Rule 4(2) says no sanction may be imposed if the authority is satisfied the entity took all reasonable steps and exercised all due diligence to comply.
+
+Q: Can I appeal an FBR DNFBP penalty?
+A: Yes. Rule 7 requires a written notice stating your appeal right, and rule 8 requires an independent senior appellate body deciding within at most 180 days.
+
+Q: Are DNFBP penalties made public?
+A: Rule 6(4) requires significant sanctions, the nature of the violation and the entity's name to be made public quarterly.
+
+Q: Can FBR inspect a DNFBP's records?
+A: Yes. Regulation 15 subjects the records DNFBPs keep to inspection by FBR under section 6A(2)(f) of the AML Act, with possible assistance from other law enforcement agencies.
+
+Q: How quickly must I produce records when FBR asks?
+A: Regulation 6(5), as restated in 2026, requires a DNFBP to promptly satisfy any inquiry or order from FBR, designated law enforcement agencies and FMU for CDD information and transaction records.
+
+## NRA 2023: Why Real Estate Is 'Very High' Risk for DNFBPs
+URL: https://kambohassociates.com/blogs/national-risk-assessment-2023-dnfbp-real-estate-jewellers
+Summary: Pakistan's NRA 2023 rates real estate agents Very High and DPMS High for ML vulnerability. What it means for registration, CDD and your risk assessment.
+
+Q: How does Pakistan's NRA 2023 rate real estate agents?
+A: FBR's summary of the NRA 2023 rates real estate agents, including builders and developers, at Very High inherent ML/TF vulnerability.
+
+Q: How are jewellers rated in the NRA 2023?
+A: Dealers in precious metals and stones (DPMS) are rated High.
+
+Q: Are accountants high risk under the NRA 2023?
+A: No. The summary rates accountants Low, and lawyers, TCSPs and notaries Low.
+
+Q: Do I have to use the NRA in my own risk assessment?
+A: Regulation 4(2) requires your controls to manage risks in your own assessment and any risk assessment provided by FBR, and the NRA summary asks entities to update their internal assessments with its findings.
+
+Q: How often was the national risk assessment done?
+A: First in 2017, updated in 2019, and the third in 2023, according to FBR's summary.
+
+Q: Does a Low rating mean no action is needed?
+A: No. The NRA summary says low risk does not mean that no action is required; each stakeholder must still adopt controls for low-risk items.
+
+Q: Do I need a new risk assessment when I start selling online?
+A: Regulation 5 requires a DNFBP to assess the ML/TF risks of new products, practices, delivery mechanisms and technologies before launching them.
+
+Q: Can a real estate agent use simplified due diligence?
+A: Regulation 10 allows it only where lower risks are identified through adequate analysis, and never where there is suspicion; for a sector rated Very High it should be the documented exception.
 
 ## Revise Your Wealth Statement Before a Visa Application
 URL: https://kambohassociates.com/blogs/wealth-statement-revision-before-visa-application-pakistan
