@@ -273,8 +273,8 @@ select.calc-input{cursor:pointer}
         <thead><tr><th>Transaction</th><th>Filer Rate</th><th>Non-Filer Rate</th><th>Section</th></tr></thead>
         <tbody>
           <tr><td>Bank cash withdrawal (above limit)</td><td>0.6%</td><td>1.2%</td><td>231A</td></tr>
-          <tr><td>Property purchase (236K)</td><td>1.25%</td><td>2.5%</td><td>236K</td></tr>
-          <tr><td>Property sale (236C)</td><td>2.75%</td><td>5.5%</td><td>236C</td></tr>
+          <tr><td>Property purchase (236K)</td><td>1.25%</td><td>10.5%&ndash;18.5%</td><td>236K</td></tr>
+          <tr><td>Property sale (236C)</td><td>2.75%</td><td>11.5%</td><td>236C</td></tr>
           <tr><td>Vehicle registration (new)</td><td>2%</td><td>4%</td><td>231B</td></tr>
           <tr><td>Dividend income</td><td>15%</td><td>30%</td><td>150</td></tr>
           <tr><td>Contract / supply payments</td><td>7.5%</td><td>15%</td><td>153</td></tr>
@@ -283,7 +283,7 @@ select.calc-input{cursor:pointer}
     </div>
   </div>
 </section>
-<section class="section" style="padding-top:0"><div class="container" style="max-width:820px"><h2 style="margin-bottom:12px">How the Filer vs Non-Filer Calculator Works</h2><p style="margin-bottom:12px">Choose a transaction, such as a bank cash withdrawal, a property purchase or sale, a new vehicle registration or a dividend, and enter the amount. The calculator applies the filer and non-filer withholding rates shown in the table above and shows the extra tax a person who is not on the Active Taxpayer List pays.</p><p style="margin-bottom:12px">For property, the tool uses the Section 236K buyer rates of 1.25% and 2.5% and the Section 236C seller rates of 2.75% and 5.5%. Withholding on these transactions is adjustable for filers, so a filer can set it against the final tax in the annual return.</p><p style="margin-bottom:12px">The quickest way to move from the non-filer column to the filer column is to register an NTN and file a return. Late filers also pay the ATL surcharge before their name is restored to the list.</p><h2 style="margin:24px 0 12px">Frequently Asked Questions</h2><div class="faq-item"><h3 style="font-size:1rem;margin:14px 0 6px">How do I become a filer before a property deal?</h3><p>Register an NTN on IRIS, file your return with a wealth statement, and pay the ATL surcharge if the return is late. Your name appears on the next weekly Active Taxpayer List update.</p></div><div class="faq-item"><h3 style="font-size:1rem;margin:14px 0 6px">Is the extra non-filer withholding refundable?</h3><p>Generally no. The higher non-filer deduction is the cost of not being on the list, so becoming a filer before a large transaction is usually cheaper than paying the difference.</p></div><div class="faq-item"><h3 style="font-size:1rem;margin:14px 0 6px">Which transactions does the calculator cover?</h3><p>Bank cash withdrawals and banking transactions, property purchase and sale, new vehicle registration, dividends and contract or supply payments.</p></div></div></section>
+<section class="section" style="padding-top:0"><div class="container" style="max-width:820px"><h2 style="margin-bottom:12px">How the Filer vs Non-Filer Calculator Works</h2><p style="margin-bottom:12px">Choose a transaction, such as a bank cash withdrawal, a property purchase or sale, a new vehicle registration or a dividend, and enter the amount. The calculator applies the filer and non-filer withholding rates shown in the table above and shows the extra tax a person who is not on the Active Taxpayer List pays.</p><p style="margin-bottom:12px">For property, the tool uses the Section 236K buyer rates of 1.25% and 10.5% (to Rs 50m; 14.5% to Rs 100m, 18.5% above) and the Section 236C seller rates of 2.75% and 11.5%. Withholding on these transactions is adjustable for filers, so a filer can set it against the final tax in the annual return.</p><p style="margin-bottom:12px">The quickest way to move from the non-filer column to the filer column is to register an NTN and file a return. Late filers also pay the ATL surcharge before their name is restored to the list.</p><h2 style="margin:24px 0 12px">Frequently Asked Questions</h2><div class="faq-item"><h3 style="font-size:1rem;margin:14px 0 6px">How do I become a filer before a property deal?</h3><p>Register an NTN on IRIS, file your return with a wealth statement, and pay the ATL surcharge if the return is late. Your name appears on the next weekly Active Taxpayer List update.</p></div><div class="faq-item"><h3 style="font-size:1rem;margin:14px 0 6px">Is the extra non-filer withholding refundable?</h3><p>Generally no. The higher non-filer deduction is the cost of not being on the list, so becoming a filer before a large transaction is usually cheaper than paying the difference.</p></div><div class="faq-item"><h3 style="font-size:1rem;margin:14px 0 6px">Which transactions does the calculator cover?</h3><p>Bank cash withdrawals and banking transactions, property purchase and sale, new vehicle registration, dividends and contract or supply payments.</p></div></div></section>
 <section class="cta-strip">
   <div class="container">
     <h2>Become a Filer — Save on Every Transaction</h2>
@@ -299,8 +299,8 @@ select.calc-input{cursor:pointer}
 var WHT_CONFIG = {
   bank_cash:     {filer:0.006,  nonfiler:0.012, label:'Bank Cash Withdrawal (Sec 231A)'},
   bank_transfer: {filer:0.003,  nonfiler:0.006, label:'Banking / Cheque Transaction'},
-  property_buy:  {filer:0.0125, nonfiler:0.025,  label:'Property Purchase (Sec 236K)'},
-  property_sell: {filer:0.0275, nonfiler:0.055,  label:'Property Sale (Sec 236C)'},
+  property_buy:  {filer:0.0125, nonfiler:0.105,  label:'Property Purchase (Sec 236K)'},
+  property_sell: {filer:0.0275, nonfiler:0.115,  label:'Property Sale (Sec 236C)'},
   vehicle:       {filer:0.02,   nonfiler:0.04,  label:'Vehicle Registration (Sec 231B)'},
   dividend:      {filer:0.15,   nonfiler:0.30,  label:'Dividend Income (Sec 150)'},
   contract:      {filer:0.075,  nonfiler:0.15,  label:'Contract / Supply (Sec 153)'}
@@ -311,11 +311,12 @@ function calcFiler(){
   var amt=parseFloat(document.getElementById('txAmt').value)||0;
   if(amt<=0){alert('Please enter a transaction amount.');return;}
   var cfg=WHT_CONFIG[type];
-  var fTax=amt*cfg.filer; var nTax=amt*cfg.nonfiler; var extra=nTax-fTax;
+  var nRate=cfg.nonfiler; if(type==='property_buy'){nRate=amt<=50000000?0.105:(amt<=100000000?0.145:0.185);} /* 236K off-ATL slabs, Tenth Schedule, ITO to 30.06.2026 */
+  var fTax=amt*cfg.filer; var nTax=amt*nRate; var extra=nTax-fTax;
   document.getElementById('fFilerTax').textContent=fmtF(fTax);
   document.getElementById('fFilerRate').textContent=(cfg.filer*100).toFixed(1)+'%';
   document.getElementById('fNonTax').textContent=fmtF(nTax);
-  document.getElementById('fNonRate').textContent=(cfg.nonfiler*100).toFixed(1)+'%';
+  document.getElementById('fNonRate').textContent=(nRate*100).toFixed(1)+'%';
   document.getElementById('fExtra').textContent=fmtF(extra);
   document.getElementById('fAnnual').textContent=fmtF(extra*12);
   document.getElementById('filerResult').classList.add('show');
