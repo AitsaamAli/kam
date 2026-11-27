@@ -2,7 +2,7 @@
 
 > Answers to the questions people most often ask Kamboh Associates, taken word for word from the FAQ sections of the pages linked under each heading. Tax content covers Pakistan (tax year 2026). Web development content covers Kamboh Associates Digital.
 
-Updated: 2026-11-26
+Updated: 2026-11-27
 Short index: https://kambohassociates.com/llms.txt
 
 Contact: WhatsApp or call +92 328 4675162, email info@kambohassociates.com, office at Shop No 34 Rizwan Block Market, opposite Rizwan Park, Awan Town, Lahore 54660, Pakistan. Monday to Saturday 9:00 AM to 6:00 PM, Friday 9:00 AM to 12:30 PM.
@@ -2499,7 +2499,7 @@ URL: https://kambohassociates.com/blogs/property-transfer-tax-2026-27-pakistan-2
 Summary: Budget 2026-27 halved property transfer WHT. Buyer (236K) from 2.5% to 1.25%. Seller (236C) from 5.5% to 2.75%.
 
 Q: I am buying property in August 2026. What 236K rate do I pay?
-A: August 2026 falls under Tax Year 2027 (July 2026 – June 2027). The new rate of 1.25% (filer) or 2.5% (non-filer) applies. If you are an active filer, you pay 1.25% of the higher of FBR value or deed value.
+A: August 2026 falls under Tax Year 2027 (July 2026 – June 2027). The new rate of 1.25% (filer) or 10.5% (non-filer, up to Rs 50m; 14.5% to Rs 100m, 18.5% above) applies. If you are an active filer, you pay 1.25% of the higher of FBR value or deed value.
 
 Q: Can I get a refund of 236K or 236C tax?
 A: Yes, if you are an active filer. When you file your annual income tax return, 236K and 236C deductions appear as advance tax credit. If your total tax liability for the year is less than the amount deducted, you can claim the difference as a refund. Non-filers generally cannot adjust or refund this tax. File your return — Kamboh Associates handles returns from Rs 3,500.
@@ -2847,10 +2847,10 @@ URL: https://kambohassociates.com/blogs/real-estate-developer-tax-pakistan
 Summary: Real estate tax guide Pakistan 2026: Section 7E, capital gains tax by holding period, 236C/236K advance tax, builder fixed tax scheme, and FBR valuation rules.
 
 Q: What advance tax applies when a developer buys land?
-A: For transfers from 1 July 2026, 1.25% under section 236K for buyers on the Active Taxpayers List and 2.5% for others.
+A: For transfers from 1 July 2026, 1.25% under section 236K for buyers on the Active Taxpayers List and 10.5% to 18.5% for others.
 
 Q: What is Section 7E tax on property in Pakistan?
-A: Section 7E imposes tax on deemed income from immovable property, treating 5% of the FBR-determined fair market value of property as taxable income, taxed at 20%, effectively a 1% annual tax on property value, with certain exemptions for self-occupied property.
+A: Section 7E imposes tax on deemed income from immovable property, treating 5% of the FBR-determined fair market value of property as taxable income, taxed at 20%, effectively a 1% annual tax on property value, with certain exemptions for self-occupied property. Note: section 7E was omitted by the Finance Act 2026.
 
 Q: Do real estate developers pay capital gains tax in Pakistan?
 A: Yes, capital gains tax applies on profit from sale of property, with rates depending on the holding period — properties held longer than 6 years are generally exempt, while shorter holding periods attract tax on a sliding scale.
